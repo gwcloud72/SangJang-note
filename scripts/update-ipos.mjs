@@ -1,5 +1,7 @@
 import { mkdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
+import AdmZip from 'adm-zip';
+import iconv from 'iconv-lite';
 
 const DART_BASE_URL = 'https://opendart.fss.or.kr/api';
 const OUTPUT_PATH = path.resolve('public/data/ipos.json');
@@ -8,6 +10,7 @@ const apiKey = process.env.DART_API_KEY;
 const lookbackDays = Number.parseInt(process.env.LOOKBACK_DAYS || '180', 10);
 const lookaheadDays = Number.parseInt(process.env.LOOKAHEAD_DAYS || '120', 10);
 const chunkDays = Number.parseInt(process.env.DART_LIST_CHUNK_DAYS || '80', 10);
+const detailPauseMs = Number.parseInt(process.env.DART_DOCUMENT_PAUSE_MS || '160', 10);
 
 if (!apiKey) {
   console.error('DART_API_KEY 환경변수가 없습니다. GitHub Actions Secret 또는 로컬 환경변수로 설정하세요.');
@@ -47,9 +50,13 @@ function isoFromYmd(value) {
   return `${text.slice(0, 4)}-${text.slice(4, 6)}-${text.slice(6, 8)}`;
 }
 
+function collapseSpaces(value) {
+  return String(value || '').replace(/\s+/g, ' ').trim();
+}
+
 function clean(value) {
   if (value === undefined || value === null) return '';
-  const text = String(value).replace(/\s+/g, ' ').trim();
+  const text = collapseSpaces(value);
   if (!text || text === '-' || text === '해당사항없음') return '';
   return text;
 }
@@ -81,12 +88,22 @@ async function fetchJson(endpoint, params) {
   return response.json();
 }
 
+async function fetchBinary(endpoint, params) {
+  const url = buildUrl(endpoint, params);
+  const response = await fetch(url);
+  if (!response.ok) {
+    throw new Error(`OpenDART 바이너리 요청 실패: ${endpoint}, HTTP ${response.status}`);
+  }
+  const arrayBuffer = await response.arrayBuffer();
+  return Buffer.from(arrayBuffer);
+}
+
 function assertDartOk(json, label) {
   const status = String(json?.status || '');
   const message = json?.message || '';
 
   if (status === '000') return true;
-  if (status === '013') return false; // 조회된 데이터 없음
+  if (status === '013') return false;
 
   throw new Error(`${label} OpenDART 오류: status=${status}, message=${message}`);
 }
@@ -155,6 +172,39 @@ async function fetchEquitySummary(corpCode, bgnDe, endDe) {
   if (!hasData) return [];
 
   return flattenEstkResponse(json);
+}
+
+async function fetchDocumentText(receiptNo) {
+  const buffer = await fetchBinary('document.xml', {
+    crtfc_key: apiKey,
+    rcept_no: receiptNo,
+  });
+
+  if (!buffer.length) return '';
+
+  if (buffer[0] === 0x50 && buffer[1] === 0x4b) {
+    const zip = new AdmZip(buffer);
+    const entries = zip.getEntries().filter((entry) => !entry.isDirectory);
+
+    const textEntries = entries.filter((entry) => /\.(xml|xbrl|htm|html|txt)$/i.test(entry.entryName));
+    const selectedEntries = textEntries.length ? textEntries : entries.slice(0, 1);
+
+    return collapseSpaces(
+      selectedEntries
+        .map((entry) => decodeMarkupBuffer(entry.getData()))
+        .filter(Boolean)
+        .join(' ')
+    );
+  }
+
+  const text = decodeMarkupBuffer(buffer);
+  const result = parseDartResultText(text);
+  if (result) {
+    if (result.status === '000' || result.status === '013') return '';
+    throw new Error(`status=${result.status}, message=${result.message || '알 수 없는 오류'}`);
+  }
+
+  return text;
 }
 
 function flattenEstkResponse(json) {
@@ -259,6 +309,7 @@ function normalizeSchedule(row, filingByReceipt, filingsByCorp, todayIso) {
   const paymentDate = firstDate(row.pymd);
   const allotmentNoticeDate = firstDate(row.asand);
   const subscriptionNoticeDate = firstDate(row.sband);
+  const allotmentBaseDate = firstDate(row.asstd);
 
   return {
     companyName: clean(row.corp_name || filing.corp_name),
@@ -272,15 +323,26 @@ function normalizeSchedule(row, filingByReceipt, filingsByCorp, todayIso) {
     offeringMethod: clean(row.slmthn),
     offerPrice: clean(row.slprc),
     offerAmount: clean(row.slta),
+    stockCount: clean(row.stkcnt),
+    parValue: clean(row.fv),
     subscriptionDate: clean(row.sbd),
     subscriptionNoticeDate,
     paymentDate,
     allotmentNoticeDate,
+    allotmentBaseDate,
     scheduleStart,
     scheduleEnd,
     underwriters: unique(row.underwriters || []),
     dartUrl: receiptNo ? `https://dart.fss.or.kr/dsaf001/main.do?rcpNo=${receiptNo}` : '',
+    mainMatterReceiptNo: clean(row.rpt_rcpn),
+    mainMatterUrl: clean(row.rpt_rcpn) ? `https://dart.fss.or.kr/dsaf001/main.do?rcpNo=${clean(row.rpt_rcpn)}` : '',
     status: computeStatus(scheduleStart, scheduleEnd, todayIso),
+    refundDate: '',
+    listingDate: '',
+    subscriptionCompetitionRate: '',
+    demandForecastCompetitionRate: '',
+    detailSource: '',
+    detailSourceNote: '',
   };
 }
 
@@ -301,6 +363,203 @@ function sortItems(a, b) {
   const bDate = b.scheduleStart || b.receiptDate || '9999-12-31';
   if (aDate !== bDate) return aDate.localeCompare(bDate);
   return (a.companyName || '').localeCompare(b.companyName || '', 'ko');
+}
+
+function parseDartResultText(text) {
+  const xmlStatus = text.match(/<status>\s*([^<]+)\s*<\/status>/i)?.[1];
+  const xmlMessage = text.match(/<message>\s*([^<]*)\s*<\/message>/i)?.[1];
+  if (xmlStatus) {
+    return { status: xmlStatus, message: xmlMessage || '' };
+  }
+
+  const jsonStatus = text.match(/"status"\s*:\s*"([^"]+)"/)?.[1];
+  const jsonMessage = text.match(/"message"\s*:\s*"([^"]*)"/)?.[1];
+  if (jsonStatus) {
+    return { status: jsonStatus, message: jsonMessage || '' };
+  }
+
+  return null;
+}
+
+function normalizeEncoding(value) {
+  const encoding = String(value || '').trim().toLowerCase();
+  if (!encoding) return 'utf8';
+  if (encoding.includes('949') || encoding.includes('euc-kr') || encoding.includes('ks_c_5601')) return 'cp949';
+  if (encoding.includes('utf')) return 'utf8';
+  return encoding;
+}
+
+function decodeBuffer(buffer) {
+  const head = buffer.subarray(0, 256).toString('ascii');
+  const declared = head.match(/encoding=["']([^"']+)["']/i)?.[1];
+  const encoding = normalizeEncoding(declared);
+
+  try {
+    return iconv.decode(buffer, encoding);
+  } catch {
+    return buffer.toString('utf8');
+  }
+}
+
+function decodeHtmlEntities(text) {
+  return String(text || '')
+    .replace(/&nbsp;/gi, ' ')
+    .replace(/&amp;/gi, '&')
+    .replace(/&lt;/gi, '<')
+    .replace(/&gt;/gi, '>')
+    .replace(/&quot;/gi, '"')
+    .replace(/&#39;/gi, "'")
+    .replace(/&#x([0-9a-f]+);/gi, (_, hex) => String.fromCodePoint(Number.parseInt(hex, 16)))
+    .replace(/&#(\d+);/g, (_, decimal) => String.fromCodePoint(Number.parseInt(decimal, 10)));
+}
+
+function decodeMarkupBuffer(buffer) {
+  const text = decodeBuffer(buffer);
+  return collapseSpaces(
+    decodeHtmlEntities(
+      text
+        .replace(/<script[\s\S]*?<\/script>/gi, ' ')
+        .replace(/<style[\s\S]*?<\/style>/gi, ' ')
+        .replace(/<\/?(?:p|div|tr|td|th|li|br|section|article|table|h\d)[^>]*>/gi, '\n')
+        .replace(/<[^>]+>/g, ' ')
+    )
+  );
+}
+
+function normalizeCompetitionRate(value) {
+  const match = collapseSpaces(value).match(/([0-9][0-9,]*(?:\.\d+)?)\s*(?:대|[:：])\s*1/i);
+  if (!match) return clean(value);
+  return `${match[1]} 대 1`;
+}
+
+function findDateNearKeyword(text, keywords, options = {}) {
+  const normalized = collapseSpaces(text);
+  const forwardWindow = options.forwardWindow || 120;
+  const aroundWindow = options.aroundWindow || 180;
+
+  for (const keyword of keywords) {
+    let index = normalized.indexOf(keyword);
+
+    while (index !== -1) {
+      const forwardText = normalized.slice(index, index + keyword.length + forwardWindow);
+      const forwardDate = extractDates(forwardText)[0];
+      if (forwardDate) return forwardDate;
+
+      const aroundText = normalized.slice(Math.max(0, index - 40), index + keyword.length + aroundWindow);
+      const aroundDate = extractDates(aroundText)[0];
+      if (aroundDate) return aroundDate;
+
+      index = normalized.indexOf(keyword, index + keyword.length);
+    }
+  }
+
+  return '';
+}
+
+function findRateNearKeyword(text, keywords, options = {}) {
+  const normalized = collapseSpaces(text);
+  const windowSize = options.windowSize || 120;
+  const pattern = /([0-9][0-9,]*(?:\.\d+)?)\s*(?:대|[:：])\s*1/i;
+
+  for (const keyword of keywords) {
+    let index = normalized.indexOf(keyword);
+
+    while (index !== -1) {
+      const window = normalized.slice(Math.max(0, index - 40), index + keyword.length + windowSize);
+      const match = window.match(pattern);
+      if (match) return `${match[1]} 대 1`;
+      index = normalized.indexOf(keyword, index + keyword.length);
+    }
+  }
+
+  return '';
+}
+
+function extractDocumentDetails(text) {
+  const refundDate = findDateNearKeyword(text, [
+    '환불일',
+    '환불 예정일',
+    '환불예정일',
+    '환불 예정',
+    '환불 및 주금납입일',
+  ]);
+
+  const listingDate = findDateNearKeyword(text, [
+    '상장예정일',
+    '상장 예정일',
+    '매매개시 예정일',
+    '매매개시예정일',
+    '상장일',
+  ]);
+
+  const demandForecastCompetitionRate = normalizeCompetitionRate(
+    findRateNearKeyword(text, [
+      '수요예측 경쟁률',
+      '수요예측경쟁률',
+      '기관 경쟁률',
+      '기관경쟁률',
+    ])
+  );
+
+  const subscriptionCompetitionRate = normalizeCompetitionRate(
+    findRateNearKeyword(text, [
+      '일반청약 경쟁률',
+      '일반청약경쟁률',
+      '청약 경쟁률',
+      '청약경쟁률',
+    ]) || (
+      demandForecastCompetitionRate
+        ? ''
+        : findRateNearKeyword(text, ['경쟁률'])
+    )
+  );
+
+  const detailFields = [refundDate, listingDate, subscriptionCompetitionRate, demandForecastCompetitionRate].filter(Boolean);
+
+  return {
+    refundDate,
+    listingDate,
+    subscriptionCompetitionRate,
+    demandForecastCompetitionRate,
+    detailSource: detailFields.length ? 'document' : '',
+    detailSourceNote: detailFields.length
+      ? '환불일·상장예정일·경쟁률은 공시 원문에서 자동 추출된 값입니다.'
+      : '',
+  };
+}
+
+async function enrichItemsWithDocumentDetails(items, errors) {
+  const enriched = [];
+  let extractedCount = 0;
+
+  for (const item of items) {
+    if (!item.receiptNo) {
+      enriched.push(item);
+      continue;
+    }
+
+    try {
+      const text = await fetchDocumentText(item.receiptNo);
+
+      if (!text) {
+        enriched.push(item);
+      } else {
+        const details = extractDocumentDetails(text);
+        if (details.detailSource) extractedCount += 1;
+        enriched.push({ ...item, ...details });
+      }
+    } catch (error) {
+      errors.push(`${item.companyName || item.receiptNo}: 원문 추출 실패 (${error.message})`);
+      enriched.push(item);
+    }
+
+    await sleep(detailPauseMs);
+  }
+
+  return {
+    items: enriched,
+    extractedCount,
+  };
 }
 
 async function main() {
@@ -345,25 +604,30 @@ async function main() {
   }
 
   const mergedRows = mergeRowsByReceipt(allRows);
-  const items = mergedRows
+  const normalizedItems = mergedRows
     .map((row) => normalizeSchedule(row, filingByReceipt, filingsByCorp, todayIso))
     .filter((item) => item.companyName && shouldKeep(item, todayIso))
     .sort(sortItems);
+
+  console.log(`표시 대상 일정 ${normalizedItems.length}건 원문 공시 상세정보 추출 시작`);
+
+  const { items, extractedCount } = await enrichItemsWithDocumentDetails(normalizedItems, errors);
 
   const output = {
     metadata: {
       updatedAt: new Date().toISOString(),
       source: 'OpenDART',
-      basis: '증권신고서 주요정보 - 지분증권(estkRs) 및 공시검색(list)',
+      basis: '증권신고서 주요정보 - 지분증권(estkRs), 공시검색(list), 공시원문(document.xml)',
       dateRange: { bgnDe, endDe },
       lookbackDays,
       lookaheadDays,
       totalFilings: uniqueFilings.length,
       totalCompanies: corpCodes.length,
       totalItems: items.length,
+      documentDetailItems: extractedCount,
       warning: errors.length
-        ? `${errors.length}개 회사의 상세 조회에 실패했습니다. Actions 로그에서 확인하세요.`
-        : 'DART 지분증권 공시 기반 자료라 IPO 외 유상증자 등 다른 지분증권 청약이 포함될 수 있습니다.',
+        ? `${errors.length}개 항목의 상세 조회 또는 원문 추출에 실패했습니다. Actions 로그에서 확인하세요.`
+        : '환불일·상장예정일·경쟁률은 공시 원문에서 추출 가능한 경우에만 표시됩니다. 지분증권 공시라 IPO 외 유상증자 등 다른 청약도 포함될 수 있습니다.',
     },
     items,
   };
@@ -373,6 +637,7 @@ async function main() {
 
   console.log(`저장 완료: ${OUTPUT_PATH}`);
   console.log(`표시 일정: ${items.length}건`);
+  console.log(`원문 상세 추출 완료: ${extractedCount}건`);
 }
 
 main().catch((error) => {

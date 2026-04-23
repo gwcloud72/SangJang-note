@@ -9,14 +9,21 @@ const STATUS_OPTIONS = [
   { value: 'unknown', label: '확인 필요' },
 ];
 
+const SORT_OPTIONS = [
+  { value: 'schedule', label: '청약일 빠른순' },
+  { value: 'latest', label: '최신 공시순' },
+];
+
 export default function FinderPanel({
   keyword,
   status,
+  sortOrder,
   summary,
   isLoading,
   error,
   onKeywordChange,
   onStatusChange,
+  onSortOrderChange,
   onRefresh,
 }) {
   return (
@@ -24,7 +31,7 @@ export default function FinderPanel({
       <div className="finder-card__head">
         <div>
           <h2>상장 일정 노트</h2>
-          <p>회사명, 공시명, 주관사를 검색하고 진행 상태별로 일정을 확인할 수 있습니다.</p>
+          <p>회사명, 공시명, 주관사, 가격, 경쟁률 키워드까지 검색하고 최신 공시순으로도 확인할 수 있습니다.</p>
         </div>
         <button id="refreshButton" type="button" onClick={onRefresh} disabled={isLoading}>
           {isLoading ? '불러오는 중' : '데이터 다시 불러오기'}
@@ -37,7 +44,7 @@ export default function FinderPanel({
           <input
             type="search"
             value={keyword}
-            placeholder="회사명, 공시명, 주관사 입력"
+            placeholder="회사명, 공시명, 주관사, 가격 입력"
             autoComplete="off"
             onChange={(event) => onKeywordChange(event.target.value)}
           />
@@ -46,6 +53,14 @@ export default function FinderPanel({
           <span>진행 상태</span>
           <select value={status} onChange={(event) => onStatusChange(event.target.value)}>
             {STATUS_OPTIONS.map((option) => (
+              <option key={option.value} value={option.value}>{option.label}</option>
+            ))}
+          </select>
+        </label>
+        <label>
+          <span>정렬</span>
+          <select value={sortOrder} onChange={(event) => onSortOrderChange(event.target.value)}>
+            {SORT_OPTIONS.map((option) => (
               <option key={option.value} value={option.value}>{option.label}</option>
             ))}
           </select>

@@ -1,13 +1,18 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import Header from './components/Header.jsx';
 import Hero from './components/Hero.jsx';
 import FinderPanel from './components/FinderPanel.jsx';
 import ScheduleList from './components/ScheduleList.jsx';
+import LatestOfferList from './components/LatestOfferList.jsx';
+import DetailModal from './components/DetailModal.jsx';
 import NoticeCard from './components/NoticeCard.jsx';
 import { useIpoData } from './hooks/useIpoData.js';
 import { useTheme } from './hooks/useTheme.js';
 import { getTodayLabel } from './utils/dates.js';
 import { normalizeStatus } from './utils/status.js';
+
+const SCHEDULE_PAGE_SIZE = 8;
+const LATEST_PAGE_SIZE = 6;
 
 function filterItems(items, keyword, status) {
   const normalizedKeyword = keyword.trim().toLowerCase();
@@ -20,6 +25,13 @@ function filterItems(items, keyword, status) {
       item.securityType,
       item.offeringMethod,
       Array.isArray(item.underwriters) ? item.underwriters.join(' ') : '',
+      item.offerPrice,
+      item.offerAmount,
+      item.stockCode,
+      item.subscriptionCompetitionRate,
+      item.demandForecastCompetitionRate,
+      item.refundDate,
+      item.listingDate,
     ]
       .join(' ')
       .toLowerCase();
@@ -31,13 +43,88 @@ function filterItems(items, keyword, status) {
   });
 }
 
+function sortItems(items, sortOrder) {
+  const next = [...items];
+
+  if (sortOrder === 'latest') {
+    return next.sort((a, b) => {
+      const aDate = a.receiptDate || a.scheduleStart || a.scheduleEnd || '';
+      const bDate = b.receiptDate || b.scheduleStart || b.scheduleEnd || '';
+
+      if (aDate !== bDate) return bDate.localeCompare(aDate);
+      return (a.companyName || '').localeCompare(b.companyName || '', 'ko');
+    });
+  }
+
+  return next.sort((a, b) => {
+    const aDate = a.scheduleStart || a.scheduleEnd || a.receiptDate || '9999-12-31';
+    const bDate = b.scheduleStart || b.scheduleEnd || b.receiptDate || '9999-12-31';
+
+    if (aDate !== bDate) return aDate.localeCompare(bDate);
+    return (a.companyName || '').localeCompare(b.companyName || '', 'ko');
+  });
+}
+
+function paginate(items, currentPage, pageSize) {
+  const startIndex = (currentPage - 1) * pageSize;
+  return items.slice(startIndex, startIndex + pageSize);
+}
+
 export default function App() {
   const { payload, items, isLoading, error, reload } = useIpoData();
   const { theme, toggleTheme } = useTheme();
   const [keyword, setKeyword] = useState('');
   const [status, setStatus] = useState('all');
+  const [sortOrder, setSortOrder] = useState('schedule');
+  const [schedulePage, setSchedulePage] = useState(1);
+  const [latestPage, setLatestPage] = useState(1);
+  const [selectedItem, setSelectedItem] = useState(null);
 
-  const filteredItems = useMemo(() => filterItems(items, keyword, status), [items, keyword, status]);
+  const filteredItems = useMemo(() => {
+    const filtered = filterItems(items, keyword, status);
+    return sortItems(filtered, sortOrder);
+  }, [items, keyword, status, sortOrder]);
+
+  const latestItems = useMemo(() => {
+    return [...items].sort((a, b) => {
+      const aDate = a.receiptDate || a.scheduleStart || '';
+      const bDate = b.receiptDate || b.scheduleStart || '';
+
+      if (aDate !== bDate) return bDate.localeCompare(aDate);
+      return (a.companyName || '').localeCompare(b.companyName || '', 'ko');
+    });
+  }, [items]);
+
+  useEffect(() => {
+    setSchedulePage(1);
+  }, [keyword, status, sortOrder]);
+
+  useEffect(() => {
+    setLatestPage(1);
+  }, [items.length]);
+
+  const scheduleTotalPages = Math.max(1, Math.ceil(filteredItems.length / SCHEDULE_PAGE_SIZE));
+  const latestTotalPages = Math.max(1, Math.ceil(latestItems.length / LATEST_PAGE_SIZE));
+
+  useEffect(() => {
+    if (schedulePage > scheduleTotalPages) {
+      setSchedulePage(scheduleTotalPages);
+    }
+  }, [schedulePage, scheduleTotalPages]);
+
+  useEffect(() => {
+    if (latestPage > latestTotalPages) {
+      setLatestPage(latestTotalPages);
+    }
+  }, [latestPage, latestTotalPages]);
+
+  const pagedScheduleItems = useMemo(() => {
+    return paginate(filteredItems, schedulePage, SCHEDULE_PAGE_SIZE);
+  }, [filteredItems, schedulePage]);
+
+  const pagedLatestItems = useMemo(() => {
+    return paginate(latestItems, latestPage, LATEST_PAGE_SIZE);
+  }, [latestItems, latestPage]);
 
   const summary = useMemo(() => {
     const openItems = items.filter((item) => normalizeStatus(item) === 'open');
@@ -55,6 +142,8 @@ export default function App() {
     };
   }, [items, payload]);
 
+  const todayLabel = getTodayLabel();
+
   return (
     <>
       <Header theme={theme} onThemeToggle={toggleTheme} />
@@ -63,22 +152,42 @@ export default function App() {
         <FinderPanel
           keyword={keyword}
           status={status}
+          sortOrder={sortOrder}
           summary={summary}
           isLoading={isLoading}
           error={error}
           onKeywordChange={setKeyword}
           onStatusChange={setStatus}
+          onSortOrderChange={setSortOrder}
           onRefresh={reload}
         />
         <ScheduleList
-          items={filteredItems}
+          items={pagedScheduleItems}
+          totalFilteredCount={filteredItems.length}
           totalCount={items.length}
-          todayLabel={getTodayLabel()}
+          todayLabel={todayLabel}
           isLoading={isLoading}
           selectedStatus={status}
+          sortOrder={sortOrder}
+          currentPage={schedulePage}
+          totalPages={scheduleTotalPages}
+          onPageChange={setSchedulePage}
+          onItemSelect={setSelectedItem}
+          pageSize={SCHEDULE_PAGE_SIZE}
+        />
+        <LatestOfferList
+          items={pagedLatestItems}
+          totalCount={latestItems.length}
+          todayLabel={todayLabel}
+          isLoading={isLoading}
+          currentPage={latestPage}
+          totalPages={latestTotalPages}
+          onPageChange={setLatestPage}
+          onItemSelect={setSelectedItem}
         />
         <NoticeCard warning={summary.warning} />
       </main>
+      <DetailModal item={selectedItem} onClose={() => setSelectedItem(null)} />
     </>
   );
 }

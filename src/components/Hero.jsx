@@ -11,8 +11,8 @@ export default function Hero({ summary, isLoading }) {
         <div className="hero__eyebrow">공시 데이터 기반 · 포트폴리오 데모</div>
         <h1 id="hero-title">상장 일정을<br />한눈에 기록합니다.</h1>
         <p>
-          OpenDART 공시 데이터를 정적 JSON으로 정리해 청약 시작일, 종료일, 납입일을
-          한 화면에서 확인하는 일정 기록형 MVP입니다.
+          OpenDART 공시 데이터를 정적 JSON으로 정리해 청약 시작일, 종료일, 납입일,
+          환불일, 상장예정일과 상세 공시 정보를 한 화면에서 확인하는 일정 기록형 MVP입니다.
         </p>
         <div className="hero__actions">
           <a className="primary-link" href="#finder">노트 열어보기</a>

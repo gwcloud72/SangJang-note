@@ -2,7 +2,7 @@
   "metadata": {
     "updatedAt": "",
     "source": "empty",
-    "notice": "OpenDART 데이터 갱신 전 상태입니다."
+    "notice": "OpenDART 데이터 갱신 전 상태입니다. GitHub Actions에 DART_API_KEY를 등록한 뒤 워크플로를 실행하세요."
   },
   "items": []
 }

@@ -1,0 +1,66 @@
+name: Deploy Sangjang Note
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+  schedule:
+    # 매일 07:17 KST에 데이터 갱신 후 재배포합니다. cron은 UTC 기준입니다.
+    - cron: "17 22 * * *"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install dependencies
+        run: npm ci --no-audit --no-fund
+
+      - name: Generate OpenDART data
+        run: |
+          if [ -n "$DART_API_KEY" ]; then
+            npm run update:data || echo "OpenDART 데이터 갱신 실패: 기존 public/data/ipos.json으로 빌드합니다."
+          else
+            echo "DART_API_KEY가 없어 빈 데이터 파일로 빌드합니다."
+          fi
+        env:
+          DART_API_KEY: ${{ secrets.DART_API_KEY }}
+          LOOKBACK_DAYS: "180"
+          LOOKAHEAD_DAYS: "120"
+
+      - name: Validate static data
+        run: npm run validate:data
+
+      - name: Build React app
+        run: npm run build
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "dist"
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

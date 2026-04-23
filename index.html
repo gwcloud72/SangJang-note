@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="OpenDART 공시 데이터 기반으로 상장·공모청약 일정을 정리하는 React 포트폴리오 데모입니다." />
+    <meta name="theme-color" content="#2563eb" />
+    <title>상장노트 | 공시 기반 일정 조회</title>
+    <script>
+      try {
+        const savedTheme = localStorage.getItem('sangjang-note-theme');
+        const preferredTheme = savedTheme || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        document.documentElement.dataset.theme = preferredTheme;
+      } catch (error) {
+        document.documentElement.dataset.theme = 'light';
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

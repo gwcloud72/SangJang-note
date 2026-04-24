@@ -14,6 +14,13 @@ import { normalizeStatus } from './utils/status.js';
 const SCHEDULE_PAGE_SIZE = 8;
 const LATEST_PAGE_SIZE = 6;
 
+const STATUS_PRIORITY = {
+  open: 0,
+  upcoming: 1,
+  unknown: 2,
+  closed: 3,
+};
+
 function filterItems(items, keyword, status) {
   const normalizedKeyword = keyword.trim().toLowerCase();
 
@@ -43,6 +50,18 @@ function filterItems(items, keyword, status) {
   });
 }
 
+function getRelevantScheduleDate(item, status) {
+  if (status === 'open') {
+    return item.scheduleEnd || item.scheduleStart || item.receiptDate || '9999-12-31';
+  }
+
+  if (status === 'closed') {
+    return item.scheduleEnd || item.scheduleStart || item.receiptDate || '';
+  }
+
+  return item.scheduleStart || item.scheduleEnd || item.receiptDate || '9999-12-31';
+}
+
 function sortItems(items, sortOrder) {
   const next = [...items];
 
@@ -57,10 +76,23 @@ function sortItems(items, sortOrder) {
   }
 
   return next.sort((a, b) => {
-    const aDate = a.scheduleStart || a.scheduleEnd || a.receiptDate || '9999-12-31';
-    const bDate = b.scheduleStart || b.scheduleEnd || b.receiptDate || '9999-12-31';
+    const aStatus = normalizeStatus(a);
+    const bStatus = normalizeStatus(b);
+    const statusOrder = (STATUS_PRIORITY[aStatus] ?? 9) - (STATUS_PRIORITY[bStatus] ?? 9);
 
-    if (aDate !== bDate) return aDate.localeCompare(bDate);
+    if (statusOrder !== 0) return statusOrder;
+
+    const aDate = getRelevantScheduleDate(a, aStatus);
+    const bDate = getRelevantScheduleDate(b, bStatus);
+
+    if (aDate !== bDate) {
+      if (aStatus === 'closed' && bStatus === 'closed') {
+        return bDate.localeCompare(aDate);
+      }
+
+      return aDate.localeCompare(bDate);
+    }
+
     return (a.companyName || '').localeCompare(b.companyName || '', 'ko');
   });
 }
@@ -77,6 +109,7 @@ export default function App() {
   const [status, setStatus] = useState('all');
   const [sortOrder, setSortOrder] = useState('schedule');
   const [schedulePage, setSchedulePage] = useState(1);
+  const [closedPage, setClosedPage] = useState(1);
   const [latestPage, setLatestPage] = useState(1);
   const [selectedItem, setSelectedItem] = useState(null);
 
@@ -84,6 +117,20 @@ export default function App() {
     const filtered = filterItems(items, keyword, status);
     return sortItems(filtered, sortOrder);
   }, [items, keyword, status, sortOrder]);
+
+  const { primaryScheduleItems, closedScheduleItems } = useMemo(() => {
+    if (status !== 'all') {
+      return {
+        primaryScheduleItems: filteredItems,
+        closedScheduleItems: [],
+      };
+    }
+
+    return {
+      primaryScheduleItems: filteredItems.filter((item) => normalizeStatus(item) !== 'closed'),
+      closedScheduleItems: filteredItems.filter((item) => normalizeStatus(item) === 'closed'),
+    };
+  }, [filteredItems, status]);
 
   const latestItems = useMemo(() => {
     return [...items].sort((a, b) => {
@@ -97,13 +144,15 @@ export default function App() {
 
   useEffect(() => {
     setSchedulePage(1);
+    setClosedPage(1);
   }, [keyword, status, sortOrder]);
 
   useEffect(() => {
     setLatestPage(1);
   }, [items.length]);
 
-  const scheduleTotalPages = Math.max(1, Math.ceil(filteredItems.length / SCHEDULE_PAGE_SIZE));
+  const scheduleTotalPages = Math.max(1, Math.ceil(primaryScheduleItems.length / SCHEDULE_PAGE_SIZE));
+  const closedTotalPages = Math.max(1, Math.ceil(closedScheduleItems.length / SCHEDULE_PAGE_SIZE));
   const latestTotalPages = Math.max(1, Math.ceil(latestItems.length / LATEST_PAGE_SIZE));
 
   useEffect(() => {
@@ -113,14 +162,24 @@ export default function App() {
   }, [schedulePage, scheduleTotalPages]);
 
   useEffect(() => {
+    if (closedPage > closedTotalPages) {
+      setClosedPage(closedTotalPages);
+    }
+  }, [closedPage, closedTotalPages]);
+
+  useEffect(() => {
     if (latestPage > latestTotalPages) {
       setLatestPage(latestTotalPages);
     }
   }, [latestPage, latestTotalPages]);
 
   const pagedScheduleItems = useMemo(() => {
-    return paginate(filteredItems, schedulePage, SCHEDULE_PAGE_SIZE);
-  }, [filteredItems, schedulePage]);
+    return paginate(primaryScheduleItems, schedulePage, SCHEDULE_PAGE_SIZE);
+  }, [primaryScheduleItems, schedulePage]);
+
+  const pagedClosedItems = useMemo(() => {
+    return paginate(closedScheduleItems, closedPage, SCHEDULE_PAGE_SIZE);
+  }, [closedScheduleItems, closedPage]);
 
   const pagedLatestItems = useMemo(() => {
     return paginate(latestItems, latestPage, LATEST_PAGE_SIZE);
@@ -165,13 +224,19 @@ export default function App() {
           items={pagedScheduleItems}
           totalFilteredCount={filteredItems.length}
           totalCount={items.length}
+          primaryCount={primaryScheduleItems.length}
+          closedCount={closedScheduleItems.length}
+          closedItems={pagedClosedItems}
           todayLabel={todayLabel}
           isLoading={isLoading}
           selectedStatus={status}
           sortOrder={sortOrder}
           currentPage={schedulePage}
           totalPages={scheduleTotalPages}
+          closedCurrentPage={closedPage}
+          closedTotalPages={closedTotalPages}
           onPageChange={setSchedulePage}
+          onClosedPageChange={setClosedPage}
           onItemSelect={setSelectedItem}
           pageSize={SCHEDULE_PAGE_SIZE}
         />

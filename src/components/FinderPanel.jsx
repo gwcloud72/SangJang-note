@@ -10,7 +10,7 @@ const STATUS_OPTIONS = [
 ];
 
 const SORT_OPTIONS = [
-  { value: 'schedule', label: '청약일 빠른순' },
+  { value: 'schedule', label: '가까운 일정순' },
   { value: 'latest', label: '최신 공시순' },
 ];
 
@@ -31,7 +31,7 @@ export default function FinderPanel({
       <div className="finder-card__head">
         <div>
           <h2>상장 일정 노트</h2>
-          <p>회사명, 공시명, 주관사, 가격, 경쟁률 키워드까지 검색하고 최신 공시순으로도 확인할 수 있습니다.</p>
+          <p>회사명, 공시명, 주관사, 가격, 경쟁률 키워드까지 검색하고 가까운 일정부터 확인할 수 있습니다.</p>
         </div>
         <button id="refreshButton" type="button" onClick={onRefresh} disabled={isLoading}>
           {isLoading ? '불러오는 중' : '데이터 다시 불러오기'}

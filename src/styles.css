@@ -1129,3 +1129,58 @@ button {
     padding: 18px;
   }
 }
+
+
+.sort-label--soft {
+  color: var(--warning);
+  background: var(--warning-soft);
+}
+
+.closed-schedule-panel {
+  margin-top: 18px;
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  background: var(--surface-glass);
+  box-shadow: var(--card-shadow);
+  overflow: hidden;
+}
+
+.closed-schedule-panel summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 18px 22px;
+  cursor: pointer;
+  list-style: none;
+  font-weight: 800;
+  color: var(--surface-strong);
+}
+
+.closed-schedule-panel summary::-webkit-details-marker {
+  display: none;
+}
+
+.closed-schedule-panel summary small {
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.closed-schedule-panel[open] summary {
+  border-bottom: 1px solid var(--line);
+}
+
+.closed-schedule-panel__body {
+  padding: 18px;
+}
+
+.schedule-list--closed {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 720px) {
+  .closed-schedule-panel summary {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

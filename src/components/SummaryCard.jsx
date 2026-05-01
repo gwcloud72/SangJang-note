@@ -1,11 +1,10 @@
-export default function SummaryCard({ label, value, caption }) {
+export default function SummaryCard({ label, value, tone = 'default' }) {
   const displayValue = typeof value === 'number' ? value.toLocaleString('ko-KR') : value;
 
   return (
-    <article className="summary-card">
-      <span className="summary-card__label">{label}</span>
+    <article className={`summary-card summary-card--${tone}`}>
+      <span>{label}</span>
       <strong>{displayValue}</strong>
-      <small>{caption}</small>
     </article>
   );
 }

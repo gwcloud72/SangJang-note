@@ -8,11 +8,11 @@ import DetailModal from './components/DetailModal.jsx';
 import NoticeCard from './components/NoticeCard.jsx';
 import { useIpoData } from './hooks/useIpoData.js';
 import { useTheme } from './hooks/useTheme.js';
-import { getTodayLabel } from './utils/dates.js';
+import { formatDateTime, getTodayLabel } from './utils/dates.js';
 import { normalizeStatus } from './utils/status.js';
 
 const SCHEDULE_PAGE_SIZE = 8;
-const LATEST_PAGE_SIZE = 6;
+const LATEST_PAGE_SIZE = 5;
 
 const STATUS_PRIORITY = {
   open: 0,
@@ -205,52 +205,77 @@ export default function App() {
 
   return (
     <>
-      <Header theme={theme} onThemeToggle={toggleTheme} />
+      <Header
+        theme={theme}
+        isLoading={isLoading}
+        onThemeToggle={toggleTheme}
+        onRefresh={reload}
+      />
       <main id="top" className="page-shell">
-        <Hero summary={summary} isLoading={isLoading} />
+        <Hero summary={summary} todayLabel={todayLabel} isLoading={isLoading} />
         <FinderPanel
           keyword={keyword}
           status={status}
           sortOrder={sortOrder}
-          summary={summary}
-          isLoading={isLoading}
           error={error}
           onKeywordChange={setKeyword}
           onStatusChange={setStatus}
           onSortOrderChange={setSortOrder}
-          onRefresh={reload}
         />
-        <ScheduleList
-          items={pagedScheduleItems}
-          totalFilteredCount={filteredItems.length}
-          totalCount={items.length}
-          primaryCount={primaryScheduleItems.length}
-          closedCount={closedScheduleItems.length}
-          closedItems={pagedClosedItems}
-          todayLabel={todayLabel}
-          isLoading={isLoading}
-          selectedStatus={status}
-          sortOrder={sortOrder}
-          currentPage={schedulePage}
-          totalPages={scheduleTotalPages}
-          closedCurrentPage={closedPage}
-          closedTotalPages={closedTotalPages}
-          onPageChange={setSchedulePage}
-          onClosedPageChange={setClosedPage}
-          onItemSelect={setSelectedItem}
-          pageSize={SCHEDULE_PAGE_SIZE}
-        />
-        <LatestOfferList
-          items={pagedLatestItems}
-          totalCount={latestItems.length}
-          todayLabel={todayLabel}
-          isLoading={isLoading}
-          currentPage={latestPage}
-          totalPages={latestTotalPages}
-          onPageChange={setLatestPage}
-          onItemSelect={setSelectedItem}
-        />
-        <NoticeCard warning={summary.warning} />
+
+        <div className="dashboard-layout">
+          <div className="dashboard-main">
+            <ScheduleList
+              items={pagedScheduleItems}
+              totalFilteredCount={filteredItems.length}
+              totalCount={items.length}
+              primaryCount={primaryScheduleItems.length}
+              closedCount={closedScheduleItems.length}
+              closedItems={pagedClosedItems}
+              todayLabel={todayLabel}
+              isLoading={isLoading}
+              selectedStatus={status}
+              sortOrder={sortOrder}
+              currentPage={schedulePage}
+              totalPages={scheduleTotalPages}
+              closedCurrentPage={closedPage}
+              closedTotalPages={closedTotalPages}
+              onPageChange={setSchedulePage}
+              onClosedPageChange={setClosedPage}
+              onItemSelect={setSelectedItem}
+              pageSize={SCHEDULE_PAGE_SIZE}
+            />
+          </div>
+
+          <aside className="dashboard-sidebar" aria-label="공시 요약 정보">
+            <section className="sidebar-card today-summary-card" aria-labelledby="today-summary-title">
+              <h2 id="today-summary-title">오늘의 요약</h2>
+              <ul>
+                <li>진행중 {summary.open.toLocaleString('ko-KR')}건</li>
+                <li>예정 {summary.upcoming.toLocaleString('ko-KR')}건</li>
+                <li>마감 일정은 하단 정리</li>
+              </ul>
+              <p>
+                {summary.updatedAt
+                  ? `최근 갱신 ${formatDateTime(summary.updatedAt)}`
+                  : '데이터 갱신 전 상태입니다.'}
+              </p>
+            </section>
+
+            <LatestOfferList
+              items={pagedLatestItems}
+              totalCount={latestItems.length}
+              isLoading={isLoading}
+              currentPage={latestPage}
+              totalPages={latestTotalPages}
+              onPageChange={setLatestPage}
+              onItemSelect={setSelectedItem}
+            />
+            <NoticeCard warning={summary.warning} />
+          </aside>
+        </div>
+
+        <p className="page-footnote">공시 원문을 우선 확인하세요</p>
       </main>
       <DetailModal item={selectedItem} onClose={() => setSelectedItem(null)} />
     </>

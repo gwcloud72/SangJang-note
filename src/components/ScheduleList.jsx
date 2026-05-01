@@ -10,7 +10,7 @@ const STATUS_FILTER_LABEL = {
 };
 
 const SORT_LABEL = {
-  schedule: '가까운 일정순',
+  schedule: '청약일순',
   latest: '최신 공시순',
 };
 
@@ -36,28 +36,21 @@ export default function ScheduleList({
 }) {
   const isAllStatus = selectedStatus === 'all';
   const showClosedSection = !isLoading && isAllStatus && closedCount > 0;
-
-  const caption = isLoading
-    ? '조건에 맞는 데이터를 불러오는 중입니다.'
-    : isAllStatus
-      ? `${totalFilteredCount.toLocaleString('ko-KR')}개 일정 중 진행/예정 ${primaryCount.toLocaleString('ko-KR')}개 우선 표시 · 마감 ${closedCount.toLocaleString('ko-KR')}개는 아래에서 확인 · ${todayLabel} 기준`
-      : `${totalFilteredCount.toLocaleString('ko-KR')}개 일정 중 ${items.length.toLocaleString('ko-KR')}개 표시 · ${todayLabel} 기준`;
-
   const shouldShowPrimaryEmpty = !isLoading && items.length === 0;
+  const countText = isAllStatus
+    ? `진행/예정 ${primaryCount.toLocaleString('ko-KR')}건 · 마감 ${closedCount.toLocaleString('ko-KR')}건`
+    : `${totalFilteredCount.toLocaleString('ko-KR')}건 표시`;
 
   return (
-    <section className="list-section" aria-labelledby="list-title">
+    <section id="schedule" className="schedule-section" aria-labelledby="list-title">
       <div className="section-heading">
         <div>
-          <h2 id="list-title">청약 일정 목록</h2>
-          <p>{caption}</p>
+          <h2 id="list-title">청약 일정</h2>
+          <p>{isLoading ? '공시 일정을 불러오는 중입니다.' : `${countText} · ${todayLabel} 기준`}</p>
         </div>
-        <div className="heading-side">
-          <span className="today-badge">오늘 기준 {todayLabel}</span>
-          <span className="sort-label">
-            {STATUS_FILTER_LABEL[selectedStatus] || '전체 상태'} · {SORT_LABEL[sortOrder] || '가까운 일정순'}
-          </span>
-          {isAllStatus ? <span className="sort-label sort-label--soft">마감 일정은 아래로 이동</span> : null}
+        <div className="section-chips" aria-label="현재 필터">
+          <span>{STATUS_FILTER_LABEL[selectedStatus] || '전체 상태'}</span>
+          <span>{SORT_LABEL[sortOrder] || '청약일순'}</span>
         </div>
       </div>
 
@@ -70,9 +63,7 @@ export default function ScheduleList({
           </div>
         ) : null}
         {shouldShowPrimaryEmpty && totalFilteredCount > 0 && isAllStatus ? (
-          <div className="empty-state">
-            오늘 기준 진행중·예정 일정이 없어 지난 일정만 아래에 모아두었습니다.
-          </div>
+          <div className="empty-state">오늘 기준 진행중·예정 일정이 없어 지난 일정만 아래에 모아두었습니다.</div>
         ) : null}
         {!isLoading && items.map((item, index) => (
           <ScheduleCard
@@ -97,7 +88,7 @@ export default function ScheduleList({
         <details className="closed-schedule-panel">
           <summary>
             <span>지난 일정 {closedCount.toLocaleString('ko-KR')}건 보기</span>
-            <small>마감된 종목은 여기에서 따로 확인</small>
+            <small>마감 일정은 하단에 따로 정리</small>
           </summary>
 
           <div className="closed-schedule-panel__body">

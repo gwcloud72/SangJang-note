@@ -1,4 +1,5 @@
 import { readFile } from 'node:fs/promises';
+import { existsSync } from 'node:fs';
 
 const DATA_PATH = new URL('../public/data/ipos.json', import.meta.url);
 const payload = JSON.parse(await readFile(DATA_PATH, 'utf8'));
@@ -20,3 +21,23 @@ for (const [index, item] of payload.items.entries()) {
 }
 
 console.log(`Data validation passed: ${payload.items.length} item(s).`);
+
+
+const REPORT_PATH = new URL('../public/data/ipo-ai-report.json', import.meta.url);
+const FORBIDDEN_WORD_PATTERN = /(추천|권유|수익률|수익|전망|매수|매도|유망|투자\s*포인트)/;
+
+if (existsSync(REPORT_PATH)) {
+  const report = JSON.parse(await readFile(REPORT_PATH, 'utf8'));
+  if (!report || !Array.isArray(report.lines)) {
+    throw new Error('public/data/ipo-ai-report.json must contain a lines array when present.');
+  }
+  for (const [index, line] of report.lines.entries()) {
+    if (typeof line !== 'string' || !line.trim()) {
+      throw new Error(`ipo-ai-report.lines[${index}] must be a non-empty string.`);
+    }
+    if (FORBIDDEN_WORD_PATTERN.test(line)) {
+      throw new Error(`ipo-ai-report.lines[${index}] contains investment-like wording.`);
+    }
+  }
+  console.log(`Report validation passed: ${report.lines.length} line(s).`);
+}

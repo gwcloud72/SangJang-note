@@ -57,6 +57,13 @@ jobs:
           LOOKBACK_DAYS: "180"
           LOOKAHEAD_DAYS: "120"
 
+      - name: Generate IPO report
+        run: npm run generate:report
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_REPORT_ENABLED: ${{ vars.GEMINI_REPORT_ENABLED || 'true' }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-2.5-flash' }}
+
       - name: Validate static data
         run: npm run validate:data
 

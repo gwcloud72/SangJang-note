@@ -8,6 +8,11 @@ if (!payload || !Array.isArray(payload.items)) {
   throw new Error('public/data/ipos.json must contain an items array.');
 }
 
+const dataSource = String(payload?.metadata?.source || '').trim().toLowerCase();
+if (payload.items.length > 0 && dataSource && dataSource !== 'opendart') {
+  throw new Error('public/data/ipos.json contains a non-live data source. Run update:data before deployment.');
+}
+
 for (const [index, item] of payload.items.entries()) {
   if (!item || typeof item !== 'object') {
     throw new Error(`items[${index}] must be an object.`);
@@ -21,7 +26,6 @@ for (const [index, item] of payload.items.entries()) {
 }
 
 console.log(`Data validation passed: ${payload.items.length} item(s).`);
-
 
 const REPORT_PATH = new URL('../public/data/ipo-ai-report.json', import.meta.url);
 const FORBIDDEN_WORD_PATTERN = /(추천|권유|수익률|수익|전망|매수|매도|유망|투자\s*포인트)/;

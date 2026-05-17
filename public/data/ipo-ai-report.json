@@ -2,7 +2,8 @@
   "metadata": {
     "generatedAt": null,
     "source": "pending",
-    "model": null
+    "model": null,
+    "scope": "upcoming-45-days"
   },
   "lines": [
     "IPO 일정 데이터 갱신 후 요약이 표시됩니다."

@@ -28,6 +28,25 @@ function formatDate(value) {
   return new Intl.DateTimeFormat('ko-KR', { month: '2-digit', day: '2-digit', weekday: 'short' }).format(date).replace(/\.$/, '');
 }
 
+function startOfDay(value) {
+  const date = value instanceof Date ? new Date(value) : parseDate(value);
+  if (!date) return null;
+  date.setHours(0, 0, 0, 0);
+  return date;
+}
+
+function addDays(date, days) {
+  const next = new Date(date);
+  next.setDate(next.getDate() + days);
+  next.setHours(23, 59, 59, 999);
+  return next;
+}
+
+function getReferenceDate(payload) {
+  return startOfDay(payload?.metadata?.updatedAt) || startOfDay(new Date());
+}
+
+
 function normalizeStatus(item) {
   const rawStatus = String(item?.status ?? '').toLowerCase();
   if (rawStatus.includes('open') || rawStatus.includes('진행')) return 'open';
@@ -52,7 +71,9 @@ function getUnderwriter(item) {
   return collapseSpaces(item?.underwriter || item?.leadManager || item?.manager || '');
 }
 
-function buildScheduleRows(items) {
+function buildScheduleRows(items, options = {}) {
+  const referenceDate = options.referenceDate ? startOfDay(options.referenceDate) : null;
+  const endDate = referenceDate ? addDays(referenceDate, options.days ?? 45) : null;
   const rows = [];
   for (const item of items) {
     const companyName = collapseSpaces(item?.companyName);
@@ -67,8 +88,14 @@ function buildScheduleRows(items) {
   }
   return rows
     .filter((row) => row.companyName && row.date)
+    .filter((row) => {
+      if (!referenceDate || !endDate) return true;
+      const date = parseDate(row.date);
+      return date && date >= referenceDate && date <= endDate;
+    })
     .sort((left, right) => String(left.date).localeCompare(String(right.date)));
 }
+
 
 function buildCounts(rows) {
   return {
@@ -79,10 +106,9 @@ function buildCounts(rows) {
 }
 
 
-function isPlaceholderPayload(payload) {
+function isNonLivePayload(payload) {
   const source = collapseSpaces(payload?.metadata?.source).toLowerCase();
-  const notice = collapseSpaces(payload?.metadata?.notice).toLowerCase();
-  return source === 'demo' || source === 'sample' || notice.includes('샘플') || notice.includes('demo');
+  return source !== 'opendart' || !Array.isArray(payload?.items) || payload.items.length === 0;
 }
 
 function buildPendingReport() {
@@ -91,6 +117,7 @@ function buildPendingReport() {
       generatedAt: null,
       source: 'pending',
       model: null,
+      scope: 'upcoming-45-days',
     },
     lines: ['IPO 일정 데이터 갱신 후 요약이 표시됩니다.'],
   };
@@ -107,31 +134,39 @@ function sanitizeLines(lines, fallbackLines) {
 
 function buildLocalReport(payload) {
   const items = Array.isArray(payload?.items) ? payload.items : [];
-  const rows = buildScheduleRows(items);
+  const referenceDate = getReferenceDate(payload);
+  const rows = buildScheduleRows(items, { referenceDate, days: 45 });
   const counts = buildCounts(rows);
   const lines = [];
 
   if (!rows.length) {
-    lines.push('IPO 일정 데이터 갱신 후 요약이 표시됩니다.');
+    lines.push('기준일 이후 45일 안에 표시할 IPO 일정이 없습니다.');
+    lines.push('지난 일정과 먼 미래 일정은 홈 요약에서 제외했습니다.');
   } else {
-    lines.push(`청약 ${counts.open}건, 환불 ${counts.refund}건, 상장 ${counts.listing}건이 집계되었습니다.`);
+    const countText = [
+      counts.open ? `청약 ${counts.open}건` : '',
+      counts.refund ? `환불 ${counts.refund}건` : '',
+      counts.listing ? `상장 ${counts.listing}건` : '',
+    ].filter(Boolean).join(', ');
+    lines.push(`기준일 이후 가까운 일정은 ${countText || `${rows.length}건`}입니다.`);
     const first = rows[0];
     if (first) lines.push(`${formatDate(first.date)} ${first.companyName} ${first.type} 일정이 가장 먼저 표시됩니다.`);
-    const listing = rows.find((row) => row.type === '상장');
-    if (listing) lines.push(`${formatDate(listing.date)} ${listing.companyName} 상장 일정이 포함되어 있습니다.`);
   }
 
-  while (lines.length < 3) lines.push('상세 일정은 표와 일정 흐름에서 확인할 수 있습니다.');
+  while (lines.length < 3) lines.push('상세 일정은 표에서 확인할 수 있습니다.');
 
   return {
     metadata: {
       generatedAt: new Date().toISOString(),
       source: 'local-rules',
       model: null,
+      scope: 'upcoming-45-days',
+      referenceDate: referenceDate.toISOString(),
     },
     lines: sanitizeLines(lines, ['IPO 일정 데이터 갱신 후 요약이 표시됩니다.']),
   };
 }
+
 
 function stripCodeFence(value) {
   return String(value || '')
@@ -153,12 +188,13 @@ function extractText(responseJson) {
 
 async function callGemini(payload, fallbackReport) {
   const items = Array.isArray(payload?.items) ? payload.items : [];
-  const rows = buildScheduleRows(items).slice(0, 8);
-  const counts = buildCounts(buildScheduleRows(items));
+  const referenceDate = getReferenceDate(payload);
+  const rows = buildScheduleRows(items, { referenceDate, days: 45 }).slice(0, 8);
+  const counts = buildCounts(rows);
 
   const prompt = [
-    '아래 IPO 일정 데이터를 바탕으로 한국어 요약 3줄만 작성해줘.',
-    '주의: 투자 추천, 청약 권유, 수익률 전망, 매수/매도 표현은 절대 쓰지 마.',
+    '아래 기준일 이후 가까운 IPO 일정 데이터만 바탕으로 한국어 요약 3줄만 작성해줘.',
+    '주의: 투자 추천, 청약 권유, 수익률 전망, 매수/매도 표현은 절대 쓰지 마. 주어진 rows 밖의 먼 미래 일정도 언급하지 마.',
     '출력은 JSON만 사용해. 형식: {"lines":["문장1","문장2","문장3"]}',
     '',
     JSON.stringify({ counts, rows }, null, 2),
@@ -190,6 +226,8 @@ async function callGemini(payload, fallbackReport) {
       generatedAt: new Date().toISOString(),
       source: 'gemini',
       model: GEMINI_MODEL,
+      scope: 'upcoming-45-days',
+      referenceDate: getReferenceDate(payload).toISOString(),
     },
     lines: sanitizeLines(parsed?.lines, fallbackReport.lines),
   };
@@ -197,10 +235,10 @@ async function callGemini(payload, fallbackReport) {
 
 async function main() {
   const payload = JSON.parse(await readFile(DATA_PATH, 'utf8'));
-  if (isPlaceholderPayload(payload)) {
+  if (isNonLivePayload(payload)) {
     await mkdir(path.dirname(OUTPUT_PATH), { recursive: true });
     await writeFile(OUTPUT_PATH, `${JSON.stringify(buildPendingReport(), null, 2)}\n`, 'utf8');
-    console.log(`데모/샘플 IPO 데이터라서 대기 상태 요약 파일을 생성했습니다: ${OUTPUT_PATH}`);
+    console.log(`운영 데이터가 아니므로 대기 상태 요약 파일을 생성했습니다: ${OUTPUT_PATH}`);
     return;
   }
 

@@ -30,20 +30,44 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "22"
+          node-version: "20"
           cache: npm
+          cache-dependency-path: package-lock.json
           registry-url: https://registry.npmjs.org
 
-      - name: Tune npm network retries
+      - name: Node/npm version
         run: |
+          node --version
+          npm --version
+
+      - name: Install dependencies
+        shell: bash
+        run: |
+          set -euo pipefail
+          npm config set registry https://registry.npmjs.org/
+          npm config set audit false
+          npm config set fund false
           npm config set fetch-retries 5
           npm config set fetch-retry-factor 2
           npm config set fetch-retry-mintimeout 20000
           npm config set fetch-retry-maxtimeout 120000
           npm config set fetch-timeout 600000
 
-      - name: Install dependencies
-        run: npm ci --no-audit --no-fund
+          for attempt in 1 2 3; do
+            echo "npm ci 실행 시도 ${attempt}/3"
+            if npm ci --no-audit --no-fund --prefer-online; then
+              echo "의존성 설치 완료"
+              exit 0
+            fi
+
+            echo "npm ci 실패. npm 캐시와 node_modules를 정리한 뒤 재시도합니다."
+            npm cache clean --force || true
+            rm -rf node_modules
+            sleep 5
+          done
+
+          echo "의존성 설치에 실패했습니다. package-lock.json과 npm 로그를 확인해주세요."
+          exit 1
 
       - name: Generate OpenDART data
         run: |

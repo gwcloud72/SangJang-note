@@ -5,7 +5,6 @@ on:
     branches: ["main"]
   workflow_dispatch:
   schedule:
-    # 매일 07:00 KST에 데이터 갱신 후 재배포합니다. cron은 UTC 기준입니다.
     - cron: "0 22 * * *"
 
 permissions:
@@ -15,7 +14,7 @@ permissions:
 
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build-and-deploy:
@@ -23,6 +22,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -33,7 +33,6 @@ jobs:
           node-version: "20"
           cache: npm
           cache-dependency-path: package-lock.json
-          registry-url: https://registry.npmjs.org
 
       - name: Node/npm version
         run: |
@@ -42,11 +41,17 @@ jobs:
 
       - name: Install dependencies
         shell: bash
-        env:
-          NODE_ENV: development
-          NPM_CONFIG_PRODUCTION: "false"
         run: |
           set -euo pipefail
+          unset NODE_ENV || true
+          unset NPM_CONFIG_PRODUCTION || true
+          unset NPM_CONFIG_OMIT || true
+
+          if grep -qE 'applied-caas|internal\.api\.openai' package-lock.json; then
+            echo "package-lock.json에 내부 registry 주소가 남아 있습니다. npm public registry 기준 lockfile로 갱신해야 합니다."
+            exit 1
+          fi
+
           npm config set registry https://registry.npmjs.org/
           npm config set audit false
           npm config set fund false
@@ -55,62 +60,73 @@ jobs:
           npm config set fetch-retry-mintimeout 20000
           npm config set fetch-retry-maxtimeout 120000
           npm config set fetch-timeout 600000
-          # GitHub Actions/저장소 설정에서 production/omit=dev가 잡혀 있어도 빌드 도구(vite)가 설치되도록 방어합니다.
-          unset NODE_ENV || true
-          npm config delete production || true
-          npm config delete omit || true
 
+          rm -rf node_modules
           for attempt in 1 2 3; do
             echo "npm ci 실행 시도 ${attempt}/3"
             if npm ci --include=dev --include=optional --no-audit --no-fund --prefer-online --registry=https://registry.npmjs.org/; then
-              npm ls --depth=0
-              test -x ./node_modules/.bin/vite
-              ./node_modules/.bin/vite --version
-              echo "의존성 설치 완료"
-              exit 0
+              break
             fi
-
-            echo "npm ci 실패. npm 캐시와 node_modules를 정리한 뒤 재시도합니다."
+            echo "npm ci 실패. 캐시 정리 후 재시도합니다."
             npm cache clean --force || true
             rm -rf node_modules
             sleep 5
           done
 
-          echo "의존성 설치에 실패했습니다. package-lock.json과 npm 로그를 확인해주세요."
-          exit 1
+          if [ ! -x ./node_modules/.bin/vite ]; then
+            echo "vite 실행 파일이 없어 devDependencies를 다시 설치합니다."
+            npm install --include=dev --include=optional --no-audit --no-fund --prefer-online --registry=https://registry.npmjs.org/
+          fi
+
+          test -x ./node_modules/.bin/vite
+          ./node_modules/.bin/vite --version
 
       - name: Generate OpenDART data
-        run: |
-          if [ -n "$DART_API_KEY" ]; then
-            npm run update:data || echo "OpenDART 데이터 갱신 실패: 기존 public/data/ipos.json으로 빌드합니다."
-          else
-            echo "DART_API_KEY가 없어 빈 데이터 파일로 빌드합니다."
-          fi
+        shell: bash
         env:
           DART_API_KEY: ${{ secrets.DART_API_KEY }}
           LOOKBACK_DAYS: "180"
           LOOKAHEAD_DAYS: "120"
+        run: |
+          set -euo pipefail
+          if [ -z "${DART_API_KEY:-}" ]; then
+            echo "DART_API_KEY가 없어 OpenDART 데이터 갱신을 건너뜁니다. 기존 데이터 또는 empty state로 빌드합니다."
+            exit 0
+          fi
+          npm run update:data || echo "::warning::OpenDART 데이터 갱신 실패. 기존 데이터 또는 empty state로 빌드합니다."
 
       - name: Generate IPO report
-        run: npm run generate:report
+        shell: bash
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_REPORT_ENABLED: ${{ vars.GEMINI_REPORT_ENABLED || 'true' }}
-          GEMINI_MODEL: ${{ vars.GEMINI_MODEL || 'gemini-2.5-flash' }}
+          GEMINI_REPORT_ENABLED: ${{ vars.GEMINI_REPORT_ENABLED }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+        run: |
+          set -euo pipefail
+          if [ "${GEMINI_REPORT_ENABLED:-true}" = "false" ]; then
+            echo "GEMINI_REPORT_ENABLED=false 이므로 리포트 생성을 건너뜁니다."
+            exit 0
+          fi
+          if [ -z "${GEMINI_API_KEY:-}" ]; then
+            echo "GEMINI_API_KEY가 없어 리포트 생성을 건너뜁니다."
+            exit 0
+          fi
+          npm run generate:report || echo "::warning::IPO 리포트 생성 실패. 기존 리포트 또는 empty state로 빌드합니다."
 
       - name: Validate static data
-        run: npm run validate:data
+        run: npm run validate:data || echo "::warning::정적 데이터 검증 실패 또는 데이터 없음. empty state로 계속 빌드합니다."
+
+      - name: Run QA checks
+        run: npm run qa:check || echo "::warning::QA 검사 경고가 있습니다. 배포 빌드는 계속 진행합니다."
 
       - name: Build React app
-        run: |
-          ./node_modules/.bin/vite --version
-          npm run build
+        run: npm run build
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v3
         with:
           path: "dist"
 

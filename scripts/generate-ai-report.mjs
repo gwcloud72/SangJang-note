@@ -1,4 +1,4 @@
-import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, rename, rm, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 
 const DATA_PATH = path.resolve('public/data/ipos.json');
@@ -246,7 +246,9 @@ async function main() {
       // 기존 리포트가 없으면 대기 상태 파일을 생성합니다.
     }
     await mkdir(path.dirname(OUTPUT_PATH), { recursive: true });
-    await writeFile(OUTPUT_PATH, `${JSON.stringify(buildPendingReport(), null, 2)}\n`, 'utf8');
+    const tempPath = `${OUTPUT_PATH}.tmp`;
+    await writeFile(tempPath, `${JSON.stringify(buildPendingReport(), null, 2)}\n`, 'utf8');
+    await rename(tempPath, OUTPUT_PATH);
     console.log(`운영 데이터가 아니므로 대기 상태 요약 파일을 생성했습니다: ${OUTPUT_PATH}`);
     return;
   }
@@ -266,7 +268,14 @@ async function main() {
   }
 
   await mkdir(path.dirname(OUTPUT_PATH), { recursive: true });
-  await writeFile(OUTPUT_PATH, `${JSON.stringify(report, null, 2)}\n`, 'utf8');
+  const tempPath = `${OUTPUT_PATH}.tmp`;
+  await writeFile(tempPath, `${JSON.stringify(report, null, 2)}\n`, 'utf8');
+  const check = JSON.parse(await readFile(tempPath, 'utf8'));
+  if (!Array.isArray(check.lines) || check.lines.length === 0) {
+    await rm(tempPath, { force: true });
+    throw new Error('검증 실패: ipo-ai-report.json.tmp에 요약 문장이 없습니다.');
+  }
+  await rename(tempPath, OUTPUT_PATH);
   console.log(`IPO 요약 파일 생성 완료: ${OUTPUT_PATH}`);
 }
 

@@ -119,7 +119,7 @@ export function parseItems(payload) {
     subscription: normalizeText(item.subscription || item.subscriptionPeriod || item.offerDate || item.subscribeDate, '확인 필요'),
     refund: normalizeText(item.refund || item.refundDate || item.refundmentDate || item.returnDate || item.paymentDate || item.payDate || item.refundDay || item.refundAt || item.refundSchedule || item.allotmentDate, '확인 필요'),
     listing: normalizeText(item.listing || item.listingDate || item.listDate, '확인 필요'),
-    manager: normalizeText(item.manager || item.leadManager || item.underwriter || item.host, '확인 필요'),
+    manager: normalizeText(item.manager || item.leadManager || item.leadManagerName || item.representativeUnderwriter || item.organizer || item.underwriter || item.host || item.underwriters?.join?.(', ') || item.managers?.join?.(', ') || item.leadManagers?.join?.(', ') || item.underwriterNames?.join?.(', '), '확인 필요'),
     status: normalizeStatusLabel(item.status || item.phase || item.progress),
     updatedAt: formatDateTime(item.updatedAt || item.rceptDt || item.reportDate),
     filingType: normalizeText(item.filingType || item.reportName || item.disclosureName, '공시'),

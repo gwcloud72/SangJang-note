@@ -1,4 +1,4 @@
-import { mkdir, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, rename, rm, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import AdmZip from 'adm-zip';
 import iconv from 'iconv-lite';
@@ -633,7 +633,14 @@ async function main() {
   };
 
   await mkdir(path.dirname(OUTPUT_PATH), { recursive: true });
-  await writeFile(OUTPUT_PATH, `${JSON.stringify(output, null, 2)}\n`, 'utf8');
+  const tempPath = `${OUTPUT_PATH}.tmp`;
+  await writeFile(tempPath, `${JSON.stringify(output, null, 2)}\n`, 'utf8');
+  const check = JSON.parse(await readFile(tempPath, 'utf8'));
+  if (!Array.isArray(check.items) || check.items.length === 0) {
+    await rm(tempPath, { force: true });
+    throw new Error('검증 실패: ipos.json.tmp에 IPO 일정 데이터가 없습니다.');
+  }
+  await rename(tempPath, OUTPUT_PATH);
 
   console.log(`저장 완료: ${OUTPUT_PATH}`);
   console.log(`표시 일정: ${items.length}건`);

@@ -95,6 +95,18 @@ export function buildMonthBars(items, referenceDate = getReferenceDate(items)) {
 }
 
 
+
+export function normalizeStatusLabel(status) {
+  const raw = normalizeText(status, '').toLowerCase();
+  if (!raw || raw === 'unknown') return '확인 필요';
+  if (raw.includes('closed') || raw.includes('마감') || raw.includes('완료')) return '마감';
+  if (raw.includes('open') || raw.includes('진행')) return '청약 진행';
+  if (raw.includes('upcoming') || raw.includes('예정')) return '상장 예정';
+  if (raw.includes('refund') || raw.includes('환불')) return '환불';
+  if (raw.includes('listing') || raw.includes('상장')) return '상장';
+  return normalizeText(status, '확인 필요');
+}
+
 export function parseItems(payload) {
   const rawItems = Array.isArray(payload?.items) ? payload.items : [];
   if (!rawItems.length) return [];
@@ -108,7 +120,7 @@ export function parseItems(payload) {
     refund: normalizeText(item.refund || item.refundDate || item.refundmentDate || item.returnDate || item.paymentDate || item.payDate || item.refundDay || item.refundAt || item.refundSchedule || item.allotmentDate, '확인 필요'),
     listing: normalizeText(item.listing || item.listingDate || item.listDate, '확인 필요'),
     manager: normalizeText(item.manager || item.leadManager || item.underwriter || item.host, '확인 필요'),
-    status: normalizeText(item.status || item.phase || item.progress, '확인 필요'),
+    status: normalizeStatusLabel(item.status || item.phase || item.progress),
     updatedAt: formatDateTime(item.updatedAt || item.rceptDt || item.reportDate),
     filingType: normalizeText(item.filingType || item.reportName || item.disclosureName, '공시'),
     filingNote: normalizeText(item.filingNote || item.note || item.summary, '원문 확인'),
@@ -118,14 +130,14 @@ export function parseItems(payload) {
 }
 
 export function getStats(items) {
-  const active = items.filter((item) => item.status.includes('진행')).length;
+  const active = items.filter((item) => item.status.includes('진행') || item.status.includes('청약')).length;
   const upcoming = items.filter((item) => item.status.includes('예정')).length;
-  const done = items.filter((item) => item.status.includes('완료')).length;
+  const done = items.filter((item) => item.status.includes('마감') || item.status.includes('완료')).length;
   const filings = items.filter(isPriorityDisclosure).length;
   const today = items.filter((item) => `${item.priority} ${item.status}`.includes('오늘')).length;
   const urgent = items.filter((item) => /오늘|D-[0-3]/.test(`${item.priority} ${item.status}`) || isPriorityDisclosure(item)).length;
   const listingSoon = items.filter((item) => item.status.includes('상장') && item.status.includes('예정')).length;
-  const next = items.find((item) => item.status.includes('진행')) || items.find((item) => item.status.includes('예정')) || items[0];
+  const next = items.find((item) => item.status.includes('진행') || item.status.includes('청약')) || items.find((item) => item.status.includes('예정')) || items[0];
   return { total: items.length, active, upcoming, done, filings, today, urgent, listingSoon, next };
 }
 
@@ -135,7 +147,7 @@ export function statusClass(status) {
   if (status.includes('상장') && !status.includes('완료')) return 'border-emerald-200 bg-emerald-50 text-emerald-700';
   if (status.includes('진행')) return 'border-blue-200 bg-blue-50 text-blue-700';
   if (status.includes('예정')) return 'border-indigo-200 bg-indigo-50 text-indigo-700';
-  if (status.includes('완료')) return 'border-slate-200 bg-slate-50 text-slate-500';
+  if (status.includes('마감') || status.includes('완료')) return 'border-slate-200 bg-slate-50 text-slate-500';
   return 'border-amber-200 bg-amber-50 text-amber-700';
 }
 

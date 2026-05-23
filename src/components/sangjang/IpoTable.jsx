@@ -26,24 +26,52 @@ function EmptyState({ action, actionLabel = '전체 일정 보기', label = '조
   );
 }
 
+function shortDate(value) {
+  const text = String(value || '').trim();
+  if (!text || text === '확인 필요' || text === '미정') return text || '확인 필요';
+  const iso = text.match(/(\d{4})[-.\/](\d{1,2})[-.\/](\d{1,2})/);
+  if (iso) return `${iso[2].padStart(2, '0')}.${iso[3].padStart(2, '0')}`;
+  const monthDay = text.match(/(\d{1,2})[-.\/](\d{1,2})/);
+  if (monthDay) return `${monthDay[1].padStart(2, '0')}.${monthDay[2].padStart(2, '0')}`;
+  return text.length > 10 ? `${text.slice(0, 10)}…` : text;
+}
+
+function ScheduleCell({ item }) {
+  const rows = [
+    ['청약', item.subscription],
+    ['환불', item.refund],
+    ['상장', item.listing],
+  ];
+  return (
+    <div className="grid gap-1 text-[11px] font-bold leading-snug text-slate-600">
+      {rows.map(([label, value]) => (
+        <div key={label} className="flex min-w-0 items-center gap-2">
+          <span className="w-7 shrink-0 text-slate-400">{label}</span>
+          <span title={value} className="min-w-0 truncate tabular-nums text-slate-700">{shortDate(value)}</span>
+        </div>
+      ))}
+    </div>
+  );
+}
+
 function IpoRow({ item, favorites }) {
   const isFavorite = favorites?.has(item.id);
   const dartUrl = safeExternalUrl(item.dartUrl);
   return (
-    <tr className="hover:bg-slate-50">
-      <td className="min-w-0 px-2 py-[8px]">
-        <p className="line-clamp-2 font-extrabold text-slate-950">{item.company}</p>
+    <tr className="align-middle hover:bg-slate-50">
+      <td className="min-w-0 px-3 py-3">
+        <p title={item.company} className="line-clamp-2 break-keep font-extrabold leading-snug text-slate-950">{item.company}</p>
         <p className="mt-1 truncate text-[11px] font-bold text-slate-400">{item.market}</p>
       </td>
-      <td className="whitespace-nowrap px-2 py-[8px] font-semibold text-slate-600">{item.subscription}</td>
-      <td className="whitespace-nowrap px-2 py-[8px] font-semibold text-slate-600">{item.refund}</td>
-      <td className="whitespace-nowrap px-2 py-[8px] font-semibold text-slate-600">{item.listing}</td>
-      <td className="whitespace-nowrap px-2 py-[8px] font-extrabold text-slate-900">{item.price}</td>
-      <td className="min-w-0 px-2 py-[8px] font-semibold text-slate-600"><p className="line-clamp-2">{item.manager}</p></td>
-      <td className="px-2 py-[8px]"><span className={`inline-flex rounded-full border px-2 py-1 text-[11px] font-extrabold ${statusClass(item.status)}`}>{item.status}</span></td>
-      <td className="px-2 py-[8px] text-center">{dartUrl ? <a href={dartUrl} target="_blank" rel="noopener noreferrer" className="text-[11px] font-extrabold text-blue-600">원문</a> : <span className="text-[11px] font-bold text-slate-400">대기</span>}</td>
-      <td className="px-2 py-[8px] text-center">
-        <button type="button" onClick={() => favorites?.toggle(item.id)} aria-label={`${item.company} 관심기업 토글`} aria-pressed={isFavorite} className="text-[11px] font-extrabold text-slate-600">{isFavorite ? '저장' : '＋'}</button>
+      <td className="min-w-0 px-3 py-3"><ScheduleCell item={item} /></td>
+      <td className="whitespace-nowrap px-3 py-3 font-extrabold tabular-nums text-slate-900">{item.price}</td>
+      <td className="min-w-0 px-3 py-3 font-semibold text-slate-600"><p title={item.manager} className="line-clamp-2 break-keep">{item.manager}</p></td>
+      <td className="px-3 py-3"><span className={`inline-flex whitespace-nowrap rounded-full border px-2 py-1 text-[11px] font-extrabold ${statusClass(item.status)}`}>{item.status}</span></td>
+      <td className="px-3 py-3 text-right">
+        <div className="flex items-center justify-end gap-2 whitespace-nowrap text-[11px] font-extrabold">
+          {dartUrl ? <a href={dartUrl} target="_blank" rel="noopener noreferrer" className="rounded-lg border border-slate-200 bg-white px-2 py-1 text-blue-600 transition hover:bg-slate-50">원문</a> : <span className="rounded-lg border border-slate-200 bg-slate-50 px-2 py-1 text-slate-400">대기</span>}
+          <button type="button" onClick={() => favorites?.toggle(item.id)} aria-label={`${item.company} 관심기업 토글`} aria-pressed={isFavorite} className={`rounded-lg px-2 py-1 transition ${isFavorite ? 'bg-blue-600 text-white' : 'border border-slate-200 bg-white text-slate-700 hover:bg-slate-50'}`}>{isFavorite ? '저장됨' : '관심'}</button>
+        </div>
       </td>
     </tr>
   );
@@ -56,20 +84,22 @@ function IpoCard({ item, favorites }) {
     <article className="rounded-2xl border border-slate-200 bg-white p-4">
       <div className="flex justify-between gap-3">
         <div className="min-w-0">
-          <p className="line-clamp-2 font-extrabold text-slate-950">{item.company}</p>
-          <p className="mt-1 line-clamp-2 text-xs font-bold text-slate-400">{item.market} · {item.manager}</p>
+          <p title={item.company} className="line-clamp-2 break-keep font-extrabold text-slate-950">{item.company}</p>
+          <p title={`${item.market} · ${item.manager}`} className="mt-1 line-clamp-2 text-xs font-bold text-slate-400">{item.market} · {item.manager}</p>
         </div>
         <span className={`h-fit shrink-0 rounded-full border px-2 py-1 text-xs font-bold ${statusClass(item.status)}`}>{item.status}</span>
       </div>
-      <dl className="mt-4 grid grid-cols-2 gap-3 text-xs font-bold">
-        <div><dt className="text-slate-400">청약</dt><dd className="mt-1 text-slate-800">{item.subscription}</dd></div>
-        <div><dt className="text-slate-400">환불</dt><dd className="mt-1 text-slate-800">{item.refund}</dd></div>
-        <div><dt className="text-slate-400">상장</dt><dd className="mt-1 text-slate-800">{item.listing}</dd></div>
-        <div><dt className="text-slate-400">공모가</dt><dd className="mt-1 text-slate-800">{item.price}</dd></div>
+      <dl className="mt-4 grid grid-cols-3 gap-3 text-xs font-bold">
+        <div><dt className="text-slate-400">청약</dt><dd className="mt-1 text-slate-800">{shortDate(item.subscription)}</dd></div>
+        <div><dt className="text-slate-400">환불</dt><dd className="mt-1 text-slate-800">{shortDate(item.refund)}</dd></div>
+        <div><dt className="text-slate-400">상장</dt><dd className="mt-1 text-slate-800">{shortDate(item.listing)}</dd></div>
       </dl>
-      <div className="mt-4 grid grid-cols-2 gap-2">
-        {dartUrl ? <a href={dartUrl} target="_blank" rel="noopener noreferrer" className="grid h-9 place-items-center rounded-xl border border-slate-200 text-xs font-extrabold text-slate-700">공시 원문</a> : <span className="grid h-9 place-items-center rounded-xl border border-slate-200 text-xs font-bold text-slate-400">공시 대기</span>}
-        <button type="button" onClick={() => favorites?.toggle(item.id)} aria-label={`${item.company} 관심기업 토글`} aria-pressed={isFavorite} className={`h-9 rounded-xl text-xs font-extrabold ${isFavorite ? 'bg-blue-600 text-white' : 'border border-slate-200 text-slate-700'}`}>{isFavorite ? '저장됨' : '관심 저장'}</button>
+      <div className="mt-4 flex items-center justify-between gap-3">
+        <p title={item.price} className="min-w-0 truncate text-sm font-extrabold text-slate-900">{item.price}</p>
+        <div className="grid shrink-0 grid-cols-2 gap-2">
+          {dartUrl ? <a href={dartUrl} target="_blank" rel="noopener noreferrer" className="grid h-9 place-items-center rounded-xl border border-slate-200 px-3 text-xs font-extrabold text-slate-700">원문</a> : <span className="grid h-9 place-items-center rounded-xl border border-slate-200 px-3 text-xs font-bold text-slate-400">대기</span>}
+          <button type="button" onClick={() => favorites?.toggle(item.id)} aria-label={`${item.company} 관심기업 토글`} aria-pressed={isFavorite} className={`h-9 rounded-xl px-3 text-xs font-extrabold ${isFavorite ? 'bg-blue-600 text-white' : 'border border-slate-200 text-slate-700'}`}>{isFavorite ? '저장됨' : '관심'}</button>
+        </div>
       </div>
     </article>
   );
@@ -105,17 +135,22 @@ export default function IpoTable({ rows, favorites, reset, canReset, title = 'IP
           <div className="hidden overflow-hidden rounded-xl border border-slate-200 md:block">
             <table className="w-full table-fixed text-left text-[12px]">
               <caption className="sr-only">IPO 일정 목록</caption>
+              <colgroup>
+                <col className="w-[22%]" />
+                <col className="w-[22%]" />
+                <col className="w-[13%]" />
+                <col className="w-[16%]" />
+                <col className="w-[11%]" />
+                <col className="w-[16%]" />
+              </colgroup>
               <thead className="bg-slate-50 text-[11px] font-bold text-slate-500">
                 <tr>
-                  <th className="w-[14%] px-2 py-2">기업명</th>
-                  <th className="w-[17%] px-2 py-2">청약 기간</th>
-                  <th className="w-[10%] px-2 py-2">환불일</th>
-                  <th className="w-[11%] px-2 py-2">상장 예정</th>
-                  <th className="w-[13%] px-2 py-2">공모가</th>
-                  <th className="w-[13%] px-2 py-2">주관사</th>
-                  <th className="w-[9%] px-2 py-2">상태</th>
-                  <th className="w-[7%] px-2 py-2 text-center">공시</th>
-                  <th className="w-[6%] px-2 py-2 text-center">관심</th>
+                  <th className="px-3 py-2">기업명</th>
+                  <th className="px-3 py-2">일정</th>
+                  <th className="px-3 py-2">공모가</th>
+                  <th className="px-3 py-2">주관사</th>
+                  <th className="px-3 py-2">상태</th>
+                  <th className="px-3 py-2 text-right">확인</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-slate-100">

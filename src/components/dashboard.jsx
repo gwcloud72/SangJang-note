@@ -104,6 +104,9 @@ export default function Dashboard() {
           {toolbar}
           {renderContent()}
         </main>
+        <footer className="border-t border-slate-100 px-4 py-4 text-[11px] font-semibold leading-relaxed text-slate-400 md:px-6">
+          개인 학습 및 정보 확인 목적의 서비스이며, 투자 권유가 아닙니다. 공식 공시는 DART 원문을 확인하세요.
+        </footer>
       </div>
     </div>
   );

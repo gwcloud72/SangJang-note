@@ -26,6 +26,7 @@ export default function FinderPanel({
         <span className="sr-only">회사명 검색</span>
         <span className="search-field__icon" aria-hidden="true">⌕</span>
         <input
+          aria-label="회사명 검색"
           type="search"
           value={keyword}
           placeholder="회사명으로 검색"
@@ -36,7 +37,7 @@ export default function FinderPanel({
 
       <label className="select-field">
         <span className="sr-only">진행 상태</span>
-        <select value={status} onChange={(event) => onStatusChange(event.target.value)}>
+        <select aria-label="진행 상태" value={status} onChange={(event) => onStatusChange(event.target.value)}>
           {STATUS_OPTIONS.map((option) => (
             <option key={option.value} value={option.value}>{option.label}</option>
           ))}
@@ -45,7 +46,7 @@ export default function FinderPanel({
 
       <label className="select-field">
         <span className="sr-only">정렬</span>
-        <select value={sortOrder} onChange={(event) => onSortOrderChange(event.target.value)}>
+        <select aria-label="정렬" value={sortOrder} onChange={(event) => onSortOrderChange(event.target.value)}>
           {SORT_OPTIONS.map((option) => (
             <option key={option.value} value={option.value}>정렬: {option.label}</option>
           ))}

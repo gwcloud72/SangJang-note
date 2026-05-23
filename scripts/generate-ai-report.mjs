@@ -236,6 +236,15 @@ async function callGemini(payload, fallbackReport) {
 async function main() {
   const payload = JSON.parse(await readFile(DATA_PATH, 'utf8'));
   if (isNonLivePayload(payload)) {
+    try {
+      const existing = JSON.parse(await readFile(OUTPUT_PATH, 'utf8'));
+      if (Array.isArray(existing?.lines) && existing.lines.length > 0) {
+        console.log('운영 IPO 데이터가 아니므로 기존 AI 일정 리포트를 유지합니다.');
+        return;
+      }
+    } catch {
+      // 기존 리포트가 없으면 대기 상태 파일을 생성합니다.
+    }
     await mkdir(path.dirname(OUTPUT_PATH), { recursive: true });
     await writeFile(OUTPUT_PATH, `${JSON.stringify(buildPendingReport(), null, 2)}\n`, 'utf8');
     console.log(`운영 데이터가 아니므로 대기 상태 요약 파일을 생성했습니다: ${OUTPUT_PATH}`);

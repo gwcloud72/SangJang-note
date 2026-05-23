@@ -47,8 +47,8 @@ jobs:
           unset NPM_CONFIG_PRODUCTION || true
           unset NPM_CONFIG_OMIT || true
 
-          if grep -qE 'applied-caas|internal\.api\.openai' package-lock.json; then
-            echo "package-lock.json에 내부 registry 주소가 남아 있습니다. npm public registry 기준 lockfile로 갱신해야 합니다."
+          if grep -qE 'applied-caas|internal\.api\.openai|localhost|file:' package-lock.json; then
+            echo "package-lock.json에 배포 환경에서 접근할 수 없는 registry/file 경로가 있습니다."
             exit 1
           fi
 
@@ -73,13 +73,18 @@ jobs:
             sleep 5
           done
 
-          if [ ! -x ./node_modules/.bin/vite ]; then
-            echo "vite 실행 파일이 없어 devDependencies를 다시 설치합니다."
-            npm install --include=dev --include=optional --no-audit --no-fund --prefer-online --registry=https://registry.npmjs.org/
-          fi
-
           test -x ./node_modules/.bin/vite
           ./node_modules/.bin/vite --version
+
+      - name: Backup current data
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf "$RUNNER_TEMP/data-backup"
+          mkdir -p "$RUNNER_TEMP/data-backup"
+          if [ -d public/data ]; then
+            cp -R public/data "$RUNNER_TEMP/data-backup/data"
+          fi
 
       - name: Generate OpenDART data
         shell: bash
@@ -89,11 +94,45 @@ jobs:
           LOOKAHEAD_DAYS: "120"
         run: |
           set -euo pipefail
+
+          require_ipo_data() {
+            node --input-type=module <<'NODE'
+          import { existsSync, readFileSync } from 'node:fs';
+          const file = 'public/data/ipos.json';
+          if (!existsSync(file)) {
+            console.error('ipos.json이 없습니다. OpenDART 수집 성공 또는 기존 데이터가 필요합니다.');
+            process.exit(1);
+          }
+          const payload = JSON.parse(readFileSync(file, 'utf8'));
+          if (!Array.isArray(payload.items) || payload.items.length === 0) {
+            console.error('ipos.json에 IPO 데이터가 없습니다. 빈 데이터 배포를 중단합니다.');
+            process.exit(1);
+          }
+          console.log(`OpenDART 데이터 확인: ${payload.items.length}개 일정`);
+          NODE
+          }
+
+          restore_data() {
+            if [ -d "$RUNNER_TEMP/data-backup/data" ]; then
+              rm -rf public/data
+              mkdir -p public
+              cp -R "$RUNNER_TEMP/data-backup/data" public/data
+            fi
+          }
+
           if [ -z "${DART_API_KEY:-}" ]; then
-            echo "DART_API_KEY가 없어 OpenDART 데이터 갱신을 건너뜁니다. 기존 데이터 또는 empty state로 빌드합니다."
+            echo "DART_API_KEY가 없습니다. 기존 데이터 유효성을 확인합니다."
+            require_ipo_data
             exit 0
           fi
-          npm run update:data || echo "::warning::OpenDART 데이터 갱신 실패. 기존 데이터 또는 empty state로 빌드합니다."
+
+          if npm run update:data; then
+            require_ipo_data
+          else
+            echo "OpenDART 데이터 갱신 실패. 기존 데이터를 복구합니다."
+            restore_data
+            require_ipo_data
+          fi
 
       - name: Generate IPO report
         shell: bash
@@ -103,21 +142,27 @@ jobs:
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
         run: |
           set -euo pipefail
-          if [ "${GEMINI_REPORT_ENABLED:-true}" = "false" ]; then
-            echo "GEMINI_REPORT_ENABLED=false 이므로 리포트 생성을 건너뜁니다."
-            exit 0
+          mkdir -p "$RUNNER_TEMP/report-backup"
+          if [ -f public/data/ipo-ai-report.json ]; then
+            cp public/data/ipo-ai-report.json "$RUNNER_TEMP/report-backup/ipo-ai-report.json"
           fi
-          if [ -z "${GEMINI_API_KEY:-}" ]; then
-            echo "GEMINI_API_KEY가 없어 리포트 생성을 건너뜁니다."
-            exit 0
+
+          if npm run generate:report; then
+            test -f public/data/ipo-ai-report.json
+          else
+            echo "IPO 리포트 생성 실패. 기존 리포트를 복구합니다."
+            if [ -f "$RUNNER_TEMP/report-backup/ipo-ai-report.json" ]; then
+              cp "$RUNNER_TEMP/report-backup/ipo-ai-report.json" public/data/ipo-ai-report.json
+            else
+              exit 1
+            fi
           fi
-          npm run generate:report || echo "::warning::IPO 리포트 생성 실패. 기존 리포트 또는 empty state로 빌드합니다."
 
       - name: Validate static data
-        run: npm run validate:data || echo "::warning::정적 데이터 검증 실패 또는 데이터 없음. empty state로 계속 빌드합니다."
+        run: npm run validate:data
 
       - name: Run QA checks
-        run: npm run qa:check || echo "::warning::QA 검사 경고가 있습니다. 배포 빌드는 계속 진행합니다."
+        run: npm run qa:check
 
       - name: Build React app
         run: npm run build

@@ -3,6 +3,17 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  // GitHub Pages의 /repository-name/ 하위 경로에서도 asset 경로가 깨지지 않도록 상대 경로로 빌드합니다.
-  base: './',
+  base: process.env.VITE_BASE_PATH || './',
+  build: {
+    sourcemap: false,
+    chunkSizeWarningLimit: 1000,
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          react: ['react', 'react-dom'],
+          icons: ['lucide-react'],
+        },
+      },
+    },
+  },
 });

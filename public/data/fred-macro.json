@@ -1,0 +1,143 @@
+{
+  "metadata": {
+    "source": "FRED public baseline",
+    "updatedAt": "2026-06-12T09:00:00+09:00",
+    "generatedAt": "2026-06-12T09:00:00+09:00",
+    "seriesCount": 4,
+    "note": "FRED 공개 지표 기준선입니다. FRED 키가 설정되면 GitHub Actions가 최신 관측값으로 갱신합니다."
+  },
+  "items": [
+    {
+      "seriesId": "FEDFUNDS",
+      "koreanName": "미국 기준금리",
+      "unit": "%",
+      "latestDate": "2026-06-10",
+      "latestValue": 3.62,
+      "previousDate": "2026-06-09",
+      "previousValue": 3.62,
+      "change": 0.0,
+      "changeRate": 0.0,
+      "observations": [
+        {
+          "date": "2026-06-04",
+          "value": 3.62
+        },
+        {
+          "date": "2026-06-05",
+          "value": 3.62
+        },
+        {
+          "date": "2026-06-08",
+          "value": 3.62
+        },
+        {
+          "date": "2026-06-09",
+          "value": 3.62
+        },
+        {
+          "date": "2026-06-10",
+          "value": 3.62
+        }
+      ]
+    },
+    {
+      "seriesId": "DGS10",
+      "koreanName": "미국 10년 국채금리",
+      "unit": "%",
+      "latestDate": "2026-06-10",
+      "latestValue": 4.55,
+      "previousDate": "2026-06-09",
+      "previousValue": 4.53,
+      "change": 0.02,
+      "changeRate": 0.44,
+      "observations": [
+        {
+          "date": "2026-06-04",
+          "value": 4.47
+        },
+        {
+          "date": "2026-06-05",
+          "value": 4.55
+        },
+        {
+          "date": "2026-06-08",
+          "value": 4.56
+        },
+        {
+          "date": "2026-06-09",
+          "value": 4.53
+        },
+        {
+          "date": "2026-06-10",
+          "value": 4.55
+        }
+      ]
+    },
+    {
+      "seriesId": "CPIAUCSL",
+      "koreanName": "미국 소비자물가지수",
+      "unit": "pt",
+      "latestDate": "2026-05-01",
+      "latestValue": 333.979,
+      "previousDate": "2026-04-01",
+      "previousValue": 332.407,
+      "change": 1.572,
+      "changeRate": 0.47,
+      "observations": [
+        {
+          "date": "2026-01-01",
+          "value": 326.588
+        },
+        {
+          "date": "2026-02-01",
+          "value": 327.46
+        },
+        {
+          "date": "2026-03-01",
+          "value": 330.293
+        },
+        {
+          "date": "2026-04-01",
+          "value": 332.407
+        },
+        {
+          "date": "2026-05-01",
+          "value": 333.979
+        }
+      ]
+    },
+    {
+      "seriesId": "UNRATE",
+      "koreanName": "미국 실업률",
+      "unit": "%",
+      "latestDate": "2026-05-01",
+      "latestValue": 4.3,
+      "previousDate": "2026-04-01",
+      "previousValue": 4.3,
+      "change": 0.0,
+      "changeRate": 0.0,
+      "observations": [
+        {
+          "date": "2026-01-01",
+          "value": 4.3
+        },
+        {
+          "date": "2026-02-01",
+          "value": 4.4
+        },
+        {
+          "date": "2026-03-01",
+          "value": 4.3
+        },
+        {
+          "date": "2026-04-01",
+          "value": 4.3
+        },
+        {
+          "date": "2026-05-01",
+          "value": 4.3
+        }
+      ]
+    }
+  ]
+}

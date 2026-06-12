@@ -1,0 +1,58 @@
+name: Update FRED Market Environment
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "20 22 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-fred:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: main
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Validate required secrets
+        shell: bash
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+        run: |
+          set -euo pipefail
+          test -n "${FRED_API_KEY:-}" || { echo "FRED_API_KEY Secret이 필요합니다."; exit 1; }
+
+      - name: Fetch FRED macro indicators and market summaries
+        shell: bash
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_REPORTS_ENABLED: ${{ vars.GEMINI_REPORTS_ENABLED }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          GEMINI_REQUEST_PAUSE_MS: ${{ vars.GEMINI_REQUEST_PAUSE_MS }}
+          GEMINI_MAX_INPUT_CHARS: ${{ vars.GEMINI_MAX_INPUT_CHARS }}
+          GEMINI_MAX_RETRIES: ${{ vars.GEMINI_MAX_RETRIES }}
+        run: node scripts/fetchFredMacro.js
+
+      - name: Commit FRED data
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- public/data/fred-macro.json public/data/fred-macro-report.json; then
+            echo "반영할 FRED 데이터 변경을 확인했습니다."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/fred-macro.json public/data/fred-macro-report.json
+          git commit -m "시장환경 데이터 자동 갱신 [skip ci]"
+          git push origin main

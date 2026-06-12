@@ -1,37 +1,37 @@
 {
   "metadata": {
-    "source": "FRED public baseline",
-    "generatedAt": "2026-06-12T09:00:00+09:00",
-    "itemCount": 4
+    "source": "local-rules",
+    "generatedAt": "2026-06-12T23:54:52.571Z",
+    "model": null
   },
   "items": [
     {
       "seriesId": "FEDFUNDS",
       "koreanName": "미국 기준금리",
-      "plainSummary": "기준금리는 최근 관측값 기준 3.62%로 표시됩니다.",
-      "ipoContext": "공모 일정 확인 시 자금시장 분위기를 함께 보는 참고 지표입니다.",
-      "caution": "공시 원문과 일정 정보를 함께 확인하세요."
+      "plainSummary": "미국 기준금리 최신값은 3.63%이며 하락 흐름입니다.",
+      "ipoContext": "IPO 일정과 함께 확인할 수 있는 시장환경 지표입니다.",
+      "caution": "공시와 시장 지표를 함께 확인하세요."
     },
     {
       "seriesId": "DGS10",
-      "koreanName": "미국 10년 국채금리",
-      "plainSummary": "10년 국채금리는 4.55%로 최근 관측값이 소폭 높아졌습니다.",
-      "ipoContext": "장기금리 흐름은 성장기업 평가 환경을 볼 때 참고할 수 있습니다.",
-      "caution": "공시 원문과 일정 정보를 함께 확인하세요."
+      "koreanName": "미국 10년물 국채금리",
+      "plainSummary": "미국 10년물 국채금리 최신값은 4.45%이며 하락 흐름입니다.",
+      "ipoContext": "IPO 일정과 함께 확인할 수 있는 시장환경 지표입니다.",
+      "caution": "공시와 시장 지표를 함께 확인하세요."
     },
     {
       "seriesId": "CPIAUCSL",
-      "koreanName": "미국 소비자물가지수",
-      "plainSummary": "소비자물가지수는 2026년 5월 333.979로 집계됐습니다.",
-      "ipoContext": "물가 흐름은 시장환경을 넓게 확인하는 보조 지표입니다.",
-      "caution": "공시 원문과 일정 정보를 함께 확인하세요."
+      "koreanName": "미국 소비자물가지수 CPI",
+      "plainSummary": "미국 소비자물가지수 CPI 최신값은 334이며 상승 흐름입니다.",
+      "ipoContext": "IPO 일정과 함께 확인할 수 있는 시장환경 지표입니다.",
+      "caution": "공시와 시장 지표를 함께 확인하세요."
     },
     {
       "seriesId": "UNRATE",
       "koreanName": "미국 실업률",
-      "plainSummary": "실업률은 2026년 5월 4.3%로 전월과 같은 수준입니다.",
-      "ipoContext": "고용 지표는 시장 심리 확인용 보조 지표로 함께 표시합니다.",
-      "caution": "공시 원문과 일정 정보를 함께 확인하세요."
+      "plainSummary": "미국 실업률 최신값은 4.3%이며 보합 흐름입니다.",
+      "ipoContext": "IPO 일정과 함께 확인할 수 있는 시장환경 지표입니다.",
+      "caution": "공시와 시장 지표를 함께 확인하세요."
     }
   ]
 }

@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "updatedAt": "2026-06-12T12:13:13.493Z",
+    "updatedAt": "2026-06-12T23:27:19.646Z",
     "source": "OpenDART",
     "basis": "증권신고서 주요정보 - 지분증권(estkRs), 공시검색(list), 공시원문(document.xml)",
     "dateRange": {
-      "bgnDe": "20251214",
-      "endDe": "20260612"
+      "bgnDe": "20251215",
+      "endDe": "20260613"
     },
     "lookbackDays": 180,
     "lookaheadDays": 120,

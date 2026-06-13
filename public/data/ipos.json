@@ -1,16 +1,16 @@
 {
   "metadata": {
-    "updatedAt": "2026-06-12T23:27:19.646Z",
+    "updatedAt": "2026-06-13T23:15:34.010Z",
     "source": "OpenDART",
     "basis": "증권신고서 주요정보 - 지분증권(estkRs), 공시검색(list), 공시원문(document.xml)",
     "dateRange": {
-      "bgnDe": "20251215",
-      "endDe": "20260613"
+      "bgnDe": "20251216",
+      "endDe": "20260614"
     },
     "lookbackDays": 180,
     "lookaheadDays": 120,
-    "totalFilings": 12650,
-    "totalCompanies": 365,
+    "totalFilings": 12558,
+    "totalCompanies": 364,
     "totalItems": 38,
     "documentDetailItems": 38,
     "warning": "환불일·상장예정일·경쟁률은 공시 원문에서 추출 가능한 경우에만 표시됩니다. 지분증권 공시라 IPO 외 유상증자 등 다른 청약도 포함될 수 있습니다."

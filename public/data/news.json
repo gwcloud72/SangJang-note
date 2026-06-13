@@ -1,11 +1,77 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-06-12T23:27:25.651Z",
+    "updatedAt": "2026-06-13T23:15:40.065Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "3e855dc130115e43",
+      "keyword": "져스텍",
+      "companyName": "져스텍",
+      "title": "이번주 공모주 청약, 빅웨이브로보틱스 등 3개사",
+      "description": "6월 셋째 주(15~19일) 기업공개(IPO) 시장에서는 인공지능(AI) 기반 자동차용 비전 인식 소프트웨어 기업... 있으며, 상장 주관사는 KB증권이다. 져스텍은 지난 12일 수요예측을 마무리했다. 공모 희망밴드는 1만500...",
+      "link": "https://n.news.naver.com/mnews/article/119/0003100751?sid=101",
+      "originallink": "https://www.dailian.co.kr/news/view/1655528/?sc=Naver",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-13T23:01:00.000Z"
+    },
+    {
+      "id": "8467804dda865a88",
+      "keyword": "레메디",
+      "companyName": "레메디",
+      "title": "[이번주 IPO]6월 셋째 주 수요예측·청약 일정",
+      "description": "희망 공모가 밴드는 7500~1만원, 총 공모 예정 금액은 150억~200억원 규모다. 수요예측은 오는 15일부터 19일까지, 일반 청약은 24~25일 양일간 이뤄진다. 상장 주관사는 KB증권이다. ◆레메디= 2012년 설립된 레메디는 X...",
+      "link": "https://n.news.naver.com/mnews/article/277/0005775920?sid=101",
+      "originallink": "https://view.asiae.co.kr/article/2026061310383907132",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-13T23:00:00.000Z"
+    },
+    {
+      "id": "1ddf2a15cfff3203",
+      "keyword": "레메디",
+      "companyName": "레메디",
+      "title": "[공모주달력]활기도는 IPO 시장…레몬헬스케어·레메디 코스닥 도전장",
+      "description": "로봇 자동화 플랫폼 기업 빅웨이브로보틱스도 이번 주 청약을 시작해요. 메리츠스팩2호는 코스닥시장에 상장해요. 코스닥 시장에 새롭게 도전장을 내미는 곳도 있어요. 휴대용 엑스레이(X-ray) 장비 기업 레메디와...",
+      "link": "https://n.news.naver.com/mnews/article/648/0000047986?sid=101",
+      "originallink": "https://news.bizwatch.co.kr/article/market/2026/06/12/0010",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-13T23:00:00.000Z"
+    },
+    {
+      "id": "02e7180d7f741521",
+      "keyword": "레메디",
+      "companyName": "레메디",
+      "title": "6월 셋째주 공모주 청약 2곳·수요예측 2곳 진행",
+      "description": "6월 셋째 주 기업공개(IPO) 시장은 공모주 청약 2곳과 수요예측 2곳이 각각 예정돼 있습니다. 13일... 레몬헬스케어는 오는 15∼19일, 레메디는 오는 17∼23일 각각 수요예측에 나섭니다. 레몬헬스케어는 소프트웨어...",
+      "link": "https://n.news.naver.com/mnews/article/374/0000515845?sid=101",
+      "originallink": "https://biz.sbs.co.kr/article_hub/20000316357?division=NAVER",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-13T01:39:00.000Z"
+    },
+    {
+      "id": "4eb5dcdc21212c92",
+      "keyword": "레메디",
+      "companyName": "레메디",
+      "title": "코스닥 IPO 기대감 상승: 스트라드비젼·져스텍 등 청약 돌입",
+      "description": "6월 셋째 주 기업공개 시장은 공모주 일반청약 2곳과 기관투자자 대상 수요예측 2곳이 이어지면서, 성장 산업을 앞세운 코스닥 상장 도전이 한 주 동안 집중되는 흐름을 보이고 있다. 13일 금융정보업체...",
+      "link": "https://www.tokenpost.kr/news/market/368875",
+      "originallink": "https://www.tokenpost.kr/news/market/368875",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-13T00:08:00.000Z"
+    },
+    {
+      "id": "e757067ce16d3d1a",
+      "keyword": "레메디",
+      "companyName": "레메디",
+      "title": "[주간 IPO] 져스텍·스트라드비젼 일반청약…메리츠2호스팩 19일 상장",
+      "description": "주 기업공개(IPO) 시장에서는 메리츠2호스팩이 코스닥 시장에 입성한다. 져스텍과 스트라드비젼은 일반투자자 대상 공모청약에 나선다. 13일 한국거래소에 따르면 메리츠스팩2호는 오는 19일 코스닥 시장에 상장한...",
+      "link": "https://www.etoday.co.kr/news/view/2593214",
+      "originallink": "https://www.etoday.co.kr/news/view/2593214",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-13T00:02:00.000Z"
+    },
     {
       "id": "80d0e41ffe07f604",
       "keyword": "이노스페이스",
@@ -27,17 +93,6 @@
       "originallink": "https://biz.sbs.co.kr/article_hub/20000316263?division=NAVER",
       "provider": "뉴스 검색",
       "publishedAt": "2026-06-12T07:37:00.000Z"
-    },
-    {
-      "id": "4b74bfb32d027c85",
-      "keyword": "스트라드비젼",
-      "companyName": "스트라드비젼",
-      "title": "[스트라드비젼 IPO] 현대차·LG 1개월 락업…상장 당일 유통주 최대 38%",
-      "description": "공모주 확약 감안하면 추가 감소 가능성…오버행 부담 낮춰 스트라드비젼의 주요 기관투자자들이 상장일... 김준 스트라드비젼 최고재무책임자(CFO)는 12일 서울 여의도에서 열린 기업공개(IPO) 기자간담회에서...",
-      "link": "https://dealsite.co.kr/articles/163499",
-      "originallink": "https://dealsite.co.kr/articles/163499",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-12T07:26:00.000Z"
     },
     {
       "id": "2a5474bb75da5e1a",
@@ -63,10 +118,10 @@
     },
     {
       "id": "030b4f08467fb3c6",
-      "keyword": "레몬헬스케어",
-      "companyName": "레몬헬스케어",
+      "keyword": "매드업",
+      "companyName": "매드업",
       "title": "[Invest]'또 테마주 상장하네'…IPO 업종 편중에 커지는 거래소의 딜레마",
-      "description": "10일 금융투자업계에 따르면 이달 공모시장에는 스트라드비젼, 져스텍, 빅웨이브로보틱스, 매드업, 레몬헬스케어 등이 수요예측과 일반청약을 진행할 예정이다. 대부분 코스닥 상장을 추진하는 중소형 기술기업이다....",
+      "description": "IPO) 시장이 부진을 거듭한 가운데 이달 공모시장에 로봇·바이오·자율주행 등 기술기업들이 잇따라 상장에... 10일 금융투자업계에 따르면 이달 공모시장에는 스트라드비젼, 져스텍, 빅웨이브로보틱스, 매드업...",
       "link": "https://www.investchosun.com/site/data/html_dir/2026/06/11/2026061180132.html",
       "originallink": "https://www.investchosun.com/site/data/html_dir/2026/06/11/2026061180132.html",
       "provider": "뉴스 검색",
@@ -84,28 +139,6 @@
       "publishedAt": "2026-06-11T21:00:00.000Z"
     },
     {
-      "id": "6b7243092bec23c9",
-      "keyword": "레메디",
-      "companyName": "레메디",
-      "title": "'IPO 왕좌' 탈환 노리는 KB증권, 6월 단독 주관 3건 출격…하반기 빅딜 ...",
-      "description": "기업공개(IPO) 주관 실적 1위를 차지했던 KB증권이 상반기 부진을 털고 반격에 나선다. 연초 대형 공모주 부재로 주관 실적이 다소 주춤했지만, 6월 들어 스트라드비젼과 레메디, 레몬헬스케어 등 3개 기업의 상장을...",
-      "link": "https://www.greened.kr/news/articleView.html?idxno=342337",
-      "originallink": "https://www.greened.kr/news/articleView.html?idxno=342337",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-11T06:07:00.000Z"
-    },
-    {
-      "id": "622dae125c26b70f",
-      "keyword": "져스텍",
-      "companyName": "져스텍",
-      "title": "[져스텍 IPO] 일본서 인증된 로봇기술…실적쇼크 넘어야 흥행",
-      "description": "8억 져스텍이 일본에서 검증 받은 로봇 기술을 바탕으로 국내 코스닥 상장을 준비한다. 하지만 시장에서는... 10일 투자은행(IB) 업계에 따르면 져스텍은 8일부터 12일까지 공모주 수요예측에 돌입한다. 이번 기업공개(IPO)...",
-      "link": "https://dealsite.co.kr/articles/163156",
-      "originallink": "https://dealsite.co.kr/articles/163156",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-10T23:56:00.000Z"
-    },
-    {
       "id": "d5ffe5ca1852955d",
       "keyword": "매드업",
       "companyName": "매드업",
@@ -118,80 +151,14 @@
     },
     {
       "id": "4611f596e672f0cf",
-      "keyword": "레몬헬스케어",
-      "companyName": "레몬헬스케어",
+      "keyword": "매드업",
+      "companyName": "매드업",
       "title": "\"급락장에는 장사 없네\"…IPO '청약 흥행=따따블 공식' 흔들",
-      "description": "상장 당시 시장 분위기와 유통 가능 물량, 기업 실적 가시성을 함께 봐야 하는 구간에 들어선 셈이다. 6월 IPO 시장도 관망세가 이어질 전망이다. 져스텍, 스트라드비젼, 빅웨이브로보틱스, 매드업, 레몬헬스케어 등이...",
+      "description": "코스피 대어급 IPO가 부재한 가운데 제한된 코스닥 공모주로 자금이 집중된 것이다. 이 같은 쏠림은 상장... 6월 IPO 시장도 관망세가 이어질 전망이다. 져스텍, 스트라드비젼, 빅웨이브로보틱스, 매드업, 레몬헬스케어...",
       "link": "https://www.newsway.co.kr/news/view?ud=2026060911152060705",
       "originallink": "https://www.newsway.co.kr/news/view?ud=2026060911152060705",
       "provider": "뉴스 검색",
       "publishedAt": "2026-06-09T04:40:00.000Z"
-    },
-    {
-      "id": "362c5df3289c56f1",
-      "keyword": "레몬헬스케어",
-      "companyName": "레몬헬스케어",
-      "title": "키움증권, 1분기 호실적 속 IPO 공백 지속…하반기엔 반등 가능할까",
-      "description": "전통적인 IPO 성수기로 다수의 일정이 진행될 예정\"이라며 \"8일 피스피스스튜디오 상장을 필두로 져스텍, 스트라드비젼, 빅웨이브로보틱스, 매드업, 레몬헬스케어 등의 수요예측·공모청약 일정이 예정돼 있으며 예심...",
-      "link": "https://n.news.naver.com/mnews/article/088/0001013707?sid=101",
-      "originallink": "https://www.imaeil.com/page/view/2026060910152173956",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-09T01:29:00.000Z"
-    },
-    {
-      "id": "b5d0bff629c8875b",
-      "keyword": "레몬헬스케어",
-      "companyName": "레몬헬스케어",
-      "title": "6월 공모주 청약 일정 '한눈에'... 로봇·AI 기업 대거 등장",
-      "description": "한국거래소 IPO 일정에 따르면 6월에는 메리츠제2호스팩을 시작으로 스트라드비젼, 져스텍, 빅웨이브로보틱스, 매드업, 레몬헬스케어 등 다양한 기업의 공모주 청약이 순차적으로 진행될 예정이다. 먼저...",
-      "link": "https://www.ggilbo.com/news/articleView.html?idxno=1162508",
-      "originallink": "https://www.ggilbo.com/news/articleView.html?idxno=1162508",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-08T14:44:00.000Z"
-    },
-    {
-      "id": "68cec4be6b97618f",
-      "keyword": "레메디",
-      "companyName": "레메디",
-      "title": "인터엑스 싱장 예심…기존 투자자 \"공모 분위기 좋아 구주 안판다\"",
-      "description": "마키나락스는 지난달 20일 상장해 이른바 '따따블(공모가 대비 4배 상승)'에 성공, 이틀 뒤 8만3600원까지 오른 바 있다. 인터엑스는 지난달 클로징한 프리 IPO에서 160억원(투자기관 리벤처스, 메디치인베스트먼트...",
-      "link": "https://n.news.naver.com/mnews/article/008/0005367260?sid=101",
-      "originallink": "https://www.mt.co.kr/stock/2026/06/04/2026060415354032078",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-04T07:02:00.000Z"
-    },
-    {
-      "id": "14430c9bb4adad73",
-      "keyword": "레메디",
-      "companyName": "레메디",
-      "title": "레메디 '오버행' 우려⋯상장일 유통물량 최고",
-      "description": "업체 레메디는 지난달 22일 증권 신고서를 제출하고 본격적인 공모 절차를 밟고 있다. 총 120만주(100... 레메디는 지난 2022년 5월 처음으로 상장에 도전했으나 코로나19 팬데믹 상황에서 바이오 기업공개(IPO) 시장...",
-      "link": "https://n.news.naver.com/mnews/article/031/0001032855?sid=101",
-      "originallink": "http://www.inews24.com/view/1973810",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-04T01:46:00.000Z"
-    },
-    {
-      "id": "3b9532b2dcdbcac8",
-      "keyword": "레메디",
-      "companyName": "레메디",
-      "title": "[분석] IPO 시장, 여름 블록버스터 개봉박두…하반기엔 美 상장 러시",
-      "description": "초대형 IPO가 새로운 변수로 떠오르고 있다. ■ 상장은 3곳뿐인데…공모주 열기 더 뜨거웠다 3일... 마치고 상장을 추진 중인 기업은 2곳이며, 6월 상장을 목표로 하는 기업은 5~6개 수준으로 파악된다. 레메디...",
-      "link": "https://www.startuptoday.co.kr/news/articleView.html?idxno=802666",
-      "originallink": "https://www.startuptoday.co.kr/news/articleView.html?idxno=802666",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-03T09:00:00.000Z"
-    },
-    {
-      "id": "6f9cf1c4e3680c15",
-      "keyword": "레메디",
-      "companyName": "레메디",
-      "title": "6월 공모주 청약 달아오른다…져스텍·스트라드비젼 등 상장 살펴보니",
-      "description": "일반 청약은 24~25일 진행될 예정이며 희망 공모가는 7500원에서 1만원 수준이다. 의료용 휴대용 엑스선 영상촬영장치 제조기업 레메디는 세 번째 코스닥 상장 도전에 나선다. 레메디는 17일부터 23일까지 기관...",
-      "link": "https://n.news.naver.com/mnews/article/123/0002383938?sid=101",
-      "originallink": "http://www.joseilbo.com/news/news_read.php?uid=569231&class=53&grp=",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-01T00:31:00.000Z"
     },
     {
       "id": "af1461b533106861",

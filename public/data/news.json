@@ -1,11 +1,44 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-06-14T14:12:37.469Z",
+    "updatedAt": "2026-06-14T23:13:44.138Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "239806aa5ac5ffd6",
+      "keyword": "레메디",
+      "companyName": "레메디",
+      "title": "잠잠하던 IPO 시장, 청약 러시…빅웨이브로보틱스 등 출격",
+      "description": "이달 유망 기업들의 공모가 쏟아지며 한동안 잠잠했던 기업공개(IPO) 시장이 본격화된다. 신규 상장 기업... 매드업, 레몬헬스케어, 레메디의 기관 수요예측도 이어진다. 스트라드비젼은 9일부터 15일까지...",
+      "link": "https://www.newstopkorea.com/news/articleView.html?idxno=45518",
+      "originallink": "https://www.newstopkorea.com/news/articleView.html?idxno=45518",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-14T23:12:00.000Z"
+    },
+    {
+      "id": "e8eda5fd8891ab21",
+      "keyword": "져스텍",
+      "companyName": "져스텍",
+      "title": "스트라드비젼·져스텐, 코스닥 공모주 2종목 청약 [이번주 증시 캘린더...",
+      "description": "이번주 기업공개(IPO) 시장에서는 코스닥 상장을 추진하는 스트라드비젼과 져스텍이 일반 투자자들을 대상으로 공모주 청약을 진행한다. 15일 금융투자 업계에 따르면 인공지능(AI) 기반 차량용 비전 인식 소프트웨어...",
+      "link": "https://n.news.naver.com/mnews/article/011/0004631045?sid=101",
+      "originallink": "https://www.sedaily.com/article/20055522?ref=naver",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-14T21:31:00.000Z"
+    },
+    {
+      "id": "f10ebbd2c1a53e96",
+      "keyword": "레메디",
+      "companyName": "레메디",
+      "title": "[IPO 워치] 스트라드비젼·져스텍·빅웨이브로보틱스 청약 돌입",
+      "description": "레몬헬스케어·레메디 등 수요예측 메리츠2호스팩 19일 코스닥 상장 위 이미지는 기사 이해를 돕기 위해 AI(인공지능)을 활용해 제작했습니다. [그림=챗GPT] [뉴스투데이=염보라 기자] 이번 주(15~19일) 기업공개(IPO)...",
+      "link": "https://www.news2day.co.kr/article/20260614500021",
+      "originallink": "https://www.news2day.co.kr/article/20260614500021",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-14T19:20:00.000Z"
+    },
     {
       "id": "2628099fda23b985",
       "keyword": "레메디",
@@ -30,25 +63,14 @@
     },
     {
       "id": "3e855dc130115e43",
-      "keyword": "져스텍",
-      "companyName": "져스텍",
+      "keyword": "빅웨이브로보틱스",
+      "companyName": "빅웨이브로보틱스",
       "title": "이번주 공모주 청약, 빅웨이브로보틱스 등 3개사",
-      "description": "6월 셋째 주(15~19일) 기업공개(IPO) 시장에서는 인공지능(AI) 기반 자동차용 비전 인식 소프트웨어 기업... 있으며, 상장 주관사는 KB증권이다. 져스텍은 지난 12일 수요예측을 마무리했다. 공모 희망밴드는 1만500...",
+      "description": "6월 셋째 주(15~19일) 기업공개(IPO) 시장에서는 인공지능(AI) 기반 자동차용 비전 인식 소프트웨어 기업... 삼성증권이 상장 주관을 맡았다. 빅웨이브로보틱스는 오는 17일까지 수요예측을 진행, 공모가 희망밴드는...",
       "link": "https://n.news.naver.com/mnews/article/119/0003100751?sid=101",
       "originallink": "https://www.dailian.co.kr/news/view/1655528/?sc=Naver",
       "provider": "뉴스 검색",
       "publishedAt": "2026-06-13T23:01:00.000Z"
-    },
-    {
-      "id": "1ddf2a15cfff3203",
-      "keyword": "레메디",
-      "companyName": "레메디",
-      "title": "[공모주달력]활기도는 IPO 시장…레몬헬스케어·레메디 코스닥 도전장",
-      "description": "로봇 자동화 플랫폼 기업 빅웨이브로보틱스도 이번 주 청약을 시작해요. 메리츠스팩2호는 코스닥시장에 상장해요. 코스닥 시장에 새롭게 도전장을 내미는 곳도 있어요. 휴대용 엑스레이(X-ray) 장비 기업 레메디와...",
-      "link": "https://n.news.naver.com/mnews/article/648/0000047986?sid=101",
-      "originallink": "https://news.bizwatch.co.kr/article/market/2026/06/12/0010",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-13T23:00:00.000Z"
     },
     {
       "id": "8467804dda865a88",
@@ -62,26 +84,15 @@
       "publishedAt": "2026-06-13T23:00:00.000Z"
     },
     {
-      "id": "02e7180d7f741521",
+      "id": "1ddf2a15cfff3203",
       "keyword": "레메디",
       "companyName": "레메디",
-      "title": "6월 셋째주 공모주 청약 2곳·수요예측 2곳 진행",
-      "description": "6월 셋째 주 기업공개(IPO) 시장은 공모주 청약 2곳과 수요예측 2곳이 각각 예정돼 있습니다. 13일... 레몬헬스케어는 오는 15∼19일, 레메디는 오는 17∼23일 각각 수요예측에 나섭니다. 레몬헬스케어는 소프트웨어...",
-      "link": "https://n.news.naver.com/mnews/article/374/0000515845?sid=101",
-      "originallink": "https://biz.sbs.co.kr/article_hub/20000316357?division=NAVER",
+      "title": "[공모주달력]활기도는 IPO 시장…레몬헬스케어·레메디 코스닥 도전장",
+      "description": "로봇 자동화 플랫폼 기업 빅웨이브로보틱스도 이번 주 청약을 시작해요. 메리츠스팩2호는 코스닥시장에 상장해요. 코스닥 시장에 새롭게 도전장을 내미는 곳도 있어요. 휴대용 엑스레이(X-ray) 장비 기업 레메디와...",
+      "link": "https://n.news.naver.com/mnews/article/648/0000047986?sid=101",
+      "originallink": "https://news.bizwatch.co.kr/article/market/2026/06/12/0010",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-06-13T01:39:00.000Z"
-    },
-    {
-      "id": "4eb5dcdc21212c92",
-      "keyword": "레메디",
-      "companyName": "레메디",
-      "title": "코스닥 IPO 기대감 상승: 스트라드비젼·져스텍 등 청약 돌입",
-      "description": "6월 셋째 주 기업공개 시장은 공모주 일반청약 2곳과 기관투자자 대상 수요예측 2곳이 이어지면서, 성장 산업을 앞세운 코스닥 상장 도전이 한 주 동안 집중되는 흐름을 보이고 있다. 13일 금융정보업체...",
-      "link": "https://www.tokenpost.kr/news/market/368875",
-      "originallink": "https://www.tokenpost.kr/news/market/368875",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-13T00:08:00.000Z"
+      "publishedAt": "2026-06-13T23:00:00.000Z"
     },
     {
       "id": "e757067ce16d3d1a",
@@ -159,17 +170,6 @@
       "originallink": "https://www.mt.co.kr/world/2026/06/12/2026061122400674251",
       "provider": "뉴스 검색",
       "publishedAt": "2026-06-11T21:00:00.000Z"
-    },
-    {
-      "id": "d5ffe5ca1852955d",
-      "keyword": "매드업",
-      "companyName": "매드업",
-      "title": "깨진 '공모주=따따블' 공식…IPO 후발 주자 '초긴장'",
-      "description": "이 같은 분위기 속에 상장을 앞둔 후발 주자들의 긴장감도 커지고 있다. 수요예측을 진행 중인 져스텍, 스트라드비젼을 비롯해 빅웨이브로보틱스, 매드업 등이 IPO(기업공개) 절차를 밟고 있다. 하반기 대어로 꼽히는...",
-      "link": "https://n.news.naver.com/mnews/article/003/0013995909?sid=101",
-      "originallink": "https://www.newsis.com/view/NISX20260609_0003661515",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-09T04:46:00.000Z"
     },
     {
       "id": "af1461b533106861",
@@ -258,17 +258,6 @@
       "originallink": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=416111",
       "provider": "뉴스 검색",
       "publishedAt": "2026-01-11T06:24:00.000Z"
-    },
-    {
-      "id": "70935bcd6420e3ff",
-      "keyword": "메리츠제2호기업인수목적",
-      "companyName": "메리츠제2호기업인수목적",
-      "title": "[Who Is ?] 서호성 리파인 대표이사",
-      "description": "그러면서 \"상장 후 주가 흐름에는 단순히 공모가가 적정한 지 여부를 떠나 섹터나 비즈니스에 대한 인기... 제2호의1 사모투자합자회사가 설립한 특수목적회사다. PEF는 투자자 이익 추구를 위해 인수기업의 이익금을...",
-      "link": "https://www.businesspost.co.kr/BP?command=article_view&num=421028",
-      "originallink": "https://www.businesspost.co.kr/BP?command=article_view&num=421028",
-      "provider": "뉴스 검색",
-      "publishedAt": "2025-11-23T22:38:00.000Z"
     },
     {
       "id": "449e6730f3be1fa1",

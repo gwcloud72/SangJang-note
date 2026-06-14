@@ -1,11 +1,33 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-06-13T23:15:40.065Z",
+    "updatedAt": "2026-06-14T14:12:37.469Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "2628099fda23b985",
+      "keyword": "레메디",
+      "companyName": "레메디",
+      "title": "이번주 레몬헬스케어·레메디 등 5곳 수요예측 돌입…IPO 시장 기지개",
+      "description": "이번 주(6월 15~19일) 기업공개(IPO) 시장에서는 새롭게 수요예측에 나서는 2곳을 비롯해 총 5개사가 기관... 2012년 설립된 레메디는 17일부터 23일까지 수요예측을 거치며 세 번째 상장 도전에 나선다. 희망 공모가는...",
+      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4419860",
+      "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4419860",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-14T04:06:00.000Z"
+    },
+    {
+      "id": "d48e75062a44ba28",
+      "keyword": "레몬헬스케어",
+      "companyName": "레몬헬스케어",
+      "title": "스트라드비젼·져스텍 청약[증시캘린더]",
+      "description": "다음 주(6월 15~19일) 기업공개(IPO) 시장에서는 의료용 마이데이터 플랫폼 기업 레몬헬스케어가... 시장에 상장한다. 6월 15~19일 △레몬헬스케어 수요예측 -의료용 마이데이터 중계 플랫폼 ‘LDB(Lemon Digital Bridge)’를...",
+      "link": "https://n.news.naver.com/mnews/article/018/0006305646?sid=101",
+      "originallink": "https://www.edaily.co.kr/news/newspath.asp?newsid=01213606645481720",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-14T00:03:00.000Z"
+    },
     {
       "id": "3e855dc130115e43",
       "keyword": "져스텍",
@@ -18,17 +40,6 @@
       "publishedAt": "2026-06-13T23:01:00.000Z"
     },
     {
-      "id": "8467804dda865a88",
-      "keyword": "레메디",
-      "companyName": "레메디",
-      "title": "[이번주 IPO]6월 셋째 주 수요예측·청약 일정",
-      "description": "희망 공모가 밴드는 7500~1만원, 총 공모 예정 금액은 150억~200억원 규모다. 수요예측은 오는 15일부터 19일까지, 일반 청약은 24~25일 양일간 이뤄진다. 상장 주관사는 KB증권이다. ◆레메디= 2012년 설립된 레메디는 X...",
-      "link": "https://n.news.naver.com/mnews/article/277/0005775920?sid=101",
-      "originallink": "https://view.asiae.co.kr/article/2026061310383907132",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-13T23:00:00.000Z"
-    },
-    {
       "id": "1ddf2a15cfff3203",
       "keyword": "레메디",
       "companyName": "레메디",
@@ -36,6 +47,17 @@
       "description": "로봇 자동화 플랫폼 기업 빅웨이브로보틱스도 이번 주 청약을 시작해요. 메리츠스팩2호는 코스닥시장에 상장해요. 코스닥 시장에 새롭게 도전장을 내미는 곳도 있어요. 휴대용 엑스레이(X-ray) 장비 기업 레메디와...",
       "link": "https://n.news.naver.com/mnews/article/648/0000047986?sid=101",
       "originallink": "https://news.bizwatch.co.kr/article/market/2026/06/12/0010",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-13T23:00:00.000Z"
+    },
+    {
+      "id": "8467804dda865a88",
+      "keyword": "레메디",
+      "companyName": "레메디",
+      "title": "[이번주 IPO]6월 셋째 주 수요예측·청약 일정",
+      "description": "희망 공모가 밴드는 7500~1만원, 총 공모 예정 금액은 150억~200억원 규모다. 수요예측은 오는 15일부터 19일까지, 일반 청약은 24~25일 양일간 이뤄진다. 상장 주관사는 KB증권이다. ◆레메디= 2012년 설립된 레메디는 X...",
+      "link": "https://n.news.naver.com/mnews/article/277/0005775920?sid=101",
+      "originallink": "https://view.asiae.co.kr/article/2026061310383907132",
       "provider": "뉴스 검색",
       "publishedAt": "2026-06-13T23:00:00.000Z"
     },
@@ -63,8 +85,8 @@
     },
     {
       "id": "e757067ce16d3d1a",
-      "keyword": "레메디",
-      "companyName": "레메디",
+      "keyword": "매드업",
+      "companyName": "매드업",
       "title": "[주간 IPO] 져스텍·스트라드비젼 일반청약…메리츠2호스팩 19일 상장",
       "description": "주 기업공개(IPO) 시장에서는 메리츠2호스팩이 코스닥 시장에 입성한다. 져스텍과 스트라드비젼은 일반투자자 대상 공모청약에 나선다. 13일 한국거래소에 따르면 메리츠스팩2호는 오는 19일 코스닥 시장에 상장한...",
       "link": "https://www.etoday.co.kr/news/view/2593214",
@@ -148,17 +170,6 @@
       "originallink": "https://www.newsis.com/view/NISX20260609_0003661515",
       "provider": "뉴스 검색",
       "publishedAt": "2026-06-09T04:46:00.000Z"
-    },
-    {
-      "id": "4611f596e672f0cf",
-      "keyword": "매드업",
-      "companyName": "매드업",
-      "title": "\"급락장에는 장사 없네\"…IPO '청약 흥행=따따블 공식' 흔들",
-      "description": "코스피 대어급 IPO가 부재한 가운데 제한된 코스닥 공모주로 자금이 집중된 것이다. 이 같은 쏠림은 상장... 6월 IPO 시장도 관망세가 이어질 전망이다. 져스텍, 스트라드비젼, 빅웨이브로보틱스, 매드업, 레몬헬스케어...",
-      "link": "https://www.newsway.co.kr/news/view?ud=2026060911152060705",
-      "originallink": "https://www.newsway.co.kr/news/view?ud=2026060911152060705",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-09T04:40:00.000Z"
     },
     {
       "id": "af1461b533106861",

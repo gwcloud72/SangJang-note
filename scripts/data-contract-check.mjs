@@ -244,7 +244,7 @@ function validateIpoOnlySchedule(ipos, label) {
   if (normalized.status === '환불일' && !(normalized.end && normalized.refundDate && normalized.end < today && today <= normalized.refundDate)) errors.push(`${label}.items[${index}]: 환불일 상태는 청약 종료 후 환불일까지의 일정에만 허용됩니다. (${companyName || '기업명 확인'})`);
   if (normalized.status === '청약 예정' && normalized.start && normalized.start <= today) errors.push(`${label}.items[${index}]: 청약 예정은 기준일 이후 일정에만 허용됩니다. (${companyName || '기업명 확인'})`);
   if (normalized.status.includes('상장') && !normalized.listingDate) errors.push(`${label}.items[${index}]: 상장 상태는 listingDate가 있을 때만 허용됩니다. (${companyName || '기업명 확인'})`);
-  if (normalized.status && !['예비심사','예비심사','청약 예정','청약 진행중','환불일','상장','상장'].includes(normalized.status)) errors.push(`${label}.items[${index}]: 허용되지 않은 IPO 상태입니다. (${companyName || '기업명 확인'} / ${normalized.status})`);
+  if (normalized.status && !['예비심사','수요예측','청약 예정','청약 진행중','환불일','상장'].includes(normalized.status)) errors.push(`${label}.items[${index}]: 허용되지 않은 IPO 상태입니다. (${companyName || '기업명 확인'} / ${normalized.status})`);
  }
 }
 

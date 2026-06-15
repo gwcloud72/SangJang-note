@@ -1,6 +1,6 @@
 import type { Company, IpoStatus } from './model';
 
-export type IpoAlertKind = '예비심사' | '청약 예정' | '청약 진행중' | '환불일' | '상장';
+export type IpoAlertKind = '예비심사' | '수요예측' | '청약 예정' | '청약 진행중' | '환불일' | '상장';
 
 export interface IpoAlertItem {
   kind: IpoAlertKind;

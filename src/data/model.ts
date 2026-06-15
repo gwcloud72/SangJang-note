@@ -1,7 +1,7 @@
 import { CalendarDays, FileText, Newspaper, TrendingUp } from 'lucide-react';
 import type { BottomWidget, MetricItem } from '../components/common/types';
-export type IpoStatus = '예비심사' | '청약 예정' | '청약 진행중' | '환불일' | '상장';
-export interface Company { id:string; name:string; sector?:string; underwriter:string; status:IpoStatus; date:string; dday:string; color:'green'|'blue'|'purple'|'amber'|'gray'; bookmarked:boolean; memo:string; scheduleStart?:string; scheduleEnd?:string; subscriptionStart?:string; subscriptionEnd?:string; refundDate?:string; listingDate?:string; }
+export type IpoStatus = '예비심사' | '수요예측' | '청약 예정' | '청약 진행중' | '환불일' | '상장';
+export interface Company { id:string; name:string; sector?:string; underwriter:string; status:IpoStatus; date:string; dday:string; color:'green'|'blue'|'purple'|'amber'|'gray'; bookmarked:boolean; memo:string; scheduleStart?:string; scheduleEnd?:string; demandForecastStart?:string; demandForecastEnd?:string; subscriptionStart?:string; subscriptionEnd?:string; refundDate?:string; listingDate?:string; }
 export interface Filing { id:string; company:string; title:string; date:string; type:IpoStatus; link:string; }
 export interface NewsItem { id:string; company:string; title:string; source:string; date:string; link:string; summary:string; }
 export interface ReportItem { id:string; title:string; summary:string; }

@@ -109,9 +109,11 @@
 .company-tone-purple { background: #EDE9FE; color: #5B21B6; }
 .company-tone-amber { background: #FEF3C7; color: #92400E; }
 .company-tone-gray { background: #F3F4F6; color: #374151; }
-.calendar-dot-demand { background: #1D4ED8; }
-.calendar-dot-subscribe { background: #D97706; }
-.calendar-dot-listing { background: #1D4ED8; }
+.calendar-dot-demand { background: #0891B2; }
+.calendar-dot-subscribe-upcoming { background: #F59E0B; }
+.calendar-dot-subscribe { background: #EA580C; }
+.calendar-dot-refund { background: #DB2777; }
+.calendar-dot-listing { background: #2563EB; }
 .calendar-dot-review { background: #7C3AED; }
 
 .v6-page { color: var(--color-ink-900); }

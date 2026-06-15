@@ -4,7 +4,7 @@ import path from 'node:path';
 const root = process.cwd();
 const file = path.join(root, 'public/data/ipos.json');
 const errors = [];
-const allowed = new Set(['예비심사', '청약 예정', '청약 진행중', '환불일', '상장']);
+const allowed = new Set(['예비심사', '수요예측', '청약 예정', '청약 진행중', '환불일', '상장']);
 function readJson(filePath) { return JSON.parse(fs.readFileSync(filePath, 'utf8')); }
 function normalizeDate(value) {
   const text = String(value || '').trim();

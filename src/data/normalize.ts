@@ -35,10 +35,10 @@ export interface CompetitionSnapshot { id: string; ipoId: string; companyName: s
 export interface CompetitionData { snapshots: CompetitionSnapshot[]; mentions: CompetitionMention[]; updatedAt: string | null; sourceLoaded: boolean; }
 export interface IpoBriefing { id: string; ipoId: string; companyName: string; sector: string; ipoStage: string; underwriter: string; basisTimeLabel: string; oneLine: string; body: string; points: string[]; sourceLabels: string[]; competition?: { label: string; value: number; proportionalValue: number | null; timeLabel: string; sourceLine: string } | null; generatedBy: string; model: string | null; }
 export interface BriefingData { items: IpoBriefing[]; updatedAt: string | null; sourceLoaded: boolean; }
-export type IpoAlertStage = '예비심사' | '청약 예정' | '청약 진행중' | '환불일' | '상장';
+export type IpoAlertStage = '예비심사' | '수요예측' | '청약 예정' | '청약 진행중' | '환불일' | '상장';
 export interface IpoAlert { id: string; companyId: string; companyName: string; stage: IpoAlertStage; date: string; dateLabel: string; actionLabel: string; detail: string; sourceLabel: string; }
 export type SangData = { companies: Company[]; metrics: typeof metricTemplates; filings: Filing[]; news: NewsItem[]; reports: ReportItem[]; widgets: typeof defaultWidgets; sourceLoaded: boolean; macro: MacroData; competition: CompetitionData; briefings: BriefingData; alerts: IpoAlert[]; actionUpdatedAt: string | null; referenceDate: string; dataMode: 'actions' | 'fallback'; };
-interface SourceIpoItem { id?: string; company?: string; companyName?: string; corpName?: string; name?: string; sector?: string; status?: string; stage?: string; manager?: string; leadManager?: string; underwriter?: string; date?: string; reportDate?: string; receiptDate?: string; rceptDt?: string; scheduleStart?: string; scheduleEnd?: string; subscriptionStart?: string; subscriptionEnd?: string; subscriptionDate?: string; refundDate?: string; listingDate?: string; refundDateSource?: string; listingDateSource?: string; detailSource?: string; dartUrl?: string; url?: string; link?: string; reportName?: string; title?: string; offeringCategory?: string; eventType?: string; offeringMethod?: string; securityType?: string; stockCode?: string; }
+interface SourceIpoItem { id?: string; company?: string; companyName?: string; corpName?: string; name?: string; sector?: string; status?: string; stage?: string; manager?: string; leadManager?: string; underwriter?: string; date?: string; reportDate?: string; receiptDate?: string; rceptDt?: string; scheduleStart?: string; scheduleEnd?: string; demandForecastStart?: string; demandForecastEnd?: string; demandForecastDate?: string; subscriptionStart?: string; subscriptionEnd?: string; subscriptionDate?: string; refundDate?: string; listingDate?: string; refundDateSource?: string; listingDateSource?: string; detailSource?: string; dartUrl?: string; url?: string; link?: string; reportName?: string; title?: string; offeringCategory?: string; eventType?: string; offeringMethod?: string; securityType?: string; stockCode?: string; }
 interface SourceIpoResponse { metadata?: { updatedAt?: string | null; updatedKst?: string | null; generatedAt?: string | null; referenceDate?: string | null; source?: string | null; sourceMode?: string | null }; items?: SourceIpoItem[]; }
 interface SourceNewsItem { id?: string; title?: string; source?: string; provider?: string; publishedAt?: string; date?: string; pubDate?: string; link?: string; originallink?: string; originalLink?: string; company?: string; companyName?: string; keyword?: string; summary?: string; description?: string; }
 interface SourceNewsResponse { items?: SourceNewsItem[]; }
@@ -68,9 +68,10 @@ const DEFAULT_MACRO_DATA: MacroData = { items: [
 const DEFAULT_COMPETITION_DATA: CompetitionData = { snapshots: [], mentions: [], updatedAt: null, sourceLoaded: false };
 const DEFAULT_BRIEFING_DATA: BriefingData = { items: defaultCompanies.slice(0, 4).map((company) => ({ id: `briefing-${company.id}`, ipoId: company.id, companyName: company.name, sector: company.memo.replace(' 일정을 확인하세요.', '').replace('코스닥 공모 청약 시작', '반도체·RF 소재 부품 기업'), ipoStage: company.status, underwriter: company.underwriter, basisTimeLabel: '오늘 09:30 기준', oneLine: company.memo.replace(' 일정을 확인하세요.', '').slice(0, 46), body: `${company.name}: ${company.status} 단계입니다. 원문 일정과 주관사 공지를 함께 확인합니다.`, points: ['원문 일정 확인', '주관사 공지 확인'], sourceLabels: ['DART 일정', company.underwriter], competition: null, generatedBy: 'local-rules', model: null })), updatedAt: '2026-06-12T09:00:00+09:00', sourceLoaded: true };
 const DEFAULT_SANG_DATA: SangData = { companies: defaultCompanies, metrics: metricTemplates, filings: defaultFilings, news: defaultNews, reports: defaultReports, widgets: defaultWidgets, sourceLoaded: true, macro: DEFAULT_MACRO_DATA, competition: DEFAULT_COMPETITION_DATA, briefings: DEFAULT_BRIEFING_DATA, alerts: [], actionUpdatedAt: '2026-06-12T09:00:00+09:00', referenceDate: '2026-06-12', dataMode: 'fallback' };
-const statusList: IpoStatus[] = ['예비심사','청약 예정','청약 진행중','환불일','상장'];
+const statusList: IpoStatus[] = ['예비심사','수요예측','청약 예정','청약 진행중','환불일','상장'];
 function safeStatus(value?: string): IpoStatus {
   if (value === '예비심사') return '예비심사';
+  if (value === '수요예측') return '수요예측';
   if (value === '청약 진행중') return '청약 진행중';
   if (value === '상장') return '상장';
   return statusList.includes(value as IpoStatus) ? value as IpoStatus : '예비심사';
@@ -194,16 +195,19 @@ function isPastSourceItem(item: SourceIpoItem, referenceDate: string): boolean {
   return Boolean(end && end < referenceDate);
 }
 function isValidStatus(value: string): value is IpoStatus {
-  return ['예비심사', '청약 예정', '청약 진행중', '환불일', '상장'].includes(value);
+  return ['예비심사', '수요예측', '청약 예정', '청약 진행중', '환불일', '상장'].includes(value);
 }
 function deriveStatus(item: SourceIpoItem, referenceDate: string): IpoStatus | '종료' {
   const raw = String(item.status ?? item.stage ?? item.reportName ?? item.title ?? '').trim();
   const start = normalizeDateWithReference(item.subscriptionStart, referenceDate) ?? normalizeDateWithReference(item.subscriptionDate, referenceDate) ?? normalizeDateWithReference(item.scheduleStart, referenceDate) ?? sourceScheduleStart(item, referenceDate);
   const end = normalizeDateWithReference(item.subscriptionEnd, referenceDate) ?? normalizeDateWithReference(item.scheduleEnd, referenceDate) ?? normalizeDateWithReference(item.subscriptionDate, referenceDate) ?? sourceScheduleEnd(item, referenceDate) ?? start;
+  const demandStart = normalizeDateWithReference(item.demandForecastStart, referenceDate) ?? normalizeDateWithReference(item.demandForecastDate, referenceDate);
+  const demandEnd = normalizeDateWithReference(item.demandForecastEnd, referenceDate) ?? normalizeDateWithReference(item.demandForecastDate, referenceDate) ?? demandStart;
   const listingDate = sourceListingDate(item, referenceDate);
   const refundDate = sourceRefundDate(item, referenceDate);
   if (end && end < referenceDate && (!refundDate || referenceDate > refundDate) && (!listingDate || referenceDate > listingDate)) return '종료';
   if (/예비/.test(raw)) return '예비심사';
+  if (demandStart && demandEnd && referenceDate <= demandEnd && (!start || referenceDate < start)) return '수요예측';
   if (start && end) {
     if (referenceDate < start) return '청약 예정';
     if (start <= referenceDate && referenceDate <= end) return '청약 진행중';
@@ -214,7 +218,7 @@ function deriveStatus(item: SourceIpoItem, referenceDate: string): IpoStatus | '
   if (/청약\s*진행|청약\s*중/.test(raw)) return start && end && referenceDate >= start && referenceDate <= end ? '청약 진행중' : start && referenceDate < start ? '청약 예정' : refundDate && referenceDate <= refundDate ? '환불일' : '종료';
   if (/청약\s*예정/.test(raw)) return start && referenceDate >= start && (!end || referenceDate <= end) ? '청약 진행중' : start && end && end < referenceDate ? '종료' : '청약 예정';
   if (/청약/.test(raw)) return start && referenceDate < start ? '청약 예정' : start && end && referenceDate <= end ? '청약 진행중' : refundDate && referenceDate <= refundDate ? '환불일' : listingDate && referenceDate <= listingDate ? '상장' : '종료';
-  if (/수요/.test(raw)) return '예비심사';
+  if (/수요/.test(raw)) return start && referenceDate >= start ? '청약 진행중' : start && demandEnd && referenceDate > demandEnd ? '청약 예정' : '수요예측';
   if (/상장/.test(raw)) return listingDate && referenceDate > listingDate ? '종료' : '상장';
   return isValidStatus(raw) ? raw : '예비심사';
 }
@@ -227,6 +231,8 @@ function mapCompany(item: SourceIpoItem, index: number, referenceDate: string): 
   const rawDate = normalizeDateWithReference(item.date ?? item.reportDate ?? item.receiptDate ?? item.rceptDt, referenceDate) ?? undefined;
   const subscriptionStart = normalizeDateWithReference(item.subscriptionStart, referenceDate) ?? normalizeDateWithReference(item.subscriptionDate, referenceDate) ?? undefined;
   const subscriptionEnd = normalizeDateWithReference(item.subscriptionEnd, referenceDate) ?? normalizeDateWithReference(item.subscriptionDate, referenceDate) ?? subscriptionStart;
+  const demandForecastStart = normalizeDateWithReference(item.demandForecastStart, referenceDate) ?? normalizeDateWithReference(item.demandForecastDate, referenceDate) ?? undefined;
+  const demandForecastEnd = normalizeDateWithReference(item.demandForecastEnd, referenceDate) ?? normalizeDateWithReference(item.demandForecastDate, referenceDate) ?? demandForecastStart;
   const refundDate = sourceRefundDate(item, referenceDate) ?? undefined;
   const listingDate = sourceListingDate(item, referenceDate) ?? undefined;
   const scheduleStart = subscriptionStart ?? normalizeDateWithReference(item.scheduleStart, referenceDate) ?? rawDate;
@@ -245,6 +251,8 @@ function mapCompany(item: SourceIpoItem, index: number, referenceDate: string): 
     memo: typeof item.sector === 'string' && item.sector.trim() ? `${stripHtml(item.sector)} 일정과 공시 원문을 함께 확인하세요.` : '일정과 공시 원문을 함께 확인하세요.',
     scheduleStart: scheduleStart ?? undefined,
     scheduleEnd: scheduleEnd ?? undefined,
+    demandForecastStart: demandForecastStart ?? undefined,
+    demandForecastEnd: demandForecastEnd ?? undefined,
     subscriptionStart: subscriptionStart ?? undefined,
     subscriptionEnd: subscriptionEnd ?? undefined,
     refundDate: refundDate ?? undefined,
@@ -498,6 +506,7 @@ function buildAlerts(companies: Company[], referenceDate: string): IpoAlert[] {
   };
   for (const company of companies) {
     if (company.status === '예비심사') add(company, '예비심사', company.scheduleStart || company.date, '예비심사 확인', '공모 일정 확정 전 원문 확인');
+    if (company.demandForecastStart && referenceDate <= (company.demandForecastEnd || company.demandForecastStart)) add(company, '수요예측', company.demandForecastStart, '수요예측 알림', '수요예측 기간 공모가 밴드 확인');
     if (company.subscriptionStart) {
       if (referenceDate < company.subscriptionStart) add(company, '청약 예정', company.subscriptionStart, '청약 시작 알림', '청약 시작 전 원문 일정 확인');
       else if (company.subscriptionEnd && company.subscriptionStart <= referenceDate && referenceDate <= company.subscriptionEnd) add(company, '청약 진행중', company.subscriptionEnd, '청약 마감 알림', '마감 전 경쟁률·주관사 공지 확인');
@@ -505,7 +514,7 @@ function buildAlerts(companies: Company[], referenceDate: string): IpoAlert[] {
     if (company.refundDate && (!company.subscriptionEnd || company.subscriptionEnd < referenceDate) && referenceDate <= company.refundDate) add(company, '환불일', company.refundDate, '환불일 알림', '환불 일정 확인');
     if (company.listingDate && (!company.refundDate || company.refundDate < referenceDate) && referenceDate <= company.listingDate) add(company, '상장', company.listingDate, '상장일 알림', '상장일 원문 확인');
   }
-  const priority: Record<IpoAlertStage, number> = { 예비심사: 1, '청약 예정': 2, '청약 진행중': 3, 환불일: 4, 상장: 5 };
+  const priority: Record<IpoAlertStage, number> = { 예비심사: 1, 수요예측: 2, '청약 예정': 3, '청약 진행중': 4, 환불일: 5, 상장: 6 };
   return alerts
     .sort((a, b) => a.date.localeCompare(b.date) || priority[a.stage] - priority[b.stage] || a.companyName.localeCompare(b.companyName))
     .slice(0, 12);
@@ -522,7 +531,8 @@ function firstActionTimestamp(ipoJson: SourceIpoResponse | null, competition: Co
 }
 
 function companySortDate(company: Company, referenceDate: string): string {
-  return company.subscriptionStart
+  return company.demandForecastStart
+    || company.subscriptionStart
     || company.scheduleStart
     || company.refundDate
     || company.listingDate

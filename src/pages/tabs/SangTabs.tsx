@@ -256,7 +256,7 @@ export function CompaniesPage({ data, onAction, watchCompanyIds = [], onWatchTog
         {lead ? <div className="rounded-lg bg-white/10 p-ds-2"><p className="text-caption text-white/60">먼저 볼 기업</p><strong className="mt-ds-0.5 block truncate text-[20px] text-white">{lead.name}</strong><span className="mt-ds-0.5 block truncate text-[13px] text-white/70">{lead.underwriter} · {lead.date}</span></div> : null}
       </div>
     </section>
-    <div className="grid gap-ds-2 lg:grid-cols-auto-action"><SearchField value={q} onChange={setQ} placeholder="기업명·주관사·업종·공시명 검색" /><FilterChips items={['전체', '예비심사', '청약 예정', '청약 진행중', '환불일', '상장']} active={status} onChange={setStatus} /></div>
+    <div className="grid gap-ds-2 lg:grid-cols-auto-action"><SearchField value={q} onChange={setQ} placeholder="기업명·주관사·업종·공시명 검색" /><FilterChips items={['전체', '예비심사', '수요예측', '청약 예정', '청약 진행중', '환불일', '상장']} active={status} onChange={setStatus} /></div>
     <div className="grid gap-ds-3 xl:grid-cols-[minmax(0,1fr)_440px]">
       <Card padding="normal">
         <SectionHeader title="IPO 기업 브리프" aside={<span className="text-caption text-ink-500">{companies.length}개</span>} />
@@ -275,7 +275,7 @@ export function FilingsPage({ data, savedFilingIds = [], onFilingSave }: PagePro
   const [status, setStatus] = useState('전체');
   const list = data.filings.filter((f) => statusFilterMatch(status, f.type)).filter((f) => f.company.includes(q) || f.title.includes(q) || q === '');
   return <Shell title="공시 검색">
-    <div className="grid gap-ds-2 lg:grid-cols-auto-action"><SearchField value={q} onChange={setQ} placeholder="공시명·기업명 검색" /><FilterChips items={['전체', '예비심사', '청약 예정', '청약 진행중', '환불일', '상장']} active={status} onChange={setStatus} /></div>
+    <div className="grid gap-ds-2 lg:grid-cols-auto-action"><SearchField value={q} onChange={setQ} placeholder="공시명·기업명 검색" /><FilterChips items={['전체', '예비심사', '수요예측', '청약 예정', '청약 진행중', '환불일', '상장']} active={status} onChange={setStatus} /></div>
     <DataTable caption="공시 검색 결과" columns={[{ key: 'company', label: '기업' }, { key: 'title', label: '공시명' }, { key: 'date', label: '접수일' }, { key: 'type', label: '유형' }, { key: 'refund', label: '환불일' }, { key: 'save', label: '저장' }, { key: 'link', label: '원문' }]} rows={list.slice(0, 12).map((f) => ({ id: f.id, cells: { company: <b>{f.company}</b>, title: f.title, date: f.date, type: <StatusBadge label={f.type} />, refund: refundMetaLabel(findCompany(data, f.company)) || '확인', save: <Button variant="secondary" onClick={() => onFilingSave?.(f.id)} className="h-8 px-3">{savedFilingIds?.includes(f.id) ? '저장됨' : '저장'}</Button>, link: <SourceLink href={f.link} /> } }))} />
   </Shell>;
 }

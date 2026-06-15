@@ -4,7 +4,16 @@ import type { Company, IpoStatus } from '../../data/model';
 
 const badgeClass = { green:'company-tone-green', blue:'company-tone-blue', purple:'company-tone-purple', amber:'company-tone-amber', gray:'company-tone-gray' } as const;
 const borderClass = { green:'border-l-primary-600', blue:'border-l-blue-700', purple:'border-l-violet-700', amber:'border-l-amber-600', gray:'border-l-ink-400' } as const;
-const dotClass: Record<IpoStatus, string> = { 예비심사:'calendar-dot-review', '청약 예정':'calendar-dot-subscribe', '청약 진행중':'calendar-dot-subscribe', 환불일:'calendar-dot-subscribe',  상장:'calendar-dot-listing' };
+type CalendarStage = IpoStatus;
+const calendarStageOrder: CalendarStage[] = ['예비심사', '수요예측', '청약 예정', '청약 진행중', '환불일', '상장'];
+const calendarDotClass: Record<CalendarStage, string> = {
+  '예비심사': 'calendar-dot-review',
+  '수요예측': 'calendar-dot-demand',
+  '청약 예정': 'calendar-dot-subscribe-upcoming',
+  '청약 진행중': 'calendar-dot-subscribe',
+  '환불일': 'calendar-dot-refund',
+  '상장': 'calendar-dot-listing',
+};
 
 type IndustryIconRule = { icon: string; label: string; keys: string[] };
 const industryIconRules: IndustryIconRule[] = [
@@ -94,29 +103,71 @@ function companyCalendarDate(company: Company, referenceDate?: string): Date | n
 }
 function maxCalendarDate(date: Date, fallback: Date): Date { return dateKey(date) >= dateKey(fallback) ? date : fallback; }
 
+interface CalendarEvent { company: Company; date: Date; stage: CalendarStage; }
+function eachDay(start: Date, end: Date): Date[] {
+  const days: Date[] = [];
+  const cursor = new Date(start.getFullYear(), start.getMonth(), start.getDate());
+  const last = new Date(end.getFullYear(), end.getMonth(), end.getDate());
+  let guard = 0;
+  while (cursor.getTime() <= last.getTime() && guard < 62) {
+    days.push(new Date(cursor.getTime()));
+    cursor.setDate(cursor.getDate() + 1);
+    guard += 1;
+  }
+  return days.length ? days : [new Date(start.getFullYear(), start.getMonth(), start.getDate())];
+}
+function buildCompanyEvents(company: Company, referenceKey: string, referenceDate?: string): CalendarEvent[] {
+  const events: CalendarEvent[] = [];
+  const pushOne = (stage: CalendarStage, value?: string) => {
+    const date = parseCalendarDate(value, referenceDate);
+    if (date) events.push({ company, date, stage });
+  };
+  const pushRange = (stage: CalendarStage, startValue?: string, endValue?: string) => {
+    const startDate = parseCalendarDate(startValue, referenceDate);
+    if (!startDate) return;
+    const endDate = parseCalendarDate(endValue, referenceDate) ?? startDate;
+    for (const day of eachDay(startDate, endDate)) events.push({ company, date: day, stage });
+  };
+  if (company.status === '예비심사') pushOne('예비심사', company.scheduleStart ?? company.date);
+  pushRange('수요예측', company.demandForecastStart, company.demandForecastEnd);
+  const subscriptionStartDate = parseCalendarDate(company.subscriptionStart, referenceDate);
+  if (subscriptionStartDate) {
+    const subscriptionStage: CalendarStage = referenceKey < dateKey(subscriptionStartDate) ? '청약 예정' : '청약 진행중';
+    for (const day of eachDay(subscriptionStartDate, parseCalendarDate(company.subscriptionEnd, referenceDate) ?? subscriptionStartDate)) {
+      events.push({ company, date: day, stage: subscriptionStage });
+    }
+  }
+  pushOne('환불일', company.refundDate);
+  pushOne('상장', company.listingDate);
+  if (!events.length) {
+    const fallback = companyCalendarDate(company, referenceDate);
+    if (fallback) events.push({ company, date: fallback, stage: company.status });
+  }
+  return events;
+}
+
 export function IPOCalendar({ companies, onSelect, compact = false, referenceDate }: { companies: Company[]; onSelect: (company: Company) => void; compact?: boolean; referenceDate?: string }) {
   const today = kstTodayDate();
   const reference = maxCalendarDate(parseCalendarDate(referenceDate) ?? today, today);
-  const datedCompanies = companies
-    .map((company) => ({ company, date: companyCalendarDate(company, dateKey(reference)) }))
-    .filter((item): item is { company: Company; date: Date } => Boolean(item.date))
-    .sort((a, b) => a.date.getTime() - b.date.getTime() || a.company.name.localeCompare(b.company.name, 'ko'));
+  const referenceKey = dateKey(reference);
+  const events = companies
+    .flatMap((company) => buildCompanyEvents(company, referenceKey, referenceKey))
+    .sort((a, b) => a.date.getTime() - b.date.getTime() || calendarStageOrder.indexOf(a.stage) - calendarStageOrder.indexOf(b.stage) || a.company.name.localeCompare(b.company.name, 'ko'));
   const year = reference.getFullYear();
   const month = reference.getMonth();
   const firstDay = new Date(year, month, 1);
   const lastDate = new Date(year, month + 1, 0).getDate();
   const leadingBlankCount = (firstDay.getDay() + 6) % 7;
-  const eventsByDay = new Map<number, Company[]>();
-  datedCompanies.forEach(({ company, date }) => {
-    if (date.getFullYear() === year && date.getMonth() === month) {
-      eventsByDay.set(date.getDate(), [...(eventsByDay.get(date.getDate()) ?? []), company]);
+  const eventsByDay = new Map<number, CalendarEvent[]>();
+  events.forEach((event) => {
+    if (event.date.getFullYear() === year && event.date.getMonth() === month) {
+      eventsByDay.set(event.date.getDate(), [...(eventsByDay.get(event.date.getDate()) ?? []), event]);
     }
   });
-  const referenceKey = dateKey(reference);
-  const upcomingCompanies = datedCompanies.filter(({ date }) => dateKey(date) >= referenceKey);
-  const firstCompany = upcomingCompanies[0]?.company ?? datedCompanies[0]?.company ?? companies[0];
-  const lastCompany = upcomingCompanies[upcomingCompanies.length - 1]?.company ?? datedCompanies[datedCompanies.length - 1]?.company ?? companies[companies.length - 1];
-  return <Card className={compact ? 'p-ds-2' : 'p-ds-3'}><div className="mb-ds-2 flex items-center justify-between"><h3 className="text-[15px] font-bold text-ink-900">{year}년 {month + 1}월</h3><div className="flex gap-ds-1">{firstCompany ? <button type="button" onClick={() => onSelect(firstCompany)} className="h-8 rounded-md border border-ink-200 px-ds-1 text-[13px] hover:border-primary-500">첫 일정</button> : null}{lastCompany ? <button type="button" onClick={() => onSelect(lastCompany)} className="h-8 rounded-md border border-ink-200 px-ds-1 text-[13px] hover:border-primary-500">마지막 일정</button> : null}</div></div><div className="grid grid-cols-7 gap-ds-0.5 text-center text-[13px] text-ink-500">{['월','화','수','목','금','토','일'].map((day)=><span key={day} className="py-ds-0.5 text-[11px]">{day}</span>)}{Array.from({ length: leadingBlankCount }, (_, index) => <span key={`blank-${index}`} />)}{Array.from({ length: lastDate }, (_, index) => { const day = index + 1; const dayCompanies = eventsByDay.get(day) ?? []; const company = dayCompanies[0]; const isReferenceDay = day === reference.getDate(); return <button type="button" key={day} disabled={!company} onClick={() => company && onSelect(company)} className={`relative flex h-8 items-center justify-center rounded-full text-[13px] transition-fast duration-fast ${isReferenceDay ? 'v6-calendar-today bg-primary-600 text-white' : company ? 'hover:bg-primary-50' : 'text-ink-300'}`}>{day}{company ? <span className={`absolute bottom-ds-0.5 h-1 w-1 rounded-full ${dotClass[company.status]}`}/> : null}</button>; })}</div><div className="mt-ds-2 flex flex-wrap gap-ds-1">{(['예비심사','청약 예정','청약 진행중','환불일','상장'] as IpoStatus[]).map((label)=><span key={label} className="inline-flex items-center gap-ds-0.5 rounded-full bg-ink-100 px-ds-1 py-ds-0.5 text-[11px] text-ink-500"><span className={`h-1 w-1 rounded-full ${dotClass[label]}`}/>{label === '청약 진행중' ? '청약 진행중' : label}</span>)}</div></Card>;
+  const upcomingEvents = events.filter((event) => dateKey(event.date) >= referenceKey);
+  const firstCompany = upcomingEvents[0]?.company ?? events[0]?.company ?? companies[0];
+  const lastCompany = upcomingEvents[upcomingEvents.length - 1]?.company ?? events[events.length - 1]?.company ?? companies[companies.length - 1];
+  return <Card className={compact ? 'p-ds-2' : 'p-ds-3'}><div className="mb-ds-2 flex items-center justify-between"><h3 className="text-[15px] font-bold text-ink-900">{year}년 {month + 1}월</h3><div className="flex gap-ds-1">{firstCompany ? <button type="button" onClick={() => onSelect(firstCompany)} className="h-8 rounded-md border border-ink-200 px-ds-1 text-[13px] hover:border-primary-500">첫 일정</button> : null}{lastCompany ? <button type="button" onClick={() => onSelect(lastCompany)} className="h-8 rounded-md border border-ink-200 px-ds-1 text-[13px] hover:border-primary-500">마지막 일정</button> : null}</div></div><div className="grid grid-cols-7 gap-ds-0.5 text-center text-[13px] text-ink-500">{['월','화','수','목','금','토','일'].map((day)=><span key={day} className="py-ds-0.5 text-[11px]">{day}</span>)}{Array.from({ length: leadingBlankCount }, (_, index) => <span key={`blank-${index}`} />)}{Array.from({ length: lastDate }, (_, index) => { const day = index + 1; const dayEvents = eventsByDay.get(day) ?? []; const primary = dayEvents[0]; const stages = calendarStageOrder.filter((stage) => dayEvents.some((event) => event.stage === stage)).slice(0, 3); const isReferenceDay = day === reference.getDate(); const dayDetail = dayEvents.map((event) => `${event.company.name} · ${event.stage}`).join(' / '); const dayLabel = dayEvents.length ? `${month + 1}월 ${day}일: ${dayDetail}` : `${month + 1}월 ${day}일`; const dayTitle = dayEvents.length ? dayDetail : undefined; return <button type="button" onClick={() => primary && onSelect(primary.company)} key={day} disabled={!primary} aria-label={dayLabel} title={dayTitle} className={`relative flex h-8 items-center justify-center rounded-full text-[13px] transition-fast duration-fast ${isReferenceDay ? 'v6-calendar-today bg-primary-600 text-white' : primary ? 'hover:bg-primary-50' : 'text-ink-300'}`}>{day}{stages.length ? <span className="absolute bottom-ds-0.5 left-1/2 flex -translate-x-1/2 gap-[2px]">{stages.map((stage) => <span key={stage} className={`h-1 w-1 rounded-full ${calendarDotClass[stage]}`}/>)}</span> : null}</button>; })}</div><div className="mt-ds-2 flex flex-wrap gap-ds-1">{calendarStageOrder.map((label)=><span key={label} className="inline-flex items-center gap-ds-0.5 rounded-full bg-ink-100 px-ds-1 py-ds-0.5 text-[11px] text-ink-500"><span className={`h-1 w-1 rounded-full ${calendarDotClass[label]}`}/>{label}</span>)}</div></Card>;
 }
 
 export function StepCard({ number, label, onClick }: { number:number; label:string; onClick:()=>void }) { return <Card className="p-ds-3"><span className="flex h-8 w-8 items-center justify-center rounded-lg bg-ink-900 text-[13px] font-bold text-white tabular">{number}</span><h3 className="mt-ds-2 font-bold text-ink-900">{label}</h3><Button variant="secondary" onClick={onClick} className="mt-ds-2 w-full">확인</Button></Card>; }

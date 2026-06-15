@@ -285,7 +285,7 @@ export function CalendarPage({ data, onAction }: PageProps) {
   const calendarMetrics = data.metrics.filter((metric) => !String(metric.value).startsWith('0')).slice(0, 2);
   return <Shell title="일정">
     <div className="grid gap-ds-3 xl:grid-cols-[420px_minmax(0,1fr)]">
-      <IPOCalendar companies={data.companies} onSelect={(c) => onAction(`${c.name} 일정`)} />
+      <IPOCalendar companies={data.companies} referenceDate={data.referenceDate} onSelect={(c) => onAction(`${c.name} 일정`)} />
       <div className="grid gap-ds-2">
         <AlertListCard data={data} onOpen={() => onAction('청약 알림')} limit={5} />
         <Card padding="normal"><SectionHeader title="일정 큐" /><div className="grid gap-ds-1.5">{companies.slice(0, 10).map((company) => <CalendarCard key={company.id} company={company} onOpen={() => onAction(`${company.name} 열기`)} />)}</div></Card>

@@ -58,6 +58,7 @@ function safeUrl(value) {
 function validateIpos(payload, label) {
  if (!isObject(payload)) { errors.push(`${label}: 루트는 객체여야 합니다.`); return; }
  if (payload.items !== undefined && !Array.isArray(payload.items)) { errors.push(`${label}.items: 배열이어야 합니다.`); return; }
+ const referenceDate = referenceDateFromMetadata(payload?.metadata?.referenceDate);
  const items = Array.isArray(payload.items) ? payload.items : [];
  items.forEach((item, index) => {
   if (!isObject(item)) { errors.push(`${label}.items[${index}]: 객체여야 합니다.`); return; }
@@ -67,9 +68,9 @@ function validateIpos(payload, label) {
   const url = item.dartUrl || item.url || item.link;
   if (!safeUrl(url)) errors.push(`${label}.items[${index}]: 공시 URL은 http/https만 허용됩니다.`);
   const statusText = String(item.status || item.stage || item.reportName || item.title || '');
-  const subscriptionStart = normalizeDate(item.subscriptionStart || item.subscriptionDate || item.scheduleStart);
-  const refundDate = normalizeDate(item.refundDate);
-  const listingDate = normalizeDate(item.listingDate);
+  const subscriptionStart = normalizeDate(item.subscriptionStart || item.subscriptionDate || item.scheduleStart, referenceDate);
+  const refundDate = normalizeIsoDate(item.refundDate);
+  const listingDate = normalizeIsoDate(item.listingDate);
   if (item.refundDate && !refundDate) errors.push(`${label}.items[${index}]: refundDate는 YYYY-MM-DD 형식이어야 합니다.`);
   if (item.listingDate && !listingDate) errors.push(`${label}.items[${index}]: listingDate는 YYYY-MM-DD 형식이어야 합니다.`);
   if (item.refundDate && item.refundDateSource !== 'dart-document' && item.detailSource !== 'document') errors.push(`${label}.items[${index}]: refundDate는 DART 원문 추출값일 때만 허용됩니다. (${companyName || '기업명 확인'})`);
@@ -173,21 +174,53 @@ function validateReportAgainstIpos(report, ipos) {
 
 
 
-function normalizeDate(value) {
+function pad2(value) { return String(value).padStart(2, '0'); }
+function isoFromParts(year, month, day) {
+ const date = new Date(Date.UTC(year, month - 1, day));
+ if (date.getUTCFullYear() !== year || date.getUTCMonth() !== month - 1 || date.getUTCDate() !== day) return '';
+ return `${year}-${pad2(month)}-${pad2(day)}`;
+}
+function normalizeIsoDate(value) {
  const text = String(value || '').trim();
- if (/^\d{8}$/.test(text)) return `${text.slice(0, 4)}-${text.slice(4, 6)}-${text.slice(6, 8)}`;
- if (/^\d{4}-\d{2}-\d{2}/.test(text)) return text.slice(0, 10);
+ if (!text) return '';
+ const digits = text.replace(/[^0-9]/g, '');
+ if (/^\d{8}$/.test(text)) return isoFromParts(Number(text.slice(0, 4)), Number(text.slice(4, 6)), Number(text.slice(6, 8)));
+ const full = /^(20\d{2})[.\-/](\d{1,2})[.\-/](\d{1,2})/.exec(text);
+ if (full) return isoFromParts(Number(full[1]), Number(full[2]), Number(full[3]));
+ if (/^\d{8}$/.test(digits) && !/^\d{1,2}[.\-/]\d{1,2}/.test(text)) return isoFromParts(Number(digits.slice(0, 4)), Number(digits.slice(4, 6)), Number(digits.slice(6, 8)));
  return '';
+}
+function normalizeDate(value, referenceDate) {
+ const iso = normalizeIsoDate(value);
+ if (iso) return iso;
+ const text = String(value || '').trim();
+ const short = /^(\d{1,2})[.\-/](\d{1,2})/.exec(text);
+ if (!short) return '';
+ const ref = normalizeIsoDate(referenceDate) || kstDateOnly();
+ const year = Number(ref.slice(0, 4));
+ const month = Number(short[1]);
+ const day = Number(short[2]);
+ let candidate = isoFromParts(year, month, day);
+ if (!candidate) return '';
+ const diffDays = Math.round((Date.parse(`${candidate}T00:00:00Z`) - Date.parse(`${ref}T00:00:00Z`)) / 86400000);
+ if (diffDays < -210) candidate = isoFromParts(year + 1, month, day) || candidate;
+ if (diffDays > 210) candidate = isoFromParts(year - 1, month, day) || candidate;
+ return candidate;
 }
 function kstDateOnly(date = new Date()) {
  return new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Seoul', year: 'numeric', month: '2-digit', day: '2-digit' }).format(date);
 }
-function normalizeIpoForCompetition(item) {
+function referenceDateFromMetadata(value) {
+ const today = kstDateOnly();
+ const normalized = normalizeIsoDate(value);
+ return normalized && normalized > today ? normalized : today;
+}
+function normalizeIpoForCompetition(item, referenceDate) {
  const companyName = String(item?.companyName || item?.company || item?.corpName || item?.name || '').trim();
- const start = normalizeDate(item?.subscriptionStart || item?.scheduleStart || item?.subscriptionDate);
- const end = normalizeDate(item?.subscriptionEnd || item?.scheduleEnd || item?.subscriptionDate || start);
- const listingDate = normalizeDate(item?.listingDate);
- const refundDate = normalizeDate(item?.refundDate);
+ const start = normalizeDate(item?.subscriptionStart || item?.scheduleStart || item?.subscriptionDate || item?.date || item?.reportDate || item?.receiptDate || item?.rceptDt, referenceDate);
+ const end = normalizeDate(item?.subscriptionEnd || item?.scheduleEnd || item?.subscriptionDate || item?.date || item?.reportDate || item?.receiptDate || item?.rceptDt || start, referenceDate);
+ const listingDate = normalizeIsoDate(item?.listingDate);
+ const refundDate = normalizeIsoDate(item?.refundDate);
  return { companyName, start, end, refundDate, listingDate, status: String(item?.status || item?.stage || '').trim() };
 }
 
@@ -197,28 +230,28 @@ function isIpoCategory(item) {
  return /ipo|initial_public_offering|public-offering|public/.test(category);
 }
 function validateIpoOnlySchedule(ipos, label) {
- const today = String(ipos?.metadata?.referenceDate || kstDateOnly());
+ const today = referenceDateFromMetadata(ipos?.metadata?.referenceDate);
  const items = Array.isArray(ipos?.items) ? ipos.items : [];
  for (const [index, item] of items.entries()) {
   const companyName = String(item?.companyName || item?.company || item?.corpName || item?.name || '').trim();
   const text = [companyName, item?.reportName, item?.title, item?.offeringMethod, item?.securityType, item?.sector].map((value) => String(value || '')).join(' ');
   if (NON_IPO_EVENT_RE.test(text)) errors.push(`${label}.items[${index}]: IPO가 아닌 유상증자/주주배정/실권주 청약 문구가 포함되어 있습니다. (${companyName || '기업명 확인'})`);
   if (!isIpoCategory(item)) errors.push(`${label}.items[${index}]: offeringCategory/eventType이 IPO로 명시되어야 합니다. (${companyName || '기업명 확인'})`);
-  const normalized = normalizeIpoForCompetition(item);
-  const displayEnd = normalized.listingDate || normalized.end || normalizeDate(item?.scheduleEnd || item?.date || item?.reportDate || item?.receiptDate || item?.rceptDt);
+  const normalized = normalizeIpoForCompetition(item, today);
+  const displayEnd = normalized.listingDate || normalized.refundDate || normalized.end || normalizeDate(item?.scheduleEnd || item?.date || item?.reportDate || item?.receiptDate || item?.rceptDt, today);
   if (displayEnd && displayEnd < today) errors.push(`${label}.items[${index}]: 지난 일정은 표시 데이터에서 제외해야 합니다. (${companyName || '기업명 확인'}, ${displayEnd})`);
   if (normalized.status === '청약 진행중' && !(normalized.start && normalized.end && normalized.start <= today && today <= normalized.end)) errors.push(`${label}.items[${index}]: 청약 진행중은 기준일이 청약 기간 안에 있을 때만 허용됩니다. (${companyName || '기업명 확인'})`);
   if (normalized.status === '환불일' && !(normalized.end && normalized.refundDate && normalized.end < today && today <= normalized.refundDate)) errors.push(`${label}.items[${index}]: 환불일 상태는 청약 종료 후 환불일까지의 일정에만 허용됩니다. (${companyName || '기업명 확인'})`);
-  if (normalized.status === '청약 예정' && normalized.start && normalized.start <= today) errors.push(`${label}.items[${index}]: 청약 예정은 기준일 전 일정에만 허용됩니다. (${companyName || '기업명 확인'})`);
+  if (normalized.status === '청약 예정' && normalized.start && normalized.start <= today) errors.push(`${label}.items[${index}]: 청약 예정은 기준일 이후 일정에만 허용됩니다. (${companyName || '기업명 확인'})`);
   if (normalized.status.includes('상장') && !normalized.listingDate) errors.push(`${label}.items[${index}]: 상장 상태는 listingDate가 있을 때만 허용됩니다. (${companyName || '기업명 확인'})`);
   if (normalized.status && !['예비심사','예비심사','청약 예정','청약 진행중','환불일','상장','상장'].includes(normalized.status)) errors.push(`${label}.items[${index}]: 허용되지 않은 IPO 상태입니다. (${companyName || '기업명 확인'} / ${normalized.status})`);
  }
 }
 
 function validateCompetitionOnlyDuringActiveSubscription(ipos, snapshots, mentions) {
- const today = String(ipos?.metadata?.referenceDate || kstDateOnly());
+ const today = referenceDateFromMetadata(ipos?.metadata?.referenceDate);
  const activeCompanies = new Set((Array.isArray(ipos?.items) ? ipos.items : [])
-  .map(normalizeIpoForCompetition)
+  .map((item) => normalizeIpoForCompetition(item, today))
   .filter((item) => item.companyName && item.status === '청약 진행중' && item.start && item.end && item.start <= today && today <= item.end)
   .map((item) => item.companyName));
  const rows = [

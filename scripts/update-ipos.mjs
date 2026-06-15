@@ -389,14 +389,13 @@ function isIpoLike(item) {
 }
 
 function shouldKeep(item, todayIso) {
- if (!item.scheduleStart && !item.scheduleEnd) return true;
-
  const today = new Date(`${todayIso}T00:00:00Z`);
  const futureCutoff = isoFromDate(addDays(today, lookaheadDays));
- const start = minIsoDate([item.scheduleStart, item.scheduleEnd, item.refundDate, item.listingDate]) || item.scheduleStart || item.scheduleEnd;
- const end = maxIsoDate([item.scheduleStart, item.scheduleEnd, item.refundDate, item.listingDate]) || item.scheduleEnd || item.scheduleStart;
+ const start = minIsoDate([item.scheduleStart, item.scheduleEnd, item.refundDate, item.listingDate, item.receiptDate]) || item.scheduleStart || item.scheduleEnd || item.receiptDate;
+ const end = maxIsoDate([item.scheduleStart, item.scheduleEnd, item.refundDate, item.listingDate, item.receiptDate]) || item.scheduleEnd || item.scheduleStart || item.receiptDate;
 
- return isIpoLike(item) && end >= todayIso && start <= futureCutoff;
+ if (!start && !end) return isIpoLike(item);
+ return isIpoLike(item) && (!end || end >= todayIso) && (!start || start <= futureCutoff);
 }
 
 function sortItems(a, b) {

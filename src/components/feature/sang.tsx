@@ -48,32 +48,61 @@ export function DayCard({ company, onOpen }: { company: Company; onOpen: () => v
 
 export function DisclaimerBanner() { return <div className="flex flex-wrap items-center gap-x-ds-3 gap-y-ds-1 rounded-lg border border-warn-border bg-warn-bg px-ds-3 py-ds-1.5 text-[13px] text-warn-text"><span>투자 권유가 아닙니다</span><span>공시 원문 확인 필수</span><span>일정 참고용</span><span>최종 판단 이용자 책임</span></div>; }
 
-function parseCompanyDate(value: string): Date | null {
-  const text = value.trim();
-  if (!text) return null;
-  const now = new Date();
-  const parts = text.replace(/\./g, '-').split('-').map((part) => part.trim()).filter(Boolean);
-  let year = now.getFullYear();
-  let month = 0;
-  let day = 0;
-  if (parts.length >= 3) {
-    year = Number(parts[0]);
-    month = Number(parts[1]);
-    day = Number(parts[2].slice(0, 2));
-  } else if (parts.length === 2) {
-    month = Number(parts[0]);
-    day = Number(parts[1].slice(0, 2));
-  }
-  if (!month || !day) return null;
+function pad2(value: number) { return String(value).padStart(2, '0'); }
+function calendarDateFromParts(year: number, month: number, day: number): Date | null {
   const date = new Date(year, month - 1, day);
-  return Number.isNaN(date.getTime()) ? null : date;
+  return date.getFullYear() === year && date.getMonth() === month - 1 && date.getDate() === day ? date : null;
 }
+function kstTodayDate(): Date {
+  const parts = new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Seoul', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date()).split('-').map(Number);
+  return calendarDateFromParts(parts[0], parts[1], parts[2]) ?? new Date();
+}
+function dateKey(date: Date): string { return `${date.getFullYear()}-${pad2(date.getMonth() + 1)}-${pad2(date.getDate())}`; }
+function parseFullCalendarDate(value?: string): Date | null {
+  const text = String(value ?? '').trim();
+  const compact = /^(20\d{2})(\d{2})(\d{2})$/.exec(text);
+  if (compact) return calendarDateFromParts(Number(compact[1]), Number(compact[2]), Number(compact[3]));
+  const full = /^(20\d{2})[.\-/](\d{1,2})[.\-/](\d{1,2})/.exec(text);
+  if (full) return calendarDateFromParts(Number(full[1]), Number(full[2]), Number(full[3]));
+  return null;
+}
+function parseCalendarDate(value?: string, referenceDate?: string): Date | null {
+  const text = String(value ?? '').trim();
+  if (!text) return null;
+  const full = parseFullCalendarDate(text);
+  if (full) return full;
+  const short = /^(\d{1,2})[.\-/](\d{1,2})/.exec(text);
+  if (!short) return null;
+  const reference = parseFullCalendarDate(referenceDate) ?? kstTodayDate();
+  const month = Number(short[1]);
+  const day = Number(short[2]);
+  let candidate = calendarDateFromParts(reference.getFullYear(), month, day);
+  if (!candidate) return null;
+  const diffDays = Math.round((candidate.getTime() - reference.getTime()) / 86400000);
+  if (diffDays < -210) candidate = calendarDateFromParts(reference.getFullYear() + 1, month, day) ?? candidate;
+  if (diffDays > 210) candidate = calendarDateFromParts(reference.getFullYear() - 1, month, day) ?? candidate;
+  return candidate;
+}
+function companyCalendarDate(company: Company, referenceDate?: string): Date | null {
+  const statusDate = company.status === '환불일' ? company.refundDate : company.status === '상장' ? company.listingDate : undefined;
+  const candidates = [statusDate, company.subscriptionStart, company.scheduleStart, company.date, company.subscriptionEnd, company.scheduleEnd, company.refundDate, company.listingDate];
+  for (const candidate of candidates) {
+    const date = parseCalendarDate(candidate, referenceDate);
+    if (date) return date;
+  }
+  return null;
+}
+function maxCalendarDate(date: Date, fallback: Date): Date { return dateKey(date) >= dateKey(fallback) ? date : fallback; }
 
-export function IPOCalendar({ companies, onSelect, compact = false }: { companies: Company[]; onSelect: (company: Company) => void; compact?: boolean }) {
-  const datedCompanies = companies.map((company) => ({ company, date: parseCompanyDate(company.date) })).filter((item): item is { company: Company; date: Date } => Boolean(item.date));
-  const baseDate = datedCompanies[0]?.date ?? new Date();
-  const year = baseDate.getFullYear();
-  const month = baseDate.getMonth();
+export function IPOCalendar({ companies, onSelect, compact = false, referenceDate }: { companies: Company[]; onSelect: (company: Company) => void; compact?: boolean; referenceDate?: string }) {
+  const today = kstTodayDate();
+  const reference = maxCalendarDate(parseCalendarDate(referenceDate) ?? today, today);
+  const datedCompanies = companies
+    .map((company) => ({ company, date: companyCalendarDate(company, dateKey(reference)) }))
+    .filter((item): item is { company: Company; date: Date } => Boolean(item.date))
+    .sort((a, b) => a.date.getTime() - b.date.getTime() || a.company.name.localeCompare(b.company.name, 'ko'));
+  const year = reference.getFullYear();
+  const month = reference.getMonth();
   const firstDay = new Date(year, month, 1);
   const lastDate = new Date(year, month + 1, 0).getDate();
   const leadingBlankCount = (firstDay.getDay() + 6) % 7;
@@ -83,11 +112,11 @@ export function IPOCalendar({ companies, onSelect, compact = false }: { companie
       eventsByDay.set(date.getDate(), [...(eventsByDay.get(date.getDate()) ?? []), company]);
     }
   });
-  const today = new Date();
-  const isCurrentMonth = today.getFullYear() === year && today.getMonth() === month;
-  const firstCompany = datedCompanies[0]?.company ?? companies[0];
-  const lastCompany = datedCompanies[datedCompanies.length - 1]?.company ?? companies[companies.length - 1];
-  return <Card className={compact ? 'p-ds-2' : 'p-ds-3'}><div className="mb-ds-2 flex items-center justify-between"><h3 className="text-[15px] font-bold text-ink-900">{year}년 {month + 1}월</h3><div className="flex gap-ds-1">{firstCompany ? <button type="button" onClick={() => onSelect(firstCompany)} className="h-8 rounded-md border border-ink-200 px-ds-1 text-[13px] hover:border-primary-500">첫 일정</button> : null}{lastCompany ? <button type="button" onClick={() => onSelect(lastCompany)} className="h-8 rounded-md border border-ink-200 px-ds-1 text-[13px] hover:border-primary-500">마지막 일정</button> : null}</div></div><div className="grid grid-cols-7 gap-ds-0.5 text-center text-[13px] text-ink-500">{['월','화','수','목','금','토','일'].map((day)=><span key={day} className="py-ds-0.5 text-[11px]">{day}</span>)}{Array.from({ length: leadingBlankCount }, (_, index) => <span key={`blank-${index}`} />)}{Array.from({ length: lastDate }, (_, index) => { const day = index + 1; const dayCompanies = eventsByDay.get(day) ?? []; const company = dayCompanies[0]; const isToday = isCurrentMonth && day === today.getDate(); return <button type="button" key={day} disabled={!company} onClick={() => company && onSelect(company)} className={`relative flex h-8 items-center justify-center rounded-full text-[13px] transition-fast duration-fast ${isToday ? 'v6-calendar-today bg-primary-600 text-white' : company ? 'hover:bg-primary-50' : 'text-ink-300'}`}>{day}{company ? <span className={`absolute bottom-ds-0.5 h-1 w-1 rounded-full ${dotClass[company.status]}`}/> : null}</button>; })}</div><div className="mt-ds-2 flex flex-wrap gap-ds-1">{(['예비심사','청약 예정','청약 진행중','환불일','상장'] as IpoStatus[]).map((label)=><span key={label} className="inline-flex items-center gap-ds-0.5 rounded-full bg-ink-100 px-ds-1 py-ds-0.5 text-[11px] text-ink-500"><span className={`h-1 w-1 rounded-full ${dotClass[label]}`}/>{label === '청약 진행중' ? '청약 진행중' : label}</span>)}</div></Card>;
+  const referenceKey = dateKey(reference);
+  const upcomingCompanies = datedCompanies.filter(({ date }) => dateKey(date) >= referenceKey);
+  const firstCompany = upcomingCompanies[0]?.company ?? datedCompanies[0]?.company ?? companies[0];
+  const lastCompany = upcomingCompanies[upcomingCompanies.length - 1]?.company ?? datedCompanies[datedCompanies.length - 1]?.company ?? companies[companies.length - 1];
+  return <Card className={compact ? 'p-ds-2' : 'p-ds-3'}><div className="mb-ds-2 flex items-center justify-between"><h3 className="text-[15px] font-bold text-ink-900">{year}년 {month + 1}월</h3><div className="flex gap-ds-1">{firstCompany ? <button type="button" onClick={() => onSelect(firstCompany)} className="h-8 rounded-md border border-ink-200 px-ds-1 text-[13px] hover:border-primary-500">첫 일정</button> : null}{lastCompany ? <button type="button" onClick={() => onSelect(lastCompany)} className="h-8 rounded-md border border-ink-200 px-ds-1 text-[13px] hover:border-primary-500">마지막 일정</button> : null}</div></div><div className="grid grid-cols-7 gap-ds-0.5 text-center text-[13px] text-ink-500">{['월','화','수','목','금','토','일'].map((day)=><span key={day} className="py-ds-0.5 text-[11px]">{day}</span>)}{Array.from({ length: leadingBlankCount }, (_, index) => <span key={`blank-${index}`} />)}{Array.from({ length: lastDate }, (_, index) => { const day = index + 1; const dayCompanies = eventsByDay.get(day) ?? []; const company = dayCompanies[0]; const isReferenceDay = day === reference.getDate(); return <button type="button" key={day} disabled={!company} onClick={() => company && onSelect(company)} className={`relative flex h-8 items-center justify-center rounded-full text-[13px] transition-fast duration-fast ${isReferenceDay ? 'v6-calendar-today bg-primary-600 text-white' : company ? 'hover:bg-primary-50' : 'text-ink-300'}`}>{day}{company ? <span className={`absolute bottom-ds-0.5 h-1 w-1 rounded-full ${dotClass[company.status]}`}/> : null}</button>; })}</div><div className="mt-ds-2 flex flex-wrap gap-ds-1">{(['예비심사','청약 예정','청약 진행중','환불일','상장'] as IpoStatus[]).map((label)=><span key={label} className="inline-flex items-center gap-ds-0.5 rounded-full bg-ink-100 px-ds-1 py-ds-0.5 text-[11px] text-ink-500"><span className={`h-1 w-1 rounded-full ${dotClass[label]}`}/>{label === '청약 진행중' ? '청약 진행중' : label}</span>)}</div></Card>;
 }
 
 export function StepCard({ number, label, onClick }: { number:number; label:string; onClick:()=>void }) { return <Card className="p-ds-3"><span className="flex h-8 w-8 items-center justify-center rounded-lg bg-ink-900 text-[13px] font-bold text-white tabular">{number}</span><h3 className="mt-ds-2 font-bold text-ink-900">{label}</h3><Button variant="secondary" onClick={onClick} className="mt-ds-2 w-full">확인</Button></Card>; }

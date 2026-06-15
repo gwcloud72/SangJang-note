@@ -17,7 +17,7 @@
     "render:check": "node scripts/render-check.mjs",
     "actions:check": "node scripts/github-actions-contract-check.mjs",
     "verify:deps": "node -e \"const fs=require('fs'); for (const p of ['node_modules/vite/bin/vite.js','node_modules/typescript/bin/tsc','node_modules/@vitejs/plugin-react']) { if (!fs.existsSync(p)) { console.error('missing '+p); process.exit(1); } } console.log('vite dependency ready')\"",
-    "deploy:check": "npm run verify:deps && npm run actions:check && npm run dart-empty:check && npm run gemini:check && npm run competition:check && npm run briefings:check && npm run data:check && npm run sanitize:derived && npm run alerts:check && npm run validate:data && npm run quality:check && npm run runtime-ui:check && npm run interaction:check && npm run render:check && npm run typecheck && npm run build",
+    "deploy:check": "npm run verify:deps && npm run actions:check && npm run dart-empty:check && npm run gemini:check && npm run competition:check && npm run briefings:check && npm run data:check && npm run calendar:check && npm run sanitize:derived && npm run alerts:check && npm run validate:data && npm run quality:check && npm run runtime-ui:check && npm run interaction:check && npm run render:check && npm run typecheck && npm run build",
     "ci:check": "npm run deploy:check",
     "runtime-ui:check": "node scripts/runtime-ui-contract-check.mjs",
     "update:news": "node scripts/update-news.mjs",
@@ -34,7 +34,8 @@
     "actions:sample": "node scripts/sample-github-actions-data.mjs",
     "alerts:check": "node scripts/alert-contract-check.mjs",
     "sanitize:derived": "node scripts/sanitize-derived-data.mjs",
-    "dart-empty:check": "node scripts/dart-empty-collection-check.mjs"
+    "dart-empty:check": "node scripts/dart-empty-collection-check.mjs",
+    "calendar:check": "node scripts/calendar-reference-check.mjs"
   },
   "dependencies": {
     "adm-zip": "^0.5.17",

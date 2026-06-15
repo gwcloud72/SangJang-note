@@ -26,6 +26,47 @@ if (!payload || !Array.isArray(payload.items)) {
 }
 
 const dataSource = String(payload?.metadata?.source || '').trim().toLowerCase();
+
+function pad2(value) { return String(value).padStart(2, '0'); }
+function isoFromParts(year, month, day) {
+ const date = new Date(Date.UTC(year, month - 1, day));
+ if (date.getUTCFullYear() !== year || date.getUTCMonth() !== month - 1 || date.getUTCDate() !== day) return '';
+ return `${year}-${pad2(month)}-${pad2(day)}`;
+}
+function normalizeIsoDate(value) {
+ const text = String(value || '').trim();
+ if (!text) return '';
+ if (/^\d{8}$/.test(text)) return isoFromParts(Number(text.slice(0, 4)), Number(text.slice(4, 6)), Number(text.slice(6, 8)));
+ const full = /^(20\d{2})[.\-/](\d{1,2})[.\-/](\d{1,2})/.exec(text);
+ if (full) return isoFromParts(Number(full[1]), Number(full[2]), Number(full[3]));
+ return '';
+}
+function kstDateOnly(date = new Date()) {
+ return new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Seoul', year: 'numeric', month: '2-digit', day: '2-digit' }).format(date);
+}
+function referenceDateFromMetadata(value) {
+ const today = kstDateOnly();
+ const normalized = normalizeIsoDate(value);
+ return normalized && normalized > today ? normalized : today;
+}
+function normalizeDate(value, referenceDate) {
+ const iso = normalizeIsoDate(value);
+ if (iso) return iso;
+ const text = String(value || '').trim();
+ const short = /^(\d{1,2})[.\-/](\d{1,2})/.exec(text);
+ if (!short) return '';
+ const ref = normalizeIsoDate(referenceDate) || kstDateOnly();
+ const year = Number(ref.slice(0, 4));
+ const month = Number(short[1]);
+ const day = Number(short[2]);
+ let candidate = isoFromParts(year, month, day);
+ if (!candidate) return '';
+ const diffDays = Math.round((Date.parse(`${candidate}T00:00:00Z`) - Date.parse(`${ref}T00:00:00Z`)) / 86400000);
+ if (diffDays < -210) candidate = isoFromParts(year + 1, month, day) || candidate;
+ if (diffDays > 210) candidate = isoFromParts(year - 1, month, day) || candidate;
+ return candidate;
+}
+const referenceDate = referenceDateFromMetadata(payload?.metadata?.referenceDate);
 if (payload.items.length > 0) {
  const latest = latestIpoDate(payload);
  if (!latest) throw new Error('public/data/ipos.json 기준일 확인이 필요합니다.');
@@ -49,6 +90,15 @@ for (const [index, item] of payload.items.entries()) {
  }
  if (/유상증자|주주배정|실권주|구주주|신주인수권|유상청약/.test([item.reportName, item.title, item.offeringMethod, item.securityType].map((value) => String(value || '')).join(' '))) {
   throw new Error(`items[${index}] ${item.companyName}: 유상증자/주주배정 청약은 IPO 화면에서 제외해야 합니다.`);
+ }
+ const scheduleStart = normalizeDate(item.subscriptionStart || item.scheduleStart || item.subscriptionDate || item.date || item.reportDate || item.receiptDate || item.rceptDt, referenceDate);
+ const scheduleEnd = normalizeDate(item.listingDate || item.refundDate || item.subscriptionEnd || item.scheduleEnd || item.subscriptionDate || item.scheduleStart || item.date || item.reportDate || item.receiptDate || item.rceptDt, referenceDate);
+ const status = String(item.status || item.stage || '').trim();
+ if (scheduleEnd && scheduleEnd < referenceDate) {
+  throw new Error(`items[${index}] ${item.companyName}: 지난 일정(${scheduleEnd})은 ${referenceDate} 기준 표시 데이터에서 제외해야 합니다.`);
+ }
+ if (status === '청약 예정' && scheduleStart && scheduleStart <= referenceDate) {
+  throw new Error(`items[${index}] ${item.companyName}: 청약 예정은 기준일 이후 일정만 허용됩니다. (${scheduleStart})`);
  }
  if (!item.scheduleStart && !item.subscriptionDate) {
   console.warn(`items[${index}] ${item.companyName}: scheduleStart 또는 subscriptionDate 확인 필요`);

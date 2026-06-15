@@ -78,44 +78,50 @@ function safeStatus(value?: string): IpoStatus {
 const colors: Company['color'][] = ['green','blue','purple','amber','blue','gray','green','purple','amber','blue','green','gray'];
 const stripHtml = (value: string): string => value.replace(/<[^>]*>/g, '').replace(/&quot;/g, '"').replace(/&amp;/g, '&').replace(/&#39;/g, "'").replace(/\s+/g, ' ').trim();
 const safeLink = (value?: string): string => value && /^https?:\/\//.test(value) && !value.includes(['example', 'com'].join('.')) ? value : '';
-function formatDate(value?: string) {
-  if (!value) return '';
-  const text = String(value).trim();
-  if (/^\d{8}$/.test(text)) return `${text.slice(4, 6)}.${text.slice(6, 8)}`;
-  const parts = text.replace(/\./g, '-').split('-');
-  if (parts.length >= 3) return `${parts[1]}.${parts[2].slice(0, 2)}`;
-  return text;
+function pad2(value: number) { return String(value).padStart(2, '0'); }
+function isoFromParts(year: number, month: number, day: number): string | null {
+  const date = new Date(Date.UTC(year, month - 1, day));
+  if (date.getUTCFullYear() !== year || date.getUTCMonth() !== month - 1 || date.getUTCDate() !== day) return null;
+  return `${year}-${pad2(month)}-${pad2(day)}`;
 }
-
-function parseScheduleDate(value?: string): Date | null {
+function normalizeDateWithReference(value: unknown, referenceDate?: string): string | null {
   const text = String(value ?? '').trim();
   if (!text) return null;
-  let year = new Date().getFullYear();
-  let month = 0;
-  let day = 0;
-  if (/^\d{8}$/.test(text)) {
-    year = Number(text.slice(0, 4));
-    month = Number(text.slice(4, 6));
-    day = Number(text.slice(6, 8));
-  } else {
-    const parts = text.replace(/\./g, '-').split('-').map((part) => part.trim()).filter(Boolean);
-    if (parts.length >= 3) {
-      year = Number(parts[0]);
-      month = Number(parts[1]);
-      day = Number(parts[2].slice(0, 2));
-    } else if (parts.length === 2) {
-      month = Number(parts[0]);
-      day = Number(parts[1].slice(0, 2));
-    }
-  }
-  if (!year || !month || !day) return null;
+  const compact = /^(20\d{2})(\d{2})(\d{2})$/.exec(text.replace(/[^0-9]/g, ''));
+  if (compact && /^\d{8}$/.test(text.replace(/[^0-9]/g, ''))) return isoFromParts(Number(compact[1]), Number(compact[2]), Number(compact[3]));
+  const full = /^(20\d{2})[.\-/](\d{1,2})[.\-/](\d{1,2})/.exec(text);
+  if (full) return isoFromParts(Number(full[1]), Number(full[2]), Number(full[3]));
+  const short = /^(\d{1,2})[.\-/](\d{1,2})/.exec(text);
+  if (!short) return null;
+  const ref = normalizeDateWithReference(referenceDate) ?? kstDateString();
+  const year = Number(ref.slice(0, 4));
+  const month = Number(short[1]);
+  const day = Number(short[2]);
+  let candidate = isoFromParts(year, month, day);
+  if (!candidate) return null;
+  const diffDays = Math.round((Date.parse(`${candidate}T00:00:00Z`) - Date.parse(`${ref}T00:00:00Z`)) / 86400000);
+  if (diffDays < -210) candidate = isoFromParts(year + 1, month, day) ?? candidate;
+  if (diffDays > 210) candidate = isoFromParts(year - 1, month, day) ?? candidate;
+  return candidate;
+}
+function formatDate(value?: string, referenceDate?: string) {
+  if (!value) return '';
+  const normalized = normalizeDateWithReference(value, referenceDate);
+  if (normalized) return normalized.slice(5).replace('-', '.');
+  return String(value).trim();
+}
+
+function parseScheduleDate(value?: string, referenceDate?: string): Date | null {
+  const normalized = normalizeDateWithReference(value, referenceDate);
+  if (!normalized) return null;
+  const [year, month, day] = normalized.split('-').map(Number);
   const date = new Date(year, month - 1, day);
   return Number.isNaN(date.getTime()) ? null : date;
 }
 function buildDday(value?: string, referenceDate?: string): string {
-  const date = parseScheduleDate(value);
+  const date = parseScheduleDate(value, referenceDate);
   if (!date) return '일정 확인';
-  const today = parseScheduleDate(referenceDate) ?? new Date();
+  const today = parseScheduleDate(referenceDate, referenceDate) ?? parseScheduleDate(kstDateString(), referenceDate) ?? new Date();
   today.setHours(0, 0, 0, 0);
   date.setHours(0, 0, 0, 0);
   const diff = Math.ceil((date.getTime() - today.getTime()) / 86400000);
@@ -149,47 +155,67 @@ function kstDateString(date = new Date()): string {
 }
 function referenceDateFromMetadata(ipoJson: SourceIpoResponse | null): string {
   const value = ipoJson?.metadata?.referenceDate || ipoJson?.metadata?.updatedKst || ipoJson?.metadata?.updatedAt || ipoJson?.metadata?.generatedAt;
-  const normalized = formatDate(String(value || '')).replace(/\./g, '-');
-  if (/^\d{4}-\d{2}-\d{2}$/.test(normalized)) return normalized;
-  return kstDateString();
+  const today = kstDateString();
+  const normalized = normalizeDateWithReference(value, today);
+  return normalized && normalized > today ? normalized : today;
 }
 function isDartExtractedDate(value: string | undefined, source: string | undefined, detailSource: string | undefined) {
   return Boolean(value && (source === 'dart-document' || detailSource === 'document'));
 }
 
-function sourceScheduleEnd(item: SourceIpoItem): string | null {
-  const listingDate = isDartExtractedDate(item.listingDate, item.listingDateSource, item.detailSource) ? asDate(item.listingDate) : undefined;
-  const refundDate = isDartExtractedDate(item.refundDate, item.refundDateSource, item.detailSource) ? asDate(item.refundDate) : undefined;
-  return listingDate ?? refundDate ?? asDate(item.subscriptionEnd) ?? asDate(item.scheduleEnd) ?? asDate(item.subscriptionDate) ?? asDate(item.date) ?? asDate(item.reportDate) ?? asDate(item.receiptDate) ?? asDate(item.rceptDt);
+function sourceListingDate(item: SourceIpoItem, referenceDate: string): string | null {
+  return isDartExtractedDate(item.listingDate, item.listingDateSource, item.detailSource) ? normalizeDateWithReference(item.listingDate, referenceDate) : null;
+}
+function sourceRefundDate(item: SourceIpoItem, referenceDate: string): string | null {
+  return isDartExtractedDate(item.refundDate, item.refundDateSource, item.detailSource) ? normalizeDateWithReference(item.refundDate, referenceDate) : null;
+}
+function sourceScheduleStart(item: SourceIpoItem, referenceDate: string): string | null {
+  return normalizeDateWithReference(item.subscriptionStart, referenceDate)
+    ?? normalizeDateWithReference(item.subscriptionDate, referenceDate)
+    ?? normalizeDateWithReference(item.scheduleStart, referenceDate)
+    ?? normalizeDateWithReference(item.date, referenceDate)
+    ?? normalizeDateWithReference(item.reportDate, referenceDate)
+    ?? normalizeDateWithReference(item.receiptDate, referenceDate)
+    ?? normalizeDateWithReference(item.rceptDt, referenceDate);
+}
+function sourceScheduleEnd(item: SourceIpoItem, referenceDate: string): string | null {
+  return sourceListingDate(item, referenceDate)
+    ?? sourceRefundDate(item, referenceDate)
+    ?? normalizeDateWithReference(item.subscriptionEnd, referenceDate)
+    ?? normalizeDateWithReference(item.scheduleEnd, referenceDate)
+    ?? normalizeDateWithReference(item.subscriptionDate, referenceDate)
+    ?? normalizeDateWithReference(item.date, referenceDate)
+    ?? normalizeDateWithReference(item.reportDate, referenceDate)
+    ?? normalizeDateWithReference(item.receiptDate, referenceDate)
+    ?? normalizeDateWithReference(item.rceptDt, referenceDate);
 }
 function isPastSourceItem(item: SourceIpoItem, referenceDate: string): boolean {
-  const end = sourceScheduleEnd(item);
+  const end = sourceScheduleEnd(item, referenceDate);
   return Boolean(end && end < referenceDate);
 }
 function isValidStatus(value: string): value is IpoStatus {
   return ['예비심사', '청약 예정', '청약 진행중', '환불일', '상장'].includes(value);
 }
-function deriveStatus(item: SourceIpoItem, referenceDate: string): IpoStatus {
+function deriveStatus(item: SourceIpoItem, referenceDate: string): IpoStatus | '종료' {
   const raw = String(item.status ?? item.stage ?? item.reportName ?? item.title ?? '').trim();
-  const start = asDate(item.subscriptionStart) ?? asDate(item.subscriptionDate);
-  const end = asDate(item.subscriptionEnd) ?? asDate(item.subscriptionDate) ?? start;
-  const listingDate = isDartExtractedDate(item.listingDate, item.listingDateSource, item.detailSource) ? asDate(item.listingDate) : undefined;
-  const refundDate = isDartExtractedDate(item.refundDate, item.refundDateSource, item.detailSource) ? asDate(item.refundDate) : undefined;
+  const start = normalizeDateWithReference(item.subscriptionStart, referenceDate) ?? normalizeDateWithReference(item.subscriptionDate, referenceDate) ?? normalizeDateWithReference(item.scheduleStart, referenceDate) ?? sourceScheduleStart(item, referenceDate);
+  const end = normalizeDateWithReference(item.subscriptionEnd, referenceDate) ?? normalizeDateWithReference(item.scheduleEnd, referenceDate) ?? normalizeDateWithReference(item.subscriptionDate, referenceDate) ?? sourceScheduleEnd(item, referenceDate) ?? start;
+  const listingDate = sourceListingDate(item, referenceDate);
+  const refundDate = sourceRefundDate(item, referenceDate);
+  if (end && end < referenceDate && (!refundDate || referenceDate > refundDate) && (!listingDate || referenceDate > listingDate)) return '종료';
   if (/예비/.test(raw)) return '예비심사';
   if (start && end) {
     if (referenceDate < start) return '청약 예정';
     if (start <= referenceDate && referenceDate <= end) return '청약 진행중';
     if (refundDate && referenceDate <= refundDate) return '환불일';
-    if (listingDate && referenceDate < listingDate) return '상장';
-    if (listingDate && referenceDate >= listingDate) return '상장';
+    if (listingDate && referenceDate <= listingDate) return '상장';
   }
-  if (/환불/.test(raw)) return refundDate && referenceDate <= refundDate ? '환불일' : '청약 예정';
-  if (/청약\s*진행|청약\s*중/.test(raw)) return start && end && referenceDate >= start && referenceDate <= end ? '청약 진행중' : start && referenceDate < start ? '청약 예정' : refundDate && referenceDate <= refundDate ? '환불일' : '청약 예정';
-  if (/청약\s*예정/.test(raw)) return start && referenceDate >= start && (!end || referenceDate <= end) ? '청약 진행중' : '청약 예정';
-  if (/청약/.test(raw)) return start && referenceDate < start ? '청약 예정' : start && end && referenceDate <= end ? '청약 진행중' : refundDate && referenceDate <= refundDate ? '환불일' : listingDate && referenceDate < listingDate ? '상장' : '청약 예정';
+  if (/환불/.test(raw)) return refundDate && referenceDate <= refundDate ? '환불일' : '종료';
+  if (/청약\s*진행|청약\s*중/.test(raw)) return start && end && referenceDate >= start && referenceDate <= end ? '청약 진행중' : start && referenceDate < start ? '청약 예정' : refundDate && referenceDate <= refundDate ? '환불일' : '종료';
+  if (/청약\s*예정/.test(raw)) return start && referenceDate >= start && (!end || referenceDate <= end) ? '청약 진행중' : start && end && end < referenceDate ? '종료' : '청약 예정';
+  if (/청약/.test(raw)) return start && referenceDate < start ? '청약 예정' : start && end && referenceDate <= end ? '청약 진행중' : refundDate && referenceDate <= refundDate ? '환불일' : listingDate && referenceDate <= listingDate ? '상장' : '종료';
   if (/수요/.test(raw)) return '예비심사';
-  if (/상장\s*예정/.test(raw)) return listingDate && referenceDate >= listingDate ? '상장' : '상장';
-  if (/상장/.test(raw)) return listingDate && referenceDate < listingDate ? '상장' : '상장';
+  if (/상장/.test(raw)) return listingDate && referenceDate > listingDate ? '종료' : '상장';
   return isValidStatus(raw) ? raw : '예비심사';
 }
 
@@ -197,13 +223,14 @@ function mapCompany(item: SourceIpoItem, index: number, referenceDate: string): 
   const name = String(item.companyName ?? item.company ?? item.corpName ?? item.name ?? '').trim();
   if (!name) return null;
   const status = deriveStatus(item, referenceDate);
-  const rawDate = item.date ?? item.reportDate ?? item.receiptDate ?? item.rceptDt;
-  const subscriptionStart = asDate(item.subscriptionStart) ?? asDate(item.subscriptionDate);
-  const subscriptionEnd = asDate(item.subscriptionEnd) ?? asDate(item.subscriptionDate) ?? subscriptionStart;
-  const refundDate = isDartExtractedDate(item.refundDate, item.refundDateSource, item.detailSource) ? asDate(item.refundDate) : undefined;
-  const listingDate = isDartExtractedDate(item.listingDate, item.listingDateSource, item.detailSource) ? asDate(item.listingDate) : undefined;
-  const scheduleStart = subscriptionStart ?? asDate(item.scheduleStart) ?? asDate(rawDate);
-  const scheduleEnd = listingDate ?? refundDate ?? subscriptionEnd ?? asDate(item.scheduleEnd) ?? scheduleStart;
+  if (status === '종료') return null;
+  const rawDate = normalizeDateWithReference(item.date ?? item.reportDate ?? item.receiptDate ?? item.rceptDt, referenceDate) ?? undefined;
+  const subscriptionStart = normalizeDateWithReference(item.subscriptionStart, referenceDate) ?? normalizeDateWithReference(item.subscriptionDate, referenceDate) ?? undefined;
+  const subscriptionEnd = normalizeDateWithReference(item.subscriptionEnd, referenceDate) ?? normalizeDateWithReference(item.subscriptionDate, referenceDate) ?? subscriptionStart;
+  const refundDate = sourceRefundDate(item, referenceDate) ?? undefined;
+  const listingDate = sourceListingDate(item, referenceDate) ?? undefined;
+  const scheduleStart = subscriptionStart ?? normalizeDateWithReference(item.scheduleStart, referenceDate) ?? rawDate;
+  const scheduleEnd = listingDate ?? refundDate ?? subscriptionEnd ?? normalizeDateWithReference(item.scheduleEnd, referenceDate) ?? scheduleStart;
   const primaryDate = status.includes('청약') ? subscriptionStart : status.includes('상장') ? listingDate : scheduleStart;
   return {
     id: String(item.id ?? `${name}-${index}`),
@@ -211,7 +238,7 @@ function mapCompany(item: SourceIpoItem, index: number, referenceDate: string): 
     sector: typeof item.sector === 'string' ? stripHtml(item.sector).slice(0, 48) : undefined,
     underwriter: String(item.leadManager ?? item.manager ?? item.underwriter ?? '주관사 확인'),
     status,
-    date: formatDate(primaryDate ?? rawDate),
+    date: formatDate(primaryDate ?? rawDate, referenceDate),
     dday: buildDday(primaryDate ?? rawDate, referenceDate),
     color: colors[index % colors.length],
     bookmarked: false,
@@ -234,14 +261,15 @@ function buildMetrics(companies: Company[]): typeof metricTemplates {
     { ...metricTemplates[3], label: '시장환경', value: '4개', sub: '참고 지표' },
   ];
 }
-function buildFilings(items: SourceIpoItem[], companies: Company[]): Filing[] {
+function buildFilings(items: SourceIpoItem[], companies: Company[], referenceDate: string): Filing[] {
   return companies.map((company,index)=> {
     const source = items[index] ?? {};
+    const date = normalizeDateWithReference(source.reportDate ?? source.receiptDate ?? source.rceptDt ?? source.date, referenceDate) ?? company.scheduleStart ?? company.date;
     return {
       id:`f${index}`,
       company:company.name,
       title: String(source.reportName ?? source.title ?? `${company.status} 일정 확인`),
-      date: String(source.reportDate ?? source.receiptDate ?? source.rceptDt ?? source.date ?? ''),
+      date,
       type: company.status,
       link: safeLink(source.dartUrl ?? source.url ?? source.link),
     };
@@ -463,9 +491,10 @@ function makeAlert(company: Company, stage: IpoAlertStage, date: string, actionL
 function buildAlerts(companies: Company[], referenceDate: string): IpoAlert[] {
   const alerts: IpoAlert[] = [];
   const add = (company: Company, stage: IpoAlertStage, date: string | undefined, actionLabel: string, detail: string) => {
-    if (!date) return;
-    if (date < referenceDate) return;
-    alerts.push(makeAlert(company, stage, date, actionLabel, detail, alerts.length));
+    const normalizedDate = normalizeDateWithReference(date, referenceDate);
+    if (!normalizedDate) return;
+    if (normalizedDate < referenceDate) return;
+    alerts.push(makeAlert(company, stage, normalizedDate, actionLabel, detail, alerts.length));
   };
   for (const company of companies) {
     if (company.status === '예비심사') add(company, '예비심사', company.scheduleStart || company.date, '예비심사 확인', '공모 일정 확정 전 원문 확인');
@@ -492,21 +521,36 @@ function firstActionTimestamp(ipoJson: SourceIpoResponse | null, competition: Co
     || null;
 }
 
+function companySortDate(company: Company, referenceDate: string): string {
+  return company.subscriptionStart
+    || company.scheduleStart
+    || company.refundDate
+    || company.listingDate
+    || normalizeDateWithReference(company.date, referenceDate)
+    || '9999-12-31';
+}
+
 export function buildSangData(ipoJson: SourceIpoResponse | null, newsJson: SourceNewsResponse | null, reportJson: SourceReportResponse | null, fredJson: SourceFredResponse | null, macroReportJson: SourceFredReportResponse | null, mentionJson: SourceCompetitionResponse<SourceCompetitionMention> | null, snapshotJson: SourceCompetitionResponse<SourceCompetitionSnapshot> | null, briefingJson: SourceBriefingResponse | null): SangData {
   const macro = buildMacroData(fredJson, macroReportJson);
   const finalMacro = macro.items.length ? macro : DEFAULT_MACRO_DATA;
   const competition = buildCompetitionData(mentionJson, snapshotJson);
   const briefings = buildBriefingData(briefingJson);
   const referenceDate = referenceDateFromMetadata(ipoJson);
-  const sourceItems = (ipoJson?.items?.filter(isIpoSourceItem).filter((item) => !isPastSourceItem(item, referenceDate)) ?? []).slice(0, 12);
-  const companies = sourceItems.map((item, index) => mapCompany(item, index, referenceDate)).filter((company): company is Company => Boolean(company));
+  const sourceItems = (ipoJson?.items?.filter(isIpoSourceItem).filter((item) => !isPastSourceItem(item, referenceDate)) ?? []).slice(0, 24);
+  const mapped = sourceItems
+    .map((item, index) => ({ item, company: mapCompany(item, index, referenceDate) }))
+    .filter((entry): entry is { item: SourceIpoItem; company: Company } => Boolean(entry.company))
+    .sort((a, b) => companySortDate(a.company, referenceDate).localeCompare(companySortDate(b.company, referenceDate)) || a.company.name.localeCompare(b.company.name, 'ko'))
+    .slice(0, 12);
+  const companies = mapped.map((entry) => entry.company);
+  const companySourceItems = mapped.map((entry) => entry.item);
   const actionUpdatedAt = firstActionTimestamp(ipoJson, competition, briefings, finalMacro);
   const newsItems = buildNews(newsJson);
   const reportItems = buildReports(reportJson);
   if (!companies.length && ipoJson && Array.isArray(ipoJson.items)) return { companies: [], metrics: [] as typeof metricTemplates, filings: [], news: newsItems, reports: reportItems.length ? reportItems : [], widgets: [] as typeof defaultWidgets, sourceLoaded: true, macro: finalMacro, competition: DEFAULT_COMPETITION_DATA, briefings: { items: [], updatedAt: null, sourceLoaded: true }, alerts: [], actionUpdatedAt, referenceDate, dataMode: 'actions' };
   if (!companies.length) return { ...DEFAULT_SANG_DATA, news: newsItems, reports: reportItems.length ? reportItems : defaultReports, macro: finalMacro, competition, briefings: briefings.sourceLoaded ? briefings : DEFAULT_BRIEFING_DATA, alerts: buildAlerts(DEFAULT_SANG_DATA.companies, referenceDate), actionUpdatedAt, referenceDate, dataMode: actionUpdatedAt ? 'actions' : 'fallback' };
   const alerts = buildAlerts(companies, referenceDate);
-  return { companies, metrics: buildMetrics(companies), filings: buildFilings(sourceItems, companies), news: newsItems, reports: reportItems.length ? reportItems : defaultReports, widgets: buildWidgets(companies, newsItems), sourceLoaded: true, macro: finalMacro, competition, briefings: briefings.sourceLoaded ? briefings : DEFAULT_BRIEFING_DATA, alerts, actionUpdatedAt, referenceDate, dataMode: 'actions' };
+  return { companies, metrics: buildMetrics(companies), filings: buildFilings(companySourceItems, companies, referenceDate), news: newsItems, reports: reportItems.length ? reportItems : defaultReports, widgets: buildWidgets(companies, newsItems), sourceLoaded: true, macro: finalMacro, competition, briefings: briefings.sourceLoaded ? briefings : DEFAULT_BRIEFING_DATA, alerts, actionUpdatedAt, referenceDate, dataMode: 'actions' };
 }
 export function useProjectData(reloadKey: number): SangData {
   const [data, setData] = useState<SangData>(DEFAULT_SANG_DATA);

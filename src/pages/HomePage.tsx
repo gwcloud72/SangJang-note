@@ -176,7 +176,7 @@ export function HomePage({ data, onTabChange, onAction }: PageProps) {
       <Card padding="normal" className="rounded-lg">
         <SectionHeader title="이번 주 일정판" action="일정" onAction={() => onTabChange('calendar')} />
         <div className="grid gap-ds-3 lg:grid-cols-[360px_minmax(0,1fr)]">
-          <IPOCalendar companies={data.companies} onSelect={() => onTabChange('companies')} compact />
+          <IPOCalendar companies={data.companies} referenceDate={data.referenceDate} onSelect={() => onTabChange('companies')} compact />
           <div className="grid content-start gap-ds-1.5">
             {companies.slice(0, 7).map((company) => <CalendarCard key={`home-cal-${company.id}`} company={company} onOpen={() => onTabChange('companies')} />)}
           </div>

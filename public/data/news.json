@@ -1,97 +1,11 @@
 {
   "metadata": {
-    "source": "github-actions-demo:naver-news-search",
-    "sourceMode": "github-actions-demo",
-    "updatedAt": "2026-06-14T00:30:00.000Z",
-    "updatedKst": "2026-06-14T09:30:00+09:00",
-    "itemCount": 6,
-    "queryCount": 6,
-    "notice": "청약 전 경쟁률 기사 후보는 저장하지 않습니다."
+    "source": "sanitized-empty-ipo-news",
+    "updatedAt": "2026-06-15T07:00:11.770Z",
+    "updatedKst": null,
+    "referenceDate": "2026-06-15",
+    "itemCount": 0,
+    "notice": "표시 가능한 IPO 일정이 없어 관련 뉴스 데이터를 비웠습니다."
   },
-  "items": [
-    {
-      "id": "news-bigwave",
-      "companyName": "빅웨이브로보틱스",
-      "company": "빅웨이브로보틱스",
-      "keyword": "빅웨이브로보틱스",
-      "title": "빅웨이브로보틱스 예비심사 일정 확인",
-      "provider": "뉴스 검색",
-      "source": "뉴스 검색",
-      "publishedAt": "2026-06-14T00:10:00.000Z",
-      "date": "2026-06-14T00:10:00.000Z",
-      "link": "https://dart.fss.or.kr/dsac008/main.do",
-      "originallink": "https://dart.fss.or.kr/dsac008/main.do",
-      "summary": "로봇 플랫폼 기업 예비심사 일정과 주관사를 함께 봅니다."
-    },
-    {
-      "id": "news-strad",
-      "companyName": "스트라드비젼",
-      "company": "스트라드비젼",
-      "keyword": "스트라드비젼",
-      "title": "스트라드비젼 청약 일정 사전 점검",
-      "provider": "뉴스 검색",
-      "source": "뉴스 검색",
-      "publishedAt": "2026-06-14T00:20:00.000Z",
-      "date": "2026-06-14T00:20:00.000Z",
-      "link": "https://dart.fss.or.kr/dsac008/main.do",
-      "originallink": "https://dart.fss.or.kr/dsac008/main.do",
-      "summary": "자율주행 인식 소프트웨어 기업 청약 예정 일정 기사입니다."
-    },
-    {
-      "id": "news-justek",
-      "companyName": "져스텍",
-      "company": "져스텍",
-      "keyword": "져스텍",
-      "title": "져스텍 청약 일정 사전 확인",
-      "provider": "뉴스 검색",
-      "source": "뉴스 검색",
-      "publishedAt": "2026-06-14T00:28:00.000Z",
-      "date": "2026-06-14T00:28:00.000Z",
-      "link": "https://dart.fss.or.kr/dsac008/main.do",
-      "originallink": "https://dart.fss.or.kr/dsac008/main.do",
-      "summary": "초정밀 모션제어 장비 기업의 청약 일정을 확인합니다."
-    },
-    {
-      "id": "news-spac16",
-      "companyName": "한국제16호스팩",
-      "company": "한국제16호스팩",
-      "keyword": "한국제16호스팩",
-      "title": "한국제16호스팩 청약 일정 확인",
-      "provider": "뉴스 검색",
-      "source": "뉴스 검색",
-      "publishedAt": "2026-06-14T00:30:00.000Z",
-      "date": "2026-06-14T00:30:00.000Z",
-      "link": "https://dart.fss.or.kr/dsac008/main.do",
-      "originallink": "https://dart.fss.or.kr/dsac008/main.do",
-      "summary": "스팩 공모 청약 일정과 주관사를 확인합니다."
-    },
-    {
-      "id": "news-madup",
-      "companyName": "매드업",
-      "company": "매드업",
-      "keyword": "매드업",
-      "title": "매드업 예비심사 예정 일정 확인",
-      "provider": "뉴스 검색",
-      "source": "뉴스 검색",
-      "publishedAt": "2026-06-14T00:32:00.000Z",
-      "date": "2026-06-14T00:32:00.000Z",
-      "link": "https://dart.fss.or.kr/dsac008/main.do",
-      "originallink": "https://dart.fss.or.kr/dsac008/main.do",
-      "summary": "AI 마케팅 솔루션 기업 예비심사 일정 기사입니다."
-    },
-    {
-      "id": "news-lemon",
-      "companyName": "레몬헬스케어",
-      "company": "레몬헬스케어",
-      "keyword": "레몬헬스케어",
-      "title": "레몬헬스케어 청약 예정일 확인",
-      "provider": "뉴스 검색",
-      "source": "뉴스 검색",
-      "publishedAt": "2026-06-14T00:40:00.000Z",
-      "date": "2026-06-14T00:40:00.000Z",
-      "link": "https://dart.fss.or.kr/dsac008/main.do",
-      "originallink": "https://dart.fss.or.kr/dsac008/main.do",
-      "summary": "헬스케어 플랫폼 기업 청약 예정일을 확인합니다."
-    }
-  ]
+  "items": []
 }

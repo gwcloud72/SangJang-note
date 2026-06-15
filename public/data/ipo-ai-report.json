@@ -1,15 +1,13 @@
 {
   "metadata": {
-    "generatedAt": "2026-06-14T00:30:00.000Z",
-    "updatedKst": "2026-06-14T09:30:00+09:00",
-    "source": "github-actions-demo:gemini-summary",
-    "model": "local-rules-demo",
-    "scope": "github-pages-v1",
-    "referenceDate": "2026-06-14"
+    "source": "sanitized-empty-ipo-report",
+    "updatedAt": "2026-06-15T07:00:11.772Z",
+    "updatedKst": null,
+    "referenceDate": "2026-06-15",
+    "itemCount": 0,
+    "generatedAt": null,
+    "model": null,
+    "scope": "github-pages-v1"
   },
-  "lines": [
-    "06.14 기준 청약 진행 기업은 없습니다.",
-    "청약 경쟁률은 청약 시작일 이후 확인 입력 또는 뉴스 언급이 있을 때만 표시합니다.",
-    "예정 기업은 원문 일정과 주관사 공지부터 확인합니다."
-  ]
+  "lines": []
 }

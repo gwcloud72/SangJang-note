@@ -1,13 +1,12 @@
 {
   "metadata": {
-    "source": "sanitized-empty-ipo-briefings",
-    "updatedAt": "2026-06-15T07:00:11.771Z",
-    "updatedKst": null,
-    "referenceDate": "2026-06-15",
+    "source": "local-rules",
+    "generatedAt": "2026-06-15T09:39:50.945Z",
+    "model": null,
     "itemCount": 0,
     "geminiUsed": 0,
     "cacheUsed": 0,
-    "policy": "표시 가능한 IPO 일정이 없어 회사별 브리핑을 비웠습니다."
+    "policy": "회사 설명, IPO 단계, 일정, 경쟁률 뉴스 언급, 원문 확인 포인트만 표시합니다. 투자 판단 표현은 제외합니다."
   },
   "items": []
 }

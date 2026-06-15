@@ -62,7 +62,8 @@ function validateIpos(payload, label) {
  items.forEach((item, index) => {
   if (!isObject(item)) { errors.push(`${label}.items[${index}]: 객체여야 합니다.`); return; }
   const name = item.company || item.companyName || item.corpName || item.name;
-  if (name !== undefined && String(name).trim() === '') warnings.push(`${label}.items[${index}]: 기업명이 확인 필요합니다.`);
+  const companyName = String(name || '').trim();
+  if (name !== undefined && !companyName) warnings.push(`${label}.items[${index}]: 기업명이 확인 필요합니다.`);
   const url = item.dartUrl || item.url || item.link;
   if (!safeUrl(url)) errors.push(`${label}.items[${index}]: 공시 URL은 http/https만 허용됩니다.`);
   const statusText = String(item.status || item.stage || item.reportName || item.title || '');
@@ -183,8 +184,8 @@ function kstDateOnly(date = new Date()) {
 }
 function normalizeIpoForCompetition(item) {
  const companyName = String(item?.companyName || item?.company || item?.corpName || item?.name || '').trim();
- const start = normalizeDate(item?.subscriptionStart || item?.subscriptionDate);
- const end = normalizeDate(item?.subscriptionEnd || item?.subscriptionDate || start);
+ const start = normalizeDate(item?.subscriptionStart || item?.scheduleStart || item?.subscriptionDate);
+ const end = normalizeDate(item?.subscriptionEnd || item?.scheduleEnd || item?.subscriptionDate || start);
  const listingDate = normalizeDate(item?.listingDate);
  const refundDate = normalizeDate(item?.refundDate);
  return { companyName, start, end, refundDate, listingDate, status: String(item?.status || item?.stage || '').trim() };

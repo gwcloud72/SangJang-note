@@ -680,6 +680,8 @@ async function main() {
    totalFilings: uniqueFilings.length,
    totalCompanies: corpCodes.length,
    totalItems: items.length,
+   referenceDate: todayIso,
+   status: items.length ? 'ready' : 'empty',
    documentDetailItems: extractedCount,
    warning: errors.length
     ? `${errors.length}개 항목의 상세 조회 또는 원문 추출에 실패했습니다. Actions 로그에서 확인하세요.`

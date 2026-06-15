@@ -71,7 +71,7 @@ export function ProjectShell() {
     window.setTimeout(() => setRefreshing(false), 520);
   };
 
-  const dataReady = data.sourceLoaded && data.companies.length > 0;
+  const dataReady = data.sourceLoaded;
   const canRenderPanel = dataReady || tab === 'market';
 
   const Panel = useMemo(() => ({ home: HomePage, companies: CompaniesPage, calendar: CalendarPage, news: NewsPage, ai: AiPage, market: MarketEnvironmentPage, watch: WatchPage, filings: FilingsPage, timeline: TimelinePage, reports: ReportsPage, alerts: AlertsPage, favorites: FavoritesPage, memo: MemoPage, settings: SettingsPage })[tab] ?? HomePage, [tab]);

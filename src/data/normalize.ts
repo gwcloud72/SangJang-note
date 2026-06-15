@@ -503,6 +503,7 @@ export function buildSangData(ipoJson: SourceIpoResponse | null, newsJson: Sourc
   const actionUpdatedAt = firstActionTimestamp(ipoJson, competition, briefings, finalMacro);
   const newsItems = buildNews(newsJson);
   const reportItems = buildReports(reportJson);
+  if (!companies.length && ipoJson && Array.isArray(ipoJson.items)) return { companies: [], metrics: [] as typeof metricTemplates, filings: [], news: newsItems, reports: reportItems.length ? reportItems : [], widgets: [] as typeof defaultWidgets, sourceLoaded: true, macro: finalMacro, competition: DEFAULT_COMPETITION_DATA, briefings: { items: [], updatedAt: null, sourceLoaded: true }, alerts: [], actionUpdatedAt, referenceDate, dataMode: 'actions' };
   if (!companies.length) return { ...DEFAULT_SANG_DATA, news: newsItems, reports: reportItems.length ? reportItems : defaultReports, macro: finalMacro, competition, briefings: briefings.sourceLoaded ? briefings : DEFAULT_BRIEFING_DATA, alerts: buildAlerts(DEFAULT_SANG_DATA.companies, referenceDate), actionUpdatedAt, referenceDate, dataMode: actionUpdatedAt ? 'actions' : 'fallback' };
   const alerts = buildAlerts(companies, referenceDate);
   return { companies, metrics: buildMetrics(companies), filings: buildFilings(sourceItems, companies), news: newsItems, reports: reportItems.length ? reportItems : defaultReports, widgets: buildWidgets(companies, newsItems), sourceLoaded: true, macro: finalMacro, competition, briefings: briefings.sourceLoaded ? briefings : DEFAULT_BRIEFING_DATA, alerts, actionUpdatedAt, referenceDate, dataMode: 'actions' };

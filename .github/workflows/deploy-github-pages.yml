@@ -127,7 +127,7 @@ jobs:
         run: |
           set -euo pipefail
 
-          require_ipo_data() {
+          check_ipo_data() {
             node --input-type=module <<'NODE'
           import { existsSync, readFileSync } from 'node:fs';
           const file = 'public/data/ipos.json';
@@ -136,11 +136,20 @@ jobs:
             process.exit(1);
           }
           const payload = JSON.parse(readFileSync(file, 'utf8'));
-          if (!Array.isArray(payload.items) || payload.items.length === 0) {
-            console.error('ipos.json에 IPO 데이터 확인이 필요합니다. 확인 데이터 배포를 중단합니다.');
+          if (!Array.isArray(payload.items)) {
+            console.error('ipos.json items 배열이 확인 필요합니다.');
             process.exit(1);
           }
-          console.log(`OpenDART 데이터 확인: ${payload.items.length}개 일정`);
+          const referenceDate = String(payload.metadata?.referenceDate || '').slice(0, 10);
+          if (!/^\d{4}-\d{2}-\d{2}$/.test(referenceDate)) {
+            console.error('ipos.json metadata.referenceDate가 확인 필요합니다.');
+            process.exit(1);
+          }
+          if (payload.items.length === 0) {
+            console.warn('OpenDART 기준 표시 가능한 IPO 일정이 0건입니다. 빈 상태 화면으로 배포를 계속합니다.');
+          } else {
+            console.log(`OpenDART 데이터 확인: ${payload.items.length}개 일정`);
+          }
           NODE
           }
 
@@ -158,12 +167,16 @@ jobs:
           fi
 
           if npm run update:data; then
-            require_ipo_data
+            check_ipo_data
           else
             echo "OpenDART 데이터 갱신 실패. 기존 데이터를 복구합니다."
             restore_data
-            require_ipo_data
+            check_ipo_data
           fi
+
+      - name: Sanitize derived IPO data
+        shell: bash
+        run: npm run sanitize:derived
 
       - name: Generate IPO news
         shell: bash

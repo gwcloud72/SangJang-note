@@ -169,8 +169,30 @@ async function buildLocalReport(payload) {
  };
 }
 
+async function writeEmptyReport(payload) {
+ const referenceDate = getReferenceDate(payload);
+ const report = {
+  metadata: {
+   generatedAt: null,
+   source: 'empty-opendart-result',
+   model: null,
+   scope: 'upcoming-45-days',
+   referenceDate: referenceDate.toISOString(),
+  },
+  lines: [],
+ };
+ await mkdir(path.dirname(OUTPUT_PATH), { recursive: true });
+ await writeFile(OUTPUT_PATH, `${JSON.stringify(report, null, 2)}
+`, 'utf8');
+ console.log(`IPO 요약 파일 비움: ${OUTPUT_PATH}`);
+}
+
 async function main() {
  const payload = JSON.parse(await readFile(DATA_PATH, 'utf8'));
+ if (!Array.isArray(payload?.items) || payload.items.length === 0) {
+  await writeEmptyReport(payload);
+  return;
+ }
  if (isNonLivePayload(payload)) {
   console.log(`IPO 항목 확인 필요: 기존 요약 파일을 유지합니다: ${OUTPUT_PATH}`);
   return;

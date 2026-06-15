@@ -1,6 +1,6 @@
 import type { ElementType, HTMLAttributes, ReactNode } from 'react';
 
-export type CardTone = 'default' | 'muted' | 'accent' | 'danger' | 'warning';
+export type CardTone = 'default' | 'muted' | 'accent' | 'danger' | 'warning' | 'dark';
 export type CardPadding = 'none' | 'compact' | 'normal' | 'spacious';
 
 export interface CardProps extends HTMLAttributes<HTMLElement> {
@@ -19,6 +19,7 @@ const toneClasses: Record<CardTone, string> = {
   accent: 'border-primary-400 bg-primary-50',
   danger: 'border-up bg-up-bg',
   warning: 'border-warn-border bg-warn-bg',
+  dark: 'border-ink-900 bg-ink-900 text-white',
 };
 
 const paddingClasses: Record<CardPadding, string> = {

@@ -1,4 +1,4 @@
-import { mkdir, writeFile } from 'node:fs/promises';
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import AdmZip from 'adm-zip';
 import iconv from 'iconv-lite';
@@ -19,11 +19,6 @@ const lookbackDays = parseInteger(process.env.LOOKBACK_DAYS, 180, { min: 1, max:
 const lookaheadDays = parseInteger(process.env.LOOKAHEAD_DAYS, 120, { min: 1, max: 3650 });
 const chunkDays = parseInteger(process.env.DART_LIST_CHUNK_DAYS, 80, { min: 1, max: 100 });
 const detailPauseMs = parseInteger(process.env.DART_DOCUMENT_PAUSE_MS, 160, { min: 0, max: 5000 });
-
-if (!apiKey) {
- console.error('DART_API_KEY 환경변수가 확인 필요합니다. GitHub Actions Secret 또는 로컬 환경변수로 설정하세요.');
- process.exit(1);
-}
 
 function addDays(date, days) {
  const next = new Date(date);
@@ -294,17 +289,25 @@ function firstDate(rawValue) {
  return extractDates(rawValue)[0] || clean(rawValue);
 }
 
-function computeStatus(scheduleStart, scheduleEnd, todayIso) {
- if (!scheduleStart && !scheduleEnd) return 'unknown';
+function computeStatus(scheduleStart, scheduleEnd, todayIso, { refundDate = '', listingDate = '', rawStatus = '' } = {}) {
+ const raw = String(rawStatus || '');
+ if (/예비/.test(raw)) return '예비심사';
+ if (!scheduleStart && !scheduleEnd) {
+  if (listingDate && todayIso >= listingDate) return '상장';
+  if (listingDate && todayIso < listingDate) return '상장';
+  return /수요/.test(raw) ? '예비심사' : '일정 확인';
+ }
 
  const start = scheduleStart || scheduleEnd;
  const end = scheduleEnd || scheduleStart;
 
- if (todayIso >= start && todayIso <= end) return 'open';
- if (todayIso < start) return 'upcoming';
- if (todayIso > end) return 'closed';
-
- return 'unknown';
+ if (todayIso < start) return '청약 예정';
+ if (todayIso >= start && todayIso <= end) return '청약 진행중';
+ if (refundDate && todayIso <= refundDate) return '환불일';
+ if (listingDate && todayIso < listingDate) return '상장';
+ if (listingDate && todayIso >= listingDate) return '상장';
+ if (/수요/.test(raw)) return '예비심사';
+ return '종료';
 }
 
 function normalizeSchedule(row, filingByReceipt, filingsByCorp, todayIso) {
@@ -344,26 +347,40 @@ function normalizeSchedule(row, filingByReceipt, filingsByCorp, todayIso) {
   dartUrl: receiptNo ? `https://dart.fss.or.kr/dsaf001/main.do?rcpNo=${receiptNo}` : '',
   mainMatterReceiptNo: clean(row.rpt_rcpn),
   mainMatterUrl: clean(row.rpt_rcpn) ? `https://dart.fss.or.kr/dsaf001/main.do?rcpNo=${clean(row.rpt_rcpn)}` : '',
-  status: computeStatus(scheduleStart, scheduleEnd, todayIso),
+  status: computeStatus(scheduleStart, scheduleEnd, todayIso, { rawStatus: filing.report_nm }),
   refundDate: '',
   listingDate: '',
+  refundDateSource: '',
+  listingDateSource: '',
   subscriptionCompetitionRate: '',
   demandForecastCompetitionRate: '',
   detailSource: '',
   detailSourceNote: '',
+  offeringCategory: 'ipo',
+  eventType: 'initial_public_offering',
+  sourceMode: 'opendart',
  };
+}
+
+
+const NON_IPO_EVENT_RE = /유상증자|무상증자|주주배정|실권주|구주주|신주인수권|제3자배정|주주우선|전환사채|교환사채|신주인수권부사채|일반공모증자|유상청약/;
+function isIpoLike(item) {
+ const text = [item.companyName, item.reportName, item.offeringMethod, item.securityType, item.detailSourceNote].map((value) => String(value || '')).join(' ');
+ if (NON_IPO_EVENT_RE.test(text)) return false;
+ // OpenDART 지분증권 데이터에는 유상증자도 섞인다. 주주배정·실권주·구주주 신호가 있으면 IPO 화면에서 제외한다.
+ if (/주주|실권|구주|증자/.test(String(item.offeringMethod || ''))) return false;
+ return true;
 }
 
 function shouldKeep(item, todayIso) {
  if (!item.scheduleStart && !item.scheduleEnd) return true;
 
  const today = new Date(`${todayIso}T00:00:00Z`);
- const closedCutoff = isoFromDate(addDays(today, -14));
  const futureCutoff = isoFromDate(addDays(today, lookaheadDays));
  const start = item.scheduleStart || item.scheduleEnd;
- const end = item.scheduleEnd || item.scheduleStart;
+ const end = item.listingDate || item.refundDate || item.scheduleEnd || item.scheduleStart;
 
- return end >= closedCutoff && start <= futureCutoff;
+ return isIpoLike(item) && end >= todayIso && start <= futureCutoff;
 }
 
 function sortItems(a, b) {
@@ -494,7 +511,7 @@ function extractDocumentDetails(text) {
 
  const listingDate = findDateNearKeyword(text, [
   '상장예정일',
-  '상장 예정일',
+  '상장일',
   '매매개시 예정일',
   '매매개시예정일',
   '상장일',
@@ -502,8 +519,8 @@ function extractDocumentDetails(text) {
 
  const demandForecastCompetitionRate = normalizeCompetitionRate(
   findRateNearKeyword(text, [
-   '수요예측 경쟁률',
-   '수요예측경쟁률',
+   '예비심사 경쟁률',
+   '예비심사경쟁률',
    '기관 경쟁률',
    '기관경쟁률',
   ])
@@ -527,6 +544,8 @@ function extractDocumentDetails(text) {
  return {
   refundDate,
   listingDate,
+  refundDateSource: refundDate ? 'dart-document' : '',
+  listingDateSource: listingDate ? 'dart-document' : '',
   subscriptionCompetitionRate,
   demandForecastCompetitionRate,
   detailSource: detailFields.length ? 'document' : '',
@@ -570,7 +589,26 @@ async function enrichItemsWithDocumentDetails(items, errors) {
  };
 }
 
+
+async function hasExistingIpoData() {
+ try {
+  const text = await readFile(OUTPUT_PATH, 'utf8');
+  const payload = JSON.parse(text);
+  return Array.isArray(payload?.items) && payload.items.length > 0;
+ } catch {
+  return false;
+ }
+}
+
 async function main() {
+ if (!apiKey) {
+  if (await hasExistingIpoData()) {
+   console.warn('DART_API_KEY가 없어 기존 ipos.json을 유지합니다.');
+   return;
+  }
+  throw new Error('DART_API_KEY 환경변수가 확인 필요합니다. 기존 IPO 데이터가 없어 생성을 중단합니다.');
+ }
+
  const today = todayInKorea();
  const todayIso = isoFromDate(today);
  const bgnDe = formatYmd(addDays(today, -lookbackDays));
@@ -614,12 +652,22 @@ async function main() {
  const mergedRows = mergeRowsByReceipt(allRows);
  const normalizedItems = mergedRows
   .map((row) => normalizeSchedule(row, filingByReceipt, filingsByCorp, todayIso))
-  .filter((item) => item.companyName && shouldKeep(item, todayIso))
+  .filter((item) => item.companyName && isIpoLike(item))
+  .filter((item) => {
+   const futureCutoff = isoFromDate(addDays(today, lookaheadDays));
+   const start = item.scheduleStart || item.scheduleEnd || item.receiptDate || todayIso;
+   return start <= futureCutoff;
+  })
   .sort(sortItems);
 
- console.log(`표시 대상 일정 ${normalizedItems.length}건 원문 공시 상세정보 추출 시작`);
+ console.log(`표시 대상 후보 ${normalizedItems.length}건 원문 공시 상세정보 추출 시작`);
 
- const { items, extractedCount } = await enrichItemsWithDocumentDetails(normalizedItems, errors);
+ const enrichedResult = await enrichItemsWithDocumentDetails(normalizedItems, errors);
+ const extractedCount = enrichedResult.extractedCount;
+ const items = enrichedResult.items
+  .map((item) => ({ ...item, status: computeStatus(item.scheduleStart, item.scheduleEnd, todayIso, { refundDate: item.refundDate, listingDate: item.listingDate, rawStatus: item.reportName || item.status }) }))
+  .filter((item) => item.status !== '종료' && shouldKeep(item, todayIso))
+  .sort(sortItems);
 
  const output = {
   metadata: {
@@ -635,7 +683,7 @@ async function main() {
    documentDetailItems: extractedCount,
    warning: errors.length
     ? `${errors.length}개 항목의 상세 조회 또는 원문 추출에 실패했습니다. Actions 로그에서 확인하세요.`
-    : '환불일·상장예정일·경쟁률은 공시 원문에서 추출 가능한 경우에만 표시됩니다. 지분증권 공시라 IPO 외 유상증자 등 다른 청약도 포함될 수 있습니다.',
+    : '환불일·상장예정일·경쟁률은 공시 원문에서 추출 가능한 경우에만 표시됩니다. 유상증자·주주배정·실권주 청약은 IPO 화면에서 제외됩니다.',
   },
   items,
  };

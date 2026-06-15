@@ -29,30 +29,52 @@ export interface MacroData {
   sourceLoaded: boolean;
   reportLoaded: boolean;
 }
-export type SangData = { companies: Company[]; metrics: typeof metricTemplates; filings: Filing[]; news: NewsItem[]; reports: ReportItem[]; widgets: typeof defaultWidgets; sourceLoaded: boolean; macro: MacroData; };
-interface SourceIpoItem { id?: string; company?: string; companyName?: string; corpName?: string; name?: string; status?: string; stage?: string; manager?: string; leadManager?: string; underwriter?: string; date?: string; reportDate?: string; receiptDate?: string; rceptDt?: string; dartUrl?: string; url?: string; link?: string; reportName?: string; title?: string; }
-interface SourceIpoResponse { items?: SourceIpoItem[]; }
+export interface CompetitionCandidate { type: 'total' | 'proportional' | 'equalShares' | 'unknown'; value: number; raw?: string; confidence: 'low' | 'medium' | 'verified'; }
+export interface CompetitionMention { id: string; ipoId: string; companyName: string; displayLabel: '뉴스 언급'; title: string; articleText: string; publisher: string; publishedAt: string | null; articleTimeLabel: string; link: string; candidates: CompetitionCandidate[]; }
+export interface CompetitionSnapshot { id: string; ipoId: string; companyName: string; underwriter: string; capturedAt: string; capturedKstTime: string; totalCompetition: number; proportionalCompetition: number | null; sourceLabel: '확인 입력' | '증권사 기준' | '제휴 기준'; sourceType: 'manual' | 'broker' | 'partner'; confidence: 'verified'; sourceUrl: string; }
+export interface CompetitionData { snapshots: CompetitionSnapshot[]; mentions: CompetitionMention[]; updatedAt: string | null; sourceLoaded: boolean; }
+export interface IpoBriefing { id: string; ipoId: string; companyName: string; sector: string; ipoStage: string; underwriter: string; basisTimeLabel: string; oneLine: string; body: string; points: string[]; sourceLabels: string[]; competition?: { label: string; value: number; proportionalValue: number | null; timeLabel: string; sourceLine: string } | null; generatedBy: string; model: string | null; }
+export interface BriefingData { items: IpoBriefing[]; updatedAt: string | null; sourceLoaded: boolean; }
+export type IpoAlertStage = '예비심사' | '청약 예정' | '청약 진행중' | '환불일' | '상장';
+export interface IpoAlert { id: string; companyId: string; companyName: string; stage: IpoAlertStage; date: string; dateLabel: string; actionLabel: string; detail: string; sourceLabel: string; }
+export type SangData = { companies: Company[]; metrics: typeof metricTemplates; filings: Filing[]; news: NewsItem[]; reports: ReportItem[]; widgets: typeof defaultWidgets; sourceLoaded: boolean; macro: MacroData; competition: CompetitionData; briefings: BriefingData; alerts: IpoAlert[]; actionUpdatedAt: string | null; referenceDate: string; dataMode: 'actions' | 'fallback'; };
+interface SourceIpoItem { id?: string; company?: string; companyName?: string; corpName?: string; name?: string; sector?: string; status?: string; stage?: string; manager?: string; leadManager?: string; underwriter?: string; date?: string; reportDate?: string; receiptDate?: string; rceptDt?: string; scheduleStart?: string; scheduleEnd?: string; subscriptionStart?: string; subscriptionEnd?: string; subscriptionDate?: string; refundDate?: string; listingDate?: string; refundDateSource?: string; listingDateSource?: string; detailSource?: string; dartUrl?: string; url?: string; link?: string; reportName?: string; title?: string; offeringCategory?: string; eventType?: string; offeringMethod?: string; securityType?: string; stockCode?: string; }
+interface SourceIpoResponse { metadata?: { updatedAt?: string | null; updatedKst?: string | null; generatedAt?: string | null; referenceDate?: string | null; source?: string | null; sourceMode?: string | null }; items?: SourceIpoItem[]; }
 interface SourceNewsItem { id?: string; title?: string; source?: string; provider?: string; publishedAt?: string; date?: string; pubDate?: string; link?: string; originallink?: string; originalLink?: string; company?: string; companyName?: string; keyword?: string; summary?: string; description?: string; }
 interface SourceNewsResponse { items?: SourceNewsItem[]; }
 interface SourceReportLine { id?: string; title?: string; summary?: string; text?: string; company?: string; }
 interface SourceReportResponse { lines?: Array<SourceReportLine | string>; reports?: Record<string, SourceReportLine>; }
 interface SourceFredResponse { metadata?: { source?: string; updatedAt?: string | null; generatedAt?: string | null }; items?: unknown[]; }
 interface SourceFredReportResponse { metadata?: { source?: string; generatedAt?: string | null }; items?: unknown[]; }
+interface SourceCompetitionCandidate { type?: string; value?: unknown; raw?: string; confidence?: string; }
+interface SourceCompetitionMention { id?: string; ipoId?: string; companyName?: string; displayLabel?: string; title?: string; articleText?: string; publisher?: string; publishedAt?: string | null; articleTimeLabel?: string; link?: string; originallink?: string; candidates?: SourceCompetitionCandidate[]; }
+interface SourceCompetitionSnapshot { id?: string; ipoId?: string; companyName?: string; underwriter?: string; capturedAt?: string; capturedKstTime?: string; totalCompetition?: unknown; proportionalCompetition?: unknown; sourceLabel?: string; sourceType?: string; confidence?: string; sourceUrl?: string; }
+interface SourceCompetitionResponse<T> { metadata?: { updatedAt?: string | null; updatedKst?: string | null }; items?: T[]; }
+interface SourceBriefingCompetition { label?: string; value?: unknown; proportionalValue?: unknown; timeLabel?: string; sourceLine?: string; }
+interface SourceBriefingItem { id?: string; ipoId?: string; companyName?: string; sector?: string; ipoStage?: string; underwriter?: string; basisTimeLabel?: string; oneLine?: string; body?: string; points?: unknown[]; sourceLabels?: unknown[]; competition?: SourceBriefingCompetition | null; generatedBy?: string; model?: string | null; }
+interface SourceBriefingResponse { metadata?: { generatedAt?: string | null; updatedAt?: string | null }; items?: SourceBriefingItem[]; }
 
 const DEFAULT_MACRO_DATA: MacroData = { items: [
   { seriesId:'FEDFUNDS', koreanName:'미국 기준금리', unit:'%', latestDate:'2026-06-10', latestValue:3.62, previousDate:'2026-06-09', previousValue:3.62, change:0, changeRate:0, observations:[{date:'2026-06-04', value:3.62},{date:'2026-06-05', value:3.62},{date:'2026-06-08', value:3.62},{date:'2026-06-09', value:3.62},{date:'2026-06-10', value:3.62}] },
   { seriesId:'DGS10', koreanName:'미국 10년 국채금리', unit:'%', latestDate:'2026-06-10', latestValue:4.55, previousDate:'2026-06-09', previousValue:4.53, change:0.02, changeRate:0.44, observations:[{date:'2026-06-04', value:4.47},{date:'2026-06-05', value:4.55},{date:'2026-06-08', value:4.56},{date:'2026-06-09', value:4.53},{date:'2026-06-10', value:4.55}] },
-  { seriesId:'CPIAUCSL', koreanName:'미국 소비자물가지수', unit:'pt', latestDate:'2026-05-01', latestValue:333.979, previousDate:'2026-04-01', previousValue:332.407, change:1.572, changeRate:0.47, observations:[{date:'2026-01-01', value:326.588},{date:'2026-02-01', value:327.460},{date:'2026-03-01', value:330.293},{date:'2026-04-01', value:332.407},{date:'2026-05-01', value:333.979}] },
-  { seriesId:'UNRATE', koreanName:'미국 실업률', unit:'%', latestDate:'2026-05-01', latestValue:4.3, previousDate:'2026-04-01', previousValue:4.3, change:0, changeRate:0, observations:[{date:'2026-01-01', value:4.3},{date:'2026-02-01', value:4.4},{date:'2026-03-01', value:4.3},{date:'2026-04-01', value:4.3},{date:'2026-05-01', value:4.3}] }
+  { seriesId:'CPIAUCSL', koreanName:'미국 소비자물가지수', unit:'pt', latestDate:'2026-06-13', latestValue:334.118, previousDate:'2026-06-12', previousValue:334.002, change:0.116, changeRate:0.03, observations:[{date:'2026-06-09', value:333.912},{date:'2026-06-10', value:333.984},{date:'2026-06-11', value:334.006},{date:'2026-06-12', value:334.002},{date:'2026-06-13', value:334.118}] },
+  { seriesId:'UNRATE', koreanName:'미국 실업률', unit:'%', latestDate:'2026-06-13', latestValue:4.2, previousDate:'2026-06-12', previousValue:4.2, change:0, changeRate:0, observations:[{date:'2026-06-09', value:4.2},{date:'2026-06-10', value:4.2},{date:'2026-06-11', value:4.2},{date:'2026-06-12', value:4.2},{date:'2026-06-13', value:4.2}] }
 ], reports: [
   { seriesId:'FEDFUNDS', koreanName:'미국 기준금리', plainSummary:'기준금리는 최근 관측값 기준 3.62%로 표시됩니다.', ipoContext:'공모 일정 확인 시 자금시장 분위기를 함께 보는 참고 지표입니다.', caution:'공시 원문과 일정 정보를 함께 확인하세요.' },
   { seriesId:'DGS10', koreanName:'미국 10년 국채금리', plainSummary:'10년 국채금리는 4.55%로 최근 관측값이 소폭 높아졌습니다.', ipoContext:'금리 흐름은 성장기업 평가 환경을 살펴볼 때 참고할 수 있습니다.', caution:'공시 원문과 일정 정보를 함께 확인하세요.' },
-  { seriesId:'CPIAUCSL', koreanName:'미국 소비자물가지수', plainSummary:'소비자물가지수는 2026년 5월 333.979로 집계됐습니다.', ipoContext:'물가 흐름은 시장환경을 넓게 확인하는 보조 지표입니다.', caution:'공시 원문과 일정 정보를 함께 확인하세요.' },
-  { seriesId:'UNRATE', koreanName:'미국 실업률', plainSummary:'실업률은 2026년 5월 4.3%로 전월과 같은 수준입니다.', ipoContext:'고용 지표는 시장 심리 확인용 보조 지표로 함께 표시합니다.', caution:'공시 원문과 일정 정보를 함께 확인하세요.' }
+  { seriesId:'CPIAUCSL', koreanName:'미국 소비자물가지수', plainSummary:'소비자물가지수는 06.13 기준 334.118로 표시됩니다.', ipoContext:'물가 흐름은 시장환경을 넓게 확인하는 보조 지표입니다.', caution:'공시 원문과 일정 정보를 함께 확인하세요.' },
+  { seriesId:'UNRATE', koreanName:'미국 실업률', plainSummary:'실업률은 06.13 기준 4.2%로 표시됩니다.', ipoContext:'고용 지표는 시장 심리 확인용 보조 지표로 함께 표시합니다.', caution:'공시 원문과 일정 정보를 함께 확인하세요.' }
 ], updatedAt:'2026-06-12T09:00:00+09:00', reportGeneratedAt:'2026-06-12T09:00:00+09:00', sourceLoaded:true, reportLoaded:true };
-const DEFAULT_SANG_DATA: SangData = { companies: defaultCompanies, metrics: metricTemplates, filings: defaultFilings, news: defaultNews, reports: defaultReports, widgets: defaultWidgets, sourceLoaded: true, macro: DEFAULT_MACRO_DATA };
-const statusList: IpoStatus[] = ['수요예측','청약','상장','예비심사'];
-const safeStatus = (value?: string): IpoStatus => statusList.includes(value as IpoStatus) ? value as IpoStatus : '예비심사';
+const DEFAULT_COMPETITION_DATA: CompetitionData = { snapshots: [], mentions: [], updatedAt: null, sourceLoaded: false };
+const DEFAULT_BRIEFING_DATA: BriefingData = { items: defaultCompanies.slice(0, 4).map((company) => ({ id: `briefing-${company.id}`, ipoId: company.id, companyName: company.name, sector: company.memo.replace(' 일정을 확인하세요.', '').replace('코스닥 공모 청약 시작', '반도체·RF 소재 부품 기업'), ipoStage: company.status, underwriter: company.underwriter, basisTimeLabel: '오늘 09:30 기준', oneLine: company.memo.replace(' 일정을 확인하세요.', '').slice(0, 46), body: `${company.name}: ${company.status} 단계입니다. 원문 일정과 주관사 공지를 함께 확인합니다.`, points: ['원문 일정 확인', '주관사 공지 확인'], sourceLabels: ['DART 일정', company.underwriter], competition: null, generatedBy: 'local-rules', model: null })), updatedAt: '2026-06-12T09:00:00+09:00', sourceLoaded: true };
+const DEFAULT_SANG_DATA: SangData = { companies: defaultCompanies, metrics: metricTemplates, filings: defaultFilings, news: defaultNews, reports: defaultReports, widgets: defaultWidgets, sourceLoaded: true, macro: DEFAULT_MACRO_DATA, competition: DEFAULT_COMPETITION_DATA, briefings: DEFAULT_BRIEFING_DATA, alerts: [], actionUpdatedAt: '2026-06-12T09:00:00+09:00', referenceDate: '2026-06-12', dataMode: 'fallback' };
+const statusList: IpoStatus[] = ['예비심사','청약 예정','청약 진행중','환불일','상장'];
+function safeStatus(value?: string): IpoStatus {
+  if (value === '예비심사') return '예비심사';
+  if (value === '청약 진행중') return '청약 진행중';
+  if (value === '상장') return '상장';
+  return statusList.includes(value as IpoStatus) ? value as IpoStatus : '예비심사';
+}
 const colors: Company['color'][] = ['green','blue','purple','amber','blue','gray','green','purple','amber','blue','green','gray'];
 const stripHtml = (value: string): string => value.replace(/<[^>]*>/g, '').replace(/&quot;/g, '"').replace(/&amp;/g, '&').replace(/&#39;/g, "'").replace(/\s+/g, ' ').trim();
 const safeLink = (value?: string): string => value && /^https?:\/\//.test(value) && !value.includes(['example', 'com'].join('.')) ? value : '';
@@ -90,10 +112,10 @@ function parseScheduleDate(value?: string): Date | null {
   const date = new Date(year, month - 1, day);
   return Number.isNaN(date.getTime()) ? null : date;
 }
-function buildDday(value?: string): string {
+function buildDday(value?: string, referenceDate?: string): string {
   const date = parseScheduleDate(value);
   if (!date) return '일정 확인';
-  const today = new Date();
+  const today = parseScheduleDate(referenceDate) ?? new Date();
   today.setHours(0, 0, 0, 0);
   date.setHours(0, 0, 0, 0);
   const diff = Math.ceil((date.getTime() - today.getTime()) / 86400000);
@@ -112,35 +134,104 @@ function asDate(value: unknown): string | null {
 function safeMacroText(value: unknown): string {
   return stripHtml(String(value ?? '')).slice(0, 120);
 }
-function mapCompany(item: SourceIpoItem, index: number): Company | null {
+
+const NON_IPO_EVENT_RE = /유상증자|무상증자|주주배정|실권주|구주주|신주인수권|제3자배정|주주우선|전환사채|교환사채|신주인수권부사채|일반공모증자|유상청약/;
+function isIpoSourceItem(item: SourceIpoItem): boolean {
+  const category = String(item.offeringCategory ?? item.eventType ?? '').toLowerCase();
+  if (category && !/(ipo|initial|public)/.test(category)) return false;
+  const text = [item.companyName, item.company, item.reportName, item.title, item.offeringMethod, item.securityType, item.sector].map((value) => String(value ?? '')).join(' ');
+  if (NON_IPO_EVENT_RE.test(text)) return false;
+  return true;
+}
+
+function kstDateString(date = new Date()): string {
+  return new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Seoul', year: 'numeric', month: '2-digit', day: '2-digit' }).format(date);
+}
+function referenceDateFromMetadata(ipoJson: SourceIpoResponse | null): string {
+  const value = ipoJson?.metadata?.referenceDate || ipoJson?.metadata?.updatedKst || ipoJson?.metadata?.updatedAt || ipoJson?.metadata?.generatedAt;
+  const normalized = formatDate(String(value || '')).replace(/\./g, '-');
+  if (/^\d{4}-\d{2}-\d{2}$/.test(normalized)) return normalized;
+  return kstDateString();
+}
+function isDartExtractedDate(value: string | undefined, source: string | undefined, detailSource: string | undefined) {
+  return Boolean(value && (source === 'dart-document' || detailSource === 'document'));
+}
+
+function sourceScheduleEnd(item: SourceIpoItem): string | null {
+  const listingDate = isDartExtractedDate(item.listingDate, item.listingDateSource, item.detailSource) ? asDate(item.listingDate) : undefined;
+  const refundDate = isDartExtractedDate(item.refundDate, item.refundDateSource, item.detailSource) ? asDate(item.refundDate) : undefined;
+  return listingDate ?? refundDate ?? asDate(item.subscriptionEnd) ?? asDate(item.scheduleEnd) ?? asDate(item.subscriptionDate) ?? asDate(item.date) ?? asDate(item.reportDate) ?? asDate(item.receiptDate) ?? asDate(item.rceptDt);
+}
+function isPastSourceItem(item: SourceIpoItem, referenceDate: string): boolean {
+  const end = sourceScheduleEnd(item);
+  return Boolean(end && end < referenceDate);
+}
+function isValidStatus(value: string): value is IpoStatus {
+  return ['예비심사', '청약 예정', '청약 진행중', '환불일', '상장'].includes(value);
+}
+function deriveStatus(item: SourceIpoItem, referenceDate: string): IpoStatus {
+  const raw = String(item.status ?? item.stage ?? item.reportName ?? item.title ?? '').trim();
+  const start = asDate(item.subscriptionStart) ?? asDate(item.subscriptionDate);
+  const end = asDate(item.subscriptionEnd) ?? asDate(item.subscriptionDate) ?? start;
+  const listingDate = isDartExtractedDate(item.listingDate, item.listingDateSource, item.detailSource) ? asDate(item.listingDate) : undefined;
+  const refundDate = isDartExtractedDate(item.refundDate, item.refundDateSource, item.detailSource) ? asDate(item.refundDate) : undefined;
+  if (/예비/.test(raw)) return '예비심사';
+  if (start && end) {
+    if (referenceDate < start) return '청약 예정';
+    if (start <= referenceDate && referenceDate <= end) return '청약 진행중';
+    if (refundDate && referenceDate <= refundDate) return '환불일';
+    if (listingDate && referenceDate < listingDate) return '상장';
+    if (listingDate && referenceDate >= listingDate) return '상장';
+  }
+  if (/환불/.test(raw)) return refundDate && referenceDate <= refundDate ? '환불일' : '청약 예정';
+  if (/청약\s*진행|청약\s*중/.test(raw)) return start && end && referenceDate >= start && referenceDate <= end ? '청약 진행중' : start && referenceDate < start ? '청약 예정' : refundDate && referenceDate <= refundDate ? '환불일' : '청약 예정';
+  if (/청약\s*예정/.test(raw)) return start && referenceDate >= start && (!end || referenceDate <= end) ? '청약 진행중' : '청약 예정';
+  if (/청약/.test(raw)) return start && referenceDate < start ? '청약 예정' : start && end && referenceDate <= end ? '청약 진행중' : refundDate && referenceDate <= refundDate ? '환불일' : listingDate && referenceDate < listingDate ? '상장' : '청약 예정';
+  if (/수요/.test(raw)) return '예비심사';
+  if (/상장\s*예정/.test(raw)) return listingDate && referenceDate >= listingDate ? '상장' : '상장';
+  if (/상장/.test(raw)) return listingDate && referenceDate < listingDate ? '상장' : '상장';
+  return isValidStatus(raw) ? raw : '예비심사';
+}
+
+function mapCompany(item: SourceIpoItem, index: number, referenceDate: string): Company | null {
   const name = String(item.companyName ?? item.company ?? item.corpName ?? item.name ?? '').trim();
   if (!name) return null;
-  const status = safeStatus(item.status ?? item.stage);
+  const status = deriveStatus(item, referenceDate);
   const rawDate = item.date ?? item.reportDate ?? item.receiptDate ?? item.rceptDt;
+  const subscriptionStart = asDate(item.subscriptionStart) ?? asDate(item.subscriptionDate);
+  const subscriptionEnd = asDate(item.subscriptionEnd) ?? asDate(item.subscriptionDate) ?? subscriptionStart;
+  const refundDate = isDartExtractedDate(item.refundDate, item.refundDateSource, item.detailSource) ? asDate(item.refundDate) : undefined;
+  const listingDate = isDartExtractedDate(item.listingDate, item.listingDateSource, item.detailSource) ? asDate(item.listingDate) : undefined;
+  const scheduleStart = subscriptionStart ?? asDate(item.scheduleStart) ?? asDate(rawDate);
+  const scheduleEnd = listingDate ?? refundDate ?? subscriptionEnd ?? asDate(item.scheduleEnd) ?? scheduleStart;
+  const primaryDate = status.includes('청약') ? subscriptionStart : status.includes('상장') ? listingDate : scheduleStart;
   return {
     id: String(item.id ?? `${name}-${index}`),
     name,
-    short: name.slice(0, 2),
+    sector: typeof item.sector === 'string' ? stripHtml(item.sector).slice(0, 48) : undefined,
     underwriter: String(item.leadManager ?? item.manager ?? item.underwriter ?? '주관사 확인'),
     status,
-    date: formatDate(rawDate),
-    dday: buildDday(rawDate),
+    date: formatDate(primaryDate ?? rawDate),
+    dday: buildDday(primaryDate ?? rawDate, referenceDate),
     color: colors[index % colors.length],
-    bookmarked: index < 2,
-    memo: '일정과 공시 원문을 함께 확인하세요.',
+    bookmarked: false,
+    memo: typeof item.sector === 'string' && item.sector.trim() ? `${stripHtml(item.sector)} 일정과 공시 원문을 함께 확인하세요.` : '일정과 공시 원문을 함께 확인하세요.',
+    scheduleStart: scheduleStart ?? undefined,
+    scheduleEnd: scheduleEnd ?? undefined,
+    subscriptionStart: subscriptionStart ?? undefined,
+    subscriptionEnd: subscriptionEnd ?? undefined,
+    refundDate: refundDate ?? undefined,
+    listingDate: listingDate ?? undefined,
   };
 }
 function buildMetrics(companies: Company[]): typeof metricTemplates {
-  const count = (status: IpoStatus) => companies.filter((company) => company.status === status).length;
-  const subscriptionCount = count('청약') || companies.length;
-  const nearCount = companies.length;
+  const subscriptionCount = companies.filter((company) => company.status.includes('청약')).length || companies.length;
   const filingCount = companies.length;
-  const bookmarkedCount = companies.filter((company) => company.bookmarked).length || Math.min(3, companies.length);
   return [
-    { ...metricTemplates[0], value: `${subscriptionCount}건`, sub: '6월 하순 기준' },
-    { ...metricTemplates[1], value: `${nearCount}건`, sub: '가까운 일정' },
-    { ...metricTemplates[2], value: `${filingCount}건`, sub: 'DART 달력 기준' },
-    { ...metricTemplates[3], value: `${bookmarkedCount}건`, sub: '저장 항목' },
+    { ...metricTemplates[0], label: '청약 일정', value: `${subscriptionCount}건`, sub: '예정·진행중 구분' },
+    { ...metricTemplates[1], label: '공시 원문', value: `${filingCount}건`, sub: '공모주 기준' },
+    { ...metricTemplates[2], label: '상장 일정', value: `${companies.filter((company) => company.status.includes('상장')).length}건`, sub: '상장일 확인' },
+    { ...metricTemplates[3], label: '시장환경', value: '4개', sub: '참고 지표' },
   ];
 }
 function buildFilings(items: SourceIpoItem[], companies: Company[]): Filing[] {
@@ -181,7 +272,7 @@ function buildNews(newsJson: SourceNewsResponse | null): NewsItem[] {
 }
 function buildReports(reportJson: SourceReportResponse | null): ReportItem[] {
   if (Array.isArray(reportJson?.lines) && reportJson.lines.length) {
-    return reportJson.lines.map((line, index) => typeof line === 'string' ? { id: `rp-${index}`, title: `요약 ${index + 1}`, summary: stripHtml(line) } : { id: line.id ?? `rp-${index}`, title: stripHtml(String(line.title ?? line.company ?? `리포트 ${index + 1}`)), summary: stripHtml(String(line.summary ?? line.text ?? '')) }).filter((item) => item.summary || item.title).slice(0, 6);
+    return reportJson.lines.map((line, index) => typeof line === 'string' ? { id: `rp-${index}`, title: stripHtml(line), summary: '' } : { id: line.id ?? `rp-${index}`, title: stripHtml(String(line.title ?? line.company ?? `요약 ${index + 1}`)), summary: stripHtml(String(line.summary ?? line.text ?? '')) }).filter((item) => item.summary || item.title).slice(0, 6);
   }
   if (reportJson?.reports && typeof reportJson.reports === 'object') {
     return Object.entries(reportJson.reports).map(([key, line], index) => ({ id: line.id ?? `rp-${index}`, title: stripHtml(String(line.title ?? key)), summary: stripHtml(String(line.summary ?? line.text ?? '')) })).filter((item) => item.summary || item.title).slice(0, 6);
@@ -192,7 +283,7 @@ function buildWidgets(companies: Company[], newsItems: NewsItem[]): typeof defau
   if (!companies.length) return [];
   return [
     { title: '다가오는 일정', action: '일정 캘린더', items: companies.slice(0, 3).map((company) => `${company.date} ${company.name}`) },
-    { title: 'IPO 흐름', action: '타임라인', items: companies.slice(0, 3).map((company) => `${company.dday} ${company.status}`) },
+    { title: 'IPO 흐름', action: '타임라인', items: companies.slice(0, 3).map((company) => `${company.date} ${company.status}`) },
     { title: '뉴스·공시', action: '공시 검색', items: (newsItems.length ? newsItems.slice(0, 3).map((item) => item.company || item.title) : companies.slice(0, 3).map((company) => company.name)) },
   ];
 }
@@ -247,15 +338,174 @@ function buildMacroData(fredJson: SourceFredResponse | null, macroReportJson: So
     reportLoaded: reports.length > 0,
   };
 }
-function buildSangData(ipoJson: SourceIpoResponse | null, newsJson: SourceNewsResponse | null, reportJson: SourceReportResponse | null, fredJson: SourceFredResponse | null, macroReportJson: SourceFredReportResponse | null): SangData {
+
+function safeCompetitionType(value?: string): CompetitionCandidate['type'] {
+  return value === 'total' || value === 'proportional' || value === 'equalShares' || value === 'unknown' ? value : 'unknown';
+}
+function safeCompetitionConfidence(value?: string): CompetitionCandidate['confidence'] {
+  return value === 'medium' || value === 'verified' ? value : 'low';
+}
+function safeSourceLabel(value?: string): CompetitionSnapshot['sourceLabel'] {
+  return value === '증권사 기준' || value === '제휴 기준' ? value : '확인 입력';
+}
+function safeSourceType(value?: string): CompetitionSnapshot['sourceType'] {
+  return value === 'broker' || value === 'partner' ? value : 'manual';
+}
+function mapCompetitionCandidate(item: SourceCompetitionCandidate): CompetitionCandidate | null {
+  const value = asNumber(item.value);
+  if (value === null || value <= 0) return null;
+  return { type: safeCompetitionType(item.type), value, raw: safeMacroText(item.raw), confidence: safeCompetitionConfidence(item.confidence) };
+}
+function mapCompetitionMention(item: SourceCompetitionMention, index: number): CompetitionMention | null {
+  const companyName = safeMacroText(item.companyName);
+  const title = stripHtml(String(item.title ?? '')).slice(0, 120);
+  if (!companyName || !title) return null;
+  const candidates = Array.isArray(item.candidates) ? item.candidates.map(mapCompetitionCandidate).filter((candidate): candidate is CompetitionCandidate => Boolean(candidate)) : [];
+  if (!candidates.length) return null;
+  return {
+    id: safeMacroText(item.id) || `mention-${index}`,
+    ipoId: safeMacroText(item.ipoId) || companyName,
+    companyName,
+    displayLabel: '뉴스 언급',
+    title,
+    articleText: stripHtml(String(item.articleText ?? '')).slice(0, 80),
+    publisher: safeMacroText(item.publisher) || '뉴스 검색',
+    publishedAt: typeof item.publishedAt === 'string' ? item.publishedAt : null,
+    articleTimeLabel: safeMacroText(item.articleTimeLabel) || '기사 기준',
+    link: safeLink(item.link ?? item.originallink),
+    candidates,
+  };
+}
+function mapCompetitionSnapshot(item: SourceCompetitionSnapshot, index: number): CompetitionSnapshot | null {
+  const companyName = safeMacroText(item.companyName);
+  const totalCompetition = asNumber(item.totalCompetition);
+  if (!companyName || totalCompetition === null || totalCompetition <= 0) return null;
+  const proportionalCompetition = asNumber(item.proportionalCompetition);
+  return {
+    id: safeMacroText(item.id) || `snapshot-${index}`,
+    ipoId: safeMacroText(item.ipoId) || companyName,
+    companyName,
+    underwriter: safeMacroText(item.underwriter) || '주관사 확인',
+    capturedAt: typeof item.capturedAt === 'string' ? item.capturedAt : '',
+    capturedKstTime: typeof item.capturedKstTime === 'string' ? item.capturedKstTime : '',
+    totalCompetition,
+    proportionalCompetition: proportionalCompetition && proportionalCompetition > 0 ? proportionalCompetition : null,
+    sourceLabel: safeSourceLabel(item.sourceLabel),
+    sourceType: safeSourceType(item.sourceType),
+    confidence: 'verified',
+    sourceUrl: safeLink(item.sourceUrl),
+  };
+}
+function buildCompetitionData(mentionJson: SourceCompetitionResponse<SourceCompetitionMention> | null, snapshotJson: SourceCompetitionResponse<SourceCompetitionSnapshot> | null): CompetitionData {
+  const mentions = Array.isArray(mentionJson?.items) ? mentionJson.items.map(mapCompetitionMention).filter((item): item is CompetitionMention => Boolean(item)).slice(0, 40) : [];
+  const snapshots = Array.isArray(snapshotJson?.items) ? snapshotJson.items.map(mapCompetitionSnapshot).filter((item): item is CompetitionSnapshot => Boolean(item)).slice(0, 40) : [];
+  const updatedAt = typeof snapshotJson?.metadata?.updatedKst === 'string' ? snapshotJson.metadata.updatedKst : typeof mentionJson?.metadata?.updatedKst === 'string' ? mentionJson.metadata.updatedKst : typeof snapshotJson?.metadata?.updatedAt === 'string' ? snapshotJson.metadata.updatedAt : typeof mentionJson?.metadata?.updatedAt === 'string' ? mentionJson.metadata.updatedAt : null;
+  return { snapshots, mentions, updatedAt, sourceLoaded: snapshots.length > 0 || mentions.length > 0 };
+}
+
+
+function safeBriefingArray(value: unknown, limit: number): string[] {
+  return (Array.isArray(value) ? value : []).map((item) => safeMacroText(item)).filter(Boolean).slice(0, limit);
+}
+function mapBriefingItem(item: SourceBriefingItem, index: number): IpoBriefing | null {
+  if (!item || typeof item !== 'object') return null;
+  const companyName = safeMacroText(item.companyName);
+  if (!companyName) return null;
+  const value = asNumber(item.competition?.value);
+  const proportionalValue = asNumber(item.competition?.proportionalValue);
+  const competition = item.competition && value && value > 0 ? {
+    label: safeMacroText(item.competition.label) || '뉴스 언급',
+    value,
+    proportionalValue: proportionalValue && proportionalValue > 0 ? proportionalValue : null,
+    timeLabel: safeMacroText(item.competition.timeLabel) || '기준 시각 확인',
+    sourceLine: safeMacroText(item.competition.sourceLine) || '출처 확인',
+  } : null;
+  return {
+    id: safeMacroText(item.id) || `briefing-${index}`,
+    ipoId: safeMacroText(item.ipoId) || companyName,
+    companyName,
+    sector: safeMacroText(item.sector) || 'IPO 일정 확인 대상 기업',
+    ipoStage: safeMacroText(item.ipoStage) || '일정 확인',
+    underwriter: safeMacroText(item.underwriter) || '주관사 확인',
+    basisTimeLabel: safeMacroText(item.basisTimeLabel) || '오늘 09:30 기준',
+    oneLine: safeMacroText(item.oneLine) || 'IPO 일정 확인 대상 기업',
+    body: safeMacroText(item.body) || '원문 일정과 주관사 공지를 함께 확인합니다.',
+    points: safeBriefingArray(item.points, 3).length ? safeBriefingArray(item.points, 3) : ['원문 일정 확인', '주관사 공지 확인'],
+    sourceLabels: safeBriefingArray(item.sourceLabels, 4).length ? safeBriefingArray(item.sourceLabels, 4) : ['DART 일정'],
+    competition,
+    generatedBy: safeMacroText(item.generatedBy) || 'local-rules',
+    model: typeof item.model === 'string' && item.model ? item.model : null,
+  };
+}
+function buildBriefingData(briefingJson: SourceBriefingResponse | null): BriefingData {
+  const items = Array.isArray(briefingJson?.items) ? briefingJson.items.map(mapBriefingItem).filter((item): item is IpoBriefing => Boolean(item)).slice(0, 12) : [];
+  const updatedAt = typeof briefingJson?.metadata?.generatedAt === 'string' ? briefingJson.metadata.generatedAt : typeof briefingJson?.metadata?.updatedAt === 'string' ? briefingJson.metadata.updatedAt : null;
+  return { items, updatedAt, sourceLoaded: items.length > 0 };
+}
+
+
+function alertDateLabel(value: string): string {
+  return formatDate(value);
+}
+function makeAlert(company: Company, stage: IpoAlertStage, date: string, actionLabel: string, detail: string, index: number): IpoAlert {
+  return {
+    id: `alert-${company.id}-${stage}-${date || index}`,
+    companyId: company.id,
+    companyName: company.name,
+    stage,
+    date,
+    dateLabel: alertDateLabel(date),
+    actionLabel,
+    detail,
+    sourceLabel: 'DART 일정',
+  };
+}
+function buildAlerts(companies: Company[], referenceDate: string): IpoAlert[] {
+  const alerts: IpoAlert[] = [];
+  const add = (company: Company, stage: IpoAlertStage, date: string | undefined, actionLabel: string, detail: string) => {
+    if (!date) return;
+    if (date < referenceDate) return;
+    alerts.push(makeAlert(company, stage, date, actionLabel, detail, alerts.length));
+  };
+  for (const company of companies) {
+    if (company.status === '예비심사') add(company, '예비심사', company.scheduleStart || company.date, '예비심사 확인', '공모 일정 확정 전 원문 확인');
+    if (company.subscriptionStart) {
+      if (referenceDate < company.subscriptionStart) add(company, '청약 예정', company.subscriptionStart, '청약 시작 알림', '청약 시작 전 원문 일정 확인');
+      else if (company.subscriptionEnd && company.subscriptionStart <= referenceDate && referenceDate <= company.subscriptionEnd) add(company, '청약 진행중', company.subscriptionEnd, '청약 마감 알림', '마감 전 경쟁률·주관사 공지 확인');
+    }
+    if (company.refundDate && (!company.subscriptionEnd || company.subscriptionEnd < referenceDate) && referenceDate <= company.refundDate) add(company, '환불일', company.refundDate, '환불일 알림', '환불 일정 확인');
+    if (company.listingDate && (!company.refundDate || company.refundDate < referenceDate) && referenceDate <= company.listingDate) add(company, '상장', company.listingDate, '상장일 알림', '상장일 원문 확인');
+  }
+  const priority: Record<IpoAlertStage, number> = { 예비심사: 1, '청약 예정': 2, '청약 진행중': 3, 환불일: 4, 상장: 5 };
+  return alerts
+    .sort((a, b) => a.date.localeCompare(b.date) || priority[a.stage] - priority[b.stage] || a.companyName.localeCompare(b.companyName))
+    .slice(0, 12);
+}
+
+function firstActionTimestamp(ipoJson: SourceIpoResponse | null, competition: CompetitionData, briefings: BriefingData, macro: MacroData): string | null {
+  return competition.updatedAt
+    || briefings.updatedAt
+    || (typeof ipoJson?.metadata?.updatedKst === 'string' ? ipoJson.metadata.updatedKst : null)
+    || (typeof ipoJson?.metadata?.updatedAt === 'string' ? ipoJson.metadata.updatedAt : null)
+    || (typeof ipoJson?.metadata?.generatedAt === 'string' ? ipoJson.metadata.generatedAt : null)
+    || macro.updatedAt
+    || null;
+}
+
+export function buildSangData(ipoJson: SourceIpoResponse | null, newsJson: SourceNewsResponse | null, reportJson: SourceReportResponse | null, fredJson: SourceFredResponse | null, macroReportJson: SourceFredReportResponse | null, mentionJson: SourceCompetitionResponse<SourceCompetitionMention> | null, snapshotJson: SourceCompetitionResponse<SourceCompetitionSnapshot> | null, briefingJson: SourceBriefingResponse | null): SangData {
   const macro = buildMacroData(fredJson, macroReportJson);
   const finalMacro = macro.items.length ? macro : DEFAULT_MACRO_DATA;
-  const sourceItems = ipoJson?.items?.slice(0, 12) ?? [];
-  const companies = sourceItems.map(mapCompany).filter((company): company is Company => Boolean(company));
+  const competition = buildCompetitionData(mentionJson, snapshotJson);
+  const briefings = buildBriefingData(briefingJson);
+  const referenceDate = referenceDateFromMetadata(ipoJson);
+  const sourceItems = (ipoJson?.items?.filter(isIpoSourceItem).filter((item) => !isPastSourceItem(item, referenceDate)) ?? []).slice(0, 12);
+  const companies = sourceItems.map((item, index) => mapCompany(item, index, referenceDate)).filter((company): company is Company => Boolean(company));
+  const actionUpdatedAt = firstActionTimestamp(ipoJson, competition, briefings, finalMacro);
   const newsItems = buildNews(newsJson);
   const reportItems = buildReports(reportJson);
-  if (!companies.length) return { ...DEFAULT_SANG_DATA, news: newsItems.length ? newsItems : defaultNews, reports: reportItems.length ? reportItems : defaultReports, macro: finalMacro };
-  return { companies, metrics: buildMetrics(companies), filings: buildFilings(sourceItems, companies), news: newsItems.length ? newsItems : defaultNews, reports: reportItems.length ? reportItems : defaultReports, widgets: buildWidgets(companies, newsItems.length ? newsItems : defaultNews), sourceLoaded: true, macro: finalMacro };
+  if (!companies.length) return { ...DEFAULT_SANG_DATA, news: newsItems, reports: reportItems.length ? reportItems : defaultReports, macro: finalMacro, competition, briefings: briefings.sourceLoaded ? briefings : DEFAULT_BRIEFING_DATA, alerts: buildAlerts(DEFAULT_SANG_DATA.companies, referenceDate), actionUpdatedAt, referenceDate, dataMode: actionUpdatedAt ? 'actions' : 'fallback' };
+  const alerts = buildAlerts(companies, referenceDate);
+  return { companies, metrics: buildMetrics(companies), filings: buildFilings(sourceItems, companies), news: newsItems, reports: reportItems.length ? reportItems : defaultReports, widgets: buildWidgets(companies, newsItems), sourceLoaded: true, macro: finalMacro, competition, briefings: briefings.sourceLoaded ? briefings : DEFAULT_BRIEFING_DATA, alerts, actionUpdatedAt, referenceDate, dataMode: 'actions' };
 }
 export function useProjectData(reloadKey: number): SangData {
   const [data, setData] = useState<SangData>(DEFAULT_SANG_DATA);
@@ -268,7 +518,10 @@ export function useProjectData(reloadKey: number): SangData {
       fetch(`${base}data/ipo-ai-report.json?v=${version}`, { cache: 'no-store' }).then((response) => response.ok ? response.json() as Promise<SourceReportResponse> : null).catch(() => null),
       fetch(`${base}data/fred-macro.json?v=${version}`, { cache: 'no-store' }).then((response) => response.ok ? response.json() as Promise<SourceFredResponse> : null).catch(() => null),
       fetch(`${base}data/fred-macro-report.json?v=${version}`, { cache: 'no-store' }).then((response) => response.ok ? response.json() as Promise<SourceFredReportResponse> : null).catch(() => null),
-    ]).then(([ipoJson, newsJson, reportJson, fredJson, macroReportJson]) => setData(buildSangData(ipoJson, newsJson, reportJson, fredJson, macroReportJson))).catch(() => setData(DEFAULT_SANG_DATA));
+      fetch(`${base}data/competition-mentions.json?v=${version}`, { cache: 'no-store' }).then((response) => response.ok ? response.json() as Promise<SourceCompetitionResponse<SourceCompetitionMention>> : null).catch(() => null),
+      fetch(`${base}data/competition-snapshots.json?v=${version}`, { cache: 'no-store' }).then((response) => response.ok ? response.json() as Promise<SourceCompetitionResponse<SourceCompetitionSnapshot>> : null).catch(() => null),
+      fetch(`${base}data/ipo-briefings.json?v=${version}`, { cache: 'no-store' }).then((response) => response.ok ? response.json() as Promise<SourceBriefingResponse> : null).catch(() => null),
+    ]).then(([ipoJson, newsJson, reportJson, fredJson, macroReportJson, mentionJson, snapshotJson, briefingJson]) => setData(buildSangData(ipoJson, newsJson, reportJson, fredJson, macroReportJson, mentionJson, snapshotJson, briefingJson))).catch(() => setData(DEFAULT_SANG_DATA));
   }, [reloadKey]);
   return data;
 }

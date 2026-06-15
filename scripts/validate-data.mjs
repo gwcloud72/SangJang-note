@@ -33,8 +33,8 @@ if (payload.items.length > 0) {
  if (ageDays > MAX_DATA_AGE_DAYS) throw new Error(`OpenDART 최신 갱신일 ${latest.toISOString().slice(0,10)}이 ${ageDays}일 전입니다. 오래된 데이터를 배포하지 않습니다.`);
 }
 
-if (payload.items.length > 0 && dataSource && !['opendart', 'packaged', 'packaged-dart-calendar-baseline', 'dart-calendar-public-baseline'].includes(dataSource)) {
- console.warn('public/data/ipos.json metadata.source는 opendart, packaged 또는 dart-calendar-public-baseline을 사용합니다.');
+if (payload.items.length > 0 && dataSource && !['opendart', 'packaged', 'packaged-dart-calendar-baseline', 'dart-calendar-public-baseline', 'github-actions-sample:opendart-calendar', 'github-actions-demo:opendart-calendar', 'github-actions-demo:ipo-calendar'].includes(dataSource)) {
+ console.warn('public/data/ipos.json metadata.source는 opendart, packaged, dart-calendar-public-baseline 또는 github-actions-demo:ipo-calendar 계열을 사용합니다.');
 }
 
 for (const [index, item] of payload.items.entries()) {
@@ -43,6 +43,12 @@ for (const [index, item] of payload.items.entries()) {
  }
  if (!item.companyName) {
   throw new Error(`items[${index}] companyName is required.`);
+ }
+ if (!/ipo|initial_public_offering|public/.test(String(item.offeringCategory || item.eventType || '').toLowerCase())) {
+  throw new Error(`items[${index}] ${item.companyName}: IPO 일정만 표시할 수 있습니다.`);
+ }
+ if (/유상증자|주주배정|실권주|구주주|신주인수권|유상청약/.test([item.reportName, item.title, item.offeringMethod, item.securityType].map((value) => String(value || '')).join(' '))) {
+  throw new Error(`items[${index}] ${item.companyName}: 유상증자/주주배정 청약은 IPO 화면에서 제외해야 합니다.`);
  }
  if (!item.scheduleStart && !item.subscriptionDate) {
   console.warn(`items[${index}] ${item.companyName}: scheduleStart 또는 subscriptionDate 확인 필요`);
@@ -130,4 +136,22 @@ const FRED_REPORT_PATH = new URL('../public/data/fred-macro-report.json', import
 if (existsSync(FRED_REPORT_PATH)) {
  const fredReport = JSON.parse(await readFile(FRED_REPORT_PATH, 'utf8'));
  validateFredReportPayload(fredReport, 'public/data/fred-macro-report.json');
+}
+
+
+const BRIEFINGS_PATH = new URL('../public/data/ipo-briefings.json', import.meta.url);
+if (existsSync(BRIEFINGS_PATH)) {
+ const briefings = JSON.parse(await readFile(BRIEFINGS_PATH, 'utf8'));
+ if (!briefings || !Array.isArray(briefings.items)) throw new Error('public/data/ipo-briefings.json must contain an items array when present.');
+ for (const [index, item] of briefings.items.entries()) {
+  if (!item || typeof item !== 'object') throw new Error(`ipo-briefings.items[${index}] must be an object.`);
+  for (const key of ['companyName', 'sector', 'ipoStage', 'underwriter', 'basisTimeLabel', 'oneLine', 'body']) {
+   if (!String(item[key] || '').trim()) throw new Error(`ipo-briefings.items[${index}].${key} is required.`);
+  }
+  if (!Array.isArray(item.points) || item.points.length < 2 || item.points.length > 3) throw new Error(`ipo-briefings.items[${index}].points must contain 2~3 values.`);
+  if (!Array.isArray(item.sourceLabels) || item.sourceLabels.length < 1 || item.sourceLabels.length > 4) throw new Error(`ipo-briefings.items[${index}].sourceLabels must contain 1~4 values.`);
+  const text = `${item.oneLine || ''} ${item.body || ''} ${(item.points || []).join(' ')}`;
+  if (FORBIDDEN_WORD_PATTERN.test(text) && !text.replace(/\s+/g, '').includes('투자권유가아닙니다')) throw new Error(`ipo-briefings.items[${index}] contains investment-like wording.`);
+ }
+ console.log(`IPO briefings validation passed: ${briefings.items.length} item(s).`);
 }

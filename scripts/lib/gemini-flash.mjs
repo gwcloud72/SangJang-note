@@ -17,8 +17,12 @@ function parseInteger(value, fallback, min, max) {
  return Math.min(max, Math.max(min, number));
 }
 
-export function geminiIsEnabled() {
- return isTruthy(cleanEnv('GEMINI_REPORTS_ENABLED')) && Boolean(cleanEnv('GEMINI_API_KEY'));
+export function geminiApiKey() {
+ return cleanEnv('GEMINI_API_KEY') || cleanEnv('GOOGLE_API_KEY');
+}
+
+export function geminiIsEnabled(enabledEnv = 'GEMINI_REPORTS_ENABLED') {
+ return isTruthy(cleanEnv(enabledEnv)) && Boolean(geminiApiKey());
 }
 
 export function resolveGeminiModel() {
@@ -29,7 +33,7 @@ export function resolveGeminiModel() {
 
 export function geminiSettings() {
  return {
-  apiKey: cleanEnv('GEMINI_API_KEY'),
+  apiKey: geminiApiKey(),
   model: resolveGeminiModel(),
   pauseMs: parseInteger(cleanEnv('GEMINI_REQUEST_PAUSE_MS'), MIN_PAUSE_MS, MIN_PAUSE_MS, 60000),
   maxInputChars: parseInteger(cleanEnv('GEMINI_MAX_INPUT_CHARS'), DEFAULT_MAX_INPUT_CHARS, 4000, 60000),
@@ -88,9 +92,10 @@ function retryDelayMs(response, attempt, pauseMs) {
  return pauseMs * (attempt + 1);
 }
 
-export async function generateGeminiJson({ task, schema, input, fallback, validate }) {
+export async function generateGeminiJson({ task, schema, input, fallback, validate, enabledEnv = 'GEMINI_REPORTS_ENABLED', enabledEnvName, maxOutputTokens = 4096, temperature = 0.2 }) {
  const settings = geminiSettings();
- if (!geminiIsEnabled()) return { used: false, model: null, payload: fallback, reason: 'disabled' };
+ const effectiveEnabledEnv = enabledEnvName || enabledEnv;
+ if (!geminiIsEnabled(effectiveEnabledEnv)) return { used: false, model: null, payload: fallback, reason: `disabled:${effectiveEnabledEnv}` };
  const prompt = cropText([
   '다음 입력만 사용해 한국어 JSON만 반환하세요.',
   '공식 사이트에 바로 노출 가능한 중립적 문장만 사용하세요.',
@@ -110,10 +115,10 @@ export async function generateGeminiJson({ task, schema, input, fallback, valida
     body: JSON.stringify({
      contents: [{ role: 'user', parts: [{ text: prompt }] }],
      generationConfig: {
-      temperature: 0.2,
+      temperature,
       topP: 0.8,
       responseMimeType: 'application/json',
-      maxOutputTokens: 4096,
+      maxOutputTokens,
      },
     }),
    });

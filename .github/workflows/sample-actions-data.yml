@@ -1,0 +1,73 @@
+name: Demo GitHub Actions Data
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  sample-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: main
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: package-lock.json
+
+      - name: Install dependencies
+        run: npm ci --include=dev --include=optional --no-audit --no-fund
+
+      - name: Generate public V1 demo data
+        run: npm run actions:sample
+
+      - name: Run deployment checks
+        run: npm run deploy:check
+
+      - name: Commit demo data
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- public/data package.json; then
+            echo "데모 데이터 변경 없음"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add public/data package.json
+            git commit -m "상장노트 GitHub Actions 데모 데이터 반영 [skip ci]"
+            git push origin main
+          fi
+
+      - name: Build React app
+        env:
+          VITE_DATA_VERSION: ${{ github.sha }}
+        run: npm run build
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: "dist"
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -25,7 +25,7 @@ function checkControls() {
   }
 }
 for (const snippet of ['href="#main-content"', 'id="main-content"', 'aria-current={active ? \'page\' : undefined}', 'aria-live="polite"', 'URLSearchParams', 'window.history.replaceState', "addEventListener('hashchange'", 'function MobileNav', 'VITE_DATA_VERSION', "cache: 'no-store'", 'setReloadKey']) expect(snippet, snippet);
-const expectedSnippets = ['관심기업','기업 목록','공시 검색','일정 캘린더','타임라인','뉴스','시장환경','리포트','공시 요약','청약 마감 알림','출처','공시 지표 기준','요약 참고','공시 원문 기준','정보 확인용','일정 확인 중','CalendarCard'];
+const expectedSnippets = ['오늘 확인할 IPO', '기업 · 공시 원문', '일정', 'IPO 이슈', '공시 추출', '공시 원문 확인 필수', '투자 권유가 아닙니다', 'CalendarCard', 'watchCompanyIds', 'savedFilingIds'];
 for (const item of expectedSnippets) expect(item, item);
 checkControls();
 if (warnings.length) { console.log('interaction:check warnings'); warnings.forEach((warning) => console.log(`- ${warning}`)); }

@@ -1,0 +1,102 @@
+name: Add IPO Competition Record
+
+on:
+  workflow_dispatch:
+    inputs:
+      companyName:
+        description: "기업명"
+        required: true
+      underwriter:
+        description: "주관사"
+        required: true
+      capturedKstTime:
+        description: "기준시각 예: 2026-06-18T14:00:00+09:00"
+        required: true
+      totalCompetition:
+        description: "총 경쟁률 예: 218.4"
+        required: true
+      proportionalCompetition:
+        description: "비례 경쟁률 예: 436.8"
+        required: false
+      sourceLabel:
+        description: "화면 라벨"
+        required: true
+        default: "확인 입력"
+      sourceUrl:
+        description: "출처 URL"
+        required: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  add-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: main
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: package-lock.json
+
+      - name: Install dependencies
+        run: npm ci --include=dev --include=optional --no-audit --no-fund
+
+      - name: Add manual competition record
+        env:
+          COMPANY_NAME: ${{ inputs.companyName }}
+          UNDERWRITER: ${{ inputs.underwriter }}
+          CAPTURED_KST_TIME: ${{ inputs.capturedKstTime }}
+          TOTAL_COMPETITION: ${{ inputs.totalCompetition }}
+          PROPORTIONAL_COMPETITION: ${{ inputs.proportionalCompetition }}
+          SOURCE_LABEL: ${{ inputs.sourceLabel }}
+          SOURCE_URL: ${{ inputs.sourceUrl }}
+        run: npm run competition:add-snapshot
+
+      - name: Validate data
+        run: npm run competition:check && npm run data:check
+
+      - name: Commit competition record
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- public/data/competition-snapshots.json; then
+            echo "반영할 확인 입력 경쟁률 변경이 없습니다."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add public/data/competition-snapshots.json
+            git commit -m "상장노트 경쟁률 확인 입력 추가 [skip ci]"
+            git push origin main
+          fi
+
+      - name: Run UI checks
+        run: npm run quality:check && npm run ui-copy:check && npm run selector:check && npm run runtime-ui:check && npm run interaction:check && npm run render:check && npm run typecheck && npm run build
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: "dist"
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

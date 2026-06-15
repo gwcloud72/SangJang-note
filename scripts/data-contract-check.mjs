@@ -65,6 +65,15 @@ function validateIpos(payload, label) {
   if (name !== undefined && String(name).trim() === '') warnings.push(`${label}.items[${index}]: 기업명이 확인 필요합니다.`);
   const url = item.dartUrl || item.url || item.link;
   if (!safeUrl(url)) errors.push(`${label}.items[${index}]: 공시 URL은 http/https만 허용됩니다.`);
+  const statusText = String(item.status || item.stage || item.reportName || item.title || '');
+  const subscriptionStart = normalizeDate(item.subscriptionStart || item.subscriptionDate || item.scheduleStart);
+  const refundDate = normalizeDate(item.refundDate);
+  const listingDate = normalizeDate(item.listingDate);
+  if (item.refundDate && !refundDate) errors.push(`${label}.items[${index}]: refundDate는 YYYY-MM-DD 형식이어야 합니다.`);
+  if (item.listingDate && !listingDate) errors.push(`${label}.items[${index}]: listingDate는 YYYY-MM-DD 형식이어야 합니다.`);
+  if (item.refundDate && item.refundDateSource !== 'dart-document' && item.detailSource !== 'document') errors.push(`${label}.items[${index}]: refundDate는 DART 원문 추출값일 때만 허용됩니다. (${companyName || '기업명 확인'})`);
+  if (item.listingDate && item.listingDateSource !== 'dart-document' && item.detailSource !== 'document') errors.push(`${label}.items[${index}]: listingDate는 DART 원문 추출값일 때만 허용됩니다. (${companyName || '기업명 확인'})`);
+  if (/청약/.test(statusText) && subscriptionStart && !refundDate) warnings.push(`${label}.items[${index}]: 청약 일정은 환불일 확인이 필요합니다. 화면에는 환불일 확인으로 표시됩니다.`);
  });
 }
 
@@ -87,14 +96,138 @@ function validateNews(payload, label) {
  });
 }
 
+
+function validateCompetitionCandidates(candidates, label) {
+ if (candidates !== undefined && !Array.isArray(candidates)) { errors.push(`${label}.candidates: 배열이어야 합니다.`); return; }
+ const items = Array.isArray(candidates) ? candidates : [];
+ for (const [index, item] of items.entries()) {
+  if (!isObject(item)) { errors.push(`${label}.candidates[${index}]: 객체여야 합니다.`); continue; }
+  if (!['total', 'proportional', 'equalShares', 'unknown'].includes(String(item.type || ''))) errors.push(`${label}.candidates[${index}].type: 허용된 경쟁률 후보 타입이 아닙니다.`);
+  if (typeof item.value !== 'number' || !Number.isFinite(item.value) || item.value <= 0) errors.push(`${label}.candidates[${index}].value: 양수 숫자여야 합니다.`);
+  if (!['low', 'medium', 'verified'].includes(String(item.confidence || ''))) errors.push(`${label}.candidates[${index}].confidence: low/medium/verified 중 하나여야 합니다.`);
+ }
+}
+
+function validateCompetitionMentions(payload, label) {
+ if (!isObject(payload)) { errors.push(`${label}: 루트는 객체여야 합니다.`); return; }
+ if (payload.items !== undefined && !Array.isArray(payload.items)) { errors.push(`${label}.items: 배열이어야 합니다.`); return; }
+ const items = Array.isArray(payload.items) ? payload.items : [];
+ for (const [index, item] of items.entries()) {
+  if (!isObject(item)) { errors.push(`${label}.items[${index}]: 객체여야 합니다.`); continue; }
+  if (!String(item.companyName || '').trim()) errors.push(`${label}.items[${index}].companyName이 필요합니다.`);
+  if (!String(item.title || '').trim()) errors.push(`${label}.items[${index}].title이 필요합니다.`);
+  if (String(item.displayLabel || '') !== '뉴스 언급') errors.push(`${label}.items[${index}].displayLabel은 뉴스 언급이어야 합니다.`);
+  const url = String(item.link || item.originallink || '');
+  if (url && !safeUrl(url)) errors.push(`${label}.items[${index}]: 뉴스 URL은 http/https만 허용됩니다.`);
+  validateCompetitionCandidates(item.candidates, `${label}.items[${index}]`);
+ }
+}
+
+function validateCompetitionSnapshots(payload, label) {
+ if (!isObject(payload)) { errors.push(`${label}: 루트는 객체여야 합니다.`); return; }
+ if (payload.items !== undefined && !Array.isArray(payload.items)) { errors.push(`${label}.items: 배열이어야 합니다.`); return; }
+ const items = Array.isArray(payload.items) ? payload.items : [];
+ for (const [index, item] of items.entries()) {
+  if (!isObject(item)) { errors.push(`${label}.items[${index}]: 객체여야 합니다.`); continue; }
+  if (!String(item.companyName || '').trim()) errors.push(`${label}.items[${index}].companyName이 필요합니다.`);
+  if (!String(item.underwriter || '').trim()) warnings.push(`${label}.items[${index}].underwriter 확인 필요`);
+  if (!['manual', 'broker', 'partner'].includes(String(item.sourceType || ''))) errors.push(`${label}.items[${index}].sourceType: manual/broker/partner 중 하나여야 합니다.`);
+  if (!['확인 입력', '증권사 기준', '제휴 기준'].includes(String(item.sourceLabel || ''))) errors.push(`${label}.items[${index}].sourceLabel: 확인 입력/증권사 기준/제휴 기준 중 하나여야 합니다.`);
+  if (typeof item.totalCompetition !== 'number' || !Number.isFinite(item.totalCompetition) || item.totalCompetition <= 0) errors.push(`${label}.items[${index}].totalCompetition: 양수 숫자여야 합니다.`);
+  if (item.proportionalCompetition !== null && item.proportionalCompetition !== undefined && (typeof item.proportionalCompetition !== 'number' || !Number.isFinite(item.proportionalCompetition) || item.proportionalCompetition <= 0)) errors.push(`${label}.items[${index}].proportionalCompetition: 양수 숫자 또는 null이어야 합니다.`);
+  if (!String(item.capturedAt || '').trim() && !String(item.capturedKstTime || '').trim()) errors.push(`${label}.items[${index}]: capturedAt 또는 capturedKstTime이 필요합니다.`);
+  const sourceUrl = String(item.sourceUrl || '');
+  if (sourceUrl && !safeUrl(sourceUrl)) errors.push(`${label}.items[${index}]: sourceUrl은 http/https만 허용됩니다.`);
+ }
+}
+
+function validateIpoBriefings(payload, label) {
+ if (!isObject(payload)) { errors.push(`${label}: 루트는 객체여야 합니다.`); return; }
+ if (payload.items !== undefined && !Array.isArray(payload.items)) { errors.push(`${label}.items: 배열이어야 합니다.`); return; }
+ const items = Array.isArray(payload.items) ? payload.items : [];
+ for (const [index, item] of items.entries()) {
+  if (!isObject(item)) { errors.push(`${label}.items[${index}]: 객체여야 합니다.`); continue; }
+  for (const key of ['companyName', 'sector', 'ipoStage', 'underwriter', 'basisTimeLabel', 'oneLine', 'body']) {
+   if (!String(item[key] || '').trim()) errors.push(`${label}.items[${index}].${key}가 필요합니다.`);
+  }
+  if (!Array.isArray(item.points) || item.points.length < 2 || item.points.length > 3) errors.push(`${label}.items[${index}].points: 2~3개여야 합니다.`);
+  if (!Array.isArray(item.sourceLabels) || item.sourceLabels.length < 1 || item.sourceLabels.length > 4) errors.push(`${label}.items[${index}].sourceLabels: 1~4개여야 합니다.`);
+  const text = `${item.oneLine || ''} ${item.body || ''} ${(item.points || []).join(' ')}`;
+  if (/매수|매도|추천|권유|수익률|수익|저평가|고평가|상승\s*가능|흥행\s*확실|투자\s*매력/.test(text)) errors.push(`${label}.items[${index}]: 투자 판단처럼 보이는 문구가 있습니다.`);
+  if (/실시간|공식\s*경쟁률|최종\s*경쟁률/.test(text)) errors.push(`${label}.items[${index}]: V1 금지 문구가 있습니다.`);
+  if (item.competition !== null && item.competition !== undefined) {
+   if (!isObject(item.competition)) errors.push(`${label}.items[${index}].competition: 객체 또는 null이어야 합니다.`);
+   else if (typeof item.competition.value !== 'number' || !Number.isFinite(item.competition.value) || item.competition.value <= 0) errors.push(`${label}.items[${index}].competition.value: 양수 숫자여야 합니다.`);
+  }
+ }
+}
+
 function validateReportAgainstIpos(report, ipos) {
  const items = Array.isArray(ipos?.items) ? ipos.items : [];
  if (items.length) return;
  if (!isObject(report)) return;
- if (report.metadata?.generatedAt) errors.push('public/data/ipo-ai-report.json: IPO 데이터가 없는데 요약 리포트 generatedAt이 들어 있습니다. 확인 상태로 저장해야 합니다.');
+ if (report.metadata?.generatedAt) errors.push('public/data/ipo-ai-report.json: IPO 데이터가 없는데 요약 데이터 generatedAt이 들어 있습니다. 확인 상태로 저장해야 합니다.');
  if (Array.isArray(report.lines) && report.lines.length > 0) errors.push('public/data/ipo-ai-report.json: IPO 데이터가 없는데 lines가 들어 있습니다. 확인 상태에서는 빈 배열이어야 합니다.');
 }
 
+
+
+function normalizeDate(value) {
+ const text = String(value || '').trim();
+ if (/^\d{8}$/.test(text)) return `${text.slice(0, 4)}-${text.slice(4, 6)}-${text.slice(6, 8)}`;
+ if (/^\d{4}-\d{2}-\d{2}/.test(text)) return text.slice(0, 10);
+ return '';
+}
+function kstDateOnly(date = new Date()) {
+ return new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Seoul', year: 'numeric', month: '2-digit', day: '2-digit' }).format(date);
+}
+function normalizeIpoForCompetition(item) {
+ const companyName = String(item?.companyName || item?.company || item?.corpName || item?.name || '').trim();
+ const start = normalizeDate(item?.subscriptionStart || item?.subscriptionDate);
+ const end = normalizeDate(item?.subscriptionEnd || item?.subscriptionDate || start);
+ const listingDate = normalizeDate(item?.listingDate);
+ const refundDate = normalizeDate(item?.refundDate);
+ return { companyName, start, end, refundDate, listingDate, status: String(item?.status || item?.stage || '').trim() };
+}
+
+const NON_IPO_EVENT_RE = /유상증자|무상증자|주주배정|실권주|구주주|신주인수권|제3자배정|주주우선|전환사채|교환사채|신주인수권부사채|일반공모증자|유상청약/;
+function isIpoCategory(item) {
+ const category = String(item?.offeringCategory || item?.eventType || '').toLowerCase();
+ return /ipo|initial_public_offering|public-offering|public/.test(category);
+}
+function validateIpoOnlySchedule(ipos, label) {
+ const today = String(ipos?.metadata?.referenceDate || kstDateOnly());
+ const items = Array.isArray(ipos?.items) ? ipos.items : [];
+ for (const [index, item] of items.entries()) {
+  const companyName = String(item?.companyName || item?.company || item?.corpName || item?.name || '').trim();
+  const text = [companyName, item?.reportName, item?.title, item?.offeringMethod, item?.securityType, item?.sector].map((value) => String(value || '')).join(' ');
+  if (NON_IPO_EVENT_RE.test(text)) errors.push(`${label}.items[${index}]: IPO가 아닌 유상증자/주주배정/실권주 청약 문구가 포함되어 있습니다. (${companyName || '기업명 확인'})`);
+  if (!isIpoCategory(item)) errors.push(`${label}.items[${index}]: offeringCategory/eventType이 IPO로 명시되어야 합니다. (${companyName || '기업명 확인'})`);
+  const normalized = normalizeIpoForCompetition(item);
+  const displayEnd = normalized.listingDate || normalized.end || normalizeDate(item?.scheduleEnd || item?.date || item?.reportDate || item?.receiptDate || item?.rceptDt);
+  if (displayEnd && displayEnd < today) errors.push(`${label}.items[${index}]: 지난 일정은 표시 데이터에서 제외해야 합니다. (${companyName || '기업명 확인'}, ${displayEnd})`);
+  if (normalized.status === '청약 진행중' && !(normalized.start && normalized.end && normalized.start <= today && today <= normalized.end)) errors.push(`${label}.items[${index}]: 청약 진행중은 기준일이 청약 기간 안에 있을 때만 허용됩니다. (${companyName || '기업명 확인'})`);
+  if (normalized.status === '환불일' && !(normalized.end && normalized.refundDate && normalized.end < today && today <= normalized.refundDate)) errors.push(`${label}.items[${index}]: 환불일 상태는 청약 종료 후 환불일까지의 일정에만 허용됩니다. (${companyName || '기업명 확인'})`);
+  if (normalized.status === '청약 예정' && normalized.start && normalized.start <= today) errors.push(`${label}.items[${index}]: 청약 예정은 기준일 전 일정에만 허용됩니다. (${companyName || '기업명 확인'})`);
+  if (normalized.status.includes('상장') && !normalized.listingDate) errors.push(`${label}.items[${index}]: 상장 상태는 listingDate가 있을 때만 허용됩니다. (${companyName || '기업명 확인'})`);
+  if (normalized.status && !['예비심사','예비심사','청약 예정','청약 진행중','환불일','상장','상장'].includes(normalized.status)) errors.push(`${label}.items[${index}]: 허용되지 않은 IPO 상태입니다. (${companyName || '기업명 확인'} / ${normalized.status})`);
+ }
+}
+
+function validateCompetitionOnlyDuringActiveSubscription(ipos, snapshots, mentions) {
+ const today = String(ipos?.metadata?.referenceDate || kstDateOnly());
+ const activeCompanies = new Set((Array.isArray(ipos?.items) ? ipos.items : [])
+  .map(normalizeIpoForCompetition)
+  .filter((item) => item.companyName && item.status === '청약 진행중' && item.start && item.end && item.start <= today && today <= item.end)
+  .map((item) => item.companyName));
+ const rows = [
+  ...((Array.isArray(snapshots?.items) ? snapshots.items : []).map((item) => ({ kind: '확인 입력', companyName: String(item.companyName || '').trim() }))),
+  ...((Array.isArray(mentions?.items) ? mentions.items : []).map((item) => ({ kind: '뉴스 언급', companyName: String(item.companyName || '').trim() }))),
+ ];
+ for (const row of rows) {
+  if (row.companyName && !activeCompanies.has(row.companyName)) errors.push(`${row.kind} 경쟁률: ${row.companyName}은 오늘 청약 진행 기업이 아니므로 표시 데이터에 넣을 수 없습니다.`);
+ }
+}
 
 function validateFredMacro(payload, label) {
  if (!isObject(payload)) { errors.push(`${label}: 루트는 객체여야 합니다.`); return; }
@@ -138,6 +271,14 @@ if (report) validateReport(report, 'public/data/ipo-ai-report.json');
 if (report) validateReportAgainstIpos(report, ipos);
 const news = readJsonIfExists(path.join(root, 'public/data/news.json'), { optional: true });
 if (news) validateNews(news, 'public/data/news.json');
+const competitionMentions = readJsonIfExists(path.join(root, 'public/data/competition-mentions.json'), { optional: true });
+if (competitionMentions) validateCompetitionMentions(competitionMentions, 'public/data/competition-mentions.json');
+const competitionSnapshots = readJsonIfExists(path.join(root, 'public/data/competition-snapshots.json'), { optional: true });
+if (competitionSnapshots) validateCompetitionSnapshots(competitionSnapshots, 'public/data/competition-snapshots.json');
+if (ipos && (competitionSnapshots || competitionMentions)) validateIpoOnlySchedule(ipos, 'public/data/ipos.json');
+validateCompetitionOnlyDuringActiveSubscription(ipos, competitionSnapshots, competitionMentions);
+const ipoBriefings = readJsonIfExists(path.join(root, 'public/data/ipo-briefings.json'), { optional: true });
+if (ipoBriefings) validateIpoBriefings(ipoBriefings, 'public/data/ipo-briefings.json');
 const fredMacro = readJsonIfExists(path.join(root, 'public/data/fred-macro.json'), { optional: true });
 if (fredMacro) validateFredMacro(fredMacro, 'public/data/fred-macro.json');
 const fredMacroReport = readJsonIfExists(path.join(root, 'public/data/fred-macro-report.json'), { optional: true });

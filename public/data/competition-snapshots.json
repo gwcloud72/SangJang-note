@@ -1,0 +1,12 @@
+{
+  "metadata": {
+    "source": "manual-confirmed",
+    "sourceMode": "github-actions-demo",
+    "displayLabel": "확인 입력",
+    "updatedAt": "2026-06-14T00:30:00.000Z",
+    "updatedKst": "2026-06-14T09:30:00+09:00",
+    "activeIpoCount": 0,
+    "policy": "06.14 기준 청약 진행 기업이 없어 확인 입력 경쟁률을 표시하지 않습니다."
+  },
+  "items": []
+}

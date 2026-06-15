@@ -1,0 +1,8 @@
+{
+  "metadata": {
+    "source": "github-actions-demo:gemini-competition-cache",
+    "updatedAt": "2026-06-14T00:30:00.000Z",
+    "policy": "동일 기사 재호출 방지용 데모 캐시입니다."
+  },
+  "items": []
+}

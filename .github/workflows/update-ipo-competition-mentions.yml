@@ -1,0 +1,153 @@
+name: Update IPO Competition Mentions
+
+on:
+  workflow_dispatch:
+    inputs:
+      allowOutsideHours:
+        description: "청약 시간 밖에서도 수집 실행"
+        required: false
+        default: "false"
+  schedule:
+    - cron: "17 0-7 * * *"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  collect-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: main
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: package-lock.json
+
+      - name: Install dependencies
+        run: npm ci --include=dev --include=optional --no-audit --no-fund
+
+      - name: Restore Gemini competition cache
+        uses: actions/cache@v4
+        with:
+          path: .cache/gemini-competition-cache.json
+          key: gemini-competition-${{ github.run_id }}
+          restore-keys: |
+            gemini-competition-
+
+      - name: Restore Gemini briefing cache
+        uses: actions/cache@v4
+        with:
+          path: public/data/ipo-briefings-gemini-cache.json
+          key: gemini-briefings-${{ github.run_id }}
+          restore-keys: |
+            gemini-briefings-
+
+      - name: Validate Actions env contract
+        env:
+          NEWS_CLIENT_ID: ${{ secrets.NEWS_CLIENT_ID }}
+          NEWS_CLIENT_SECRET: ${{ secrets.NEWS_CLIENT_SECRET }}
+          COMPETITION_NEWS_ENABLED: ${{ vars.COMPETITION_NEWS_ENABLED }}
+          COMPETITION_NEWS_DISPLAY: ${{ vars.COMPETITION_NEWS_DISPLAY }}
+          COMPETITION_NEWS_MAX_ITEMS: ${{ vars.COMPETITION_NEWS_MAX_ITEMS }}
+          COMPETITION_NEWS_PAUSE_MS: ${{ vars.COMPETITION_NEWS_PAUSE_MS }}
+          GEMINI_COMPETITION_ENABLED: ${{ vars.GEMINI_COMPETITION_ENABLED }}
+          GEMINI_COMPETITION_MAX_CALLS: ${{ vars.GEMINI_COMPETITION_MAX_CALLS }}
+          GEMINI_COMPETITION_MIN_REGEX_CONFIDENCE: ${{ vars.GEMINI_COMPETITION_MIN_REGEX_CONFIDENCE }}
+          GEMINI_COMPETITION_ONLY_WHEN_REGEX: ${{ vars.GEMINI_COMPETITION_ONLY_WHEN_REGEX }}
+          GEMINI_BRIEFINGS_ENABLED: ${{ vars.GEMINI_BRIEFINGS_ENABLED }}
+          GEMINI_BRIEFINGS_MAX_CALLS: ${{ vars.GEMINI_BRIEFINGS_MAX_CALLS }}
+          GEMINI_BRIEFINGS_INCLUDE_ALL: ${{ vars.GEMINI_BRIEFINGS_INCLUDE_ALL }}
+          COMPETITION_GEMINI_PARSE_AMBIGUOUS: ${{ vars.COMPETITION_GEMINI_PARSE_AMBIGUOUS }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          GEMINI_REQUEST_PAUSE_MS: ${{ vars.GEMINI_REQUEST_PAUSE_MS }}
+          GEMINI_MAX_INPUT_CHARS: ${{ vars.GEMINI_MAX_INPUT_CHARS }}
+          GEMINI_MAX_RETRIES: ${{ vars.GEMINI_MAX_RETRIES }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+        run: npm run actions:check
+
+      - name: Collect competition news mentions
+        env:
+          NEWS_CLIENT_ID: ${{ secrets.NEWS_CLIENT_ID }}
+          NEWS_CLIENT_SECRET: ${{ secrets.NEWS_CLIENT_SECRET }}
+          COMPETITION_NEWS_ENABLED: ${{ vars.COMPETITION_NEWS_ENABLED }}
+          COMPETITION_NEWS_DISPLAY: ${{ vars.COMPETITION_NEWS_DISPLAY }}
+          COMPETITION_NEWS_MAX_ITEMS: ${{ vars.COMPETITION_NEWS_MAX_ITEMS }}
+          COMPETITION_NEWS_PAUSE_MS: ${{ vars.COMPETITION_NEWS_PAUSE_MS }}
+          COMPETITION_ALLOW_OUTSIDE_HOURS: ${{ inputs.allowOutsideHours }}
+          GEMINI_COMPETITION_ENABLED: ${{ vars.GEMINI_COMPETITION_ENABLED }}
+          GEMINI_COMPETITION_MAX_CALLS: ${{ vars.GEMINI_COMPETITION_MAX_CALLS }}
+          GEMINI_COMPETITION_MIN_REGEX_CONFIDENCE: ${{ vars.GEMINI_COMPETITION_MIN_REGEX_CONFIDENCE }}
+          GEMINI_COMPETITION_ONLY_WHEN_REGEX: ${{ vars.GEMINI_COMPETITION_ONLY_WHEN_REGEX }}
+          GEMINI_BRIEFINGS_ENABLED: ${{ vars.GEMINI_BRIEFINGS_ENABLED }}
+          GEMINI_BRIEFINGS_MAX_CALLS: ${{ vars.GEMINI_BRIEFINGS_MAX_CALLS }}
+          GEMINI_BRIEFINGS_INCLUDE_ALL: ${{ vars.GEMINI_BRIEFINGS_INCLUDE_ALL }}
+          COMPETITION_GEMINI_PARSE_AMBIGUOUS: ${{ vars.COMPETITION_GEMINI_PARSE_AMBIGUOUS }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          GEMINI_REQUEST_PAUSE_MS: ${{ vars.GEMINI_REQUEST_PAUSE_MS }}
+          GEMINI_MAX_INPUT_CHARS: ${{ vars.GEMINI_MAX_INPUT_CHARS }}
+          GEMINI_MAX_RETRIES: ${{ vars.GEMINI_MAX_RETRIES }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+        run: npm run collect:competition-news
+
+      - name: Generate IPO briefings
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          GEMINI_BRIEFINGS_ENABLED: ${{ vars.GEMINI_BRIEFINGS_ENABLED }}
+          GEMINI_BRIEFINGS_MAX_CALLS: ${{ vars.GEMINI_BRIEFINGS_MAX_CALLS }}
+          GEMINI_BRIEFINGS_INCLUDE_ALL: ${{ vars.GEMINI_BRIEFINGS_INCLUDE_ALL }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          GEMINI_REQUEST_PAUSE_MS: ${{ vars.GEMINI_REQUEST_PAUSE_MS }}
+          GEMINI_MAX_INPUT_CHARS: ${{ vars.GEMINI_MAX_INPUT_CHARS }}
+          GEMINI_MAX_RETRIES: ${{ vars.GEMINI_MAX_RETRIES }}
+        run: npm run generate:briefings
+
+      - name: Validate competition and briefing data
+        run: npm run competition:check && npm run briefings:check && npm run data:check
+
+      - name: Commit competition data
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -z "$(git status --porcelain -- public/data/competition-mentions.json public/data/competition-gemini-cache.json public/data/ipo-briefings.json public/data/ipo-briefings-gemini-cache.json)" ]; then
+            echo "반영할 경쟁률 뉴스 언급 변경이 없습니다."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add public/data/competition-mentions.json public/data/competition-gemini-cache.json public/data/ipo-briefings.json public/data/ipo-briefings-gemini-cache.json
+            git commit -m "상장노트 경쟁률 뉴스 언급과 IPO 브리핑 갱신 [skip ci]"
+            git push origin main
+          fi
+
+      - name: Run UI checks
+        run: npm run quality:check && npm run ui-copy:check && npm run selector:check && npm run runtime-ui:check && npm run interaction:check && npm run render:check && npm run typecheck && npm run build
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: "dist"
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

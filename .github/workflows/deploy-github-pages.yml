@@ -99,6 +99,9 @@ jobs:
           FRED_MAX_OBSERVATIONS: ${{ vars.FRED_MAX_OBSERVATIONS }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_REPORTS_ENABLED: ${{ vars.GEMINI_REPORTS_ENABLED }}
+          GEMINI_BRIEFINGS_ENABLED: ${{ vars.GEMINI_BRIEFINGS_ENABLED }}
+          GEMINI_BRIEFINGS_MAX_CALLS: ${{ vars.GEMINI_BRIEFINGS_MAX_CALLS }}
+          GEMINI_BRIEFINGS_INCLUDE_ALL: ${{ vars.GEMINI_BRIEFINGS_INCLUDE_ALL }}
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
           GEMINI_REQUEST_PAUSE_MS: ${{ vars.GEMINI_REQUEST_PAUSE_MS }}
           GEMINI_MAX_INPUT_CHARS: ${{ vars.GEMINI_MAX_INPUT_CHARS }}
@@ -174,11 +177,39 @@ jobs:
           set -euo pipefail
           npm run update:news || echo "뉴스 갱신은 건너뛰고 기존 또는 확인 상태 데이터를 사용합니다."
 
+      - name: Collect competition news mentions
+        shell: bash
+        env:
+          NEWS_CLIENT_ID: ${{ secrets.NEWS_CLIENT_ID }}
+          NEWS_CLIENT_SECRET: ${{ secrets.NEWS_CLIENT_SECRET }}
+          COMPETITION_NEWS_ENABLED: ${{ vars.COMPETITION_NEWS_ENABLED }}
+          COMPETITION_NEWS_DISPLAY: ${{ vars.COMPETITION_NEWS_DISPLAY }}
+          COMPETITION_NEWS_MAX_ITEMS: ${{ vars.COMPETITION_NEWS_MAX_ITEMS }}
+          COMPETITION_NEWS_PAUSE_MS: ${{ vars.COMPETITION_NEWS_PAUSE_MS }}
+          COMPETITION_ALLOW_OUTSIDE_HOURS: "false"
+          GEMINI_COMPETITION_ENABLED: ${{ vars.GEMINI_COMPETITION_ENABLED }}
+          GEMINI_COMPETITION_MAX_CALLS: ${{ vars.GEMINI_COMPETITION_MAX_CALLS }}
+          GEMINI_COMPETITION_MIN_REGEX_CONFIDENCE: ${{ vars.GEMINI_COMPETITION_MIN_REGEX_CONFIDENCE }}
+          GEMINI_COMPETITION_ONLY_WHEN_REGEX: ${{ vars.GEMINI_COMPETITION_ONLY_WHEN_REGEX }}
+          COMPETITION_GEMINI_PARSE_AMBIGUOUS: ${{ vars.COMPETITION_GEMINI_PARSE_AMBIGUOUS }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          GEMINI_REQUEST_PAUSE_MS: ${{ vars.GEMINI_REQUEST_PAUSE_MS }}
+          GEMINI_MAX_INPUT_CHARS: ${{ vars.GEMINI_MAX_INPUT_CHARS }}
+          GEMINI_MAX_RETRIES: ${{ vars.GEMINI_MAX_RETRIES }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+        run: |
+          set -euo pipefail
+          npm run collect:competition-news || echo "경쟁률 뉴스 언급 갱신은 건너뛰고 기존 데이터를 사용합니다."
+
       - name: Generate IPO report
         shell: bash
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_REPORTS_ENABLED: ${{ vars.GEMINI_REPORTS_ENABLED }}
+          GEMINI_BRIEFINGS_ENABLED: ${{ vars.GEMINI_BRIEFINGS_ENABLED }}
+          GEMINI_BRIEFINGS_MAX_CALLS: ${{ vars.GEMINI_BRIEFINGS_MAX_CALLS }}
+          GEMINI_BRIEFINGS_INCLUDE_ALL: ${{ vars.GEMINI_BRIEFINGS_INCLUDE_ALL }}
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
           GEMINI_REQUEST_PAUSE_MS: ${{ vars.GEMINI_REQUEST_PAUSE_MS }}
           GEMINI_MAX_INPUT_CHARS: ${{ vars.GEMINI_MAX_INPUT_CHARS }}
@@ -201,6 +232,23 @@ jobs:
             fi
           fi
 
+
+      - name: Generate IPO briefings
+        shell: bash
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
+          GEMINI_BRIEFINGS_ENABLED: ${{ vars.GEMINI_BRIEFINGS_ENABLED }}
+          GEMINI_BRIEFINGS_MAX_CALLS: ${{ vars.GEMINI_BRIEFINGS_MAX_CALLS }}
+          GEMINI_BRIEFINGS_INCLUDE_ALL: ${{ vars.GEMINI_BRIEFINGS_INCLUDE_ALL }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          GEMINI_REQUEST_PAUSE_MS: ${{ vars.GEMINI_REQUEST_PAUSE_MS }}
+          GEMINI_MAX_INPUT_CHARS: ${{ vars.GEMINI_MAX_INPUT_CHARS }}
+          GEMINI_MAX_RETRIES: ${{ vars.GEMINI_MAX_RETRIES }}
+        run: |
+          set -euo pipefail
+          npm run generate:briefings
+
       - name: Generate market environment data
         shell: bash
         env:
@@ -208,6 +256,9 @@ jobs:
           FRED_FETCH_ENABLED: ${{ vars.FRED_FETCH_ENABLED }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_REPORTS_ENABLED: ${{ vars.GEMINI_REPORTS_ENABLED }}
+          GEMINI_BRIEFINGS_ENABLED: ${{ vars.GEMINI_BRIEFINGS_ENABLED }}
+          GEMINI_BRIEFINGS_MAX_CALLS: ${{ vars.GEMINI_BRIEFINGS_MAX_CALLS }}
+          GEMINI_BRIEFINGS_INCLUDE_ALL: ${{ vars.GEMINI_BRIEFINGS_INCLUDE_ALL }}
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
           GEMINI_REQUEST_PAUSE_MS: ${{ vars.GEMINI_REQUEST_PAUSE_MS }}
           GEMINI_MAX_INPUT_CHARS: ${{ vars.GEMINI_MAX_INPUT_CHARS }}
@@ -231,13 +282,13 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          if git diff --quiet -- public/data/ipos.json public/data/ipo-ai-report.json public/data/news.json public/data/fred-macro.json public/data/fred-macro-report.json; then
+          if git diff --quiet -- public/data/ipos.json public/data/ipo-ai-report.json public/data/ipo-briefings.json public/data/ipo-briefings-gemini-cache.json public/data/news.json public/data/competition-mentions.json public/data/competition-gemini-cache.json public/data/competition-snapshots.json public/data/fred-macro.json public/data/fred-macro-report.json; then
             echo "반영할 데이터 변경을 확인했습니다."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/data/ipos.json public/data/ipo-ai-report.json public/data/news.json public/data/fred-macro.json public/data/fred-macro-report.json
+          git add public/data/ipos.json public/data/ipo-ai-report.json public/data/ipo-briefings.json public/data/ipo-briefings-gemini-cache.json public/data/news.json public/data/competition-mentions.json public/data/competition-gemini-cache.json public/data/competition-snapshots.json public/data/fred-macro.json public/data/fred-macro-report.json
           git commit -m "상장노트 데이터 자동 갱신 [skip ci]"
           git push origin main
 

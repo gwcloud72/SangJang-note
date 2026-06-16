@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "local-rules",
-    "generatedAt": "2026-06-16T11:38:20.597Z",
+    "generatedAt": "2026-06-16T23:49:04.506Z",
     "model": null,
     "itemCount": 8,
     "geminiUsed": 0,
@@ -185,15 +185,15 @@
       "model": null
     },
     {
-      "id": "briefing-케이앤에스아이앤씨",
-      "ipoId": "케이앤에스아이앤씨",
-      "companyName": "케이앤에스아이앤씨",
+      "id": "briefing-에이치엘지노믹스",
+      "ipoId": "에이치엘지노믹스",
+      "companyName": "에이치엘지노믹스",
       "sector": "IPO 일정 확인 대상 기업",
       "ipoStage": "청약 예정",
       "underwriter": "주관사 확인",
       "basisTimeLabel": "오늘 09:30 기준",
       "oneLine": "IPO 일정 확인 대상 기업",
-      "body": "케이앤에스아이앤씨는 IPO 일정 확인 대상 기업입니다. 07.27 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
+      "body": "에이치엘지노믹스는 IPO 일정 확인 대상 기업입니다. 07.13 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 07.16, 변경 여부를 함께 확인합니다.",
       "points": [
         "청약 시작·마감일 확인",
         "환불일 확인",
@@ -201,7 +201,7 @@
       ],
       "sourceLabels": [
         "DART 일정",
-        "환불일 확인",
+        "환불일 07.16",
         "뉴스 검색",
         "주관사 확인"
       ],

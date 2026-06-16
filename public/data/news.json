@@ -1,9 +1,9 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-06-16T04:53:39.347Z",
+    "updatedAt": "2026-06-16T23:49:03.918Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
-    "queryCount": 8
+    "queryCount": 9
   },
   "items": [
     {
@@ -96,23 +96,12 @@
     },
     {
       "id": "1ddf2a15cfff3203",
-      "keyword": "매드업",
-      "companyName": "매드업",
-      "title": "[공모주달력]활기도는 IPO 시장…레몬헬스케어·레메디 코스닥 도전장",
-      "description": "6월 셋째 주 공모주 시장은 지난주 수요예측을 시작한 기업들의 후속 일정이 이어져요. 초정밀 모션제어... 매드업은 18일까지 기관투자자 대상 수요예측을 이어가요. 매드업은 AI 기반 디지털 마케팅 솔루션...",
-      "link": "https://n.news.naver.com/mnews/article/648/0000047986?sid=101",
-      "originallink": "https://news.bizwatch.co.kr/article/market/2026/06/12/0010",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-13T23:00:00.000Z"
-    },
-    {
-      "id": "8467804dda865a88",
       "keyword": "레메디",
       "companyName": "레메디",
-      "title": "[이번주 IPO]6월 셋째 주 수요예측·청약 일정",
-      "description": "희망 공모가 밴드는 7500~1만원, 총 공모 예정 금액은 150억~200억원 규모다. 수요예측은 오는 15일부터 19일까지, 일반 청약은 24~25일 양일간 이뤄진다. 상장 주관사는 KB증권이다. ◆레메디= 2012년 설립된 레메디는 X...",
-      "link": "https://n.news.naver.com/mnews/article/277/0005775920?sid=101",
-      "originallink": "https://view.asiae.co.kr/article/2026061310383907132",
+      "title": "[공모주달력]활기도는 IPO 시장…레몬헬스케어·레메디 코스닥 도전장",
+      "description": "로봇 자동화 플랫폼 기업 빅웨이브로보틱스도 이번 주 청약을 시작해요. 메리츠스팩2호는 코스닥시장에 상장해요. 코스닥 시장에 새롭게 도전장을 내미는 곳도 있어요. 휴대용 엑스레이(X-ray) 장비 기업 레메디와...",
+      "link": "https://n.news.naver.com/mnews/article/648/0000047986?sid=101",
+      "originallink": "https://news.bizwatch.co.kr/article/market/2026/06/12/0010",
       "provider": "뉴스 검색",
       "publishedAt": "2026-06-13T23:00:00.000Z"
     },
@@ -150,6 +139,39 @@
       "publishedAt": "2026-05-31T09:36:00.000Z"
     },
     {
+      "id": "bb827deb6480b299",
+      "keyword": "에이치엘지노믹스",
+      "companyName": "에이치엘지노믹스",
+      "title": "'최근 6개월새 신규 예심청구 10건'…IPO앞두고 눈길 끄는 K·바이오기업...",
+      "description": "기업공개(IPO) 동향을 분석했다. 10곳 상장, 5곳 불발, 10곳 청구 팜이데일리가 최근 6개월 국내 제약·바이오... 더불어 지난 4월과 이달 새롭게 예심을 청구한 기업들은 △에이치엘지노믹스 △엠비디 △엠에스바이오...",
+      "link": "https://n.news.naver.com/mnews/article/018/0006287605?sid=101",
+      "originallink": "https://www.edaily.co.kr/news/newspath.asp?newsid=02929046645451544",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-05-21T23:12:00.000Z"
+    },
+    {
+      "id": "92a49a0bce2b2e92",
+      "keyword": "에이치엘지노믹스",
+      "companyName": "에이치엘지노믹스",
+      "title": "5월 공모주 시장 대형주 실종…중소형주에 투자 집중",
+      "description": "5월 국내 주식시장에서 대형 기업의 기업공개 일정이 연기되는 가운데 유아용품 및 로봇 관련 중소형 공모... 한국거래소 자료에 따르면, 4월에 상장 예비심사를 청구한 기업은 에이치엘지노믹스, 크리에이츠, 옵토닉스...",
+      "link": "https://www.junggi.co.kr/news/articleView.html?idxno=36401",
+      "originallink": "https://www.junggi.co.kr/news/articleView.html?idxno=36401",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-05-12T05:22:00.000Z"
+    },
+    {
+      "id": "be20ef59d00fedb1",
+      "keyword": "에이치엘지노믹스",
+      "companyName": "에이치엘지노믹스",
+      "title": "\"결산 시즌 끝났다\"…4월 IPO 시장, 예비심사 청구 '봇물'",
+      "description": "크리에이츠 △3일 에이치엘지노믹스 등이 포함됐다. 이는 올해 1분기(1~3월) 상장 예비심사를 청구한 기업... 본격적인 공모주 청약 시즌이 돌아올 전망이다. IPO 업계 관계자는 \"최근 기술특례상장 기업들도 더 많이...",
+      "link": "https://www.ajunews.com/view/20260424170737112",
+      "originallink": "https://www.ajunews.com/view/20260424170737112",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-04-24T08:40:00.000Z"
+    },
+    {
       "id": "d95bdaacdcc47a05",
       "keyword": "한국제16호기업인수목적",
       "companyName": "한국제16호기업인수목적",
@@ -159,6 +181,17 @@
       "originallink": "https://www.greened.kr/news/articleView.html?idxno=339439",
       "provider": "뉴스 검색",
       "publishedAt": "2026-04-17T06:27:00.000Z"
+    },
+    {
+      "id": "e46099a0970ffef7",
+      "keyword": "에이치엘지노믹스",
+      "companyName": "에이치엘지노믹스",
+      "title": "이달에만 5곳 수요예측…공모주 시장 ‘꿈틀’ [시그널]",
+      "description": "증권신고서를 제출하며 공모 일정을 공식화한 기업 외에도 증시 입성을 위해 한국거래소에 상장 예비심사를 청구하며 IPO를 위한 초석을 다지기 시작한 곳들도 눈에 띈다. 이달 들어서만 에이치엘지노믹스...",
+      "link": "https://n.news.naver.com/mnews/article/011/0004609843?sid=101",
+      "originallink": "https://www.sedaily.com/article/20031369?ref=naver",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-04-12T10:06:00.000Z"
     },
     {
       "id": "617bca4ff9b38465",

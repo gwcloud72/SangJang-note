@@ -188,16 +188,22 @@ function sourceScheduleEnd(item: SourceIpoItem, referenceDate: string): string |
     ?? normalizeDateWithReference(item.rceptDt, referenceDate);
 }
 function isPastSourceItem(item: SourceIpoItem, referenceDate: string): boolean {
-  const end = sourceScheduleEnd(item, referenceDate);
-  return Boolean(end && end < referenceDate);
+  // 실제 일정(상장·환불·청약 종료)이 지났을 때만 과거로 본다.
+  // 접수일/공시일 같은 신고 날짜는 항상 과거이므로 과거 판정에서 제외한다(예비심사 종목 보존).
+  const scheduleEnd = sourceListingDate(item, referenceDate)
+    ?? sourceRefundDate(item, referenceDate)
+    ?? normalizeDateWithReference(item.subscriptionEnd, referenceDate)
+    ?? normalizeDateWithReference(item.scheduleEnd, referenceDate)
+    ?? normalizeDateWithReference(item.subscriptionDate, referenceDate);
+  return Boolean(scheduleEnd && scheduleEnd < referenceDate);
 }
 function isValidStatus(value: string): value is IpoStatus {
   return ['예비심사', '수요예측', '청약 예정', '청약 진행중', '환불일', '상장'].includes(value);
 }
 function deriveStatus(item: SourceIpoItem, referenceDate: string): IpoStatus | '종료' {
   const raw = String(item.status ?? item.stage ?? item.reportName ?? item.title ?? '').trim();
-  const start = normalizeDateWithReference(item.subscriptionStart, referenceDate) ?? normalizeDateWithReference(item.subscriptionDate, referenceDate) ?? normalizeDateWithReference(item.scheduleStart, referenceDate) ?? sourceScheduleStart(item, referenceDate);
-  const end = normalizeDateWithReference(item.subscriptionEnd, referenceDate) ?? normalizeDateWithReference(item.scheduleEnd, referenceDate) ?? normalizeDateWithReference(item.subscriptionDate, referenceDate) ?? sourceScheduleEnd(item, referenceDate) ?? start;
+  const start = normalizeDateWithReference(item.subscriptionStart, referenceDate) ?? normalizeDateWithReference(item.subscriptionDate, referenceDate) ?? normalizeDateWithReference(item.scheduleStart, referenceDate);
+  const end = normalizeDateWithReference(item.subscriptionEnd, referenceDate) ?? normalizeDateWithReference(item.scheduleEnd, referenceDate) ?? normalizeDateWithReference(item.subscriptionDate, referenceDate) ?? start;
   const demandStart = normalizeDateWithReference(item.demandForecastStart, referenceDate) ?? normalizeDateWithReference(item.demandForecastDate, referenceDate);
   const demandEnd = normalizeDateWithReference(item.demandForecastEnd, referenceDate) ?? normalizeDateWithReference(item.demandForecastDate, referenceDate) ?? demandStart;
   const listingDate = sourceListingDate(item, referenceDate);
@@ -226,15 +232,29 @@ function mapCompany(item: SourceIpoItem, index: number, referenceDate: string): 
   const status = deriveStatus(item, referenceDate);
   if (status === '종료') return null;
   const rawDate = normalizeDateWithReference(item.date ?? item.reportDate ?? item.receiptDate ?? item.rceptDt, referenceDate) ?? undefined;
-  const subscriptionStart = normalizeDateWithReference(item.subscriptionStart, referenceDate) ?? normalizeDateWithReference(item.subscriptionDate, referenceDate) ?? undefined;
-  const subscriptionEnd = normalizeDateWithReference(item.subscriptionEnd, referenceDate) ?? normalizeDateWithReference(item.subscriptionDate, referenceDate) ?? subscriptionStart;
+  const itemScheduleStart = normalizeDateWithReference(item.scheduleStart, referenceDate);
+  const itemScheduleEnd = normalizeDateWithReference(item.scheduleEnd, referenceDate);
+  // 수집기(update-ipos.mjs)는 청약 기간을 scheduleStart/End 에만 기록하므로,
+  // 청약 단계 이상이면 scheduleStart 를 청약 시작일로 끌어와 접수일이 표시되지 않게 한다.
+  const hasSubscriptionStage = status.includes('청약') || status === '환불일' || status === '상장';
+  const subscriptionStart = normalizeDateWithReference(item.subscriptionStart, referenceDate)
+    ?? normalizeDateWithReference(item.subscriptionDate, referenceDate)
+    ?? (hasSubscriptionStage ? itemScheduleStart : undefined)
+    ?? undefined;
+  const subscriptionEnd = normalizeDateWithReference(item.subscriptionEnd, referenceDate)
+    ?? normalizeDateWithReference(item.subscriptionDate, referenceDate)
+    ?? (hasSubscriptionStage ? itemScheduleEnd : undefined)
+    ?? subscriptionStart;
   const demandForecastStart = normalizeDateWithReference(item.demandForecastStart, referenceDate) ?? normalizeDateWithReference(item.demandForecastDate, referenceDate) ?? undefined;
   const demandForecastEnd = normalizeDateWithReference(item.demandForecastEnd, referenceDate) ?? normalizeDateWithReference(item.demandForecastDate, referenceDate) ?? demandForecastStart;
   const refundDate = sourceRefundDate(item, referenceDate) ?? undefined;
   const listingDate = sourceListingDate(item, referenceDate) ?? undefined;
-  const scheduleStart = subscriptionStart ?? normalizeDateWithReference(item.scheduleStart, referenceDate) ?? rawDate;
-  const scheduleEnd = listingDate ?? refundDate ?? subscriptionEnd ?? normalizeDateWithReference(item.scheduleEnd, referenceDate) ?? scheduleStart;
-  const primaryDate = status.includes('청약') ? subscriptionStart : status.includes('상장') ? listingDate : scheduleStart;
+  const scheduleStart = subscriptionStart ?? itemScheduleStart ?? rawDate;
+  const scheduleEnd = listingDate ?? refundDate ?? subscriptionEnd ?? itemScheduleEnd ?? scheduleStart;
+  const primaryDate = status.includes('청약') ? subscriptionStart
+    : status === '상장' ? (listingDate ?? scheduleStart)
+    : status === '환불일' ? (refundDate ?? subscriptionStart ?? scheduleStart)
+    : scheduleStart;
   return {
     id: String(item.id ?? `${name}-${index}`),
     name,

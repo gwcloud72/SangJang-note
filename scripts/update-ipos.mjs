@@ -359,6 +359,8 @@ function normalizeSchedule(row, filingByReceipt, filingsByCorp, todayIso) {
   allotmentBaseDate,
   scheduleStart,
   scheduleEnd,
+  subscriptionStart: scheduleStart,
+  subscriptionEnd: scheduleEnd,
   underwriters: unique(row.underwriters || []),
   dartUrl: receiptNo ? `https://dart.fss.or.kr/dsaf001/main.do?rcpNo=${receiptNo}` : '',
   mainMatterReceiptNo: clean(row.rpt_rcpn),

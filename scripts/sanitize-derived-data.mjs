@@ -5,6 +5,13 @@ import path from 'node:path';
 const dataDir = path.resolve('public/data');
 const fileOf = (name) => path.join(dataDir, `${name}.json`);
 const nowIso = () => new Date().toISOString();
+function kstDateOnly(date = new Date()) {
+  return new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Seoul', year: 'numeric', month: '2-digit', day: '2-digit' }).format(date);
+}
+function formatKstDateTime(date = new Date()) {
+  const parts = new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Seoul', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hour12: false }).format(date);
+  return `${parts.replace(' ', 'T')}+09:00`;
+}
 
 async function readJson(name, fallback = {}) {
   const file = fileOf(name);
@@ -19,7 +26,7 @@ async function writeJson(name, payload) {
 }
 
 function text(value) { return String(value ?? '').trim(); }
-function todayFrom(payload) { return text(payload?.metadata?.referenceDate || payload?.metadata?.updatedKst || payload?.metadata?.updatedAt).slice(0, 10) || new Date().toISOString().slice(0, 10); }
+function todayFrom(_payload) { return kstDateOnly(); }
 function isActiveSubscription(item, today) {
   const status = text(item.status);
   const start = text(item.subscriptionStart || item.scheduleStart).slice(0, 10);
@@ -27,7 +34,7 @@ function isActiveSubscription(item, today) {
   return status === '청약 진행중' && /^\d{4}-\d{2}-\d{2}$/.test(start) && /^\d{4}-\d{2}-\d{2}$/.test(end) && start <= today && today <= end;
 }
 function emptyMeta(source, ipos, extra = {}) {
-  return { source, updatedAt: nowIso(), updatedKst: ipos?.metadata?.updatedKst || null, referenceDate: todayFrom(ipos), itemCount: 0, ...extra };
+  return { source, updatedAt: nowIso(), updatedKst: formatKstDateTime(), referenceDate: todayFrom(ipos), itemCount: 0, ...extra };
 }
 
 async function main() {

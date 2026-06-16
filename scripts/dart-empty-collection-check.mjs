@@ -7,6 +7,11 @@ import { fileURLToPath } from 'node:url';
 const projectRoot = path.resolve(fileURLToPath(new URL('..', import.meta.url)));
 const updateScript = fileURLToPath(new URL('./update-ipos.mjs', import.meta.url));
 
+function kstDateOnly(date = new Date()) {
+ return new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Seoul', year: 'numeric', month: '2-digit', day: '2-digit' }).format(date);
+}
+const today = kstDateOnly();
+
 function runNode(scriptPath, options = {}) {
  return new Promise((resolve) => {
   const child = spawn(process.execPath, [scriptPath], {
@@ -26,9 +31,9 @@ const tempDir = await mkdtemp(path.join(tmpdir(), 'dart-empty-collection-'));
 const outputPath = path.join(tempDir, 'ipos.json');
 const emptyPayload = {
  metadata: {
-  updatedAt: '2026-06-15T00:00:00.000Z',
+  updatedAt: `${today}T00:00:00.000Z`,
   source: 'OpenDART',
-  referenceDate: '2026-06-15',
+  referenceDate: today,
   status: 'empty',
   totalItems: 0,
  },

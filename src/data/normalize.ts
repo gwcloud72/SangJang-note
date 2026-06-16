@@ -55,19 +55,19 @@ interface SourceBriefingItem { id?: string; ipoId?: string; companyName?: string
 interface SourceBriefingResponse { metadata?: { generatedAt?: string | null; updatedAt?: string | null }; items?: SourceBriefingItem[]; }
 
 const DEFAULT_MACRO_DATA: MacroData = { items: [
-  { seriesId:'FEDFUNDS', koreanName:'미국 기준금리', unit:'%', latestDate:'2026-06-10', latestValue:3.62, previousDate:'2026-06-09', previousValue:3.62, change:0, changeRate:0, observations:[{date:'2026-06-04', value:3.62},{date:'2026-06-05', value:3.62},{date:'2026-06-08', value:3.62},{date:'2026-06-09', value:3.62},{date:'2026-06-10', value:3.62}] },
-  { seriesId:'DGS10', koreanName:'미국 10년 국채금리', unit:'%', latestDate:'2026-06-10', latestValue:4.55, previousDate:'2026-06-09', previousValue:4.53, change:0.02, changeRate:0.44, observations:[{date:'2026-06-04', value:4.47},{date:'2026-06-05', value:4.55},{date:'2026-06-08', value:4.56},{date:'2026-06-09', value:4.53},{date:'2026-06-10', value:4.55}] },
-  { seriesId:'CPIAUCSL', koreanName:'미국 소비자물가지수', unit:'pt', latestDate:'2026-06-13', latestValue:334.118, previousDate:'2026-06-12', previousValue:334.002, change:0.116, changeRate:0.03, observations:[{date:'2026-06-09', value:333.912},{date:'2026-06-10', value:333.984},{date:'2026-06-11', value:334.006},{date:'2026-06-12', value:334.002},{date:'2026-06-13', value:334.118}] },
-  { seriesId:'UNRATE', koreanName:'미국 실업률', unit:'%', latestDate:'2026-06-13', latestValue:4.2, previousDate:'2026-06-12', previousValue:4.2, change:0, changeRate:0, observations:[{date:'2026-06-09', value:4.2},{date:'2026-06-10', value:4.2},{date:'2026-06-11', value:4.2},{date:'2026-06-12', value:4.2},{date:'2026-06-13', value:4.2}] }
+  { seriesId:'FEDFUNDS', koreanName:'미국 기준금리', unit:'%', latestDate:null, latestValue:null, previousDate:null, previousValue:null, change:null, changeRate:null, observations:[] },
+  { seriesId:'DGS10', koreanName:'미국 10년 국채금리', unit:'%', latestDate:null, latestValue:null, previousDate:null, previousValue:null, change:null, changeRate:null, observations:[] },
+  { seriesId:'CPIAUCSL', koreanName:'미국 소비자물가지수', unit:'pt', latestDate:null, latestValue:null, previousDate:null, previousValue:null, change:null, changeRate:null, observations:[] },
+  { seriesId:'UNRATE', koreanName:'미국 실업률', unit:'%', latestDate:null, latestValue:null, previousDate:null, previousValue:null, change:null, changeRate:null, observations:[] }
 ], reports: [
-  { seriesId:'FEDFUNDS', koreanName:'미국 기준금리', plainSummary:'기준금리는 최근 관측값 기준 3.62%로 표시됩니다.', ipoContext:'공모 일정 확인 시 자금시장 분위기를 함께 보는 참고 지표입니다.', caution:'공시 원문과 일정 정보를 함께 확인하세요.' },
-  { seriesId:'DGS10', koreanName:'미국 10년 국채금리', plainSummary:'10년 국채금리는 4.55%로 최근 관측값이 소폭 높아졌습니다.', ipoContext:'금리 흐름은 성장기업 평가 환경을 살펴볼 때 참고할 수 있습니다.', caution:'공시 원문과 일정 정보를 함께 확인하세요.' },
-  { seriesId:'CPIAUCSL', koreanName:'미국 소비자물가지수', plainSummary:'소비자물가지수는 06.13 기준 334.118로 표시됩니다.', ipoContext:'물가 흐름은 시장환경을 넓게 확인하는 보조 지표입니다.', caution:'공시 원문과 일정 정보를 함께 확인하세요.' },
-  { seriesId:'UNRATE', koreanName:'미국 실업률', plainSummary:'실업률은 06.13 기준 4.2%로 표시됩니다.', ipoContext:'고용 지표는 시장 심리 확인용 보조 지표로 함께 표시합니다.', caution:'공시 원문과 일정 정보를 함께 확인하세요.' }
-], updatedAt:'2026-06-12T09:00:00+09:00', reportGeneratedAt:'2026-06-12T09:00:00+09:00', sourceLoaded:true, reportLoaded:true };
+  { seriesId:'FEDFUNDS', koreanName:'미국 기준금리', plainSummary:'기준금리 데이터는 연동 후 표시됩니다.', ipoContext:'시장환경은 FRED 연동 결과를 기준으로 확인합니다.', caution:'공시 원문과 일정 정보를 함께 확인하세요.' },
+  { seriesId:'DGS10', koreanName:'미국 10년 국채금리', plainSummary:'10년 국채금리 데이터는 연동 후 표시됩니다.', ipoContext:'시장환경은 FRED 연동 결과를 기준으로 확인합니다.', caution:'공시 원문과 일정 정보를 함께 확인하세요.' },
+  { seriesId:'CPIAUCSL', koreanName:'미국 소비자물가지수', plainSummary:'소비자물가지수 데이터는 연동 후 표시됩니다.', ipoContext:'시장환경은 FRED 연동 결과를 기준으로 확인합니다.', caution:'공시 원문과 일정 정보를 함께 확인하세요.' },
+  { seriesId:'UNRATE', koreanName:'미국 실업률', plainSummary:'실업률 데이터는 연동 후 표시됩니다.', ipoContext:'시장환경은 FRED 연동 결과를 기준으로 확인합니다.', caution:'공시 원문과 일정 정보를 함께 확인하세요.' }
+], updatedAt:null, reportGeneratedAt:null, sourceLoaded:false, reportLoaded:false };
 const DEFAULT_COMPETITION_DATA: CompetitionData = { snapshots: [], mentions: [], updatedAt: null, sourceLoaded: false };
-const DEFAULT_BRIEFING_DATA: BriefingData = { items: defaultCompanies.slice(0, 4).map((company) => ({ id: `briefing-${company.id}`, ipoId: company.id, companyName: company.name, sector: company.memo.replace(' 일정을 확인하세요.', '').replace('코스닥 공모 청약 시작', '반도체·RF 소재 부품 기업'), ipoStage: company.status, underwriter: company.underwriter, basisTimeLabel: '오늘 09:30 기준', oneLine: company.memo.replace(' 일정을 확인하세요.', '').slice(0, 46), body: `${company.name}: ${company.status} 단계입니다. 원문 일정과 주관사 공지를 함께 확인합니다.`, points: ['원문 일정 확인', '주관사 공지 확인'], sourceLabels: ['DART 일정', company.underwriter], competition: null, generatedBy: 'local-rules', model: null })), updatedAt: '2026-06-12T09:00:00+09:00', sourceLoaded: true };
-const DEFAULT_SANG_DATA: SangData = { companies: defaultCompanies, metrics: metricTemplates, filings: defaultFilings, news: defaultNews, reports: defaultReports, widgets: defaultWidgets, sourceLoaded: true, macro: DEFAULT_MACRO_DATA, competition: DEFAULT_COMPETITION_DATA, briefings: DEFAULT_BRIEFING_DATA, alerts: [], actionUpdatedAt: '2026-06-12T09:00:00+09:00', referenceDate: '2026-06-12', dataMode: 'fallback' };
+const DEFAULT_BRIEFING_DATA: BriefingData = { items: defaultCompanies.slice(0, 4).map((company) => ({ id: `briefing-${company.id}`, ipoId: company.id, companyName: company.name, sector: company.memo.replace(' 일정을 확인하세요.', '').replace('코스닥 공모 청약 시작', '반도체·RF 소재 부품 기업'), ipoStage: company.status, underwriter: company.underwriter, basisTimeLabel: '오늘 기준', oneLine: company.memo.replace(' 일정을 확인하세요.', '').slice(0, 46), body: `${company.name}: ${company.status} 단계입니다. 원문 일정과 주관사 공지를 함께 확인합니다.`, points: ['원문 일정 확인', '주관사 공지 확인'], sourceLabels: ['DART 일정', company.underwriter], competition: null, generatedBy: 'local-rules', model: null })), updatedAt: null, sourceLoaded: true };
+const DEFAULT_SANG_DATA: SangData = { companies: defaultCompanies, metrics: metricTemplates, filings: defaultFilings, news: defaultNews, reports: defaultReports, widgets: defaultWidgets, sourceLoaded: true, macro: DEFAULT_MACRO_DATA, competition: DEFAULT_COMPETITION_DATA, briefings: DEFAULT_BRIEFING_DATA, alerts: [], actionUpdatedAt: null, referenceDate: kstDateString(), dataMode: 'fallback' };
 const statusList: IpoStatus[] = ['예비심사','수요예측','청약 예정','청약 진행중','환불일','상장'];
 function safeStatus(value?: string): IpoStatus {
   if (value === '예비심사') return '예비심사';
@@ -154,11 +154,8 @@ function isIpoSourceItem(item: SourceIpoItem): boolean {
 function kstDateString(date = new Date()): string {
   return new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Seoul', year: 'numeric', month: '2-digit', day: '2-digit' }).format(date);
 }
-function referenceDateFromMetadata(ipoJson: SourceIpoResponse | null): string {
-  const value = ipoJson?.metadata?.referenceDate || ipoJson?.metadata?.updatedKst || ipoJson?.metadata?.updatedAt || ipoJson?.metadata?.generatedAt;
-  const today = kstDateString();
-  const normalized = normalizeDateWithReference(value, today);
-  return normalized && normalized > today ? normalized : today;
+function referenceDateFromMetadata(_ipoJson: SourceIpoResponse | null): string {
+  return kstDateString();
 }
 function isDartExtractedDate(value: string | undefined, source: string | undefined, detailSource: string | undefined) {
   return Boolean(value && (source === 'dart-document' || detailSource === 'document'));
@@ -284,11 +281,14 @@ function buildFilings(items: SourceIpoItem[], companies: Company[], referenceDat
   });
 }
 const IPO_NEWS_FALLBACK = [
-  { source: '경제신문', date: '06.08' },
-  { source: '마켓데일리', date: '06.10' },
-  { source: '증권뉴스', date: '06.11' },
-  { source: 'IPO포커스', date: '06.11' },
+  { source: '경제신문' },
+  { source: '마켓데일리' },
+  { source: '증권뉴스' },
+  { source: 'IPO포커스' },
 ];
+function fallbackNewsDate(): string {
+  return formatDate(kstDateString(), kstDateString()) || '오늘';
+}
 
 function mapNews(item: SourceNewsItem, index: number): NewsItem {
   const link = safeLink(item.link ?? item.originallink ?? item.originalLink);
@@ -298,7 +298,7 @@ function mapNews(item: SourceNewsItem, index: number): NewsItem {
     company,
     title: stripHtml(String(item.title ?? '')),
     source: stripHtml(String(item.source ?? item.provider ?? '')) && !['공시정보','가격정보'].includes(stripHtml(String(item.source ?? item.provider ?? ''))) ? stripHtml(String(item.source ?? item.provider ?? '')) : IPO_NEWS_FALLBACK[index % IPO_NEWS_FALLBACK.length].source,
-    date: formatDate(item.publishedAt ?? item.pubDate ?? item.date) || IPO_NEWS_FALLBACK[index % IPO_NEWS_FALLBACK.length].date,
+    date: formatDate(item.publishedAt ?? item.pubDate ?? item.date) || fallbackNewsDate(),
     link,
     summary: stripHtml(String(item.summary ?? item.description ?? '')),
   };

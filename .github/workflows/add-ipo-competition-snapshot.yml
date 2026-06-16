@@ -10,7 +10,7 @@ on:
         description: "주관사"
         required: true
       capturedKstTime:
-        description: "기준시각 예: 2026-06-18T14:00:00+09:00"
+        description: "기준시각 예: YYYY-MM-DDTHH:mm:ss+09:00"
         required: true
       totalCompetition:
         description: "총 경쟁률 예: 218.4"

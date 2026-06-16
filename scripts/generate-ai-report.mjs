@@ -10,10 +10,16 @@ function collapseSpaces(value) {
  return String(value ?? '').replace(/\s+/g, ' ').trim();
 }
 
+function kstDateOnly(date = new Date()) {
+ return new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Seoul', year: 'numeric', month: '2-digit', day: '2-digit' }).format(date);
+}
+
 function parseDate(value) {
  if (!value) return null;
  const text = String(value).slice(0, 10);
- const date = new Date(`${text}T00:00:00+09:00`);
+ const match = /^(20\d{2})-(\d{2})-(\d{2})$/.exec(text);
+ if (!match) return null;
+ const date = new Date(Date.UTC(Number(match[1]), Number(match[2]) - 1, Number(match[3])));
  return Number.isNaN(date.getTime()) ? null : date;
 }
 
@@ -37,16 +43,16 @@ function addDays(date, days) {
  return next;
 }
 
-function getReferenceDate(payload) {
- return startOfDay(payload?.metadata?.updatedAt) || startOfDay(new Date());
+function getReferenceDate(_payload) {
+ return startOfDay(kstDateOnly()) || startOfDay(new Date());
 }
 
-function normalizeStatus(item) {
+function normalizeStatus(item, referenceDate = getReferenceDate(null)) {
  const rawStatus = String(item?.status ?? '').toLowerCase();
  if (rawStatus.includes('open') || rawStatus.includes('진행')) return 'open';
  if (rawStatus.includes('closed') || rawStatus.includes('마감')) return 'closed';
  if (rawStatus.includes('upcoming') || rawStatus.includes('예정')) return 'upcoming';
- const today = new Date();
+ const today = startOfDay(referenceDate) || getReferenceDate(null);
  const start = parseDate(item?.scheduleStart || item?.subscriptionDate);
  const end = parseDate(item?.scheduleEnd || item?.scheduleStart);
  if (start && end) {
@@ -71,7 +77,7 @@ function buildScheduleRows(items, options = {}) {
  for (const item of items) {
   const companyName = collapseSpaces(item?.companyName);
   const underwriter = getUnderwriter(item);
-  const status = normalizeStatus(item);
+  const status = normalizeStatus(item, referenceDate);
   if (item?.scheduleStart || item?.subscriptionDate) {
    rows.push({ type: '청약', status: status === 'closed' ? 'closed' : 'open', date: item.scheduleStart || item.subscriptionDate, companyName, underwriter });
   }
@@ -163,7 +169,7 @@ async function buildLocalReport(payload) {
    source: geminiResult.used ? 'gemini-flash-local-rules' : 'local-rules',
    model: geminiResult.used ? geminiResult.model : null,
    scope: 'upcoming-45-days',
-   referenceDate: referenceDate.toISOString(),
+   referenceDate: kstDateOnly(),
   },
   lines,
  };
@@ -177,7 +183,7 @@ async function writeEmptyReport(payload) {
    source: 'empty-opendart-result',
    model: null,
    scope: 'upcoming-45-days',
-   referenceDate: referenceDate.toISOString(),
+   referenceDate: kstDateOnly(),
   },
   lines: [],
  };

@@ -12,6 +12,9 @@ function normalizeDate(value) {
   if (/^\d{4}-\d{2}-\d{2}/.test(text)) return text.slice(0, 10);
   return '';
 }
+function kstDateOnly(date = new Date()) {
+  return new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Seoul', year: 'numeric', month: '2-digit', day: '2-digit' }).format(date);
+}
 function hasDartSource(item, key) {
   if (key === 'refund') return item.refundDateSource === 'dart-document' || item.detailSource === 'document';
   if (key === 'listing') return item.listingDateSource === 'dart-document' || item.detailSource === 'document';
@@ -38,8 +41,9 @@ if (!fs.existsSync(file)) {
   process.exit(0);
 }
 const payload = readJson(file);
-const today = String(payload?.metadata?.referenceDate || '').slice(0, 10);
-if (!/^\d{4}-\d{2}-\d{2}$/.test(today)) errors.push('public/data/ipos.json: metadata.referenceDate가 필요합니다.');
+const metadataReferenceDate = String(payload?.metadata?.referenceDate || '').slice(0, 10);
+if (!/^\d{4}-\d{2}-\d{2}$/.test(metadataReferenceDate)) errors.push('public/data/ipos.json: metadata.referenceDate가 필요합니다.');
+const today = kstDateOnly();
 const items = Array.isArray(payload.items) ? payload.items : [];
 let alertableCount = 0;
 for (const [index, item] of items.entries()) {

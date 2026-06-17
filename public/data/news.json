@@ -1,11 +1,22 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-06-17T16:13:23.396Z",
+    "updatedAt": "2026-06-17T23:47:47.585Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 9
   },
   "items": [
+    {
+      "id": "faeb1ddd2c59c218",
+      "keyword": "케이앤에스아이앤씨",
+      "companyName": "케이앤에스아이앤씨",
+      "title": "IPO 한파에도 우주항공주는 상장·증자 랠리…스페이스X 효과 '톡톡'",
+      "description": "상장 예비심사를 신청했다. 군용 위성통신 기업 케이앤에스아이앤씨는 예심을 통과해 공모 절차를 준비 중이다. 코스피 신규 청구 '제로'… 위축된 주식 발행시장 우주항공 업계의 이런 움직임은 최근 얼어붙은 IPO...",
+      "link": "https://www.insightkorea.co.kr/news/articleView.html?idxno=247795",
+      "originallink": "https://www.insightkorea.co.kr/news/articleView.html?idxno=247795",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-17T23:00:00.000Z"
+    },
     {
       "id": "ffe3c58546081a3f",
       "keyword": "스트라드비젼",
@@ -247,17 +258,6 @@
       "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202601201251152080105245",
       "provider": "뉴스 검색",
       "publishedAt": "2026-01-21T23:08:00.000Z"
-    },
-    {
-      "id": "4fb2b66e54db03e5",
-      "keyword": "케이앤에스아이앤씨",
-      "companyName": "케이앤에스아이앤씨",
-      "title": "[장외시황] 케이앤에스아이앤씨ㆍ파워큐브세미, 코스닥 상장 예비심사 ...",
-      "description": "전문기업 케이앤에스아이앤씨와 전력 반도체 전문업체 파워큐브세미가 한국거래소에 코스닥 상장을... 코스닥 상장을 위한 예비심사를 통과했다. 지능형 고출력 레이저 솔루션 기업 액스비스가 공모주 청약...",
-      "link": "https://www.etoday.co.kr/news/view/2547041",
-      "originallink": "https://www.etoday.co.kr/news/view/2547041",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-01-19T07:10:00.000Z"
     },
     {
       "id": "909598698679170b",

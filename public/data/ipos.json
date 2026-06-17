@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "updatedAt": "2026-06-17T16:13:17.353Z",
+    "updatedAt": "2026-06-17T23:47:41.901Z",
     "source": "OpenDART",
     "basis": "증권신고서 주요정보 - 지분증권(estkRs), 공시검색(list), 공시원문(document.xml)",
     "dateRange": {
@@ -9,7 +9,7 @@
     },
     "lookbackDays": 180,
     "lookaheadDays": 120,
-    "totalFilings": 12337,
+    "totalFilings": 12339,
     "totalCompanies": 354,
     "totalItems": 9,
     "referenceDate": "2026-06-18",

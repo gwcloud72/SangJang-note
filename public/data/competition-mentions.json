@@ -2,8 +2,8 @@
   "metadata": {
     "source": "github-actions:naver-news-gemini",
     "displayLabel": "뉴스 언급",
-    "updatedAt": "2026-06-16T05:38:14.937Z",
-    "updatedKst": "2026-06-16T14:38+09:00",
+    "updatedAt": "2026-06-17T05:20:08.655Z",
+    "updatedKst": "2026-06-17T14:20+09:00",
     "activeIpoCount": 0,
     "policy": "청약 진행일에만 경쟁률 뉴스 언급을 저장합니다."
   },

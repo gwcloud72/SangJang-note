@@ -57,6 +57,8 @@ function item({ id, companyName, status, underwriter, date, endDate, sector, tit
     underwriter,
     scheduleStart: date,
     scheduleEnd: endDate || date,
+    demandForecastStart: status.includes('청약') ? addDaysIso(date, -2) : '',
+    demandForecastEnd: status.includes('청약') ? addDaysIso(date, -1) : '',
     subscriptionDate: status.includes('청약') ? date : '',
     subscriptionStart: status.includes('청약') ? date : '',
     subscriptionEnd: status.includes('청약') ? (endDate || date) : '',

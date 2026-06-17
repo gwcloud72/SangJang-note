@@ -167,26 +167,6 @@ function sourceListingDate(item: SourceIpoItem, referenceDate: string): string |
 function sourceRefundDate(item: SourceIpoItem, referenceDate: string): string | null {
   return isDartExtractedDate(item.refundDate, item.refundDateSource, item.detailSource) ? normalizeDateWithReference(item.refundDate, referenceDate) : null;
 }
-function sourceScheduleStart(item: SourceIpoItem, referenceDate: string): string | null {
-  return normalizeDateWithReference(item.subscriptionStart, referenceDate)
-    ?? normalizeDateWithReference(item.subscriptionDate, referenceDate)
-    ?? normalizeDateWithReference(item.scheduleStart, referenceDate)
-    ?? normalizeDateWithReference(item.date, referenceDate)
-    ?? normalizeDateWithReference(item.reportDate, referenceDate)
-    ?? normalizeDateWithReference(item.receiptDate, referenceDate)
-    ?? normalizeDateWithReference(item.rceptDt, referenceDate);
-}
-function sourceScheduleEnd(item: SourceIpoItem, referenceDate: string): string | null {
-  return sourceListingDate(item, referenceDate)
-    ?? sourceRefundDate(item, referenceDate)
-    ?? normalizeDateWithReference(item.subscriptionEnd, referenceDate)
-    ?? normalizeDateWithReference(item.scheduleEnd, referenceDate)
-    ?? normalizeDateWithReference(item.subscriptionDate, referenceDate)
-    ?? normalizeDateWithReference(item.date, referenceDate)
-    ?? normalizeDateWithReference(item.reportDate, referenceDate)
-    ?? normalizeDateWithReference(item.receiptDate, referenceDate)
-    ?? normalizeDateWithReference(item.rceptDt, referenceDate);
-}
 function isPastSourceItem(item: SourceIpoItem, referenceDate: string): boolean {
   // 실제 일정(상장·환불·청약 종료)이 지났을 때만 과거로 본다.
   // 접수일/공시일 같은 신고 날짜는 항상 과거이므로 과거 판정에서 제외한다(예비심사 종목 보존).

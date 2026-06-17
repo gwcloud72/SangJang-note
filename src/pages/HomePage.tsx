@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
 import { AlertCircle, Bell, CalendarDays, CalendarOff, ExternalLink, FileSearch } from 'lucide-react';
 import { Button, Card, SectionHeader, StatusBadge } from '../components/common/ui';
 import { CalendarCard, CompanyCard, DisclaimerBanner, IPOCalendar } from '../components/feature/sang';
@@ -63,21 +63,20 @@ function basisLabel(data: SangData): string {
   return `${get('month')}.${get('day')} ${get('hour')}:${get('minute')} 기준`;
 }
 
-function KpiTile({ label, count, suffix = '건', tone = 'default' }: { label: string; count: number; suffix?: string; tone?: 'default' | 'blue' | 'amber' | 'dark' }) {
+function KpiTile({ label, count, suffix = '건', icon, accent = 'primary' }: { label: string; count: number; suffix?: string; icon: ReactNode; accent?: 'primary' | 'ink' }) {
   const value = useCountUp(count);
   if (count <= 0) return null;
-  const toneClass = tone === 'dark' ? 'bg-ink-900 text-white border-ink-900' : tone === 'blue' ? 'bg-primary-50 text-primary-700 border-primary-100' : tone === 'amber' ? 'bg-amber-50 text-amber-800 border-amber-100' : 'bg-white text-ink-900 border-ink-200';
-  return <div className={`v6-card-hover rounded-lg border p-ds-3 shadow-card ${toneClass}`}><p className="text-[11px] text-current opacity-70">{label}</p><strong className="mt-ds-1 block text-[20px] leading-[1.1] text-current tabular">{value.toLocaleString()}{suffix}</strong></div>;
+  const accentClass = accent === 'primary' ? 'bg-primary-50 text-primary-600' : 'bg-ink-100 text-ink-700';
+  return <div className="v6-card-hover flex items-center gap-ds-2 rounded-lg border border-ink-200 bg-white p-ds-3 shadow-card"><span className={`flex h-11 w-11 shrink-0 items-center justify-center rounded-lg ${accentClass}`}>{icon}</span><span className="min-w-0"><span className="block text-[11px] text-ink-500">{label}</span><strong className="mt-ds-0.5 block text-[22px] leading-[1.1] text-ink-900 tabular">{value.toLocaleString()}{suffix}</strong></span></div>;
 }
 
 function nextAlertRows(data: SangData) {
   return data.alerts.slice(0, 4);
 }
 function AlertActionRow({ alert, index, onClick }: { alert: SangData['alerts'][number]; index: number; onClick: () => void }) {
-  return <button type="button" onClick={onClick} className={`v6-action-row v6-row-delay-${index} grid w-full grid-cols-[88px_minmax(0,1fr)_auto] items-center gap-ds-2 rounded-md border border-ink-200 bg-white px-ds-2 py-ds-1.5 text-left shadow-card`}>
-    <span className="rounded-full bg-[#1A2236] px-ds-1 py-ds-0.5 text-[11px] text-white/80">{alert.stage}</span>
-    <span className="min-w-0"><b className="block truncate text-[15px] text-ink-900">{alert.companyName}</b><span className="block truncate text-[13px] text-ink-500">{alert.actionLabel}</span><span className="mt-ds-0.5 block truncate text-[11px] text-ink-500">{alert.detail}</span></span>
-    <span className="text-right"><StatusBadge label={alert.stage} /><span className="mt-ds-0.5 block text-[13px] text-ink-500 tabular">{alert.dateLabel}</span></span>
+  return <button type="button" onClick={onClick} className={`v6-action-row v6-row-delay-${index} grid w-full grid-cols-[minmax(0,1fr)_auto] items-center gap-ds-2 rounded-md border border-ink-200 bg-white px-ds-2 py-ds-1.5 text-left shadow-card`}>
+    <span className="min-w-0"><b className="block truncate text-[15px] text-ink-900">{alert.companyName}</b><span className="block truncate text-[13px] text-ink-500">{alert.actionLabel}</span></span>
+    <span className="shrink-0 text-right"><StatusBadge label={alert.stage} /><span className="mt-ds-0.5 block text-[13px] text-ink-500 tabular">{alert.dateLabel}</span></span>
   </button>;
 }
 function SubscriptionAlertCard({ data, onOpen }: { data: SangData; onOpen: () => void }) {
@@ -134,9 +133,16 @@ export function HomePage({ data, onTabChange, onAction }: PageProps) {
   const nearest = companies[0];
   const filings = data.filings.slice(0, 5);
   const news = data.news.slice(0, 4);
-  const subscribeCount = companies.filter((company) => company.status.includes('청약')).length;
+  const subscribeCount = companies.filter((company) => Boolean(company.subscriptionStart)).length;
   const basis = basisLabel(data);
   const nextAlerts = nextAlertRows(data);
+  const stageGlance = ([
+    ['청약', companies.filter((company) => company.status === '청약 예정' || company.status === '청약 진행중').length],
+    ['수요예측', companies.filter((company) => company.status === '수요예측').length],
+    ['예비심사', companies.filter((company) => company.status === '예비심사').length],
+    ['상장', companies.filter((company) => company.status === '상장').length],
+    ['환불', companies.filter((company) => company.status === '환불일').length],
+  ] as const).filter((entry) => entry[1] > 0);
 
   const handleOpen = () => {
     onAction(basis);
@@ -150,13 +156,16 @@ export function HomePage({ data, onTabChange, onAction }: PageProps) {
   return <div className={`v6-page mx-auto max-w-[1280px] space-y-ds-4 px-0 ${reducedMotion ? 'v6-reduce-motion' : ''}`}>
     <section className="v6-block v6-delay-0 overflow-hidden rounded-lg border border-[#0A0E1A] bg-hero-sang text-white shadow-popover">
       <div className="grid gap-ds-3 p-ds-4 xl:grid-cols-[minmax(0,1fr)_320px]">
-        <div className="min-w-0">
-          <span className="inline-flex rounded-full bg-primary-500 px-ds-2 py-ds-0.5 text-[11px] text-white">IPO TODAY</span>
-          <h1 className="mt-ds-2 text-[32px] font-bold leading-[1.1] tracking-[-0.02em] text-white">오늘 확인할 IPO</h1>
-          <p className="mt-ds-1 text-[15px] leading-[1.5] text-white/70">{nearest?.name} · {nearest?.date} · {basis}</p>
-          <div className="mt-ds-3 flex flex-wrap gap-ds-1"><Button onClick={() => onTabChange('calendar')} rightIcon={<CalendarDays size={16} />}>일정 보기</Button><Button variant="white" onClick={() => onTabChange('ai')} rightIcon={<FileSearch size={16} />}>원문 일정 보기</Button></div>
+        <div className="flex min-w-0 flex-col">
+          <div>
+            <span className="inline-flex rounded-full bg-primary-500 px-ds-2 py-ds-0.5 text-[11px] text-white">IPO TODAY</span>
+            <h1 className="mt-ds-2 text-[32px] font-bold leading-[1.1] tracking-[-0.02em] text-white">오늘 확인할 IPO</h1>
+            <p className="mt-ds-1 text-[15px] leading-[1.5] text-white/70">{nearest?.name} · {nearest?.date} · {basis}</p>
+            {stageGlance.length ? <div className="mt-ds-3 flex flex-wrap gap-ds-1">{stageGlance.map((entry) => <span key={entry[0]} className="inline-flex items-center gap-ds-0.5 rounded-full bg-white/10 px-ds-2 py-ds-1 text-[13px] text-white/85"><b className="tabular text-white">{entry[1]}</b>{entry[0]}</span>)}</div> : null}
+          </div>
+          <div className="mt-auto flex flex-wrap gap-ds-1 pt-ds-3"><Button onClick={() => onTabChange('calendar')} rightIcon={<CalendarDays size={16} />}>일정 보기</Button><Button variant="white" onClick={() => onTabChange('ai')} rightIcon={<FileSearch size={16} />}>원문 일정 보기</Button></div>
         </div>
-        <div className="v6-block v6-delay-2 rounded-lg bg-white p-ds-3 text-ink-900 shadow-card">
+        <div className="v6-block v6-delay-2 self-start rounded-lg bg-white p-ds-3 text-ink-900 shadow-card">
           <div className="flex items-center justify-between gap-ds-2"><div><p className="text-[11px] text-primary-600">청약 알림</p><h2 className="text-[20px] font-bold leading-[1.3] text-ink-900">다음 일정 알림</h2></div><Bell className="text-primary-600" size={22} /></div>
           <div className="mt-ds-2 space-y-ds-1.5">
             {nextAlerts.length ? nextAlerts.map((alert, index) => <AlertActionRow key={alert.id} alert={alert} index={index} onClick={handleOpen} />) : <IpoNotice type="empty" onAction={() => onTabChange('calendar')} />}
@@ -166,8 +175,8 @@ export function HomePage({ data, onTabChange, onAction }: PageProps) {
     </section>
 
     <div className="v6-block v6-delay-2 grid gap-ds-2 md:grid-cols-2">
-      <KpiTile label="청약 일정" count={subscribeCount} tone="dark" />
-      <KpiTile label="공시 원문" count={companies.length} />
+      <KpiTile label="청약 일정" count={subscribeCount} icon={<CalendarDays size={20} />} accent="primary" />
+      <KpiTile label="공시 원문" count={companies.length} icon={<FileSearch size={20} />} accent="ink" />
     </div>
 
     <div className="v6-block v6-delay-3"><SubscriptionAlertCard data={data} onOpen={() => onTabChange('calendar')} /></div>

@@ -1,7 +1,7 @@
 import { useState, type ReactNode } from 'react';
 import { Activity, AlertTriangle, ArrowRight, Bell, CalendarDays, ExternalLink, FileSearch, Newspaper, PencilLine, Search, ShieldCheck, Star, Users } from 'lucide-react';
 import { Button, Card, DataTable, EmptyState, FilterChips, SearchField, SectionHeader, StatsStrip, StatusBadge } from '../../components/common/ui';
-import { CalendarCard, CompanyBadge, DayCard, DisclaimerBanner, IPOCalendar, formatDateFallback } from '../../components/feature/sang';
+import { CalendarCard, CompanyBadge, DayCard, DisclaimerBanner, IPOCalendar, formatDateFallback, stageBorderClass } from '../../components/feature/sang';
 import type { Company, Filing, ReportItem } from '../../data/model';
 import type { SangData } from '../../data/normalize';
 
@@ -164,7 +164,7 @@ function MiniKpi({ label, value, tone = 'default' }: { label: string; value: str
   return <div className={`v6-card-hover rounded-lg border px-ds-2.5 py-ds-2 shadow-card ${cls}`}><p className="text-caption font-bold opacity-70">{label}</p><strong className="mt-ds-0.5 block text-2xl font-bold tabular">{value}</strong></div>;
 }
 function CompanyBriefCard({ company, watched, onToggle, onOpen }: { company: Company; watched: boolean; onToggle?: () => void; onOpen?: () => void }) {
-  return <article className="v6-card-hover rounded-lg border border-ink-200 bg-white p-ds-2.5 shadow-card">
+  return <article className={`v6-card-hover rounded-lg border border-ink-200 border-l-3 ${stageBorderClass[company.status]} bg-white p-ds-2.5 shadow-card`}>
     <div className="flex items-start justify-between gap-ds-2">
       <button type="button" onClick={onOpen} className="flex min-w-0 flex-1 items-start gap-ds-2 text-left">
         <CompanyBadge company={company} />

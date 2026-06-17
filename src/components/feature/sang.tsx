@@ -3,7 +3,14 @@ import { Card, StatusBadge, Button } from '../common/ui';
 import type { Company, IpoStatus } from '../../data/model';
 
 const badgeClass = { green:'company-tone-green', blue:'company-tone-blue', purple:'company-tone-purple', amber:'company-tone-amber', gray:'company-tone-gray' } as const;
-const borderClass = { green:'border-l-primary-600', blue:'border-l-blue-700', purple:'border-l-violet-700', amber:'border-l-amber-600', gray:'border-l-ink-400' } as const;
+export const stageBorderClass: Record<IpoStatus, string> = {
+  '예비심사': 'border-l-violet-700',
+  '수요예측': 'border-l-blue-700',
+  '청약 예정': 'border-l-amber-600',
+  '청약 진행중': 'border-l-amber-600',
+  '환불일': 'border-l-amber-600',
+  '상장': 'border-l-primary-600',
+};
 type CalendarStage = IpoStatus;
 const calendarStageOrder: CalendarStage[] = ['예비심사', '수요예측', '청약 예정', '청약 진행중', '환불일', '상장'];
 const calendarDotClass: Record<CalendarStage, string> = {
@@ -53,7 +60,7 @@ function scheduleMetaLabel(company: Company) {
 
 export function CompanyCard({ company, onToggle, compact = false, showWatchButton = true }: { company: Company; onToggle?: () => void; compact?: boolean; showWatchButton?: boolean }) { return <Card className={`v6-card-hover ${compact ? 'p-ds-2' : 'p-ds-3'}`}><div className="flex items-start justify-between gap-ds-2"><div className="flex min-w-0 items-center gap-ds-2"><CompanyBadge company={company}/><div className="min-w-0"><h3 className="truncate text-[15px] font-bold text-ink-900">{company.name}</h3><p className="truncate text-[13px] text-ink-500">{company.underwriter}</p><p className="truncate text-[11px] text-ink-400 tabular">{scheduleMetaLabel(company)}</p></div></div>{showWatchButton && onToggle ? <button type="button" onClick={onToggle} aria-pressed={company.bookmarked} className="v6-fav-button shrink-0 rounded-full bg-primary-100 p-ds-0.5 text-primary-600"><Star size={17} fill={company.bookmarked?'currentColor':'none'}/></button> : null}</div><div className="mt-ds-2 flex items-center justify-between gap-ds-1"><StatusBadge label={company.status}/><span className="rounded-full bg-ink-100 px-ds-1 py-ds-0.5 text-[13px] text-ink-500 tabular">{company.date}</span></div></Card>; }
 
-export function DayCard({ company, onOpen }: { company: Company; onOpen: () => void }) { return <button type="button" onClick={onOpen} className={`v6-list-row w-full rounded-lg border border-ink-200 border-l-3 bg-white p-ds-3 text-left shadow-card transition hover:border-primary-400 hover:shadow-card-hover ${borderClass[company.color]}`}><div className="flex items-center justify-between gap-ds-1"><strong className="truncate text-[15px] text-ink-900">{company.name}</strong><span className="flex shrink-0 items-center gap-ds-0.5 rounded-full bg-ink-100 px-ds-1 py-ds-0.5 text-[13px] text-ink-500"><Clock size={13}/>{company.date}</span></div><div className="mt-ds-2 flex items-center gap-ds-2"><CompanyBadge company={company}/><div className="min-w-0"><p className="truncate text-[13px] text-ink-700">{company.underwriter}</p><p className="truncate text-[11px] text-ink-400 tabular">{scheduleMetaLabel(company)}</p><StatusBadge label={company.status}/></div></div></button>; }
+export function DayCard({ company, onOpen }: { company: Company; onOpen: () => void }) { return <button type="button" onClick={onOpen} className={`v6-list-row w-full rounded-lg border border-ink-200 border-l-3 bg-white p-ds-3 text-left shadow-card transition hover:border-primary-400 hover:shadow-card-hover ${stageBorderClass[company.status]}`}><div className="flex items-center justify-between gap-ds-1"><strong className="truncate text-[15px] text-ink-900">{company.name}</strong><span className="flex shrink-0 items-center gap-ds-0.5 rounded-full bg-ink-100 px-ds-1 py-ds-0.5 text-[13px] text-ink-500"><Clock size={13}/>{company.date}</span></div><div className="mt-ds-2 flex items-center gap-ds-2"><CompanyBadge company={company}/><div className="min-w-0"><p className="truncate text-[13px] text-ink-700">{company.underwriter}</p><p className="truncate text-[11px] text-ink-400 tabular">{scheduleMetaLabel(company)}</p><StatusBadge label={company.status}/></div></div></button>; }
 
 export function DisclaimerBanner() { return <div className="flex flex-wrap items-center gap-x-ds-3 gap-y-ds-1 rounded-lg border border-warn-border bg-warn-bg px-ds-3 py-ds-1.5 text-[13px] text-warn-text"><span>투자 권유가 아닙니다</span><span>공시 원문 확인 필수</span><span>일정 참고용</span><span>최종 판단 이용자 책임</span></div>; }
 

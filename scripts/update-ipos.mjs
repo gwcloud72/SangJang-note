@@ -368,6 +368,8 @@ function normalizeSchedule(row, filingByReceipt, filingsByCorp, todayIso) {
   status: computeStatus(scheduleStart, scheduleEnd, todayIso, { rawStatus: filing.report_nm }),
   refundDate: '',
   listingDate: '',
+  demandForecastStart: '',
+  demandForecastEnd: '',
   refundDateSource: '',
   listingDateSource: '',
   subscriptionCompetitionRate: '',
@@ -498,6 +500,31 @@ function findDateNearKeyword(text, keywords, options = {}) {
  return '';
 }
 
+function findDateRangeNearKeyword(text, keywords, options = {}) {
+ const normalized = collapseSpaces(text);
+ const forwardWindow = options.forwardWindow || 120;
+ const aroundWindow = options.aroundWindow || 180;
+
+ for (const keyword of keywords) {
+  let index = normalized.indexOf(keyword);
+
+  while (index !== -1) {
+   const forwardText = normalized.slice(index, index + keyword.length + forwardWindow);
+   const forwardDates = extractDates(forwardText);
+   if (forwardDates.length) return [forwardDates[0], forwardDates[1] || forwardDates[0]];
+
+   const aroundText = normalized.slice(Math.max(0, index - 40), index + keyword.length + aroundWindow);
+   const aroundDates = extractDates(aroundText);
+   if (aroundDates.length) return [aroundDates[0], aroundDates[1] || aroundDates[0]];
+
+   index = normalized.indexOf(keyword, index + keyword.length);
+  }
+ }
+
+ return ['', ''];
+}
+
+
 function findRateNearKeyword(text, keywords, options = {}) {
  const normalized = collapseSpaces(text);
  const windowSize = options.windowSize || 120;
@@ -534,6 +561,15 @@ function extractDocumentDetails(text) {
   '상장일',
  ]);
 
+ const [demandForecastStart, demandForecastEnd] = findDateRangeNearKeyword(text, [
+  '수요예측 기간',
+  '수요예측기간',
+  '기관투자자 수요예측',
+  '기관 수요예측',
+  '수요예측일',
+  '수요예측',
+ ]);
+
  const demandForecastCompetitionRate = normalizeCompetitionRate(
   findRateNearKeyword(text, [
    '예비심사 경쟁률',
@@ -556,18 +592,21 @@ function extractDocumentDetails(text) {
   )
  );
 
- const detailFields = [refundDate, listingDate, subscriptionCompetitionRate, demandForecastCompetitionRate].filter(Boolean);
+ const detailFields = [refundDate, listingDate, demandForecastStart, subscriptionCompetitionRate, demandForecastCompetitionRate].filter(Boolean);
 
  return {
   refundDate,
   listingDate,
+  demandForecastStart,
+  demandForecastEnd,
+  demandForecastSource: demandForecastStart ? 'dart-document' : '',
   refundDateSource: refundDate ? 'dart-document' : '',
   listingDateSource: listingDate ? 'dart-document' : '',
   subscriptionCompetitionRate,
   demandForecastCompetitionRate,
   detailSource: detailFields.length ? 'document' : '',
   detailSourceNote: detailFields.length
-   ? '환불일·상장예정일·경쟁률은 공시 원문에서 자동 추출된 값입니다.'
+   ? '환불일·상장예정일·수요예측 기간·경쟁률은 공시 원문에서 자동 추출된 값입니다.'
    : '',
  };
 }
@@ -594,10 +633,17 @@ function sanitizeDocumentDetailsForSchedule(item, details, errors) {
   result.listingDateSource = '';
  }
 
- const detailFields = [result.refundDate, result.listingDate, result.subscriptionCompetitionRate, result.demandForecastCompetitionRate].filter(Boolean);
+ if (result.demandForecastStart && item.scheduleStart && !dateIsBefore(result.demandForecastStart, item.scheduleStart)) {
+  errors.push(`${item.companyName || item.receiptNo}: DART 원문 수요예측일(${result.demandForecastStart})이 청약 시작일(${item.scheduleStart}) 이후라 무시했습니다.`);
+  result.demandForecastStart = '';
+  result.demandForecastEnd = '';
+  result.demandForecastSource = '';
+ }
+
+ const detailFields = [result.refundDate, result.listingDate, result.demandForecastStart, result.subscriptionCompetitionRate, result.demandForecastCompetitionRate].filter(Boolean);
  result.detailSource = detailFields.length ? 'document' : '';
  result.detailSourceNote = detailFields.length
-  ? '환불일·상장예정일·경쟁률은 공시 원문에서 자동 추출된 값입니다.'
+  ? '환불일·상장예정일·수요예측 기간·경쟁률은 공시 원문에서 자동 추출된 값입니다.'
   : '';
 
  return result;

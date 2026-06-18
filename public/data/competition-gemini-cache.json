@@ -1,7 +1,8 @@
 {
   "metadata": {
-    "updatedAt": "2026-06-18T01:47:16.048Z",
-    "source": "gemini-competition-cache"
+    "source": "github-actions-demo:gemini-competition-cache",
+    "updatedAt": "2026-06-16T05:15:26.163Z",
+    "policy": "동일 기사 재호출 방지용 데모 캐시입니다."
   },
   "items": []
 }

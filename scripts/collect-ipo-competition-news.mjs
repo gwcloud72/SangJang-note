@@ -3,13 +3,16 @@ import { existsSync } from 'node:fs';
 import path from 'node:path';
 import {
   cleanNewsText,
+  filterRetailCompetitionCandidates,
+  formatKstArticleTime,
   formatKstDateTime,
   isCollectionHour,
+  isPublishedOnKstDate,
   isSubscriptionDay,
+  kstDateOnly,
   normalizeIpoItem,
   parseCompetitionCandidates,
   parsePublished,
-  scoreCandidate,
   stableId,
 } from './competition-parser.mjs';
 import {
@@ -31,6 +34,7 @@ const maxItems = Math.min(Math.max(Number(process.env.COMPETITION_NEWS_MAX_ITEMS
 const requestPauseMs = Math.min(Math.max(Number(process.env.COMPETITION_NEWS_PAUSE_MS || 300), 0), 5000);
 const allowOutsideHours = ['true', '1', 'yes', 'on'].includes(String(process.env.COMPETITION_ALLOW_OUTSIDE_HOURS || '').toLowerCase());
 const vendor = 'Na' + 'ver';
+const POLICY_VERSION = 'retail-same-company-same-day-v2';
 
 async function readIpos() {
   if (!existsSync(iposPath)) return [];
@@ -67,81 +71,148 @@ async function searchNews(query) {
   return Array.isArray(payload.items) ? payload.items : [];
 }
 
-function compactMention({ ipo, query, item, candidates, extraction }) {
+function articleKey(companyName, item) {
+  return `${companyName}:${String(item?.originallink || item?.link || item?.title || '')}`;
+}
+
+function compactCandidates(candidates) {
+  return (Array.isArray(candidates) ? candidates : []).map((candidate) => ({
+    type: candidate.type,
+    value: candidate.value,
+    raw: cleanNewsText(candidate.raw).slice(0, 100),
+    confidence: candidate.confidence === 'medium' ? 'medium' : 'low',
+    parser: candidate.parser || 'regex',
+    scope: 'retail-subscription',
+  }));
+}
+
+function compactMention({ ipo, query, item, publishedAt, candidates, extraction }) {
   const title = cleanNewsText(item.title || '');
   const body = cleanNewsText(item.description || '');
   const articleUrl = String(item.originallink || item.link || '');
-  const publishedAt = parsePublished(item.pubDate);
   return {
     id: stableId(`${ipo.id}:${articleUrl || title}`, 'mention'),
     ipoId: ipo.id,
     companyName: ipo.companyName,
     sourceType: 'naver_news',
     displayLabel: '뉴스 언급',
+    competitionScope: 'retail-subscription',
     title,
     articleText: body,
     publisher: '뉴스 검색',
     publishedAt,
-    articleTimeLabel: publishedAt ? new Intl.DateTimeFormat('ko-KR', { timeZone: 'Asia/Seoul', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hour12: false }).format(new Date(publishedAt)).replace(/\.\s?/g, '.').replace(',', '') : '기사 기준',
+    articleTimeLabel: formatKstArticleTime(publishedAt),
     link: item.link || articleUrl,
     originallink: articleUrl || item.link || '',
     query,
-    candidates,
+    candidates: compactCandidates(candidates),
     extraction,
     collectedAt: new Date().toISOString(),
   };
 }
 
+function validatePreviousItems(previous, activeIpos, todayKst) {
+  const activeByName = new Map(activeIpos.map((ipo) => [ipo.companyName, ipo]));
+  const validated = [];
+  for (const item of Array.isArray(previous?.items) ? previous.items : []) {
+    const companyName = cleanNewsText(item.companyName);
+    if (!activeByName.has(companyName)) continue;
+    if (!isPublishedOnKstDate(item.publishedAt, todayKst)) continue;
+    const candidates = filterRetailCompetitionCandidates({
+      companyName,
+      title: item.title,
+      body: item.articleText,
+      candidates: item.candidates,
+    });
+    if (!candidates.some((candidate) => candidate.type === 'total')) continue;
+    validated.push({
+      ...item,
+      competitionScope: 'retail-subscription',
+      candidates: compactCandidates(candidates),
+    });
+  }
+  return validated;
+}
+
+function buildPayload({ items, activeIpoCount, geminiSettings, stats, reason = '' }) {
+  return {
+    metadata: {
+      source: geminiSettings.enabled ? 'naver-news-search-gemini-assisted' : 'naver-news-search',
+      displayLabel: '뉴스 언급',
+      updatedAt: new Date().toISOString(),
+      updatedKst: formatKstDateTime(),
+      referenceDate: kstDateOnly(),
+      policyVersion: POLICY_VERSION,
+      policy: '당일 기사에서 같은 회사와 같은 문맥에 있는 일반투자자 청약 경쟁률만 저장합니다.',
+      parserPolicy: '기관 수요예측 경쟁률, 다른 회사 숫자, 날짜 없는 기사, 전일 이전 기사는 제외합니다.',
+      activeIpoCount,
+      itemCount: items.length,
+      reason,
+      gemini: {
+        enabled: geminiSettings.enabled,
+        model: geminiSettings.enabled ? geminiSettings.model : null,
+        maxCalls: geminiSettings.maxCalls,
+        minRegexConfidence: geminiSettings.minRegexConfidence,
+        onlyWhenRegex: geminiSettings.onlyWhenRegex,
+        accepted: stats.geminiAccepted,
+        rejected: stats.geminiRejected,
+        cacheHits: stats.cacheHits,
+        regexOnly: stats.regexOnly,
+      },
+      rejected: {
+        staleOrUndated: stats.staleOrUndated,
+        entityOrScope: stats.entityOrScope,
+      },
+    },
+    items,
+  };
+}
+
+async function writePayload(payload) {
+  await mkdir(path.dirname(outputPath), { recursive: true });
+  await writeFile(outputPath, `${JSON.stringify(payload, null, 2)}\n`);
+}
+
 async function main() {
   await mkdir(path.dirname(outputPath), { recursive: true });
-  if (!enabled) {
-    console.log('경쟁률 뉴스 언급 수집 비활성화: 기존 데이터를 유지합니다.');
-    return;
-  }
-  if (!clientId || !clientSecret) {
-    console.log('뉴스 검색 인증값 미설정: 기존 경쟁률 뉴스 언급 데이터를 유지합니다.');
-    return;
-  }
-  if (!allowOutsideHours && !isCollectionHour()) {
-    console.log('KST 09~16시가 아니라 경쟁률 뉴스 언급 수집을 건너뜁니다.');
-    return;
-  }
+  const todayKst = kstDateOnly();
   const ipos = await readIpos();
   const activeIpos = ipos.filter((ipo) => isSubscriptionDay(ipo));
+  const previous = await readPrevious();
+  const currentPrevious = validatePreviousItems(previous, activeIpos, todayKst);
+  const geminiSettings = geminiCompetitionSettings();
+  const stats = { geminiAccepted: 0, geminiRejected: 0, regexOnly: 0, cacheHits: 0, staleOrUndated: 0, entityOrScope: 0 };
+
   if (!activeIpos.length) {
-    const emptyPayload = {
-      metadata: {
-        source: 'github-actions:naver-news-gemini',
-        displayLabel: '뉴스 언급',
-        updatedAt: new Date().toISOString(),
-        updatedKst: formatKstDateTime(),
-        activeIpoCount: 0,
-        policy: '청약 진행일에만 경쟁률 뉴스 언급을 저장합니다.',
-      },
-      items: [],
-    };
-    await writeFile(outputPath, JSON.stringify(emptyPayload, null, 2) + '\n');
+    await writePayload(buildPayload({ items: [], activeIpoCount: 0, geminiSettings, stats, reason: '오늘 청약 진행 종목 없음' }));
     console.log('오늘 청약 진행 종목이 없어 경쟁률 뉴스 언급을 비웠습니다.');
     return;
   }
+  if (!enabled) {
+    await writePayload(buildPayload({ items: currentPrevious, activeIpoCount: activeIpos.length, geminiSettings, stats, reason: '수집 비활성화: 당일 검증 데이터만 유지' }));
+    console.log('경쟁률 뉴스 수집 비활성화: 당일 검증 데이터만 유지했습니다.');
+    return;
+  }
+  if (!clientId || !clientSecret) {
+    await writePayload(buildPayload({ items: currentPrevious, activeIpoCount: activeIpos.length, geminiSettings, stats, reason: '뉴스 인증값 없음: 당일 검증 데이터만 유지' }));
+    console.log('뉴스 검색 인증값 미설정: 당일 검증 경쟁률 데이터만 유지했습니다.');
+    return;
+  }
+  if (!allowOutsideHours && !isCollectionHour()) {
+    await writePayload(buildPayload({ items: currentPrevious, activeIpoCount: activeIpos.length, geminiSettings, stats, reason: 'KST 09~16시 외: 당일 검증 데이터만 유지' }));
+    console.log('KST 09~16시가 아니라 신규 수집은 건너뛰고 당일 검증 데이터만 유지했습니다.');
+    return;
+  }
 
-  const previous = await readPrevious();
-  const previousByArticle = new Map((Array.isArray(previous.items) ? previous.items : [])
-    .filter((item) => Array.isArray(item.candidates) && item.candidates.length)
-    .map((item) => [item.originallink || item.link || item.title, item]));
-
+  const previousByArticle = new Set(currentPrevious.map((item) => articleKey(item.companyName, item)));
+  const processedArticles = new Set(previousByArticle);
   const rows = [];
   const geminiCache = await loadGeminiCompetitionCache();
-  const geminiSettings = geminiCompetitionSettings();
-  let geminiAccepted = 0;
-  let geminiRejected = 0;
-  let regexOnly = 0;
-  let cacheHits = 0;
 
   for (const ipo of activeIpos) {
     const queries = [
+      `${ipo.companyName} 일반청약 경쟁률`,
       `${ipo.companyName} 청약 경쟁률`,
-      `${ipo.companyName} 공모주 경쟁률`,
       `${ipo.companyName} 비례 경쟁률`,
     ];
     for (const query of queries) {
@@ -150,32 +221,47 @@ async function main() {
         for (const item of items) {
           const title = cleanNewsText(item.title || '');
           const body = cleanNewsText(item.description || '');
-          const text = `${title} ${body}`;
-          if (!title.includes(ipo.companyName) && !body.includes(ipo.companyName)) continue;
-          const articleKey = String(item.originallink || item.link || title);
-          if (previousByArticle.has(articleKey)) continue;
-          const regexCandidates = parseCompetitionCandidates(text).map((candidate) => ({
-            ...candidate,
-            confidence: scoreCandidate({ companyName: ipo.companyName, title, body, candidate }),
-          }));
-          const refined = await refineCompetitionWithGemini({ ipo, newsItem: item, title, body, regexCandidates, cache: geminiCache, query });
-          if (!refined.candidates.length) {
-            if (refined.method === 'gemini_rejected') geminiRejected += 1;
+          const publishedAt = parsePublished(item.pubDate);
+          if (!publishedAt || !isPublishedOnKstDate(publishedAt, todayKst)) {
+            stats.staleOrUndated += 1;
             continue;
           }
-          if (refined.method === 'gemini' || refined.method === 'gemini_cache') geminiAccepted += 1;
-          if (refined.method === 'gemini_cache') cacheHits += 1;
-          if (refined.method === 'regex') regexOnly += 1;
+          const key = articleKey(ipo.companyName, item);
+          if (processedArticles.has(key)) continue;
+          processedArticles.add(key);
+
+          const rawCandidates = [
+            ...parseCompetitionCandidates(title, { location: 'title' }),
+            ...parseCompetitionCandidates(body, { location: 'body' }),
+          ];
+          const regexCandidates = filterRetailCompetitionCandidates({ companyName: ipo.companyName, title, body, candidates: rawCandidates });
+          if (!regexCandidates.length) {
+            stats.entityOrScope += rawCandidates.length ? 1 : 0;
+            continue;
+          }
+
+          const refined = await refineCompetitionWithGemini({ ipo, newsItem: item, title, body, regexCandidates, cache: geminiCache, query });
+          const finalCandidates = filterRetailCompetitionCandidates({ companyName: ipo.companyName, title, body, candidates: refined.candidates });
+          if (!finalCandidates.some((candidate) => candidate.type === 'total')) {
+            if (refined.method === 'gemini_rejected') stats.geminiRejected += 1;
+            stats.entityOrScope += 1;
+            continue;
+          }
+          if (refined.method === 'gemini' || refined.method === 'gemini_cache' || refined.method === 'gemini_confirmed') stats.geminiAccepted += 1;
+          if (refined.method === 'gemini_cache') stats.cacheHits += 1;
+          if (refined.method === 'regex') stats.regexOnly += 1;
           rows.push(compactMention({
             ipo,
             query,
             item,
-            candidates: refined.candidates,
+            publishedAt,
+            candidates: finalCandidates,
             extraction: {
               method: refined.method,
               model: refined.model,
               cacheKey: refined.key,
               reason: refined.reason,
+              policyVersion: POLICY_VERSION,
             },
           }));
         }
@@ -188,35 +274,13 @@ async function main() {
 
   await saveGeminiCompetitionCache(geminiCache);
 
-  const merged = [...(Array.isArray(previous.items) ? previous.items : []), ...rows];
-  const deduped = [...new Map(merged.map((item) => [item.originallink || item.link || item.title, item])).values()]
-    .sort((a, b) => String(b.publishedAt || b.collectedAt || '').localeCompare(String(a.publishedAt || a.collectedAt || '')))
+  const merged = [...currentPrevious, ...rows];
+  const deduped = [...new Map(merged.map((item) => [articleKey(item.companyName, item), item])).values()]
+    .filter((item) => isPublishedOnKstDate(item.publishedAt, todayKst))
+    .sort((a, b) => String(b.publishedAt || '').localeCompare(String(a.publishedAt || '')))
     .slice(0, maxItems);
-  const payload = {
-    metadata: {
-      source: geminiSettings.enabled ? 'naver-news-search-gemini-assisted' : 'naver-news-search',
-      displayLabel: '뉴스 언급',
-      updatedAt: new Date().toISOString(),
-      updatedKst: formatKstDateTime(),
-      policy: '뉴스 제목과 요약에서 경쟁률 후보만 추출하며 확인값으로 단정하지 않습니다.',
-      parserPolicy: 'regex 1차 필터 후 후보 기사만 Gemini Flash로 구조화합니다.',
-      activeIpoCount: activeIpos.length,
-      gemini: {
-        enabled: geminiSettings.enabled,
-        model: geminiSettings.enabled ? geminiSettings.model : null,
-        maxCalls: geminiSettings.maxCalls,
-        minRegexConfidence: geminiSettings.minRegexConfidence,
-        onlyWhenRegex: geminiSettings.onlyWhenRegex,
-        accepted: geminiAccepted,
-        rejected: geminiRejected,
-        cacheHits,
-        regexOnly,
-      },
-    },
-    items: deduped,
-  };
-  await writeFile(outputPath, JSON.stringify(payload, null, 2) + '\n');
-  console.log(`competition mentions written: ${deduped.length} item(s), new=${rows.length}, geminiAccepted=${geminiAccepted}, regexOnly=${regexOnly}`);
+  await writePayload(buildPayload({ items: deduped, activeIpoCount: activeIpos.length, geminiSettings, stats }));
+  console.log(`competition mentions written: ${deduped.length} item(s), new=${rows.length}, staleRejected=${stats.staleOrUndated}, scopeRejected=${stats.entityOrScope}`);
 }
 
 main().catch((error) => { console.error(error); process.exit(1); });

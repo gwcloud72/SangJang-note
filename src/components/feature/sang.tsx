@@ -132,15 +132,19 @@ function buildCompanyEvents(company: Company, referenceKey: string, referenceDat
   const pushRange = (stage: CalendarStage, startValue?: string, endValue?: string) => {
     const startDate = parseCalendarDate(startValue, referenceDate);
     if (!startDate) return;
-    const endDate = parseCalendarDate(endValue, referenceDate) ?? startDate;
+    let endDate = parseCalendarDate(endValue, referenceDate) ?? startDate;
+    // 미파싱 방어: 수요예측·청약은 길어야 며칠이라, 6일 초과 범위는 시작일만 표시한다.
+    if ((endDate.getTime() - startDate.getTime()) / 86400000 > 6) endDate = startDate;
     for (const day of eachDay(startDate, endDate)) events.push({ company, date: day, stage });
   };
   if (company.status === '예비심사') pushOne('예비심사', company.scheduleStart ?? company.date);
   pushRange('수요예측', company.demandForecastStart, company.demandForecastEnd);
   const subscriptionStartDate = parseCalendarDate(company.subscriptionStart, referenceDate);
   if (subscriptionStartDate) {
+    let subscriptionEndDate = parseCalendarDate(company.subscriptionEnd, referenceDate) ?? subscriptionStartDate;
+    if ((subscriptionEndDate.getTime() - subscriptionStartDate.getTime()) / 86400000 > 6) subscriptionEndDate = subscriptionStartDate;
     const subscriptionStage: CalendarStage = referenceKey < dateKey(subscriptionStartDate) ? '청약 예정' : '청약 진행중';
-    for (const day of eachDay(subscriptionStartDate, parseCalendarDate(company.subscriptionEnd, referenceDate) ?? subscriptionStartDate)) {
+    for (const day of eachDay(subscriptionStartDate, subscriptionEndDate)) {
       events.push({ company, date: day, stage: subscriptionStage });
     }
   }
@@ -167,7 +171,7 @@ export function IPOCalendar({ companies, onSelect, compact = false, referenceDat
   const leadingBlankCount = (firstDay.getDay() + 6) % 7;
   const eventsByDay = new Map<number, CalendarEvent[]>();
   events.forEach((event) => {
-    if (event.date.getFullYear() === year && event.date.getMonth() === month) {
+    if (event.date.getFullYear() === year && event.date.getMonth() === month && dateKey(event.date) >= referenceKey) {
       eventsByDay.set(event.date.getDate(), [...(eventsByDay.get(event.date.getDate()) ?? []), event]);
     }
   });

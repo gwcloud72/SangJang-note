@@ -640,6 +640,14 @@ function sanitizeDocumentDetailsForSchedule(item, details, errors) {
   result.demandForecastSource = '';
  }
 
+ if (result.demandForecastStart && result.demandForecastEnd) {
+  const spanDays = (Date.parse(`${result.demandForecastEnd}T00:00:00Z`) - Date.parse(`${result.demandForecastStart}T00:00:00Z`)) / 86400000;
+  if (!(spanDays >= 0) || spanDays > 6) {
+   // 수요예측은 길어야 며칠. 너무 넓으면 종료일 오추출로 보고 시작일만 사용한다.
+   result.demandForecastEnd = result.demandForecastStart;
+  }
+ }
+
  const detailFields = [result.refundDate, result.listingDate, result.demandForecastStart, result.subscriptionCompetitionRate, result.demandForecastCompetitionRate].filter(Boolean);
  result.detailSource = detailFields.length ? 'document' : '';
  result.detailSourceNote = detailFields.length

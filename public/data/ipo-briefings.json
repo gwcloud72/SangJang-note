@@ -1,212 +1,162 @@
 {
   "metadata": {
-    "source": "local-rules",
-    "generatedAt": "2026-06-17T23:47:48.165Z",
-    "model": null,
-    "itemCount": 8,
+    "source": "github-actions-demo:ipo-briefings",
+    "generatedAt": "2026-06-16T05:15:26.163Z",
+    "model": "local-rules-demo",
+    "itemCount": 6,
     "geminiUsed": 0,
     "cacheUsed": 0,
-    "policy": "회사 설명, IPO 단계, 일정, 경쟁률 뉴스 언급, 원문 확인 포인트만 표시합니다. 투자 판단 표현은 제외합니다."
+    "policy": "회사 설명, IPO 단계, 일정, 경쟁률 뉴스 언급, 원문 확인 포인트만 표시합니다. 투자 판단 표현은 제외합니다.",
+    "sourceMode": "github-actions-demo",
+    "updatedKst": "2026-06-16T14:15+09:00"
   },
   "items": [
     {
-      "id": "briefing-빅웨이브로보틱스",
-      "ipoId": "빅웨이브로보틱스",
+      "id": "briefing-bigwave-robotics",
+      "ipoId": "bigwave-robotics",
       "companyName": "빅웨이브로보틱스",
       "sector": "로봇 플랫폼 기업",
-      "ipoStage": "청약 진행중",
-      "underwriter": "주관사 확인",
+      "ipoStage": "예비심사",
+      "underwriter": "유진투자증권·미래에셋증권",
       "basisTimeLabel": "오늘 09:30 기준",
       "oneLine": "로봇 플랫폼 기업",
-      "body": "빅웨이브로보틱스는 로봇 플랫폼 기업입니다. 06.18 일정 기준으로 청약 진행중 단계라 원문 일정과 변경 여부를 함께 확인합니다.",
+      "body": "빅웨이브로보틱스는 로봇 플랫폼 기업입니다. 06.18 일정 기준으로 예비심사 단계라 원문 일정과 변경 여부를 함께 확인합니다.",
       "points": [
-        "청약 시작·마감일 확인",
-        "환불일 확인",
-        "정정 공시 여부 확인"
+        "예비심사 기간 확인",
+        "공모가 확정 여부 확인",
+        "주관사 공지 확인"
       ],
       "sourceLabels": [
-        "DART 일정",
-        "환불일 확인",
+        "일정 확인",
         "뉴스 검색",
-        "주관사 확인"
+        "유진투자증권·미래에셋증권"
       ],
       "competition": null,
-      "generatedBy": "local-rules",
+      "generatedBy": "github-actions-local-rules",
       "model": null
     },
     {
-      "id": "briefing-스트라드비젼",
-      "ipoId": "스트라드비젼",
+      "id": "briefing-stradvision",
+      "ipoId": "stradvision",
       "companyName": "스트라드비젼",
       "sector": "자율주행 인식 소프트웨어 기업",
-      "ipoStage": "청약 진행중",
-      "underwriter": "주관사 확인",
+      "ipoStage": "청약 예정",
+      "underwriter": "KB증권",
       "basisTimeLabel": "오늘 09:30 기준",
       "oneLine": "자율주행 인식 소프트웨어 기업",
-      "body": "스트라드비젼은 자율주행 인식 소프트웨어 기업입니다. 06.18 일정 기준으로 청약 진행중 단계라 원문 일정과 변경 여부를 함께 확인합니다.",
+      "body": "스트라드비젼은 자율주행 인식 소프트웨어 기업입니다. 06.20 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
       "points": [
         "청약 시작·마감일 확인",
         "환불일 확인",
         "정정 공시 여부 확인"
       ],
       "sourceLabels": [
-        "DART 일정",
+        "일정 확인",
         "환불일 확인",
         "뉴스 검색",
-        "주관사 확인"
+        "KB증권"
       ],
       "competition": null,
-      "generatedBy": "local-rules",
+      "generatedBy": "github-actions-local-rules",
       "model": null
     },
     {
-      "id": "briefing-져스텍",
-      "ipoId": "져스텍",
+      "id": "briefing-justek",
+      "ipoId": "justek",
       "companyName": "져스텍",
       "sector": "초정밀 모션제어 장비 기업",
-      "ipoStage": "청약 진행중",
-      "underwriter": "주관사 확인",
+      "ipoStage": "청약 예정",
+      "underwriter": "삼성증권",
       "basisTimeLabel": "오늘 09:30 기준",
       "oneLine": "초정밀 모션제어 장비 기업",
-      "body": "져스텍은 초정밀 모션제어 장비 기업입니다. 06.18 일정 기준으로 청약 진행중 단계라 원문 일정과 변경 여부를 함께 확인합니다.",
+      "body": "져스텍은 초정밀 모션제어 장비 기업입니다. 06.20 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
       "points": [
         "청약 시작·마감일 확인",
         "환불일 확인",
         "정정 공시 여부 확인"
       ],
       "sourceLabels": [
-        "DART 일정",
+        "일정 확인",
         "환불일 확인",
         "뉴스 검색",
-        "주관사 확인"
+        "삼성증권"
       ],
       "competition": null,
-      "generatedBy": "local-rules",
+      "generatedBy": "github-actions-local-rules",
       "model": null
     },
     {
-      "id": "briefing-한국제16호기업인수목적",
-      "ipoId": "한국제16호기업인수목적",
-      "companyName": "한국제16호기업인수목적",
-      "sector": "IPO 일정 확인 대상 기업",
+      "id": "briefing-korea-spac16",
+      "ipoId": "korea-spac16",
+      "companyName": "한국제16호스팩",
+      "sector": "스팩 IPO 기업",
       "ipoStage": "청약 예정",
-      "underwriter": "주관사 확인",
+      "underwriter": "한국투자증권",
       "basisTimeLabel": "오늘 09:30 기준",
-      "oneLine": "IPO 일정 확인 대상 기업",
-      "body": "한국제16호기업인수목적은 IPO 일정 확인 대상 기업입니다. 06.22 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
+      "oneLine": "스팩 IPO 기업",
+      "body": "한국제16호스팩은 스팩 IPO 기업입니다. 06.24 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
       "points": [
         "청약 시작·마감일 확인",
         "환불일 확인",
         "정정 공시 여부 확인"
       ],
       "sourceLabels": [
-        "DART 일정",
+        "일정 확인",
         "환불일 확인",
         "뉴스 검색",
-        "주관사 확인"
+        "한국투자증권"
       ],
       "competition": null,
-      "generatedBy": "local-rules",
+      "generatedBy": "github-actions-local-rules",
       "model": null
     },
     {
-      "id": "briefing-매드업",
-      "ipoId": "매드업",
+      "id": "briefing-madup",
+      "ipoId": "madup",
       "companyName": "매드업",
       "sector": "AI 마케팅 솔루션 기업",
-      "ipoStage": "청약 예정",
-      "underwriter": "주관사 확인",
+      "ipoStage": "예비심사",
+      "underwriter": "미래에셋증권",
       "basisTimeLabel": "오늘 09:30 기준",
       "oneLine": "AI 마케팅 솔루션 기업",
-      "body": "매드업은 AI 마케팅 솔루션 기업입니다. 06.23 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
+      "body": "매드업은 AI 마케팅 솔루션 기업입니다. 06.25 일정 기준으로 예비심사 단계라 원문 일정과 변경 여부를 함께 확인합니다.",
       "points": [
-        "청약 시작·마감일 확인",
-        "환불일 확인",
-        "정정 공시 여부 확인"
+        "예비심사 기간 확인",
+        "공모가 확정 여부 확인",
+        "주관사 공지 확인"
       ],
       "sourceLabels": [
-        "DART 일정",
-        "환불일 확인",
+        "일정 확인",
         "뉴스 검색",
-        "주관사 확인"
+        "미래에셋증권"
       ],
       "competition": null,
-      "generatedBy": "local-rules",
+      "generatedBy": "github-actions-local-rules",
       "model": null
     },
     {
-      "id": "briefing-레몬헬스케어",
-      "ipoId": "레몬헬스케어",
+      "id": "briefing-lemonhealthcare",
+      "ipoId": "lemonhealthcare",
       "companyName": "레몬헬스케어",
       "sector": "헬스케어 플랫폼 기업",
       "ipoStage": "청약 예정",
-      "underwriter": "주관사 확인",
+      "underwriter": "KB증권",
       "basisTimeLabel": "오늘 09:30 기준",
       "oneLine": "헬스케어 플랫폼 기업",
-      "body": "레몬헬스케어는 헬스케어 플랫폼 기업입니다. 06.24 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 06.29, 변경 여부를 함께 확인합니다.",
+      "body": "레몬헬스케어는 헬스케어 플랫폼 기업입니다. 06.26 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
       "points": [
         "청약 시작·마감일 확인",
         "환불일 확인",
         "정정 공시 여부 확인"
       ],
       "sourceLabels": [
-        "DART 일정",
-        "환불일 06.29",
-        "뉴스 검색",
-        "주관사 확인"
-      ],
-      "competition": null,
-      "generatedBy": "local-rules",
-      "model": null
-    },
-    {
-      "id": "briefing-레메디",
-      "ipoId": "레메디",
-      "companyName": "레메디",
-      "sector": "IPO 일정 확인 대상 기업",
-      "ipoStage": "청약 예정",
-      "underwriter": "주관사 확인",
-      "basisTimeLabel": "오늘 09:30 기준",
-      "oneLine": "IPO 일정 확인 대상 기업",
-      "body": "레메디는 IPO 일정 확인 대상 기업입니다. 07.01 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 07.06, 변경 여부를 함께 확인합니다.",
-      "points": [
-        "청약 시작·마감일 확인",
+        "일정 확인",
         "환불일 확인",
-        "정정 공시 여부 확인"
-      ],
-      "sourceLabels": [
-        "DART 일정",
-        "환불일 07.06",
         "뉴스 검색",
-        "주관사 확인"
+        "KB증권"
       ],
       "competition": null,
-      "generatedBy": "local-rules",
-      "model": null
-    },
-    {
-      "id": "briefing-에이치엘지노믹스",
-      "ipoId": "에이치엘지노믹스",
-      "companyName": "에이치엘지노믹스",
-      "sector": "IPO 일정 확인 대상 기업",
-      "ipoStage": "청약 예정",
-      "underwriter": "주관사 확인",
-      "basisTimeLabel": "오늘 09:30 기준",
-      "oneLine": "IPO 일정 확인 대상 기업",
-      "body": "에이치엘지노믹스는 IPO 일정 확인 대상 기업입니다. 07.13 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 07.16, 변경 여부를 함께 확인합니다.",
-      "points": [
-        "청약 시작·마감일 확인",
-        "환불일 확인",
-        "정정 공시 여부 확인"
-      ],
-      "sourceLabels": [
-        "DART 일정",
-        "환불일 07.16",
-        "뉴스 검색",
-        "주관사 확인"
-      ],
-      "competition": null,
-      "generatedBy": "local-rules",
+      "generatedBy": "github-actions-local-rules",
       "model": null
     }
   ]

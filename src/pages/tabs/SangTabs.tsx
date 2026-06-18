@@ -239,7 +239,7 @@ export function WatchPage({ data, onTabChange, watchCompanyIds = [], onWatchTogg
   return <Shell title="관심기업">
     <StatsStrip stats={watchMetrics.slice(0, 2)} compact columns={2} />
     <div className="grid gap-ds-2 lg:grid-cols-2 xl:grid-cols-3">{watchlist.map((company) => <CompanyBriefCard key={company.id} company={company} watched={watchCompanyIds.includes(company.id)} onToggle={() => onWatchToggle?.(company.id)} onOpen={() => onTabChange('companies')} />)}</div>
-    <DataTable caption="관심기업 일정 표" columns={[{ key: 'company', label: '기업' }, { key: 'underwriter', label: '주관사' }, { key: 'date', label: '일정' }, { key: 'refund', label: '환불일' }, { key: 'status', label: '상태' }, { key: 'context', label: '기업' }]} rows={watchlist.slice(0, 8).map((company) => ({ id: `watch-${company.id}`, cells: { company: <b>{company.name}</b>, underwriter: company.underwriter, date: formatDateFallback(company.date), refund: refundMetaLabel(company) || '확인', status: <StatusBadge label={company.status} />, context: contextOf(company.name) } }))} />
+    <DataTable caption="관심기업 일정 표" columns={[{ key: 'company', label: '기업' }, { key: 'underwriter', label: '주관사' }, { key: 'date', label: '일정', nowrap: true }, { key: 'refund', label: '환불일', nowrap: true }, { key: 'status', label: '상태' }, { key: 'context', label: '기업' }]} rows={watchlist.slice(0, 8).map((company) => ({ id: `watch-${company.id}`, cells: { company: <b>{company.name}</b>, underwriter: company.underwriter, date: formatDateFallback(company.date), refund: refundMetaLabel(company) || '확인', status: <StatusBadge label={company.status} />, context: contextOf(company.name) } }))} />
   </Shell>;
 }
 
@@ -276,7 +276,7 @@ export function FilingsPage({ data, savedFilingIds = [], onFilingSave }: PagePro
   const list = data.filings.filter((f) => statusFilterMatch(status, f.type)).filter((f) => f.company.includes(q) || f.title.includes(q) || q === '');
   return <Shell title="공시 검색">
     <div className="grid gap-ds-2 lg:grid-cols-auto-action"><SearchField value={q} onChange={setQ} placeholder="공시명·기업명 검색" /><FilterChips items={['전체', '예비심사', '수요예측', '청약 예정', '청약 진행중', '환불일', '상장']} active={status} onChange={setStatus} /></div>
-    <DataTable caption="공시 검색 결과" columns={[{ key: 'company', label: '기업' }, { key: 'title', label: '공시명' }, { key: 'date', label: '접수일' }, { key: 'type', label: '유형' }, { key: 'refund', label: '환불일' }, { key: 'save', label: '저장' }, { key: 'link', label: '원문' }]} rows={list.slice(0, 12).map((f) => ({ id: f.id, cells: { company: <b>{f.company}</b>, title: f.title, date: f.date, type: <StatusBadge label={f.type} />, refund: refundMetaLabel(findCompany(data, f.company)) || '확인', save: <Button variant="secondary" onClick={() => onFilingSave?.(f.id)} className="h-8 px-3">{savedFilingIds?.includes(f.id) ? '저장됨' : '저장'}</Button>, link: <SourceLink href={f.link} /> } }))} />
+    <DataTable caption="공시 검색 결과" columns={[{ key: 'company', label: '기업' }, { key: 'title', label: '공시명' }, { key: 'date', label: '접수일', nowrap: true }, { key: 'type', label: '유형' }, { key: 'refund', label: '환불일', nowrap: true }, { key: 'save', label: '저장' }, { key: 'link', label: '원문' }]} rows={list.slice(0, 12).map((f) => ({ id: f.id, cells: { company: <b>{f.company}</b>, title: f.title, date: f.date, type: <StatusBadge label={f.type} />, refund: refundMetaLabel(findCompany(data, f.company)) || '확인', save: <Button variant="secondary" onClick={() => onFilingSave?.(f.id)} className="h-8 px-3">{savedFilingIds?.includes(f.id) ? '저장됨' : '저장'}</Button>, link: <SourceLink href={f.link} /> } }))} />
   </Shell>;
 }
 
@@ -351,7 +351,7 @@ export function NewsPage({ data, onAction }: PageProps) {
     </div>
     <Card padding="normal">
       <SectionHeader title="원문 확인" aside={<span className="text-caption text-ink-500">DART</span>} />
-      <DataTable caption="IPO 이슈 원문 확인" columns={[{ key: 'company', label: '기업' }, { key: 'title', label: '공시' }, { key: 'date', label: '접수일' }, { key: 'type', label: '유형' }, { key: 'refund', label: '환불일' }, { key: 'link', label: '원문' }]} rows={data.filings.slice(0, 6).map((f) => ({ id: `issue-filing-${f.id}`, cells: { company: <b>{f.company}</b>, title: f.title, date: f.date, type: <StatusBadge label={f.type} />, refund: refundMetaLabel(findCompany(data, f.company)) || '확인', link: <SourceLink href={f.link} /> } }))} />
+      <DataTable caption="IPO 이슈 원문 확인" columns={[{ key: 'company', label: '기업' }, { key: 'title', label: '공시' }, { key: 'date', label: '접수일', nowrap: true }, { key: 'type', label: '유형' }, { key: 'refund', label: '환불일', nowrap: true }, { key: 'link', label: '원문' }]} rows={data.filings.slice(0, 6).map((f) => ({ id: `issue-filing-${f.id}`, cells: { company: <b>{f.company}</b>, title: f.title, date: f.date, type: <StatusBadge label={f.type} />, refund: refundMetaLabel(findCompany(data, f.company)) || '확인', link: <SourceLink href={f.link} /> } }))} />
     </Card>
   </Shell>;
 }
@@ -360,7 +360,7 @@ export function MarketEnvironmentPage({ data }: PageProps) {
   const macroRows = data.macro.items.slice(0, 4);
   return <Shell title="시장환경">
     <div className="grid gap-ds-2 md:grid-cols-4">{macroRows.map((item) => <MiniKpi key={item.seriesId} label={item.koreanName} value={item.latestValue === null ? '확인' : `${item.latestValue.toLocaleString('ko-KR', { maximumFractionDigits: 2 })}${item.unit}`} tone={item.change && item.change > 0 ? 'amber' : 'blue'} />)}</div>
-    <DataTable caption="시장 참고지표" columns={[{ key: 'name', label: '지표' }, { key: 'value', label: '최근값' }, { key: 'date', label: '기준일' }, { key: 'change', label: '변동' }]} rows={macroRows.map((item) => ({ id: item.seriesId, cells: { name: <b>{item.koreanName}</b>, value: item.latestValue === null ? '확인' : `${item.latestValue.toLocaleString('ko-KR', { maximumFractionDigits: 2 })}${item.unit}`, date: item.latestDate ?? '확인', change: item.change === null ? '확인' : item.change === 0 ? '보합' : item.change.toLocaleString('ko-KR', { maximumFractionDigits: 2 }) } }))} />
+    <DataTable caption="시장 참고지표" columns={[{ key: 'name', label: '지표' }, { key: 'value', label: '최근값' }, { key: 'date', label: '기준일', nowrap: true }, { key: 'change', label: '변동', nowrap: true }]} rows={macroRows.map((item) => ({ id: item.seriesId, cells: { name: <b>{item.koreanName}</b>, value: item.latestValue === null ? '확인' : `${item.latestValue.toLocaleString('ko-KR', { maximumFractionDigits: 2 })}${item.unit}`, date: item.latestDate ?? '확인', change: item.change === null ? '확인' : item.change === 0 ? '보합' : item.change.toLocaleString('ko-KR', { maximumFractionDigits: 2 }) } }))} />
   </Shell>;
 }
 
@@ -394,7 +394,7 @@ export function AlertsPage({ data, onAction }: PageProps) { return <Shell title=
 export function FavoritesPage({ data, onTabChange, savedFilingIds = [], onFilingSave }: PageProps) {
   const saved = data.filings.filter((filing) => savedFilingIds.includes(filing.id));
   return <Shell title="저장 공시">
-    {saved.length ? <DataTable caption="저장 공시 표" columns={[{ key: 'company', label: '기업' }, { key: 'title', label: '공시' }, { key: 'date', label: '일자' }, { key: 'type', label: '상태' }, { key: 'remove', label: '관리' }]} rows={saved.map((filing) => ({ id: `saved-${filing.id}`, cells: { company: <b>{filing.company}</b>, title: filing.title, date: filing.date, type: <StatusBadge label={filing.type} />, remove: <Button variant="secondary" onClick={() => onFilingSave?.(filing.id)} className="h-8 px-3">해제</Button> } }))} /> : <EmptyState title="저장 공시 없음" actionLabel="원문 일정 보기" onAction={() => onTabChange('ai')} icon={FileSearch} />}
+    {saved.length ? <DataTable caption="저장 공시 표" columns={[{ key: 'company', label: '기업' }, { key: 'title', label: '공시' }, { key: 'date', label: '일자', nowrap: true }, { key: 'type', label: '상태' }, { key: 'remove', label: '관리' }]} rows={saved.map((filing) => ({ id: `saved-${filing.id}`, cells: { company: <b>{filing.company}</b>, title: filing.title, date: filing.date, type: <StatusBadge label={filing.type} />, remove: <Button variant="secondary" onClick={() => onFilingSave?.(filing.id)} className="h-8 px-3">해제</Button> } }))} /> : <EmptyState title="저장 공시 없음" actionLabel="원문 일정 보기" onAction={() => onTabChange('ai')} icon={FileSearch} />}
   </Shell>;
 }
 
@@ -403,5 +403,5 @@ export function MemoPage({ onTabChange }: PageProps) {
 }
 
 export function SettingsPage({ data }: PageProps) { return <Shell title="데이터 출처">
-  <DataTable caption="데이터 출처 표" columns={[{ key: 'name', label: '항목' }, { key: 'value', label: '내용' }, { key: 'check', label: '확인' }]} rows={[{ id: 'ipo', cells: { name: 'IPO 일정', value: `${data.companies.length}개 기업`, check: '캘린더' } }, { id: 'filing', cells: { name: '공시', value: `${data.filings.length}건`, check: '원문' } }, { id: 'news', cells: { name: '뉴스', value: `${data.news.length}건`, check: '목록' } }, { id: 'report', cells: { name: '브리핑', value: `${data.reports.length}건`, check: '이슈' } }, { id: 'risk', cells: { name: '확인 순서', value: '공시 원문 우선', check: '필수' } }]} />
+  <DataTable caption="데이터 출처 표" columns={[{ key: 'name', label: '항목' }, { key: 'value', label: '내용' }, { key: 'check', label: '확인', nowrap: true }]} rows={[{ id: 'ipo', cells: { name: 'IPO 일정', value: `${data.companies.length}개 기업`, check: '캘린더' } }, { id: 'filing', cells: { name: '공시', value: `${data.filings.length}건`, check: '원문' } }, { id: 'news', cells: { name: '뉴스', value: `${data.news.length}건`, check: '목록' } }, { id: 'report', cells: { name: '브리핑', value: `${data.reports.length}건`, check: '이슈' } }, { id: 'risk', cells: { name: '확인 순서', value: '공시 원문 우선', check: '필수' } }]} />
 </Shell>; }

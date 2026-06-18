@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 html { scroll-behavior: smooth; }
-body { margin: 0; min-width: 320px; background: var(--color-ink-50); color: var(--color-ink-900); font-family: Pretendard, -apple-system, system-ui, Apple SD Gothic Neo, Noto Sans KR, sans-serif; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+body { margin: 0; min-width: 320px; background: var(--color-ink-50); color: var(--color-ink-900); font-family: Pretendard, -apple-system, system-ui, Apple SD Gothic Neo, Noto Sans KR, sans-serif; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; word-break: keep-all; overflow-wrap: break-word; }
 button, input, select, textarea { font: inherit; }
 button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible { outline: none; box-shadow: var(--shadow-focus); }
 .tabular, .number { font-variant-numeric: tabular-nums; letter-spacing: -0.3px; }

@@ -39,7 +39,7 @@ export function DataTable({ caption, columns, rows, loading = false, fallbackTit
                 <th
                   key={column.key}
                   scope="col"
-                  className={`bg-ink-100 px-ds-2 py-ds-1.5 text-left text-caption font-bold text-ink-500 ${index === 0 ? 'rounded-tl-lg' : ''} ${index === columns.length - 1 ? 'rounded-tr-lg' : ''} ${column.align === 'right' ? 'text-right' : column.align === 'center' ? 'text-center' : ''}`}
+                  className={`bg-ink-100 px-ds-2 py-ds-1.5 text-left text-caption font-bold text-ink-500 text-keep whitespace-nowrap ${index === 0 ? 'rounded-tl-lg' : ''} ${index === columns.length - 1 ? 'rounded-tr-lg' : ''} ${column.align === 'right' ? 'text-right' : column.align === 'center' ? 'text-center' : ''}`}
                 >
                   {column.label}
                 </th>
@@ -51,7 +51,7 @@ export function DataTable({ caption, columns, rows, loading = false, fallbackTit
               {rows.map((row) => (
                 <tr key={row.id} className="transition-fast duration-fast ease-product hover:bg-ink-50">
                   {columns.map((column) => (
-                    <td key={column.key} className={`border-b border-ink-100 px-ds-2 py-ds-2 text-body-2 text-ink-700 ${column.align === 'right' ? 'text-right' : column.align === 'center' ? 'text-center' : ''}`}>{row.cells[column.key]}</td>
+                    <td key={column.key} className={`border-b border-ink-100 px-ds-2 py-ds-2 text-body-2 text-ink-700 text-keep ${column.nowrap ? 'whitespace-nowrap' : ''} ${column.align === 'right' ? 'text-right' : column.align === 'center' ? 'text-center' : ''}`}>{row.cells[column.key]}</td>
                   ))}
                 </tr>
               ))}

@@ -22,6 +22,7 @@ export interface TableColumn {
   key: string;
   label: string;
   align?: 'left' | 'right' | 'center';
+  nowrap?: boolean;
 }
 
 export interface TableRow {

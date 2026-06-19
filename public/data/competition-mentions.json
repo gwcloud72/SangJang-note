@@ -2,15 +2,15 @@
   "metadata": {
     "source": "naver-news-search-gemini-assisted",
     "displayLabel": "뉴스 언급",
-    "updatedAt": "2026-06-19T10:59:02.835Z",
-    "updatedKst": "2026-06-19T19:59+09:00",
-    "referenceDate": "2026-06-19",
+    "updatedAt": "2026-06-19T23:27:32.785Z",
+    "updatedKst": "2026-06-20T08:27+09:00",
+    "referenceDate": "2026-06-20",
     "policyVersion": "retail-same-company-same-day-v2",
     "policy": "당일 기사에서 같은 회사와 같은 문맥에 있는 일반투자자 청약 경쟁률만 저장합니다.",
     "parserPolicy": "기관 수요예측 경쟁률, 다른 회사 숫자, 날짜 없는 기사, 전일 이전 기사는 제외합니다.",
-    "activeIpoCount": 3,
-    "itemCount": 3,
-    "reason": "KST 09~16시 외: 당일 검증 데이터만 유지",
+    "activeIpoCount": 0,
+    "itemCount": 0,
+    "reason": "오늘 청약 진행 종목 없음",
     "gemini": {
       "enabled": true,
       "model": "gemini-2.5-flash",
@@ -27,116 +27,5 @@
       "entityOrScope": 0
     }
   },
-  "items": [
-    {
-      "id": "mention-acc98ebc283ac966",
-      "ipoId": "져스텍",
-      "companyName": "져스텍",
-      "sourceType": "naver_news",
-      "displayLabel": "뉴스 언급",
-      "competitionScope": "retail-subscription",
-      "title": "용돈 벌어보자…' 져스텍 ' 청약 오늘까지",
-      "articleText": "전동기, 발전기 및 전기 변환, 공급, 제어 장치 제조업을 영위하는 기업 져스텍 이 코스닥 시장 상장을 위한 일반 투자자 대상 공모주 청약 첫날 일정을 시작한 가운데 종합 청약 경쟁률 34.89대 1을 기록했다. 앞서 기관...",
-      "publisher": "뉴스 검색",
-      "publishedAt": "2026-06-19T02:20:00.000Z",
-      "articleTimeLabel": "06.19.11:20",
-      "link": "https://www.wikitree.co.kr/articles/1142088",
-      "originallink": "https://www.wikitree.co.kr/articles/1142088",
-      "query": "져스텍 일반청약 경쟁률",
-      "candidates": [
-        {
-          "type": "total",
-          "value": 34.89,
-          "raw": "청약 경쟁률 34.89대 1",
-          "confidence": "medium",
-          "parser": "regex",
-          "scope": "retail-subscription"
-        }
-      ],
-      "extraction": {
-        "method": "regex",
-        "model": null,
-        "cacheKey": "acc98ebc283ac966d8060278",
-        "reason": "regex_only",
-        "policyVersion": "retail-same-company-same-day-v2"
-      },
-      "collectedAt": "2026-06-19T05:30:45.116Z"
-    },
-    {
-      "id": "mention-727f934e9e7b0acc",
-      "ipoId": "스트라드비젼",
-      "companyName": "스트라드비젼",
-      "sourceType": "naver_news",
-      "displayLabel": "뉴스 언급",
-      "competitionScope": "retail-subscription",
-      "title": "스트라드비젼 , 공모주 청약 2일차 경쟁률 9대 1…30일 상장",
-      "articleText": "인공지능(AI) 기반 자율주행 소프트웨어 기업 스트라드비젼 이 일반 투자자 대상 공모주 청약 2일차를 진행 중인 가운데 경쟁률 이 두 자릿수를 기록하고 있다. 청약 자는 약 8만여명을 기록했다.이번 공모는 KB증권이...",
-      "publisher": "뉴스 검색",
-      "publishedAt": "2026-06-19T01:18:00.000Z",
-      "articleTimeLabel": "06.19.10:18",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=583228",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=583228",
-      "query": "스트라드비젼 일반청약 경쟁률",
-      "candidates": [
-        {
-          "type": "total",
-          "value": 9,
-          "raw": "경쟁률 9대 1",
-          "confidence": "medium",
-          "parser": "regex",
-          "scope": "retail-subscription"
-        }
-      ],
-      "extraction": {
-        "method": "regex",
-        "model": null,
-        "cacheKey": "727f934e9e7b0accce1e02ac",
-        "reason": "regex_only",
-        "policyVersion": "retail-same-company-same-day-v2"
-      },
-      "collectedAt": "2026-06-19T05:30:43.454Z"
-    },
-    {
-      "id": "mention-6f4b510c117b38d9",
-      "ipoId": "져스텍",
-      "companyName": "져스텍",
-      "sourceType": "naver_news",
-      "displayLabel": "뉴스 언급",
-      "competitionScope": "retail-subscription",
-      "title": "져스텍 , 공모주 청약 2일차 실시...균등배정 바늘구멍 수준",
-      "articleText": "19일 오전 9시 57분 기준 져스텍 의 일반청약 비례 경쟁률 은 1336.55대 1로 집계됐다. 청약 증거금은 약 1조6700억원이 몰렸으며 청약 자 수는 21만5597명을 기록했다. 이번 공모는 삼성증권이 단독 주관을 맡았다. 공모가는...",
-      "publisher": "뉴스 검색",
-      "publishedAt": "2026-06-19T01:18:00.000Z",
-      "articleTimeLabel": "06.19.10:18",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=583229",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=583229",
-      "query": "져스텍 일반청약 경쟁률",
-      "candidates": [
-        {
-          "type": "proportional",
-          "value": 1336.55,
-          "raw": "비례 경쟁률 은 1336.55대 1",
-          "confidence": "medium",
-          "parser": "regex",
-          "scope": "retail-subscription"
-        },
-        {
-          "type": "total",
-          "value": 1336.55,
-          "raw": "경쟁률 은 1336.55대 1",
-          "confidence": "medium",
-          "parser": "regex",
-          "scope": "retail-subscription"
-        }
-      ],
-      "extraction": {
-        "method": "regex",
-        "model": null,
-        "cacheKey": "6f4b510c117b38d9ef55fd0c",
-        "reason": "regex_only",
-        "policyVersion": "retail-same-company-same-day-v2"
-      },
-      "collectedAt": "2026-06-19T05:30:45.117Z"
-    }
-  ]
+  "items": []
 }

@@ -1,11 +1,22 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-06-19T05:30:40.570Z",
+    "updatedAt": "2026-06-19T23:27:32.596Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
-    "queryCount": 9
+    "queryCount": 6
   },
   "items": [
+    {
+      "id": "aae12532ab1a36be",
+      "keyword": "매드업",
+      "companyName": "매드업",
+      "title": "[매드업 IPO] 광고와 AI 사이…매드업의 몸값 계산법",
+      "description": "\"구글·메타도 없는 데이터\"…상장 후 5000억원 규모 데이터 추가 확보 매드업이 기업공개(IPO)를 추진하면서... 이번 상장을 통해 공모주200만주를 모집하며 희망공모가밴드는7000~8000원이다. 상장 예정일은 다음 달...",
+      "link": "https://dealsite.co.kr/articles/163870",
+      "originallink": "https://dealsite.co.kr/articles/163870",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-19T08:18:00.000Z"
+    },
     {
       "id": "2360527b01257912",
       "keyword": "레몬헬스케어",
@@ -29,50 +40,6 @@
       "publishedAt": "2026-06-19T02:46:00.000Z"
     },
     {
-      "id": "3cd6fcbaca50c913",
-      "keyword": "스트라드비젼",
-      "companyName": "스트라드비젼",
-      "title": "스트라드비젼, 공모주 청약 마감일... KB증권 균등·비례 살펴보니",
-      "description": "기관 흥행을 공모가 상향으로 연결하기보다, 상장 후 유통시장 안정성과 주주가치 제고에 무게를 둔 셈이다. 스트라드비젼은 독자 개발한 비전 AI 기술을 기반으로 글로벌 완성차 업체와 자동차 부품사 대상 양산...",
-      "link": "https://n.news.naver.com/mnews/article/123/0002385032?sid=101",
-      "originallink": "http://www.joseilbo.com/news/news_read.php?uid=570359&class=53&grp=",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-19T01:51:00.000Z"
-    },
-    {
-      "id": "1cf128685efe4fff",
-      "keyword": "스트라드비젼",
-      "companyName": "스트라드비젼",
-      "title": "스트라드비젼, 공모주 청약 2일차 경쟁률 9대 1…30일 상장",
-      "description": "IPO 자료사진. AI가 생성한 이미지. 인공지능(AI) 기반 자율주행 소프트웨어 기업 스트라드비젼이 일반투자자 대상 공모주 청약 2일차를 진행 중인 가운데 경쟁률이 두 자릿수를 기록하고 있다. 청약자는 약 8만여명을...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=583228",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=583228",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-19T01:18:00.000Z"
-    },
-    {
-      "id": "cebacae501ff03a0",
-      "keyword": "져스텍",
-      "companyName": "져스텍",
-      "title": "져스텍, 공모주 청약 2일차 실시...균등배정 바늘구멍 수준",
-      "description": "IPO 자료사진. AI가 생성한 이미지. 초정밀 모션 기술 전문기업 져스텍이 일반투자자 대상 공모주 청약... 가운데 져스텍이 공모 흥행을 바탕으로 상장 이후 어떤 주가 흐름을 보일지 주목하고 있다. 한편 져스텍의...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=583229",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=583229",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-19T01:18:00.000Z"
-    },
-    {
-      "id": "737fedaa1548bc88",
-      "keyword": "스트라드비젼",
-      "companyName": "스트라드비젼",
-      "title": "[디티에스 IPO] 기관이 원한다, 가뭄의 '단비'",
-      "description": "디티에스(DTS)가 기업공개(IPO) 시장에 등판하길 원하는 기관투자가들이 많아지고 있다. 올 들어 빅딜 가뭄이... 4월 상장 채비(1107억원) 두 건에 그친다. 이외 최근 수요예측을 마친 스트라드비젼(공모액 840억원) 정도가...",
-      "link": "https://www.the-stock.kr/news/articleView.html?idxno=32761",
-      "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=32761",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-18T23:00:00.000Z"
-    },
-    {
       "id": "af5951a9e34172b4",
       "keyword": "레메디",
       "companyName": "레메디",
@@ -82,50 +49,6 @@
       "originallink": "http://www.consumernews.co.kr/news/articleView.html?idxno=757728",
       "provider": "뉴스 검색",
       "publishedAt": "2026-06-18T21:10:00.000Z"
-    },
-    {
-      "id": "8f5e21d60301d4fd",
-      "keyword": "져스텍",
-      "companyName": "져스텍",
-      "title": "'경쟁률 1295대 1' 져스텍, 오늘(18일)부터 일반 청약...공모가 1만2500원...",
-      "description": "대상 공모주 청약에 나선다. 져스텍은 지난 8일부터 12일까지 국내외 기관투자자를 대상으로 수요예측을 진행한 결과, 총 2252개 기관이 참여해 1295대 1의 높은 경쟁률을 기록했다. 상장 주관사인 삼성증권 관계자는 \"AI...",
-      "link": "https://www.ggilbo.com/news/articleView.html?idxno=1164306",
-      "originallink": "https://www.ggilbo.com/news/articleView.html?idxno=1164306",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-18T11:20:00.000Z"
-    },
-    {
-      "id": "6308bd93fb5e97d6",
-      "keyword": "져스텍",
-      "companyName": "져스텍",
-      "title": "피스피스스튜디오 급락…중형IPO '비상'",
-      "description": "지난 4월 기업가치 5755억원으로 상장한 전기차 충전 기업 채비 역시 주가가 공모가 대비 30% 이상 하락했다. 올해 케이뱅크 이후 조 단위 IPO 대어가 사라진 가운데 공모주 시장에서 그나마 중형급으로 분류된...",
-      "link": "https://n.news.naver.com/mnews/article/015/0005300355?sid=101",
-      "originallink": "https://www.hankyung.com/article/2026061851041",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-18T08:44:00.000Z"
-    },
-    {
-      "id": "6817a272a9bcc4f5",
-      "keyword": "져스텍",
-      "companyName": "져스텍",
-      "title": "[공모주 현황] 져스텍 청약 1일차 종료, 균등·비례 경쟁률은?",
-      "description": "IPO 자료사진. AI가 생성한 이미지. 공모주 져스텍의 청약 1일차가 18일 오후 4시경 종료됐다. 삼성증권을... 져스텍의 공모가는 12500원이다. 만약 상장일(6월 29일) 따따블을 기록한다면 공모가보다 300% 오른 5만원까지...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=583006",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=583006",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-18T07:04:00.000Z"
-    },
-    {
-      "id": "dc5da75f6cb500dd",
-      "keyword": "빅웨이브로보틱스",
-      "companyName": "빅웨이브로보틱스",
-      "title": "[더벨][영창로보테크 IPO] 로봇주 훈풍 속 증시 도전, 상장 파트너는 유...",
-      "description": "섹터는 IPO 시장에서 가장 뜨거운 테마로 꼽힌다. 선도 기업들의 잇따른 상장 흥행으로 로봇 기업에 대한 시장의 높은 멀티플(PER) 적용이 용인되는 등 긍정적인 기류가 흐르고 있다. 앞서 빅웨이브로보틱스가 자동화...",
-      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202606161437088880105352",
-      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202606161437088880105352",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-18T00:02:00.000Z"
     },
     {
       "id": "faeb1ddd2c59c218",
@@ -170,17 +93,6 @@
       "originallink": "https://www.cnbizm.com/news/articleView.html?idxno=305779",
       "provider": "뉴스 검색",
       "publishedAt": "2026-06-17T05:12:00.000Z"
-    },
-    {
-      "id": "9503f8eff7c2922d",
-      "keyword": "빅웨이브로보틱스",
-      "companyName": "빅웨이브로보틱스",
-      "title": "젠슨 황·골드만 띄운 '피지컬AI'…스트라드비젼·빅웨이브로보틱스 IPO...",
-      "description": "(사진=빅웨이브로보틱스) 최근 국내 증시를 달구고 있는 '피지컬AI' 열기가 기업공개(IPO) 시장으로... 희망 공모가 밴드는 1만2000~1만4000원이며 공모 규모는 최대 980억원, 상장 후 예상 시가총액은 최대 7400억원 규모다....",
-      "link": "https://www.greened.kr/news/articleView.html?idxno=342559",
-      "originallink": "https://www.greened.kr/news/articleView.html?idxno=342559",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-15T06:00:00.000Z"
     },
     {
       "id": "b81c8c7ed314afdc",

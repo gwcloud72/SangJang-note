@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "local-rules",
-    "generatedAt": "2026-06-18T09:49:01.139Z",
+    "generatedAt": "2026-06-19T05:30:46.900Z",
     "model": null,
     "itemCount": 8,
     "geminiUsed": 0,
@@ -41,21 +41,27 @@
       "sector": "자율주행 인식 소프트웨어 기업",
       "ipoStage": "청약 진행중",
       "underwriter": "주관사 확인",
-      "basisTimeLabel": "오늘 09:30 기준",
+      "basisTimeLabel": "06.19.10:18",
       "oneLine": "자율주행 인식 소프트웨어 기업",
-      "body": "스트라드비젼은 자율주행 인식 소프트웨어 기업입니다. 06.18 일정 기준으로 청약 진행중 단계라 원문 일정과 변경 여부를 함께 확인합니다.",
+      "body": "스트라드비젼은 자율주행 인식 소프트웨어 기업입니다. 06.18 일정 기준으로 06.19.10:18 뉴스 언급 기준 청약 경쟁률과 환불일 확인을 함께 확인합니다.",
       "points": [
-        "청약 시작·마감일 확인",
-        "환불일 확인",
+        "청약 마감 시각 확인",
+        "비례경쟁률 기준 확인",
         "정정 공시 여부 확인"
       ],
       "sourceLabels": [
         "DART 일정",
         "환불일 확인",
-        "뉴스 검색",
-        "주관사 확인"
+        "뉴스 언급",
+        "뉴스 검색"
       ],
-      "competition": null,
+      "competition": {
+        "label": "뉴스 언급",
+        "value": 9,
+        "proportionalValue": null,
+        "timeLabel": "06.19.10:18",
+        "sourceLine": "스트라드비젼 , 공모주 청약 2일차 경쟁률 9대 1…30일 상장"
+      },
       "generatedBy": "local-rules",
       "model": null
     },
@@ -66,21 +72,27 @@
       "sector": "초정밀 모션제어 장비 기업",
       "ipoStage": "청약 진행중",
       "underwriter": "주관사 확인",
-      "basisTimeLabel": "오늘 09:30 기준",
+      "basisTimeLabel": "06.19.11:20",
       "oneLine": "초정밀 모션제어 장비 기업",
-      "body": "져스텍은 초정밀 모션제어 장비 기업입니다. 06.18 일정 기준으로 청약 진행중 단계라 원문 일정과 변경 여부를 함께 확인합니다.",
+      "body": "져스텍은 초정밀 모션제어 장비 기업입니다. 06.18 일정 기준으로 06.19.11:20 뉴스 언급 기준 청약 경쟁률과 환불일 확인을 함께 확인합니다.",
       "points": [
-        "청약 시작·마감일 확인",
-        "환불일 확인",
+        "청약 마감 시각 확인",
+        "비례경쟁률 기준 확인",
         "정정 공시 여부 확인"
       ],
       "sourceLabels": [
         "DART 일정",
         "환불일 확인",
-        "뉴스 검색",
-        "주관사 확인"
+        "뉴스 언급",
+        "뉴스 검색"
       ],
-      "competition": null,
+      "competition": {
+        "label": "뉴스 언급",
+        "value": 34.89,
+        "proportionalValue": null,
+        "timeLabel": "06.19.11:20",
+        "sourceLine": "용돈 벌어보자…' 져스텍 ' 청약 오늘까지"
+      },
       "generatedBy": "local-rules",
       "model": null
     },

@@ -1,32 +1,120 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-06-18T05:01:25.001Z",
+    "updatedAt": "2026-06-19T05:30:40.570Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 9
   },
   "items": [
     {
-      "id": "3ff3c9a8bcb3deaa",
-      "keyword": "져스텍",
-      "companyName": "져스텍",
-      "title": "[공모주 청약] 져스텍, 공모주 청약 첫날 흥행…기관 경쟁률 1294.99대 1 ...",
-      "description": "IPO 자료사진. AI가 생성한 이미지. 초정밀 모션 기술 기업 져스텍이 공모주 청약 첫날부터 높은 관심을... 한편 져스텍의 코스닥 상장 예정일은 오는 29일이다. 투자자들은 청약 경쟁률과 증거금 규모, 상장 이후 유통 가능...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=582901",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=582901",
+      "id": "2360527b01257912",
+      "keyword": "레몬헬스케어",
+      "companyName": "레몬헬스케어",
+      "title": "“다음 따따블 누구?”…공모주 시장에 줄 선 새내기들",
+      "description": "국내 증시 강세 속에 공모주 시장에서도 새 얼굴들이 잇따라 등장하고 있다. 성장성을 앞세운 기업들이... 상장 후 유통 가능 물량은 전체 주식의 30.9% 수준으로 비교적 부담이 크지 않다는 평가다. 레몬헬스케어는...",
+      "link": "https://n.news.naver.com/mnews/article/009/0005696140?sid=101",
+      "originallink": "https://www.mk.co.kr/article/12078415",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-06-18T01:12:00.000Z"
+      "publishedAt": "2026-06-19T04:35:00.000Z"
     },
     {
-      "id": "310751fb00439a8c",
+      "id": "357000ec938249fa",
+      "keyword": "에이치엘지노믹스",
+      "companyName": "에이치엘지노믹스",
+      "title": "[HL지노믹스 IPO] 공모 속도전…성장 가속페달 밟는다",
+      "description": "원료의약품(API) 전문기업 에이치엘지노믹스가 기업공개(IPO) 절차에 속도를 내고 있다. 코스닥 상장예비심사(예심) 통과 직후 증권신고서를 제출하며 공모 준비에 돌입했다. 전방산업 성장과 함께 찾아온 외연 확장...",
+      "link": "https://www.the-stock.kr/news/articleView.html?idxno=32768",
+      "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=32768",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-19T02:46:00.000Z"
+    },
+    {
+      "id": "3cd6fcbaca50c913",
       "keyword": "스트라드비젼",
       "companyName": "스트라드비젼",
-      "title": "[공모주 청약] 스트라드비젼, AI 자율주행 기술 앞세워 공모주 청약 돌...",
-      "description": "IPO 자료사진. AI가 생성한 이미지. 스트라드비젼이 18일 일반투자자 대상 공모주 청약을 시작했다. 대표... 비율과 상장 후 유통 가능 물량 등을 종합적으로 살펴볼 필요가 있다는 조언이 나온다. [※ AI 조력으로 작성된...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=582899",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=582899",
+      "title": "스트라드비젼, 공모주 청약 마감일... KB증권 균등·비례 살펴보니",
+      "description": "기관 흥행을 공모가 상향으로 연결하기보다, 상장 후 유통시장 안정성과 주주가치 제고에 무게를 둔 셈이다. 스트라드비젼은 독자 개발한 비전 AI 기술을 기반으로 글로벌 완성차 업체와 자동차 부품사 대상 양산...",
+      "link": "https://n.news.naver.com/mnews/article/123/0002385032?sid=101",
+      "originallink": "http://www.joseilbo.com/news/news_read.php?uid=570359&class=53&grp=",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-06-18T01:10:00.000Z"
+      "publishedAt": "2026-06-19T01:51:00.000Z"
+    },
+    {
+      "id": "1cf128685efe4fff",
+      "keyword": "스트라드비젼",
+      "companyName": "스트라드비젼",
+      "title": "스트라드비젼, 공모주 청약 2일차 경쟁률 9대 1…30일 상장",
+      "description": "IPO 자료사진. AI가 생성한 이미지. 인공지능(AI) 기반 자율주행 소프트웨어 기업 스트라드비젼이 일반투자자 대상 공모주 청약 2일차를 진행 중인 가운데 경쟁률이 두 자릿수를 기록하고 있다. 청약자는 약 8만여명을...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=583228",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=583228",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-19T01:18:00.000Z"
+    },
+    {
+      "id": "cebacae501ff03a0",
+      "keyword": "져스텍",
+      "companyName": "져스텍",
+      "title": "져스텍, 공모주 청약 2일차 실시...균등배정 바늘구멍 수준",
+      "description": "IPO 자료사진. AI가 생성한 이미지. 초정밀 모션 기술 전문기업 져스텍이 일반투자자 대상 공모주 청약... 가운데 져스텍이 공모 흥행을 바탕으로 상장 이후 어떤 주가 흐름을 보일지 주목하고 있다. 한편 져스텍의...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=583229",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=583229",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-19T01:18:00.000Z"
+    },
+    {
+      "id": "737fedaa1548bc88",
+      "keyword": "스트라드비젼",
+      "companyName": "스트라드비젼",
+      "title": "[디티에스 IPO] 기관이 원한다, 가뭄의 '단비'",
+      "description": "디티에스(DTS)가 기업공개(IPO) 시장에 등판하길 원하는 기관투자가들이 많아지고 있다. 올 들어 빅딜 가뭄이... 4월 상장 채비(1107억원) 두 건에 그친다. 이외 최근 수요예측을 마친 스트라드비젼(공모액 840억원) 정도가...",
+      "link": "https://www.the-stock.kr/news/articleView.html?idxno=32761",
+      "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=32761",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-18T23:00:00.000Z"
+    },
+    {
+      "id": "af5951a9e34172b4",
+      "keyword": "레메디",
+      "companyName": "레메디",
+      "title": "[주간IPO] 6월 넷째 주, 공모주 청약 빅웨이브로보틱스·매드업·레몬헬...",
+      "description": "주 기업공개(IPO) 시장에서는 빅웨이브로보틱스·매드업·레몬헬스케어가 공모청약을 실시한다. 레메디도 수요예측을 시작한다. 로봇 온라인 플랫폼 전문기업 빅웨이브로보틱스는 19일과 22일 이틀간 코스닥 상장을...",
+      "link": "http://www.consumernews.co.kr/news/articleView.html?idxno=757728",
+      "originallink": "http://www.consumernews.co.kr/news/articleView.html?idxno=757728",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-18T21:10:00.000Z"
+    },
+    {
+      "id": "8f5e21d60301d4fd",
+      "keyword": "져스텍",
+      "companyName": "져스텍",
+      "title": "'경쟁률 1295대 1' 져스텍, 오늘(18일)부터 일반 청약...공모가 1만2500원...",
+      "description": "대상 공모주 청약에 나선다. 져스텍은 지난 8일부터 12일까지 국내외 기관투자자를 대상으로 수요예측을 진행한 결과, 총 2252개 기관이 참여해 1295대 1의 높은 경쟁률을 기록했다. 상장 주관사인 삼성증권 관계자는 \"AI...",
+      "link": "https://www.ggilbo.com/news/articleView.html?idxno=1164306",
+      "originallink": "https://www.ggilbo.com/news/articleView.html?idxno=1164306",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-18T11:20:00.000Z"
+    },
+    {
+      "id": "6308bd93fb5e97d6",
+      "keyword": "져스텍",
+      "companyName": "져스텍",
+      "title": "피스피스스튜디오 급락…중형IPO '비상'",
+      "description": "지난 4월 기업가치 5755억원으로 상장한 전기차 충전 기업 채비 역시 주가가 공모가 대비 30% 이상 하락했다. 올해 케이뱅크 이후 조 단위 IPO 대어가 사라진 가운데 공모주 시장에서 그나마 중형급으로 분류된...",
+      "link": "https://n.news.naver.com/mnews/article/015/0005300355?sid=101",
+      "originallink": "https://www.hankyung.com/article/2026061851041",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-18T08:44:00.000Z"
+    },
+    {
+      "id": "6817a272a9bcc4f5",
+      "keyword": "져스텍",
+      "companyName": "져스텍",
+      "title": "[공모주 현황] 져스텍 청약 1일차 종료, 균등·비례 경쟁률은?",
+      "description": "IPO 자료사진. AI가 생성한 이미지. 공모주 져스텍의 청약 1일차가 18일 오후 4시경 종료됐다. 삼성증권을... 져스텍의 공모가는 12500원이다. 만약 상장일(6월 29일) 따따블을 기록한다면 공모가보다 300% 오른 5만원까지...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=583006",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=583006",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-18T07:04:00.000Z"
     },
     {
       "id": "dc5da75f6cb500dd",
@@ -49,39 +137,6 @@
       "originallink": "https://www.insightkorea.co.kr/news/articleView.html?idxno=247795",
       "provider": "뉴스 검색",
       "publishedAt": "2026-06-17T23:00:00.000Z"
-    },
-    {
-      "id": "ffe3c58546081a3f",
-      "keyword": "스트라드비젼",
-      "companyName": "스트라드비젼",
-      "title": "스트라드비젼, 공모가 1만2000원 확정… \"기관 경쟁률 381대 1\"",
-      "description": "성열휘 기자 | 스트라드비젼이 기업공개(IPO) 공모가를 1만2000원으로 확정했다고 17일 공시했다.... 또 이어 \"수요예측에서 긍정적인 결과를 확보했지만 상장 이후 주주가치 제고를 위한 점과 공모주 시장의 장기적인...",
-      "link": "http://digitalchosun.dizzo.com/site/data/html_dir/2026/06/17/2026061780190.html",
-      "originallink": "http://digitalchosun.dizzo.com/site/data/html_dir/2026/06/17/2026061780190.html",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-17T11:00:00.000Z"
-    },
-    {
-      "id": "6238a12c5d462de8",
-      "keyword": "스트라드비젼",
-      "companyName": "스트라드비젼",
-      "title": "\"일반 청약 문턱 낮췄다\"... 스트라드비젼, 공모가 1만 2천 원 확정 \"상...",
-      "description": "상장 주관사인 KB증권 관계자는 \"스트라드비젼은 총 공모 규모가 840억 원대, 상장 후 시가총액이 6,390억... 한편, 스트라드비젼은 이번 기업공개(IPO)를 통해 조달한 공모 자금을 차세대 첨단운전자보조시스템(ADAS) 및...",
-      "link": "https://kr.aving.net/news/articleView.html?idxno=1811803",
-      "originallink": "https://kr.aving.net/news/articleView.html?idxno=1811803",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-17T10:16:00.000Z"
-    },
-    {
-      "id": "dbc2f9107577d648",
-      "keyword": "스트라드비젼",
-      "companyName": "스트라드비젼",
-      "title": "스트라드비젼, 공모가 하단 1만2000원…확약 비율 2.8% 그쳐",
-      "description": "공모가 기준 공모금액은 840억원, 상장 시가총액은 6398억원이다. 올해 IPO 기업 가운데 공모가가 희망 범위 하단에서 결정된 건 케이뱅크, 채비에 이어 스트라드비젼이 세 번째다. 지난 9일부터 15일까지 국내외...",
-      "link": "https://n.news.naver.com/mnews/article/015/0005299862?sid=101",
-      "originallink": "https://www.hankyung.com/article/202606172520r",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-17T08:38:00.000Z"
     },
     {
       "id": "3971e6e081c725cc",
@@ -117,22 +172,11 @@
       "publishedAt": "2026-06-17T05:12:00.000Z"
     },
     {
-      "id": "f17fd448e9e22506",
-      "keyword": "져스텍",
-      "companyName": "져스텍",
-      "title": "[져스텍 IPO] 반도체 넘어 우주로…위성 헤리티지 확보 박차",
-      "description": "최동수 대표이사는 15일 서울 여의도에서 열린 기업공개(IPO) 기자간담회에서 “우주항공 분야의 시장에서... 져스텍은 공모주의 상당 부분을 우주항공 분야를 키우는 데 사용한다. 져스텍은 상장 후 24억원 정도의...",
-      "link": "https://dealsite.co.kr/articles/163586",
-      "originallink": "https://dealsite.co.kr/articles/163586",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-15T23:02:00.000Z"
-    },
-    {
       "id": "9503f8eff7c2922d",
-      "keyword": "져스텍",
-      "companyName": "져스텍",
+      "keyword": "빅웨이브로보틱스",
+      "companyName": "빅웨이브로보틱스",
       "title": "젠슨 황·골드만 띄운 '피지컬AI'…스트라드비젼·빅웨이브로보틱스 IPO...",
-      "description": "이 같은 분위기 속에서 이번 주 IPO 시장에는 피지컬AI 밸류체인을 구성하는 기업들이 잇따라 투자자... 희망 공모가 밴드는 1만2000~1만4000원이며 공모 규모는 최대 980억원, 상장 후 예상 시가총액은 최대 7400억원 규모다....",
+      "description": "(사진=빅웨이브로보틱스) 최근 국내 증시를 달구고 있는 '피지컬AI' 열기가 기업공개(IPO) 시장으로... 희망 공모가 밴드는 1만2000~1만4000원이며 공모 규모는 최대 980억원, 상장 후 예상 시가총액은 최대 7400억원 규모다....",
       "link": "https://www.greened.kr/news/articleView.html?idxno=342559",
       "originallink": "https://www.greened.kr/news/articleView.html?idxno=342559",
       "provider": "뉴스 검색",
@@ -159,39 +203,6 @@
       "originallink": "https://www.newstopkorea.com/news/articleView.html?idxno=45518",
       "provider": "뉴스 검색",
       "publishedAt": "2026-06-14T23:12:00.000Z"
-    },
-    {
-      "id": "f10ebbd2c1a53e96",
-      "keyword": "레메디",
-      "companyName": "레메디",
-      "title": "[IPO 워치] 스트라드비젼·져스텍·빅웨이브로보틱스 청약 돌입",
-      "description": "레몬헬스케어·레메디 등 수요예측 메리츠2호스팩 19일 코스닥 상장 위 이미지는 기사 이해를 돕기 위해 AI(인공지능)을 활용해 제작했습니다. [그림=챗GPT] [뉴스투데이=염보라 기자] 이번 주(15~19일) 기업공개(IPO)...",
-      "link": "https://www.news2day.co.kr/article/20260614500021",
-      "originallink": "https://www.news2day.co.kr/article/20260614500021",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-14T19:20:00.000Z"
-    },
-    {
-      "id": "2628099fda23b985",
-      "keyword": "매드업",
-      "companyName": "매드업",
-      "title": "이번주 레몬헬스케어·레메디 등 5곳 수요예측 돌입…IPO 시장 기지개",
-      "description": "이번 주(6월 15~19일) 기업공개(IPO) 시장에서는 새롭게 수요예측에 나서는 2곳을 비롯해 총 5개사가 기관 투자자 대상 수요예측을 진행한다. 일반 투자자 대상 공모주 청약에 돌입하는 기업도 3곳 대기 중이다. 14일...",
-      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4419860",
-      "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4419860",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-14T04:06:00.000Z"
-    },
-    {
-      "id": "1ddf2a15cfff3203",
-      "keyword": "매드업",
-      "companyName": "매드업",
-      "title": "[공모주달력]활기도는 IPO 시장…레몬헬스케어·레메디 코스닥 도전장",
-      "description": "6월 셋째 주 공모주 시장은 지난주 수요예측을 시작한 기업들의 후속 일정이 이어져요. 초정밀 모션제어... 매드업은 18일까지 기관투자자 대상 수요예측을 이어가요. 매드업은 AI 기반 디지털 마케팅 솔루션...",
-      "link": "https://n.news.naver.com/mnews/article/648/0000047986?sid=101",
-      "originallink": "https://news.bizwatch.co.kr/article/market/2026/06/12/0010",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-13T23:00:00.000Z"
     },
     {
       "id": "b4cf63b4bafac5ae",
@@ -236,17 +247,6 @@
       "originallink": "https://www.junggi.co.kr/news/articleView.html?idxno=36401",
       "provider": "뉴스 검색",
       "publishedAt": "2026-05-12T05:22:00.000Z"
-    },
-    {
-      "id": "be20ef59d00fedb1",
-      "keyword": "에이치엘지노믹스",
-      "companyName": "에이치엘지노믹스",
-      "title": "\"결산 시즌 끝났다\"…4월 IPO 시장, 예비심사 청구 '봇물'",
-      "description": "크리에이츠 △3일 에이치엘지노믹스 등이 포함됐다. 이는 올해 1분기(1~3월) 상장 예비심사를 청구한 기업... 본격적인 공모주 청약 시즌이 돌아올 전망이다. IPO 업계 관계자는 \"최근 기술특례상장 기업들도 더 많이...",
-      "link": "https://www.ajunews.com/view/20260424170737112",
-      "originallink": "https://www.ajunews.com/view/20260424170737112",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-04-24T08:40:00.000Z"
     },
     {
       "id": "d95bdaacdcc47a05",

@@ -1,18 +1,18 @@
 {
   "metadata": {
-    "updatedAt": "2026-06-18T05:01:19.638Z",
+    "updatedAt": "2026-06-19T05:30:34.678Z",
     "source": "OpenDART",
     "basis": "증권신고서 주요정보 - 지분증권(estkRs), 공시검색(list), 공시원문(document.xml)",
     "dateRange": {
-      "bgnDe": "20251220",
-      "endDe": "20260618"
+      "bgnDe": "20251221",
+      "endDe": "20260619"
     },
     "lookbackDays": 180,
     "lookaheadDays": 120,
-    "totalFilings": 12374,
-    "totalCompanies": 354,
+    "totalFilings": 12511,
+    "totalCompanies": 355,
     "totalItems": 9,
-    "referenceDate": "2026-06-18",
+    "referenceDate": "2026-06-19",
     "status": "ready",
     "candidateItems": 30,
     "futureCandidateItems": 9,
@@ -166,8 +166,8 @@
       "corpClass": "E",
       "stockCode": "",
       "receiptNo": "20260611000236",
-      "receiptDate": "2026-06-11",
-      "reportName": "[기재정정]증권신고서(지분증권)",
+      "receiptDate": "2026-06-19",
+      "reportName": "[기재정정]투자설명서",
       "securityType": "보통주",
       "offeringMethod": "일반공모",
       "offerPrice": "2,000",

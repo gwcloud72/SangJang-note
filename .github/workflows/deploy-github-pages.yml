@@ -14,7 +14,7 @@ permissions:
 
 concurrency:
   group: "pages"
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   build-and-deploy:
@@ -303,7 +303,15 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add public/data/ipos.json public/data/ipo-ai-report.json public/data/ipo-briefings.json public/data/ipo-briefings-gemini-cache.json public/data/news.json public/data/competition-mentions.json public/data/competition-gemini-cache.json public/data/competition-snapshots.json public/data/fred-macro.json public/data/fred-macro-report.json
           git commit -m "상장노트 데이터 자동 갱신 [skip ci]"
-          git push origin main
+          attempt=0
+          until git push origin main; do
+            attempt=$((attempt+1))
+            if [ "$attempt" -ge 5 ]; then echo "push 5회 실패"; exit 1; fi
+            echo "원격이 앞서감 — fetch·rebase 후 재시도 ($attempt/5)"
+            git fetch origin main
+            git rebase origin/main || { git rebase --abort || true; echo "rebase 충돌 — 중단"; exit 1; }
+            sleep $((RANDOM % 4 + 2))
+          done
 
       - name: Build React app
         env:

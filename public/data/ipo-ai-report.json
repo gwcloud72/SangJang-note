@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generatedAt": "2026-06-20T23:38:10.339Z",
+    "generatedAt": "2026-06-21T23:42:21.509Z",
     "source": "local-rules",
     "model": null,
     "scope": "upcoming-45-days",
-    "referenceDate": "2026-06-21"
+    "referenceDate": "2026-06-22"
   },
   "lines": [
     "기준일 이후 가까운 일정은 청약 6건, 환불 3건입니다.",

@@ -1,11 +1,66 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-06-20T23:38:09.971Z",
+    "updatedAt": "2026-06-21T23:42:21.140Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 6
   },
   "items": [
+    {
+      "id": "15043f2090c792f0",
+      "keyword": "레메디",
+      "companyName": "레메디",
+      "title": "[더벨][thebell interview] 레메디 \"단순 엑스레이 넘어 AI 접목, 일부는...",
+      "description": "더벨은 IPO를 위한 기자간담회 현장에서 조봉호 레메디 대표(사진)를 만나 AX 솔루션 사업화 현황을 들어봤다. ◇상장 노리는 레메디, 공모자금 활용해 글로벌 영토 확장 레메디는 2012년 설립된 방사선 원천 기술 기반...",
+      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202606191600483160102014",
+      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202606191600483160102014",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-21T22:02:00.000Z"
+    },
+    {
+      "id": "77cbdb3870df18ef",
+      "keyword": "레몬헬스케어",
+      "companyName": "레몬헬스케어",
+      "title": "매드업·레몬헬스케어, 코스닥 공모주 2종목 일반 청약 진행 [이번주 증...",
+      "description": "이번주 기업공개(IPO) 시장에서는 코스닥 상장에 도전하는 매드업과 레몬헬스케어가 일반 투자자들을 대상으로 공모주 청약을 진행한다. 빅웨이브로보틱스는 금융감독원의 정정 증권신고서 제출 요구로 청약...",
+      "link": "https://n.news.naver.com/mnews/article/011/0004633452?sid=101",
+      "originallink": "https://www.sedaily.com/article/20058258?ref=naver",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-21T21:01:00.000Z"
+    },
+    {
+      "id": "8dc01e25d8f91cf5",
+      "keyword": "레메디",
+      "companyName": "레메디",
+      "title": "[IPO 워치] 매드업·레몬헬스케어 청약…레메디 수요예측 마무리",
+      "description": "이번 주(22~26일) 기업공개(IPO) 시장에서는 인공지능(AI) 디지털 마케팅 기업 매드업과 의료데이터 플랫폼 기업 레몬헬스케어가 일반투자자 대상 공모청약에 나선다. 포터블 엑스레이 전문기업 레메디는 기관투자자...",
+      "link": "https://www.news2day.co.kr/article/20260620500010",
+      "originallink": "https://www.news2day.co.kr/article/20260620500010",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-21T19:52:00.000Z"
+    },
+    {
+      "id": "5916339456b37f8c",
+      "keyword": "레메디",
+      "companyName": "레메디",
+      "title": "이번 주 매드업·레몬헬스케어 청약…신규 상장 없이 '숨고르기'",
+      "description": "이번 주(6월 22일~26일) 기업공개(IPO) 시장은 신규 상장 기업이 없는 가운데, 매드업과 레몬헬스케어가... 의료용 휴대용 엑스선 영상촬영장치 제조기업 레메디는 지난 17일 시작한 코스닥 상장 수요예측을 오는...",
+      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4421060",
+      "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4421060",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-21T04:06:00.000Z"
+    },
+    {
+      "id": "3bdcf945c90c2678",
+      "keyword": "매드업",
+      "companyName": "매드업",
+      "title": "[자금조달 프리뷰] 세아제강 공모채·매드업 IPO '출격'",
+      "description": "세아제강이 1150억원 규모의 공모 회사채를 발행한다. 매드업은 기업공개(IPO)를 위한 기관 수요예측을... 매드업, 23~24일 일반청약 인공지능(AI) 마케팅 기업 매드업은 이달 23~24일 일반청약을 진행한다. 상장 공모...",
+      "link": "https://n.news.naver.com/mnews/article/293/0000086544?sid=101",
+      "originallink": "https://www.bloter.net/news/articleView.html?idxno=666028",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-21T00:30:00.000Z"
+    },
     {
       "id": "82c37bf90d7aa61b",
       "keyword": "레몬헬스케어",
@@ -29,17 +84,6 @@
       "publishedAt": "2026-06-20T22:02:00.000Z"
     },
     {
-      "id": "76c596d4c3703d97",
-      "keyword": "레몬헬스케어",
-      "companyName": "레몬헬스케어",
-      "title": "이번주 공모주 청약, 매드업·레몬헬스케어 2개사",
-      "description": "6월 넷째 주(22~26일) 기업공개(IPO) 시장에서는 인공지능(AI) 마케팅 기업 '매드업'과 스마트 병원 중계플랫폼(LDB-H) 등을 제공하는 '레몬헬스케어' 등 2개사가 일반투자자 대상 공모주 청약을 진행한다. 21일...",
-      "link": "https://n.news.naver.com/mnews/article/119/0003102980?sid=101",
-      "originallink": "https://www.dailian.co.kr/news/view/1657992/?sc=Naver",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-20T15:11:00.000Z"
-    },
-    {
       "id": "392136b84157b6e0",
       "keyword": "레메디",
       "companyName": "레메디",
@@ -60,39 +104,6 @@
       "originallink": "https://www.newsway.co.kr/news/view?ud=2026062018570131878",
       "provider": "뉴스 검색",
       "publishedAt": "2026-06-20T09:58:00.000Z"
-    },
-    {
-      "id": "f805930d6d3786b0",
-      "keyword": "레메디",
-      "companyName": "레메디",
-      "title": "6월 넷째 주 IPO...매드업 23일→레몬헬스케어 24일 청약",
-      "description": "6월 넷째 주 기업공개 시장에서는 신규 상장 기업 없이 일반 공모주 청약 2건과 수요예측 1건이 진행된다.... 도전했지만 상장 문턱을 넘지 못했다. 레메디의 공모가 희망범위는 1만7800∼2만700원이며 주관사는...",
-      "link": "https://www.slist.kr/news/articleView.html?idxno=746511",
-      "originallink": "https://www.slist.kr/news/articleView.html?idxno=746511",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-20T00:36:00.000Z"
-    },
-    {
-      "id": "2bce1df2299bfe84",
-      "keyword": "레메디",
-      "companyName": "레메디",
-      "title": "코스닥 IPO, 매드업·레몬헬스케어 청약 주목",
-      "description": "6월 넷째 주 기업공개 시장은 신규 상장 일정이 비어 있는 대신 공모주 청약 2건과 기관 수요예측 1건이... 수요예측 일정에서는 의료용 휴대용 엑스선 영상촬영장치 제조기업 레메디가 주목된다. 레메디는 17일 시작한...",
-      "link": "https://www.tokenpost.kr/news/market/371220",
-      "originallink": "https://www.tokenpost.kr/news/market/371220",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-20T00:14:00.000Z"
-    },
-    {
-      "id": "1e34344c2eadcd7d",
-      "keyword": "레메디",
-      "companyName": "레메디",
-      "title": "[주간 IPO] 매드업·레몬헬스케어 청약 돌입…IPO 일정 본격화",
-      "description": "다음 주(22~26일) 기업공개(IPO) 시장에서는 매드업과 레몬헬스케어의 일반청약, 레메디의 기관 수요예측... 매드업은 이번 코스닥 상장에서 200만 주를 공모한다. 희망 공모가 범위는 7000~8000원이며, 총 공모 예정...",
-      "link": "https://www.etoday.co.kr/news/view/2595365",
-      "originallink": "https://www.etoday.co.kr/news/view/2595365",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-20T00:00:00.000Z"
     },
     {
       "id": "357000ec938249fa",

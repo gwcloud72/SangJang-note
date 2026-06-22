@@ -1,24 +1,24 @@
 {
   "metadata": {
-    "updatedAt": "2026-06-21T23:42:17.139Z",
+    "updatedAt": "2026-06-22T23:46:13.017Z",
     "source": "OpenDART",
     "basis": "증권신고서 주요정보 - 지분증권(estkRs), 공시검색(list), 공시원문(document.xml)",
     "dateRange": {
-      "bgnDe": "20251224",
-      "endDe": "20260622"
+      "bgnDe": "20251225",
+      "endDe": "20260623"
     },
     "lookbackDays": 180,
     "lookaheadDays": 120,
-    "totalFilings": 12330,
-    "totalCompanies": 352,
+    "totalFilings": 12289,
+    "totalCompanies": 351,
     "totalItems": 6,
-    "referenceDate": "2026-06-22",
+    "referenceDate": "2026-06-23",
     "status": "ready",
     "candidateItems": 29,
     "futureCandidateItems": 6,
     "statusCounts": {
-      "청약 진행중": 1,
-      "청약 예정": 5
+      "청약 진행중": 2,
+      "청약 예정": 4
     },
     "documentDetailItems": 28,
     "warning": "30개 항목의 상세 조회 또는 원문 추출에 실패했습니다. Actions 로그에서 확인하세요."
@@ -75,8 +75,8 @@
       "corpClass": "E",
       "stockCode": "",
       "receiptNo": "20260522000649",
-      "receiptDate": "2026-05-22",
-      "reportName": "[기재정정]증권신고서(지분증권)",
+      "receiptDate": "2026-06-22",
+      "reportName": "[기재정정]투자설명서",
       "securityType": "보통주",
       "offeringMethod": "일반공모",
       "offerPrice": "7,000",
@@ -98,7 +98,7 @@
       "dartUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260522000649",
       "mainMatterReceiptNo": "",
       "mainMatterUrl": "",
-      "status": "청약 예정",
+      "status": "청약 진행중",
       "refundDate": "",
       "listingDate": "",
       "demandForecastStart": "2026-05-20",

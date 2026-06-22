@@ -1,11 +1,44 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-06-21T23:42:21.140Z",
+    "updatedAt": "2026-06-22T23:46:17.206Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 6
   },
   "items": [
+    {
+      "id": "dc77c9c3c8a20502",
+      "keyword": "에이치엘지노믹스",
+      "companyName": "에이치엘지노믹스",
+      "title": "[HL지노믹스 IPO] 모회사 의존도 높다? 성장 여력 '이상 무'",
+      "description": "에이치엘지노믹스 공모를 앞두고 모회사 한림제약 의존도에 투자자 시선이 쏠리고 있다. 성장 기반이 되는... 없다\"며 \"에이치엘지노믹스의 경우 기존 사업에 더해 상장 이후 추가 성장 동력을 마련하기 위한 구체적인...",
+      "link": "https://www.the-stock.kr/news/articleView.html?idxno=32783",
+      "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=32783",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-22T04:08:00.000Z"
+    },
+    {
+      "id": "b3f868846a4a3c1a",
+      "keyword": "레몬헬스케어",
+      "companyName": "레몬헬스케어",
+      "title": "이번주 공모주 청약, 매드업·레몬헬스케어 2개사 나선다",
+      "description": "이번 주 기업공개(IPO) 시장에서는 신규 상장 기업 없이 인공지능(AI) 기술을 사업 전면에 내세운 매드업과 레몬헬스케어가 일반 투자자를 대상으로 공모주 청약에 나선다. 매드업은 축적된 광고 집행 데이터와 AI...",
+      "link": "https://n.news.naver.com/mnews/article/123/0002385120?sid=101",
+      "originallink": "http://www.joseilbo.com/news/news_read.php?uid=570451&class=53&grp=",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-22T00:31:00.000Z"
+    },
+    {
+      "id": "17a3d6fbb5159083",
+      "keyword": "레몬헬스케어",
+      "companyName": "레몬헬스케어",
+      "title": "매드업·레몬헬스케어, 일반청약 진행",
+      "description": "이번 주(22~26일) 기업공개(IPO) 시장에서는 인공지능(AI) 마케팅 기업 매드업과 의료 데이터 중계 플랫폼 기업 레몬헬스케어가 일반 투자자 대상 공모주 청약에 나선다. 22일 금융투자업계에 따르면 매드업은 오는...",
+      "link": "https://n.news.naver.com/mnews/article/031/0001036521?sid=101",
+      "originallink": "http://www.inews24.com/view/1978352",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-22T00:12:00.000Z"
+    },
     {
       "id": "15043f2090c792f0",
       "keyword": "레메디",
@@ -49,39 +82,6 @@
       "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4421060",
       "provider": "뉴스 검색",
       "publishedAt": "2026-06-21T04:06:00.000Z"
-    },
-    {
-      "id": "3bdcf945c90c2678",
-      "keyword": "매드업",
-      "companyName": "매드업",
-      "title": "[자금조달 프리뷰] 세아제강 공모채·매드업 IPO '출격'",
-      "description": "세아제강이 1150억원 규모의 공모 회사채를 발행한다. 매드업은 기업공개(IPO)를 위한 기관 수요예측을... 매드업, 23~24일 일반청약 인공지능(AI) 마케팅 기업 매드업은 이달 23~24일 일반청약을 진행한다. 상장 공모...",
-      "link": "https://n.news.naver.com/mnews/article/293/0000086544?sid=101",
-      "originallink": "https://www.bloter.net/news/articleView.html?idxno=666028",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-21T00:30:00.000Z"
-    },
-    {
-      "id": "82c37bf90d7aa61b",
-      "keyword": "레몬헬스케어",
-      "companyName": "레몬헬스케어",
-      "title": "[이번주 IPO]6월 넷째 주 수요예측·청약 일정",
-      "description": "희망 공모가 밴드는 7500~1만원, 총 공모 예정 금액은 150억~200억원 규모다. 수요예측은 지난 19일까지 진행했고 일반 청약은 24~25일 양일간 이뤄진다. 상장 주관사는 KB증권이다. 2017년 설립된 레몬헬스케어는...",
-      "link": "https://n.news.naver.com/mnews/article/277/0005779102?sid=101",
-      "originallink": "https://view.asiae.co.kr/article/2026062010352177766",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-20T23:00:00.000Z"
-    },
-    {
-      "id": "044e30cb1a046bdc",
-      "keyword": "레몬헬스케어",
-      "companyName": "레몬헬스케어",
-      "title": "매드업·레몬헬스케어 청약[증시캘린더]",
-      "description": "이번 주(6월 22~26일) 기업공개(IPO) 시장에서는 매드업과 레몬헬스케어가 공모 청약에 나선다. 수요예측이나 상장에 나서는 기업은 없다. 6월 23~24일 △매드업 청약 -인공지능(AI) 마케팅 기업. AI 기반 광고대행...",
-      "link": "https://n.news.naver.com/mnews/article/018/0006311154?sid=101",
-      "originallink": "https://www.edaily.co.kr/news/newspath.asp?newsid=01115206645484016",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-20T22:02:00.000Z"
     },
     {
       "id": "392136b84157b6e0",
@@ -181,17 +181,6 @@
       "originallink": "https://www.edaily.co.kr/news/newspath.asp?newsid=02929046645451544",
       "provider": "뉴스 검색",
       "publishedAt": "2026-05-21T23:12:00.000Z"
-    },
-    {
-      "id": "92a49a0bce2b2e92",
-      "keyword": "에이치엘지노믹스",
-      "companyName": "에이치엘지노믹스",
-      "title": "5월 공모주 시장 대형주 실종…중소형주에 투자 집중",
-      "description": "5월 국내 주식시장에서 대형 기업의 기업공개 일정이 연기되는 가운데 유아용품 및 로봇 관련 중소형 공모... 한국거래소 자료에 따르면, 4월에 상장 예비심사를 청구한 기업은 에이치엘지노믹스, 크리에이츠, 옵토닉스...",
-      "link": "https://www.junggi.co.kr/news/articleView.html?idxno=36401",
-      "originallink": "https://www.junggi.co.kr/news/articleView.html?idxno=36401",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-05-12T05:22:00.000Z"
     },
     {
       "id": "d95bdaacdcc47a05",

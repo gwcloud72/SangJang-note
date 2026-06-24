@@ -1,11 +1,66 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-06-23T23:16:24.457Z",
+    "updatedAt": "2026-06-24T23:34:47.617Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 5
   },
   "items": [
+    {
+      "id": "da22dbd8c13accad",
+      "keyword": "레몬헬스케어",
+      "companyName": "레몬헬스케어",
+      "title": "[공모주 현황] 레몬헬스케어 청약 1일차 종료, 균등·비례 경쟁률은?",
+      "description": "IPO 자료사진. AI가 생성한 이미지. 공모주 레몬헬스케어의 청약 1일차 일정이 24일 오후 4시경 종료됐다.... 레몬헬스케어의 공모가는 1만원이고 상장일은 7월 6일이다. 한편 공시에 따르면 레몬헬스케어는 실시간...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=584322",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=584322",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-24T07:06:00.000Z"
+    },
+    {
+      "id": "ec9f251bbff6e0da",
+      "keyword": "레메디",
+      "companyName": "레메디",
+      "title": "[장외시황] 레몬헬스케어, 공모주 청약 시작",
+      "description": "공모가는 희망범위 상단인 1만원으로 확정됐으며, 주관사는 KB증권이다. 24일 비상장 주식 시장은 상승했다. IPO(기업공개)관련 상장 예비심사 청구 종목으로 특수 목적용 항법 및 항재밍 토탈 솔루션 전문업체...",
+      "link": "https://www.etoday.co.kr/news/view/2596866",
+      "originallink": "https://www.etoday.co.kr/news/view/2596866",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-24T06:54:00.000Z"
+    },
+    {
+      "id": "26685c69217d634b",
+      "keyword": "에이치엘지노믹스",
+      "companyName": "에이치엘지노믹스",
+      "title": "주가는 약세지만 상장 도전 계속…제약·바이오 IPO 대기열 길어진다",
+      "description": "상장 종목의 투자심리는 식었지만, 기업공개(IPO) 시장에서는 헬스케어 기업들의 증시 입성 시도가... 원료의약품(API) 전문기업 에이치엘지노믹스도 코스닥 상장 공모 절차에 들어갔다. 2000년 설립된...",
+      "link": "https://n.news.naver.com/mnews/article/296/0000101873?sid=101",
+      "originallink": "https://kormedi.com/?p=2828027",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-24T06:09:00.000Z"
+    },
+    {
+      "id": "948047c5bcfa5c6e",
+      "keyword": "케이앤에스아이앤씨",
+      "companyName": "케이앤에스아이앤씨",
+      "title": "'성장 정체' 케이앤에스아이앤씨, IPO 낙관 경계",
+      "description": "◇ 기술 완성도 눈길…방산·중소형 IPO 인기 편승 기대 24일 투자은행(IB) 업계에 따르면 케이앤에스아이앤씨는 이달 중순 금융감독원에 코스닥 시장에 상장하기 위한 증권신고서를 제출했다. 총 공모주식은 240만주...",
+      "link": "https://www.the-stock.kr/news/articleView.html?idxno=32800",
+      "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=32800",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-24T04:50:00.000Z"
+    },
+    {
+      "id": "7277ba6ae1a8fb7e",
+      "keyword": "레몬헬스케어",
+      "companyName": "레몬헬스케어",
+      "title": "[공모주 속보] 레몬헬스케어, 일반청약 돌입…공모가 상단 확정에 시장...",
+      "description": "기업공개(IPO) 일정에 따르면 레몬헬스케어의 일반청약은 24일부터 25일까지 이틀간 진행된다. 레몬헬스케어 공모가는 1만원이다. 대표 주관사는 KB증권이며, 상장 예정일은 7월 6일이다. 레몬헬스케어는 스마트병원 및...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=584213",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=584213",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-24T01:24:00.000Z"
+    },
     {
       "id": "b2d9a9bdcec394c5",
       "keyword": "레몬헬스케어",
@@ -16,28 +71,6 @@
       "originallink": "https://www.newstopkorea.com/news/articleView.html?idxno=45751",
       "provider": "뉴스 검색",
       "publishedAt": "2026-06-23T21:46:00.000Z"
-    },
-    {
-      "id": "243617ec365ee0e0",
-      "keyword": "레몬헬스케어",
-      "companyName": "레몬헬스케어",
-      "title": "레몬헬스케어 공모가 상단 확정…7월 코스닥 상장 [시그널]",
-      "description": "코스닥 기업공개(IPO)를 추진 중인 레몬헬스케어가 공모가를 밴드 상단인 1만 원에서 확정했다. 회사의 주력 아이템인 의료 마이데이터 중개 플랫폼 경쟁력과 향후 성장성이 높은 관심을 받은 결과로, 이번 주 일반...",
-      "link": "https://n.news.naver.com/mnews/article/011/0004634099?sid=101",
-      "originallink": "https://www.sedaily.com/article/20059146?ref=naver",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-23T07:45:00.000Z"
-    },
-    {
-      "id": "334f9280d2685e3e",
-      "keyword": "매드업",
-      "companyName": "매드업",
-      "title": "[공모주 현황] 매드업 청약 1일차 종료, 균등·비례 경쟁률 각각 얼마?",
-      "description": "IPO 자료사진. AI가 생성한 이미지. 공모주 매드업의 청약 1일차 일정이 23일 오후 4시경 종료됐다. 23일과... 매드업은 오는 7월 1일 코스닥에 입성한다. 만약 상장일 따따블을 기록한다면 공모가 8000원 대비 300...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=583998",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=583998",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-23T07:12:00.000Z"
     },
     {
       "id": "d5c4005795f60a90",
@@ -51,17 +84,6 @@
       "publishedAt": "2026-06-23T01:40:00.000Z"
     },
     {
-      "id": "6a1a3188aa34c10a",
-      "keyword": "매드업",
-      "companyName": "매드업",
-      "title": "[공모주 청약] 매드업, 일반청약 첫날 흥행 조짐…수요예측 1396대 1 기록",
-      "description": "IPO 자료사진. AI가 생성한 이미지. 인공지능(AI) 기반 광고·마케팅 기업 매드업이 일반투자자 대상 공모주... 회사는 오는 7월 1일 코스닥 시장 상장을 앞두고 있다. 매드업은 AI 기술을 기반으로 광고 운영 효율성을...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=583901",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=583901",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-23T00:50:00.000Z"
-    },
-    {
       "id": "dc77c9c3c8a20502",
       "keyword": "에이치엘지노믹스",
       "companyName": "에이치엘지노믹스",
@@ -71,28 +93,6 @@
       "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=32783",
       "provider": "뉴스 검색",
       "publishedAt": "2026-06-22T04:08:00.000Z"
-    },
-    {
-      "id": "b3f868846a4a3c1a",
-      "keyword": "레몬헬스케어",
-      "companyName": "레몬헬스케어",
-      "title": "이번주 공모주 청약, 매드업·레몬헬스케어 2개사 나선다",
-      "description": "이번 주 기업공개(IPO) 시장에서는 신규 상장 기업 없이 인공지능(AI) 기술을 사업 전면에 내세운 매드업과 레몬헬스케어가 일반 투자자를 대상으로 공모주 청약에 나선다. 매드업은 축적된 광고 집행 데이터와 AI...",
-      "link": "https://n.news.naver.com/mnews/article/123/0002385120?sid=101",
-      "originallink": "http://www.joseilbo.com/news/news_read.php?uid=570451&class=53&grp=",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-22T00:31:00.000Z"
-    },
-    {
-      "id": "17a3d6fbb5159083",
-      "keyword": "레몬헬스케어",
-      "companyName": "레몬헬스케어",
-      "title": "매드업·레몬헬스케어, 일반청약 진행",
-      "description": "이번 주(22~26일) 기업공개(IPO) 시장에서는 인공지능(AI) 마케팅 기업 매드업과 의료 데이터 중계 플랫폼 기업 레몬헬스케어가 일반 투자자 대상 공모주 청약에 나선다. 22일 금융투자업계에 따르면 매드업은 오는...",
-      "link": "https://n.news.naver.com/mnews/article/031/0001036521?sid=101",
-      "originallink": "http://www.inews24.com/view/1978352",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-22T00:12:00.000Z"
     },
     {
       "id": "15043f2090c792f0",
@@ -115,28 +115,6 @@
       "originallink": "https://www.news2day.co.kr/article/20260620500010",
       "provider": "뉴스 검색",
       "publishedAt": "2026-06-21T19:52:00.000Z"
-    },
-    {
-      "id": "5916339456b37f8c",
-      "keyword": "레메디",
-      "companyName": "레메디",
-      "title": "이번 주 매드업·레몬헬스케어 청약…신규 상장 없이 '숨고르기'",
-      "description": "이번 주(6월 22일~26일) 기업공개(IPO) 시장은 신규 상장 기업이 없는 가운데, 매드업과 레몬헬스케어가... 의료용 휴대용 엑스선 영상촬영장치 제조기업 레메디는 지난 17일 시작한 코스닥 상장 수요예측을 오는...",
-      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4421060",
-      "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4421060",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-21T04:06:00.000Z"
-    },
-    {
-      "id": "392136b84157b6e0",
-      "keyword": "레메디",
-      "companyName": "레메디",
-      "title": "6월 넷째 주 IPO 시장, 공모주 청약 2곳 예정…매드업·레몬헬스케어 출...",
-      "description": "6월 넷째 주 기업공개(IPO) 시장은 신규 상장 기업 없이 일반 공모주 청약 2곳과 수요예측 1곳이 진행된다.... 의료용 휴대형 엑스선 영상촬영장치 제조업체 레메디는 지난 17일부터 수요예측을 진행 중이며 오는 23일...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=583451",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=583451",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-20T10:16:00.000Z"
     },
     {
       "id": "357000ec938249fa",
@@ -194,37 +172,59 @@
       "publishedAt": "2026-06-10T22:02:00.000Z"
     },
     {
-      "id": "bb827deb6480b299",
-      "keyword": "에이치엘지노믹스",
-      "companyName": "에이치엘지노믹스",
-      "title": "'최근 6개월새 신규 예심청구 10건'…IPO앞두고 눈길 끄는 K·바이오기업...",
-      "description": "기업공개(IPO) 동향을 분석했다. 10곳 상장, 5곳 불발, 10곳 청구 팜이데일리가 최근 6개월 국내 제약·바이오... 더불어 지난 4월과 이달 새롭게 예심을 청구한 기업들은 △에이치엘지노믹스 △엠비디 △엠에스바이오...",
-      "link": "https://n.news.naver.com/mnews/article/018/0006287605?sid=101",
-      "originallink": "https://www.edaily.co.kr/news/newspath.asp?newsid=02929046645451544",
+      "id": "2a0e3291ecc1fa37",
+      "keyword": "딜리셔스",
+      "companyName": "딜리셔스",
+      "title": "[공시학개론] 공모주 관심있는 투자자라면…거래소 'KIND' 주목",
+      "description": "◇ IPO의 출발점… 공모기업 정보로 짚어보자 상장 준비 기업은 먼저 상장예비심사를 신청합니다.... 예를 들어 코스닥 시장에 상장예비심사신청서를 제출한 딜리셔스를 살펴볼까요. 이 회사는 지난 2월 25일에...",
+      "link": "https://www.ajunews.com/view/20260406150709006",
+      "originallink": "https://www.ajunews.com/view/20260406150709006",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-05-21T23:12:00.000Z"
+      "publishedAt": "2026-04-06T06:28:00.000Z"
     },
     {
       "id": "617bca4ff9b38465",
-      "keyword": "케이앤에스아이앤씨",
-      "companyName": "케이앤에스아이앤씨",
+      "keyword": "딜리셔스",
+      "companyName": "딜리셔스",
       "title": "[2026 1Q IPO 리그테이블] NH투자증권, 5년 만에 분기 대표주관 '1위'",
-      "description": "올해 1분기 기업공개(IPO) 시장은 '풍요 속 빈곤' 양상을 보였다. 상장 도전장을 낸 기업들은 공모주 투자... DB증권(해치텍)·IBK투자증권(케이앤에스아이앤씨)도 주관 대열에 합류할 준비를 하고 있다.",
+      "description": "올해 1분기 기업공개(IPO) 시장은 '풍요 속 빈곤' 양상을 보였다. 상장 도전장을 낸 기업들은 공모주 투자... 공모가 대비 300% 상승)'을 기록, 공모주 투자자들의 기대에 부응했다. 한국투자증권은 피지티·딜리셔스를...",
       "link": "https://www.the-stock.kr/news/articleView.html?idxno=32267",
       "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=32267",
       "provider": "뉴스 검색",
       "publishedAt": "2026-03-31T02:38:00.000Z"
     },
     {
-      "id": "8bc4c459afd6e556",
-      "keyword": "케이앤에스아이앤씨",
-      "companyName": "케이앤에스아이앤씨",
-      "title": "[더벨][KNS아이앤씨 IPO]가 몸값 가늠자…600억대 시총 노린다",
-      "description": "한국거래소는 IPO에 앞서 RCPS나 CB를 보통주로 전환할 것을 권고하고 있다. 이번 상장에서 KNS아이앤씨의 상장 예정 주식 수는 1026만882주다. 이 가운데 공모 예정 물량은 240만주로 상장 예정 주식 수의 약 23.3%에...",
-      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202601201251152080105245",
-      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202601201251152080105245",
+      "id": "7afec3689731e218",
+      "keyword": "딜리셔스",
+      "companyName": "딜리셔스",
+      "title": "중복상장 가이드라인에 IPO ‘개점휴업’…3월 케이뱅크로 분위기 반전...",
+      "description": "딜리셔스 두 곳만 예비심사를 신청했다. 연초 IPO 시장이 한산한 이유로 계절적 비수기와 중복상장 규제... 케이뱅크는 5일 코스피 상장을 앞두고 있다. 지난달 20일부터 2거래일간 일반 투자자를 대상으로 공모주...",
+      "link": "https://www.ekn.kr/web/view.php?key=20260303029254478",
+      "originallink": "https://www.ekn.kr/web/view.php?key=20260303029254478",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-01-21T23:08:00.000Z"
+      "publishedAt": "2026-03-03T07:46:00.000Z"
+    },
+    {
+      "id": "8fa826ce6c64eaba",
+      "keyword": "딜리셔스",
+      "companyName": "딜리셔스",
+      "title": "[유통가 투데이] SPC삼립, ‘보름달' 빵도 띠부씰 마케팅 外",
+      "description": "기업공개(IPO)를 결정하고, 1월 30일 코스닥 상장 준비를 위해 KB증권과 대표주관계약을 체결했다고 2일... 이마트24는 식비 부담을 덜어주기 위해 먹거리를 오전 6시부터 10시까지 할인가에 제공하는 ‘딜리셔스 모닝’과...",
+      "link": "https://it.chosun.com/site/data/html_dir/2023/02/02/2023020201802.html",
+      "originallink": "https://it.chosun.com/site/data/html_dir/2023/02/02/2023020201802.html",
+      "provider": "뉴스 검색",
+      "publishedAt": "2023-02-02T05:52:00.000Z"
+    },
+    {
+      "id": "3b9015c64bcbb149",
+      "keyword": "딜리셔스",
+      "companyName": "딜리셔스",
+      "title": "<장길수의 IT인사이드>(221) 러시아 `얀덱스`의 나스닥 상장",
+      "description": "IT업계와 금융계는 ‘얀덱스’의 나스닥 상장이 ‘링크드인’과 ‘렌렌’을 뛰어넘는 대형 기업공개(IPO)... 그녀는 현재 플릭커, 딜리셔스, 파워셋 등 IT업체에도 투자하고 있으며, 미트업, WPP그룹 등 기업의 이사회...",
+      "link": "https://n.news.naver.com/mnews/article/030/0002120854?sid=105",
+      "originallink": "http://www.etnews.co.kr/201105210002",
+      "provider": "뉴스 검색",
+      "publishedAt": "2011-05-21T14:12:00.000Z"
     }
   ]
 }

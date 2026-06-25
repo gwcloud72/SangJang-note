@@ -1,21 +1,109 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-06-24T23:34:47.617Z",
+    "updatedAt": "2026-06-25T23:27:33.011Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
-    "queryCount": 5
+    "queryCount": 6
   },
   "items": [
     {
-      "id": "da22dbd8c13accad",
+      "id": "279877d40730244a",
       "keyword": "레몬헬스케어",
       "companyName": "레몬헬스케어",
-      "title": "[공모주 현황] 레몬헬스케어 청약 1일차 종료, 균등·비례 경쟁률은?",
-      "description": "IPO 자료사진. AI가 생성한 이미지. 공모주 레몬헬스케어의 청약 1일차 일정이 24일 오후 4시경 종료됐다.... 레몬헬스케어의 공모가는 1만원이고 상장일은 7월 6일이다. 한편 공시에 따르면 레몬헬스케어는 실시간...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=584322",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=584322",
+      "title": "[더벨][레몬헬스케어 IPO] 의료데이터 성장 가능성 부각…증거금 3.7조 ...",
+      "description": "레몬헬스케어는 이번 상장을 통해 확보한 공모 자금을 신규 서비스 개발을 포함한 신사업 확장에 활용할 계획이다. 세부적으로는 의료 AI 학습용 데이터 유통·거래 플랫폼을 기반으로 2027년부터 신규 서비스 5종을...",
+      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202606251804418520108347",
+      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202606251804418520108347",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-06-24T07:06:00.000Z"
+      "publishedAt": "2026-06-25T23:02:00.000Z"
+    },
+    {
+      "id": "22fc4f67e8e8ce6c",
+      "keyword": "레몬헬스케어",
+      "companyName": "레몬헬스케어",
+      "title": "레몬헬스케어, IPO 청약경쟁률 1511대 1",
+      "description": "레몬헬스케어는 지난 15~19일 기관투자자 대상 수요예측을 경쟁률 1238대 1로 마감하며 공모가를 희망가 범위 상단인 1만원으로 확정했다. 금융감독원에 따르면 지난해 IPO 일반투자자 평균 청약경쟁률은 1106대 1로...",
+      "link": "https://n.news.naver.com/mnews/article/008/0005377330?sid=101",
+      "originallink": "https://www.mt.co.kr/stock/2026/06/25/2026062517114326515",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-25T08:28:00.000Z"
+    },
+    {
+      "id": "4fb0b78c30a4f3a7",
+      "keyword": "레몬헬스케어",
+      "companyName": "레몬헬스케어",
+      "title": "[공모주 마감] 레몬헬스케어 청약 2일차까지 마감됐다, 균등·비례 경쟁...",
+      "description": "IPO 자료사진. AI가 생성한 이미지. 공모주 레몬헬스케어의 청약 일정이 모두 종료됐다. 지난 24일에 이어... 레몬헬스케어는 기관투자자 수요예측에서 1238:1을 기록한 바 있다. 레몬헬스케어는 오는 7월 6일 상장...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=584618",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=584618",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-25T07:02:00.000Z"
+    },
+    {
+      "id": "78c17defefb5dc6c",
+      "keyword": "레메디",
+      "companyName": "레메디",
+      "title": "KB증권, 기술특례 IPO 잇단 주관…하반기 ECM 반등 채비",
+      "description": "공모 규모는 레몬헬스케어가 200억원, 레메디가 213억~248억원 수준이다. KB증권 입장에서는 기술특례상장 기업 3곳의 주관 경험을 통해 중소형 성장기업 IPO 시장에서 입지를 넓힐 수 있는 기회다. 공모주 투자심리가...",
+      "link": "http://www.press9.kr/news/articleView.html?idxno=78432",
+      "originallink": "http://www.press9.kr/news/articleView.html?idxno=78432",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-25T06:34:00.000Z"
+    },
+    {
+      "id": "d39aab74a07de3fd",
+      "keyword": "니어스랩",
+      "companyName": "니어스랩",
+      "title": "니어스랩, 코스닥 상장예비심사 승인…'피지컬 AI 드론 1호'로 연내 상장...",
+      "description": "피지컬 AI 드론 기업 니어스랩이 한국거래소로부터 코스닥 상장을 위한 예비심사 승인을 받았다. 이번 승인을 바탕으로 증권신고서 제출, 공모주 수요예측 및 일반 청약 등 본격적인 기업공개(IPO) 절차에 돌입하며...",
+      "link": "https://www.irobotnews.com/news/articleView.html?idxno=47097",
+      "originallink": "https://www.irobotnews.com/news/articleView.html?idxno=47097",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-25T05:56:00.000Z"
+    },
+    {
+      "id": "d54362d5b609a9b5",
+      "keyword": "레몬헬스케어",
+      "companyName": "레몬헬스케어",
+      "title": "[공모주 청약] 레몬헬스케어, 공모가 1만 원 확정…의료 마이데이터 플...",
+      "description": "IPO 자료사진. AI가 생성한 이미지. 디지털 헬스케어 플랫폼 기업 레몬헬스케어가 공모가를 1만 원으로 확정하고 오는 7월 6일 코스닥 시장에 상장한다. 기관투자자 대상 수요예측에서는 1238대 1의 경쟁률을 기록하며...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=584537",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=584537",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-25T01:06:00.000Z"
+    },
+    {
+      "id": "decd144e4df64851",
+      "keyword": "니어스랩",
+      "companyName": "니어스랩",
+      "title": "니어스랩, 피지컬 AI 드론으로 코스닥 예심 승인",
+      "description": "회사는 이번 승인을 바탕으로 증권신고서 제출, 공모주 수요예측, 일반 청약 등 기업공개(IPO) 절차에 들어가 연내 상장을 마무리할 계획이다. 상장주관사는 삼성증권이다. 니어스랩은 기술특례상장을 통해 코스닥...",
+      "link": "https://www.newspim.com/news/view/20260625000150",
+      "originallink": "https://www.newspim.com/news/view/20260625000150",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-24T23:49:00.000Z"
+    },
+    {
+      "id": "c7a813796cf3c39c",
+      "keyword": "니어스랩",
+      "companyName": "니어스랩",
+      "title": "니어스랩, 코스닥 기술특례상장 예비심사 승인",
+      "description": "니어스랩은 증권신고서 제출, 공모주 수요예측, 일반 청약 등 기업공개(IPO) 절차를 연내 마무리할 계획이다. 상장주관사는 삼성증권이다. 회사는 2000억원 이상 몸값을 목표로 정한 것으로 알려졌다. 이는 지난해 8월...",
+      "link": "https://n.news.naver.com/mnews/article/092/0002427941?sid=105",
+      "originallink": "https://zdnet.co.kr/view/?no=20260624212036",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-24T12:48:00.000Z"
+    },
+    {
+      "id": "25bda48cf383a621",
+      "keyword": "니어스랩",
+      "companyName": "니어스랩",
+      "title": "니어스랩, 코스닥 상장예심 통과… 연내 상장 추진",
+      "description": "회사는 이를 바탕으로 본격적인 기업공개(IPO) 절차에 들어가 연내 상장을 마무리할 계획이다. 니어스랩은 24일 예비심사를 통과했다고 밝혔다. 앞으로 증권신고서 제출과 공모주 수요예측, 일반 청약 등을 거치게 된다....",
+      "link": "https://platum.kr/archives/289755",
+      "originallink": "https://platum.kr/archives/289755",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-24T10:48:00.000Z"
     },
     {
       "id": "ec9f251bbff6e0da",
@@ -51,28 +139,6 @@
       "publishedAt": "2026-06-24T04:50:00.000Z"
     },
     {
-      "id": "7277ba6ae1a8fb7e",
-      "keyword": "레몬헬스케어",
-      "companyName": "레몬헬스케어",
-      "title": "[공모주 속보] 레몬헬스케어, 일반청약 돌입…공모가 상단 확정에 시장...",
-      "description": "기업공개(IPO) 일정에 따르면 레몬헬스케어의 일반청약은 24일부터 25일까지 이틀간 진행된다. 레몬헬스케어 공모가는 1만원이다. 대표 주관사는 KB증권이며, 상장 예정일은 7월 6일이다. 레몬헬스케어는 스마트병원 및...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=584213",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=584213",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-24T01:24:00.000Z"
-    },
-    {
-      "id": "b2d9a9bdcec394c5",
-      "keyword": "레몬헬스케어",
-      "companyName": "레몬헬스케어",
-      "title": "공모 흥행에도 주가는 '딴판'…IPO 수요예측과 상장 후 엇박자",
-      "description": "올해 5~6월 기업공개(IPO) 시장에서 수요예측은 흥행하지만 상장 후 주가는 공모가를 밑도는 사례가... 플랫폼 레몬헬스케어가 이번 주 나란히 공모가를 희망 밴드 상단에서 확정했다. 매드업은 지난 12~18일...",
-      "link": "https://www.newstopkorea.com/news/articleView.html?idxno=45751",
-      "originallink": "https://www.newstopkorea.com/news/articleView.html?idxno=45751",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-23T21:46:00.000Z"
-    },
-    {
       "id": "d5c4005795f60a90",
       "keyword": "레메디",
       "companyName": "레메디",
@@ -106,22 +172,11 @@
       "publishedAt": "2026-06-21T22:02:00.000Z"
     },
     {
-      "id": "8dc01e25d8f91cf5",
-      "keyword": "레메디",
-      "companyName": "레메디",
-      "title": "[IPO 워치] 매드업·레몬헬스케어 청약…레메디 수요예측 마무리",
-      "description": "이번 주(22~26일) 기업공개(IPO) 시장에서는 인공지능(AI) 디지털 마케팅 기업 매드업과 의료데이터 플랫폼 기업 레몬헬스케어가 일반투자자 대상 공모청약에 나선다. 포터블 엑스레이 전문기업 레메디는 기관투자자...",
-      "link": "https://www.news2day.co.kr/article/20260620500010",
-      "originallink": "https://www.news2day.co.kr/article/20260620500010",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-21T19:52:00.000Z"
-    },
-    {
       "id": "357000ec938249fa",
-      "keyword": "에이치엘지노믹스",
-      "companyName": "에이치엘지노믹스",
+      "keyword": "니어스랩",
+      "companyName": "니어스랩",
       "title": "[HL지노믹스 IPO] 공모 속도전…성장 가속페달 밟는다",
-      "description": "원료의약품(API) 전문기업 에이치엘지노믹스가 기업공개(IPO) 절차에 속도를 내고 있다. 코스닥 상장예비심사(예심) 통과 직후 증권신고서를 제출하며 공모 준비에 돌입했다. 전방산업 성장과 함께 찾아온 외연 확장...",
+      "description": "IPO) 절차에 속도를 내고 있다. 코스닥 상장예비심사(예심) 통과 직후 증권신고서를 제출하며 공모 준비에... 만에 공모를 마칠 수 있다. 올해 1분기 청구서를 낸 피지티·니어스랩 등이 아직도 승인받지 못한 것과...",
       "link": "https://www.the-stock.kr/news/articleView.html?idxno=32768",
       "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=32768",
       "provider": "뉴스 검색",

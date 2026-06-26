@@ -1,9 +1,9 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-06-25T23:27:33.011Z",
+    "updatedAt": "2026-06-26T23:38:48.767Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
-    "queryCount": 6
+    "queryCount": 8
   },
   "items": [
     {
@@ -16,6 +16,17 @@
       "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202606251804418520108347",
       "provider": "뉴스 검색",
       "publishedAt": "2026-06-25T23:02:00.000Z"
+    },
+    {
+      "id": "94e7ff45f8d6ecde",
+      "keyword": "기도산업",
+      "companyName": "기도산업",
+      "title": "브릴스, 코스닥 상장 예비심사 통과",
+      "description": "일반상장으로 ㈜브릴스, ㈜와이즈플래닛컴퍼니, ㈜기도산업 등 3개사에 대한 상장예비심사 결과... 이번 승인을 바탕으로 이들 기업들은 증권신고서 제출, 공모주 수요예측 및 일반 청약 등 본격적인 기업공개(IPO)...",
+      "link": "https://www.irobotnews.com/news/articleView.html?idxno=47105",
+      "originallink": "https://www.irobotnews.com/news/articleView.html?idxno=47105",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-25T13:08:00.000Z"
     },
     {
       "id": "22fc4f67e8e8ce6c",
@@ -227,6 +238,39 @@
       "publishedAt": "2026-06-10T22:02:00.000Z"
     },
     {
+      "id": "92a49a0bce2b2e92",
+      "keyword": "기도산업",
+      "companyName": "기도산업",
+      "title": "5월 공모주 시장 대형주 실종…중소형주에 투자 집중",
+      "description": "한국거래소 자료에 따르면, 4월에 상장 예비심사를 청구한 기업은 에이치엘지노믹스, 크리에이츠, 옵토닉스, 엠비디, 글로벌테크놀로지, 와이즈플래닛컴퍼니, 엠에스바이오, 브릴스, 기도산업, 네오사피엔스, 텔레픽스...",
+      "link": "https://www.junggi.co.kr/news/articleView.html?idxno=36401",
+      "originallink": "https://www.junggi.co.kr/news/articleView.html?idxno=36401",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-05-12T05:22:00.000Z"
+    },
+    {
+      "id": "be20ef59d00fedb1",
+      "keyword": "기도산업",
+      "companyName": "기도산업",
+      "title": "\"결산 시즌 끝났다\"…4월 IPO 시장, 예비심사 청구 '봇물'",
+      "description": "4월 이후 예비심사를 청구한 기업은 △22일 네오사피엔스 △21일 기도산업 △16일 브릴스, 엠에스바이오... 본격적인 공모주 청약 시즌이 돌아올 전망이다. IPO 업계 관계자는 \"최근 기술특례상장 기업들도 더 많이...",
+      "link": "https://www.ajunews.com/view/20260424170737112",
+      "originallink": "https://www.ajunews.com/view/20260424170737112",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-04-24T08:40:00.000Z"
+    },
+    {
+      "id": "1d739b73805e936d",
+      "keyword": "해치텍",
+      "companyName": "해치텍",
+      "title": "[더벨][해치텍 IPO] 최대주주 40%대 지배력…단기 오버행 우려 제한적",
+      "description": "프리IPO 투자를 유치했다. DB증권은 이중 RCPS 7만주를 약 10억원에 취득했고, 이후 전환 과정을 통해 보통주... 이에 해치텍의 상장 직후 유통 가능 물량은 기존 투자자 출회 물량 일부 및 공모주 100만주를 중심으로...",
+      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202604061336056040103516",
+      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202604061336056040103516",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-04-07T22:02:00.000Z"
+    },
+    {
       "id": "2a0e3291ecc1fa37",
       "keyword": "딜리셔스",
       "companyName": "딜리셔스",
@@ -238,11 +282,22 @@
       "publishedAt": "2026-04-06T06:28:00.000Z"
     },
     {
+      "id": "286e116cb3ec5fc5",
+      "keyword": "해치텍",
+      "companyName": "해치텍",
+      "title": "1분기 신규상장 9곳 그쳐…공모 흥행에도 기업은 ‘타이밍’ 재는 중[월...",
+      "description": "올해 1분기 기업공개(IPO) 시장은 상장 건수가 크게 줄며 위축된 모습을 보였다. 다만 실제 증시에 입성한 기업은 대체로 흥행에 성공해 공모주 투자 열기는 이어졌다. 시장에서는 공모 수요는 살아있지만 중복상장...",
+      "link": "https://www.ekn.kr/web/view.php?key=20260401021583162",
+      "originallink": "https://www.ekn.kr/web/view.php?key=20260401021583162",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-04-01T05:04:00.000Z"
+    },
+    {
       "id": "617bca4ff9b38465",
-      "keyword": "딜리셔스",
-      "companyName": "딜리셔스",
+      "keyword": "해치텍",
+      "companyName": "해치텍",
       "title": "[2026 1Q IPO 리그테이블] NH투자증권, 5년 만에 분기 대표주관 '1위'",
-      "description": "올해 1분기 기업공개(IPO) 시장은 '풍요 속 빈곤' 양상을 보였다. 상장 도전장을 낸 기업들은 공모주 투자... 공모가 대비 300% 상승)'을 기록, 공모주 투자자들의 기대에 부응했다. 한국투자증권은 피지티·딜리셔스를...",
+      "description": "올해 1분기 기업공개(IPO) 시장은 '풍요 속 빈곤' 양상을 보였다. 상장 도전장을 낸 기업들은 공모주 투자... 파워큐브세미의 상장예심 청구서를 내며 기지개를 켜고 있다. DB증권(해치텍)·IBK투자증권...",
       "link": "https://www.the-stock.kr/news/articleView.html?idxno=32267",
       "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=32267",
       "provider": "뉴스 검색",
@@ -258,6 +313,28 @@
       "originallink": "https://www.ekn.kr/web/view.php?key=20260303029254478",
       "provider": "뉴스 검색",
       "publishedAt": "2026-03-03T07:46:00.000Z"
+    },
+    {
+      "id": "06321a29ddd1b3d1",
+      "keyword": "기도산업",
+      "companyName": "기도산업",
+      "title": "[Who Is ?] 노영백 우주일렉트로닉스 대표이사",
+      "description": "자동차산업 전동화에 따른 글로벌 시장 개척에 관심을 두고 있다. 1949년 8월17일 태어났다. 한양대학교... 당시 상장·등록예비기업들이 기업공개(IPO) 공모를 위해 제출한 유가증권신고서가 대표 주관회사(옛...",
+      "link": "https://www.businesspost.co.kr/BP?command=article_view&num=424013",
+      "originallink": "https://www.businesspost.co.kr/BP?command=article_view&num=424013",
+      "provider": "뉴스 검색",
+      "publishedAt": "2025-12-17T22:04:00.000Z"
+    },
+    {
+      "id": "60677e295a89f723",
+      "keyword": "기도산업",
+      "companyName": "기도산업",
+      "title": "메트로경제 12월26일 한줄뉴스",
+      "description": "참석해 기도를 하고 있다. /뉴시스 ▲에스케이오션플랜트가 하도급 계약서면 발급 의무를 위반해... 기업공개(IPO) 주관 실적 1위를 차지했다. 하반기 들어 국내 주식시장이 부진한 모습을 보이면서 공모주 시장도 한파를...",
+      "link": "http://www.metroseoul.co.kr/article/20241225500198",
+      "originallink": "http://www.metroseoul.co.kr/article/20241225500198",
+      "provider": "뉴스 검색",
+      "publishedAt": "2024-12-25T22:00:00.000Z"
     },
     {
       "id": "8fa826ce6c64eaba",

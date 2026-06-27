@@ -1,11 +1,55 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-06-26T23:38:48.767Z",
+    "updatedAt": "2026-06-27T23:12:32.641Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 8
   },
   "items": [
+    {
+      "id": "fe283f3c458c3b5d",
+      "keyword": "에이치엘지노믹스",
+      "companyName": "에이치엘지노믹스",
+      "title": "[이번주 IPO]7월 첫째 주 수요예측·청약 일정",
+      "description": "이달(7월) 첫째 주에는 에이치엘지노믹스가 기관투자자 대상 수요예측을 진행한다. 레메디는 일반... 상장 주관사는 KB증권, IBK투자증권이 맡았다. <일반청약> ◆레메디= 공모가를 희망 밴드 상단인 2만700원으로...",
+      "link": "https://n.news.naver.com/mnews/article/277/0005782223?sid=101",
+      "originallink": "https://view.asiae.co.kr/article/2026062709203924091",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-27T23:00:00.000Z"
+    },
+    {
+      "id": "3e565837f8199e5a",
+      "keyword": "레메디",
+      "companyName": "레메디",
+      "title": "이번주 공모주 청약, 레메디 1개사",
+      "description": "첫째 주(29일~7월 3일) 기업공개(IPO) 시장에서는 의료용 기기 제조기업 레메디가 일반투자자 대상 공모주... 코스닥 상장을 추진 중인 레메디는 지난 17일부터 23일까지 국내외 기관투자자를 대상으로 수요예측을...",
+      "link": "https://n.news.naver.com/mnews/article/119/0003105374?sid=101",
+      "originallink": "https://www.dailian.co.kr/news/view/1660360/?sc=Naver",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-27T23:00:00.000Z"
+    },
+    {
+      "id": "0496893c76fd4f08",
+      "keyword": "에이치엘지노믹스",
+      "companyName": "에이치엘지노믹스",
+      "title": "[IPO챗] 7월 첫째주 3곳 상장…청약·수요예측 각 1곳",
+      "description": "공모가는 희망 공모가액(1만7천800∼2만700원)의 상단인 2만700원으로 확정됐다. 상장 예정일은 다음 달 13일이다. 기초 의약물질 제조기업 에이치엘지노믹스는 오는 7월 2∼8일 수요예측을 진행한다....",
+      "link": "https://n.news.naver.com/mnews/article/001/0016162329?sid=101",
+      "originallink": "https://www.yna.co.kr/view/AKR20260626099600008?input=1195m",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-27T00:00:00.000Z"
+    },
+    {
+      "id": "17eb5464c1b18bb6",
+      "keyword": "에이치엘지노믹스",
+      "companyName": "에이치엘지노믹스",
+      "title": "[주간 IPO] 져스텍·스트라드비젼·매드업 줄상장…레메디 청약 돌입",
+      "description": "수요예측은 에이치엘지노믹스가 7월 2~8일 실시한다. 상장 첫 테이프는 초정밀 모션제어 기업 져스텍이 끊는다. 져스텍은 기관 수요예측에서 2252개 기관이 참여해 1295대 1의 경쟁률을 기록했고, 공모가는...",
+      "link": "https://www.etoday.co.kr/news/view/2597480",
+      "originallink": "https://www.etoday.co.kr/news/view/2597480",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-27T00:00:00.000Z"
+    },
     {
       "id": "279877d40730244a",
       "keyword": "레몬헬스케어",
@@ -117,17 +161,6 @@
       "publishedAt": "2026-06-24T10:48:00.000Z"
     },
     {
-      "id": "ec9f251bbff6e0da",
-      "keyword": "레메디",
-      "companyName": "레메디",
-      "title": "[장외시황] 레몬헬스케어, 공모주 청약 시작",
-      "description": "공모가는 희망범위 상단인 1만원으로 확정됐으며, 주관사는 KB증권이다. 24일 비상장 주식 시장은 상승했다. IPO(기업공개)관련 상장 예비심사 청구 종목으로 특수 목적용 항법 및 항재밍 토탈 솔루션 전문업체...",
-      "link": "https://www.etoday.co.kr/news/view/2596866",
-      "originallink": "https://www.etoday.co.kr/news/view/2596866",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-24T06:54:00.000Z"
-    },
-    {
       "id": "26685c69217d634b",
       "keyword": "에이치엘지노믹스",
       "companyName": "에이치엘지노믹스",
@@ -150,17 +183,6 @@
       "publishedAt": "2026-06-24T04:50:00.000Z"
     },
     {
-      "id": "d5c4005795f60a90",
-      "keyword": "레메디",
-      "companyName": "레메디",
-      "title": "IPO 반전 노리는 KB증권, 기술특례 첫 타자 '빨간불'",
-      "description": "레몬헬스케어와 레메디는 각각 24~25일, 다음 달 1~2일 일반 청약을 진행한다. 공모 규모는 각각 150억~200억원, 213억~248억원 수준이다. KB증권의 올해 IPO 주관 공모 총액은 1261억 수준이다. 지난해 2조823억원 규모의 주관...",
-      "link": "https://n.news.naver.com/mnews/article/031/0001036878?sid=101",
-      "originallink": "http://www.inews24.com/view/1978810",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-23T01:40:00.000Z"
-    },
-    {
       "id": "dc77c9c3c8a20502",
       "keyword": "에이치엘지노믹스",
       "companyName": "에이치엘지노믹스",
@@ -170,17 +192,6 @@
       "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=32783",
       "provider": "뉴스 검색",
       "publishedAt": "2026-06-22T04:08:00.000Z"
-    },
-    {
-      "id": "15043f2090c792f0",
-      "keyword": "레메디",
-      "companyName": "레메디",
-      "title": "[더벨][thebell interview] 레메디 \"단순 엑스레이 넘어 AI 접목, 일부는...",
-      "description": "더벨은 IPO를 위한 기자간담회 현장에서 조봉호 레메디 대표(사진)를 만나 AX 솔루션 사업화 현황을 들어봤다. ◇상장 노리는 레메디, 공모자금 활용해 글로벌 영토 확장 레메디는 2012년 설립된 방사선 원천 기술 기반...",
-      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202606191600483160102014",
-      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202606191600483160102014",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-21T22:02:00.000Z"
     },
     {
       "id": "357000ec938249fa",
@@ -214,17 +225,6 @@
       "originallink": "https://www.sisajournal-e.com/news/articleView.html?idxno=421804",
       "provider": "뉴스 검색",
       "publishedAt": "2026-06-17T07:46:00.000Z"
-    },
-    {
-      "id": "d628683c99751f46",
-      "keyword": "에이치엘지노믹스",
-      "companyName": "에이치엘지노믹스",
-      "title": "코스닥 훈풍 타고...K제약·바이오 IPO '재점화'",
-      "description": "기업공개(IPO)에 나서며 코스닥 시장에 활기를 불어넣고 있다. 17일 업계에 따르면 코스닥 상장을 준비 중인 원료의약품(API) 전문기업 에이치엘지노믹스가 최근 금융위원회에 증권신고서를 제출하고 공모 절차에...",
-      "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1712881",
-      "originallink": "https://www.ebn.co.kr/news/articleView.html?idxno=1712881",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-17T05:40:00.000Z"
     },
     {
       "id": "b4cf63b4bafac5ae",

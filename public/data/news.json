@@ -1,21 +1,65 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-06-27T23:12:32.641Z",
+    "updatedAt": "2026-06-28T23:35:48.721Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 8
   },
   "items": [
     {
-      "id": "fe283f3c458c3b5d",
+      "id": "fcd2541449fc4fae",
+      "keyword": "레메디",
+      "companyName": "레메디",
+      "title": "기지개 켜는 코스닥 IPO…AI·자율주행 등 3개社 줄줄이 입성 [이번주 증...",
+      "description": "6월 마지막 주와 7월 첫째 주가 맞물리는 이번주 기업공개(IPO) 시장에서는 신규 상장 3곳과 공모주 청약... 시장에 상장한다. 같은 기간 의료용 휴대용 엑스레이 장비 업체 레메디는 일반청약을 진행한다. 져스텍은...",
+      "link": "https://n.news.naver.com/mnews/article/011/0004635828?sid=101",
+      "originallink": "https://www.sedaily.com/article/20060979?ref=naver",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-28T21:01:00.000Z"
+    },
+    {
+      "id": "3c41e738309473b6",
       "keyword": "에이치엘지노믹스",
       "companyName": "에이치엘지노믹스",
-      "title": "[이번주 IPO]7월 첫째 주 수요예측·청약 일정",
-      "description": "이달(7월) 첫째 주에는 에이치엘지노믹스가 기관투자자 대상 수요예측을 진행한다. 레메디는 일반... 상장 주관사는 KB증권, IBK투자증권이 맡았다. <일반청약> ◆레메디= 공모가를 희망 밴드 상단인 2만700원으로...",
-      "link": "https://n.news.naver.com/mnews/article/277/0005782223?sid=101",
-      "originallink": "https://view.asiae.co.kr/article/2026062709203924091",
+      "title": "[주간경제전망]'코스닥 30주년'…외환시장은 24시간 개장 시범 거래 돌입",
+      "description": "코스닥 상장을 위한 기관투자자 대상 수예 예측을 진행한다. 에이치엘지노믹스는 6월16일 금융위원회에 증권신고서를 제출하고 본격적인 IPO(기업공개) 절차에 돌입한 바 있다. 총 공모주식수는 256만5000주, 희망...",
+      "link": "https://n.news.naver.com/mnews/article/417/0001149342?sid=101",
+      "originallink": "https://www.sidae.com/article/2026062616161078076",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-06-27T23:00:00.000Z"
+      "publishedAt": "2026-06-28T20:00:00.000Z"
+    },
+    {
+      "id": "c63341a276b27fe0",
+      "keyword": "에이치엘지노믹스",
+      "companyName": "에이치엘지노믹스",
+      "title": "[IPO 워치] 져스텍·스트라드비젼·매드업 상장…청약·수요예측 각 1곳",
+      "description": "앞서 진행한 기관 수요예측에서는 경쟁률 1146.41대 1을 기록했으며, 공모가는 희망 범위(1만7800~2만700원) 상단인 2만700원으로 확정됐다. 상장 주관사는 KB증권이다. 에이치엘지노믹스는 내달 2일부터 8일까지...",
+      "link": "https://www.news2day.co.kr/article/20260628500034",
+      "originallink": "https://www.news2day.co.kr/article/20260628500034",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-28T19:44:00.000Z"
+    },
+    {
+      "id": "24f2b98898aacc9d",
+      "keyword": "에이치엘지노믹스",
+      "companyName": "에이치엘지노믹스",
+      "title": "이번 주 져스텍·스트라드비젼·매드업 코스닥 등 3곳 입성…IPO 기지개",
+      "description": "원료의약품(API) 전문기업 에이치엘지노믹스는 다음달 2일부터 8일까지 기관 투자자를 대상으로 한 수요예측을 진행한다. 상장 주관사는 KB증권이 맡았으며, 희망 공모가 밴드는 1만8천500~2만1천500원이다....",
+      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4422215",
+      "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4422215",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-28T04:06:00.000Z"
+    },
+    {
+      "id": "78b795a985b6b9e1",
+      "keyword": "에이치엘지노믹스",
+      "companyName": "에이치엘지노믹스",
+      "title": "스트라드비젼·져스텍·매드업 상장[증시캘린더]",
+      "description": "이번 주(6월 29~7월 3일) 기업공개(IPO) 시장에서는 스트라드비젼·져스텍·매드업이 코스닥 상장에 나선다. 레메디는 공모 청약을, 에이치엘지노믹스는 수요예측을 실시한다. ◇6월 29일 △져스텍 코스닥 상장...",
+      "link": "https://n.news.naver.com/mnews/article/018/0006316888?sid=101",
+      "originallink": "https://www.edaily.co.kr/news/newspath.asp?newsid=01216886645486312",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-28T00:01:00.000Z"
     },
     {
       "id": "3e565837f8199e5a",
@@ -29,26 +73,15 @@
       "publishedAt": "2026-06-27T23:00:00.000Z"
     },
     {
-      "id": "0496893c76fd4f08",
+      "id": "fe283f3c458c3b5d",
       "keyword": "에이치엘지노믹스",
       "companyName": "에이치엘지노믹스",
-      "title": "[IPO챗] 7월 첫째주 3곳 상장…청약·수요예측 각 1곳",
-      "description": "공모가는 희망 공모가액(1만7천800∼2만700원)의 상단인 2만700원으로 확정됐다. 상장 예정일은 다음 달 13일이다. 기초 의약물질 제조기업 에이치엘지노믹스는 오는 7월 2∼8일 수요예측을 진행한다....",
-      "link": "https://n.news.naver.com/mnews/article/001/0016162329?sid=101",
-      "originallink": "https://www.yna.co.kr/view/AKR20260626099600008?input=1195m",
+      "title": "[이번주 IPO]7월 첫째 주 수요예측·청약 일정",
+      "description": "이달(7월) 첫째 주에는 에이치엘지노믹스가 기관투자자 대상 수요예측을 진행한다. 레메디는 일반... 상장 주관사는 KB증권, IBK투자증권이 맡았다. <일반청약> ◆레메디= 공모가를 희망 밴드 상단인 2만700원으로...",
+      "link": "https://n.news.naver.com/mnews/article/277/0005782223?sid=101",
+      "originallink": "https://view.asiae.co.kr/article/2026062709203924091",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-06-27T00:00:00.000Z"
-    },
-    {
-      "id": "17eb5464c1b18bb6",
-      "keyword": "에이치엘지노믹스",
-      "companyName": "에이치엘지노믹스",
-      "title": "[주간 IPO] 져스텍·스트라드비젼·매드업 줄상장…레메디 청약 돌입",
-      "description": "수요예측은 에이치엘지노믹스가 7월 2~8일 실시한다. 상장 첫 테이프는 초정밀 모션제어 기업 져스텍이 끊는다. 져스텍은 기관 수요예측에서 2252개 기관이 참여해 1295대 1의 경쟁률을 기록했고, 공모가는...",
-      "link": "https://www.etoday.co.kr/news/view/2597480",
-      "originallink": "https://www.etoday.co.kr/news/view/2597480",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-27T00:00:00.000Z"
+      "publishedAt": "2026-06-27T23:00:00.000Z"
     },
     {
       "id": "279877d40730244a",
@@ -96,8 +129,8 @@
     },
     {
       "id": "78c17defefb5dc6c",
-      "keyword": "레메디",
-      "companyName": "레메디",
+      "keyword": "레몬헬스케어",
+      "companyName": "레몬헬스케어",
       "title": "KB증권, 기술특례 IPO 잇단 주관…하반기 ECM 반등 채비",
       "description": "공모 규모는 레몬헬스케어가 200억원, 레메디가 213억~248억원 수준이다. KB증권 입장에서는 기술특례상장 기업 3곳의 주관 경험을 통해 중소형 성장기업 IPO 시장에서 입지를 넓힐 수 있는 기회다. 공모주 투자심리가...",
       "link": "http://www.press9.kr/news/articleView.html?idxno=78432",
@@ -161,17 +194,6 @@
       "publishedAt": "2026-06-24T10:48:00.000Z"
     },
     {
-      "id": "26685c69217d634b",
-      "keyword": "에이치엘지노믹스",
-      "companyName": "에이치엘지노믹스",
-      "title": "주가는 약세지만 상장 도전 계속…제약·바이오 IPO 대기열 길어진다",
-      "description": "상장 종목의 투자심리는 식었지만, 기업공개(IPO) 시장에서는 헬스케어 기업들의 증시 입성 시도가... 원료의약품(API) 전문기업 에이치엘지노믹스도 코스닥 상장 공모 절차에 들어갔다. 2000년 설립된...",
-      "link": "https://n.news.naver.com/mnews/article/296/0000101873?sid=101",
-      "originallink": "https://kormedi.com/?p=2828027",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-24T06:09:00.000Z"
-    },
-    {
       "id": "948047c5bcfa5c6e",
       "keyword": "케이앤에스아이앤씨",
       "companyName": "케이앤에스아이앤씨",
@@ -181,17 +203,6 @@
       "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=32800",
       "provider": "뉴스 검색",
       "publishedAt": "2026-06-24T04:50:00.000Z"
-    },
-    {
-      "id": "dc77c9c3c8a20502",
-      "keyword": "에이치엘지노믹스",
-      "companyName": "에이치엘지노믹스",
-      "title": "[HL지노믹스 IPO] 모회사 의존도 높다? 성장 여력 '이상 무'",
-      "description": "에이치엘지노믹스 공모를 앞두고 모회사 한림제약 의존도에 투자자 시선이 쏠리고 있다. 성장 기반이 되는... 없다\"며 \"에이치엘지노믹스의 경우 기존 사업에 더해 상장 이후 추가 성장 동력을 마련하기 위한 구체적인...",
-      "link": "https://www.the-stock.kr/news/articleView.html?idxno=32783",
-      "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=32783",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-22T04:08:00.000Z"
     },
     {
       "id": "357000ec938249fa",

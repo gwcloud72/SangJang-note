@@ -1,11 +1,66 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-06-28T23:35:48.721Z",
+    "updatedAt": "2026-06-29T23:28:58.161Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
-    "queryCount": 8
+    "queryCount": 7
   },
   "items": [
+    {
+      "id": "1e6851d1a34f1960",
+      "keyword": "에이치엘지노믹스",
+      "companyName": "에이치엘지노믹스",
+      "title": "지수는 웃었지만 공모주는 울었다...열에 여덟 공모가 밑돌아",
+      "description": "하반기에는 바이오 기업들의 상장이 잇따를 예정인 만큼 IPO 시장 회복 여부에 관심이 쏠린다. 레몬헬스케어와 레메디, 에이치엘지노믹스 등 헬스케어·의료기기·원료의약품 기업을 비롯해 인제니아테라퓨틱스와...",
+      "link": "https://www.greened.kr/news/articleView.html?idxno=343662",
+      "originallink": "https://www.greened.kr/news/articleView.html?idxno=343662",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-29T08:08:00.000Z"
+    },
+    {
+      "id": "d6f4debe66e1f585",
+      "keyword": "니어스랩",
+      "companyName": "니어스랩",
+      "title": "[THE COMPASS] 니어스랩 IPO, FI 약정 수익과 공모가 ‘기묘한 일치’",
+      "description": "본격적인 상장 절차에 돌입했다. 투자자 설득을 통해 자본잠식에서 벗어난 만큼 성공적인 기업공개(IPO)가... 올해 니어스랩이 상장에 성공한다고 가정하면 공모가 하단은 최소 약 2만9000원(2만2000원, 4년 7% 복리 적용)...",
+      "link": "http://www.fntimes.com/html/view.php?ud=202606291608204321a837df6494_18",
+      "originallink": "http://www.fntimes.com/html/view.php?ud=202606291608204321a837df6494_18",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-29T07:22:00.000Z"
+    },
+    {
+      "id": "ae875f869ac3deb9",
+      "keyword": "니어스랩",
+      "companyName": "니어스랩",
+      "title": "7월에도 쉬어가는 IPO 시장…얼어붙은 투심, 언제 녹을까",
+      "description": "(23~29일) ▲니어스랩(27~31일) 등이 수요예측을 마무리한다. 일반청약의 경우 ▲레메디(1~2일)... 주가가 공모가를 밑도는 사례도 적지 않다는 지적이 나온다. 시장에서는 중복상장 가이드라인이 발표되면 IPO를...",
+      "link": "https://n.news.naver.com/mnews/article/088/0001016647?sid=101",
+      "originallink": "https://www.imaeil.com/page/view/2026062910113981353",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-29T01:15:00.000Z"
+    },
+    {
+      "id": "842dfa7493c2b60e",
+      "keyword": "레메디",
+      "companyName": "레메디",
+      "title": "이번주 공모주 청약, 레메디 1개사 나선다... 주관사 KB증권",
+      "description": "이번주 기업공개(IPO) 시장에서는 의료용 기기 제조기업 레메디가 일반투자자 대상 공모주 청약에 나선다.... 평가해 준 투자자들에게 감사드린다\"며 \"코스닥 상장을 계기로 의료 현장에서 필요한 X-ray 솔루션을...",
+      "link": "https://n.news.naver.com/mnews/article/123/0002385539?sid=101",
+      "originallink": "http://www.joseilbo.com/news/news_read.php?uid=570883&class=53&grp=",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-29T00:01:00.000Z"
+    },
+    {
+      "id": "30d62debf3db5431",
+      "keyword": "에이치엘지노믹스",
+      "companyName": "에이치엘지노믹스",
+      "title": "져스텍·스트라드비젼·매드업 상장⋯HL지노믹스 수요예측",
+      "description": "이번 주(6월29일~7월3일) 기업공개(IPO) 시장에서는 져스텍, 스트라드비젼, 매드업이 신규 상장한다. 에이치엘지노믹스와 레메디는 각각 수요예측과 일반 공모 청약을 진행할 예정이다. 29일 금융투자업계에 따르면...",
+      "link": "https://n.news.naver.com/mnews/article/031/0001038137?sid=101",
+      "originallink": "http://www.inews24.com/view/1980380",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-28T23:51:00.000Z"
+    },
     {
       "id": "fcd2541449fc4fae",
       "keyword": "레메디",
@@ -40,61 +95,6 @@
       "publishedAt": "2026-06-28T19:44:00.000Z"
     },
     {
-      "id": "24f2b98898aacc9d",
-      "keyword": "에이치엘지노믹스",
-      "companyName": "에이치엘지노믹스",
-      "title": "이번 주 져스텍·스트라드비젼·매드업 코스닥 등 3곳 입성…IPO 기지개",
-      "description": "원료의약품(API) 전문기업 에이치엘지노믹스는 다음달 2일부터 8일까지 기관 투자자를 대상으로 한 수요예측을 진행한다. 상장 주관사는 KB증권이 맡았으며, 희망 공모가 밴드는 1만8천500~2만1천500원이다....",
-      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4422215",
-      "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4422215",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-28T04:06:00.000Z"
-    },
-    {
-      "id": "78b795a985b6b9e1",
-      "keyword": "에이치엘지노믹스",
-      "companyName": "에이치엘지노믹스",
-      "title": "스트라드비젼·져스텍·매드업 상장[증시캘린더]",
-      "description": "이번 주(6월 29~7월 3일) 기업공개(IPO) 시장에서는 스트라드비젼·져스텍·매드업이 코스닥 상장에 나선다. 레메디는 공모 청약을, 에이치엘지노믹스는 수요예측을 실시한다. ◇6월 29일 △져스텍 코스닥 상장...",
-      "link": "https://n.news.naver.com/mnews/article/018/0006316888?sid=101",
-      "originallink": "https://www.edaily.co.kr/news/newspath.asp?newsid=01216886645486312",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-28T00:01:00.000Z"
-    },
-    {
-      "id": "3e565837f8199e5a",
-      "keyword": "레메디",
-      "companyName": "레메디",
-      "title": "이번주 공모주 청약, 레메디 1개사",
-      "description": "첫째 주(29일~7월 3일) 기업공개(IPO) 시장에서는 의료용 기기 제조기업 레메디가 일반투자자 대상 공모주... 코스닥 상장을 추진 중인 레메디는 지난 17일부터 23일까지 국내외 기관투자자를 대상으로 수요예측을...",
-      "link": "https://n.news.naver.com/mnews/article/119/0003105374?sid=101",
-      "originallink": "https://www.dailian.co.kr/news/view/1660360/?sc=Naver",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-27T23:00:00.000Z"
-    },
-    {
-      "id": "fe283f3c458c3b5d",
-      "keyword": "에이치엘지노믹스",
-      "companyName": "에이치엘지노믹스",
-      "title": "[이번주 IPO]7월 첫째 주 수요예측·청약 일정",
-      "description": "이달(7월) 첫째 주에는 에이치엘지노믹스가 기관투자자 대상 수요예측을 진행한다. 레메디는 일반... 상장 주관사는 KB증권, IBK투자증권이 맡았다. <일반청약> ◆레메디= 공모가를 희망 밴드 상단인 2만700원으로...",
-      "link": "https://n.news.naver.com/mnews/article/277/0005782223?sid=101",
-      "originallink": "https://view.asiae.co.kr/article/2026062709203924091",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-27T23:00:00.000Z"
-    },
-    {
-      "id": "279877d40730244a",
-      "keyword": "레몬헬스케어",
-      "companyName": "레몬헬스케어",
-      "title": "[더벨][레몬헬스케어 IPO] 의료데이터 성장 가능성 부각…증거금 3.7조 ...",
-      "description": "레몬헬스케어는 이번 상장을 통해 확보한 공모 자금을 신규 서비스 개발을 포함한 신사업 확장에 활용할 계획이다. 세부적으로는 의료 AI 학습용 데이터 유통·거래 플랫폼을 기반으로 2027년부터 신규 서비스 5종을...",
-      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202606251804418520108347",
-      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202606251804418520108347",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-25T23:02:00.000Z"
-    },
-    {
       "id": "94e7ff45f8d6ecde",
       "keyword": "기도산업",
       "companyName": "기도산업",
@@ -106,39 +106,6 @@
       "publishedAt": "2026-06-25T13:08:00.000Z"
     },
     {
-      "id": "22fc4f67e8e8ce6c",
-      "keyword": "레몬헬스케어",
-      "companyName": "레몬헬스케어",
-      "title": "레몬헬스케어, IPO 청약경쟁률 1511대 1",
-      "description": "레몬헬스케어는 지난 15~19일 기관투자자 대상 수요예측을 경쟁률 1238대 1로 마감하며 공모가를 희망가 범위 상단인 1만원으로 확정했다. 금융감독원에 따르면 지난해 IPO 일반투자자 평균 청약경쟁률은 1106대 1로...",
-      "link": "https://n.news.naver.com/mnews/article/008/0005377330?sid=101",
-      "originallink": "https://www.mt.co.kr/stock/2026/06/25/2026062517114326515",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-25T08:28:00.000Z"
-    },
-    {
-      "id": "4fb0b78c30a4f3a7",
-      "keyword": "레몬헬스케어",
-      "companyName": "레몬헬스케어",
-      "title": "[공모주 마감] 레몬헬스케어 청약 2일차까지 마감됐다, 균등·비례 경쟁...",
-      "description": "IPO 자료사진. AI가 생성한 이미지. 공모주 레몬헬스케어의 청약 일정이 모두 종료됐다. 지난 24일에 이어... 레몬헬스케어는 기관투자자 수요예측에서 1238:1을 기록한 바 있다. 레몬헬스케어는 오는 7월 6일 상장...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=584618",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=584618",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-25T07:02:00.000Z"
-    },
-    {
-      "id": "78c17defefb5dc6c",
-      "keyword": "레몬헬스케어",
-      "companyName": "레몬헬스케어",
-      "title": "KB증권, 기술특례 IPO 잇단 주관…하반기 ECM 반등 채비",
-      "description": "공모 규모는 레몬헬스케어가 200억원, 레메디가 213억~248억원 수준이다. KB증권 입장에서는 기술특례상장 기업 3곳의 주관 경험을 통해 중소형 성장기업 IPO 시장에서 입지를 넓힐 수 있는 기회다. 공모주 투자심리가...",
-      "link": "http://www.press9.kr/news/articleView.html?idxno=78432",
-      "originallink": "http://www.press9.kr/news/articleView.html?idxno=78432",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-25T06:34:00.000Z"
-    },
-    {
       "id": "d39aab74a07de3fd",
       "keyword": "니어스랩",
       "companyName": "니어스랩",
@@ -148,17 +115,6 @@
       "originallink": "https://www.irobotnews.com/news/articleView.html?idxno=47097",
       "provider": "뉴스 검색",
       "publishedAt": "2026-06-25T05:56:00.000Z"
-    },
-    {
-      "id": "d54362d5b609a9b5",
-      "keyword": "레몬헬스케어",
-      "companyName": "레몬헬스케어",
-      "title": "[공모주 청약] 레몬헬스케어, 공모가 1만 원 확정…의료 마이데이터 플...",
-      "description": "IPO 자료사진. AI가 생성한 이미지. 디지털 헬스케어 플랫폼 기업 레몬헬스케어가 공모가를 1만 원으로 확정하고 오는 7월 6일 코스닥 시장에 상장한다. 기관투자자 대상 수요예측에서는 1238대 1의 경쟁률을 기록하며...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=584537",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=584537",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-25T01:06:00.000Z"
     },
     {
       "id": "decd144e4df64851",
@@ -183,17 +139,6 @@
       "publishedAt": "2026-06-24T12:48:00.000Z"
     },
     {
-      "id": "25bda48cf383a621",
-      "keyword": "니어스랩",
-      "companyName": "니어스랩",
-      "title": "니어스랩, 코스닥 상장예심 통과… 연내 상장 추진",
-      "description": "회사는 이를 바탕으로 본격적인 기업공개(IPO) 절차에 들어가 연내 상장을 마무리할 계획이다. 니어스랩은 24일 예비심사를 통과했다고 밝혔다. 앞으로 증권신고서 제출과 공모주 수요예측, 일반 청약 등을 거치게 된다....",
-      "link": "https://platum.kr/archives/289755",
-      "originallink": "https://platum.kr/archives/289755",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-24T10:48:00.000Z"
-    },
-    {
       "id": "948047c5bcfa5c6e",
       "keyword": "케이앤에스아이앤씨",
       "companyName": "케이앤에스아이앤씨",
@@ -203,17 +148,6 @@
       "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=32800",
       "provider": "뉴스 검색",
       "publishedAt": "2026-06-24T04:50:00.000Z"
-    },
-    {
-      "id": "357000ec938249fa",
-      "keyword": "니어스랩",
-      "companyName": "니어스랩",
-      "title": "[HL지노믹스 IPO] 공모 속도전…성장 가속페달 밟는다",
-      "description": "IPO) 절차에 속도를 내고 있다. 코스닥 상장예비심사(예심) 통과 직후 증권신고서를 제출하며 공모 준비에... 만에 공모를 마칠 수 있다. 올해 1분기 청구서를 낸 피지티·니어스랩 등이 아직도 승인받지 못한 것과...",
-      "link": "https://www.the-stock.kr/news/articleView.html?idxno=32768",
-      "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=32768",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-19T02:46:00.000Z"
     },
     {
       "id": "faeb1ddd2c59c218",
@@ -357,17 +291,6 @@
       "originallink": "https://it.chosun.com/site/data/html_dir/2023/02/02/2023020201802.html",
       "provider": "뉴스 검색",
       "publishedAt": "2023-02-02T05:52:00.000Z"
-    },
-    {
-      "id": "3b9015c64bcbb149",
-      "keyword": "딜리셔스",
-      "companyName": "딜리셔스",
-      "title": "<장길수의 IT인사이드>(221) 러시아 `얀덱스`의 나스닥 상장",
-      "description": "IT업계와 금융계는 ‘얀덱스’의 나스닥 상장이 ‘링크드인’과 ‘렌렌’을 뛰어넘는 대형 기업공개(IPO)... 그녀는 현재 플릭커, 딜리셔스, 파워셋 등 IT업체에도 투자하고 있으며, 미트업, WPP그룹 등 기업의 이사회...",
-      "link": "https://n.news.naver.com/mnews/article/030/0002120854?sid=105",
-      "originallink": "http://www.etnews.co.kr/201105210002",
-      "provider": "뉴스 검색",
-      "publishedAt": "2011-05-21T14:12:00.000Z"
     }
   ]
 }

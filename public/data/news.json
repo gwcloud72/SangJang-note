@@ -1,11 +1,55 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-06-29T23:28:58.161Z",
+    "updatedAt": "2026-06-30T23:44:02.640Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 7
   },
   "items": [
+    {
+      "id": "3273f89e634c05ec",
+      "keyword": "레메디",
+      "companyName": "레메디",
+      "title": "[스트라드비젼 IPO] 증시 데뷔전 하한가, KB증권 1호 불명예",
+      "description": "실제로 스트라드비젼을 포함해 올해 들어 KB증권이 IPO 딜에 참여한 기업 3개 중 2개가 공모가를 크게 밑돌고 있다. 지난해로 범위를 넓히면 11개 가운데 절반 이상인 6개 기업 주가가 부진하다. 아이티켐은 상장 1년도...",
+      "link": "https://www.the-stock.kr/news/articleView.html?idxno=32860",
+      "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=32860",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-30T23:00:00.000Z"
+    },
+    {
+      "id": "70f73041325a2035",
+      "keyword": "레메디",
+      "companyName": "레메디",
+      "title": "[IPO 돋보기] 상장 초읽기 시작한 '레메디'...삼수 만에 꿈 이루나",
+      "description": "전문기업 레메디가 공모가를 확정하며 코스닥 상장 초읽기에 들어갔다. 1일 벤처투자업계에 따르면... 공모가 기준 레메디가 이번 기업공개(IPO)로 조달하는 자금은 248억원이다. 회사는 조달한 자금을 △자동화 시설...",
+      "link": "https://www.news2day.co.kr/article/20260630500114",
+      "originallink": "https://www.news2day.co.kr/article/20260630500114",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-30T22:02:00.000Z"
+    },
+    {
+      "id": "0a30f03e819d04d3",
+      "keyword": "케이앤에스아이앤씨",
+      "companyName": "케이앤에스아이앤씨",
+      "title": "상반기 IPO ‘뚝’…하반기 ‘코스닥 활성화’ 타고 불붙나",
+      "description": "기술특례 상장을 추진하고 있고, 케이앤에스아이앤씨는 위성통신 안테나 사업 확대를 위한 자금 조달에... 업계는 상반기 제도 정비가 마무리 단계에 접어든 만큼 하반기에는 우량 기업 중심의 IPO가 확대되며 공모...",
+      "link": "https://n.news.naver.com/mnews/article/029/0003034497?sid=101",
+      "originallink": "https://www.dt.co.kr/article/12070331?ref=naver",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-30T07:14:00.000Z"
+    },
+    {
+      "id": "467e07eb3ede21b2",
+      "keyword": "케이앤에스아이앤씨",
+      "companyName": "케이앤에스아이앤씨",
+      "title": "7월 코스닥 IPO 4社 청약 릴레이… 관전포인트는 '이익 체력' [박정은의...",
+      "description": "기술성장특례(이익 미실현) 요건으로 상장을 추진하며 공모가 역시 2031년 흑자 전환을 전제로 한 추정 실적을 토대로 매겼다. 케이앤에스아이앤씨는 2001년 KT 사내벤처로 출발한 위성통신안테나 기업으로, 2023년...",
+      "link": "https://biz.newdaily.co.kr/site/data/html/2026/06/30/2026063000035.html",
+      "originallink": "https://biz.newdaily.co.kr/site/data/html/2026/06/30/2026063000035.html",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-30T02:12:00.000Z"
+    },
     {
       "id": "1e6851d1a34f1960",
       "keyword": "에이치엘지노믹스",
@@ -40,17 +84,6 @@
       "publishedAt": "2026-06-29T01:15:00.000Z"
     },
     {
-      "id": "842dfa7493c2b60e",
-      "keyword": "레메디",
-      "companyName": "레메디",
-      "title": "이번주 공모주 청약, 레메디 1개사 나선다... 주관사 KB증권",
-      "description": "이번주 기업공개(IPO) 시장에서는 의료용 기기 제조기업 레메디가 일반투자자 대상 공모주 청약에 나선다.... 평가해 준 투자자들에게 감사드린다\"며 \"코스닥 상장을 계기로 의료 현장에서 필요한 X-ray 솔루션을...",
-      "link": "https://n.news.naver.com/mnews/article/123/0002385539?sid=101",
-      "originallink": "http://www.joseilbo.com/news/news_read.php?uid=570883&class=53&grp=",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-29T00:01:00.000Z"
-    },
-    {
       "id": "30d62debf3db5431",
       "keyword": "에이치엘지노믹스",
       "companyName": "에이치엘지노믹스",
@@ -60,39 +93,6 @@
       "originallink": "http://www.inews24.com/view/1980380",
       "provider": "뉴스 검색",
       "publishedAt": "2026-06-28T23:51:00.000Z"
-    },
-    {
-      "id": "fcd2541449fc4fae",
-      "keyword": "레메디",
-      "companyName": "레메디",
-      "title": "기지개 켜는 코스닥 IPO…AI·자율주행 등 3개社 줄줄이 입성 [이번주 증...",
-      "description": "6월 마지막 주와 7월 첫째 주가 맞물리는 이번주 기업공개(IPO) 시장에서는 신규 상장 3곳과 공모주 청약... 시장에 상장한다. 같은 기간 의료용 휴대용 엑스레이 장비 업체 레메디는 일반청약을 진행한다. 져스텍은...",
-      "link": "https://n.news.naver.com/mnews/article/011/0004635828?sid=101",
-      "originallink": "https://www.sedaily.com/article/20060979?ref=naver",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-28T21:01:00.000Z"
-    },
-    {
-      "id": "3c41e738309473b6",
-      "keyword": "에이치엘지노믹스",
-      "companyName": "에이치엘지노믹스",
-      "title": "[주간경제전망]'코스닥 30주년'…외환시장은 24시간 개장 시범 거래 돌입",
-      "description": "코스닥 상장을 위한 기관투자자 대상 수예 예측을 진행한다. 에이치엘지노믹스는 6월16일 금융위원회에 증권신고서를 제출하고 본격적인 IPO(기업공개) 절차에 돌입한 바 있다. 총 공모주식수는 256만5000주, 희망...",
-      "link": "https://n.news.naver.com/mnews/article/417/0001149342?sid=101",
-      "originallink": "https://www.sidae.com/article/2026062616161078076",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-28T20:00:00.000Z"
-    },
-    {
-      "id": "c63341a276b27fe0",
-      "keyword": "에이치엘지노믹스",
-      "companyName": "에이치엘지노믹스",
-      "title": "[IPO 워치] 져스텍·스트라드비젼·매드업 상장…청약·수요예측 각 1곳",
-      "description": "앞서 진행한 기관 수요예측에서는 경쟁률 1146.41대 1을 기록했으며, 공모가는 희망 범위(1만7800~2만700원) 상단인 2만700원으로 확정됐다. 상장 주관사는 KB증권이다. 에이치엘지노믹스는 내달 2일부터 8일까지...",
-      "link": "https://www.news2day.co.kr/article/20260628500034",
-      "originallink": "https://www.news2day.co.kr/article/20260628500034",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-28T19:44:00.000Z"
     },
     {
       "id": "94e7ff45f8d6ecde",
@@ -159,28 +159,6 @@
       "originallink": "https://www.insightkorea.co.kr/news/articleView.html?idxno=247795",
       "provider": "뉴스 검색",
       "publishedAt": "2026-06-17T23:00:00.000Z"
-    },
-    {
-      "id": "3971e6e081c725cc",
-      "keyword": "케이앤에스아이앤씨",
-      "companyName": "케이앤에스아이앤씨",
-      "title": "'져스텍 vs 스트라드비젼' 청약 재개···공모주 투심 다시 살아날까",
-      "description": "이번 주 져스텍과 스트라드비젼의 공모주 청약을 시작으로 재개된다. 공모주 시장은 이달 상장한... 다음달에는 레메디, 에이치엘지노믹스, 인제니아테라퓨틱스, 케이앤에스아이앤씨 등의 공모청약이 진행될...",
-      "link": "https://www.sisajournal-e.com/news/articleView.html?idxno=421804",
-      "originallink": "https://www.sisajournal-e.com/news/articleView.html?idxno=421804",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-17T07:46:00.000Z"
-    },
-    {
-      "id": "b4cf63b4bafac5ae",
-      "keyword": "케이앤에스아이앤씨",
-      "companyName": "케이앤에스아이앤씨",
-      "title": "[더벨][하나에어로다이내믹스 IPO] 코스닥 예심 청구…스페이스X 탓 주목...",
-      "description": "본격적인 IPO 절차에 돌입했다. 총 상장 예정 주식수는 1772만 9964주이며, 이 중 24.8% 수준인 440만주를 공모주... 군용 위성통신 기업 케이앤에스아이앤씨는 이미 예심을 통과해 증권신고서 제출을 앞두고 있다. 자금...",
-      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202606091127375840101661",
-      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202606091127375840101661",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-10T22:02:00.000Z"
     },
     {
       "id": "92a49a0bce2b2e92",

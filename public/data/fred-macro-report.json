@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "local-rules",
-    "generatedAt": "2026-07-01T23:52:47.114Z",
+    "generatedAt": "2026-07-02T23:46:27.249Z",
     "model": null
   },
   "items": [
@@ -15,7 +15,7 @@
     {
       "seriesId": "DGS10",
       "koreanName": "미국 10년물 국채금리",
-      "plainSummary": "미국 10년물 국채금리 최신값은 4.44%이며 상승 흐름입니다.",
+      "plainSummary": "미국 10년물 국채금리 최신값은 4.48%이며 상승 흐름입니다.",
       "ipoContext": "IPO 일정과 함께 확인할 수 있는 시장환경 지표입니다.",
       "caution": "공시와 시장 지표를 함께 확인하세요."
     },
@@ -29,7 +29,7 @@
     {
       "seriesId": "UNRATE",
       "koreanName": "미국 실업률",
-      "plainSummary": "미국 실업률 최신값은 4.3%이며 보합 흐름입니다.",
+      "plainSummary": "미국 실업률 최신값은 4.2%이며 하락 흐름입니다.",
       "ipoContext": "IPO 일정과 함께 확인할 수 있는 시장환경 지표입니다.",
       "caution": "공시와 시장 지표를 함께 확인하세요."
     }

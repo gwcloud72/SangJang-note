@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "local-rules",
-    "generatedAt": "2026-07-02T08:26:13.293Z",
+    "generatedAt": "2026-07-02T23:45:53.838Z",
     "model": null,
     "itemCount": 8,
     "geminiUsed": 0,
@@ -14,29 +14,23 @@
       "ipoId": "레메디",
       "companyName": "레메디",
       "sector": "IPO 일정 확인 대상 기업",
-      "ipoStage": "청약 진행중",
+      "ipoStage": "환불일",
       "underwriter": "주관사 확인",
-      "basisTimeLabel": "07.02.12:20",
+      "basisTimeLabel": "오늘 09:30 기준",
       "oneLine": "IPO 일정 확인 대상 기업",
-      "body": "레메디는 IPO 일정 확인 대상 기업입니다. 07.01 일정 기준으로 07.02.12:20 뉴스 언급 기준 청약 경쟁률과 환불일 07.06을 함께 확인합니다.",
+      "body": "레메디는 IPO 일정 확인 대상 기업입니다. 07.01 일정 기준으로 환불일 단계라 원문 일정과 변경 여부를 함께 확인합니다.",
       "points": [
-        "청약 마감 시각 확인",
-        "비례경쟁률 기준 확인",
-        "정정 공시 여부 확인"
+        "환불일 확인",
+        "상장일 확인",
+        "원문 일정 대조"
       ],
       "sourceLabels": [
         "DART 일정",
         "환불일 07.06",
-        "뉴스 언급",
-        "뉴스 검색"
+        "뉴스 검색",
+        "주관사 확인"
       ],
-      "competition": {
-        "label": "뉴스 언급",
-        "value": 167.47,
-        "proportionalValue": null,
-        "timeLabel": "07.02.12:20",
-        "sourceLine": "따따블 가려나?…' 레메디 ' 공모주 청약 , 오늘까지"
-      },
+      "competition": null,
       "generatedBy": "local-rules",
       "model": null
     },

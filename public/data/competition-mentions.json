@@ -2,15 +2,15 @@
   "metadata": {
     "source": "naver-news-search-gemini-assisted",
     "displayLabel": "뉴스 언급",
-    "updatedAt": "2026-07-02T08:26:13.083Z",
-    "updatedKst": "2026-07-02T17:26+09:00",
-    "referenceDate": "2026-07-02",
+    "updatedAt": "2026-07-02T23:45:53.455Z",
+    "updatedKst": "2026-07-03T08:45+09:00",
+    "referenceDate": "2026-07-03",
     "policyVersion": "retail-same-company-same-day-v2",
     "policy": "당일 기사에서 같은 회사와 같은 문맥에 있는 일반투자자 청약 경쟁률만 저장합니다.",
     "parserPolicy": "기관 수요예측 경쟁률, 다른 회사 숫자, 날짜 없는 기사, 전일 이전 기사는 제외합니다.",
-    "activeIpoCount": 1,
-    "itemCount": 1,
-    "reason": "KST 09~16시 외: 당일 검증 데이터만 유지",
+    "activeIpoCount": 0,
+    "itemCount": 0,
+    "reason": "오늘 청약 진행 종목 없음",
     "gemini": {
       "enabled": true,
       "model": "gemini-2.5-flash",
@@ -27,40 +27,5 @@
       "entityOrScope": 0
     }
   },
-  "items": [
-    {
-      "id": "mention-ed1f3faaa80a7806",
-      "ipoId": "레메디",
-      "companyName": "레메디",
-      "sourceType": "naver_news",
-      "displayLabel": "뉴스 언급",
-      "competitionScope": "retail-subscription",
-      "title": "따따블 가려나?…' 레메디 ' 공모주 청약 , 오늘까지",
-      "articleText": "의료용 휴대용 엑스선 영상촬영장치 전문기업 레메디 가 코스닥 상장을 위한 일반 공모 청약 마지막 날인 2일, 통합 청약 경쟁률 167.47대 1을 기록하며 흥행에 성공했다. 앞서 기관 투자자 대상 수요예측에서 1146.41대...",
-      "publisher": "뉴스 검색",
-      "publishedAt": "2026-07-02T03:20:00.000Z",
-      "articleTimeLabel": "07.02.12:20",
-      "link": "https://www.wikitree.co.kr/articles/1144380",
-      "originallink": "https://www.wikitree.co.kr/articles/1144380",
-      "query": "레메디 일반청약 경쟁률",
-      "candidates": [
-        {
-          "type": "total",
-          "value": 167.47,
-          "raw": "청약 경쟁률 167.47대 1",
-          "confidence": "medium",
-          "parser": "regex",
-          "scope": "retail-subscription"
-        }
-      ],
-      "extraction": {
-        "method": "regex",
-        "model": null,
-        "cacheKey": "ed1f3faaa80a7806b79ac856",
-        "reason": "regex_only",
-        "policyVersion": "retail-same-company-same-day-v2"
-      },
-      "collectedAt": "2026-07-02T04:33:24.480Z"
-    }
-  ]
+  "items": []
 }

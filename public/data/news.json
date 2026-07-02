@@ -1,43 +1,98 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-07-01T23:52:10.922Z",
+    "updatedAt": "2026-07-02T23:45:53.262Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 8
   },
   "items": [
     {
+      "id": "635d4f1e42026497",
+      "keyword": "에이치엘지노믹스",
+      "companyName": "에이치엘지노믹스",
+      "title": "[주간IPO] 7월 둘째 주, 공모주 청약 일정 없음…에이치엘지노믹스 수요...",
+      "description": "7월 둘째 주 기업공개(IPO) 시장에서는 공모주 청약 일정이 없는 가운데 에이치엘지노믹스가 수요예측을... 원료의약품(API) 전문기업 에이치엘지노믹스는 7월 2일부터 8일까지 코스닥 상장 공모를 위한 수요예측을...",
+      "link": "http://www.consumernews.co.kr/news/articleView.html?idxno=758619",
+      "originallink": "http://www.consumernews.co.kr/news/articleView.html?idxno=758619",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-02T21:10:00.000Z"
+    },
+    {
+      "id": "3421813b194a26bb",
+      "keyword": "레메디",
+      "companyName": "레메디",
+      "title": "흔들린 공모주 불패신화…스트라드비젼 '급전직하'",
+      "description": "이날 일반청약을 마감한 저선량·초소형 엑스레이 전문기업 레메디에는 5조원에 달하는 청약 증거금이 몰렸다. 최근 새내기 종목은 상장 초기 잠깐 급등했다가 이내 공모가 아래로 급락하는 패턴이 반복되면서 옥석...",
+      "link": "https://n.news.naver.com/mnews/article/015/0005305689?sid=101",
+      "originallink": "https://www.hankyung.com/article/2026070227261",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-02T08:44:00.000Z"
+    },
+    {
+      "id": "d08705fea5868614",
+      "keyword": "레메디",
+      "companyName": "레메디",
+      "title": "레메디, 일반청약 경쟁률 1707대 1…증거금 5조3000억원 몰려",
+      "description": "기관 수요예측과 일반청약이 모두 흥행에 성공하면서 레메디는 올해 코스닥 기업공개(IPO) 시장의 주요... 레메디는 오는 6일 납입을 거쳐 13일 코스닥시장에 상장할 예정이다. 상장을 통해 확보한 공모 자금은...",
+      "link": "https://www.cnbizm.com/news/articleView.html?idxno=307439",
+      "originallink": "https://www.cnbizm.com/news/articleView.html?idxno=307439",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-02T08:12:00.000Z"
+    },
+    {
+      "id": "5aa431506d478065",
+      "keyword": "레메디",
+      "companyName": "레메디",
+      "title": "레메디 일반청약 흥행…증거금 5.3兆 유입 [시그널]",
+      "description": "올해로 3번째 기업공개(IPO) 도전을 맞는 레메디는 7월 13일 코스닥 시장에 상장할 예정이다. 2일 투자은행(IB) 업계에 따르면 레메디는 이달 1일부터 2영업일 동안 일반 투자자들을 대상으로 공모주...",
+      "link": "https://n.news.naver.com/mnews/article/011/0004637555?sid=101",
+      "originallink": "https://www.sedaily.com/article/20063145?ref=naver",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-02T07:52:00.000Z"
+    },
+    {
+      "id": "b72481cfbbbd5f50",
+      "keyword": "레메디",
+      "companyName": "레메디",
+      "title": "얼어붙은 증시에도 … 레메디, 일반청약 1706대 1 몰렸다 [박정은의 IPO ...",
+      "description": "국내 증시가 부진한 흐름을 보이는 가운데서도 공모주 시장에는 자금이 몰린 모습이다. 레메디는 오는 13일 코스닥 시장에 상장할 예정이다. 2일 관련업계 등에 따르면 레메디는 이달 1~2일 KB증권을 통해...",
+      "link": "https://biz.newdaily.co.kr/site/data/html/2026/07/02/2026070200263.html",
+      "originallink": "https://biz.newdaily.co.kr/site/data/html/2026/07/02/2026070200263.html",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-02T07:26:00.000Z"
+    },
+    {
+      "id": "37bd8aa2287cc649",
+      "keyword": "에이치엘지노믹스",
+      "companyName": "에이치엘지노믹스",
+      "title": "옥석 가리기 본격화…7월 공모주, 중소형 흥행 이어질까",
+      "description": "남은 변수는 에이치엘지노믹스가 수요예측에서 어떤 성적표를 받아들지다. 다만 높은 청약 경쟁률이 곧 투자 성과를 의미하는 것은 아니다. 대표적인 사례가 지난달 상장한 피스피스스튜디오다. 상장 당시 공모가...",
+      "link": "https://n.news.naver.com/mnews/article/243/0000099916?sid=101",
+      "originallink": "https://economist.co.kr/article/view/ecn202607020036",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-02T07:13:00.000Z"
+    },
+    {
+      "id": "ecb8e7c8bc1d4224",
+      "keyword": "빅웨이브로보틱스",
+      "companyName": "빅웨이브로보틱스",
+      "title": "[THE COMPASS] 빅웨이브로보틱스, 공모가 낮춰 IPO 재시동…여지 남긴 ‘...",
+      "description": "빅웨이브로보틱스가 공모가를 낮춰 상장을 재개한다. 고평가 논란 속 금융당국의 정정공시 요구를 적극... 2일 투자은행(IB) 업계에 따르면 빅웨이브로보틱스는 전일 기업공개(IPO) 관련 정정신고서를 제출했다....",
+      "link": "http://www.fntimes.com/html/view.php?ud=202607021400353409a837df6494_18",
+      "originallink": "http://www.fntimes.com/html/view.php?ud=202607021400353409a837df6494_18",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-02T05:10:00.000Z"
+    },
+    {
       "id": "0ce980e23a923756",
       "keyword": "에이치엘지노믹스",
       "companyName": "에이치엘지노믹스",
       "title": "대어 없는 IPO 시장 '중소형 쏠림' 계속…상장 후 수익률 '경고등'",
-      "description": "이달에는 매드업(0039P0), 레몬헬스케어(365660), 레메디(387690), 에이치엘지노믹스(0156T0) 등 총 4개 중소형 종목이 코스닥 시장에 신규 상장할 예정이다. 이 중 매드업, 레몬헬스케어, 레메디 등 3곳은 이미 공모가를...",
+      "description": "이달에는 매드업(0039P0), 레몬헬스케어(365660), 레메디(387690), 에이치엘지노믹스(0156T0) 등 총 4개 중소형 종목이 코스닥 시장에 신규 상장할 예정이다. 그중 매드업, 레몬헬스케어, 레메디 등 3곳은 이미 공모가를...",
       "link": "https://n.news.naver.com/mnews/article/421/0009036056?sid=101",
       "originallink": "https://www.news1.kr/finance/general-stock/6215040",
       "provider": "뉴스 검색",
       "publishedAt": "2026-07-01T21:00:00.000Z"
-    },
-    {
-      "id": "7490e4616a9f6659",
-      "keyword": "레메디",
-      "companyName": "레메디",
-      "title": "[공모주 현황] 레메디 청약 1일차 종료, 균등·비례 경쟁률은?…'따따블...",
-      "description": "IPO 자료사진. AI가 생성한 이미지. 공모주 레메디의 청약 1일차가 1일 오후 4시경 종료됐다. KB증권을 통해... 한편 레메디는 오는 7월 13일 상장예정이다. 만약 상장일 따따블을 기록한다면 공모가 2만700원 대비 300...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=585941",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=585941",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-01T07:02:00.000Z"
-    },
-    {
-      "id": "236072e1a8ccaeec",
-      "keyword": "레메디",
-      "companyName": "레메디",
-      "title": "[장외시황] 레메디, 공모주청약 진행",
-      "description": "전문기업 레메디가 1일 부터 이틀간 일반투자자 대상 공모 청약을 진행한다. 공모가는 희망범위 상단인 2만700원이며, 주관사는 KB증권이다. 이날 비상장 주식은 보합이었다. 기업공개(IPO) 관련 상장 예비심사...",
-      "link": "https://www.etoday.co.kr/news/view/2599272",
-      "originallink": "https://www.etoday.co.kr/news/view/2599272",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-01T06:56:00.000Z"
     },
     {
       "id": "04da2ca651537d85",
@@ -49,28 +104,6 @@
       "originallink": "https://www.ebn.co.kr/news/articleView.html?idxno=1714649",
       "provider": "뉴스 검색",
       "publishedAt": "2026-07-01T02:04:00.000Z"
-    },
-    {
-      "id": "3273f89e634c05ec",
-      "keyword": "레메디",
-      "companyName": "레메디",
-      "title": "[스트라드비젼 IPO] 증시 데뷔전 하한가, KB증권 1호 불명예",
-      "description": "실제로 스트라드비젼을 포함해 올해 들어 KB증권이 IPO 딜에 참여한 기업 3개 중 2개가 공모가를 크게 밑돌고 있다. 지난해로 범위를 넓히면 11개 가운데 절반 이상인 6개 기업 주가가 부진하다. 아이티켐은 상장 1년도...",
-      "link": "https://www.the-stock.kr/news/articleView.html?idxno=32860",
-      "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=32860",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-30T23:00:00.000Z"
-    },
-    {
-      "id": "70f73041325a2035",
-      "keyword": "레메디",
-      "companyName": "레메디",
-      "title": "[IPO 돋보기] 상장 초읽기 시작한 '레메디'...삼수 만에 꿈 이루나",
-      "description": "전문기업 레메디가 공모가를 확정하며 코스닥 상장 초읽기에 들어갔다. 1일 벤처투자업계에 따르면... 공모가 기준 레메디가 이번 기업공개(IPO)로 조달하는 자금은 248억원이다. 회사는 조달한 자금을 △자동화 시설...",
-      "link": "https://www.news2day.co.kr/article/20260630500114",
-      "originallink": "https://www.news2day.co.kr/article/20260630500114",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-30T22:02:00.000Z"
     },
     {
       "id": "0a30f03e819d04d3",
@@ -93,17 +126,6 @@
       "originallink": "https://biz.newdaily.co.kr/site/data/html/2026/06/30/2026063000035.html",
       "provider": "뉴스 검색",
       "publishedAt": "2026-06-30T02:12:00.000Z"
-    },
-    {
-      "id": "1e6851d1a34f1960",
-      "keyword": "에이치엘지노믹스",
-      "companyName": "에이치엘지노믹스",
-      "title": "지수는 웃었지만 공모주는 울었다...열에 여덟 공모가 밑돌아",
-      "description": "하반기에는 바이오 기업들의 상장이 잇따를 예정인 만큼 IPO 시장 회복 여부에 관심이 쏠린다. 레몬헬스케어와 레메디, 에이치엘지노믹스 등 헬스케어·의료기기·원료의약품 기업을 비롯해 인제니아테라퓨틱스와...",
-      "link": "https://www.greened.kr/news/articleView.html?idxno=343662",
-      "originallink": "https://www.greened.kr/news/articleView.html?idxno=343662",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-29T08:08:00.000Z"
     },
     {
       "id": "d6f4debe66e1f585",
@@ -214,17 +236,6 @@
       "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4421060",
       "provider": "뉴스 검색",
       "publishedAt": "2026-06-21T04:06:00.000Z"
-    },
-    {
-      "id": "392136b84157b6e0",
-      "keyword": "빅웨이브로보틱스",
-      "companyName": "빅웨이브로보틱스",
-      "title": "6월 넷째 주 IPO 시장, 공모주 청약 2곳 예정…매드업·레몬헬스케어 출...",
-      "description": "6월 넷째 주 기업공개(IPO) 시장은 신규 상장 기업 없이 일반 공모주 청약 2곳과 수요예측 1곳이 진행된다.... 로봇 플랫폼 기업 빅웨이브로보틱스는 당초 19~22일 청약을 진행할 예정이었으나 일정이 연기됐다....",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=583451",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=583451",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-20T10:16:00.000Z"
     },
     {
       "id": "faeb1ddd2c59c218",

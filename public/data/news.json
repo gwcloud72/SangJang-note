@@ -1,11 +1,55 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-07-03T23:18:40.450Z",
+    "updatedAt": "2026-07-04T23:11:58.957Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 8
   },
   "items": [
+    {
+      "id": "156382db85f69ca1",
+      "keyword": "에이치엘지노믹스",
+      "companyName": "에이치엘지노믹스",
+      "title": "IPO 한파 7월도 계속…둘째 주 신규 상장 1곳뿐",
+      "description": "둘째 주(6~10일) IPO 시장은 신규 상장 1곳만이 예정돼 있습니다. 일반 투자자를 대상으로 한 공모주... 기초 의약물질 제조기업 에이치엘지노믹스는 지난 2일부터 시작한 수요예측을 8일까지 진행합니다. 지난해...",
+      "link": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005872066",
+      "originallink": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005872066",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-04T01:30:00.000Z"
+    },
+    {
+      "id": "c0a01b25db568cd4",
+      "keyword": "에이치엘지노믹스",
+      "companyName": "에이치엘지노믹스",
+      "title": "한국 IPO 시장, 상반기 침체 지속...개별 기업 성장성 주목",
+      "description": "이번 주 상장을 앞둔 곳은 실시간 양방향 의료데이터 중계 플랫폼 기업 레몬헬스케어다. 이 회사는 2017년... 수요예측 일정으로는 기초 의약물질 제조기업 에이치엘지노믹스가 지난 2일부터 오는 8일까지 기관투자자...",
+      "link": "https://www.tokenpost.kr/news/market/374974",
+      "originallink": "https://www.tokenpost.kr/news/market/374974",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-04T00:44:00.000Z"
+    },
+    {
+      "id": "7c2f91607036ed90",
+      "keyword": "에이치엘지노믹스",
+      "companyName": "에이치엘지노믹스",
+      "title": "[주간 IPO] 레몬헬스케어 6일 코스닥 입성…에이치엘지노믹스 기관 수요...",
+      "description": "입성하고, 에이치엘지노믹스의 기관투자자 대상 수요예측이 예정돼 있다. 기업공개(IPO) 시장이 한산한... 총 공모 예정 금액은 475억~551억원이다. 상장 주관사는 KB증권과 IBK투자증권이 맡았다. 에이치엘지노믹스는...",
+      "link": "https://www.etoday.co.kr/news/view/2599580",
+      "originallink": "https://www.etoday.co.kr/news/view/2599580",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-04T00:00:00.000Z"
+    },
+    {
+      "id": "7a021d0cef7b5acb",
+      "keyword": "에이치엘지노믹스",
+      "companyName": "에이치엘지노믹스",
+      "title": "[IPO챗] 7월도 IPO '찬바람' 여전…둘째주 1개 기업 상장",
+      "description": "올해 상반기 국내 IPO(기업공개) 시장의 '찬바람'이 하반기에 접어든 7월에도 좀처럼 가시지 않고 있다.... 상장 ▲ 레몬헬스케어, 코스닥, 6일, 공모가 1만원, KB증권 수요예측 ▲ 에이치엘지노믹스, 코스닥, 2∼8일...",
+      "link": "https://n.news.naver.com/mnews/article/001/0016175653?sid=101",
+      "originallink": "https://www.yna.co.kr/view/AKR20260703125900008?input=1195m",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-04T00:00:00.000Z"
+    },
     {
       "id": "44847c380ec3c528",
       "keyword": "레메디",
@@ -21,7 +65,7 @@
       "id": "407578fc2a800d73",
       "keyword": "기도산업",
       "companyName": "기도산업",
-      "title": "하반기 반전 카드는 소노인터·구다이?",
+      "title": "IPO 시장, 하반기 반전 카드는 소노인터·구다이?",
       "description": "이외엔 봉제의복 제조 업체 기도산업과 반도체 팹리스 해치텍이 이름을 올렸다. 예비심사 승인 기업 중에선 헬스케어 기업들이 기대를 모은다. 밴드 상단인 2만700원에 공모가를 확정한 레메디는 7월 13일 상장...",
       "link": "https://n.news.naver.com/mnews/article/024/0000106631?sid=101",
       "originallink": "https://www.mk.co.kr/article/12089803",
@@ -38,17 +82,6 @@
       "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=32880",
       "provider": "뉴스 검색",
       "publishedAt": "2026-07-03T04:24:00.000Z"
-    },
-    {
-      "id": "635d4f1e42026497",
-      "keyword": "에이치엘지노믹스",
-      "companyName": "에이치엘지노믹스",
-      "title": "[주간IPO] 7월 둘째 주, 공모주 청약 일정 없음…에이치엘지노믹스 수요...",
-      "description": "7월 둘째 주 기업공개(IPO) 시장에서는 공모주 청약 일정이 없는 가운데 에이치엘지노믹스가 수요예측을... 원료의약품(API) 전문기업 에이치엘지노믹스는 7월 2일부터 8일까지 코스닥 상장 공모를 위한 수요예측을...",
-      "link": "http://www.consumernews.co.kr/news/articleView.html?idxno=758619",
-      "originallink": "http://www.consumernews.co.kr/news/articleView.html?idxno=758619",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-02T21:10:00.000Z"
     },
     {
       "id": "3421813b194a26bb",
@@ -84,17 +117,6 @@
       "publishedAt": "2026-07-02T07:52:00.000Z"
     },
     {
-      "id": "37bd8aa2287cc649",
-      "keyword": "에이치엘지노믹스",
-      "companyName": "에이치엘지노믹스",
-      "title": "옥석 가리기 본격화…7월 공모주, 중소형 흥행 이어질까",
-      "description": "남은 변수는 에이치엘지노믹스가 수요예측에서 어떤 성적표를 받아들지다. 다만 높은 청약 경쟁률이 곧 투자 성과를 의미하는 것은 아니다. 대표적인 사례가 지난달 상장한 피스피스스튜디오다. 상장 당시 공모가...",
-      "link": "https://n.news.naver.com/mnews/article/243/0000099916?sid=101",
-      "originallink": "https://economist.co.kr/article/view/ecn202607020036",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-02T07:13:00.000Z"
-    },
-    {
       "id": "ecb8e7c8bc1d4224",
       "keyword": "빅웨이브로보틱스",
       "companyName": "빅웨이브로보틱스",
@@ -104,28 +126,6 @@
       "originallink": "http://www.fntimes.com/html/view.php?ud=202607021400353409a837df6494_18",
       "provider": "뉴스 검색",
       "publishedAt": "2026-07-02T05:10:00.000Z"
-    },
-    {
-      "id": "0ce980e23a923756",
-      "keyword": "에이치엘지노믹스",
-      "companyName": "에이치엘지노믹스",
-      "title": "대어 없는 IPO 시장 '중소형 쏠림' 계속…상장 후 수익률 '경고등'",
-      "description": "이달에는 매드업(0039P0), 레몬헬스케어(365660), 레메디(387690), 에이치엘지노믹스(0156T0) 등 총 4개 중소형 종목이 코스닥 시장에 신규 상장할 예정이다. 그중 매드업, 레몬헬스케어, 레메디 등 3곳은 이미 공모가를...",
-      "link": "https://n.news.naver.com/mnews/article/421/0009036056?sid=101",
-      "originallink": "https://www.news1.kr/finance/general-stock/6215040",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-01T21:00:00.000Z"
-    },
-    {
-      "id": "04da2ca651537d85",
-      "keyword": "에이치엘지노믹스",
-      "companyName": "에이치엘지노믹스",
-      "title": "IPO 시장 하반기 반등 불씨…공모 규모 줄었지만 흥행지표 '껑충'",
-      "description": "하반기 IPO 후보군으로는 무신사, 업스테이지, 구다이글로벌, 에이치엘지노믹스 등이 꼽힌다. 정부가 조만간 발표할 예정인 중복상장 가이드라인도 시장의 주요 변수로 꼽힌다. 관련 기준이 마련되면 지배구조 이슈로...",
-      "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1714649",
-      "originallink": "https://www.ebn.co.kr/news/articleView.html?idxno=1714649",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-01T02:04:00.000Z"
     },
     {
       "id": "0a30f03e819d04d3",

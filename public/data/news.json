@@ -1,11 +1,44 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-07-04T23:11:58.957Z",
+    "updatedAt": "2026-07-05T23:34:23.630Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 8
   },
   "items": [
+    {
+      "id": "9966dab0c6e83d90",
+      "keyword": "에이치엘지노믹스",
+      "companyName": "에이치엘지노믹스",
+      "title": "레몬헬스케어 코스닥 상장…에이치엘지노믹스 수요예측 돌입",
+      "description": "7월 둘째 주 공모주 시장은 레몬헬스케어의 코스닥 상장으로 문을 연다. 지난주 일반 청약을 마친... 레메디는 6일 청약 증거금 환불을 거쳐 13일 코스닥에 상장한다. ◆ 한림제약 첫 IPO 에이치엘지노믹스...",
+      "link": "https://www.newstopkorea.com/news/articleView.html?idxno=46034",
+      "originallink": "https://www.newstopkorea.com/news/articleView.html?idxno=46034",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-05T20:28:00.000Z"
+    },
+    {
+      "id": "a6fc9d0aa70f3a02",
+      "keyword": "에이치엘지노믹스",
+      "companyName": "에이치엘지노믹스",
+      "title": "[IPO 워치] 레몬헬스케어 코스닥 입성…수요예측 1곳",
+      "description": "이번 주(6~10일) 기업공개(IPO) 시장에서는 의료데이터 플랫폼 기업 레몬헬스케어가 코스닥 시장에 입성한다. 원료의약품(API) 전문기업 에이치엘지노믹스는 기관투자자 대상 수요예측을 마무리하며 상장 절차를...",
+      "link": "https://www.news2day.co.kr/article/20260705500026",
+      "originallink": "https://www.news2day.co.kr/article/20260705500026",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-05T19:10:00.000Z"
+    },
+    {
+      "id": "c116e6e806827af3",
+      "keyword": "에이치엘지노믹스",
+      "companyName": "에이치엘지노믹스",
+      "title": "이번 주 레몬헬스케어 코스닥 입성…에이치엘지노믹스, 수요예측 이어가",
+      "description": "이번 주(7월 6일~10일) 기업공개(IPO) 시장엔 헬스케어 관련 소프트웨어 기업 레몬헬스케어가 코스닥 시장에 입성한다. 원료의약품(API) 전문기업 에이치엘지노믹스는 기관 투자자 대상 수요예측을 이어갈 예정이다....",
+      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4423393",
+      "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4423393",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-05T04:06:00.000Z"
+    },
     {
       "id": "156382db85f69ca1",
       "keyword": "에이치엘지노믹스",
@@ -27,28 +60,6 @@
       "originallink": "https://www.tokenpost.kr/news/market/374974",
       "provider": "뉴스 검색",
       "publishedAt": "2026-07-04T00:44:00.000Z"
-    },
-    {
-      "id": "7c2f91607036ed90",
-      "keyword": "에이치엘지노믹스",
-      "companyName": "에이치엘지노믹스",
-      "title": "[주간 IPO] 레몬헬스케어 6일 코스닥 입성…에이치엘지노믹스 기관 수요...",
-      "description": "입성하고, 에이치엘지노믹스의 기관투자자 대상 수요예측이 예정돼 있다. 기업공개(IPO) 시장이 한산한... 총 공모 예정 금액은 475억~551억원이다. 상장 주관사는 KB증권과 IBK투자증권이 맡았다. 에이치엘지노믹스는...",
-      "link": "https://www.etoday.co.kr/news/view/2599580",
-      "originallink": "https://www.etoday.co.kr/news/view/2599580",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-04T00:00:00.000Z"
-    },
-    {
-      "id": "7a021d0cef7b5acb",
-      "keyword": "에이치엘지노믹스",
-      "companyName": "에이치엘지노믹스",
-      "title": "[IPO챗] 7월도 IPO '찬바람' 여전…둘째주 1개 기업 상장",
-      "description": "올해 상반기 국내 IPO(기업공개) 시장의 '찬바람'이 하반기에 접어든 7월에도 좀처럼 가시지 않고 있다.... 상장 ▲ 레몬헬스케어, 코스닥, 6일, 공모가 1만원, KB증권 수요예측 ▲ 에이치엘지노믹스, 코스닥, 2∼8일...",
-      "link": "https://n.news.naver.com/mnews/article/001/0016175653?sid=101",
-      "originallink": "https://www.yna.co.kr/view/AKR20260703125900008?input=1195m",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-04T00:00:00.000Z"
     },
     {
       "id": "44847c380ec3c528",
@@ -104,17 +115,6 @@
       "originallink": "https://www.cnbizm.com/news/articleView.html?idxno=307439",
       "provider": "뉴스 검색",
       "publishedAt": "2026-07-02T08:12:00.000Z"
-    },
-    {
-      "id": "5aa431506d478065",
-      "keyword": "레메디",
-      "companyName": "레메디",
-      "title": "레메디 일반청약 흥행…증거금 5.3兆 유입 [시그널]",
-      "description": "올해로 3번째 기업공개(IPO) 도전을 맞는 레메디는 7월 13일 코스닥 시장에 상장할 예정이다. 2일 투자은행(IB) 업계에 따르면 레메디는 이달 1일부터 2영업일 동안 일반 투자자들을 대상으로 공모주...",
-      "link": "https://n.news.naver.com/mnews/article/011/0004637555?sid=101",
-      "originallink": "https://www.sedaily.com/article/20063145?ref=naver",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-02T07:52:00.000Z"
     },
     {
       "id": "ecb8e7c8bc1d4224",

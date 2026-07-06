@@ -1,11 +1,44 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-07-05T23:34:23.630Z",
+    "updatedAt": "2026-07-06T23:43:17.130Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 8
   },
   "items": [
+    {
+      "id": "e57dd0bfcb7a98c9",
+      "keyword": "에이치엘지노믹스",
+      "companyName": "에이치엘지노믹스",
+      "title": "소노인터·구다이글로벌 IPO 성공할까… 하반기 상장 기대감 증폭",
+      "description": "만큼 상장에 성공할 경우 상반기 내내 이어진 유가증권시장 공모금액 부족 흐름을 일부 완화할 수 있다는... 레메디, 에이치엘지노믹스 등 4개 코스닥 중소형 종목이 상장했거나 상장을 앞두고 있다. 당장 IPO 시장...",
+      "link": "https://www.etoday.co.kr/news/view/2600764",
+      "originallink": "https://www.etoday.co.kr/news/view/2600764",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-06T20:26:00.000Z"
+    },
+    {
+      "id": "f6323fc5de0a1203",
+      "keyword": "에이치엘지노믹스",
+      "companyName": "에이치엘지노믹스",
+      "title": "얼어붙은 IPO 시장…하반기 '대어'가 분위기 바꿀까",
+      "description": "이달 상장한 매드업과 레몬헬스케어도 각각 공모가 대비 12.13%, 6.00% 하락했다. 신규 상장 일정도 한산하다. 7월 IPO 시장에서 신규 상장은 레몬헬스케어, 레메디, 에이치엘지노믹스 세 곳에 그쳤다. IPO 시장 규모...",
+      "link": "https://n.news.naver.com/mnews/article/417/0001150510?sid=101",
+      "originallink": "https://www.sidae.com/article/2026070615453016481",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-06T08:48:00.000Z"
+    },
+    {
+      "id": "f7b1a7e1e1ebc48d",
+      "keyword": "에이치엘지노믹스",
+      "companyName": "에이치엘지노믹스",
+      "title": "레몬헬스케어, 코스닥 신규 상장",
+      "description": "이번 주(7월6일~10일) 기업공개(IPO) 시장에서는 레몬헬스케어가 신규 상장한다. 에이치엘지노믹스는 지난... 시장에 상장한다. 앞선 일반 투자자 대상 청약에서 1511대 1의 경쟁률을 기록했다. 최종 공모가는 희망...",
+      "link": "https://n.news.naver.com/mnews/article/031/0001039875?sid=101",
+      "originallink": "http://www.inews24.com/view/1982572",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-05T23:56:00.000Z"
+    },
     {
       "id": "9966dab0c6e83d90",
       "keyword": "에이치엘지노믹스",
@@ -29,50 +62,6 @@
       "publishedAt": "2026-07-05T19:10:00.000Z"
     },
     {
-      "id": "c116e6e806827af3",
-      "keyword": "에이치엘지노믹스",
-      "companyName": "에이치엘지노믹스",
-      "title": "이번 주 레몬헬스케어 코스닥 입성…에이치엘지노믹스, 수요예측 이어가",
-      "description": "이번 주(7월 6일~10일) 기업공개(IPO) 시장엔 헬스케어 관련 소프트웨어 기업 레몬헬스케어가 코스닥 시장에 입성한다. 원료의약품(API) 전문기업 에이치엘지노믹스는 기관 투자자 대상 수요예측을 이어갈 예정이다....",
-      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4423393",
-      "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4423393",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-05T04:06:00.000Z"
-    },
-    {
-      "id": "156382db85f69ca1",
-      "keyword": "에이치엘지노믹스",
-      "companyName": "에이치엘지노믹스",
-      "title": "IPO 한파 7월도 계속…둘째 주 신규 상장 1곳뿐",
-      "description": "둘째 주(6~10일) IPO 시장은 신규 상장 1곳만이 예정돼 있습니다. 일반 투자자를 대상으로 한 공모주... 기초 의약물질 제조기업 에이치엘지노믹스는 지난 2일부터 시작한 수요예측을 8일까지 진행합니다. 지난해...",
-      "link": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005872066",
-      "originallink": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005872066",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-04T01:30:00.000Z"
-    },
-    {
-      "id": "c0a01b25db568cd4",
-      "keyword": "에이치엘지노믹스",
-      "companyName": "에이치엘지노믹스",
-      "title": "한국 IPO 시장, 상반기 침체 지속...개별 기업 성장성 주목",
-      "description": "이번 주 상장을 앞둔 곳은 실시간 양방향 의료데이터 중계 플랫폼 기업 레몬헬스케어다. 이 회사는 2017년... 수요예측 일정으로는 기초 의약물질 제조기업 에이치엘지노믹스가 지난 2일부터 오는 8일까지 기관투자자...",
-      "link": "https://www.tokenpost.kr/news/market/374974",
-      "originallink": "https://www.tokenpost.kr/news/market/374974",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-04T00:44:00.000Z"
-    },
-    {
-      "id": "44847c380ec3c528",
-      "keyword": "레메디",
-      "companyName": "레메디",
-      "title": "[자금조달 프리뷰] 삼성증권 공모채·레몬헬스케어 상장 '눈길'",
-      "description": "삼성증권이 다음주 최대 6000억원 규모의 공모 회사채를 발행한다. 기업공개(IPO) 일정으로는 레메디가... 레메디 납입·레몬헬스케어 상장 의료용 휴대용 X선 장비 기업 레메디는 이달 1~2일 일반청약을 마치고 같은...",
-      "link": "https://n.news.naver.com/mnews/article/293/0000087211?sid=101",
-      "originallink": "https://www.bloter.net/news/articleView.html?idxno=667291",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-03T23:00:00.000Z"
-    },
-    {
       "id": "407578fc2a800d73",
       "keyword": "기도산업",
       "companyName": "기도산업",
@@ -93,28 +82,6 @@
       "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=32880",
       "provider": "뉴스 검색",
       "publishedAt": "2026-07-03T04:24:00.000Z"
-    },
-    {
-      "id": "3421813b194a26bb",
-      "keyword": "레메디",
-      "companyName": "레메디",
-      "title": "흔들린 공모주 불패신화…스트라드비젼 '급전직하'",
-      "description": "이날 일반청약을 마감한 저선량·초소형 엑스레이 전문기업 레메디에는 5조원에 달하는 청약 증거금이 몰렸다. 최근 새내기 종목은 상장 초기 잠깐 급등했다가 이내 공모가 아래로 급락하는 패턴이 반복되면서 옥석...",
-      "link": "https://n.news.naver.com/mnews/article/015/0005305689?sid=101",
-      "originallink": "https://www.hankyung.com/article/2026070227261",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-02T08:44:00.000Z"
-    },
-    {
-      "id": "d08705fea5868614",
-      "keyword": "레메디",
-      "companyName": "레메디",
-      "title": "레메디, 일반청약 경쟁률 1707대 1…증거금 5조3000억원 몰려",
-      "description": "기관 수요예측과 일반청약이 모두 흥행에 성공하면서 레메디는 올해 코스닥 기업공개(IPO) 시장의 주요... 레메디는 오는 6일 납입을 거쳐 13일 코스닥시장에 상장할 예정이다. 상장을 통해 확보한 공모 자금은...",
-      "link": "https://www.cnbizm.com/news/articleView.html?idxno=307439",
-      "originallink": "https://www.cnbizm.com/news/articleView.html?idxno=307439",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-02T08:12:00.000Z"
     },
     {
       "id": "ecb8e7c8bc1d4224",
@@ -313,6 +280,61 @@
       "originallink": "https://www.ekn.kr/web/view.php?key=20260303029254478",
       "provider": "뉴스 검색",
       "publishedAt": "2026-03-03T07:46:00.000Z"
+    },
+    {
+      "id": "fcb1a0706055e05d",
+      "keyword": "판타지오",
+      "companyName": "판타지오",
+      "title": "[13일 특징주] NH투자증권, 자사주 매입·소각 결정에 '52주 신고가'…오...",
+      "description": "한편 코스닥에서는 ▲가비아 ▲플래스크 ▲래몽래인 ▲씨이랩 ▲판타지오가 상한가를 기록했다.... 오상헬스케어는 이번 기업공개(IPO)를 통해 모은 공모자금을 ▲연속혈당측정기(CGM) 개발 ▲신제품 출시...",
+      "link": "http://www.newsworks.co.kr/news/articleView.html?idxno=746456",
+      "originallink": "http://www.newsworks.co.kr/news/articleView.html?idxno=746456",
+      "provider": "뉴스 검색",
+      "publishedAt": "2024-03-13T08:00:00.000Z"
+    },
+    {
+      "id": "302a635bd9e71cbc",
+      "keyword": "판타지오",
+      "companyName": "판타지오",
+      "title": "이주의 주식시장은? 코로나19 확산세에 관련주들 강세, 메타버스·NFT 강...",
+      "description": "현우산업, 판타지오, 버킷스튜디오, 덱스터, 티사이언티픽, FSN, 시그네틱스, 이트론, 엑셈 순이었다. 이날... 마인즈랩(+28.16%)은 상장 첫 날 급등했다. 시초가는 공모가인 3만원보다 1.16% 낮은 2만9650원에 형성됐다....",
+      "link": "http://www.ggilbo.com/news/articleView.html?idxno=882053",
+      "originallink": "http://www.ggilbo.com/news/articleView.html?idxno=882053",
+      "provider": "뉴스 검색",
+      "publishedAt": "2021-11-28T05:42:00.000Z"
+    },
+    {
+      "id": "b88d403e6c728305",
+      "keyword": "판타지오",
+      "companyName": "판타지오",
+      "title": "[마감종합기사] 삼성전자·SK하이닉스 상승에 반도체주 강세, 상한가 4종...",
+      "description": "상장 직후 '따상'에 오르기도 했으나 이후 시초가 대비 3850원 내린 3만8950원에 거래를 마쳤다. 이는 공모... 현우산업, 판타지오, 버킷스튜디오, 덱스터, 티사이언티픽, FSN, 시그네틱스, 이트론, 엑셈 순이었다....",
+      "link": "http://www.ggilbo.com/news/articleView.html?idxno=880915",
+      "originallink": "http://www.ggilbo.com/news/articleView.html?idxno=880915",
+      "provider": "뉴스 검색",
+      "publishedAt": "2021-11-22T07:20:00.000Z"
+    },
+    {
+      "id": "2658fbecb0a572bf",
+      "keyword": "판타지오",
+      "companyName": "판타지오",
+      "title": "이주의 주식시장은? 메타버스·NFT관련주 계속되는 강세, 애플카 관련주...",
+      "description": "IPO)를 추진하기 위해 대표 주관사로 한국투자증권을 선정했다는 기대감에 급등한 것으로 풀이된다. 플루오린코리아는 17일 대표주관사와 계약을 체결하고 오는 2023년 상장을 목표로 내부조직을 정비해 공모절차...",
+      "link": "http://www.ggilbo.com/news/articleView.html?idxno=880516",
+      "originallink": "http://www.ggilbo.com/news/articleView.html?idxno=880516",
+      "provider": "뉴스 검색",
+      "publishedAt": "2021-11-20T02:46:00.000Z"
+    },
+    {
+      "id": "fc0369845c29eb61",
+      "keyword": "판타지오",
+      "companyName": "판타지오",
+      "title": "[마감종합기사] '상한가 6종목' 메타버스·NFT 관련주 강세 지속, 비덴트...",
+      "description": "IPO)를 추진하기 위해 대표 주관사로 한국투자증권을 선정했다는 기대감에 급등한 것으로 풀이된다. 플루오린코리아는 17일 대표주관사와 계약을 체결하고 오는 2023년 상장을 목표로 내부조직을 정비해 공모절차...",
+      "link": "http://www.ggilbo.com/news/articleView.html?idxno=880436",
+      "originallink": "http://www.ggilbo.com/news/articleView.html?idxno=880436",
+      "provider": "뉴스 검색",
+      "publishedAt": "2021-11-18T09:16:00.000Z"
     }
   ]
 }

@@ -1,11 +1,33 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-07-06T23:43:17.130Z",
+    "updatedAt": "2026-07-07T23:37:49.799Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
-    "queryCount": 8
+    "queryCount": 9
   },
   "items": [
+    {
+      "id": "248d524994641820",
+      "keyword": "에이치엘지노믹스",
+      "companyName": "에이치엘지노믹스",
+      "title": "[분석] 케이뱅크 뒤 끊긴 '대어'… IPO 시장, 하반기엔 급물살 탈까",
+      "description": "7월 예상 IPO 기업 수는 4~5개로 1999~2025년 동월 평균 14개, 최근 5년 평균 12개를 크게 밑돌 전망이다. 8월까지 상장을 준비하는 기업도 현재 10개사 안팎이다. 7월에는 매드업과 레몬헬스케어, 레메디, 에이치엘지노믹스 등...",
+      "link": "https://www.startuptoday.co.kr/news/articleView.html?idxno=805901",
+      "originallink": "https://www.startuptoday.co.kr/news/articleView.html?idxno=805901",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-07T08:20:00.000Z"
+    },
+    {
+      "id": "df2b1e10e5e69ff1",
+      "keyword": "에이치엘지노믹스",
+      "companyName": "에이치엘지노믹스",
+      "title": "[공모주 청약] 에이치엘지노믹스 공모주 청약 임박…원료의약품 전문기...",
+      "description": "IPO 자료사진. AI가 생성한 이미지. 에이치엘지노믹스가 코스닥 상장을 위한 일반투자자 청약에 나선다.... 따르면 에이치엘지노믹스의 일반 청약은 오는 7월 13일부터 14일까지 이틀간 진행된다. 희망 공모가는 1만8...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=587069",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=587069",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-07T02:52:00.000Z"
+    },
     {
       "id": "e57dd0bfcb7a98c9",
       "keyword": "에이치엘지노믹스",
@@ -40,33 +62,11 @@
       "publishedAt": "2026-07-05T23:56:00.000Z"
     },
     {
-      "id": "9966dab0c6e83d90",
-      "keyword": "에이치엘지노믹스",
-      "companyName": "에이치엘지노믹스",
-      "title": "레몬헬스케어 코스닥 상장…에이치엘지노믹스 수요예측 돌입",
-      "description": "7월 둘째 주 공모주 시장은 레몬헬스케어의 코스닥 상장으로 문을 연다. 지난주 일반 청약을 마친... 레메디는 6일 청약 증거금 환불을 거쳐 13일 코스닥에 상장한다. ◆ 한림제약 첫 IPO 에이치엘지노믹스...",
-      "link": "https://www.newstopkorea.com/news/articleView.html?idxno=46034",
-      "originallink": "https://www.newstopkorea.com/news/articleView.html?idxno=46034",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-05T20:28:00.000Z"
-    },
-    {
-      "id": "a6fc9d0aa70f3a02",
-      "keyword": "에이치엘지노믹스",
-      "companyName": "에이치엘지노믹스",
-      "title": "[IPO 워치] 레몬헬스케어 코스닥 입성…수요예측 1곳",
-      "description": "이번 주(6~10일) 기업공개(IPO) 시장에서는 의료데이터 플랫폼 기업 레몬헬스케어가 코스닥 시장에 입성한다. 원료의약품(API) 전문기업 에이치엘지노믹스는 기관투자자 대상 수요예측을 마무리하며 상장 절차를...",
-      "link": "https://www.news2day.co.kr/article/20260705500026",
-      "originallink": "https://www.news2day.co.kr/article/20260705500026",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-05T19:10:00.000Z"
-    },
-    {
       "id": "407578fc2a800d73",
-      "keyword": "기도산업",
-      "companyName": "기도산업",
+      "keyword": "스카이랩스",
+      "companyName": "스카이랩스",
       "title": "IPO 시장, 하반기 반전 카드는 소노인터·구다이?",
-      "description": "이외엔 봉제의복 제조 업체 기도산업과 반도체 팹리스 해치텍이 이름을 올렸다. 예비심사 승인 기업 중에선 헬스케어 기업들이 기대를 모은다. 밴드 상단인 2만700원에 공모가를 확정한 레메디는 7월 13일 상장...",
+      "description": "AI 마케팅 기업 매드업도 공모가를 웃도는 주가를 보였다. 7월 1일 상장한 매드업은 올해 IPO 기업 중 가장... 업종별로 구분하면 바이오텍과 의료기기 등 헬스케어 부문이 5곳(에이치엘지노믹스·레메디·스카이랩스...",
       "link": "https://n.news.naver.com/mnews/article/024/0000106631?sid=101",
       "originallink": "https://www.mk.co.kr/article/12089803",
       "provider": "뉴스 검색",
@@ -205,6 +205,39 @@
       "publishedAt": "2026-06-21T19:52:00.000Z"
     },
     {
+      "id": "d0ed716f7f8a3e4a",
+      "keyword": "스카이랩스",
+      "companyName": "스카이랩스",
+      "title": "증시 훈풍에 IPO 시장 기지개…예심 기업 57% 증가",
+      "description": "엠비디, 인텔리빅스, 스카이랩스, 인제니아테라퓨틱스 등 기술기업들이 예비심사를 청구했으며 일부 기업은 심사를 통과해 상장 절차를 밟고 있다. 시장에서는 최근 증시 반등과 투자심리 개선이 IPO 시장 회복을...",
+      "link": "https://www.ajunews.com/view/20260618145435849",
+      "originallink": "https://www.ajunews.com/view/20260618145435849",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-18T06:08:00.000Z"
+    },
+    {
+      "id": "d628683c99751f46",
+      "keyword": "스카이랩스",
+      "companyName": "스카이랩스",
+      "title": "코스닥 훈풍 타고...K제약·바이오 IPO '재점화'",
+      "description": "기업 스카이랩스, 3차원(3D) 세포배양 플랫폼 기업 엠비디 등이 코스닥 상장예비심사를 청구하고 한국거래소의 심사를 받고 있다. ◆증시 회복에 바이오 IPO 시장 활기…기술특례상장 확대 전망 올해 상반기 제약...",
+      "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1712881",
+      "originallink": "https://www.ebn.co.kr/news/articleView.html?idxno=1712881",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-17T05:40:00.000Z"
+    },
+    {
+      "id": "bb827deb6480b299",
+      "keyword": "스카이랩스",
+      "companyName": "스카이랩스",
+      "title": "'최근 6개월새 신규 예심청구 10건'…IPO앞두고 눈길 끄는 K·바이오기업...",
+      "description": "기업공개(IPO) 동향을 분석했다. 10곳 상장, 5곳 불발, 10곳 청구 팜이데일리가 최근 6개월 국내 제약·바이오... △넥스트젠바이오 △인제니아테라퓨틱스 △스카이랩스가 예심 결과를 기다리고 있다. 탈모치료제의 임상...",
+      "link": "https://n.news.naver.com/mnews/article/018/0006287605?sid=101",
+      "originallink": "https://www.edaily.co.kr/news/newspath.asp?newsid=02929046645451544",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-05-21T23:12:00.000Z"
+    },
+    {
       "id": "92a49a0bce2b2e92",
       "keyword": "기도산업",
       "companyName": "기도산업",
@@ -269,6 +302,17 @@
       "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=32267",
       "provider": "뉴스 검색",
       "publishedAt": "2026-03-31T02:38:00.000Z"
+    },
+    {
+      "id": "53edfa2548b46171",
+      "keyword": "스카이랩스",
+      "companyName": "스카이랩스",
+      "title": "[상장의 꿈] 중동 리스크에 얼어붙은 공모 투심…레메디·스카이랩스·피...",
+      "description": "레메디·스카이랩스·피지티 역시 약화된 공모 투심을 뚫는 건 물론, 거래소의 재무·기술성 검증을 통과할 기초체력을 입증해야 상장 레이스를 완주할 수 있을 것으로 보인다. 일각에선 올해 IPO 시장이 전반적으로...",
+      "link": "http://www.newsdream.kr/news/articleView.html?idxno=109393",
+      "originallink": "http://www.newsdream.kr/news/articleView.html?idxno=109393",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-03-16T08:30:00.000Z"
     },
     {
       "id": "7afec3689731e218",

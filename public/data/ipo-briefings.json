@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "local-rules",
-    "generatedAt": "2026-07-08T09:40:51.507Z",
+    "generatedAt": "2026-07-08T23:39:06.176Z",
     "model": null,
     "itemCount": 8,
     "geminiUsed": 0,
@@ -35,15 +35,15 @@
       "model": null
     },
     {
-      "id": "briefing-케이앤에스아이앤씨",
-      "ipoId": "케이앤에스아이앤씨",
-      "companyName": "케이앤에스아이앤씨",
+      "id": "briefing-딜리셔스",
+      "ipoId": "딜리셔스",
+      "companyName": "딜리셔스",
       "sector": "IPO 일정 확인 대상 기업",
       "ipoStage": "청약 예정",
       "underwriter": "주관사 확인",
       "basisTimeLabel": "오늘 09:30 기준",
       "oneLine": "IPO 일정 확인 대상 기업",
-      "body": "케이앤에스아이앤씨는 IPO 일정 확인 대상 기업입니다. 07.27 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
+      "body": "딜리셔스는 IPO 일정 확인 대상 기업입니다. 08.03 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
       "points": [
         "청약 시작·마감일 확인",
         "환불일 확인",
@@ -60,15 +60,15 @@
       "model": null
     },
     {
-      "id": "briefing-딜리셔스",
-      "ipoId": "딜리셔스",
-      "companyName": "딜리셔스",
+      "id": "briefing-케이앤에스아이앤씨",
+      "ipoId": "케이앤에스아이앤씨",
+      "companyName": "케이앤에스아이앤씨",
       "sector": "IPO 일정 확인 대상 기업",
       "ipoStage": "청약 예정",
       "underwriter": "주관사 확인",
       "basisTimeLabel": "오늘 09:30 기준",
       "oneLine": "IPO 일정 확인 대상 기업",
-      "body": "딜리셔스는 IPO 일정 확인 대상 기업입니다. 08.03 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
+      "body": "케이앤에스아이앤씨는 IPO 일정 확인 대상 기업입니다. 08.04 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
       "points": [
         "청약 시작·마감일 확인",
         "환불일 확인",

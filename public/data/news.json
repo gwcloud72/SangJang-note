@@ -1,11 +1,77 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-07-07T23:37:49.799Z",
+    "updatedAt": "2026-07-08T23:39:05.666Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 9
   },
   "items": [
+    {
+      "id": "93c0cf9630749b06",
+      "keyword": "에이치엘지노믹스",
+      "companyName": "에이치엘지노믹스",
+      "title": "[에이치엘지노믹스 IPO] 19년 연속 흑자·영업이익률 30%…VC 물량 '제로...",
+      "description": "최대주주 등 보유분 66.27%와 상장주선인 물량이 각각 장기 보호예수에 들어가면서 상장 직후 시장에 나올 수 있는 물량은 공모주 중심으로 제한된다. 에이치엘지노믹스의 공모 규모는 2565000주다. 희망 공모가...",
+      "link": "https://www.smarttoday.co.kr/ko-kr/articles/109363",
+      "originallink": "https://www.smarttoday.co.kr/ko-kr/articles/109363",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-08T23:08:00.000Z"
+    },
+    {
+      "id": "6fc09d91fea5e7d5",
+      "keyword": "스카이랩스",
+      "companyName": "스카이랩스",
+      "title": "“일단 상장부터 합시다”... ‘제자리 몸값’ 동의한 스카이랩스 FI들",
+      "description": "다만 수요예측을 거친 확정 공모가가 밴드 하단을 밑돌 경우 스카이랩스의 프리IPO에 참여한 투자자들은 상장과 동시에 평가손 구간에 놓일 수도 있는 것으로 파악됐다. 당시 에이티넘인베스트먼트, IMM인베스트먼트...",
+      "link": "https://n.news.naver.com/mnews/article/366/0001177821?sid=101",
+      "originallink": "https://biz.chosun.com/stock/market_trend/2026/07/09/UI54H6SEWFBSXO5V67PNYLSHPQ/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-08T23:01:00.000Z"
+    },
+    {
+      "id": "4fc1b9cea055567b",
+      "keyword": "스카이랩스",
+      "companyName": "스카이랩스",
+      "title": "[더벨][스카이랩스 IPO] 24시간 측정 가능한 '반지 혈압계' 3000억 밸류 도...",
+      "description": "반지형 혈압 측정기를 개발한 스카이랩스가 코스닥 상장 공모 절차에 돌입했다. 희망공모가 상단 기준 시가총액은 약 3000억원이다. 팔에 감는 커프 없이 혈압을 재는 커프리스 혈압계로 세계 최초 건강보험 급여...",
+      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607080954123640105945",
+      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607080954123640105945",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-08T22:02:00.000Z"
+    },
+    {
+      "id": "fd7836727b25e55c",
+      "keyword": "에이치엘지노믹스",
+      "companyName": "에이치엘지노믹스",
+      "title": "코스닥 도전 에이치엘지노믹스 \"제2공장 기반 CDMO로 글로벌 시장 공략...",
+      "description": "2000년 설립됐으며, 창립 26년 만에 한림제약 계열사 최초로 코스닥 상장에 도전한다.원료의약품(API)은... 한편 에이치엘지노믹스는 오는 13일과 14일, 2일에 걸쳐 IPO 청약을 진행한다. 공모 주식 수는 총 총 256만5000주로...",
+      "link": "https://news.mtn.co.kr/news-detail/2026070814311796064",
+      "originallink": "https://news.mtn.co.kr/news-detail/2026070814311796064",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-08T06:06:00.000Z"
+    },
+    {
+      "id": "d45b9db679cfdf8e",
+      "keyword": "빅웨이브로보틱스",
+      "companyName": "빅웨이브로보틱스",
+      "title": "[THE COMPASS] 빅웨이브로보틱스, 美 수주 6.9억…공모가 입증엔 ‘글쎄...",
+      "description": "주당매출액비율(PSR)을 공모가 산정 기준으로 삼은 만큼 밸류를 입증하기엔 부족한 상황이다. 8일 산업용... 이는 빅웨이브로보틱스가 상장 후 ‘실적 쇼크’를 피하기 위한 필수조건이자 투자자들이 반드시 확인해야...",
+      "link": "https://www.fntimes.com/html/view.php?ud=202607081029569452a837df6494_18",
+      "originallink": "https://www.fntimes.com/html/view.php?ud=202607081029569452a837df6494_18",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-08T01:42:00.000Z"
+    },
+    {
+      "id": "2ea0f19e29d66087",
+      "keyword": "해치텍",
+      "companyName": "해치텍",
+      "title": "[IPO 워치] 해치텍, 유통가능물량 38%…오버행 대응 관건",
+      "description": "8일 금융감독원 전자공시시스템에 따르면 해치텍의 상장 직후 유통가능 물량은 211만9460주다. 공모 후 상장예정주식 수의 38.42%에 해당한다. 상장 한 달 뒤 유통가능 비중은 48.33%로 올라가고 6개월 뒤에는 50.30%로 절반을...",
+      "link": "https://n.news.naver.com/mnews/article/293/0000087349?sid=101",
+      "originallink": "https://www.bloter.net/news/articleView.html?idxno=667528",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-08T00:54:00.000Z"
+    },
     {
       "id": "248d524994641820",
       "keyword": "에이치엘지노믹스",
@@ -38,28 +104,6 @@
       "originallink": "https://www.etoday.co.kr/news/view/2600764",
       "provider": "뉴스 검색",
       "publishedAt": "2026-07-06T20:26:00.000Z"
-    },
-    {
-      "id": "f6323fc5de0a1203",
-      "keyword": "에이치엘지노믹스",
-      "companyName": "에이치엘지노믹스",
-      "title": "얼어붙은 IPO 시장…하반기 '대어'가 분위기 바꿀까",
-      "description": "이달 상장한 매드업과 레몬헬스케어도 각각 공모가 대비 12.13%, 6.00% 하락했다. 신규 상장 일정도 한산하다. 7월 IPO 시장에서 신규 상장은 레몬헬스케어, 레메디, 에이치엘지노믹스 세 곳에 그쳤다. IPO 시장 규모...",
-      "link": "https://n.news.naver.com/mnews/article/417/0001150510?sid=101",
-      "originallink": "https://www.sidae.com/article/2026070615453016481",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-06T08:48:00.000Z"
-    },
-    {
-      "id": "f7b1a7e1e1ebc48d",
-      "keyword": "에이치엘지노믹스",
-      "companyName": "에이치엘지노믹스",
-      "title": "레몬헬스케어, 코스닥 신규 상장",
-      "description": "이번 주(7월6일~10일) 기업공개(IPO) 시장에서는 레몬헬스케어가 신규 상장한다. 에이치엘지노믹스는 지난... 시장에 상장한다. 앞선 일반 투자자 대상 청약에서 1511대 1의 경쟁률을 기록했다. 최종 공모가는 희망...",
-      "link": "https://n.news.naver.com/mnews/article/031/0001039875?sid=101",
-      "originallink": "http://www.inews24.com/view/1982572",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-05T23:56:00.000Z"
     },
     {
       "id": "407578fc2a800d73",
@@ -194,17 +238,6 @@
       "publishedAt": "2026-06-21T21:01:00.000Z"
     },
     {
-      "id": "8dc01e25d8f91cf5",
-      "keyword": "빅웨이브로보틱스",
-      "companyName": "빅웨이브로보틱스",
-      "title": "[IPO 워치] 매드업·레몬헬스케어 청약…레메디 수요예측 마무리",
-      "description": "공모 돌입 미래에셋·KB증권 주관 경쟁 빅웨이브로보틱스 일정은 연기 위 이미지는 기사 이해를 돕기 위해 AI(인공지능)를 활용해 제작했습니다. [그림=챗GPT] [뉴스투데이=염보라 기자] 이번 주(22~26일) 기업공개(IPO)...",
-      "link": "https://www.news2day.co.kr/article/20260620500010",
-      "originallink": "https://www.news2day.co.kr/article/20260620500010",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-21T19:52:00.000Z"
-    },
-    {
       "id": "d0ed716f7f8a3e4a",
       "keyword": "스카이랩스",
       "companyName": "스카이랩스",
@@ -225,17 +258,6 @@
       "originallink": "https://www.ebn.co.kr/news/articleView.html?idxno=1712881",
       "provider": "뉴스 검색",
       "publishedAt": "2026-06-17T05:40:00.000Z"
-    },
-    {
-      "id": "bb827deb6480b299",
-      "keyword": "스카이랩스",
-      "companyName": "스카이랩스",
-      "title": "'최근 6개월새 신규 예심청구 10건'…IPO앞두고 눈길 끄는 K·바이오기업...",
-      "description": "기업공개(IPO) 동향을 분석했다. 10곳 상장, 5곳 불발, 10곳 청구 팜이데일리가 최근 6개월 국내 제약·바이오... △넥스트젠바이오 △인제니아테라퓨틱스 △스카이랩스가 예심 결과를 기다리고 있다. 탈모치료제의 임상...",
-      "link": "https://n.news.naver.com/mnews/article/018/0006287605?sid=101",
-      "originallink": "https://www.edaily.co.kr/news/newspath.asp?newsid=02929046645451544",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-05-21T23:12:00.000Z"
     },
     {
       "id": "92a49a0bce2b2e92",
@@ -302,17 +324,6 @@
       "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=32267",
       "provider": "뉴스 검색",
       "publishedAt": "2026-03-31T02:38:00.000Z"
-    },
-    {
-      "id": "53edfa2548b46171",
-      "keyword": "스카이랩스",
-      "companyName": "스카이랩스",
-      "title": "[상장의 꿈] 중동 리스크에 얼어붙은 공모 투심…레메디·스카이랩스·피...",
-      "description": "레메디·스카이랩스·피지티 역시 약화된 공모 투심을 뚫는 건 물론, 거래소의 재무·기술성 검증을 통과할 기초체력을 입증해야 상장 레이스를 완주할 수 있을 것으로 보인다. 일각에선 올해 IPO 시장이 전반적으로...",
-      "link": "http://www.newsdream.kr/news/articleView.html?idxno=109393",
-      "originallink": "http://www.newsdream.kr/news/articleView.html?idxno=109393",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-03-16T08:30:00.000Z"
     },
     {
       "id": "7afec3689731e218",

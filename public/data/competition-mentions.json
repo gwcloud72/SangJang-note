@@ -2,9 +2,9 @@
   "metadata": {
     "source": "naver-news-search-gemini-assisted",
     "displayLabel": "뉴스 언급",
-    "updatedAt": "2026-07-09T07:57:05.857Z",
-    "updatedKst": "2026-07-09T16:57+09:00",
-    "referenceDate": "2026-07-09",
+    "updatedAt": "2026-07-09T23:26:19.943Z",
+    "updatedKst": "2026-07-10T08:26+09:00",
+    "referenceDate": "2026-07-10",
     "policyVersion": "retail-same-company-same-day-v2",
     "policy": "당일 기사에서 같은 회사와 같은 문맥에 있는 일반투자자 청약 경쟁률만 저장합니다.",
     "parserPolicy": "기관 수요예측 경쟁률, 다른 회사 숫자, 날짜 없는 기사, 전일 이전 기사는 제외합니다.",

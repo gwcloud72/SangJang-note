@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "local-rules",
-    "generatedAt": "2026-07-09T23:39:20.956Z",
+    "generatedAt": "2026-07-10T23:15:13.963Z",
     "model": null
   },
   "items": [
@@ -15,7 +15,7 @@
     {
       "seriesId": "DGS10",
       "koreanName": "미국 10년물 국채금리",
-      "plainSummary": "미국 10년물 국채금리 최신값은 4.56%이며 상승 흐름입니다.",
+      "plainSummary": "미국 10년물 국채금리 최신값은 4.54%이며 하락 흐름입니다.",
       "ipoContext": "IPO 일정과 함께 확인할 수 있는 시장환경 지표입니다.",
       "caution": "공시와 시장 지표를 함께 확인하세요."
     },

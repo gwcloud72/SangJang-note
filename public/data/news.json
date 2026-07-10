@@ -1,11 +1,33 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-07-09T23:26:19.779Z",
+    "updatedAt": "2026-07-10T23:12:09.314Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 9
   },
   "items": [
+    {
+      "id": "974926ba23879c22",
+      "keyword": "에이치엘지노믹스",
+      "companyName": "에이치엘지노믹스",
+      "title": "에이치엘지노믹스, 공모가 상단 2만1500원 확정",
+      "description": "회사는 이번 기업공개(IPO)를 통해 조달하는 자금을 용인 제2공장 증설에 전액 투입할 방침이다. 생산 기반... 에이치엘지노믹스는 오는13~14일 일반 투자자 대상 공모주 청약을 실시하고 이달 24일 코스닥 시장에 상장할...",
+      "link": "https://www.newstopkorea.com/news/articleView.html?idxno=46187",
+      "originallink": "https://www.newstopkorea.com/news/articleView.html?idxno=46187",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-10T06:20:00.000Z"
+    },
+    {
+      "id": "4791a9f855cd636b",
+      "keyword": "스카이랩스",
+      "companyName": "스카이랩스",
+      "title": "[더벨][스카이랩스 IPO] 비교군 없는 세계 첫 반지 혈압계, 할인율 높인...",
+      "description": "스카이랩스의 공모 규모는 200만주 전량 신주 모집에 260억~320억원이다. 상장예정주식수 1874만1977주 기준 시가총액은 밴드 하단 2436억원에서 상단 2999억원이다. 8월 3~7일 수요예측을 진행해 확정공모가를 결정하고 8월...",
+      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607090927426880109551",
+      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607090927426880109551",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-09T23:38:00.000Z"
+    },
     {
       "id": "93c0cf9630749b06",
       "keyword": "에이치엘지노믹스",
@@ -93,17 +115,6 @@
       "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=587069",
       "provider": "뉴스 검색",
       "publishedAt": "2026-07-07T02:52:00.000Z"
-    },
-    {
-      "id": "e57dd0bfcb7a98c9",
-      "keyword": "에이치엘지노믹스",
-      "companyName": "에이치엘지노믹스",
-      "title": "소노인터·구다이글로벌 IPO 성공할까… 하반기 상장 기대감 증폭",
-      "description": "만큼 상장에 성공할 경우 상반기 내내 이어진 유가증권시장 공모금액 부족 흐름을 일부 완화할 수 있다는... 레메디, 에이치엘지노믹스 등 4개 코스닥 중소형 종목이 상장했거나 상장을 앞두고 있다. 당장 IPO 시장...",
-      "link": "https://www.etoday.co.kr/news/view/2600764",
-      "originallink": "https://www.etoday.co.kr/news/view/2600764",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-06T20:26:00.000Z"
     },
     {
       "id": "407578fc2a800d73",
@@ -247,17 +258,6 @@
       "originallink": "https://www.ajunews.com/view/20260618145435849",
       "provider": "뉴스 검색",
       "publishedAt": "2026-06-18T06:08:00.000Z"
-    },
-    {
-      "id": "d628683c99751f46",
-      "keyword": "스카이랩스",
-      "companyName": "스카이랩스",
-      "title": "코스닥 훈풍 타고...K제약·바이오 IPO '재점화'",
-      "description": "기업 스카이랩스, 3차원(3D) 세포배양 플랫폼 기업 엠비디 등이 코스닥 상장예비심사를 청구하고 한국거래소의 심사를 받고 있다. ◆증시 회복에 바이오 IPO 시장 활기…기술특례상장 확대 전망 올해 상반기 제약...",
-      "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1712881",
-      "originallink": "https://www.ebn.co.kr/news/articleView.html?idxno=1712881",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-17T05:40:00.000Z"
     },
     {
       "id": "92a49a0bce2b2e92",

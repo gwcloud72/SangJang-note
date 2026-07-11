@@ -1,11 +1,55 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-07-10T23:12:09.314Z",
+    "updatedAt": "2026-07-11T23:25:38.755Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 9
   },
   "items": [
+    {
+      "id": "21cb86764c6d0c58",
+      "keyword": "에이치엘지노믹스",
+      "companyName": "에이치엘지노믹스",
+      "title": "[이번주 IPO]7월 셋째 주 수요예측·청약 일정",
+      "description": "◆에이치엘지노믹스= 최종 공모가를 희망 공모가 밴드(1만8500~2만1500원) 상단인 2만1500원으로 확정했다.... 오는 13~14일 양일간 일반 투자자 대상 청약을 진행한 뒤 24일 코스닥 시장에 상장할 예정이다. 대표...",
+      "link": "https://n.news.naver.com/mnews/article/277/0005788622?sid=101",
+      "originallink": "https://view.asiae.co.kr/article/2026071109034097361",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-11T23:00:00.000Z"
+    },
+    {
+      "id": "3f7378bcca8f515e",
+      "keyword": "에이치엘지노믹스",
+      "companyName": "에이치엘지노믹스",
+      "title": "이번주 공모주 청약, 에이치엘지노믹스 1개사",
+      "description": "7월 셋째 주(7월 13~17일) 기업공개(IPO) 시장에서는 원료의약품(API) 전문 생산기업 에이치엘지노믹스가 일반투자자 대상 공모주 청약을 진행한다. 12일 금융투자업계에 따르면, 에이치엘지노믹스는 오는 13~14일 이틀간...",
+      "link": "https://n.news.naver.com/mnews/article/119/0003110424?sid=101",
+      "originallink": "https://www.dailian.co.kr/news/view/1665897/?sc=Naver",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-11T15:11:00.000Z"
+    },
+    {
+      "id": "416d3e83b21af6ac",
+      "keyword": "에이치엘지노믹스",
+      "companyName": "에이치엘지노믹스",
+      "title": "의료기기 기업 레미디, 13일 코스닥 상장 [주간 IPO]",
+      "description": "주(7월 13일~17일) 기업공개(IPO) 시장에서는 의료용 기기 제조기업 레메디가 코스닥시장에 신규 상장한다.... 에이치엘지노믹스는 국내외 기관투자자를 대상으로 2일부터 8일까지 진행한 수요예측에서 최종 공모가...",
+      "link": "https://www.etoday.co.kr/news/view/2602658",
+      "originallink": "https://www.etoday.co.kr/news/view/2602658",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-11T00:02:00.000Z"
+    },
+    {
+      "id": "e2e6fe733b75f133",
+      "keyword": "에이치엘지노믹스",
+      "companyName": "에이치엘지노믹스",
+      "title": "[IPO챗] '상장 삼수생' 레메디, 두 차례 고배 딛고 코스닥 입성",
+      "description": "기업공개(IPO) 시장에서는 두 차례 상장 문턱에서 돌아섰던 레메디가 세번째 도전 끝에 코스닥 시장에 입성한다. 같은 주 에이치엘지노믹스는 일반투자자를 대상으로 공모주 청약을 진행한다. 11일...",
+      "link": "https://n.news.naver.com/mnews/article/001/0016188588?sid=101",
+      "originallink": "https://www.yna.co.kr/view/AKR20260710102900008?input=1195m",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-11T00:00:00.000Z"
+    },
     {
       "id": "974926ba23879c22",
       "keyword": "에이치엘지노믹스",
@@ -27,17 +71,6 @@
       "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607090927426880109551",
       "provider": "뉴스 검색",
       "publishedAt": "2026-07-09T23:38:00.000Z"
-    },
-    {
-      "id": "93c0cf9630749b06",
-      "keyword": "에이치엘지노믹스",
-      "companyName": "에이치엘지노믹스",
-      "title": "[에이치엘지노믹스 IPO] 19년 연속 흑자·영업이익률 30%…VC 물량 '제로...",
-      "description": "최대주주 등 보유분 66.27%와 상장주선인 물량이 각각 장기 보호예수에 들어가면서 상장 직후 시장에 나올 수 있는 물량은 공모주 중심으로 제한된다. 에이치엘지노믹스의 공모 규모는 2565000주다. 희망 공모가...",
-      "link": "https://www.smarttoday.co.kr/ko-kr/articles/109363",
-      "originallink": "https://www.smarttoday.co.kr/ko-kr/articles/109363",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-08T23:08:00.000Z"
     },
     {
       "id": "6fc09d91fea5e7d5",
@@ -62,17 +95,6 @@
       "publishedAt": "2026-07-08T22:02:00.000Z"
     },
     {
-      "id": "fd7836727b25e55c",
-      "keyword": "에이치엘지노믹스",
-      "companyName": "에이치엘지노믹스",
-      "title": "코스닥 도전 에이치엘지노믹스 \"제2공장 기반 CDMO로 글로벌 시장 공략...",
-      "description": "2000년 설립됐으며, 창립 26년 만에 한림제약 계열사 최초로 코스닥 상장에 도전한다.원료의약품(API)은... 한편 에이치엘지노믹스는 오는 13일과 14일, 2일에 걸쳐 IPO 청약을 진행한다. 공모 주식 수는 총 총 256만5000주로...",
-      "link": "https://news.mtn.co.kr/news-detail/2026070814311796064",
-      "originallink": "https://news.mtn.co.kr/news-detail/2026070814311796064",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-08T06:06:00.000Z"
-    },
-    {
       "id": "d45b9db679cfdf8e",
       "keyword": "빅웨이브로보틱스",
       "companyName": "빅웨이브로보틱스",
@@ -93,28 +115,6 @@
       "originallink": "https://www.bloter.net/news/articleView.html?idxno=667528",
       "provider": "뉴스 검색",
       "publishedAt": "2026-07-08T00:54:00.000Z"
-    },
-    {
-      "id": "248d524994641820",
-      "keyword": "에이치엘지노믹스",
-      "companyName": "에이치엘지노믹스",
-      "title": "[분석] 케이뱅크 뒤 끊긴 '대어'… IPO 시장, 하반기엔 급물살 탈까",
-      "description": "7월 예상 IPO 기업 수는 4~5개로 1999~2025년 동월 평균 14개, 최근 5년 평균 12개를 크게 밑돌 전망이다. 8월까지 상장을 준비하는 기업도 현재 10개사 안팎이다. 7월에는 매드업과 레몬헬스케어, 레메디, 에이치엘지노믹스 등...",
-      "link": "https://www.startuptoday.co.kr/news/articleView.html?idxno=805901",
-      "originallink": "https://www.startuptoday.co.kr/news/articleView.html?idxno=805901",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-07T08:20:00.000Z"
-    },
-    {
-      "id": "df2b1e10e5e69ff1",
-      "keyword": "에이치엘지노믹스",
-      "companyName": "에이치엘지노믹스",
-      "title": "[공모주 청약] 에이치엘지노믹스 공모주 청약 임박…원료의약품 전문기...",
-      "description": "IPO 자료사진. AI가 생성한 이미지. 에이치엘지노믹스가 코스닥 상장을 위한 일반투자자 청약에 나선다.... 따르면 에이치엘지노믹스의 일반 청약은 오는 7월 13일부터 14일까지 이틀간 진행된다. 희망 공모가는 1만8...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=587069",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=587069",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-07T02:52:00.000Z"
     },
     {
       "id": "407578fc2a800d73",

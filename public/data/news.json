@@ -1,11 +1,44 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-07-12T23:21:02.445Z",
+    "updatedAt": "2026-07-13T23:30:31.801Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
-    "queryCount": 9
+    "queryCount": 10
   },
   "items": [
+    {
+      "id": "e13c47ebc9e7b6c8",
+      "keyword": "에이치엘지노믹스",
+      "companyName": "에이치엘지노믹스",
+      "title": "[공모주 현황] 에이치엘지노믹스 청약 1일차 종료, 증권사별 균등·비례...",
+      "description": "IPO 자료사진. AI가 생성한 이미지. 13일 오후 4시경 공모주 에이치엘지노믹스의 청약 1일차가... 한편 에이치엘지노믹스의 상장일은 7월 24일이다. 상장 당일 만약 따따블을 기록한다면 공모가 21500원 대비 300...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=588801",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=588801",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-13T07:14:00.000Z"
+    },
+    {
+      "id": "bb8cf65ccb4ade66",
+      "keyword": "에이치엘지노믹스",
+      "companyName": "에이치엘지노믹스",
+      "title": "공모땐 웃었지만 주가 울었다…험난한 K바이오 'IPO 데뷔전'",
+      "description": "역시 공모가 1만원에서 상장 첫날 2만300원까지 상승했지만 이후 하락세로 전환돼 이날 오후 2시 기준 7570원에 거래되고 있다. 시장에서는 원료의약품(API) 생산기업 에이치엘지노믹스를 비롯한 하반기 IPO 예정...",
+      "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1716152",
+      "originallink": "https://www.ebn.co.kr/news/articleView.html?idxno=1716152",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-13T06:02:00.000Z"
+    },
+    {
+      "id": "3c30e4288af08c53",
+      "keyword": "에이치엘지노믹스",
+      "companyName": "에이치엘지노믹스",
+      "title": "레메디 코스닥 입성⋯HL지노믹스 일반청약",
+      "description": "이번 주(13~16일) 기업공개(IPO) 시장에서는 레메디가 코스닥 시장에 입성한다. 에이치엘지노믹스는 일반투자자 대상 공모 청약을 진행한다. 13일 금융투자업계에 따르면 X레이 의료기기 업체 레메디가 이날 코스닥...",
+      "link": "https://n.news.naver.com/mnews/article/031/0001041564?sid=101",
+      "originallink": "http://www.inews24.com/view/1984763",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-12T23:49:00.000Z"
+    },
     {
       "id": "a19b376f3059976e",
       "keyword": "에이치엘지노믹스",
@@ -27,39 +60,6 @@
       "originallink": "https://www.news2day.co.kr/article/20260712500034",
       "provider": "뉴스 검색",
       "publishedAt": "2026-07-12T19:40:00.000Z"
-    },
-    {
-      "id": "825e33a6e42b357e",
-      "keyword": "에이치엘지노믹스",
-      "companyName": "에이치엘지노믹스",
-      "title": "이번주 레메디 코스닥 신규상장…에이치엘지노믹스 일반 청약",
-      "description": "5%가 공모가 밴드 상단 이상의 가격을 제시하면서, 공모가를 희망 밴드 상단인 2만1천500원으로 확정했다. 국내 원료의약품 시장에서 19년 연속 흑자를 기록하고 있는 에이치엘지노믹스는 한국투자증권이 7월 IPO 시장...",
-      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4424528",
-      "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4424528",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-12T04:06:00.000Z"
-    },
-    {
-      "id": "5ac815141143bfa7",
-      "keyword": "에이치엘지노믹스",
-      "companyName": "에이치엘지노믹스",
-      "title": "레메디 상장·에이치엘지노믹스 청약[증시캘린더]",
-      "description": "다음 주(13~17일) 기업공개(IPO) 시장에서는 원료의약품(API) 전문기업 에이치엘지노믹스가 일반청약에 나선다. 디지털 엑스레이(X-ray) 영상 솔루션 기업 레메디는 코스닥 시장에 상장한다. 7월 13일 △레메디 상장...",
-      "link": "https://n.news.naver.com/mnews/article/018/0006328234?sid=101",
-      "originallink": "https://www.edaily.co.kr/news/newspath.asp?newsid=01243126645513864",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-12T00:02:00.000Z"
-    },
-    {
-      "id": "21cb86764c6d0c58",
-      "keyword": "에이치엘지노믹스",
-      "companyName": "에이치엘지노믹스",
-      "title": "[이번주 IPO]7월 셋째 주 수요예측·청약 일정",
-      "description": "◆에이치엘지노믹스= 최종 공모가를 희망 공모가 밴드(1만8500~2만1500원) 상단인 2만1500원으로 확정했다.... 오는 13~14일 양일간 일반 투자자 대상 청약을 진행한 뒤 24일 코스닥 시장에 상장할 예정이다. 대표...",
-      "link": "https://n.news.naver.com/mnews/article/277/0005788622?sid=101",
-      "originallink": "https://view.asiae.co.kr/article/2026071109034097361",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-11T23:00:00.000Z"
     },
     {
       "id": "4791a9f855cd636b",
@@ -118,10 +118,10 @@
     },
     {
       "id": "407578fc2a800d73",
-      "keyword": "스카이랩스",
-      "companyName": "스카이랩스",
+      "keyword": "브릴스",
+      "companyName": "브릴스",
       "title": "IPO 시장, 하반기 반전 카드는 소노인터·구다이?",
-      "description": "AI 마케팅 기업 매드업도 공모가를 웃도는 주가를 보였다. 7월 1일 상장한 매드업은 올해 IPO 기업 중 가장... 업종별로 구분하면 바이오텍과 의료기기 등 헬스케어 부문이 5곳(에이치엘지노믹스·레메디·스카이랩스...",
+      "description": "AI 마케팅 기업 매드업도 공모가를 웃도는 주가를 보였다. 7월 1일 상장한 매드업은 올해 IPO 기업 중 가장... 그 다음 로봇(브릴스·빅웨이브로보틱스)과 드론, 방산(니어스랩·케이앤에스아이앤씨), 커머스...",
       "link": "https://n.news.naver.com/mnews/article/024/0000106631?sid=101",
       "originallink": "https://www.mk.co.kr/article/12089803",
       "provider": "뉴스 검색",
@@ -194,11 +194,22 @@
       "publishedAt": "2026-06-29T01:15:00.000Z"
     },
     {
+      "id": "2967f7ff5acccc57",
+      "keyword": "브릴스",
+      "companyName": "브릴스",
+      "title": "브릴스, 코스닥 상장예비심사 승인…'로봇 모듈화 플랫폼'으로 IPO 본격...",
+      "description": "이에 따라 브릴스는 거버넌스 투명성을 입증하고 금융위원회에 증증권신고서를 제출하는 등 상장(IPO)을 위한 본격적인 공모 절차에 착수할 예정이다. 상장 주관사는 중소·벤처기업 금융 솔루션에 특화된 IBK투자증권이...",
+      "link": "https://www.thedailypost.kr/news/articleView.html?idxno=114486",
+      "originallink": "https://www.thedailypost.kr/news/articleView.html?idxno=114486",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-26T01:40:00.000Z"
+    },
+    {
       "id": "94e7ff45f8d6ecde",
-      "keyword": "기도산업",
-      "companyName": "기도산업",
+      "keyword": "브릴스",
+      "companyName": "브릴스",
       "title": "브릴스, 코스닥 상장 예비심사 통과",
-      "description": "일반상장으로 ㈜브릴스, ㈜와이즈플래닛컴퍼니, ㈜기도산업 등 3개사에 대한 상장예비심사 결과... 이번 승인을 바탕으로 이들 기업들은 증권신고서 제출, 공모주 수요예측 및 일반 청약 등 본격적인 기업공개(IPO)...",
+      "description": "한국거래소 코스닥시장본부는 25일 코스닥시장 상장위원회의 심의·의결을 거쳐 일반상장으로 ㈜브릴스... 제출, 공모주 수요예측 및 일반 청약 등 본격적인 기업공개(IPO) 절차에 돌입하며 하반기 상장을 마무리할...",
       "link": "https://www.irobotnews.com/news/articleView.html?idxno=47105",
       "originallink": "https://www.irobotnews.com/news/articleView.html?idxno=47105",
       "provider": "뉴스 검색",
@@ -261,14 +272,25 @@
     },
     {
       "id": "92a49a0bce2b2e92",
-      "keyword": "기도산업",
-      "companyName": "기도산업",
+      "keyword": "브릴스",
+      "companyName": "브릴스",
       "title": "5월 공모주 시장 대형주 실종…중소형주에 투자 집중",
-      "description": "한국거래소 자료에 따르면, 4월에 상장 예비심사를 청구한 기업은 에이치엘지노믹스, 크리에이츠, 옵토닉스, 엠비디, 글로벌테크놀로지, 와이즈플래닛컴퍼니, 엠에스바이오, 브릴스, 기도산업, 네오사피엔스, 텔레픽스...",
+      "description": "5월 IPO 시장은 금융당국의 중복상장 규제와 대내외 금융시장의 변동성이 맞물리며 대형 기업들이 자취를 감춘 채 중소형주 위주의 제한적인 시장이 형성되었다. 소수 중소형 공모주에 자금이 집중되며 청약 경쟁률이...",
       "link": "https://www.junggi.co.kr/news/articleView.html?idxno=36401",
       "originallink": "https://www.junggi.co.kr/news/articleView.html?idxno=36401",
       "provider": "뉴스 검색",
       "publishedAt": "2026-05-12T05:22:00.000Z"
+    },
+    {
+      "id": "2cd0aeb13b110639",
+      "keyword": "브릴스",
+      "companyName": "브릴스",
+      "title": "로봇 IPO 러시 합류한 모비어스…완성차 레퍼런스 '반복수주' 시험대 [I...",
+      "description": "상장을 추진하는 기업들은 거시경제 불확실성 속에 실적과 성과를 입증해야 하는 시험대에 섰다. 본지는... 빅웨이브로보틱스와 브릴스 등 로봇·자동화 기업의 IPO 절차가 이어지면서 같은 테마 안에서 공모기업 간...",
+      "link": "https://www.etoday.co.kr/news/view/2582399",
+      "originallink": "https://www.etoday.co.kr/news/view/2582399",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-05-07T06:14:00.000Z"
     },
     {
       "id": "be20ef59d00fedb1",

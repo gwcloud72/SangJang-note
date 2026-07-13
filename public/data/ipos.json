@@ -1,27 +1,27 @@
 {
   "metadata": {
-    "updatedAt": "2026-07-12T23:20:57.058Z",
+    "updatedAt": "2026-07-13T23:30:25.526Z",
     "source": "OpenDART",
     "basis": "증권신고서 주요정보 - 지분증권(estkRs), 공시검색(list), 공시원문(document.xml)",
     "dateRange": {
-      "bgnDe": "20260114",
-      "endDe": "20260713"
+      "bgnDe": "20260115",
+      "endDe": "20260714"
     },
     "lookbackDays": 180,
     "lookaheadDays": 120,
-    "totalFilings": 12678,
-    "totalCompanies": 355,
-    "totalItems": 9,
-    "referenceDate": "2026-07-13",
+    "totalFilings": 12670,
+    "totalCompanies": 356,
+    "totalItems": 10,
+    "referenceDate": "2026-07-14",
     "status": "ready",
-    "candidateItems": 32,
-    "futureCandidateItems": 9,
+    "candidateItems": 33,
+    "futureCandidateItems": 10,
     "statusCounts": {
       "청약 진행중": 1,
-      "청약 예정": 8
+      "청약 예정": 9
     },
-    "documentDetailItems": 31,
-    "warning": "33개 항목의 상세 조회 또는 원문 추출에 실패했습니다. Actions 로그에서 확인하세요."
+    "documentDetailItems": 32,
+    "warning": "34개 항목의 상세 조회 또는 원문 추출에 실패했습니다. Actions 로그에서 확인하세요."
   },
   "items": [
     {
@@ -421,6 +421,51 @@
       "listingDate": "",
       "demandForecastStart": "2023-12-31",
       "demandForecastEnd": "2023-12-31",
+      "refundDateSource": "",
+      "listingDateSource": "",
+      "subscriptionCompetitionRate": "",
+      "demandForecastCompetitionRate": "",
+      "detailSource": "document",
+      "detailSourceNote": "환불일·상장예정일·수요예측 기간·경쟁률은 공시 원문에서 자동 추출된 값입니다.",
+      "offeringCategory": "ipo",
+      "eventType": "initial_public_offering",
+      "sourceMode": "opendart",
+      "demandForecastSource": "dart-document"
+    },
+    {
+      "companyName": "브릴스",
+      "corpCode": "01801026",
+      "corpClass": "E",
+      "stockCode": "",
+      "receiptNo": "20260713000275",
+      "receiptDate": "2026-07-13",
+      "reportName": "증권신고서(지분증권)",
+      "securityType": "보통주",
+      "offeringMethod": "일반공모",
+      "offerPrice": "16,500",
+      "offerAmount": "19,800,000,000",
+      "stockCount": "1,200,000",
+      "parValue": "500",
+      "subscriptionDate": "2026년 08월 25일 ~ 2026년 08월 26일",
+      "subscriptionNoticeDate": "2026-08-25",
+      "paymentDate": "2026-08-28",
+      "allotmentNoticeDate": "2026-08-28",
+      "allotmentBaseDate": "",
+      "scheduleStart": "2026-08-25",
+      "scheduleEnd": "2026-08-26",
+      "subscriptionStart": "2026-08-25",
+      "subscriptionEnd": "2026-08-26",
+      "underwriters": [
+        "아이비케이투자증권"
+      ],
+      "dartUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260713000275",
+      "mainMatterReceiptNo": "",
+      "mainMatterUrl": "",
+      "status": "청약 예정",
+      "refundDate": "",
+      "listingDate": "",
+      "demandForecastStart": "2026-08-14",
+      "demandForecastEnd": "2026-08-14",
       "refundDateSource": "",
       "listingDateSource": "",
       "subscriptionCompetitionRate": "",

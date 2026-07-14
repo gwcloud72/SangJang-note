@@ -1,11 +1,99 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-07-13T23:30:31.801Z",
+    "updatedAt": "2026-07-14T23:30:19.751Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 10
   },
   "items": [
+    {
+      "id": "c2a27902d5b42ff9",
+      "keyword": "스카이랩스",
+      "companyName": "스카이랩스",
+      "title": "[더벨]K2인베, 선구안 통했다…투자사 3곳 IPO 예심 통과",
+      "description": "스카이랩스는 지난 1월 30일 예비심사를 청구해 약 5개월 만인 6월 24일 승인을 받았다. 상장 예정 주식 수는 1874만1977주, 공모 예정 주식 수는 200만주다. 한국투자증권이 상장을 주관한다. K2인베스트먼트의 투자금은...",
+      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607131156343440104238",
+      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607131156343440104238",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-14T22:02:00.000Z"
+    },
+    {
+      "id": "0abf62b19624583a",
+      "keyword": "브릴스",
+      "companyName": "브릴스",
+      "title": "브릴스, 코스닥 상장 본격화…”피지컬 AI로 글로벌 로봇 시장 공략”",
+      "description": "로봇 모듈화 플랫폼 전문기업 브릴스가 코스닥 상장을 위한 증권신고서를 제출하고 기업공개(IPO)에 본격... 브릴스는 금융당국에 증권신고서를 제출하고 코스닥 상장 절차를 시작했다고 14일 밝혔다. 이번 공모는...",
+      "link": "https://www.venturesquare.net/1098491/",
+      "originallink": "https://www.venturesquare.net/1098491/",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-14T13:13:00.000Z"
+    },
+    {
+      "id": "8686c2c044e8612b",
+      "keyword": "브릴스",
+      "companyName": "브릴스",
+      "title": "브릴스, 증권신고서 제출...코스닥 상장 돌입",
+      "description": "기업 브릴스가 코스닥 시장 상장을 위한 기업공개(IPO)에 본격 착수했다. 브릴스는 금융위원회에... 이번 상장을 통해 브릴스는 신주 120만주를 공모할 계획이며 희망 공모가 범위는 1만6500~1만9500원이다. 이에 따른 공모...",
+      "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=850296",
+      "originallink": "http://www.hansbiz.co.kr/news/articleView.html?idxno=850296",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-14T08:28:00.000Z"
+    },
+    {
+      "id": "a55974e74bd5b9b6",
+      "keyword": "브릴스",
+      "companyName": "브릴스",
+      "title": "브릴스, 증권신고서 제출로 코스닥 상장 돌입··· K-로봇 경쟁력 앞세...",
+      "description": "기업공개(IPO) 절차에 돌입했다고 14일 밝혔다. 브릴스는 이번 상장을 통해 신주 1,200,000주를 공모할 계획이다. 희망 공모가 범위는 16,500원~19,500원으로, 총 공모 예정 금액은 약 200억원 규모다. 기관투자자 대상...",
+      "link": "https://www.aitimes.kr/news/articleView.html?idxno=40979",
+      "originallink": "https://www.aitimes.kr/news/articleView.html?idxno=40979",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-14T08:22:00.000Z"
+    },
+    {
+      "id": "cc3a3770b4158d4e",
+      "keyword": "에이치엘지노믹스",
+      "companyName": "에이치엘지노믹스",
+      "title": "에이치엘지노믹스 청약에 뭉칫돈 … 통합경쟁률 666.78대1 [박정은의 IPO...",
+      "description": "이에 에이치엘지노믹스와 대표주관회사, 공동주관회사는 협의를 거쳐 확정공모가를 희망범위... 오는 16일 공모주 납입을 거쳐 24일 코스닥 시장에 상장할 예정이다. 뉴데일리 박정은",
+      "link": "https://biz.newdaily.co.kr/site/data/html/2026/07/14/2026071400267.html",
+      "originallink": "https://biz.newdaily.co.kr/site/data/html/2026/07/14/2026071400267.html",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-14T07:42:00.000Z"
+    },
+    {
+      "id": "71d6d2346fafb1a0",
+      "keyword": "브릴스",
+      "companyName": "브릴스",
+      "title": "‘120만 주 공모, 402억 누적 투자’ 브릴스, 피지컬·온디바이스 AI로 돈...",
+      "description": "코스닥 상장 위한 증권신고서 제출...기업공개(IPO) 절차 본격 돌입한다 신주 120만 주 공모 및 총 402억 원 누적 투자 유치 완료 피지컬 AI(Physical AI) 융합 기술 고도화 ‘순항’ 브릴스가 코스닥 상장 과정에서의...",
+      "link": "https://www.hellot.net/news/article.html?no=113767",
+      "originallink": "https://www.hellot.net/news/article.html?no=113767",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-14T07:24:00.000Z"
+    },
+    {
+      "id": "c2591ccbc87a0072",
+      "keyword": "브릴스",
+      "companyName": "브릴스",
+      "title": "[Tech & Now] 브릴스, 증권신고서 제출…코스닥 상장 돌입 등",
+      "description": "기업공개(IPO) 절차에 돌입했다고 14일 밝혔다. 브릴스는 이번 상장을 통해 신주 120만 주를 공모할 계획이다. 희망 공모가 범위는 1만6500원~1만9500원이며, 총 공모 예정 금액은 약 200억원 규모다. 기관투자자 대상...",
+      "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1716359",
+      "originallink": "https://www.ebn.co.kr/news/articleView.html?idxno=1716359",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-14T07:16:00.000Z"
+    },
+    {
+      "id": "0286a94b3da06ea0",
+      "keyword": "에이치엘지노믹스",
+      "companyName": "에이치엘지노믹스",
+      "title": "[공모주 마감] 에이치엘지노믹스 청약 2일차까지 마감…균등·비례 경쟁...",
+      "description": "IPO 자료사진. AI가 생성한 이미지. 에이치엘지노믹스의 청약 2일차가 14일 오후 4시경 마무리됐다.... 이런 가운데 에이치엘지노믹스가 상장일인 24일 어떤 추이를 보일지 이목이 쏠린다. 최근 변동성 큰 장세...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=589061",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=589061",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-14T07:04:00.000Z"
+    },
     {
       "id": "e13c47ebc9e7b6c8",
       "keyword": "에이치엘지노믹스",
@@ -38,28 +126,6 @@
       "originallink": "http://www.inews24.com/view/1984763",
       "provider": "뉴스 검색",
       "publishedAt": "2026-07-12T23:49:00.000Z"
-    },
-    {
-      "id": "a19b376f3059976e",
-      "keyword": "에이치엘지노믹스",
-      "companyName": "에이치엘지노믹스",
-      "title": "레메디 코스닥 입성…에이치엘지노믹스 공모주 청약[이번주 증시 캘린더...",
-      "description": "이번주 기업공개(IPO) 시장에서는 의료기기 업체 레메디가 코스닥 시장에 입성한다. 원료의약품 제조사 에이치엘지노믹스는 일반투자자 대상 공모주 청약을 진행한다. 13일 금융투자 업계에 따르면 레메디는 13일...",
-      "link": "https://n.news.naver.com/mnews/article/011/0004640808?sid=101",
-      "originallink": "https://www.sedaily.com/article/20066635?ref=naver",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-12T21:34:00.000Z"
-    },
-    {
-      "id": "54dbca16ca15d63f",
-      "keyword": "에이치엘지노믹스",
-      "companyName": "에이치엘지노믹스",
-      "title": "[IPO 워치] 레메디 코스닥 입성…에이치엘지노믹스 청약 돌입",
-      "description": "이번 주(13~17일) 기업공개(IPO) 시장에서는 휴대용 엑스선(X-ray) 영상장치 전문기업 레메디가 코스닥 시장에 입성한다. 원료의약품(API) 전문기업 에이치엘지노믹스는 기관 수요예측을 마치고 일반투자자 대상 공모...",
-      "link": "https://www.news2day.co.kr/article/20260712500034",
-      "originallink": "https://www.news2day.co.kr/article/20260712500034",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-12T19:40:00.000Z"
     },
     {
       "id": "4791a9f855cd636b",
@@ -118,10 +184,10 @@
     },
     {
       "id": "407578fc2a800d73",
-      "keyword": "브릴스",
-      "companyName": "브릴스",
+      "keyword": "스카이랩스",
+      "companyName": "스카이랩스",
       "title": "IPO 시장, 하반기 반전 카드는 소노인터·구다이?",
-      "description": "AI 마케팅 기업 매드업도 공모가를 웃도는 주가를 보였다. 7월 1일 상장한 매드업은 올해 IPO 기업 중 가장... 그 다음 로봇(브릴스·빅웨이브로보틱스)과 드론, 방산(니어스랩·케이앤에스아이앤씨), 커머스...",
+      "description": "AI 마케팅 기업 매드업도 공모가를 웃도는 주가를 보였다. 7월 1일 상장한 매드업은 올해 IPO 기업 중 가장... 업종별로 구분하면 바이오텍과 의료기기 등 헬스케어 부문이 5곳(에이치엘지노믹스·레메디·스카이랩스...",
       "link": "https://n.news.naver.com/mnews/article/024/0000106631?sid=101",
       "originallink": "https://www.mk.co.kr/article/12089803",
       "provider": "뉴스 검색",
@@ -184,32 +250,21 @@
     },
     {
       "id": "ae875f869ac3deb9",
-      "keyword": "빅웨이브로보틱스",
-      "companyName": "빅웨이브로보틱스",
+      "keyword": "니어스랩",
+      "companyName": "니어스랩",
       "title": "7월에도 쉬어가는 IPO 시장…얼어붙은 투심, 언제 녹을까",
-      "description": "중복상장 규제 등을 공모주 시장 부진의 원인으로 꼽고 있다. 윤철환 한국투자증권 연구원은 \"6월은 전통적인 IPO 성수기로 다수의 일정이 진행됐다\"며 \"져스텍, 스트라드비젼, 빅웨이브로보틱스 등 시장의 관심이...",
+      "description": "(23~29일) ▲니어스랩(27~31일) 등이 수요예측을 마무리한다. 일반청약의 경우 ▲레메디(1~2일)... 주가가 공모가를 밑도는 사례도 적지 않다는 지적이 나온다. 시장에서는 중복상장 가이드라인이 발표되면 IPO를...",
       "link": "https://n.news.naver.com/mnews/article/088/0001016647?sid=101",
       "originallink": "https://www.imaeil.com/page/view/2026062910113981353",
       "provider": "뉴스 검색",
       "publishedAt": "2026-06-29T01:15:00.000Z"
     },
     {
-      "id": "2967f7ff5acccc57",
-      "keyword": "브릴스",
-      "companyName": "브릴스",
-      "title": "브릴스, 코스닥 상장예비심사 승인…'로봇 모듈화 플랫폼'으로 IPO 본격...",
-      "description": "이에 따라 브릴스는 거버넌스 투명성을 입증하고 금융위원회에 증증권신고서를 제출하는 등 상장(IPO)을 위한 본격적인 공모 절차에 착수할 예정이다. 상장 주관사는 중소·벤처기업 금융 솔루션에 특화된 IBK투자증권이...",
-      "link": "https://www.thedailypost.kr/news/articleView.html?idxno=114486",
-      "originallink": "https://www.thedailypost.kr/news/articleView.html?idxno=114486",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-26T01:40:00.000Z"
-    },
-    {
       "id": "94e7ff45f8d6ecde",
-      "keyword": "브릴스",
-      "companyName": "브릴스",
+      "keyword": "기도산업",
+      "companyName": "기도산업",
       "title": "브릴스, 코스닥 상장 예비심사 통과",
-      "description": "한국거래소 코스닥시장본부는 25일 코스닥시장 상장위원회의 심의·의결을 거쳐 일반상장으로 ㈜브릴스... 제출, 공모주 수요예측 및 일반 청약 등 본격적인 기업공개(IPO) 절차에 돌입하며 하반기 상장을 마무리할...",
+      "description": "일반상장으로 ㈜브릴스, ㈜와이즈플래닛컴퍼니, ㈜기도산업 등 3개사에 대한 상장예비심사 결과... 이번 승인을 바탕으로 이들 기업들은 증권신고서 제출, 공모주 수요예측 및 일반 청약 등 본격적인 기업공개(IPO)...",
       "link": "https://www.irobotnews.com/news/articleView.html?idxno=47105",
       "originallink": "https://www.irobotnews.com/news/articleView.html?idxno=47105",
       "provider": "뉴스 검색",
@@ -225,17 +280,6 @@
       "originallink": "https://www.irobotnews.com/news/articleView.html?idxno=47097",
       "provider": "뉴스 검색",
       "publishedAt": "2026-06-25T05:56:00.000Z"
-    },
-    {
-      "id": "decd144e4df64851",
-      "keyword": "니어스랩",
-      "companyName": "니어스랩",
-      "title": "니어스랩, 피지컬 AI 드론으로 코스닥 예심 승인",
-      "description": "회사는 이번 승인을 바탕으로 증권신고서 제출, 공모주 수요예측, 일반 청약 등 기업공개(IPO) 절차에 들어가 연내 상장을 마무리할 계획이다. 상장주관사는 삼성증권이다. 니어스랩은 기술특례상장을 통해 코스닥...",
-      "link": "https://www.newspim.com/news/view/20260625000150",
-      "originallink": "https://www.newspim.com/news/view/20260625000150",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-24T23:49:00.000Z"
     },
     {
       "id": "948047c5bcfa5c6e",
@@ -260,37 +304,15 @@
       "publishedAt": "2026-06-21T21:01:00.000Z"
     },
     {
-      "id": "d0ed716f7f8a3e4a",
-      "keyword": "스카이랩스",
-      "companyName": "스카이랩스",
-      "title": "증시 훈풍에 IPO 시장 기지개…예심 기업 57% 증가",
-      "description": "엠비디, 인텔리빅스, 스카이랩스, 인제니아테라퓨틱스 등 기술기업들이 예비심사를 청구했으며 일부 기업은 심사를 통과해 상장 절차를 밟고 있다. 시장에서는 최근 증시 반등과 투자심리 개선이 IPO 시장 회복을...",
-      "link": "https://www.ajunews.com/view/20260618145435849",
-      "originallink": "https://www.ajunews.com/view/20260618145435849",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-18T06:08:00.000Z"
-    },
-    {
       "id": "92a49a0bce2b2e92",
-      "keyword": "브릴스",
-      "companyName": "브릴스",
+      "keyword": "기도산업",
+      "companyName": "기도산업",
       "title": "5월 공모주 시장 대형주 실종…중소형주에 투자 집중",
-      "description": "5월 IPO 시장은 금융당국의 중복상장 규제와 대내외 금융시장의 변동성이 맞물리며 대형 기업들이 자취를 감춘 채 중소형주 위주의 제한적인 시장이 형성되었다. 소수 중소형 공모주에 자금이 집중되며 청약 경쟁률이...",
+      "description": "한국거래소 자료에 따르면, 4월에 상장 예비심사를 청구한 기업은 에이치엘지노믹스, 크리에이츠, 옵토닉스, 엠비디, 글로벌테크놀로지, 와이즈플래닛컴퍼니, 엠에스바이오, 브릴스, 기도산업, 네오사피엔스, 텔레픽스...",
       "link": "https://www.junggi.co.kr/news/articleView.html?idxno=36401",
       "originallink": "https://www.junggi.co.kr/news/articleView.html?idxno=36401",
       "provider": "뉴스 검색",
       "publishedAt": "2026-05-12T05:22:00.000Z"
-    },
-    {
-      "id": "2cd0aeb13b110639",
-      "keyword": "브릴스",
-      "companyName": "브릴스",
-      "title": "로봇 IPO 러시 합류한 모비어스…완성차 레퍼런스 '반복수주' 시험대 [I...",
-      "description": "상장을 추진하는 기업들은 거시경제 불확실성 속에 실적과 성과를 입증해야 하는 시험대에 섰다. 본지는... 빅웨이브로보틱스와 브릴스 등 로봇·자동화 기업의 IPO 절차가 이어지면서 같은 테마 안에서 공모기업 간...",
-      "link": "https://www.etoday.co.kr/news/view/2582399",
-      "originallink": "https://www.etoday.co.kr/news/view/2582399",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-05-07T06:14:00.000Z"
     },
     {
       "id": "be20ef59d00fedb1",

@@ -1,11 +1,22 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-07-15T23:32:08.032Z",
+    "updatedAt": "2026-07-16T23:11:05.553Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 10
   },
   "items": [
+    {
+      "id": "c7a2ba9c6ce7b098",
+      "keyword": "빅웨이브로보틱스",
+      "companyName": "빅웨이브로보틱스",
+      "title": "[IPO 새판 짜기④] 박종선 연구원 “기업가치가 결국 답…단기 변수보다...",
+      "description": "기업공개(IPO) 시장은 상장 기업 수와 공모 규모가 예년 평균을 크게 밑돌며 위축된 모습을 보였다. 반면... “8월 상장을 추진 중인 로봇 기업 빅웨이브로보틱스를 눈여겨볼 필요가 있다. 이 회사는 로봇 자동화 플랫폼...",
+      "link": "https://www.news2day.co.kr/article/20260713500245",
+      "originallink": "https://www.news2day.co.kr/article/20260713500245",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-16T19:06:00.000Z"
+    },
     {
       "id": "de3afed84c23bc3d",
       "keyword": "스카이랩스",
@@ -62,17 +73,6 @@
       "publishedAt": "2026-07-14T08:22:00.000Z"
     },
     {
-      "id": "cc3a3770b4158d4e",
-      "keyword": "에이치엘지노믹스",
-      "companyName": "에이치엘지노믹스",
-      "title": "에이치엘지노믹스 청약에 뭉칫돈 … 통합경쟁률 666.78대1 [박정은의 IPO...",
-      "description": "이에 에이치엘지노믹스와 대표주관회사, 공동주관회사는 협의를 거쳐 확정공모가를 희망범위... 오는 16일 공모주 납입을 거쳐 24일 코스닥 시장에 상장할 예정이다. 뉴데일리 박정은",
-      "link": "https://biz.newdaily.co.kr/site/data/html/2026/07/14/2026071400267.html",
-      "originallink": "https://biz.newdaily.co.kr/site/data/html/2026/07/14/2026071400267.html",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-14T07:42:00.000Z"
-    },
-    {
       "id": "71d6d2346fafb1a0",
       "keyword": "브릴스",
       "companyName": "브릴스",
@@ -93,50 +93,6 @@
       "originallink": "https://www.ebn.co.kr/news/articleView.html?idxno=1716359",
       "provider": "뉴스 검색",
       "publishedAt": "2026-07-14T07:16:00.000Z"
-    },
-    {
-      "id": "0286a94b3da06ea0",
-      "keyword": "에이치엘지노믹스",
-      "companyName": "에이치엘지노믹스",
-      "title": "[공모주 마감] 에이치엘지노믹스 청약 2일차까지 마감…균등·비례 경쟁...",
-      "description": "IPO 자료사진. AI가 생성한 이미지. 에이치엘지노믹스의 청약 2일차가 14일 오후 4시경 마무리됐다.... 이런 가운데 에이치엘지노믹스가 상장일인 24일 어떤 추이를 보일지 이목이 쏠린다. 최근 변동성 큰 장세...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=589061",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=589061",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-14T07:04:00.000Z"
-    },
-    {
-      "id": "e13c47ebc9e7b6c8",
-      "keyword": "에이치엘지노믹스",
-      "companyName": "에이치엘지노믹스",
-      "title": "[공모주 현황] 에이치엘지노믹스 청약 1일차 종료, 증권사별 균등·비례...",
-      "description": "IPO 자료사진. AI가 생성한 이미지. 13일 오후 4시경 공모주 에이치엘지노믹스의 청약 1일차가... 한편 에이치엘지노믹스의 상장일은 7월 24일이다. 상장 당일 만약 따따블을 기록한다면 공모가 21500원 대비 300...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=588801",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=588801",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-13T07:14:00.000Z"
-    },
-    {
-      "id": "bb8cf65ccb4ade66",
-      "keyword": "에이치엘지노믹스",
-      "companyName": "에이치엘지노믹스",
-      "title": "공모땐 웃었지만 주가 울었다…험난한 K바이오 'IPO 데뷔전'",
-      "description": "역시 공모가 1만원에서 상장 첫날 2만300원까지 상승했지만 이후 하락세로 전환돼 이날 오후 2시 기준 7570원에 거래되고 있다. 시장에서는 원료의약품(API) 생산기업 에이치엘지노믹스를 비롯한 하반기 IPO 예정...",
-      "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1716152",
-      "originallink": "https://www.ebn.co.kr/news/articleView.html?idxno=1716152",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-13T06:02:00.000Z"
-    },
-    {
-      "id": "3c30e4288af08c53",
-      "keyword": "에이치엘지노믹스",
-      "companyName": "에이치엘지노믹스",
-      "title": "레메디 코스닥 입성⋯HL지노믹스 일반청약",
-      "description": "이번 주(13~16일) 기업공개(IPO) 시장에서는 레메디가 코스닥 시장에 입성한다. 에이치엘지노믹스는 일반투자자 대상 공모 청약을 진행한다. 13일 금융투자업계에 따르면 X레이 의료기기 업체 레메디가 이날 코스닥...",
-      "link": "https://n.news.naver.com/mnews/article/031/0001041564?sid=101",
-      "originallink": "http://www.inews24.com/view/1984763",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-12T23:49:00.000Z"
     },
     {
       "id": "4791a9f855cd636b",
@@ -195,10 +151,10 @@
     },
     {
       "id": "407578fc2a800d73",
-      "keyword": "니어스랩",
-      "companyName": "니어스랩",
+      "keyword": "해치텍",
+      "companyName": "해치텍",
       "title": "IPO 시장, 하반기 반전 카드는 소노인터·구다이?",
-      "description": "AI 마케팅 기업 매드업도 공모가를 웃도는 주가를 보였다. 7월 1일 상장한 매드업은 올해 IPO 기업 중 가장... 그 다음 로봇(브릴스·빅웨이브로보틱스)과 드론, 방산(니어스랩·케이앤에스아이앤씨), 커머스...",
+      "description": "AI 마케팅 기업 매드업도 공모가를 웃도는 주가를 보였다. 7월 1일 상장한 매드업은 올해 IPO 기업 중 가장... 이외엔 봉제의복 제조 업체 기도산업과 반도체 팹리스 해치텍이 이름을 올렸다. 예비심사 승인 기업 중에선...",
       "link": "https://n.news.naver.com/mnews/article/024/0000106631?sid=101",
       "originallink": "https://www.mk.co.kr/article/12089803",
       "provider": "뉴스 검색",
@@ -304,17 +260,6 @@
       "publishedAt": "2026-06-24T04:50:00.000Z"
     },
     {
-      "id": "77cbdb3870df18ef",
-      "keyword": "빅웨이브로보틱스",
-      "companyName": "빅웨이브로보틱스",
-      "title": "매드업·레몬헬스케어, 코스닥 공모주 2종목 일반 청약 진행 [이번주 증...",
-      "description": "이번주 기업공개(IPO) 시장에서는 코스닥 상장에 도전하는 매드업과 레몬헬스케어가 일반 투자자들을 대상으로 공모주 청약을 진행한다. 빅웨이브로보틱스는 금융감독원의 정정 증권신고서 제출 요구로 청약...",
-      "link": "https://n.news.naver.com/mnews/article/011/0004633452?sid=101",
-      "originallink": "https://www.sedaily.com/article/20058258?ref=naver",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-21T21:01:00.000Z"
-    },
-    {
       "id": "92a49a0bce2b2e92",
       "keyword": "기도산업",
       "companyName": "기도산업",
@@ -390,6 +335,61 @@
       "originallink": "https://www.ekn.kr/web/view.php?key=20260303029254478",
       "provider": "뉴스 검색",
       "publishedAt": "2026-03-03T07:46:00.000Z"
+    },
+    {
+      "id": "7f16b0014b3034f5",
+      "keyword": "엣지파운드리",
+      "companyName": "엣지파운드리",
+      "title": "IPO 출사표 세미파이브 \"글로벌 AI ASIC 강자로 입지 강화할 것\"",
+      "description": "양산 공급은 개발된 ASIC를 파운드리를 통해 직접 양산 공급하는 서비스로, 독점 생산권을 기반으로 고객... 세미파이브는 상장을 통해 확보한 공모자금을 ▲엔지니어링 인력 확충 ▲글로벌 선행 기술 및 IP 확보를...",
+      "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=407361",
+      "originallink": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=407361",
+      "provider": "뉴스 검색",
+      "publishedAt": "2025-12-17T03:22:00.000Z"
+    },
+    {
+      "id": "209525ae6fcd892e",
+      "keyword": "엣지파운드리",
+      "companyName": "엣지파운드리",
+      "title": "DSC인베, 세미파이브 상장 임박…반도체 포트폴리오 회수 본격화 [VC 회...",
+      "description": "세미파이브는 2019년 설립된 주문형 반도체(ASIC) 설계 전문 기업으로, 삼성 파운드리 DSP(Design Solution Partner)... 하나로 상장 공모 과정에서 이름이 확인되고 있다. 시장에서는 이번 IPO를 통해 세미파이브의 상장 후...",
+      "link": "http://www.fntimes.com/html/view.php?ud=202512142230535782dd55077bc2_18",
+      "originallink": "http://www.fntimes.com/html/view.php?ud=202512142230535782dd55077bc2_18",
+      "provider": "뉴스 검색",
+      "publishedAt": "2025-12-14T20:02:00.000Z"
+    },
+    {
+      "id": "acd0a4fa3dee422a",
+      "keyword": "엣지파운드리",
+      "companyName": "엣지파운드리",
+      "title": "우주항공산업 관련주, '봄날의 햇살' 에이치브이엠·태웅·한화시스템·...",
+      "description": "내년 기업공개(IPO) 목표에, 상장 시 기업가치와 공모 규모가 역사상 최대 수준에 이를 수 있다는 전망까지... 삼성전자 파운드리·패키징 라인에 솔더볼을 납품하고 있으며 고객사로 삼성전자, SK하이닉스, ASE, Amkor...",
+      "link": "http://www.finomy.com/news/articleView.html?idxno=245338",
+      "originallink": "http://www.finomy.com/news/articleView.html?idxno=245338",
+      "provider": "뉴스 검색",
+      "publishedAt": "2025-12-13T15:10:00.000Z"
+    },
+    {
+      "id": "3dc76f54dded9653",
+      "keyword": "엣지파운드리",
+      "companyName": "엣지파운드리",
+      "title": "[이번주 공모주] 12월 2주차 수요예측·청약·상장 일정 한눈에 총정리",
+      "description": "엣지, CXL, 자율주행 등 다양한 응용 분야로 설계 영역을 넓히고 있다. 팹리스–디자인하우스–파운드리... 둘째 주 공모주 달력은 상장·청약·수요예측 일정이 촘촘히 배치되며 연말 IPO 시장의 열기를 가늠하는...",
+      "link": "https://www.ppss.kr/news/articleView.html?idxno=277757",
+      "originallink": "https://www.ppss.kr/news/articleView.html?idxno=277757",
+      "provider": "뉴스 검색",
+      "publishedAt": "2025-12-08T08:43:00.000Z"
+    },
+    {
+      "id": "4dc104b96504b0e1",
+      "keyword": "엣지파운드리",
+      "companyName": "엣지파운드리",
+      "title": "[아주증시포커스] 종투사 1년차 대신증권, IB 경쟁력 쑥쑥 外",
+      "description": "-ECM 부문에서도 올해 기업공개(IPO) 9건을 주관함. LG CNS의 대규모 공모 공동주관을 맡았고 나우로보틱스, 바이오비쥬 등 대표 주관을 맡았음. 올해도 한화에너지, 소노인터내셔널의 상장 대표 주관사로 선정됨. -IB...",
+      "link": "https://www.ajunews.com/view/20251024073021018",
+      "originallink": "https://www.ajunews.com/view/20251024073021018",
+      "provider": "뉴스 검색",
+      "publishedAt": "2025-10-23T22:34:00.000Z"
     },
     {
       "id": "fcb1a0706055e05d",

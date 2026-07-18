@@ -1,11 +1,22 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-07-17T23:04:15.659Z",
+    "updatedAt": "2026-07-18T23:25:19.517Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 10
   },
   "items": [
+    {
+      "id": "08eb4a0a916b6258",
+      "keyword": "딜리셔스",
+      "companyName": "딜리셔스",
+      "title": "[주간 IPO] 에이치엘지노믹스 코스닥 입성…인제니아·딜리셔스 수요 예...",
+      "description": "이투데이=박정호 기자 | 에이치엘지노믹스 24일 상장⋯공모가 2만1500원 인제니아테라퓨틱스, 20~24일 수요예측⋯최대 725억원 공모 딜리셔스, 23~29일 수요예측⋯신상마켓 기반 사업 확장 다음 주 기업공개(IPO)...",
+      "link": "https://www.etoday.co.kr/news/view/2604553",
+      "originallink": "https://www.etoday.co.kr/news/view/2604553",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-18T00:00:00.000Z"
+    },
     {
       "id": "c7a2ba9c6ce7b098",
       "keyword": "빅웨이브로보틱스",
@@ -324,17 +335,6 @@
       "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=32267",
       "provider": "뉴스 검색",
       "publishedAt": "2026-03-31T02:38:00.000Z"
-    },
-    {
-      "id": "7afec3689731e218",
-      "keyword": "딜리셔스",
-      "companyName": "딜리셔스",
-      "title": "중복상장 가이드라인에 IPO ‘개점휴업’…3월 케이뱅크로 분위기 반전...",
-      "description": "딜리셔스 두 곳만 예비심사를 신청했다. 연초 IPO 시장이 한산한 이유로 계절적 비수기와 중복상장 규제... 케이뱅크는 5일 코스피 상장을 앞두고 있다. 지난달 20일부터 2거래일간 일반 투자자를 대상으로 공모주...",
-      "link": "https://www.ekn.kr/web/view.php?key=20260303029254478",
-      "originallink": "https://www.ekn.kr/web/view.php?key=20260303029254478",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-03-03T07:46:00.000Z"
     },
     {
       "id": "7f16b0014b3034f5",

@@ -1,11 +1,33 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-07-19T23:27:57.900Z",
+    "updatedAt": "2026-07-20T23:13:52.882Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 10
   },
   "items": [
+    {
+      "id": "be4b55b32a7bfcf0",
+      "keyword": "딜리셔스",
+      "companyName": "딜리셔스",
+      "title": "[딜리셔스 IPO] 새내기주 주가 하락 부담…신상효과 '아리송'",
+      "description": "일반 공모청약 이후 8월 코스닥 시장 상장이 목표다. 대표 주관사는 한국투자증권이다. 딜리셔스를 향한... 그런데 현재 공모가 희망밴드(5000~7000원) 기준 최대 시가총액은 1529억원 수준이다. 공모가 욕심 대신 IPO...",
+      "link": "https://www.the-stock.kr/news/articleView.html?idxno=32975",
+      "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=32975",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-20T02:30:00.000Z"
+    },
+    {
+      "id": "c1ebabd88d6d29c4",
+      "keyword": "딜리셔스",
+      "companyName": "딜리셔스",
+      "title": "HL지노믹스 상장…인제니아테라퓨틱스·딜리셔스 수요예측",
+      "description": "이번 주(20일~24일) 기업공개(IPO) 시장에서는 HL지노믹스가 코스닥에 입성한다. 인제니아테라퓨틱스와 딜리셔스는 기관 투자자 대상 수요예측을 진행한다. 20일 금융투자업계에 따르면 원료의약품(API) 제조사...",
+      "link": "https://n.news.naver.com/mnews/article/031/0001043084?sid=101",
+      "originallink": "http://www.inews24.com/view/1986669",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-20T00:10:00.000Z"
+    },
     {
       "id": "0867a5f90ca1c454",
       "keyword": "딜리셔스",
@@ -38,28 +60,6 @@
       "originallink": "https://biz.chosun.com/stock/market_trend/2026/07/19/RVXEWBPWU5FVNEGCTWD2C76SLQ/?utm_source=naver&utm_medium=original&utm_campaign=biz",
       "provider": "뉴스 검색",
       "publishedAt": "2026-07-19T00:33:00.000Z"
-    },
-    {
-      "id": "19c10eb6fd611c85",
-      "keyword": "딜리셔스",
-      "companyName": "딜리셔스",
-      "title": "에이치엘지노믹스 상장[증시캘린더]",
-      "description": "다음 주(20~24일) 기업공개(IPO) 시장에서는 에이치엘지노믹스가 코스닥 상장에 나선다. 인제니아테라퓨틱스와 딜리셔스는 수요 예측을 진행하며 일반 청약에 나서는 기업은 없다. 7월 20~24일 △인제니아테라퓨틱스...",
-      "link": "https://n.news.naver.com/mnews/article/018/0006332451?sid=101",
-      "originallink": "https://www.edaily.co.kr/news/newspath.asp?newsid=01170966645516160",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-19T00:02:00.000Z"
-    },
-    {
-      "id": "08eb4a0a916b6258",
-      "keyword": "딜리셔스",
-      "companyName": "딜리셔스",
-      "title": "[주간 IPO] 에이치엘지노믹스 코스닥 입성…인제니아·딜리셔스 수요 예...",
-      "description": "이투데이=박정호 기자 | 에이치엘지노믹스 24일 상장⋯공모가 2만1500원 인제니아테라퓨틱스, 20~24일 수요예측⋯최대 725억원 공모 딜리셔스, 23~29일 수요예측⋯신상마켓 기반 사업 확장 다음 주 기업공개(IPO)...",
-      "link": "https://www.etoday.co.kr/news/view/2604553",
-      "originallink": "https://www.etoday.co.kr/news/view/2604553",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-18T00:00:00.000Z"
     },
     {
       "id": "c7a2ba9c6ce7b098",

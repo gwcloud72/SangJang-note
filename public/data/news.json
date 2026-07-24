@@ -1,17 +1,72 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-07-23T23:11:13.947Z",
+    "updatedAt": "2026-07-24T23:37:13.134Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
-    "queryCount": 11
+    "queryCount": 12
   },
   "items": [
     {
+      "id": "aeec12e920334341",
+      "keyword": "덕산넵코어스",
+      "companyName": "덕산넵코어스",
+      "title": "[증권업계기상도]7월 넷째 주 혼조…IB 수수료 확대 ‘맑음’, 평가손·...",
+      "description": "대신증권은 덕산하이메탈의 자회사 ‘덕산넵코어스’와 다산네트웍스 자회사 ‘디티에스’의 IPO 주관을 성공시키며 ‘중복상장 금지’ 시대에서 첫 발을 내딛었다. NH투자증권은 올해 상반기 IPO 공모금액으로...",
+      "link": "https://www.nspna.com/news/?mode=view&newsid=821783",
+      "originallink": "https://www.nspna.com/news/?mode=view&newsid=821783",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-24T07:10:00.000Z"
+    },
+    {
+      "id": "e34229265562940d",
+      "keyword": "딜리셔스",
+      "companyName": "딜리셔스",
+      "title": "[더벨][thebell interview | 딜리셔스 IPO] \"패션업계 카카오톡 꿈꾼다…...",
+      "description": "상장을 추진중인 동대문 패션 B2B 플랫폼 '신상마켓' 운영사 딜리셔스가 기업공개(IPO)를 앞두고 본업... 공모자금과 기존 보유 현금을 활용해 관련 기업 인수도 검토하고 있으며 시기는 2027년 전후로 예상하고 있다. 정...",
+      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607201433198000103691",
+      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607201433198000103691",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-23T23:42:00.000Z"
+    },
+    {
+      "id": "2741fcd205ebdf6f",
+      "keyword": "딜리셔스",
+      "companyName": "딜리셔스",
+      "title": "[더벨][딜리셔스 IPO] 국내외 DR 순항…공모 절차 '속전속결'",
+      "description": "IPO 시장의 투자심리를 고려해 시장 친화적인 가격 전략을 택한 것으로 풀이된다. 이 과정에서 기존 재무적투자자(FI)들도 단기 엑시트보다는 상장 완주에 무게를 두며 공모 구조에 공감한 것으로 전해진다. 딜리셔스...",
+      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607231435140400104776",
+      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607231435140400104776",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-23T23:38:00.000Z"
+    },
+    {
+      "id": "0c2ead856b2a878d",
+      "keyword": "덕산넵코어스",
+      "companyName": "덕산넵코어스",
+      "title": "하반기 IPO, 중복 상장 가이드라인 적용 대어급 등판할까",
+      "description": "하반기 상장 채비를 마치고 본격적으로 공모 시장에 진입할 것으로 기대된다. 오광영 연구원은 \"언론에 따르면 덕산넵코어스(모회사 덕산하이메탈), 디티에스(모회사 다산네트웍스) 등이 새로운 가이드 라인에 맞춰...",
+      "link": "https://www.mdtoday.co.kr/news/articleView.html?idxno=605857",
+      "originallink": "https://www.mdtoday.co.kr/news/articleView.html?idxno=605857",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-23T02:06:00.000Z"
+    },
+    {
+      "id": "8332712917e3a145",
+      "keyword": "덕산넵코어스",
+      "companyName": "덕산넵코어스",
+      "title": "상반기 부진했던 IPO…하반기 회복 변수 '중복상장 가이드라인'",
+      "description": "올해 상반기 기업공개(IPO) 시장이 상장 기업 수와 공모금액 모두 급감하며 부진한 성적표를 받아들었다.... 중복상장 규제 강화로 대기업 계열사 상장이 어려워진 것이 사실이지만, 덕산하이메탈 자회사 덕산넵코어스...",
+      "link": "https://n.news.naver.com/mnews/article/648/0000049120?sid=101",
+      "originallink": "https://news.bizwatch.co.kr/article/market/2026/07/23/0006",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-23T01:25:00.000Z"
+    },
+    {
       "id": "704f1d725beef2b4",
-      "keyword": "스카이랩스",
-      "companyName": "스카이랩스",
+      "keyword": "덕산넵코어스",
+      "companyName": "덕산넵코어스",
       "title": "상반기 얼어붙었던 IPO 시장, 하반기 반등 시동 … 연간 공모 4조 전망 ...",
-      "description": "등 IPO 제도 개선 방안의 적응기가 이어진 데다, 중복 상장 이슈와 상장 후 부진한 주가 흐름이 겹친... (273억원), 스카이랩스(260억원), 해치텍(230억원) 등이다. 연간 공모금액 전망치인 3조4000억~3조9000억원은 2021년...",
+      "description": "이에 올해 연간 상장 종목수는 64~68개, 공모금액은 약 3조4000억~3조9000억원 수준을 기록할 것으로 예상된다.... 새 가이드라인에 맞춰 덕산넵코어스(모회사 덕산하이메탈), 디티에스(모회사 다산네트웍스) 등이 상장...",
       "link": "https://biz.newdaily.co.kr/site/data/html/2026/07/23/2026072300074.html",
       "originallink": "https://biz.newdaily.co.kr/site/data/html/2026/07/23/2026072300074.html",
       "provider": "뉴스 검색",
@@ -19,10 +74,10 @@
     },
     {
       "id": "4712b0c244437a4c",
-      "keyword": "브릴스",
-      "companyName": "브릴스",
+      "keyword": "덕산넵코어스",
+      "companyName": "덕산넵코어스",
       "title": "'개점휴업' 끝낼까…하반기 IPO시장, 대어 복귀에 달렸다",
-      "description": "신규 상장 기업이 한 곳도 없었다. 대형 IPO가 공모시장 전체 규모를 좌우하는 취약한 구조가 다시 확인된... 이달 하순부터 딜리셔스와 빅웨이브로보틱스, 해치텍, 기도산업, 스카이랩스, 니어스랩, 브릴스 등 다수 기업이...",
+      "description": "그러나 이들 중소형 기업만으로는 시장 전체 공모금액을 끌어올리는 데 한계가 있다. 결국 관건은 대어급 기업이 다시 상장 채비에 나서느냐다. 오광영 신영증권 연구원은 \"덕산하이메탈 자회사 덕산넵코어스와...",
       "link": "https://www.newsworks.co.kr/news/articleView.html?idxno=847987",
       "originallink": "https://www.newsworks.co.kr/news/articleView.html?idxno=847987",
       "provider": "뉴스 검색",
@@ -49,28 +104,6 @@
       "originallink": "http://www.inews24.com/view/1986669",
       "provider": "뉴스 검색",
       "publishedAt": "2026-07-20T00:10:00.000Z"
-    },
-    {
-      "id": "0867a5f90ca1c454",
-      "keyword": "딜리셔스",
-      "companyName": "딜리셔스",
-      "title": "[IPO 워치] 에이치엘지노믹스 코스닥 입성…수요예측 2곳",
-      "description": "희망 공모가 밴드는 1만2000~1만4500원으로, 예상 공모금액은 600억~725억원이다. 오는 30~31일 일반투자자 대상 청약을 진행하며 삼성증권이 상장 주관사를 맡았다. 딜리셔스는 오는 23일부터 29일까지 기관투자자 대상...",
-      "link": "https://www.news2day.co.kr/article/20260719500010",
-      "originallink": "https://www.news2day.co.kr/article/20260719500010",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-19T19:38:00.000Z"
-    },
-    {
-      "id": "35b8ed1a866ea1ca",
-      "keyword": "딜리셔스",
-      "companyName": "딜리셔스",
-      "title": "이번 주 에이치엘지노믹스 코스닥 상장…수요예측은 2곳",
-      "description": "이번 주(7월 20일~24일) 기업공개(IPO) 시장에선 만성질환 중심의 원료의약품(API) 전문기업 에이치엘지노믹스가 코스닥에 신규 상장한다. 수요예측은 두 곳이 예정돼 있다. 19일 연합인포맥스 캘린더에 따르면...",
-      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4425675",
-      "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4425675",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-19T04:02:00.000Z"
     },
     {
       "id": "c7a2ba9c6ce7b098",

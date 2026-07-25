@@ -1,11 +1,66 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-07-24T23:37:13.134Z",
+    "updatedAt": "2026-07-25T23:29:53.827Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "59011e695d44268b",
+      "keyword": "기도산업",
+      "companyName": "기도산업",
+      "title": "7월 마지막 주 IPO 시장, 인제니아 청약·네오뷰 코스닥 재상장",
+      "description": "대상 공모주 청약에 나서고, 차량용 디스플레이 전문기업 네오뷰가 코스닥 시장에 재상장한다. 케이앤에스아이앤씨와 딜리셔스, 기도산업도 기관투자자 대상 수요예측을 진행하면서 기업공개(IPO) 시장의 관심을 끌...",
+      "link": "https://n.news.naver.com/mnews/article/016/0002674896?sid=101",
+      "originallink": "https://biz.heraldcorp.com/article/10819859?ref=naver",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-25T01:17:00.000Z"
+    },
+    {
+      "id": "82bf2fba98525c55",
+      "keyword": "기도산업",
+      "companyName": "기도산업",
+      "title": "네오뷰, 코스닥 재상장… 바이오·방산·플랫폼 IPO 활기",
+      "description": "자동차 차체와 배터리에 들어가는 냉간단조 부품 생산업체 기도산업도 7월 31일부터 8월 6일까지 수요예측을 실시하며, 생산시설 확충과 설비 투자에 공모자금을 투입할 예정이다. 재상장 일정도 눈에 띈다. 네오뷰는 7월...",
+      "link": "https://www.tokenpost.kr/news/market/381185",
+      "originallink": "https://www.tokenpost.kr/news/market/381185",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-25T00:18:00.000Z"
+    },
+    {
+      "id": "3e69c5e911eb769b",
+      "keyword": "기도산업",
+      "companyName": "기도산업",
+      "title": "인제니아테라퓨틱스 공모청약 돌입…네오뷰 코스닥 재상장",
+      "description": "7월 마지막 주 기업공개(IPO) 시장에서는 바이오기업 인제니아테라퓨틱스가 일반투자자 대상 공모주 청약에 나서고, 차량용 디스플레이 전문기업 네오뷰가 코스닥 시장에 재상장한다. 25일 금융투자업계에 따르면...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=591808",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=591808",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-25T00:10:00.000Z"
+    },
+    {
+      "id": "6358461069cece67",
+      "keyword": "기도산업",
+      "companyName": "기도산업",
+      "title": "[주간 IPO] 인제니아테라퓨틱스 청약…수요예측 3곳·신규 상장 공백",
+      "description": "기업인 기도산업은 지난해 연결 매출 3466억원, 영업이익 322억원, 순이익 353억원을 기록했다. 다음 주 수요예측 기업 가운데 매출과 순이익 규모가 가장 크다. 공모주 신규 상장은 잠시 공백을 맞는다. 이달 24일...",
+      "link": "https://www.etoday.co.kr/news/view/2607291",
+      "originallink": "https://www.etoday.co.kr/news/view/2607291",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-25T00:02:00.000Z"
+    },
+    {
+      "id": "7d5dc8eb5c1c1e39",
+      "keyword": "기도산업",
+      "companyName": "기도산업",
+      "title": "[IPO챗] 인제니아 청약 돌입…네오뷰 코스닥 재상장",
+      "description": "인제니아 30~31일 일반청약…미국 바이오기업 DR 상장 케이앤에스아이앤씨·딜리셔스 수요예측 7월 마지막 주(27~31일) 기업공개(IPO) 시장에서는 바이오기업 인제니아테라퓨틱스가 일반투자자 대상 공모주 청약에...",
+      "link": "https://n.news.naver.com/mnews/article/001/0016214165?sid=101",
+      "originallink": "https://www.yna.co.kr/view/AKR20260724149200008?input=1195m",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-25T00:00:00.000Z"
+    },
     {
       "id": "aeec12e920334341",
       "keyword": "덕산넵코어스",
@@ -16,28 +71,6 @@
       "originallink": "https://www.nspna.com/news/?mode=view&newsid=821783",
       "provider": "뉴스 검색",
       "publishedAt": "2026-07-24T07:10:00.000Z"
-    },
-    {
-      "id": "e34229265562940d",
-      "keyword": "딜리셔스",
-      "companyName": "딜리셔스",
-      "title": "[더벨][thebell interview | 딜리셔스 IPO] \"패션업계 카카오톡 꿈꾼다…...",
-      "description": "상장을 추진중인 동대문 패션 B2B 플랫폼 '신상마켓' 운영사 딜리셔스가 기업공개(IPO)를 앞두고 본업... 공모자금과 기존 보유 현금을 활용해 관련 기업 인수도 검토하고 있으며 시기는 2027년 전후로 예상하고 있다. 정...",
-      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607201433198000103691",
-      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607201433198000103691",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-23T23:42:00.000Z"
-    },
-    {
-      "id": "2741fcd205ebdf6f",
-      "keyword": "딜리셔스",
-      "companyName": "딜리셔스",
-      "title": "[더벨][딜리셔스 IPO] 국내외 DR 순항…공모 절차 '속전속결'",
-      "description": "IPO 시장의 투자심리를 고려해 시장 친화적인 가격 전략을 택한 것으로 풀이된다. 이 과정에서 기존 재무적투자자(FI)들도 단기 엑시트보다는 상장 완주에 무게를 두며 공모 구조에 공감한 것으로 전해진다. 딜리셔스...",
-      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607231435140400104776",
-      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607231435140400104776",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-23T23:38:00.000Z"
     },
     {
       "id": "0c2ead856b2a878d",
@@ -82,28 +115,6 @@
       "originallink": "https://www.newsworks.co.kr/news/articleView.html?idxno=847987",
       "provider": "뉴스 검색",
       "publishedAt": "2026-07-22T23:50:00.000Z"
-    },
-    {
-      "id": "be4b55b32a7bfcf0",
-      "keyword": "딜리셔스",
-      "companyName": "딜리셔스",
-      "title": "[딜리셔스 IPO] 새내기주 주가 하락 부담…신상효과 '아리송'",
-      "description": "일반 공모청약 이후 8월 코스닥 시장 상장이 목표다. 대표 주관사는 한국투자증권이다. 딜리셔스를 향한... 그런데 현재 공모가 희망밴드(5000~7000원) 기준 최대 시가총액은 1529억원 수준이다. 공모가 욕심 대신 IPO...",
-      "link": "https://www.the-stock.kr/news/articleView.html?idxno=32975",
-      "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=32975",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-20T02:30:00.000Z"
-    },
-    {
-      "id": "c1ebabd88d6d29c4",
-      "keyword": "딜리셔스",
-      "companyName": "딜리셔스",
-      "title": "HL지노믹스 상장…인제니아테라퓨틱스·딜리셔스 수요예측",
-      "description": "이번 주(20일~24일) 기업공개(IPO) 시장에서는 HL지노믹스가 코스닥에 입성한다. 인제니아테라퓨틱스와 딜리셔스는 기관 투자자 대상 수요예측을 진행한다. 20일 금융투자업계에 따르면 원료의약품(API) 제조사...",
-      "link": "https://n.news.naver.com/mnews/article/031/0001043084?sid=101",
-      "originallink": "http://www.inews24.com/view/1986669",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-20T00:10:00.000Z"
     },
     {
       "id": "c7a2ba9c6ce7b098",
@@ -238,39 +249,6 @@
       "publishedAt": "2026-07-03T05:16:00.000Z"
     },
     {
-      "id": "3709ad045a18f024",
-      "keyword": "기도산업",
-      "companyName": "기도산업",
-      "title": "[기도산업 IPO] 동종업체 부진한데…의류 OEM 한계 깰까",
-      "description": "상황에서 기도산업의 IPO 전망을 장밋빛으로만 보기엔 무리가 있단 분석이다. 여기에 스트라드비젼과 피스피스스튜디오 등 일부 새내기주가 상장 직후 부진한 흐름을 보이는 등 공모주 시장 분위기에도 변화가...",
-      "link": "https://www.the-stock.kr/news/articleView.html?idxno=32880",
-      "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=32880",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-03T04:24:00.000Z"
-    },
-    {
-      "id": "0a30f03e819d04d3",
-      "keyword": "케이앤에스아이앤씨",
-      "companyName": "케이앤에스아이앤씨",
-      "title": "상반기 IPO ‘뚝’…하반기 ‘코스닥 활성화’ 타고 불붙나",
-      "description": "기술특례 상장을 추진하고 있고, 케이앤에스아이앤씨는 위성통신 안테나 사업 확대를 위한 자금 조달에... 업계는 상반기 제도 정비가 마무리 단계에 접어든 만큼 하반기에는 우량 기업 중심의 IPO가 확대되며 공모...",
-      "link": "https://n.news.naver.com/mnews/article/029/0003034497?sid=101",
-      "originallink": "https://www.dt.co.kr/article/12070331?ref=naver",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-30T07:14:00.000Z"
-    },
-    {
-      "id": "467e07eb3ede21b2",
-      "keyword": "케이앤에스아이앤씨",
-      "companyName": "케이앤에스아이앤씨",
-      "title": "7월 코스닥 IPO 4社 청약 릴레이… 관전포인트는 '이익 체력' [박정은의...",
-      "description": "기술성장특례(이익 미실현) 요건으로 상장을 추진하며 공모가 역시 2031년 흑자 전환을 전제로 한 추정 실적을 토대로 매겼다. 케이앤에스아이앤씨는 2001년 KT 사내벤처로 출발한 위성통신안테나 기업으로, 2023년...",
-      "link": "https://biz.newdaily.co.kr/site/data/html/2026/06/30/2026063000035.html",
-      "originallink": "https://biz.newdaily.co.kr/site/data/html/2026/06/30/2026063000035.html",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-30T02:12:00.000Z"
-    },
-    {
       "id": "d6f4debe66e1f585",
       "keyword": "니어스랩",
       "companyName": "니어스랩",
@@ -280,39 +258,6 @@
       "originallink": "http://www.fntimes.com/html/view.php?ud=202606291608204321a837df6494_18",
       "provider": "뉴스 검색",
       "publishedAt": "2026-06-29T07:22:00.000Z"
-    },
-    {
-      "id": "ae875f869ac3deb9",
-      "keyword": "케이앤에스아이앤씨",
-      "companyName": "케이앤에스아이앤씨",
-      "title": "7월에도 쉬어가는 IPO 시장…얼어붙은 투심, 언제 녹을까",
-      "description": "일정별로는 ▲에이치엘지노믹스(2~8일) ▲인제니아테라퓨틱스(10~16일) ▲케이앤에스아이앤씨(15~22일)... 주가가 공모가를 밑도는 사례도 적지 않다는 지적이 나온다. 시장에서는 중복상장 가이드라인이 발표되면 IPO...",
-      "link": "https://n.news.naver.com/mnews/article/088/0001016647?sid=101",
-      "originallink": "https://www.imaeil.com/page/view/2026062910113981353",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-29T01:15:00.000Z"
-    },
-    {
-      "id": "94e7ff45f8d6ecde",
-      "keyword": "기도산업",
-      "companyName": "기도산업",
-      "title": "브릴스, 코스닥 상장 예비심사 통과",
-      "description": "일반상장으로 ㈜브릴스, ㈜와이즈플래닛컴퍼니, ㈜기도산업 등 3개사에 대한 상장예비심사 결과... 이번 승인을 바탕으로 이들 기업들은 증권신고서 제출, 공모주 수요예측 및 일반 청약 등 본격적인 기업공개(IPO)...",
-      "link": "https://www.irobotnews.com/news/articleView.html?idxno=47105",
-      "originallink": "https://www.irobotnews.com/news/articleView.html?idxno=47105",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-25T13:08:00.000Z"
-    },
-    {
-      "id": "948047c5bcfa5c6e",
-      "keyword": "케이앤에스아이앤씨",
-      "companyName": "케이앤에스아이앤씨",
-      "title": "'성장 정체' 케이앤에스아이앤씨, IPO 낙관 경계",
-      "description": "◇ 기술 완성도 눈길…방산·중소형 IPO 인기 편승 기대 24일 투자은행(IB) 업계에 따르면 케이앤에스아이앤씨는 이달 중순 금융감독원에 코스닥 시장에 상장하기 위한 증권신고서를 제출했다. 총 공모주식은 240만주...",
-      "link": "https://www.the-stock.kr/news/articleView.html?idxno=32800",
-      "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=32800",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-24T04:50:00.000Z"
     },
     {
       "id": "5b3c8eb8d0813720",

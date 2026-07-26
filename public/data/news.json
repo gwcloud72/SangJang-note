@@ -1,11 +1,66 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-07-25T23:29:53.827Z",
+    "updatedAt": "2026-07-26T23:11:43.795Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "b384aa231016bec0",
+      "keyword": "기도산업",
+      "companyName": "기도산업",
+      "title": "美 바이오 기업 인제니아 일반청약…국내 투심 사로잡을까 [이번주 증시...",
+      "description": "생산기업 기도산업이 수요예측을 실시한다. 한편 최근 증시에 신규 상장한 기업들의 주가는 흔들리고 있다. 한국거래소 통계에 따르면 최근 3개월 사이 증시에 입성한 기업 11곳 중 현재 주가가 공모가를 웃도는...",
+      "link": "https://n.news.naver.com/mnews/article/011/0004645389?sid=101",
+      "originallink": "https://www.sedaily.com/article/20072047?ref=naver",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-26T20:31:00.000Z"
+    },
+    {
+      "id": "1afa35b7899c761a",
+      "keyword": "기도산업",
+      "companyName": "기도산업",
+      "title": "[IPO 워치] 인제니아테라퓨틱스 청약 돌입…수요예측 3곳",
+      "description": "마지막 주(27~31일) 기업공개(IPO) 시장에서는 미국 바이오 기업 인제니아테라퓨틱스가 일반청약을 진행하고, 딜리셔스·케이앤에스아이앤씨·기도산업 등 3개사는 기관 수요예측에 나선다. 신규 상장 종목은 없지만...",
+      "link": "https://www.news2day.co.kr/article/20260726500002",
+      "originallink": "https://www.news2day.co.kr/article/20260726500002",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-26T19:50:00.000Z"
+    },
+    {
+      "id": "bb2baa124694add3",
+      "keyword": "기도산업",
+      "companyName": "기도산업",
+      "title": "[자금조달 프리뷰] NH證·SK에코플랜트 공모채…IPO 3곳 '잰걸음'",
+      "description": "다음주 공모 회사채를 발행한다. 기업공개(IPO) 시장에서는 케이앤에스아이앤씨·기도산업·딜리셔스가... 시장 상장을 통해 플랫폼 경쟁력을 한층 강화하고 국내를 넘어 글로벌 패션 B2B 시장에서도 지속 성장할...",
+      "link": "https://n.news.naver.com/mnews/article/293/0000088113?sid=101",
+      "originallink": "https://www.bloter.net/news/articleView.html?idxno=668957",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-26T06:00:00.000Z"
+    },
+    {
+      "id": "2eec4f78b75fdcea",
+      "keyword": "기도산업",
+      "companyName": "기도산업",
+      "title": "이번 주 인제니아테라퓨틱스 공모주 청약 예정…수요예측은 3곳",
+      "description": "이번 주(7월 27일~31일) 기업공개(IPO) 시장에선 코스닥 상장에 도전하는 기업 3곳의 공모주 청약과 1곳의... 수요예측엔 딜리셔스와 케이앤에스아이앤씨, 기도산업 등 3곳이 나설 예정이다. 패션 기업간거래(B2B) 플랫폼...",
+      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4426886",
+      "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4426886",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-26T04:02:00.000Z"
+    },
+    {
+      "id": "c85211168da5d9fe",
+      "keyword": "케이앤에스아이앤씨",
+      "companyName": "케이앤에스아이앤씨",
+      "title": "딜리셔스·케이앤에스아이앤씨 수요예측[증시캘린더]",
+      "description": "다음 주(7월 27~31일) 기업공개(IPO) 시장에서는 패션 B2B 플랫폼 기업 딜리셔스와 방산 안테나 전문기업 케이앤에스아이앤씨가 기관투자자 대상 수요예측에 나선다. 미국 보스턴 소재 바이오 기업...",
+      "link": "https://n.news.naver.com/mnews/article/018/0006336888?sid=101",
+      "originallink": "https://www.edaily.co.kr/news/newspath.asp?newsid=01223446645518456",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-26T00:02:00.000Z"
+    },
     {
       "id": "59011e695d44268b",
       "keyword": "기도산업",
@@ -16,50 +71,6 @@
       "originallink": "https://biz.heraldcorp.com/article/10819859?ref=naver",
       "provider": "뉴스 검색",
       "publishedAt": "2026-07-25T01:17:00.000Z"
-    },
-    {
-      "id": "82bf2fba98525c55",
-      "keyword": "기도산업",
-      "companyName": "기도산업",
-      "title": "네오뷰, 코스닥 재상장… 바이오·방산·플랫폼 IPO 활기",
-      "description": "자동차 차체와 배터리에 들어가는 냉간단조 부품 생산업체 기도산업도 7월 31일부터 8월 6일까지 수요예측을 실시하며, 생산시설 확충과 설비 투자에 공모자금을 투입할 예정이다. 재상장 일정도 눈에 띈다. 네오뷰는 7월...",
-      "link": "https://www.tokenpost.kr/news/market/381185",
-      "originallink": "https://www.tokenpost.kr/news/market/381185",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-25T00:18:00.000Z"
-    },
-    {
-      "id": "3e69c5e911eb769b",
-      "keyword": "기도산업",
-      "companyName": "기도산업",
-      "title": "인제니아테라퓨틱스 공모청약 돌입…네오뷰 코스닥 재상장",
-      "description": "7월 마지막 주 기업공개(IPO) 시장에서는 바이오기업 인제니아테라퓨틱스가 일반투자자 대상 공모주 청약에 나서고, 차량용 디스플레이 전문기업 네오뷰가 코스닥 시장에 재상장한다. 25일 금융투자업계에 따르면...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=591808",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=591808",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-25T00:10:00.000Z"
-    },
-    {
-      "id": "6358461069cece67",
-      "keyword": "기도산업",
-      "companyName": "기도산업",
-      "title": "[주간 IPO] 인제니아테라퓨틱스 청약…수요예측 3곳·신규 상장 공백",
-      "description": "기업인 기도산업은 지난해 연결 매출 3466억원, 영업이익 322억원, 순이익 353억원을 기록했다. 다음 주 수요예측 기업 가운데 매출과 순이익 규모가 가장 크다. 공모주 신규 상장은 잠시 공백을 맞는다. 이달 24일...",
-      "link": "https://www.etoday.co.kr/news/view/2607291",
-      "originallink": "https://www.etoday.co.kr/news/view/2607291",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-25T00:02:00.000Z"
-    },
-    {
-      "id": "7d5dc8eb5c1c1e39",
-      "keyword": "기도산업",
-      "companyName": "기도산업",
-      "title": "[IPO챗] 인제니아 청약 돌입…네오뷰 코스닥 재상장",
-      "description": "인제니아 30~31일 일반청약…미국 바이오기업 DR 상장 케이앤에스아이앤씨·딜리셔스 수요예측 7월 마지막 주(27~31일) 기업공개(IPO) 시장에서는 바이오기업 인제니아테라퓨틱스가 일반투자자 대상 공모주 청약에...",
-      "link": "https://n.news.naver.com/mnews/article/001/0016214165?sid=101",
-      "originallink": "https://www.yna.co.kr/view/AKR20260724149200008?input=1195m",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-25T00:00:00.000Z"
     },
     {
       "id": "aeec12e920334341",

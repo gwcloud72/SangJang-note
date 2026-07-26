@@ -1,11 +1,11 @@
 {
   "metadata": {
     "source": "local-rules",
-    "generatedAt": "2026-07-26T09:28:34.423Z",
+    "generatedAt": "2026-07-26T23:14:10.474Z",
     "model": null,
     "itemCount": 8,
     "geminiUsed": 0,
-    "cacheUsed": 3,
+    "cacheUsed": 1,
     "policy": "회사 설명, IPO 단계, 일정, 경쟁률 뉴스 언급, 원문 확인 포인트만 표시합니다. 투자 판단 표현은 제외합니다."
   },
   "items": [
@@ -27,11 +27,12 @@
       "sourceLabels": [
         "DART 일정",
         "환불일 확인",
+        "뉴스 검색",
         "주관사 확인"
       ],
       "competition": null,
-      "generatedBy": "gemini-cache",
-      "model": "gemini-2.5-flash"
+      "generatedBy": "local-rules",
+      "model": null
     },
     {
       "id": "briefing-케이앤에스아이앤씨",
@@ -51,11 +52,12 @@
       "sourceLabels": [
         "DART 일정",
         "환불일 확인",
+        "뉴스 검색",
         "주관사 확인"
       ],
       "competition": null,
-      "generatedBy": "gemini-cache",
-      "model": "gemini-2.5-flash"
+      "generatedBy": "local-rules",
+      "model": null
     },
     {
       "id": "briefing-판타지오",

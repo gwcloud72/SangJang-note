@@ -1,11 +1,66 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-07-26T23:11:43.795Z",
+    "updatedAt": "2026-07-27T23:17:43.006Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "1819d83b6d88f82e",
+      "keyword": "덕산넵코어스",
+      "companyName": "덕산넵코어스",
+      "title": "'중복상장 해결사'로 뜬 대신證 … 하반기 IPO 성적도 기대되네",
+      "description": "중복상장 예외 승인 1호 2곳 모두 대신證이 대표주관 맡아 '대어' 소노 코스피 상장도 기대 올해 기업공개(IPO)... 덕산넵코어스는 공모주 일반청약 물량 20% 상당을 모회사 주주들에게 현물 배당하기로 했다. 덕산넵코어스의...",
+      "link": "https://n.news.naver.com/mnews/article/009/0005712921?sid=101",
+      "originallink": "https://www.mk.co.kr/article/12108626",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-27T08:37:00.000Z"
+    },
+    {
+      "id": "2475161f8549534b",
+      "keyword": "덕산넵코어스",
+      "companyName": "덕산넵코어스",
+      "title": "'연내 상장' 데드라인 앞두고…미래에셋, IPO 예심 청구 6건 최다",
+      "description": "증권신고서 제출과 수요예측, 공모청약 등 승인 이후 절차에 걸리는 기간까지 감안하면 실제 상장 시점은... 자회사 덕산넵코어스와 다산네트웍스 자회사 디티에스(DTS)의 상장예비심사를 승인했다. 두 회사 모두...",
+      "link": "https://www.newstopkorea.com/news/articleView.html?idxno=46551",
+      "originallink": "https://www.newstopkorea.com/news/articleView.html?idxno=46551",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-27T08:12:00.000Z"
+    },
+    {
+      "id": "66f58bb09c82e54a",
+      "keyword": "덕산넵코어스",
+      "companyName": "덕산넵코어스",
+      "title": "[IPO 워치] 일반 주주 지지로 넘은 중복상장 문턱 l 덕산넵코어스①",
+      "description": "인수 후 IPO…주주도 상장 필요성 공감 24일 금융감독원 전자공시시스템에 따르면 덕산넵코어스는 보통주 300만주를 공모한다. 희망 공모가는 1만2400~1만4600원으로 공모 예정금액은 372억~438억원이다. 예상 시가총액은...",
+      "link": "https://n.news.naver.com/mnews/article/293/0000088166?sid=101",
+      "originallink": "https://www.bloter.net/news/articleView.html?idxno=669088",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-27T07:57:00.000Z"
+    },
+    {
+      "id": "48014859549074d9",
+      "keyword": "빅웨이브로보틱스",
+      "companyName": "빅웨이브로보틱스",
+      "title": "[THE COMPASS] 니어스랩, 공모가 하단 ‘3만원 사수’…WACC·할인율 ‘조...",
+      "description": "대표주관사인 삼성증권은 국내 드론 기업 중 이익을 내는 상장사가 없다는 점을 들어 RTX, 록히드마틴... 기업가치 고평가 논란에 휩싸인 빅웨이브로보틱스도 할인율 조정으로 기존 희망공모가밴드를 유지했다....",
+      "link": "https://www.fntimes.com/html/view.php?ud=202607271445486601a837df6494_18",
+      "originallink": "https://www.fntimes.com/html/view.php?ud=202607271445486601a837df6494_18",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-27T06:00:00.000Z"
+    },
+    {
+      "id": "430478c82c766da9",
+      "keyword": "기도산업",
+      "companyName": "기도산업",
+      "title": "인제니아 일반 청약⋯KNS·기도산업 수요예측 돌입",
+      "description": "이번 주 기업공개(IPO) 시장에서는 인제니아테라퓨틱스가 일반 청약을 받는다. 케이앤에스아이앤씨와 기도산업은 기관 투자가 대상 수요예측에 돌입한다. 27일 금융투자업계에 따르면 미국 바이오 기업...",
+      "link": "https://n.news.naver.com/mnews/article/031/0001044900?sid=101",
+      "originallink": "http://www.inews24.com/view/1988885",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-27T00:14:00.000Z"
+    },
     {
       "id": "b384aa231016bec0",
       "keyword": "기도산업",
@@ -41,36 +96,14 @@
     },
     {
       "id": "2eec4f78b75fdcea",
-      "keyword": "기도산업",
-      "companyName": "기도산업",
+      "keyword": "케이앤에스아이앤씨",
+      "companyName": "케이앤에스아이앤씨",
       "title": "이번 주 인제니아테라퓨틱스 공모주 청약 예정…수요예측은 3곳",
       "description": "이번 주(7월 27일~31일) 기업공개(IPO) 시장에선 코스닥 상장에 도전하는 기업 3곳의 공모주 청약과 1곳의... 수요예측엔 딜리셔스와 케이앤에스아이앤씨, 기도산업 등 3곳이 나설 예정이다. 패션 기업간거래(B2B) 플랫폼...",
       "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4426886",
       "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4426886",
       "provider": "뉴스 검색",
       "publishedAt": "2026-07-26T04:02:00.000Z"
-    },
-    {
-      "id": "c85211168da5d9fe",
-      "keyword": "케이앤에스아이앤씨",
-      "companyName": "케이앤에스아이앤씨",
-      "title": "딜리셔스·케이앤에스아이앤씨 수요예측[증시캘린더]",
-      "description": "다음 주(7월 27~31일) 기업공개(IPO) 시장에서는 패션 B2B 플랫폼 기업 딜리셔스와 방산 안테나 전문기업 케이앤에스아이앤씨가 기관투자자 대상 수요예측에 나선다. 미국 보스턴 소재 바이오 기업...",
-      "link": "https://n.news.naver.com/mnews/article/018/0006336888?sid=101",
-      "originallink": "https://www.edaily.co.kr/news/newspath.asp?newsid=01223446645518456",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-26T00:02:00.000Z"
-    },
-    {
-      "id": "59011e695d44268b",
-      "keyword": "기도산업",
-      "companyName": "기도산업",
-      "title": "7월 마지막 주 IPO 시장, 인제니아 청약·네오뷰 코스닥 재상장",
-      "description": "대상 공모주 청약에 나서고, 차량용 디스플레이 전문기업 네오뷰가 코스닥 시장에 재상장한다. 케이앤에스아이앤씨와 딜리셔스, 기도산업도 기관투자자 대상 수요예측을 진행하면서 기업공개(IPO) 시장의 관심을 끌...",
-      "link": "https://n.news.naver.com/mnews/article/016/0002674896?sid=101",
-      "originallink": "https://biz.heraldcorp.com/article/10819859?ref=naver",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-25T01:17:00.000Z"
     },
     {
       "id": "aeec12e920334341",
@@ -95,22 +128,11 @@
       "publishedAt": "2026-07-23T02:06:00.000Z"
     },
     {
-      "id": "8332712917e3a145",
-      "keyword": "덕산넵코어스",
-      "companyName": "덕산넵코어스",
-      "title": "상반기 부진했던 IPO…하반기 회복 변수 '중복상장 가이드라인'",
-      "description": "올해 상반기 기업공개(IPO) 시장이 상장 기업 수와 공모금액 모두 급감하며 부진한 성적표를 받아들었다.... 중복상장 규제 강화로 대기업 계열사 상장이 어려워진 것이 사실이지만, 덕산하이메탈 자회사 덕산넵코어스...",
-      "link": "https://n.news.naver.com/mnews/article/648/0000049120?sid=101",
-      "originallink": "https://news.bizwatch.co.kr/article/market/2026/07/23/0006",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-23T01:25:00.000Z"
-    },
-    {
       "id": "704f1d725beef2b4",
-      "keyword": "덕산넵코어스",
-      "companyName": "덕산넵코어스",
+      "keyword": "스카이랩스",
+      "companyName": "스카이랩스",
       "title": "상반기 얼어붙었던 IPO 시장, 하반기 반등 시동 … 연간 공모 4조 전망 ...",
-      "description": "이에 올해 연간 상장 종목수는 64~68개, 공모금액은 약 3조4000억~3조9000억원 수준을 기록할 것으로 예상된다.... 새 가이드라인에 맞춰 덕산넵코어스(모회사 덕산하이메탈), 디티에스(모회사 다산네트웍스) 등이 상장...",
+      "description": "등 IPO 제도 개선 방안의 적응기가 이어진 데다, 중복 상장 이슈와 상장 후 부진한 주가 흐름이 겹친... (273억원), 스카이랩스(260억원), 해치텍(230억원) 등이다. 연간 공모금액 전망치인 3조4000억~3조9000억원은 2021년...",
       "link": "https://biz.newdaily.co.kr/site/data/html/2026/07/23/2026072300074.html",
       "originallink": "https://biz.newdaily.co.kr/site/data/html/2026/07/23/2026072300074.html",
       "provider": "뉴스 검색",
@@ -118,10 +140,10 @@
     },
     {
       "id": "4712b0c244437a4c",
-      "keyword": "덕산넵코어스",
-      "companyName": "덕산넵코어스",
+      "keyword": "브릴스",
+      "companyName": "브릴스",
       "title": "'개점휴업' 끝낼까…하반기 IPO시장, 대어 복귀에 달렸다",
-      "description": "그러나 이들 중소형 기업만으로는 시장 전체 공모금액을 끌어올리는 데 한계가 있다. 결국 관건은 대어급 기업이 다시 상장 채비에 나서느냐다. 오광영 신영증권 연구원은 \"덕산하이메탈 자회사 덕산넵코어스와...",
+      "description": "신규 상장 기업이 한 곳도 없었다. 대형 IPO가 공모시장 전체 규모를 좌우하는 취약한 구조가 다시 확인된... 이달 하순부터 딜리셔스와 빅웨이브로보틱스, 해치텍, 기도산업, 스카이랩스, 니어스랩, 브릴스 등 다수 기업이...",
       "link": "https://www.newsworks.co.kr/news/articleView.html?idxno=847987",
       "originallink": "https://www.newsworks.co.kr/news/articleView.html?idxno=847987",
       "provider": "뉴스 검색",
@@ -216,17 +238,6 @@
       "publishedAt": "2026-07-13T06:48:00.000Z"
     },
     {
-      "id": "4791a9f855cd636b",
-      "keyword": "스카이랩스",
-      "companyName": "스카이랩스",
-      "title": "[더벨][스카이랩스 IPO] 비교군 없는 세계 첫 반지 혈압계, 할인율 높인...",
-      "description": "스카이랩스의 공모 규모는 200만주 전량 신주 모집에 260억~320억원이다. 상장예정주식수 1874만1977주 기준 시가총액은 밴드 하단 2436억원에서 상단 2999억원이다. 8월 3~7일 수요예측을 진행해 확정공모가를 결정하고 8월...",
-      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607090927426880109551",
-      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607090927426880109551",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-09T23:38:00.000Z"
-    },
-    {
       "id": "d45b9db679cfdf8e",
       "keyword": "빅웨이브로보틱스",
       "companyName": "빅웨이브로보틱스",
@@ -250,25 +261,14 @@
     },
     {
       "id": "407578fc2a800d73",
-      "keyword": "빅웨이브로보틱스",
-      "companyName": "빅웨이브로보틱스",
+      "keyword": "해치텍",
+      "companyName": "해치텍",
       "title": "IPO 시장, 하반기 반전 카드는 소노인터·구다이?",
-      "description": "AI 마케팅 기업 매드업도 공모가를 웃도는 주가를 보였다. 7월 1일 상장한 매드업은 올해 IPO 기업 중 가장... 그 다음 로봇(브릴스·빅웨이브로보틱스)과 드론, 방산(니어스랩·케이앤에스아이앤씨), 커머스...",
+      "description": "AI 마케팅 기업 매드업도 공모가를 웃도는 주가를 보였다. 7월 1일 상장한 매드업은 올해 IPO 기업 중 가장... 이외엔 봉제의복 제조 업체 기도산업과 반도체 팹리스 해치텍이 이름을 올렸다. 예비심사 승인 기업 중에선...",
       "link": "https://n.news.naver.com/mnews/article/024/0000106631?sid=101",
       "originallink": "https://www.mk.co.kr/article/12089803",
       "provider": "뉴스 검색",
       "publishedAt": "2026-07-03T05:16:00.000Z"
-    },
-    {
-      "id": "d6f4debe66e1f585",
-      "keyword": "니어스랩",
-      "companyName": "니어스랩",
-      "title": "[THE COMPASS] 니어스랩 IPO, FI 약정 수익과 공모가 ‘기묘한 일치’",
-      "description": "본격적인 상장 절차에 돌입했다. 투자자 설득을 통해 자본잠식에서 벗어난 만큼 성공적인 기업공개(IPO)가... 올해 니어스랩이 상장에 성공한다고 가정하면 공모가 하단은 최소 약 2만9000원(2만2000원, 4년 7% 복리 적용)...",
-      "link": "http://www.fntimes.com/html/view.php?ud=202606291608204321a837df6494_18",
-      "originallink": "http://www.fntimes.com/html/view.php?ud=202606291608204321a837df6494_18",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-29T07:22:00.000Z"
     },
     {
       "id": "5b3c8eb8d0813720",

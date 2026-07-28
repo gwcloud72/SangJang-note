@@ -1,43 +1,120 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-07-27T23:17:43.006Z",
+    "updatedAt": "2026-07-28T23:38:12.422Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
     {
-      "id": "1819d83b6d88f82e",
-      "keyword": "덕산넵코어스",
-      "companyName": "덕산넵코어스",
-      "title": "'중복상장 해결사'로 뜬 대신證 … 하반기 IPO 성적도 기대되네",
-      "description": "중복상장 예외 승인 1호 2곳 모두 대신證이 대표주관 맡아 '대어' 소노 코스피 상장도 기대 올해 기업공개(IPO)... 덕산넵코어스는 공모주 일반청약 물량 20% 상당을 모회사 주주들에게 현물 배당하기로 했다. 덕산넵코어스의...",
-      "link": "https://n.news.naver.com/mnews/article/009/0005712921?sid=101",
-      "originallink": "https://www.mk.co.kr/article/12108626",
+      "id": "1521b47f5a0daf87",
+      "keyword": "기도산업",
+      "companyName": "기도산업",
+      "title": "[IPO현미경]기도산업, '적자·구주매출' 두 부담 안고 흥행할까",
+      "description": "통상 구주매출은 회사의 성장이 아닌 최대주주의 차익실현에 공모금액이 사용된다는 시각이 있어 투자 심리에 부정적 요인으로 작용한다. 이에 대해 기도산업 관계자는 \"상장에 필요한 주식 분산 요건을 충족하기...",
+      "link": "https://n.news.naver.com/mnews/article/277/0005795892?sid=101",
+      "originallink": "https://view.asiae.co.kr/article/2026072811120770979",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-07-27T08:37:00.000Z"
+      "publishedAt": "2026-07-28T22:17:00.000Z"
+    },
+    {
+      "id": "b809f0df6bc7f4a2",
+      "keyword": "글로벌테크놀로지",
+      "companyName": "글로벌테크놀로지",
+      "title": "반복되는 역사의 경고, 착시에서 깨어나야 산다",
+      "description": "상장(IPO) 직후 공모가를 한참 뛰어넘으며 거침없이 치솟던 스페이스X 주가, 그리고 연일 최고가를 경신하던... 창신메모리테크놀로지(CXMT)의 추격과 글로벌 통상 지각변동을 안일하게 간과해온 치명적 오판이 자리 잡고...",
+      "link": "https://www.ngonews.kr/news/articleView.html?idxno=234002",
+      "originallink": "https://www.ngonews.kr/news/articleView.html?idxno=234002",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-28T13:50:00.000Z"
+    },
+    {
+      "id": "a3dbed3765e58844",
+      "keyword": "글로벌테크놀로지",
+      "companyName": "글로벌테크놀로지",
+      "title": "삼전닉스가 다가 아냐…CXMT에 키옥시아까지, 무시무시한 한중일 반도체...",
+      "description": "중국에서는 세계 D램 시장 4위 창신메모리테크놀로지(CXMT)가 올해 아시아 최대 IPO를 발판으로 중국 본토... 일본은 현행 제도상 단일 종목을 추종하는 레버리지 ETF를 자국 증시에 공모 상장할 수 없어 미국 시장을...",
+      "link": "https://n.news.naver.com/mnews/article/016/0002676429?sid=101",
+      "originallink": "https://biz.heraldcorp.com/article/10822933?ref=naver",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-28T13:41:00.000Z"
+    },
+    {
+      "id": "719fb2a9ebf6988b",
+      "keyword": "글로벌테크놀로지",
+      "companyName": "글로벌테크놀로지",
+      "title": "실적은 그대로인데 주가 무너졌다…'삼전닉스' 위험 프리미엄 확대",
+      "description": "창신메모리테크놀로지(CXMT)의 증시 상장과 중국산 심자외선(DUV) 노광장비 생산 소식이 겹치면서 메모리... 커촹반에 상장해 공모가보다 465.82% 오른 49위안에 첫 거래를 마쳤다. 기업공개(IPO)를 통해 조달한...",
+      "link": "https://www.newspim.com/news/view/20260728001061",
+      "originallink": "https://www.newspim.com/news/view/20260728001061",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-28T08:42:00.000Z"
+    },
+    {
+      "id": "8fa2313814a6979c",
+      "keyword": "글로벌테크놀로지",
+      "companyName": "글로벌테크놀로지",
+      "title": "한국 덮친 중국 반도체 굴기… 삼전·닉스 폭락에 '오천피' 회귀",
+      "description": "중국 최대 디램(DRAM) 업체 창신메모리테크놀로지(CXMT)가 상하이 증시에 상장하면서 삼성전자·SK하이닉스·마이크론 등 '메모리 3강'을 위협할 수 있다는 관측이 확산했다. CXMT는 거래 첫날인 27일 공모가 대비 465.82...",
+      "link": "https://n.news.naver.com/mnews/article/469/0000944872?sid=101",
+      "originallink": "https://www.hankookilbo.com/news/article/A2026072810540004947?did=NA",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-28T08:30:00.000Z"
+    },
+    {
+      "id": "0301960f557f2dd6",
+      "keyword": "글로벌테크놀로지",
+      "companyName": "글로벌테크놀로지",
+      "title": "코스피 6000 붕괴 위기···中 'CXMT' 공포 장기화되나",
+      "description": "중국 메모리반도체 기업인 창신메모리테크놀로지(CXMT)의 IPO 충격이 국내 증시를 덮치면서 코스피가... CXMT는 세계 4위 D램 업체로 전날 상장 첫날 공모가 8.66위안보다 465.82% 오른 49위안에 장을 마쳤다. 시가총액은...",
+      "link": "https://www.sisajournal-e.com/news/articleView.html?idxno=422731",
+      "originallink": "https://www.sisajournal-e.com/news/articleView.html?idxno=422731",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-28T08:22:00.000Z"
+    },
+    {
+      "id": "c040dcdf77058687",
+      "keyword": "기도산업",
+      "companyName": "기도산업",
+      "title": "이번주 공모주 청약, 인제니아테라퓨틱스...수요예측은 3곳",
+      "description": "일반청약은 다음 달 3~4일로 예정됐고 한국투자증권이 상장을 주관한다. 기능성 의류 주문자상표부착생산(OEM) 기업 기도산업은 31일부터 다음 달 6일까지 기관 수요예측에 나선다. 총 170만주를 공모하며 희망...",
+      "link": "https://n.news.naver.com/mnews/article/123/0002387344?sid=101",
+      "originallink": "http://www.joseilbo.com/news/news_read.php?uid=572744&class=53&grp=",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-28T01:02:00.000Z"
+    },
+    {
+      "id": "0f9278a9ff9c5eea",
+      "keyword": "딜리셔스",
+      "companyName": "딜리셔스",
+      "title": "[덕산넵코어스 IPO] 골든타임 놓칠라…공모 속전속결",
+      "description": "비록 목표로 삼았던 상반기 상장은 무산됐지만, 연내 IPO를 완료하는 데는 무리가 없을 것으로 보인다. ◇ 주요 방산기업 주가 하락세…공모주 투심 냉각 '변수' 투자자들의 시선은 기업가치로 향한다. 덕산넵코어스는...",
+      "link": "https://www.the-stock.kr/news/articleView.html?idxno=33023",
+      "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=33023",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-28T00:38:00.000Z"
+    },
+    {
+      "id": "27181d18c37cc1e7",
+      "keyword": "브릴스",
+      "companyName": "브릴스",
+      "title": "[A 증시어택] 유망 테크·바이오 강소기업 코스닥 출격...8월 공모주 소...",
+      "description": "총 공모 예정 금액은 422억~483억원 규모로, 상장 주관사는 미래에셋증권이 맡았다. 기도산업 관계자는 \"IPO... △브릴스, 원스톱 로봇 모듈화 기술 앞세워=브릴스는 로봇 시스템의 설계부터 소프트웨어 개발, 생산...",
+      "link": "https://www.asiaa.co.kr/news/articleView.html?idxno=256589",
+      "originallink": "https://www.asiaa.co.kr/news/articleView.html?idxno=256589",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-28T00:20:00.000Z"
     },
     {
       "id": "2475161f8549534b",
-      "keyword": "덕산넵코어스",
-      "companyName": "덕산넵코어스",
+      "keyword": "스카이랩스",
+      "companyName": "스카이랩스",
       "title": "'연내 상장' 데드라인 앞두고…미래에셋, IPO 예심 청구 6건 최다",
-      "description": "증권신고서 제출과 수요예측, 공모청약 등 승인 이후 절차에 걸리는 기간까지 감안하면 실제 상장 시점은... 자회사 덕산넵코어스와 다산네트웍스 자회사 디티에스(DTS)의 상장예비심사를 승인했다. 두 회사 모두...",
+      "description": "이번 청구 건이 연내 상장으로 이어질 경우 하반기 IPO 리그테이블 경쟁에서 유리한 위치를 점할 수 있을... 이를 주 5일 기준으로 환산하면 66.4영업일이다. 가장 빨랐던 기도산업도 46.4영업일이 걸렸고, 스카이랩스는...",
       "link": "https://www.newstopkorea.com/news/articleView.html?idxno=46551",
       "originallink": "https://www.newstopkorea.com/news/articleView.html?idxno=46551",
       "provider": "뉴스 검색",
       "publishedAt": "2026-07-27T08:12:00.000Z"
-    },
-    {
-      "id": "66f58bb09c82e54a",
-      "keyword": "덕산넵코어스",
-      "companyName": "덕산넵코어스",
-      "title": "[IPO 워치] 일반 주주 지지로 넘은 중복상장 문턱 l 덕산넵코어스①",
-      "description": "인수 후 IPO…주주도 상장 필요성 공감 24일 금융감독원 전자공시시스템에 따르면 덕산넵코어스는 보통주 300만주를 공모한다. 희망 공모가는 1만2400~1만4600원으로 공모 예정금액은 372억~438억원이다. 예상 시가총액은...",
-      "link": "https://n.news.naver.com/mnews/article/293/0000088166?sid=101",
-      "originallink": "https://www.bloter.net/news/articleView.html?idxno=669088",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-27T07:57:00.000Z"
     },
     {
       "id": "48014859549074d9",
@@ -63,10 +140,10 @@
     },
     {
       "id": "b384aa231016bec0",
-      "keyword": "기도산업",
-      "companyName": "기도산업",
+      "keyword": "케이앤에스아이앤씨",
+      "companyName": "케이앤에스아이앤씨",
       "title": "美 바이오 기업 인제니아 일반청약…국내 투심 사로잡을까 [이번주 증시...",
-      "description": "생산기업 기도산업이 수요예측을 실시한다. 한편 최근 증시에 신규 상장한 기업들의 주가는 흔들리고 있다. 한국거래소 통계에 따르면 최근 3개월 사이 증시에 입성한 기업 11곳 중 현재 주가가 공모가를 웃도는...",
+      "description": "이외에도 위성통신 안테나 개발·제조 기업 케이앤에스아이앤씨와 자동차 차체와 배터리용 냉간단조 부품 생산기업 기도산업이 수요예측을 실시한다. 한편 최근 증시에 신규 상장한 기업들의 주가는 흔들리고 있다....",
       "link": "https://n.news.naver.com/mnews/article/011/0004645389?sid=101",
       "originallink": "https://www.sedaily.com/article/20072047?ref=naver",
       "provider": "뉴스 검색",
@@ -74,58 +151,14 @@
     },
     {
       "id": "1afa35b7899c761a",
-      "keyword": "기도산업",
-      "companyName": "기도산업",
+      "keyword": "케이앤에스아이앤씨",
+      "companyName": "케이앤에스아이앤씨",
       "title": "[IPO 워치] 인제니아테라퓨틱스 청약 돌입…수요예측 3곳",
       "description": "마지막 주(27~31일) 기업공개(IPO) 시장에서는 미국 바이오 기업 인제니아테라퓨틱스가 일반청약을 진행하고, 딜리셔스·케이앤에스아이앤씨·기도산업 등 3개사는 기관 수요예측에 나선다. 신규 상장 종목은 없지만...",
       "link": "https://www.news2day.co.kr/article/20260726500002",
       "originallink": "https://www.news2day.co.kr/article/20260726500002",
       "provider": "뉴스 검색",
       "publishedAt": "2026-07-26T19:50:00.000Z"
-    },
-    {
-      "id": "bb2baa124694add3",
-      "keyword": "기도산업",
-      "companyName": "기도산업",
-      "title": "[자금조달 프리뷰] NH證·SK에코플랜트 공모채…IPO 3곳 '잰걸음'",
-      "description": "다음주 공모 회사채를 발행한다. 기업공개(IPO) 시장에서는 케이앤에스아이앤씨·기도산업·딜리셔스가... 시장 상장을 통해 플랫폼 경쟁력을 한층 강화하고 국내를 넘어 글로벌 패션 B2B 시장에서도 지속 성장할...",
-      "link": "https://n.news.naver.com/mnews/article/293/0000088113?sid=101",
-      "originallink": "https://www.bloter.net/news/articleView.html?idxno=668957",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-26T06:00:00.000Z"
-    },
-    {
-      "id": "2eec4f78b75fdcea",
-      "keyword": "케이앤에스아이앤씨",
-      "companyName": "케이앤에스아이앤씨",
-      "title": "이번 주 인제니아테라퓨틱스 공모주 청약 예정…수요예측은 3곳",
-      "description": "이번 주(7월 27일~31일) 기업공개(IPO) 시장에선 코스닥 상장에 도전하는 기업 3곳의 공모주 청약과 1곳의... 수요예측엔 딜리셔스와 케이앤에스아이앤씨, 기도산업 등 3곳이 나설 예정이다. 패션 기업간거래(B2B) 플랫폼...",
-      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4426886",
-      "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4426886",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-26T04:02:00.000Z"
-    },
-    {
-      "id": "aeec12e920334341",
-      "keyword": "덕산넵코어스",
-      "companyName": "덕산넵코어스",
-      "title": "[증권업계기상도]7월 넷째 주 혼조…IB 수수료 확대 ‘맑음’, 평가손·...",
-      "description": "대신증권은 덕산하이메탈의 자회사 ‘덕산넵코어스’와 다산네트웍스 자회사 ‘디티에스’의 IPO 주관을 성공시키며 ‘중복상장 금지’ 시대에서 첫 발을 내딛었다. NH투자증권은 올해 상반기 IPO 공모금액으로...",
-      "link": "https://www.nspna.com/news/?mode=view&newsid=821783",
-      "originallink": "https://www.nspna.com/news/?mode=view&newsid=821783",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-24T07:10:00.000Z"
-    },
-    {
-      "id": "0c2ead856b2a878d",
-      "keyword": "덕산넵코어스",
-      "companyName": "덕산넵코어스",
-      "title": "하반기 IPO, 중복 상장 가이드라인 적용 대어급 등판할까",
-      "description": "하반기 상장 채비를 마치고 본격적으로 공모 시장에 진입할 것으로 기대된다. 오광영 연구원은 \"언론에 따르면 덕산넵코어스(모회사 덕산하이메탈), 디티에스(모회사 다산네트웍스) 등이 새로운 가이드 라인에 맞춰...",
-      "link": "https://www.mdtoday.co.kr/news/articleView.html?idxno=605857",
-      "originallink": "https://www.mdtoday.co.kr/news/articleView.html?idxno=605857",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-23T02:06:00.000Z"
     },
     {
       "id": "704f1d725beef2b4",
@@ -216,17 +249,6 @@
       "publishedAt": "2026-07-14T08:22:00.000Z"
     },
     {
-      "id": "71d6d2346fafb1a0",
-      "keyword": "브릴스",
-      "companyName": "브릴스",
-      "title": "‘120만 주 공모, 402억 누적 투자’ 브릴스, 피지컬·온디바이스 AI로 돈...",
-      "description": "코스닥 상장 위한 증권신고서 제출...기업공개(IPO) 절차 본격 돌입한다 신주 120만 주 공모 및 총 402억 원 누적 투자 유치 완료 피지컬 AI(Physical AI) 융합 기술 고도화 ‘순항’ 브릴스가 코스닥 상장 과정에서의...",
-      "link": "https://www.hellot.net/news/article.html?no=113767",
-      "originallink": "https://www.hellot.net/news/article.html?no=113767",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-14T07:24:00.000Z"
-    },
-    {
       "id": "a6871c9dfe9f1a0e",
       "keyword": "네오사피엔스",
       "companyName": "네오사피엔스",
@@ -236,17 +258,6 @@
       "originallink": "https://www.etoday.co.kr/news/view/2603188",
       "provider": "뉴스 검색",
       "publishedAt": "2026-07-13T06:48:00.000Z"
-    },
-    {
-      "id": "d45b9db679cfdf8e",
-      "keyword": "빅웨이브로보틱스",
-      "companyName": "빅웨이브로보틱스",
-      "title": "[THE COMPASS] 빅웨이브로보틱스, 美 수주 6.9억…공모가 입증엔 ‘글쎄...",
-      "description": "주당매출액비율(PSR)을 공모가 산정 기준으로 삼은 만큼 밸류를 입증하기엔 부족한 상황이다. 8일 산업용... 이는 빅웨이브로보틱스가 상장 후 ‘실적 쇼크’를 피하기 위한 필수조건이자 투자자들이 반드시 확인해야...",
-      "link": "https://www.fntimes.com/html/view.php?ud=202607081029569452a837df6494_18",
-      "originallink": "https://www.fntimes.com/html/view.php?ud=202607081029569452a837df6494_18",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-08T01:42:00.000Z"
     },
     {
       "id": "2ea0f19e29d66087",
@@ -302,17 +313,6 @@
       "originallink": "https://www.junggi.co.kr/news/articleView.html?idxno=36401",
       "provider": "뉴스 검색",
       "publishedAt": "2026-05-12T05:22:00.000Z"
-    },
-    {
-      "id": "1d739b73805e936d",
-      "keyword": "해치텍",
-      "companyName": "해치텍",
-      "title": "[더벨][해치텍 IPO] 최대주주 40%대 지배력…단기 오버행 우려 제한적",
-      "description": "프리IPO 투자를 유치했다. DB증권은 이중 RCPS 7만주를 약 10억원에 취득했고, 이후 전환 과정을 통해 보통주... 이에 해치텍의 상장 직후 유통 가능 물량은 기존 투자자 출회 물량 일부 및 공모주 100만주를 중심으로...",
-      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202604061336056040103516",
-      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202604061336056040103516",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-04-07T22:02:00.000Z"
     },
     {
       "id": "7f16b0014b3034f5",

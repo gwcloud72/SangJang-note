@@ -1,26 +1,26 @@
 {
   "metadata": {
-    "updatedAt": "2026-07-27T23:17:36.812Z",
+    "updatedAt": "2026-07-28T23:38:05.212Z",
     "source": "OpenDART",
     "basis": "증권신고서 주요정보 - 지분증권(estkRs), 공시검색(list), 공시원문(document.xml)",
     "dateRange": {
-      "bgnDe": "20260129",
-      "endDe": "20260728"
+      "bgnDe": "20260130",
+      "endDe": "20260729"
     },
     "lookbackDays": 180,
     "lookaheadDays": 120,
-    "totalFilings": 12666,
-    "totalCompanies": 351,
-    "totalItems": 12,
-    "referenceDate": "2026-07-28",
+    "totalFilings": 12627,
+    "totalCompanies": 343,
+    "totalItems": 13,
+    "referenceDate": "2026-07-29",
     "status": "ready",
-    "candidateItems": 33,
-    "futureCandidateItems": 12,
+    "candidateItems": 34,
+    "futureCandidateItems": 13,
     "statusCounts": {
-      "청약 예정": 12
+      "청약 예정": 13
     },
-    "documentDetailItems": 32,
-    "warning": "34개 항목의 상세 조회 또는 원문 추출에 실패했습니다. Actions 로그에서 확인하세요."
+    "documentDetailItems": 33,
+    "warning": "35개 항목의 상세 조회 또는 원문 추출에 실패했습니다. Actions 로그에서 확인하세요."
   },
   "items": [
     {
@@ -510,6 +510,51 @@
       "demandForecastStart": "2026-08-31",
       "demandForecastEnd": "2026-09-04",
       "refundDateSource": "dart-document",
+      "listingDateSource": "",
+      "subscriptionCompetitionRate": "",
+      "demandForecastCompetitionRate": "",
+      "detailSource": "document",
+      "detailSourceNote": "환불일·상장예정일·수요예측 기간·경쟁률은 공시 원문에서 자동 추출된 값입니다.",
+      "offeringCategory": "ipo",
+      "eventType": "initial_public_offering",
+      "sourceMode": "opendart",
+      "demandForecastSource": "dart-document"
+    },
+    {
+      "companyName": "글로벌테크놀로지",
+      "corpCode": "01564514",
+      "corpClass": "E",
+      "stockCode": "",
+      "receiptNo": "20260728000487",
+      "receiptDate": "2026-07-28",
+      "reportName": "증권신고서(지분증권)",
+      "securityType": "보통주",
+      "offeringMethod": "일반공모",
+      "offerPrice": "13,000",
+      "offerAmount": "52,000,000,000",
+      "stockCount": "4,000,000",
+      "parValue": "500",
+      "subscriptionDate": "2026년 09월 16일 ~ 2026년 09월 17일",
+      "subscriptionNoticeDate": "2026-09-16",
+      "paymentDate": "2026-09-21",
+      "allotmentNoticeDate": "2026-09-21",
+      "allotmentBaseDate": "",
+      "scheduleStart": "2026-09-16",
+      "scheduleEnd": "2026-09-17",
+      "subscriptionStart": "2026-09-16",
+      "subscriptionEnd": "2026-09-17",
+      "underwriters": [
+        "한국투자증권"
+      ],
+      "dartUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260728000487",
+      "mainMatterReceiptNo": "",
+      "mainMatterUrl": "",
+      "status": "청약 예정",
+      "refundDate": "",
+      "listingDate": "",
+      "demandForecastStart": "2026-09-07",
+      "demandForecastEnd": "2026-09-11",
+      "refundDateSource": "",
       "listingDateSource": "",
       "subscriptionCompetitionRate": "",
       "demandForecastCompetitionRate": "",

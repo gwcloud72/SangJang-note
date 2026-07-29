@@ -1,11 +1,44 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-07-28T23:38:12.422Z",
+    "updatedAt": "2026-07-29T23:12:10.360Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "dd75eecb6a6129d3",
+      "keyword": "딜리셔스",
+      "companyName": "딜리셔스",
+      "title": "\"K패션 세계화\" 딜리셔스, IPO 도전장",
+      "description": "패션 도소매 플랫폼 기업 딜리셔스가 코스닥 상장 문턱에 섰다. 국내 선두 서비스 '신상마켓' 출시 13년을 맞아 해외발 'K패션' 수요로 저변을 넓힌다는 구상이다. 정창한 대표는 29일 서울 여의도에서 열린 IPO...",
+      "link": "https://n.news.naver.com/mnews/article/008/0005393051?sid=101",
+      "originallink": "https://www.mt.co.kr/stock/2026/07/30/2026072920003047635",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-29T19:00:00.000Z"
+    },
+    {
+      "id": "dcce92790e759218",
+      "keyword": "빅웨이브로보틱스",
+      "companyName": "빅웨이브로보틱스",
+      "title": "[빅웨이브로보틱스 IPO] 잇단 정정 속 고평가 논란...유진투자증권 주관...",
+      "description": "빅웨이브로보틱스의 코스닥 상장 공모가 몇 달째 표류하고 있다. 대표 주관사인 유진투자증권이 제출한... 부담을 줄 수 있는 페널티 제도가 마련돼야 한다\"고 지적했다. IPO 기업들의 상장 이후 주가 변동성에 대해선...",
+      "link": "https://www.topdaily.kr/articles/111195",
+      "originallink": "https://www.topdaily.kr/articles/111195",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-29T07:44:00.000Z"
+    },
+    {
+      "id": "97126ebc0c4a0dc9",
+      "keyword": "딜리셔스",
+      "companyName": "딜리셔스",
+      "title": "'동대문 옷시장 접수' 신상마켓 IPO 문턱…딜리셔스 출사표",
+      "description": "패션 도소매 플랫폼 기업 딜리셔스가 코스닥 상장 문턱에 섰다. 국내 선두 서비스 '신상마켓' 출시 13년을 맞아 해외발 'K패션' 수요로 저변을 넓히겠다는 구상이다. 정창한 딜리셔스 대표는 29일 서울 여의도에서 IPO...",
+      "link": "https://n.news.naver.com/mnews/article/008/0005392826?sid=101",
+      "originallink": "https://www.mt.co.kr/stock/2026/07/30/2026072914050790254",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-29T07:01:00.000Z"
+    },
     {
       "id": "1521b47f5a0daf87",
       "keyword": "기도산업",
@@ -16,61 +49,6 @@
       "originallink": "https://view.asiae.co.kr/article/2026072811120770979",
       "provider": "뉴스 검색",
       "publishedAt": "2026-07-28T22:17:00.000Z"
-    },
-    {
-      "id": "b809f0df6bc7f4a2",
-      "keyword": "글로벌테크놀로지",
-      "companyName": "글로벌테크놀로지",
-      "title": "반복되는 역사의 경고, 착시에서 깨어나야 산다",
-      "description": "상장(IPO) 직후 공모가를 한참 뛰어넘으며 거침없이 치솟던 스페이스X 주가, 그리고 연일 최고가를 경신하던... 창신메모리테크놀로지(CXMT)의 추격과 글로벌 통상 지각변동을 안일하게 간과해온 치명적 오판이 자리 잡고...",
-      "link": "https://www.ngonews.kr/news/articleView.html?idxno=234002",
-      "originallink": "https://www.ngonews.kr/news/articleView.html?idxno=234002",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-28T13:50:00.000Z"
-    },
-    {
-      "id": "a3dbed3765e58844",
-      "keyword": "글로벌테크놀로지",
-      "companyName": "글로벌테크놀로지",
-      "title": "삼전닉스가 다가 아냐…CXMT에 키옥시아까지, 무시무시한 한중일 반도체...",
-      "description": "중국에서는 세계 D램 시장 4위 창신메모리테크놀로지(CXMT)가 올해 아시아 최대 IPO를 발판으로 중국 본토... 일본은 현행 제도상 단일 종목을 추종하는 레버리지 ETF를 자국 증시에 공모 상장할 수 없어 미국 시장을...",
-      "link": "https://n.news.naver.com/mnews/article/016/0002676429?sid=101",
-      "originallink": "https://biz.heraldcorp.com/article/10822933?ref=naver",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-28T13:41:00.000Z"
-    },
-    {
-      "id": "719fb2a9ebf6988b",
-      "keyword": "글로벌테크놀로지",
-      "companyName": "글로벌테크놀로지",
-      "title": "실적은 그대로인데 주가 무너졌다…'삼전닉스' 위험 프리미엄 확대",
-      "description": "창신메모리테크놀로지(CXMT)의 증시 상장과 중국산 심자외선(DUV) 노광장비 생산 소식이 겹치면서 메모리... 커촹반에 상장해 공모가보다 465.82% 오른 49위안에 첫 거래를 마쳤다. 기업공개(IPO)를 통해 조달한...",
-      "link": "https://www.newspim.com/news/view/20260728001061",
-      "originallink": "https://www.newspim.com/news/view/20260728001061",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-28T08:42:00.000Z"
-    },
-    {
-      "id": "8fa2313814a6979c",
-      "keyword": "글로벌테크놀로지",
-      "companyName": "글로벌테크놀로지",
-      "title": "한국 덮친 중국 반도체 굴기… 삼전·닉스 폭락에 '오천피' 회귀",
-      "description": "중국 최대 디램(DRAM) 업체 창신메모리테크놀로지(CXMT)가 상하이 증시에 상장하면서 삼성전자·SK하이닉스·마이크론 등 '메모리 3강'을 위협할 수 있다는 관측이 확산했다. CXMT는 거래 첫날인 27일 공모가 대비 465.82...",
-      "link": "https://n.news.naver.com/mnews/article/469/0000944872?sid=101",
-      "originallink": "https://www.hankookilbo.com/news/article/A2026072810540004947?did=NA",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-28T08:30:00.000Z"
-    },
-    {
-      "id": "0301960f557f2dd6",
-      "keyword": "글로벌테크놀로지",
-      "companyName": "글로벌테크놀로지",
-      "title": "코스피 6000 붕괴 위기···中 'CXMT' 공포 장기화되나",
-      "description": "중국 메모리반도체 기업인 창신메모리테크놀로지(CXMT)의 IPO 충격이 국내 증시를 덮치면서 코스피가... CXMT는 세계 4위 D램 업체로 전날 상장 첫날 공모가 8.66위안보다 465.82% 오른 49위안에 장을 마쳤다. 시가총액은...",
-      "link": "https://www.sisajournal-e.com/news/articleView.html?idxno=422731",
-      "originallink": "https://www.sisajournal-e.com/news/articleView.html?idxno=422731",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-28T08:22:00.000Z"
     },
     {
       "id": "c040dcdf77058687",
@@ -96,10 +74,10 @@
     },
     {
       "id": "27181d18c37cc1e7",
-      "keyword": "브릴스",
-      "companyName": "브릴스",
+      "keyword": "스카이랩스",
+      "companyName": "스카이랩스",
       "title": "[A 증시어택] 유망 테크·바이오 강소기업 코스닥 출격...8월 공모주 소...",
-      "description": "총 공모 예정 금액은 422억~483억원 규모로, 상장 주관사는 미래에셋증권이 맡았다. 기도산업 관계자는 \"IPO... △브릴스, 원스톱 로봇 모듈화 기술 앞세워=브릴스는 로봇 시스템의 설계부터 소프트웨어 개발, 생산...",
+      "description": "총 공모 예정 금액은 422억~483억원 규모로, 상장 주관사는 미래에셋증권이 맡았다. 기도산업 관계자는 \"IPO... 총 공모 예정 금액은 260억~320억원 규모로, 상장 주관사는 한국투자증권이 맡았다. 이병환 스카이랩스...",
       "link": "https://www.asiaa.co.kr/news/articleView.html?idxno=256589",
       "originallink": "https://www.asiaa.co.kr/news/articleView.html?idxno=256589",
       "provider": "뉴스 검색",
@@ -173,25 +151,14 @@
     },
     {
       "id": "4712b0c244437a4c",
-      "keyword": "브릴스",
-      "companyName": "브릴스",
+      "keyword": "스카이랩스",
+      "companyName": "스카이랩스",
       "title": "'개점휴업' 끝낼까…하반기 IPO시장, 대어 복귀에 달렸다",
       "description": "신규 상장 기업이 한 곳도 없었다. 대형 IPO가 공모시장 전체 규모를 좌우하는 취약한 구조가 다시 확인된... 이달 하순부터 딜리셔스와 빅웨이브로보틱스, 해치텍, 기도산업, 스카이랩스, 니어스랩, 브릴스 등 다수 기업이...",
       "link": "https://www.newsworks.co.kr/news/articleView.html?idxno=847987",
       "originallink": "https://www.newsworks.co.kr/news/articleView.html?idxno=847987",
       "provider": "뉴스 검색",
       "publishedAt": "2026-07-22T23:50:00.000Z"
-    },
-    {
-      "id": "c7a2ba9c6ce7b098",
-      "keyword": "빅웨이브로보틱스",
-      "companyName": "빅웨이브로보틱스",
-      "title": "[IPO 새판 짜기④] 박종선 연구원 “기업가치가 결국 답…단기 변수보다...",
-      "description": "기업공개(IPO) 시장은 상장 기업 수와 공모 규모가 예년 평균을 크게 밑돌며 위축된 모습을 보였다. 반면... “8월 상장을 추진 중인 로봇 기업 빅웨이브로보틱스를 눈여겨볼 필요가 있다. 이 회사는 로봇 자동화 플랫폼...",
-      "link": "https://www.news2day.co.kr/article/20260713500245",
-      "originallink": "https://www.news2day.co.kr/article/20260713500245",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-16T19:06:00.000Z"
     },
     {
       "id": "de3afed84c23bc3d",

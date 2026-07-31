@@ -1,11 +1,33 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-07-30T23:12:02.716Z",
+    "updatedAt": "2026-07-31T23:11:35.267Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "37bde5bd0e00fde7",
+      "keyword": "딜리셔스",
+      "companyName": "딜리셔스",
+      "title": "[더벨][딜리셔스 IPO] 플랫폼 경쟁력·성장성 호평…공모가 상단 확정",
+      "description": "이번 공모를 통해 확보한 자금을 플랫폼 고도화와 신규 서비스 개발, 글로벌 시장 확대를 위한 마케팅, 패션 SaaS 사업 등에 투입할 계획이다. 딜리셔스는 다음 달 3~4일 일반청약을 거쳐 12일 코스닥 시장에 상장할...",
+      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607311636482720105660",
+      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607311636482720105660",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-31T08:58:00.000Z"
+    },
+    {
+      "id": "386983bc57ff6297",
+      "keyword": "네오사피엔스",
+      "companyName": "네오사피엔스",
+      "title": "[덕산넵코어스 IPO] 오버행 리스크 부각…모회사 주주환원 영향은",
+      "description": "IPO 도전 기업의 유통 비율이 통상 30% 내외인 점을 고려하면 부담스러운 수준이다. 비슷한 시기 공모를 진행하는 글로벌테크놀로지(22.26%)와 와이즈플래닛컴퍼니(21.12%), 네오사피엔스(28.66%) 보다 높다....",
+      "link": "https://www.the-stock.kr/news/articleView.html?idxno=33056",
+      "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=33056",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-31T03:08:00.000Z"
+    },
     {
       "id": "e54f9c7b872af029",
       "keyword": "빅웨이브로보틱스",
@@ -22,7 +44,7 @@
       "keyword": "네오사피엔스",
       "companyName": "네오사피엔스",
       "title": "[N2 포커스] 8월 IPO 시장 ‘공모 러시’…케이앤에스아이앤씨·인제니아...",
-      "description": "8월 마지막 날에는 생성형 AI 기업 네오사피엔스가 수요예측에 돌입한다. 기관 수요예측은 이달 31일부터 9월 4일까지, 일반청약은 9월 8~9일 진행한다. 희망 공모가는 1만3800~1만5800원이며 대신증권이 상장 주관사다....",
+      "description": "8월 마지막 날에는 생성형 AI 기업 네오사피엔스가 수요예측에 돌입한다. 기관 수요예측은 다음 달 31일부터 9월 4일까지, 일반청약은 9월 8~9일 진행한다. 희망 공모가는 1만3800~1만5800원이며 대신증권이 상장...",
       "link": "https://www.news2day.co.kr/article/20260730500187",
       "originallink": "https://www.news2day.co.kr/article/20260730500187",
       "provider": "뉴스 검색",
@@ -82,17 +104,6 @@
       "originallink": "https://www.topdaily.kr/articles/111195",
       "provider": "뉴스 검색",
       "publishedAt": "2026-07-29T07:44:00.000Z"
-    },
-    {
-      "id": "97126ebc0c4a0dc9",
-      "keyword": "딜리셔스",
-      "companyName": "딜리셔스",
-      "title": "'동대문 옷시장 접수' 신상마켓 IPO 문턱…딜리셔스 출사표",
-      "description": "패션 도소매 플랫폼 기업 딜리셔스가 코스닥 상장 문턱에 섰다. 국내 선두 서비스 '신상마켓' 출시 13년을 맞아 해외발 'K패션' 수요로 저변을 넓히겠다는 구상이다. 정창한 딜리셔스 대표는 29일 서울 여의도에서 IPO...",
-      "link": "https://n.news.naver.com/mnews/article/008/0005392826?sid=101",
-      "originallink": "https://www.mt.co.kr/stock/2026/07/30/2026072914050790254",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-29T07:01:00.000Z"
     },
     {
       "id": "1521b47f5a0daf87",
@@ -203,17 +214,6 @@
       "originallink": "https://www.etoday.co.kr/news/view/2586422",
       "provider": "뉴스 검색",
       "publishedAt": "2026-05-20T07:32:00.000Z"
-    },
-    {
-      "id": "69726a35b39f4930",
-      "keyword": "네오사피엔스",
-      "companyName": "네오사피엔스",
-      "title": "일반청약 마친 마키나락스…'AI IPO' 흥행 시대 열까",
-      "description": "이번 마키나락스 상장에서 형성되는 시장 검증 수준이 후속 AI 기업 IPO 기준선으로 작용할 가능성이 큰 이유다. 셀렉트스타·네오사피엔스·디토닉·인텔리빅스·엘리스그룹·슈퍼브AI·페르소나AI 등이 공모 절차에...",
-      "link": "https://n.news.naver.com/mnews/article/092/0002422373?sid=105",
-      "originallink": "https://zdnet.co.kr/view/?no=20260512161123",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-05-12T07:22:00.000Z"
     },
     {
       "id": "7f16b0014b3034f5",

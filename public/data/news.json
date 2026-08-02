@@ -1,11 +1,77 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-08-01T23:02:34.633Z",
+    "updatedAt": "2026-08-02T23:27:03.454Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "bd443c21ba9f4155",
+      "keyword": "빅웨이브로보틱스",
+      "companyName": "빅웨이브로보틱스",
+      "title": "딜리셔스·케이앤에스아이앤씨 청약…니어스랩 등 4곳 수요예측[이번주...",
+      "description": "이번 주 기업공개(IPO) 시장에서는 코스닥 상장에 도전하는 딜리셔스와 케이앤에스아이앤씨가 일반 투자자를 대상으로 공모주 청약을 진행한다. 니어스랩과 해치텍, 빅웨이브로보틱스, 기도산업 등 4개 기업은...",
+      "link": "https://n.news.naver.com/mnews/article/011/0004647837?sid=101",
+      "originallink": "https://www.sedaily.com/article/20074734?ref=naver",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-02T21:31:00.000Z"
+    },
+    {
+      "id": "d13176efff48b8a7",
+      "keyword": "빅웨이브로보틱스",
+      "companyName": "빅웨이브로보틱스",
+      "title": "[IPO 워치] 딜리셔스·케이앤에스아이앤씨 청약…수요예측 4곳",
+      "description": "첫째 주(3~7일) 기업공개(IPO) 시장에서는 패션 기업 간 거래(B2B) 플랫폼 운영사 딜리셔스와 위성통신 안테나 기업 케이앤에스아이앤씨가 일반투자자 대상 청약을 진행한다. 니어스랩과 해치텍, 빅웨이브로보틱스...",
+      "link": "https://www.news2day.co.kr/article/20260802500013",
+      "originallink": "https://www.news2day.co.kr/article/20260802500013",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-02T19:22:00.000Z"
+    },
+    {
+      "id": "4c5a7e2b1537038d",
+      "keyword": "해치텍",
+      "companyName": "해치텍",
+      "title": "'해치텍 공모주' 3~7일 수요예측...청약 일정과 상장일 확정",
+      "description": "공모 예정금액은 약 230억~280억원을 기록할 전망이다. 상장일은 오는 25일이며, 주관사는 DB증권이다. 지난 2017년 설립된 해치텍은 해외 제품에 의존해온 자기장센서 분야에서 국산화를 실현한 초소형·저전력...",
+      "link": "https://www.gukjenews.com/news/articleView.html?idxno=3653359",
+      "originallink": "https://www.gukjenews.com/news/articleView.html?idxno=3653359",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-02T15:10:00.000Z"
+    },
+    {
+      "id": "0c4c15defbecac36",
+      "keyword": "빅웨이브로보틱스",
+      "companyName": "빅웨이브로보틱스",
+      "title": "이번 주 IPO 청약 2곳·수요예측 4곳…빅웨이브로보틱스 절차 재개",
+      "description": "이번 주(8월 3일~7일) 기업공개(IPO) 시장에선 코스닥 상장에 도전하는 기업 2곳의 공모주 청약과 4곳의... 빅웨이브로보틱스는 희망 밴드를 2만~2만4천원으로 낮춰 IPO 공모 절차를 재개했다. 최초 제시했던 공모가 희망...",
+      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4428190",
+      "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4428190",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-02T04:02:00.000Z"
+    },
+    {
+      "id": "fed0356137c49dd5",
+      "keyword": "해치텍",
+      "companyName": "해치텍",
+      "title": "딜리셔스·케이앤에스아이앤씨 일반청약[증시캘린더]",
+      "description": "다음 주(8월 2~7일) 기업공개(IPO) 시장에서는 기도산업과 해치텍, 니어스랩이 기관투자자 대상 수요예측을 실시한다. 딜리셔스와 케이앤에스아이앤씨는 일반청약을 진행하며 코스닥 입성을 위한 공모 절차를...",
+      "link": "https://n.news.naver.com/mnews/article/018/0006342253?sid=101",
+      "originallink": "https://www.edaily.co.kr/news/newspath.asp?newsid=01200486645543384",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-02T00:01:00.000Z"
+    },
+    {
+      "id": "19695b8859c08d6a",
+      "keyword": "판타지오",
+      "companyName": "판타지오",
+      "title": "[자금조달 프리뷰] 메리츠금융·하나F&I 공모채…판타지오 유증 '시동'",
+      "description": "메리츠금융지주와 하나에프앤아이(F&I)가 다음주 공모 회사채를 발행한다. 엔터테인먼트 기업 판타지오는 최대주주를 대상으로 한 제3자배정 유상증자를 통해 35억원을 조달한다. 기업공개(IPO) 시장에서는...",
+      "link": "https://n.news.naver.com/mnews/article/293/0000088470?sid=101",
+      "originallink": "https://www.bloter.net/news/articleView.html?idxno=669757",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-02T00:00:00.000Z"
+    },
     {
       "id": "d271a65c2bb9ab27",
       "keyword": "빅웨이브로보틱스",
@@ -18,17 +84,6 @@
       "publishedAt": "2026-08-01T23:00:00.000Z"
     },
     {
-      "id": "cf251141391357b7",
-      "keyword": "케이앤에스아이앤씨",
-      "companyName": "케이앤에스아이앤씨",
-      "title": "이번주 공모주 청약, 딜리셔스·케이앤에스아이앤씨 2개사",
-      "description": "8월 첫째 주(3~7일) 기업공개(IPO) 시장에서는 패션 도소매 플랫폼 기업 딜리셔스와 군용 위성통신 안테나 전문기업 케이앤에스아이앤씨 2개사가 일반투자자 대상 공모주 청약을 진행한다. 2일 금융투자업계에 따르면...",
-      "link": "https://n.news.naver.com/mnews/article/119/0003117287?sid=101",
-      "originallink": "https://www.dailian.co.kr/news/view/1673369/?sc=Naver",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-01T21:01:00.000Z"
-    },
-    {
       "id": "5a9d375e6d9d9748",
       "keyword": "빅웨이브로보틱스",
       "companyName": "빅웨이브로보틱스",
@@ -38,50 +93,6 @@
       "originallink": "https://biz.sbs.co.kr/article_hub/20000326052?division=NAVER",
       "provider": "뉴스 검색",
       "publishedAt": "2026-08-01T06:24:00.000Z"
-    },
-    {
-      "id": "9d4b01e41a6c0fbc",
-      "keyword": "빅웨이브로보틱스",
-      "companyName": "빅웨이브로보틱스",
-      "title": "8월 IPO 시장 활기 찾나…수요예측 4곳",
-      "description": "상반기 주춤했던 기업공개(IPO) 시장이 분위기 반전에 나설지 관심이 쏠린다. 1일 금융투자업계에 따르면 다음 주에는 니어스랩과 해치텍, 빅웨이브로보틱스, 기도산업 등 4개 기업이 코스닥 상장을 위한 기관투자자...",
-      "link": "https://www.newsway.co.kr/news/view?ud=2026080114443197934",
-      "originallink": "https://www.newsway.co.kr/news/view?ud=2026080114443197934",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-01T05:50:00.000Z"
-    },
-    {
-      "id": "80af1bf5c132c9e0",
-      "keyword": "빅웨이브로보틱스",
-      "companyName": "빅웨이브로보틱스",
-      "title": "8월 첫주 공모주 청약 2곳…수요예측 4곳",
-      "description": "다만 하반기에는 상장예비심사를 통과했거나 심사를 청구한 기업들이 다수 대기하고 있어 IPO 시장도 점진적으로 회복세를 보일 것으로 전망됩니다. 다음 주 일반투자자 대상 공모주 청약은 딜리셔스가 3~4일...",
-      "link": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005892094",
-      "originallink": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005892094",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-01T00:58:00.000Z"
-    },
-    {
-      "id": "546f056d590be1a3",
-      "keyword": "빅웨이브로보틱스",
-      "companyName": "빅웨이브로보틱스",
-      "title": "8월, 기업공개(IPO) 시장 회복 신호탄? 4개 기업 수요예측 돌입",
-      "description": "빅웨이브로보틱스, 기도산업 등 4개 기업이 기관투자자를 상대로 수요예측을 진행한다. 한 주에 4곳이 동시에 기관 평가 절차에 들어가는 것은 지난 3월 둘째 주 이후 약 3개월 만이다. 수요예측은 상장 전...",
-      "link": "https://www.tokenpost.kr/news/market/383485",
-      "originallink": "https://www.tokenpost.kr/news/market/383485",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-01T00:18:00.000Z"
-    },
-    {
-      "id": "ff6b2989ffb49069",
-      "keyword": "기도산업",
-      "companyName": "기도산업",
-      "title": "'신상마켓' 딜리셔스 일반청약…기도산업·니어스랩 수요예측 돌입 [주...",
-      "description": "이투데이=유한새 기자 | 8월 첫째 주 기업공개(IPO) 시장에서는 동대문 패션 B2B 플랫폼 '신상마켓' 운영사 딜리셔스가 일반청약에 나선다. 케이앤에스아이앤씨도 일반청약을 진행하는 가운데 기도산업과 니어스랩은...",
-      "link": "https://www.etoday.co.kr/news/view/2609531",
-      "originallink": "https://www.etoday.co.kr/news/view/2609531",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-01T00:00:00.000Z"
     },
     {
       "id": "386983bc57ff6297",
@@ -302,17 +313,6 @@
       "originallink": "http://www.ggilbo.com/news/articleView.html?idxno=880516",
       "provider": "뉴스 검색",
       "publishedAt": "2021-11-20T02:46:00.000Z"
-    },
-    {
-      "id": "fc0369845c29eb61",
-      "keyword": "판타지오",
-      "companyName": "판타지오",
-      "title": "[마감종합기사] '상한가 6종목' 메타버스·NFT 관련주 강세 지속, 비덴트...",
-      "description": "IPO)를 추진하기 위해 대표 주관사로 한국투자증권을 선정했다는 기대감에 급등한 것으로 풀이된다. 플루오린코리아는 17일 대표주관사와 계약을 체결하고 오는 2023년 상장을 목표로 내부조직을 정비해 공모절차...",
-      "link": "http://www.ggilbo.com/news/articleView.html?idxno=880436",
-      "originallink": "http://www.ggilbo.com/news/articleView.html?idxno=880436",
-      "provider": "뉴스 검색",
-      "publishedAt": "2021-11-18T09:16:00.000Z"
     }
   ]
 }

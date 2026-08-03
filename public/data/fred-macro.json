@@ -1,8 +1,8 @@
 {
   "metadata": {
     "source": "FRED",
-    "updatedAt": "2026-08-02T23:30:47.555Z",
-    "generatedAt": "2026-08-02T23:30:47.555Z",
+    "updatedAt": "2026-08-03T23:14:39.770Z",
+    "generatedAt": "2026-08-03T23:14:39.770Z",
     "seriesCount": 4
   },
   "items": [
@@ -10,17 +10,13 @@
       "seriesId": "FEDFUNDS",
       "koreanName": "미국 기준금리",
       "unit": "%",
-      "latestDate": "2026-06-01",
+      "latestDate": "2026-07-01",
       "latestValue": 3.63,
-      "previousDate": "2026-05-01",
+      "previousDate": "2026-06-01",
       "previousValue": 3.63,
       "change": 0,
       "changeRate": 0,
       "observations": [
-        {
-          "date": "2024-07-01",
-          "value": 5.33
-        },
         {
           "date": "2024-08-01",
           "value": 5.33
@@ -112,6 +108,10 @@
         {
           "date": "2026-06-01",
           "value": 3.63
+        },
+        {
+          "date": "2026-07-01",
+          "value": 3.63
         }
       ]
     },
@@ -119,17 +119,13 @@
       "seriesId": "DGS10",
       "koreanName": "미국 10년물 국채금리",
       "unit": "%",
-      "latestDate": "2026-07-30",
-      "latestValue": 4.68,
-      "previousDate": "2026-07-29",
-      "previousValue": 4.67,
-      "change": 0.01,
-      "changeRate": 0.21,
+      "latestDate": "2026-07-31",
+      "latestValue": 4.75,
+      "previousDate": "2026-07-30",
+      "previousValue": 4.68,
+      "change": 0.07,
+      "changeRate": 1.5,
       "observations": [
-        {
-          "date": "2026-06-26",
-          "value": 4.38
-        },
         {
           "date": "2026-06-29",
           "value": 4.38
@@ -221,6 +217,10 @@
         {
           "date": "2026-07-30",
           "value": 4.68
+        },
+        {
+          "date": "2026-07-31",
+          "value": 4.75
         }
       ]
     },

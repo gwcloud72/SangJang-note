@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "source": "gemini-briefings-mixed",
-    "generatedAt": "2026-08-03T07:54:33.829Z",
-    "model": "gemini-2.5-flash",
+    "source": "local-rules",
+    "generatedAt": "2026-08-03T23:14:39.311Z",
+    "model": null,
     "itemCount": 8,
-    "geminiUsed": 1,
+    "geminiUsed": 0,
     "cacheUsed": 0,
     "policy": "회사 설명, IPO 단계, 일정, 경쟁률 뉴스 언급, 원문 확인 포인트만 표시합니다. 투자 판단 표현은 제외합니다."
   },
@@ -39,11 +39,11 @@
       "ipoId": "케이앤에스아이앤씨",
       "companyName": "케이앤에스아이앤씨",
       "sector": "IPO 일정 확인 대상 기업",
-      "ipoStage": "청약 예정",
+      "ipoStage": "청약 진행중",
       "underwriter": "주관사 확인",
       "basisTimeLabel": "오늘 09:30 기준",
       "oneLine": "IPO 일정 확인 대상 기업",
-      "body": "케이앤에스아이앤씨는 IPO 일정 확인 대상 기업입니다. 08.04 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
+      "body": "케이앤에스아이앤씨는 IPO 일정 확인 대상 기업입니다. 08.04 일정 기준으로 청약 진행중 단계라 원문 일정과 변경 여부를 함께 확인합니다.",
       "points": [
         "청약 시작·마감일 확인",
         "환불일 확인",
@@ -102,11 +102,12 @@
       "sourceLabels": [
         "DART 일정",
         "환불일 확인",
+        "뉴스 검색",
         "주관사 확인"
       ],
       "competition": null,
-      "generatedBy": "gemini",
-      "model": "gemini-2.5-flash"
+      "generatedBy": "local-rules",
+      "model": null
     },
     {
       "id": "briefing-니어스랩",
@@ -159,15 +160,15 @@
       "model": null
     },
     {
-      "id": "briefing-빅웨이브로보틱스",
-      "ipoId": "빅웨이브로보틱스",
-      "companyName": "빅웨이브로보틱스",
-      "sector": "로봇 플랫폼 기업",
+      "id": "briefing-브릴스",
+      "ipoId": "브릴스",
+      "companyName": "브릴스",
+      "sector": "IPO 일정 확인 대상 기업",
       "ipoStage": "청약 예정",
       "underwriter": "주관사 확인",
       "basisTimeLabel": "오늘 09:30 기준",
-      "oneLine": "로봇 플랫폼 기업",
-      "body": "빅웨이브로보틱스는 로봇 플랫폼 기업입니다. 08.13 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
+      "oneLine": "IPO 일정 확인 대상 기업",
+      "body": "브릴스는 IPO 일정 확인 대상 기업입니다. 08.25 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
       "points": [
         "청약 시작·마감일 확인",
         "환불일 확인",
@@ -184,15 +185,15 @@
       "model": null
     },
     {
-      "id": "briefing-브릴스",
-      "ipoId": "브릴스",
-      "companyName": "브릴스",
+      "id": "briefing-스카이랩스",
+      "ipoId": "스카이랩스",
+      "companyName": "스카이랩스",
       "sector": "IPO 일정 확인 대상 기업",
       "ipoStage": "청약 예정",
       "underwriter": "주관사 확인",
       "basisTimeLabel": "오늘 09:30 기준",
       "oneLine": "IPO 일정 확인 대상 기업",
-      "body": "브릴스는 IPO 일정 확인 대상 기업입니다. 08.25 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
+      "body": "스카이랩스는 IPO 일정 확인 대상 기업입니다. 08.26 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
       "points": [
         "청약 시작·마감일 확인",
         "환불일 확인",

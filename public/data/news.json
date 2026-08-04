@@ -1,11 +1,110 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-08-03T23:11:53.142Z",
+    "updatedAt": "2026-08-04T23:33:53.207Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "fd40eb576afecf97",
+      "keyword": "니어스랩",
+      "companyName": "니어스랩",
+      "title": "[더벨][IB 풍향계] 삼성증권 IPO 주관서 일냈다…1위로 '우뚝'",
+      "description": "◇해외 바이오 인제니아 상장 성공, 이달 코스닥 데뷔 4일 금융투자업계에 따르면 인제니아는 이날 공모... 5건의 상장을 마무리 지었다. 현재 니어스랩의 경우 증권신고서를 제출하고 IPO 절차를 진행 중이며...",
+      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608041150567680103973",
+      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608041150567680103973",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-04T23:12:00.000Z"
+    },
+    {
+      "id": "b35a640aa157ba51",
+      "keyword": "스카이랩스",
+      "companyName": "스카이랩스",
+      "title": "올해 상장 제약·바이오 8곳 전부 공모가 밑…하반기 IPO도 몸 낮추나",
+      "description": "올해 말 상장을 목표로 하는 한 기업 관계자는 \"IPO 요건이 강화된 데다 상장 이후 공모주 프리미엄도... 환자 모니터링 의료기기 개발사 스카이랩스는 8월 14일부터 수요 예측을 시작할 예정이다. 의료용...",
+      "link": "https://n.news.naver.com/mnews/article/018/0006344737?sid=105",
+      "originallink": "https://www.edaily.co.kr/news/newspath.asp?newsid=02643686645544368",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-04T22:32:00.000Z"
+    },
+    {
+      "id": "3ce0c4b813a8313e",
+      "keyword": "니어스랩",
+      "companyName": "니어스랩",
+      "title": "[IPO 돋보기] 수요예측 나서는 '니어스랩'...피지컬 AI 경쟁력 입증할까",
+      "description": "그래픽=뉴스투데이 이번에 공모하는 주식 수는 91만주로 희망공모가 하단 기준 최소 273억원을 조달할 것으로 예상된다. 상장주관사로는 삼성증권이 나섰다. 니어스랩은 기업공개(IPO)로 조달한 자금을 △시설자금...",
+      "link": "https://www.news2day.co.kr/article/20260804500147",
+      "originallink": "https://www.news2day.co.kr/article/20260804500147",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-04T22:02:00.000Z"
+    },
+    {
+      "id": "2eb13d1880152a9f",
+      "keyword": "글로벌테크놀로지",
+      "companyName": "글로벌테크놀로지",
+      "title": "[중국의 역습 ①] CXMT·YMTC, 中 메모리 기술 자립 첨병 역할",
+      "description": "//편집자 주 중국 메모리 반도체는 CXMT(창신메모리테크놀로지스)와 YMTC(양쯔메모리테크놀로지)로... CXMT는 지난달 28일 상하이증권거래소에 상장하며 공모가 대비 460% 넘게 폭등한 바 있다. 이 때문에 시가총액도...",
+      "link": "https://www.seoulfn.com/news/articleView.html?idxno=634876",
+      "originallink": "https://www.seoulfn.com/news/articleView.html?idxno=634876",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-04T22:00:00.000Z"
+    },
+    {
+      "id": "1559a2a5d3c83e3a",
+      "keyword": "니어스랩",
+      "companyName": "니어스랩",
+      "title": "[장외시황] 케이앤에스아이앤씨, 공모주 청약시작",
+      "description": "자율비행 드론 업체 니어스랩은 3일~7일까지 기관투자자 대상 수요예측을 진행한다. 희망공모밴드는 3만원에서 4만1200원이며, 상장주관사는 삼성증권이다. IPO(기업공개)관련 상장 예비심사 청구종목으로 특수...",
+      "link": "https://www.etoday.co.kr/news/view/2610935",
+      "originallink": "https://www.etoday.co.kr/news/view/2610935",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-04T07:20:00.000Z"
+    },
+    {
+      "id": "ae0455e7f7a28e34",
+      "keyword": "케이앤에스아이앤씨",
+      "companyName": "케이앤에스아이앤씨",
+      "title": "[공모주 현황] 케이앤에스아이앤씨 청약 1일차 종료, 균등·비례 경쟁률...",
+      "description": "IPO 자료사진. AI가 생성한 이미지. 공모주 케이앤에스아이앤씨의 청약 1일차가 4일 오후 4시경... 케이앤에스아이앤씨는 오는 13일 상장일을 앞두고 있다. 상장일 만약 따따블까지 오른다면 공모가 11000원 대비 300...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=594435",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=594435",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-04T07:10:00.000Z"
+    },
+    {
+      "id": "8289ba951b16dd98",
+      "keyword": "브릴스",
+      "companyName": "브릴스",
+      "title": "상반기 반토막 난 IPO시장, 8월 반등 시험대...니어스랩·해치텍 등 4개...",
+      "description": "상반기 기업공개(IPO) 시장이 신규 상장사와 공모금액 모두 지난해의 절반 수준으로 위축된 가운데 8월 공모시장이 반등 시험대에 오른다. 이달 첫째 주 니어스랩과 해치텍, 빅웨이브로보틱스, 기도산업 등 4개사가...",
+      "link": "https://www.greened.kr/news/articleView.html?idxno=346756",
+      "originallink": "https://www.greened.kr/news/articleView.html?idxno=346756",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-04T06:13:00.000Z"
+    },
+    {
+      "id": "42b8a1265e28bf05",
+      "keyword": "엣지파운드리",
+      "companyName": "엣지파운드리",
+      "title": "중국 로봇시장 흔드는 세 가지 사건",
+      "description": "SH)의 상장입니다. 중국 4족 로봇, 휴머노이드의 선두주자로 8월 5일 공모가를 확정하고 8월 10일 청약을... 반도체 사이클(2020~2025)에서는 GPU 설계(엔비디아), 파운드리(TSMC), HBM·메모리(삼성전자·SK하이닉스), 장비...",
+      "link": "https://n.news.naver.com/mnews/article/047/0002524525?sid=101",
+      "originallink": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003256354&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-04T02:06:00.000Z"
+    },
+    {
+      "id": "3437891a3fb23e30",
+      "keyword": "케이앤에스아이앤씨",
+      "companyName": "케이앤에스아이앤씨",
+      "title": "[공모주 청약] 케이앤에스아이앤씨 공모주 청약 시작…공모가 1만1000원...",
+      "description": "IPO 자료사진. AI가 생성한 이미지. 위성통신 안테나 전문기업 케이앤에스아이앤씨가 코스닥 상장을 위한 일반투자자 대상 공모주 청약에 돌입했다. 케이앤에스아이앤씨의 일반 청약은 4일부터 5일까지 이틀간...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=594364",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=594364",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-04T01:38:00.000Z"
+    },
     {
       "id": "e946b39306f75b79",
       "keyword": "케이앤에스아이앤씨",
@@ -29,17 +128,6 @@
       "publishedAt": "2026-08-03T07:38:00.000Z"
     },
     {
-      "id": "8e5fe1de4b441183",
-      "keyword": "딜리셔스",
-      "companyName": "딜리셔스",
-      "title": "[공모주 투데이] 딜리셔스 1일차 청약 종료, 균등·비례 각각 얼마?",
-      "description": "IPO 자료사진. AI가 생성한 이미지. 공모주 딜리셔스의 청약 1일차 일정이 3일 오후 4시를 기해 종료됐다.... 딜리셔스는 오는 8월 12일 코스닥 시장에 상장할 예정이다. 상장 당일 주가 추이를 지켜볼 필요가 있다....",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=594141",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=594141",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-03T07:04:00.000Z"
-    },
-    {
       "id": "25b133a455af5755",
       "keyword": "와이즈플래닛컴퍼니",
       "companyName": "와이즈플래닛컴퍼니",
@@ -52,10 +140,10 @@
     },
     {
       "id": "801d52e7ffea92ec",
-      "keyword": "와이즈플래닛컴퍼니",
-      "companyName": "와이즈플래닛컴퍼니",
+      "keyword": "글로벌테크놀로지",
+      "companyName": "글로벌테크놀로지",
       "title": "\"첫날에 팔았어야\"…7월 공모주, 수요예측 '후끈' vs 주가 '냉랭’",
-      "description": "네오사피엔스, 와이즈플래닛컴퍼니, 글로벌테크놀로지, 덕산넵코어스 등 총 14개사다. 예상 공모금액은 2000억원~2800억원으로 역대 동월 평균 5958억원 및 최근 5년 평균 2조1967억원을 밑돌 전망이다. 예상 상장...",
+      "description": "와이즈플래닛컴퍼니, 글로벌테크놀로지, 덕산넵코어스 등 총 14개사다. 예상 공모금액은 2000억원~2800억원으로 역대 동월 평균 5958억원 및 최근 5년 평균 2조1967억원을 밑돌 전망이다. 예상 상장 시가총액 또한...",
       "link": "http://www.newsprime.co.kr/news/article.html?no=742457",
       "originallink": "http://www.newsprime.co.kr/news/article.html?no=742457",
       "provider": "뉴스 검색",
@@ -73,17 +161,6 @@
       "publishedAt": "2026-08-03T05:42:00.000Z"
     },
     {
-      "id": "9984eb307b3a1068",
-      "keyword": "딜리셔스",
-      "companyName": "딜리셔스",
-      "title": "[공모주 청약] 딜리셔스 첫날 진행…수요예측 경쟁률 184대 1",
-      "description": "IPO 자료사진. AI가 생성한 이미지. 패션 기업 간 거래(B2B) 플랫폼 '신상마켓'을 운영하는 딜리셔스가 일반투자자 대상 공모주 청약 일정에 들어갔다. 딜리셔스의 기관투자자 대상 수요예측 경쟁률은 184.06대 1로...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=594124",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=594124",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-03T05:34:00.000Z"
-    },
-    {
       "id": "6f943484654af3fd",
       "keyword": "기도산업",
       "companyName": "기도산업",
@@ -95,22 +172,11 @@
       "publishedAt": "2026-08-03T01:40:00.000Z"
     },
     {
-      "id": "ff0e91218ca73b24",
-      "keyword": "니어스랩",
-      "companyName": "니어스랩",
-      "title": "[단독] 니어스랩, 삼성증권 환매청구권 부여…UAE·싱가포르 수출 확인",
-      "description": "니어스랩 기업공개(IPO) 대표 주관사인 삼성증권은 상장 후 3개월간 공모가의 90%를 보장하며 하방 방어에 나선다. 그동안 구체적으로 알려지지 않았던 아랍에미리트(UAE)와 싱가포르 방산 프로젝트의 윤곽도 드러났다....",
-      "link": "https://n.news.naver.com/mnews/article/293/0000088498?sid=101",
-      "originallink": "https://www.bloter.net/news/articleView.html?idxno=669794",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-03T01:40:00.000Z"
-    },
-    {
       "id": "279e0a8edabde432",
-      "keyword": "스카이랩스",
-      "companyName": "스카이랩스",
+      "keyword": "브릴스",
+      "companyName": "브릴스",
       "title": "얼어붙은 공모주 시장, 8월부터 온기 돈다…AI·바이오 새내기株 출격",
-      "description": "26일) ▲스카이랩스(26~27일) 등이 실시한다. 공모 절차에 나선 기업 수가 많은 만큼 업종도 다양하다. 현 증시를 주도하고 있는 AI(인공지능)와 반도체뿐 아니라 바이오, 패션, 로봇, 팹리스 등 여러 분야의 기업들이 상장...",
+      "description": "(4~10일) ▲스카이랩스·브릴스(14~21일) ▲엔에이치스팩34호(24~25일) 등이 순차적으로 나선다. 일반청약의... 국내 IPO 시장은 중복상장 규제 불확실성과 증시 변동성 확대에 따른 투자심리 위축으로 공모 규모가 크게...",
       "link": "https://n.news.naver.com/mnews/article/088/0001021796?sid=101",
       "originallink": "https://www.imaeil.com/page/view/2026080309333592589",
       "provider": "뉴스 검색",
@@ -128,15 +194,15 @@
       "publishedAt": "2026-08-02T21:31:00.000Z"
     },
     {
-      "id": "d13176efff48b8a7",
-      "keyword": "해치텍",
-      "companyName": "해치텍",
-      "title": "[IPO 워치] 딜리셔스·케이앤에스아이앤씨 청약…수요예측 4곳",
-      "description": "첫째 주(3~7일) 기업공개(IPO) 시장에서는 패션 기업 간 거래(B2B) 플랫폼 운영사 딜리셔스와 위성통신 안테나 기업 케이앤에스아이앤씨가 일반투자자 대상 청약을 진행한다. 니어스랩과 해치텍, 빅웨이브로보틱스...",
-      "link": "https://www.news2day.co.kr/article/20260802500013",
-      "originallink": "https://www.news2day.co.kr/article/20260802500013",
+      "id": "a3cca7d18ce1ade8",
+      "keyword": "글로벌테크놀로지",
+      "companyName": "글로벌테크놀로지",
+      "title": "창신메모리 상장이 한국 메모리 산업에 던진 진짜 질문 [윤석빈의 Thinki...",
+      "description": "중국 최대 D램 기업 창신메모리테크놀로지(CXMT)가 공모가 8.66위안으로 거래를 시작해 첫날 466% 폭등한... 이번 IPO에서 외국인 배정은 사실상 없었다. 이 466%를 글로벌 시장의 기술 평가로 읽는다면 명백한 오독이다....",
+      "link": "https://it.chosun.com/news/articleView.html?idxno=2023092167112",
+      "originallink": "https://it.chosun.com/news/articleView.html?idxno=2023092167112",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-08-02T19:22:00.000Z"
+      "publishedAt": "2026-08-02T21:00:00.000Z"
     },
     {
       "id": "19695b8859c08d6a",
@@ -148,6 +214,28 @@
       "originallink": "https://www.bloter.net/news/articleView.html?idxno=669757",
       "provider": "뉴스 검색",
       "publishedAt": "2026-08-02T00:00:00.000Z"
+    },
+    {
+      "id": "c68e348a2f7bb554",
+      "keyword": "글로벌테크놀로지",
+      "companyName": "글로벌테크놀로지",
+      "title": "“하락이 하락 불렀다, 이것 풀리면 주가 제자리”…삼전닉스 반토막의...",
+      "description": "그는 제도 변화에 따른 IPO 시장의 체질 변화에 대해서도 언급했다. 과거 SK바이오팜이나 LG에너지솔루션처럼 대기업 자회사의 중복 상장이 공모주 시장에는 자금 유입과 시장 활성화를 이끌었으나, 최근 중복 상장...",
+      "link": "https://n.news.naver.com/mnews/article/009/0005715274?sid=101",
+      "originallink": "https://www.mk.co.kr/article/12114191",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-01T00:48:00.000Z"
+    },
+    {
+      "id": "ab663f3fc4b9c9c7",
+      "keyword": "글로벌테크놀로지",
+      "companyName": "글로벌테크놀로지",
+      "title": "[슈퍼사이클의 역설 ②] 中日 반도체 부활…창신메모리·키옥시아 추격...",
+      "description": "창신메모리테크놀로지(CXMT)와 일본 키옥시아(Kioxia)가 급속도로 덩치를 키우면서, 향후 슈퍼사이클 종료 이후 글로벌 메모리 시장에 '제2의 치킨게임'이라는 후폭풍을 몰고 올 거라는 우려가 제기된다. # CXMT, 증시 상장...",
+      "link": "http://www.newsian.co.kr/news/articleView.html?idxno=93067",
+      "originallink": "http://www.newsian.co.kr/news/articleView.html?idxno=93067",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-07-31T22:28:00.000Z"
     },
     {
       "id": "386983bc57ff6297",
@@ -162,10 +250,10 @@
     },
     {
       "id": "2fb1c2819936164d",
-      "keyword": "네오사피엔스",
-      "companyName": "네오사피엔스",
+      "keyword": "브릴스",
+      "companyName": "브릴스",
       "title": "[N2 포커스] 8월 IPO 시장 ‘공모 러시’…케이앤에스아이앤씨·인제니아...",
-      "description": "8월 마지막 날에는 생성형 AI 기업 네오사피엔스가 수요예측에 돌입한다. 기관 수요예측은 다음 달 31일부터 9월 4일까지, 일반청약은 9월 8~9일 진행한다. 희망 공모가는 1만3800~1만5800원이며 대신증권이 상장...",
+      "description": "방식으로 상장을 추진한다. 대표 주관사는 유진투자증권이다. 로봇 모듈화 플랫폼 기업 브릴스는 14~21일... 상장 주관사다. ■ 증시 변동성 확대…공모주도 ‘옥석 가리기’ 최근 증시 변동성 확대는 8월 IPO 시장의...",
       "link": "https://www.news2day.co.kr/article/20260730500187",
       "originallink": "https://www.news2day.co.kr/article/20260730500187",
       "provider": "뉴스 검색",
@@ -184,25 +272,14 @@
     },
     {
       "id": "f778bbfbfa8b669a",
-      "keyword": "스카이랩스",
-      "companyName": "스카이랩스",
+      "keyword": "브릴스",
+      "companyName": "브릴스",
       "title": "8월 IPO 8곳 2100억 조달 … 적자기업은 R&D, 흑자기업은 공장 [박정은의...",
-      "description": "의무보유되고 상장일 유통가능 비율은 32.50%다. 반지형 커프리스 혈압계를 개발한 스카이랩스는 공모... 의무보유되고 상장일 유통가능 비율은 36.93%로 8개사 중 세 번째로 높다. 한 증권사 연구원은 \"IPO시장은...",
+      "description": "214만6145주로 상장예정주식수의 37.19%에 달해 8개사 중 두 번째로 높다. 물류·제조·식품가공 로봇 솔루션을 일괄 제공하는 브릴스는 공모가 1만6500~1만9500원에 120만주(공모총액 198억~234억원)를 8월 25~26일...",
       "link": "https://biz.newdaily.co.kr/site/data/html/2026/07/30/2026073000045.html",
       "originallink": "https://biz.newdaily.co.kr/site/data/html/2026/07/30/2026073000045.html",
       "provider": "뉴스 검색",
       "publishedAt": "2026-07-30T00:36:00.000Z"
-    },
-    {
-      "id": "2fa57ac2f4d02b71",
-      "keyword": "브릴스",
-      "companyName": "브릴스",
-      "title": "[더벨][IPO 모니터] 상장 앞둔 KNS아이앤씨, IBK증권 주관 역량 시험대",
-      "description": "올들어 IBK투자증권의 IPO 주관 전략에 변화가 감지된다. KNS아이앤씨를 필두로 브릴스, 하나에어로다이나믹스, 케이엠에프의 코스닥 상장 주관 업무를 맡고 있다. 스팩합병이 아닌 공모 상장 방식으로 코스닥 입성을...",
-      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607291438053520103258",
-      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607291438053520103258",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-29T23:42:00.000Z"
     },
     {
       "id": "c2a27902d5b42ff9",
@@ -280,17 +357,6 @@
       "originallink": "https://www.ppss.kr/news/articleView.html?idxno=277757",
       "provider": "뉴스 검색",
       "publishedAt": "2025-12-08T08:43:00.000Z"
-    },
-    {
-      "id": "4dc104b96504b0e1",
-      "keyword": "엣지파운드리",
-      "companyName": "엣지파운드리",
-      "title": "[아주증시포커스] 종투사 1년차 대신증권, IB 경쟁력 쑥쑥 外",
-      "description": "-ECM 부문에서도 올해 기업공개(IPO) 9건을 주관함. LG CNS의 대규모 공모 공동주관을 맡았고 나우로보틱스, 바이오비쥬 등 대표 주관을 맡았음. 올해도 한화에너지, 소노인터내셔널의 상장 대표 주관사로 선정됨. -IB...",
-      "link": "https://www.ajunews.com/view/20251024073021018",
-      "originallink": "https://www.ajunews.com/view/20251024073021018",
-      "provider": "뉴스 검색",
-      "publishedAt": "2025-10-23T22:34:00.000Z"
     },
     {
       "id": "fcb1a0706055e05d",

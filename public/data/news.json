@@ -1,11 +1,110 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-08-04T23:33:53.207Z",
+    "updatedAt": "2026-08-05T23:10:19.675Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "232300da01661654",
+      "keyword": "글로벌테크놀로지",
+      "companyName": "글로벌테크놀로지",
+      "title": "[더벨][글로벌테크놀로지 IPO] 시장 상황·자금 여력 감안…공모 규모 5...",
+      "description": "글로벌테크놀로지가 코스닥 상장을 앞두고 공모주식 수를 당초 계획보다 50만주 줄였다. 최근 공모시장... 특히 2029년 순이익은 이번 IPO의 주당 평가가액을 산출하는 기준으로 활용됐다. (출처: 글로벌테크놀로지...",
+      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608041421208000108585",
+      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608041421208000108585",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-05T22:02:00.000Z"
+    },
+    {
+      "id": "f1ab46b956b6022f",
+      "keyword": "해치텍",
+      "companyName": "해치텍",
+      "title": "[분석] IPO 가뭄 길어진다…증권사 IB도 '대어' 실종에 땀 줄줄",
+      "description": "삼성증권은 주관 기업 수는 3곳에 그쳤지만 상반기 최대 IPO였던 케이뱅크 상장을 맡으며 공모총액 6287억... 삼성증권은 이달 딜리셔스와 케이앤에스아이앤씨, 기도산업, 니어스랩, 빅웨이브로보틱스, 해치텍 등 최대...",
+      "link": "https://www.startuptoday.co.kr/news/articleView.html?idxno=808845",
+      "originallink": "https://www.startuptoday.co.kr/news/articleView.html?idxno=808845",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-05T19:50:00.000Z"
+    },
+    {
+      "id": "9822f9c49bf6a0f8",
+      "keyword": "해치텍",
+      "companyName": "해치텍",
+      "title": "해치텍 \"피지컬AI용 반도체 센서로 영역 확장\" [IPO톡톡]",
+      "description": "있는데요, 해치텍은 이번 상장을 통해 피지컬AI에 사용되는 반도체 센서 집적회로(IC) 기술 개발에 박차를... 해치텍은 다가오는 6일~7일 일반투자자청약을 진행하며, 공모가 희망밴드는 2만 3천원~2만 8천원입니다. 230억...",
+      "link": "https://n.news.naver.com/mnews/article/215/0001261299?sid=101",
+      "originallink": "https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202608050533&t=NNv",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-05T09:13:00.000Z"
+    },
+    {
+      "id": "61486a9a0796a126",
+      "keyword": "해치텍",
+      "companyName": "해치텍",
+      "title": "'센서 반도체 명가' 해치텍, 코스닥 IPO 도전장",
+      "description": "해치텍이 코스닥 상장 시험대에 섰다. 센서 집적회로(IC) 팹리스의 전문성을 내세워 국내 기업공개(IPO)... 해치텍은 상장예정주식 551만7510주 가운데 100만주를 공모한다. 희망 공모가 2만3000~2만8000원 기준 공모...",
+      "link": "https://n.news.naver.com/mnews/article/008/0005396140?sid=101",
+      "originallink": "https://www.mt.co.kr/stock/2026/08/05/2026080513333850948",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-05T08:06:00.000Z"
+    },
+    {
+      "id": "fb9be782b91c8867",
+      "keyword": "니어스랩",
+      "companyName": "니어스랩",
+      "title": "삼성증권, 10년 만에 IPO 주관 1위 탈환...'KDR·코스닥·스팩' 전방위 성...",
+      "description": "관계자는 \"중복 상장 이슈 등으로 공모주 주관의 난이도가 훨씬 높아진 상황에서 1위를 하고 점유율을 높인 점은 인상적\"이라며 \"대어를 포함해 하반기 이후에도 딜 파이프라인이 탄탄하다고 평가받는 만큼 IPO 주관...",
+      "link": "https://daily.hankooki.com/news/articleView.html?idxno=1393052",
+      "originallink": "https://daily.hankooki.com/news/articleView.html?idxno=1393052",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-05T07:00:00.000Z"
+    },
+    {
+      "id": "2c329db4e09243ac",
+      "keyword": "덕산넵코어스",
+      "companyName": "덕산넵코어스",
+      "title": "[장외시황] 에스텍시스템, 코스피 상장예비심사 청구⋯브릴스ㆍ빅웨이...",
+      "description": "상장 대표주관사는 미래에셋증권이다. 로봇 자동화 솔루션 전문업체 브릴스는 9월 8일~9일 공모주 청약... IPO)관련 상장 예비심사 청구종목으로 특수 목적용 항법 및 항재밍 토탈 솔루션 전문업체 덕산넵코어스(구...",
+      "link": "https://www.etoday.co.kr/news/view/2611381",
+      "originallink": "https://www.etoday.co.kr/news/view/2611381",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-05T06:42:00.000Z"
+    },
+    {
+      "id": "84a6a8cacb7d1494",
+      "keyword": "글로벌테크놀로지",
+      "companyName": "글로벌테크놀로지",
+      "title": "‘기업가치 8조원대’ 유니트리, 中서 수요예측 시작…이달 상장",
+      "description": "6일 공모가가 결정될 예정이다. 이후 10일 온·오프라인 투자자 청약을 거쳐 이달 중 ‘중국판 나스닥’인 커촹반(과학기술주 전용 시장)에 상장하게 된다. 중국 투자은행들은 유니트리 IPO 이후 기업가치가...",
+      "link": "https://n.news.naver.com/mnews/article/018/0006345154?sid=101",
+      "originallink": "https://www.edaily.co.kr/news/newspath.asp?newsid=04975766645544368",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-05T06:16:00.000Z"
+    },
+    {
+      "id": "1a62f094414dd0d1",
+      "keyword": "덕산넵코어스",
+      "companyName": "덕산넵코어스",
+      "title": "'중복상장 기준' 기다리다 멈춘 IPO…상반기 신규상장 절반으로 '뚝'",
+      "description": "최종경 흥국증권 연구원은 \"IPO 시장은 상장일 수익률이 높은 것보다 적정 공모가를 바탕으로 상장... 코스닥 상장을 추진한 디티에스와 덕산넵코어스도 심사가 장기간 지연됐다. 가이드라인 발표 이후 심사를...",
+      "link": "https://n.news.naver.com/mnews/article/421/0009098624?sid=101",
+      "originallink": "https://www.news1.kr/finance/general-stock/6249997",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-05T05:58:00.000Z"
+    },
+    {
+      "id": "cdf067c24b6356b8",
+      "keyword": "해치텍",
+      "companyName": "해치텍",
+      "title": "새내기주 첫날 성적표 ‘먹구름’…공모기업·공모금액도 반토막",
+      "description": "이달에는 딜리셔스와 케이앤에스아이앤씨, 기도산업, 니어스랩, 빅웨이브로보틱스, 해치텍 등 6곳이 코스닥 상장을 준비하고 있다. 모두 예상 시가총액 3000억원 이하의 중소형 기업으로, 공모가가 희망 범위 상단에서...",
+      "link": "https://n.news.naver.com/mnews/article/018/0006344860?sid=101",
+      "originallink": "https://www.edaily.co.kr/news/newspath.asp?newsid=03388246645544368",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-05T00:27:00.000Z"
+    },
     {
       "id": "fd40eb576afecf97",
       "keyword": "니어스랩",
@@ -52,25 +151,14 @@
     },
     {
       "id": "1559a2a5d3c83e3a",
-      "keyword": "니어스랩",
-      "companyName": "니어스랩",
+      "keyword": "덕산넵코어스",
+      "companyName": "덕산넵코어스",
       "title": "[장외시황] 케이앤에스아이앤씨, 공모주 청약시작",
-      "description": "자율비행 드론 업체 니어스랩은 3일~7일까지 기관투자자 대상 수요예측을 진행한다. 희망공모밴드는 3만원에서 4만1200원이며, 상장주관사는 삼성증권이다. IPO(기업공개)관련 상장 예비심사 청구종목으로 특수...",
+      "description": "희망공모밴드는 3만원에서 4만1200원이며, 상장주관사는 삼성증권이다. IPO(기업공개)관련 상장 예비심사 청구종목으로 특수 목적용 항법 및 항재밍 토탈 솔루션 전문기업 덕산넵코어스(구.넵코어스)가 전날과...",
       "link": "https://www.etoday.co.kr/news/view/2610935",
       "originallink": "https://www.etoday.co.kr/news/view/2610935",
       "provider": "뉴스 검색",
       "publishedAt": "2026-08-04T07:20:00.000Z"
-    },
-    {
-      "id": "ae0455e7f7a28e34",
-      "keyword": "케이앤에스아이앤씨",
-      "companyName": "케이앤에스아이앤씨",
-      "title": "[공모주 현황] 케이앤에스아이앤씨 청약 1일차 종료, 균등·비례 경쟁률...",
-      "description": "IPO 자료사진. AI가 생성한 이미지. 공모주 케이앤에스아이앤씨의 청약 1일차가 4일 오후 4시경... 케이앤에스아이앤씨는 오는 13일 상장일을 앞두고 있다. 상장일 만약 따따블까지 오른다면 공모가 11000원 대비 300...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=594435",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=594435",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-04T07:10:00.000Z"
     },
     {
       "id": "8289ba951b16dd98",
@@ -95,33 +183,22 @@
       "publishedAt": "2026-08-04T02:06:00.000Z"
     },
     {
-      "id": "3437891a3fb23e30",
-      "keyword": "케이앤에스아이앤씨",
-      "companyName": "케이앤에스아이앤씨",
-      "title": "[공모주 청약] 케이앤에스아이앤씨 공모주 청약 시작…공모가 1만1000원...",
-      "description": "IPO 자료사진. AI가 생성한 이미지. 위성통신 안테나 전문기업 케이앤에스아이앤씨가 코스닥 상장을 위한 일반투자자 대상 공모주 청약에 돌입했다. 케이앤에스아이앤씨의 일반 청약은 4일부터 5일까지 이틀간...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=594364",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=594364",
+      "id": "a5e71a05a375259e",
+      "keyword": "덕산넵코어스",
+      "companyName": "덕산넵코어스",
+      "title": "한달간 상장심사 청구 13건…하반기 IPO 시장 ‘꿈틀’",
+      "description": "본격적인 공모 절차에 돌입하는 기업이 늘어날 전망이다. 올해 상반기 IPO 시장은 부진을 면치 못했다. 국내... 덕산하이메탈 자회사 덕산넵코어스와 다산네트웍스 자회사 디티에스 등은 강화된 기준에 맞춰 상장 절차를...",
+      "link": "https://www.etoday.co.kr/news/view/2610447",
+      "originallink": "https://www.etoday.co.kr/news/view/2610447",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-08-04T01:38:00.000Z"
-    },
-    {
-      "id": "e946b39306f75b79",
-      "keyword": "케이앤에스아이앤씨",
-      "companyName": "케이앤에스아이앤씨",
-      "title": "케이앤에스아이앤씨, 공모가 1만 1000원 확정…기관 90% 상단 베팅 [시그...",
-      "description": "위성통신 안테나 솔루션 기업 케이앤에스아이앤씨가 코스닥 기업공개(IPO)에 앞서 공모가를 1만 1000원에... 케이앤에스아이앤씨는 코스닥 상장으로 확보할 공모 자금 264억 원을 차세대 군 위성통신 안테나 제품군...",
-      "link": "https://n.news.naver.com/mnews/article/011/0004648221?sid=101",
-      "originallink": "https://www.sedaily.com/article/20075188?ref=naver",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-03T21:44:00.000Z"
+      "publishedAt": "2026-08-03T20:26:00.000Z"
     },
     {
       "id": "9269fa2eac4a2a24",
-      "keyword": "해치텍",
-      "companyName": "해치텍",
+      "keyword": "덕산넵코어스",
+      "companyName": "덕산넵코어스",
       "title": "[장외시황] 딜리셔스, 공모주 청약시작",
-      "description": "공모가는 7000원이며, 상장주관사는 한국투자증권이다. 반도체 센서 집적회로(IC) 팹리스 기업 해치텍이... 기업공개(IPO) 관련 상장 예비심사 청구종목으로 특수 목적용 항법 및 항재밍 토탈 솔루션 전문기업...",
+      "description": "일반공모주 청약을 시작했다. 확정공모가는 7000원이며, 상장주관사는 한국투자증권이다. 반도체 센서... IPO) 관련 상장 예비심사 청구종목으로 특수 목적용 항법 및 항재밍 토탈 솔루션 전문기업 덕산넵코어스가...",
       "link": "https://www.etoday.co.kr/news/view/2610519",
       "originallink": "https://www.etoday.co.kr/news/view/2610519",
       "provider": "뉴스 검색",
@@ -183,17 +260,6 @@
       "publishedAt": "2026-08-03T00:39:00.000Z"
     },
     {
-      "id": "bd443c21ba9f4155",
-      "keyword": "해치텍",
-      "companyName": "해치텍",
-      "title": "딜리셔스·케이앤에스아이앤씨 청약…니어스랩 등 4곳 수요예측[이번주...",
-      "description": "이번 주 기업공개(IPO) 시장에서는 코스닥 상장에 도전하는 딜리셔스와 케이앤에스아이앤씨가 일반 투자자를 대상으로 공모주 청약을 진행한다. 니어스랩과 해치텍, 빅웨이브로보틱스, 기도산업 등 4개 기업은...",
-      "link": "https://n.news.naver.com/mnews/article/011/0004647837?sid=101",
-      "originallink": "https://www.sedaily.com/article/20074734?ref=naver",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-02T21:31:00.000Z"
-    },
-    {
       "id": "a3cca7d18ce1ade8",
       "keyword": "글로벌테크놀로지",
       "companyName": "글로벌테크놀로지",
@@ -214,28 +280,6 @@
       "originallink": "https://www.bloter.net/news/articleView.html?idxno=669757",
       "provider": "뉴스 검색",
       "publishedAt": "2026-08-02T00:00:00.000Z"
-    },
-    {
-      "id": "c68e348a2f7bb554",
-      "keyword": "글로벌테크놀로지",
-      "companyName": "글로벌테크놀로지",
-      "title": "“하락이 하락 불렀다, 이것 풀리면 주가 제자리”…삼전닉스 반토막의...",
-      "description": "그는 제도 변화에 따른 IPO 시장의 체질 변화에 대해서도 언급했다. 과거 SK바이오팜이나 LG에너지솔루션처럼 대기업 자회사의 중복 상장이 공모주 시장에는 자금 유입과 시장 활성화를 이끌었으나, 최근 중복 상장...",
-      "link": "https://n.news.naver.com/mnews/article/009/0005715274?sid=101",
-      "originallink": "https://www.mk.co.kr/article/12114191",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-01T00:48:00.000Z"
-    },
-    {
-      "id": "ab663f3fc4b9c9c7",
-      "keyword": "글로벌테크놀로지",
-      "companyName": "글로벌테크놀로지",
-      "title": "[슈퍼사이클의 역설 ②] 中日 반도체 부활…창신메모리·키옥시아 추격...",
-      "description": "창신메모리테크놀로지(CXMT)와 일본 키옥시아(Kioxia)가 급속도로 덩치를 키우면서, 향후 슈퍼사이클 종료 이후 글로벌 메모리 시장에 '제2의 치킨게임'이라는 후폭풍을 몰고 올 거라는 우려가 제기된다. # CXMT, 증시 상장...",
-      "link": "http://www.newsian.co.kr/news/articleView.html?idxno=93067",
-      "originallink": "http://www.newsian.co.kr/news/articleView.html?idxno=93067",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-31T22:28:00.000Z"
     },
     {
       "id": "386983bc57ff6297",
@@ -269,17 +313,6 @@
       "originallink": "https://www.etoday.co.kr/news/view/2609396",
       "provider": "뉴스 검색",
       "publishedAt": "2026-07-30T07:12:00.000Z"
-    },
-    {
-      "id": "f778bbfbfa8b669a",
-      "keyword": "브릴스",
-      "companyName": "브릴스",
-      "title": "8월 IPO 8곳 2100억 조달 … 적자기업은 R&D, 흑자기업은 공장 [박정은의...",
-      "description": "214만6145주로 상장예정주식수의 37.19%에 달해 8개사 중 두 번째로 높다. 물류·제조·식품가공 로봇 솔루션을 일괄 제공하는 브릴스는 공모가 1만6500~1만9500원에 120만주(공모총액 198억~234억원)를 8월 25~26일...",
-      "link": "https://biz.newdaily.co.kr/site/data/html/2026/07/30/2026073000045.html",
-      "originallink": "https://biz.newdaily.co.kr/site/data/html/2026/07/30/2026073000045.html",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-30T00:36:00.000Z"
     },
     {
       "id": "c2a27902d5b42ff9",

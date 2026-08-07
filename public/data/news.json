@@ -1,11 +1,55 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-08-05T23:10:19.675Z",
+    "updatedAt": "2026-08-07T01:36:19.505Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "8f36e62ef6dd76d6",
+      "keyword": "니어스랩",
+      "companyName": "니어스랩",
+      "title": "[IPO 현장터치] 니어스랩 “피지컬 AI 드론으로 글로벌 방산시장 공략”",
+      "description": "니어스랩 IPO 일정 [표=챗GPT, 뉴스투데이] 한편 니어스랩은 이번 상장을 통해 총 91만주를 공모한다. 희망 공모가는 3만~4만1200원으로 공모 예정 금액은 273억~375억원이다. 예상 시가총액은 1731억~2378억원이다. 기관투자자...",
+      "link": "https://www.news2day.co.kr/article/20260806500191",
+      "originallink": "https://www.news2day.co.kr/article/20260806500191",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-06T06:32:00.000Z"
+    },
+    {
+      "id": "432ce5de277100c0",
+      "keyword": "브릴스",
+      "companyName": "브릴스",
+      "title": "중국 휴머노이드 잇딴 IPO...K-로봇은 어디쯤?",
+      "description": "25일 상장할 예정이다. 로봇 모듈화 플랫폼 솔루션 전문기업 브릴스도 코스닥 시장 상장을 준비 중이다.25일... 올해 IPO에 나선 기업 21곳 가운데 현재 주가가 공모가보다 높은 곳은 코스모로보틱스가 유일하다.상장 관련...",
+      "link": "https://news.mtn.co.kr/news-detail/2026080614064056634",
+      "originallink": "https://news.mtn.co.kr/news-detail/2026080614064056634",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-06T06:04:00.000Z"
+    },
+    {
+      "id": "0e6cf7e562d9d024",
+      "keyword": "와이즈플래닛컴퍼니",
+      "companyName": "와이즈플래닛컴퍼니",
+      "title": "[더벨][와이즈플래닛컴퍼니 IPO] 화장품 비교군에 높은 할인율…미래 사...",
+      "description": "올해 1분기 최근 12개월(LTM) 기준 와이즈플래닛컴퍼니의 지배기업 소유주지분 순이익 107억2724만원을 적용했다. 공모 신주와 상장 주선인 의무인수분을 더한 적용 주식 수는 1000만4030주다. 이를 기준으로 산출한...",
+      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608041357124640108157",
+      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608041357124640108157",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-06T05:18:00.000Z"
+    },
+    {
+      "id": "77bd3c05324f1fd5",
+      "keyword": "해치텍",
+      "companyName": "해치텍",
+      "title": "파블로항공, 드론 군집기술로 방산·항공시장 정조준",
+      "description": "■ 피지컬AI 센서: 반도체 센서 기업 해치텍이 코스닥 상장을 통해 로봇과 데이터센터, 전기차 등... 총 공모주식 100만 주에 공모가 희망범위는 2만 3000원~2만 8000원이며 이달 25일 코스닥 상장을 추진한다. [스타트업...",
+      "link": "https://n.news.naver.com/mnews/article/011/0004649079?sid=101",
+      "originallink": "https://www.sedaily.com/article/20076335?ref=naver",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-06T01:01:00.000Z"
+    },
     {
       "id": "232300da01661654",
       "keyword": "글로벌테크놀로지",
@@ -126,17 +170,6 @@
       "originallink": "https://www.edaily.co.kr/news/newspath.asp?newsid=02643686645544368",
       "provider": "뉴스 검색",
       "publishedAt": "2026-08-04T22:32:00.000Z"
-    },
-    {
-      "id": "3ce0c4b813a8313e",
-      "keyword": "니어스랩",
-      "companyName": "니어스랩",
-      "title": "[IPO 돋보기] 수요예측 나서는 '니어스랩'...피지컬 AI 경쟁력 입증할까",
-      "description": "그래픽=뉴스투데이 이번에 공모하는 주식 수는 91만주로 희망공모가 하단 기준 최소 273억원을 조달할 것으로 예상된다. 상장주관사로는 삼성증권이 나섰다. 니어스랩은 기업공개(IPO)로 조달한 자금을 △시설자금...",
-      "link": "https://www.news2day.co.kr/article/20260804500147",
-      "originallink": "https://www.news2day.co.kr/article/20260804500147",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-04T22:02:00.000Z"
     },
     {
       "id": "2eb13d1880152a9f",
@@ -294,10 +327,10 @@
     },
     {
       "id": "2fb1c2819936164d",
-      "keyword": "브릴스",
-      "companyName": "브릴스",
+      "keyword": "네오사피엔스",
+      "companyName": "네오사피엔스",
       "title": "[N2 포커스] 8월 IPO 시장 ‘공모 러시’…케이앤에스아이앤씨·인제니아...",
-      "description": "방식으로 상장을 추진한다. 대표 주관사는 유진투자증권이다. 로봇 모듈화 플랫폼 기업 브릴스는 14~21일... 상장 주관사다. ■ 증시 변동성 확대…공모주도 ‘옥석 가리기’ 최근 증시 변동성 확대는 8월 IPO 시장의...",
+      "description": "8월 마지막 날에는 생성형 AI 기업 네오사피엔스가 수요예측에 돌입한다. 기관 수요예측은 다음 달 31일부터 9월 4일까지, 일반청약은 9월 8~9일 진행한다. 희망 공모가는 1만3800~1만5800원이며 대신증권이 상장...",
       "link": "https://www.news2day.co.kr/article/20260730500187",
       "originallink": "https://www.news2day.co.kr/article/20260730500187",
       "provider": "뉴스 검색",
@@ -335,17 +368,6 @@
       "originallink": "https://www.etoday.co.kr/news/view/2603188",
       "provider": "뉴스 검색",
       "publishedAt": "2026-07-13T06:48:00.000Z"
-    },
-    {
-      "id": "407578fc2a800d73",
-      "keyword": "와이즈플래닛컴퍼니",
-      "companyName": "와이즈플래닛컴퍼니",
-      "title": "IPO 시장, 하반기 반전 카드는 소노인터·구다이?",
-      "description": "AI 마케팅 기업 매드업도 공모가를 웃도는 주가를 보였다. 7월 1일 상장한 매드업은 올해 IPO 기업 중 가장... 커머스(와이즈플래닛컴퍼니·딜리셔스) 등이 뒤를 이었다. 이외엔 봉제의복 제조 업체 기도산업과 반도체...",
-      "link": "https://n.news.naver.com/mnews/article/024/0000106631?sid=101",
-      "originallink": "https://www.mk.co.kr/article/12089803",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-03T05:16:00.000Z"
     },
     {
       "id": "7f16b0014b3034f5",

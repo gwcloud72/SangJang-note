@@ -1,21 +1,65 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-08-07T22:47:39.104Z",
+    "updatedAt": "2026-08-08T22:44:20.862Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
     {
-      "id": "8f36e62ef6dd76d6",
-      "keyword": "니어스랩",
-      "companyName": "니어스랩",
-      "title": "[IPO 현장터치] 니어스랩 “피지컬 AI 드론으로 글로벌 방산시장 공략”",
-      "description": "니어스랩 IPO 일정 [표=챗GPT, 뉴스투데이] 한편 니어스랩은 이번 상장을 통해 총 91만주를 공모한다. 희망 공모가는 3만~4만1200원으로 공모 예정 금액은 273억~375억원이다. 예상 시가총액은 1731억~2378억원이다. 기관투자자...",
-      "link": "https://www.news2day.co.kr/article/20260806500191",
-      "originallink": "https://www.news2day.co.kr/article/20260806500191",
+      "id": "9bdab3719e56596b",
+      "keyword": "해치텍",
+      "companyName": "해치텍",
+      "title": "이번주 공모주 청약, 기도산업·니어스랩·해치텍 3개사",
+      "description": "8월 둘째 주(10~14일) 기업공개(IPO) 시장에서는 기도산업·니어스랩·해치텍 3개사가 일반투자자 대상 공모... 2만8400원, 공모 예정금액은 422억~483억원이다. 희망가격 상단 기준 예상 시가총액은 약 1660억원이다. 상장...",
+      "link": "https://n.news.naver.com/mnews/article/119/0003119701?sid=101",
+      "originallink": "https://www.dailian.co.kr/news/view/1676052/?sc=Naver",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-08-06T06:32:00.000Z"
+      "publishedAt": "2026-08-08T15:11:00.000Z"
+    },
+    {
+      "id": "1c08ca50e0dac136",
+      "keyword": "스카이랩스",
+      "companyName": "스카이랩스",
+      "title": "IPO 시장, 종목별 투자 열기 '극과 극'... 딜리셔스 vs 케이앤에스아이앤...",
+      "description": "다음 주 기업공개 시장에서는 상장과 청약 일정이 잇따르지만, 종목별 투자심리는 뚜렷하게 갈리는... 스카이랩스는 8월 14일부터 21일까지 수요예측을 진행하며, 희망 공모가는 1만3천원에서 1만6천원이다. 2015년 설립된...",
+      "link": "https://www.tokenpost.kr/news/market/386894",
+      "originallink": "https://www.tokenpost.kr/news/market/386894",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-08T00:08:00.000Z"
+    },
+    {
+      "id": "5ce018ed620e4e49",
+      "keyword": "스카이랩스",
+      "companyName": "스카이랩스",
+      "title": "딜리셔스 10일 코스닥 상장…케이앤에스아이앤씨도 출격 [주간IPO]",
+      "description": "이투데이=김효숙 기자 | 다음 주 코스닥 시장에서는 딜리셔스와 케이앤에스아이앤씨가 새로 상장한다.... 스카이랩스는 14일부터 21일까지 기관투자자를 대상으로 수요예측에 돌입한다. 희망 공모가는 1만3000원...",
+      "link": "https://www.etoday.co.kr/news/view/2612226",
+      "originallink": "https://www.etoday.co.kr/news/view/2612226",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-08T00:02:00.000Z"
+    },
+    {
+      "id": "0455054a27585535",
+      "keyword": "해치텍",
+      "companyName": "해치텍",
+      "title": "공모주 시장도 'AI·로봇' 열풍…코스모로보틱스·마키나락스 두각",
+      "description": "해당 분야 기업들이 상장 이후 비교적 양호한 주가 흐름을 보이는 반면, 흥행에 성공한 일부 공모주는 상장 후 약세를 보이는 등 종목별 차별화도 뚜렷해지고 있다. 8일 금융투자업계에 따르면 지난달 IPO를 마친 기업은...",
+      "link": "https://daily.hankooki.com/news/articleView.html?idxno=1393083",
+      "originallink": "https://daily.hankooki.com/news/articleView.html?idxno=1393083",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-08T00:00:00.000Z"
+    },
+    {
+      "id": "d92524cae3279c52",
+      "keyword": "스카이랩스",
+      "companyName": "스카이랩스",
+      "title": "[IPO챗] 딜리셔스·케이앤에스아이앤씨 코스닥 입성…공모주 청약 3곳",
+      "description": "스카이랩스 수요예측 돌입…기도산업·니어스랩·해치텍 공모주 청약 기업공개(IPO) 시장의 투자심리가... 시장에 상장할 예정이다. 두 기업은 앞서 공모 과정에서 엇갈린 성적표를 받았다. 딜리셔스는 희망 범위...",
+      "link": "https://n.news.naver.com/mnews/article/001/0016239951?sid=101",
+      "originallink": "https://www.yna.co.kr/view/AKR20260807058400008?input=1195m",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-08T00:00:00.000Z"
     },
     {
       "id": "432ce5de277100c0",
@@ -40,17 +84,6 @@
       "publishedAt": "2026-08-06T05:18:00.000Z"
     },
     {
-      "id": "77bd3c05324f1fd5",
-      "keyword": "해치텍",
-      "companyName": "해치텍",
-      "title": "파블로항공, 드론 군집기술로 방산·항공시장 정조준",
-      "description": "■ 피지컬AI 센서: 반도체 센서 기업 해치텍이 코스닥 상장을 통해 로봇과 데이터센터, 전기차 등... 총 공모주식 100만 주에 공모가 희망범위는 2만 3000원~2만 8000원이며 이달 25일 코스닥 상장을 추진한다. [스타트업...",
-      "link": "https://n.news.naver.com/mnews/article/011/0004649079?sid=101",
-      "originallink": "https://www.sedaily.com/article/20076335?ref=naver",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-06T01:01:00.000Z"
-    },
-    {
       "id": "232300da01661654",
       "keyword": "글로벌테크놀로지",
       "companyName": "글로벌테크놀로지",
@@ -60,50 +93,6 @@
       "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608041421208000108585",
       "provider": "뉴스 검색",
       "publishedAt": "2026-08-05T22:02:00.000Z"
-    },
-    {
-      "id": "f1ab46b956b6022f",
-      "keyword": "해치텍",
-      "companyName": "해치텍",
-      "title": "[분석] IPO 가뭄 길어진다…증권사 IB도 '대어' 실종에 땀 줄줄",
-      "description": "삼성증권은 주관 기업 수는 3곳에 그쳤지만 상반기 최대 IPO였던 케이뱅크 상장을 맡으며 공모총액 6287억... 삼성증권은 이달 딜리셔스와 케이앤에스아이앤씨, 기도산업, 니어스랩, 빅웨이브로보틱스, 해치텍 등 최대...",
-      "link": "https://www.startuptoday.co.kr/news/articleView.html?idxno=808845",
-      "originallink": "https://www.startuptoday.co.kr/news/articleView.html?idxno=808845",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-05T19:50:00.000Z"
-    },
-    {
-      "id": "9822f9c49bf6a0f8",
-      "keyword": "해치텍",
-      "companyName": "해치텍",
-      "title": "해치텍 \"피지컬AI용 반도체 센서로 영역 확장\" [IPO톡톡]",
-      "description": "있는데요, 해치텍은 이번 상장을 통해 피지컬AI에 사용되는 반도체 센서 집적회로(IC) 기술 개발에 박차를... 해치텍은 다가오는 6일~7일 일반투자자청약을 진행하며, 공모가 희망밴드는 2만 3천원~2만 8천원입니다. 230억...",
-      "link": "https://n.news.naver.com/mnews/article/215/0001261299?sid=101",
-      "originallink": "https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202608050533&t=NNv",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-05T09:13:00.000Z"
-    },
-    {
-      "id": "61486a9a0796a126",
-      "keyword": "해치텍",
-      "companyName": "해치텍",
-      "title": "'센서 반도체 명가' 해치텍, 코스닥 IPO 도전장",
-      "description": "해치텍이 코스닥 상장 시험대에 섰다. 센서 집적회로(IC) 팹리스의 전문성을 내세워 국내 기업공개(IPO)... 해치텍은 상장예정주식 551만7510주 가운데 100만주를 공모한다. 희망 공모가 2만3000~2만8000원 기준 공모...",
-      "link": "https://n.news.naver.com/mnews/article/008/0005396140?sid=101",
-      "originallink": "https://www.mt.co.kr/stock/2026/08/05/2026080513333850948",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-05T08:06:00.000Z"
-    },
-    {
-      "id": "fb9be782b91c8867",
-      "keyword": "니어스랩",
-      "companyName": "니어스랩",
-      "title": "삼성증권, 10년 만에 IPO 주관 1위 탈환...'KDR·코스닥·스팩' 전방위 성...",
-      "description": "관계자는 \"중복 상장 이슈 등으로 공모주 주관의 난이도가 훨씬 높아진 상황에서 1위를 하고 점유율을 높인 점은 인상적\"이라며 \"대어를 포함해 하반기 이후에도 딜 파이프라인이 탄탄하다고 평가받는 만큼 IPO 주관...",
-      "link": "https://daily.hankooki.com/news/articleView.html?idxno=1393052",
-      "originallink": "https://daily.hankooki.com/news/articleView.html?idxno=1393052",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-05T07:00:00.000Z"
     },
     {
       "id": "2c329db4e09243ac",
@@ -137,28 +126,6 @@
       "originallink": "https://www.news1.kr/finance/general-stock/6249997",
       "provider": "뉴스 검색",
       "publishedAt": "2026-08-05T05:58:00.000Z"
-    },
-    {
-      "id": "cdf067c24b6356b8",
-      "keyword": "해치텍",
-      "companyName": "해치텍",
-      "title": "새내기주 첫날 성적표 ‘먹구름’…공모기업·공모금액도 반토막",
-      "description": "이달에는 딜리셔스와 케이앤에스아이앤씨, 기도산업, 니어스랩, 빅웨이브로보틱스, 해치텍 등 6곳이 코스닥 상장을 준비하고 있다. 모두 예상 시가총액 3000억원 이하의 중소형 기업으로, 공모가가 희망 범위 상단에서...",
-      "link": "https://n.news.naver.com/mnews/article/018/0006344860?sid=101",
-      "originallink": "https://www.edaily.co.kr/news/newspath.asp?newsid=03388246645544368",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-05T00:27:00.000Z"
-    },
-    {
-      "id": "fd40eb576afecf97",
-      "keyword": "니어스랩",
-      "companyName": "니어스랩",
-      "title": "[더벨][IB 풍향계] 삼성증권 IPO 주관서 일냈다…1위로 '우뚝'",
-      "description": "◇해외 바이오 인제니아 상장 성공, 이달 코스닥 데뷔 4일 금융투자업계에 따르면 인제니아는 이날 공모... 5건의 상장을 마무리 지었다. 현재 니어스랩의 경우 증권신고서를 제출하고 IPO 절차를 진행 중이며...",
-      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608041150567680103973",
-      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608041150567680103973",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-04T23:12:00.000Z"
     },
     {
       "id": "b35a640aa157ba51",
@@ -271,17 +238,6 @@
       "publishedAt": "2026-08-03T05:42:00.000Z"
     },
     {
-      "id": "6f943484654af3fd",
-      "keyword": "기도산업",
-      "companyName": "기도산업",
-      "title": "[더밸류 브리핑] 오늘의 우리금융 소식...우리투자증권·우리자산운용",
-      "description": "광고는 ‘말 편’, ‘물타기 편’, ‘기도 편’ 등 총 3편으로 구성됐다. 변동성이 큰 시장에서 주변의 말에... 대형 IPO가 1186억달러를 모집했다. 우리미국단기채공모주증권자투자신탁은 스페이스X 상장에 참여해 펀드...",
-      "link": "http://www.thevaluenews.co.kr/news/view.php?idx=200475",
-      "originallink": "http://www.thevaluenews.co.kr/news/view.php?idx=200475",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-03T01:40:00.000Z"
-    },
-    {
       "id": "279e0a8edabde432",
       "keyword": "브릴스",
       "companyName": "브릴스",
@@ -335,17 +291,6 @@
       "originallink": "https://www.news2day.co.kr/article/20260730500187",
       "provider": "뉴스 검색",
       "publishedAt": "2026-07-30T19:40:00.000Z"
-    },
-    {
-      "id": "b02e49ef22c5b31e",
-      "keyword": "스카이랩스",
-      "companyName": "스카이랩스",
-      "title": "[장외시황] 인제니아테라퓨틱스, 공모주 청약 시작",
-      "description": "이투데이=신혜주 기자 | 30일 비상장 주식 시장은 하락했다. 디지털 헬스케어 기업 스카이랩스가 공모주... 기업공개(IPO)관련 상장 예비심사 청구종목으로 특수 목적용 항법 및 항재밍 토탈 솔루션 전문업체...",
-      "link": "https://www.etoday.co.kr/news/view/2609396",
-      "originallink": "https://www.etoday.co.kr/news/view/2609396",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-30T07:12:00.000Z"
     },
     {
       "id": "c2a27902d5b42ff9",

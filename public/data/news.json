@@ -1,11 +1,88 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-08-08T22:44:20.862Z",
+    "updatedAt": "2026-08-09T23:04:12.409Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "07cb5dffe16a25be",
+      "keyword": "글로벌테크놀로지",
+      "companyName": "글로벌테크놀로지",
+      "title": "[스페셜리포트]인제니아테라퓨틱스, MSD 후기 임상 오른 'IGT-427'…TIE2 기...",
+      "description": "공모금액은 600억원이며, 상장주선인 의무인수금액 30억원을 합친 총 조달액은 630억원이다. 발행비용을... 한상열 대표는 하버드대학교 의과대학과 삼성종합기술원, IBS 혈관연구센터, 셀 시그널링 테크놀로지에...",
+      "link": "https://www.yakup.com/news/index.html?mode=view&cat=12&nid=330838",
+      "originallink": "https://www.yakup.com/news/index.html?mode=view&cat=12&nid=330838",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-09T21:02:00.000Z"
+    },
+    {
+      "id": "fc0d5a62cb5841c4",
+      "keyword": "스카이랩스",
+      "companyName": "스카이랩스",
+      "title": "딜리셔스·케이앤에스아이앤씨 상장… 기도산업 등 3곳 공모 청약 [이번...",
+      "description": "주 기업공개(IPO) 시장에서는 딜리셔스와 케이앤에스아이앤씨가 코스닥에 상장한다. 기도산업과 니어스랩, 해치텍 등 3개 기업은 일반 투자자를 대상으로 공모주 청약을 진행하며 디지털 헬스케어 기업 스카이랩스는...",
+      "link": "https://n.news.naver.com/mnews/article/011/0004650056?sid=101",
+      "originallink": "https://www.sedaily.com/article/20077438?ref=naver",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-09T21:01:00.000Z"
+    },
+    {
+      "id": "c9f983e51a7fd308",
+      "keyword": "글로벌테크놀로지",
+      "companyName": "글로벌테크놀로지",
+      "title": "中 로봇기술도 패권 강화… 유니트리 IPO에 딥시크도 투자",
+      "description": "IPO 예상 규모는 올 3월 제시한 금액(42억200만 위안)보다 약 45% 늘었다. 기관 수요가 몰리면서 최종 공모가가 크게 올랐기 때문이다. 앞서 지난달 27일 상장한 중국 메모리 반도체 기업 창신메모리테크놀로지(CXMT)는...",
+      "link": "https://n.news.naver.com/mnews/article/020/0003739656?sid=104",
+      "originallink": "https://www.donga.com/news/Inter/article/all/20260810/134445902/2",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-09T19:33:00.000Z"
+    },
+    {
+      "id": "9ee262daea1e52c0",
+      "keyword": "글로벌테크놀로지",
+      "companyName": "글로벌테크놀로지",
+      "title": "“SK하이닉스, 4조원대 中 충칭 패키징 공장 매각 검토”",
+      "description": "최근 미국 시장에서 미국주식예탁증서(ADR)를 공모해 약 265억 달러(약 40조 원)를 수혈했다. 아울러 미국 낸드 자회사 솔리다임도 기업가치 50조 원을 목표로 5조 원 규모의 프리 IPO(상장 전 투자 유치)에 착수했고...",
+      "link": "https://n.news.naver.com/mnews/article/020/0003739582?sid=101",
+      "originallink": "https://www.donga.com/news/Economy/article/all/20260809/134445182/2",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-09T15:31:00.000Z"
+    },
+    {
+      "id": "43ab7005f7e55b2d",
+      "keyword": "스카이랩스",
+      "companyName": "스카이랩스",
+      "title": "이번주 딜리셔스·케이앤에스아이앤씨 코스닥 상장…청약은 3곳 예정",
+      "description": "이번 주(8월 10일~14일) 기업공개(IPO) 시장에선 지난주 공모주 청약을 마무리한 딜리셔스와... 디지털 헬스케어 기업 스카이랩스는 14일부터 코스닥 상장을 위해 오는 14일부터 기관투자자 대상 수요예측 절차를...",
+      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4429290",
+      "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4429290",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-09T04:34:00.000Z"
+    },
+    {
+      "id": "27b63fdb5c8d83d2",
+      "keyword": "스카이랩스",
+      "companyName": "스카이랩스",
+      "title": "딜리셔스·케이앤에스아이앤씨 상장[증시캘린더]",
+      "description": "다음 주(8월 10~14일) 기업공개(IPO) 시장에서는 딜리셔스와 케이앤에스아이앤씨가 코스닥 상장을 진행한다. 기도산업·해치텍·니어스랩은 일반 청약을, 스카이랩스는 기관투자자 대상 수요예측을 실시한다. 8월...",
+      "link": "https://n.news.naver.com/mnews/article/018/0006347889?sid=101",
+      "originallink": "https://www.edaily.co.kr/news/newspath.asp?newsid=01184086645545680",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-09T00:02:00.000Z"
+    },
+    {
+      "id": "fa04601b2ff67cf2",
+      "keyword": "스카이랩스",
+      "companyName": "스카이랩스",
+      "title": "[이번주 IPO]8월 둘째 주 수요예측·청약 일정",
+      "description": "이달(8월) 둘째 주에는 스카이랩스가 기관투자자 대상 수요예측을 진행한다. 기도산업, 해치텍... 상장 주관사는 한국투자증권이다. <일반청약> ◆기도산업= 공모 희망가 범위는 2만4800원~2만8400원이다. 총...",
+      "link": "https://n.news.naver.com/mnews/article/277/0005800517?sid=101",
+      "originallink": "https://view.asiae.co.kr/article/2026080615550020438",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-08T23:00:00.000Z"
+    },
     {
       "id": "9bdab3719e56596b",
       "keyword": "해치텍",
@@ -27,39 +104,6 @@
       "originallink": "https://www.tokenpost.kr/news/market/386894",
       "provider": "뉴스 검색",
       "publishedAt": "2026-08-08T00:08:00.000Z"
-    },
-    {
-      "id": "5ce018ed620e4e49",
-      "keyword": "스카이랩스",
-      "companyName": "스카이랩스",
-      "title": "딜리셔스 10일 코스닥 상장…케이앤에스아이앤씨도 출격 [주간IPO]",
-      "description": "이투데이=김효숙 기자 | 다음 주 코스닥 시장에서는 딜리셔스와 케이앤에스아이앤씨가 새로 상장한다.... 스카이랩스는 14일부터 21일까지 기관투자자를 대상으로 수요예측에 돌입한다. 희망 공모가는 1만3000원...",
-      "link": "https://www.etoday.co.kr/news/view/2612226",
-      "originallink": "https://www.etoday.co.kr/news/view/2612226",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-08T00:02:00.000Z"
-    },
-    {
-      "id": "0455054a27585535",
-      "keyword": "해치텍",
-      "companyName": "해치텍",
-      "title": "공모주 시장도 'AI·로봇' 열풍…코스모로보틱스·마키나락스 두각",
-      "description": "해당 분야 기업들이 상장 이후 비교적 양호한 주가 흐름을 보이는 반면, 흥행에 성공한 일부 공모주는 상장 후 약세를 보이는 등 종목별 차별화도 뚜렷해지고 있다. 8일 금융투자업계에 따르면 지난달 IPO를 마친 기업은...",
-      "link": "https://daily.hankooki.com/news/articleView.html?idxno=1393083",
-      "originallink": "https://daily.hankooki.com/news/articleView.html?idxno=1393083",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-08T00:00:00.000Z"
-    },
-    {
-      "id": "d92524cae3279c52",
-      "keyword": "스카이랩스",
-      "companyName": "스카이랩스",
-      "title": "[IPO챗] 딜리셔스·케이앤에스아이앤씨 코스닥 입성…공모주 청약 3곳",
-      "description": "스카이랩스 수요예측 돌입…기도산업·니어스랩·해치텍 공모주 청약 기업공개(IPO) 시장의 투자심리가... 시장에 상장할 예정이다. 두 기업은 앞서 공모 과정에서 엇갈린 성적표를 받았다. 딜리셔스는 희망 범위...",
-      "link": "https://n.news.naver.com/mnews/article/001/0016239951?sid=101",
-      "originallink": "https://www.yna.co.kr/view/AKR20260807058400008?input=1195m",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-08T00:00:00.000Z"
     },
     {
       "id": "432ce5de277100c0",
@@ -126,28 +170,6 @@
       "originallink": "https://www.news1.kr/finance/general-stock/6249997",
       "provider": "뉴스 검색",
       "publishedAt": "2026-08-05T05:58:00.000Z"
-    },
-    {
-      "id": "b35a640aa157ba51",
-      "keyword": "스카이랩스",
-      "companyName": "스카이랩스",
-      "title": "올해 상장 제약·바이오 8곳 전부 공모가 밑…하반기 IPO도 몸 낮추나",
-      "description": "올해 말 상장을 목표로 하는 한 기업 관계자는 \"IPO 요건이 강화된 데다 상장 이후 공모주 프리미엄도... 환자 모니터링 의료기기 개발사 스카이랩스는 8월 14일부터 수요 예측을 시작할 예정이다. 의료용...",
-      "link": "https://n.news.naver.com/mnews/article/018/0006344737?sid=105",
-      "originallink": "https://www.edaily.co.kr/news/newspath.asp?newsid=02643686645544368",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-04T22:32:00.000Z"
-    },
-    {
-      "id": "2eb13d1880152a9f",
-      "keyword": "글로벌테크놀로지",
-      "companyName": "글로벌테크놀로지",
-      "title": "[중국의 역습 ①] CXMT·YMTC, 中 메모리 기술 자립 첨병 역할",
-      "description": "//편집자 주 중국 메모리 반도체는 CXMT(창신메모리테크놀로지스)와 YMTC(양쯔메모리테크놀로지)로... CXMT는 지난달 28일 상하이증권거래소에 상장하며 공모가 대비 460% 넘게 폭등한 바 있다. 이 때문에 시가총액도...",
-      "link": "https://www.seoulfn.com/news/articleView.html?idxno=634876",
-      "originallink": "https://www.seoulfn.com/news/articleView.html?idxno=634876",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-04T22:00:00.000Z"
     },
     {
       "id": "1559a2a5d3c83e3a",
@@ -217,10 +239,10 @@
     },
     {
       "id": "801d52e7ffea92ec",
-      "keyword": "글로벌테크놀로지",
-      "companyName": "글로벌테크놀로지",
+      "keyword": "와이즈플래닛컴퍼니",
+      "companyName": "와이즈플래닛컴퍼니",
       "title": "\"첫날에 팔았어야\"…7월 공모주, 수요예측 '후끈' vs 주가 '냉랭’",
-      "description": "와이즈플래닛컴퍼니, 글로벌테크놀로지, 덕산넵코어스 등 총 14개사다. 예상 공모금액은 2000억원~2800억원으로 역대 동월 평균 5958억원 및 최근 5년 평균 2조1967억원을 밑돌 전망이다. 예상 상장 시가총액 또한...",
+      "description": "네오사피엔스, 와이즈플래닛컴퍼니, 글로벌테크놀로지, 덕산넵코어스 등 총 14개사다. 예상 공모금액은 2000억원~2800억원으로 역대 동월 평균 5958억원 및 최근 5년 평균 2조1967억원을 밑돌 전망이다. 예상 상장...",
       "link": "http://www.newsprime.co.kr/news/article.html?no=742457",
       "originallink": "http://www.newsprime.co.kr/news/article.html?no=742457",
       "provider": "뉴스 검색",
@@ -247,17 +269,6 @@
       "originallink": "https://www.imaeil.com/page/view/2026080309333592589",
       "provider": "뉴스 검색",
       "publishedAt": "2026-08-03T00:39:00.000Z"
-    },
-    {
-      "id": "a3cca7d18ce1ade8",
-      "keyword": "글로벌테크놀로지",
-      "companyName": "글로벌테크놀로지",
-      "title": "창신메모리 상장이 한국 메모리 산업에 던진 진짜 질문 [윤석빈의 Thinki...",
-      "description": "중국 최대 D램 기업 창신메모리테크놀로지(CXMT)가 공모가 8.66위안으로 거래를 시작해 첫날 466% 폭등한... 이번 IPO에서 외국인 배정은 사실상 없었다. 이 466%를 글로벌 시장의 기술 평가로 읽는다면 명백한 오독이다....",
-      "link": "https://it.chosun.com/news/articleView.html?idxno=2023092167112",
-      "originallink": "https://it.chosun.com/news/articleView.html?idxno=2023092167112",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-02T21:00:00.000Z"
     },
     {
       "id": "19695b8859c08d6a",

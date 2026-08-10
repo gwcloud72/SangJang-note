@@ -1,11 +1,88 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-08-09T23:04:12.409Z",
+    "updatedAt": "2026-08-10T23:08:30.578Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "e8a9239b1f642364",
+      "keyword": "브릴스",
+      "companyName": "브릴스",
+      "title": "[N2 뷰] 거품 꺼지는 K-IPO...하반기 '슈퍼 루키' 등장할까",
+      "description": "[그림=제미나이] [뉴스투데이=임성지 기자] 7월 코스닥에 상장한 새내기주들의 주가가 공모가 대비 크게... 네이사피엔스 △브릴스 등이 코스닥 상장을 위한 절차를 진행 중이다. 이처럼 복수의 기업이 기업공개(IPO)를...",
+      "link": "https://www.news2day.co.kr/article/20260810500085",
+      "originallink": "https://www.news2day.co.kr/article/20260810500085",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-10T21:02:00.000Z"
+    },
+    {
+      "id": "609059bc5282d583",
+      "keyword": "글로벌테크놀로지",
+      "companyName": "글로벌테크놀로지",
+      "title": "中 CXMT, MSCI지수 편입…“추가 자금 유입 가능성”",
+      "description": "이투데이=윤혜원 기자 | 창신메모리테크놀로지(CXMT)가 10일(현지시간) 글로벌 지수제공업체... 시장)에 상장했다. 거래 첫날에는 공모가(8.66위안) 대비 465.82% 오른 49.0위안을 기록해 본토 증시 시가총액 1위에...",
+      "link": "https://www.etoday.co.kr/news/view/2612942",
+      "originallink": "https://www.etoday.co.kr/news/view/2612942",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-10T10:48:00.000Z"
+    },
+    {
+      "id": "9a1542d312126af7",
+      "keyword": "덕산넵코어스",
+      "companyName": "덕산넵코어스",
+      "title": "올해 새내기株 85% 공모가 밑돌아…심사 통과해도 코스닥행 미룬다 [시...",
+      "description": "금감원의 신고서 심사가 예년 대비 촘촘해진 가운데 연내 상장을 위해서는 발 빠른 공모 절차가 필요하지만 주관사마다 조심스러운 분위기가 감지된다. 이처럼 기업들이 IPO 고삐를 느슨하게 쥐는 것은 상장 후 주가...",
+      "link": "https://n.news.naver.com/mnews/article/011/0004650330?sid=101",
+      "originallink": "https://www.sedaily.com/article/20077773?ref=naver",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-10T09:30:00.000Z"
+    },
+    {
+      "id": "8fd6ade7787cbf7e",
+      "keyword": "해치텍",
+      "companyName": "해치텍",
+      "title": "해치텍, 공모가 2만3000원…희망범위 하단·기관 102대 1",
+      "description": "해치텍이 코스닥 기업공개(IPO) 공모가를 희망범위 하단인 2만3000원으로 확정했다고 10일 공시했다.... 해치텍은 오는 12~13일 나머지 25만주에 대한 일반투자자 청약에 돌입, 이달 25일 코스닥 시장에 상장할 예정이다....",
+      "link": "https://n.news.naver.com/mnews/article/008/0005397998?sid=101",
+      "originallink": "https://www.mt.co.kr/stock/2026/08/10/2026081017432256706",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-10T08:49:00.000Z"
+    },
+    {
+      "id": "d69bc83d652f6d52",
+      "keyword": "스카이랩스",
+      "companyName": "스카이랩스",
+      "title": "공모주 다시 줄섰다…중소형 IPO 온기, '대어'까지 번질까 [fn마켓워치]",
+      "description": "IB업계 관계자는 \"최근 청약 결과를 보면 공모주에 들어올 대기자금 자체는 충분하다는 점이 확인되고 있다\"며 \"이번 주 청약과 신규 상장 종목들이 시장 기대에 부응한다면 대형 IPO들도 밸류에이션과 상장 시기를...",
+      "link": "https://n.news.naver.com/mnews/article/014/0005559548?sid=101",
+      "originallink": "http://www.fnnews.com/news/202608101547447667",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-10T08:10:00.000Z"
+    },
+    {
+      "id": "ace7b42f59b42496",
+      "keyword": "브릴스",
+      "companyName": "브릴스",
+      "title": "“대출에서 IPO까지”…장민영號 기업은행, 중소기업 ‘자본시장 사다리...",
+      "description": "회사채, IPO 등 다양한 자금조달 수단을 연결할 수 있기 때문이다. 실체적 기반도 갖춰져 있다. IBK투자증권은 최근 브릴스, 케이앤에스아이앤씨 등의 코스닥 상장 공모주 청약을 성료하는 등 자본시장 내 IB 역량을...",
+      "link": "https://www.fntimes.com/html/view.php?ud=2026081013574881022a735e27af_18",
+      "originallink": "https://www.fntimes.com/html/view.php?ud=2026081013574881022a735e27af_18",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-10T05:08:00.000Z"
+    },
+    {
+      "id": "546f266f64185862",
+      "keyword": "스카이랩스",
+      "companyName": "스카이랩스",
+      "title": "딜리셔스·KNS 상장…기도산업·해치텍 일반청약 진행",
+      "description": "이번 주 기업공개(IPO) 시장에서는 딜리셔스와 케이앤에스아이앤씨(KNS Inc.)가 코스닥 시장에 상장한다. 기도산업·해치텍·니어스랩은 일반청약을 진행하며 스카이랩스는 기관투자가 대상 수요예측에 나선다....",
+      "link": "https://n.news.naver.com/mnews/article/031/0001048320?sid=101",
+      "originallink": "http://www.inews24.com/view/1993304",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-10T00:19:00.000Z"
+    },
     {
       "id": "07cb5dffe16a25be",
       "keyword": "글로벌테크놀로지",
@@ -62,50 +139,6 @@
       "publishedAt": "2026-08-09T04:34:00.000Z"
     },
     {
-      "id": "27b63fdb5c8d83d2",
-      "keyword": "스카이랩스",
-      "companyName": "스카이랩스",
-      "title": "딜리셔스·케이앤에스아이앤씨 상장[증시캘린더]",
-      "description": "다음 주(8월 10~14일) 기업공개(IPO) 시장에서는 딜리셔스와 케이앤에스아이앤씨가 코스닥 상장을 진행한다. 기도산업·해치텍·니어스랩은 일반 청약을, 스카이랩스는 기관투자자 대상 수요예측을 실시한다. 8월...",
-      "link": "https://n.news.naver.com/mnews/article/018/0006347889?sid=101",
-      "originallink": "https://www.edaily.co.kr/news/newspath.asp?newsid=01184086645545680",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-09T00:02:00.000Z"
-    },
-    {
-      "id": "fa04601b2ff67cf2",
-      "keyword": "스카이랩스",
-      "companyName": "스카이랩스",
-      "title": "[이번주 IPO]8월 둘째 주 수요예측·청약 일정",
-      "description": "이달(8월) 둘째 주에는 스카이랩스가 기관투자자 대상 수요예측을 진행한다. 기도산업, 해치텍... 상장 주관사는 한국투자증권이다. <일반청약> ◆기도산업= 공모 희망가 범위는 2만4800원~2만8400원이다. 총...",
-      "link": "https://n.news.naver.com/mnews/article/277/0005800517?sid=101",
-      "originallink": "https://view.asiae.co.kr/article/2026080615550020438",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-08T23:00:00.000Z"
-    },
-    {
-      "id": "9bdab3719e56596b",
-      "keyword": "해치텍",
-      "companyName": "해치텍",
-      "title": "이번주 공모주 청약, 기도산업·니어스랩·해치텍 3개사",
-      "description": "8월 둘째 주(10~14일) 기업공개(IPO) 시장에서는 기도산업·니어스랩·해치텍 3개사가 일반투자자 대상 공모... 2만8400원, 공모 예정금액은 422억~483억원이다. 희망가격 상단 기준 예상 시가총액은 약 1660억원이다. 상장...",
-      "link": "https://n.news.naver.com/mnews/article/119/0003119701?sid=101",
-      "originallink": "https://www.dailian.co.kr/news/view/1676052/?sc=Naver",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-08T15:11:00.000Z"
-    },
-    {
-      "id": "1c08ca50e0dac136",
-      "keyword": "스카이랩스",
-      "companyName": "스카이랩스",
-      "title": "IPO 시장, 종목별 투자 열기 '극과 극'... 딜리셔스 vs 케이앤에스아이앤...",
-      "description": "다음 주 기업공개 시장에서는 상장과 청약 일정이 잇따르지만, 종목별 투자심리는 뚜렷하게 갈리는... 스카이랩스는 8월 14일부터 21일까지 수요예측을 진행하며, 희망 공모가는 1만3천원에서 1만6천원이다. 2015년 설립된...",
-      "link": "https://www.tokenpost.kr/news/market/386894",
-      "originallink": "https://www.tokenpost.kr/news/market/386894",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-08T00:08:00.000Z"
-    },
-    {
       "id": "432ce5de277100c0",
       "keyword": "브릴스",
       "companyName": "브릴스",
@@ -128,17 +161,6 @@
       "publishedAt": "2026-08-06T05:18:00.000Z"
     },
     {
-      "id": "232300da01661654",
-      "keyword": "글로벌테크놀로지",
-      "companyName": "글로벌테크놀로지",
-      "title": "[더벨][글로벌테크놀로지 IPO] 시장 상황·자금 여력 감안…공모 규모 5...",
-      "description": "글로벌테크놀로지가 코스닥 상장을 앞두고 공모주식 수를 당초 계획보다 50만주 줄였다. 최근 공모시장... 특히 2029년 순이익은 이번 IPO의 주당 평가가액을 산출하는 기준으로 활용됐다. (출처: 글로벌테크놀로지...",
-      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608041421208000108585",
-      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608041421208000108585",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-05T22:02:00.000Z"
-    },
-    {
       "id": "2c329db4e09243ac",
       "keyword": "덕산넵코어스",
       "companyName": "덕산넵코어스",
@@ -148,17 +170,6 @@
       "originallink": "https://www.etoday.co.kr/news/view/2611381",
       "provider": "뉴스 검색",
       "publishedAt": "2026-08-05T06:42:00.000Z"
-    },
-    {
-      "id": "84a6a8cacb7d1494",
-      "keyword": "글로벌테크놀로지",
-      "companyName": "글로벌테크놀로지",
-      "title": "‘기업가치 8조원대’ 유니트리, 中서 수요예측 시작…이달 상장",
-      "description": "6일 공모가가 결정될 예정이다. 이후 10일 온·오프라인 투자자 청약을 거쳐 이달 중 ‘중국판 나스닥’인 커촹반(과학기술주 전용 시장)에 상장하게 된다. 중국 투자은행들은 유니트리 IPO 이후 기업가치가...",
-      "link": "https://n.news.naver.com/mnews/article/018/0006345154?sid=101",
-      "originallink": "https://www.edaily.co.kr/news/newspath.asp?newsid=04975766645544368",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-05T06:16:00.000Z"
     },
     {
       "id": "1a62f094414dd0d1",
@@ -216,17 +227,6 @@
       "publishedAt": "2026-08-03T20:26:00.000Z"
     },
     {
-      "id": "9269fa2eac4a2a24",
-      "keyword": "덕산넵코어스",
-      "companyName": "덕산넵코어스",
-      "title": "[장외시황] 딜리셔스, 공모주 청약시작",
-      "description": "일반공모주 청약을 시작했다. 확정공모가는 7000원이며, 상장주관사는 한국투자증권이다. 반도체 센서... IPO) 관련 상장 예비심사 청구종목으로 특수 목적용 항법 및 항재밍 토탈 솔루션 전문기업 덕산넵코어스가...",
-      "link": "https://www.etoday.co.kr/news/view/2610519",
-      "originallink": "https://www.etoday.co.kr/news/view/2610519",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-03T07:38:00.000Z"
-    },
-    {
       "id": "25b133a455af5755",
       "keyword": "와이즈플래닛컴퍼니",
       "companyName": "와이즈플래닛컴퍼니",
@@ -258,17 +258,6 @@
       "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607301430527360104717",
       "provider": "뉴스 검색",
       "publishedAt": "2026-08-03T05:42:00.000Z"
-    },
-    {
-      "id": "279e0a8edabde432",
-      "keyword": "브릴스",
-      "companyName": "브릴스",
-      "title": "얼어붙은 공모주 시장, 8월부터 온기 돈다…AI·바이오 새내기株 출격",
-      "description": "(4~10일) ▲스카이랩스·브릴스(14~21일) ▲엔에이치스팩34호(24~25일) 등이 순차적으로 나선다. 일반청약의... 국내 IPO 시장은 중복상장 규제 불확실성과 증시 변동성 확대에 따른 투자심리 위축으로 공모 규모가 크게...",
-      "link": "https://n.news.naver.com/mnews/article/088/0001021796?sid=101",
-      "originallink": "https://www.imaeil.com/page/view/2026080309333592589",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-03T00:39:00.000Z"
     },
     {
       "id": "19695b8859c08d6a",
@@ -313,17 +302,6 @@
       "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607131156343440104238",
       "provider": "뉴스 검색",
       "publishedAt": "2026-07-14T22:02:00.000Z"
-    },
-    {
-      "id": "a6871c9dfe9f1a0e",
-      "keyword": "네오사피엔스",
-      "companyName": "네오사피엔스",
-      "title": "[장외시황] 에이치엘노믹스, 공모주 청약시작",
-      "description": "13일 금융투자 업계에 따르면 기초 의약물질 제조업체 에이치엘노믹스가 13일~14일 일반 공모주 청약을... 플랫폼´타입캐스트’운영사인 네오사피엔스는 코스닥 상장예비심사를 통과했다. IPO(기업공개)관련 상장...",
-      "link": "https://www.etoday.co.kr/news/view/2603188",
-      "originallink": "https://www.etoday.co.kr/news/view/2603188",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-13T06:48:00.000Z"
     },
     {
       "id": "7f16b0014b3034f5",

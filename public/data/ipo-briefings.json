@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "source": "local-rules",
-    "generatedAt": "2026-08-12T06:48:09.340Z",
-    "model": null,
+    "source": "gemini-briefings-mixed",
+    "generatedAt": "2026-08-12T08:45:48.125Z",
+    "model": "gemini-2.5-flash",
     "itemCount": 8,
-    "geminiUsed": 0,
+    "geminiUsed": 1,
     "cacheUsed": 1,
     "policy": "회사 설명, IPO 단계, 일정, 경쟁률 뉴스 언급, 원문 확인 포인트만 표시합니다. 투자 판단 표현은 제외합니다."
   },
@@ -92,22 +92,21 @@
       "ipoStage": "청약 예정",
       "underwriter": "주관사 확인",
       "basisTimeLabel": "오늘 09:30 기준",
-      "oneLine": "IPO 일정 확인 대상 기업",
-      "body": "스카이랩스는 IPO 일정 확인 대상 기업입니다. 08.26 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
+      "oneLine": "디지털 헬스케어 기업 스카이랩스",
+      "body": "스카이랩스는 디지털 헬스케어 기업입니다. 현재 청약 예정 단계이며, 08.26 청약 시작 전 일정입니다. 기관 수요예측 진행 여부와 공모주 청약 일정을 확인합니다.",
       "points": [
-        "청약 시작·마감일 확인",
-        "환불일 확인",
+        "청약 시작 및 마감일 확인",
+        "환불일 및 상장일 확인",
         "정정 공시 여부 확인"
       ],
       "sourceLabels": [
-        "DART 일정",
-        "환불일 확인",
         "뉴스 검색",
-        "주관사 확인"
+        "DART 공시",
+        "주관사 공지"
       ],
       "competition": null,
-      "generatedBy": "local-rules",
-      "model": null
+      "generatedBy": "gemini",
+      "model": "gemini-2.5-flash"
     },
     {
       "id": "briefing-엔에이치기업인수목적34호",

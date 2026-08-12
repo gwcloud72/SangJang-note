@@ -1,11 +1,77 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-08-11T22:55:05.909Z",
+    "updatedAt": "2026-08-12T23:13:27.005Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "eb9853b20826292b",
+      "keyword": "해치텍",
+      "companyName": "해치텍",
+      "title": "[더벨][해치텍 IPO] 기관 수요예측 양극화에 공모가 하단 결정",
+      "description": "해치텍은 공모가를 밴드 하단까지 낮춘 만큼 향후 일반 청약 및 상장 후 주가 상승 여력을 보여주는 데 집중한다는 입장이다. 오는 12일부터 13일까지 전체 공모물량의 25%인 25만주를 대상으로 청약을 진행한 뒤...",
+      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608111407564520101853",
+      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608111407564520101853",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-12T22:02:00.000Z"
+    },
+    {
+      "id": "2ad0d9e289304bcc",
+      "keyword": "글로벌테크놀로지",
+      "companyName": "글로벌테크놀로지",
+      "title": "[중국 특징주] 유니트리, IPO 공모주 70% 이상 기관에 배정",
+      "description": "공모를 통해 배정된 주식 비중 역시 창신메모리테크놀로지의 19%에 불과하다. 유니트리의 오프라인 배정 비율은 올해 신규 상장 기업 가운데서도 높은 수준이다. 오프라인 청약 데이터를 공개한 46개 IPO...",
+      "link": "https://www.newspim.com/news/view/20260813000030",
+      "originallink": "https://www.newspim.com/news/view/20260813000030",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-12T21:15:00.000Z"
+    },
+    {
+      "id": "d77da6d7b14ceece",
+      "keyword": "니어스랩",
+      "companyName": "니어스랩",
+      "title": "[공모주 투데이] 니어스랩 청약 1일차 마무리, 균등·비례 경쟁률은?......",
+      "description": "IPO 자료사진. AI가 생성한 이미지. AI 기반 자율비행 드론 솔루션 공급 기업 니어스랩의 공모주 청약이... 기관 수요예측에 이어 일반청약을 거쳐 증시에 입성하는 니어스랩이 상장 첫날 공모가 4만1200원 대비 어떤...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=597676",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=597676",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-12T07:04:00.000Z"
+    },
+    {
+      "id": "d5d4cd429c471711",
+      "keyword": "덕산넵코어스",
+      "companyName": "덕산넵코어스",
+      "title": "[장외시황] 니어스랩ㆍ해치텍, 공모주 청약시작",
+      "description": "공모가는 2만3000원이며 수요예측 갱쟁률은 101.91:1을 기록했다. IPO(기업공개)관련 상장 예비심사 청구종목으로 특수 목적용 항법 및 항재밍 토탈 솔루션 전문기업 덕산넵코어스(구.넵코어스)가 전날과 동일한...",
+      "link": "https://www.etoday.co.kr/news/view/2613788",
+      "originallink": "https://www.etoday.co.kr/news/view/2613788",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-12T06:42:00.000Z"
+    },
+    {
+      "id": "22ce3bd91fdc0783",
+      "keyword": "해치텍",
+      "companyName": "해치텍",
+      "title": "[공모주 현황] 해치텍, 반도체 센서 기업…공모가 2만3000원·IC 기술력 ...",
+      "description": "IPO 자료사진. AI가 생성한 이미지. 반도체 센서 IC 전문기업 해치텍이 12일 일반투자자를 대상으로 공모주... 해치텍은 코스닥시장 상장을 추진하고 있다. 업종은 반도체 제조업으로 분류된다. 회사의 희망 공모가...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=597548",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=597548",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-12T01:32:00.000Z"
+    },
+    {
+      "id": "8f319b8702890c71",
+      "keyword": "니어스랩",
+      "companyName": "니어스랩",
+      "title": "[공모주 현황] 니어스랩, 기관 경쟁률 743대 1 흥행…12일 일반청약 시작",
+      "description": "IPO 자료사진. AI가 생성한 이미지. AI 자율비행 기술을 앞세운 니어스랩이 코스닥 상장을 향한 일반투자자 청약 일정에 돌입한다. 기관 수요예측에서 743대 1이 넘는 경쟁률을 기록하며 공모가를 희망 범위 최상단으로...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=597546",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=597546",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-12T01:30:00.000Z"
+    },
     {
       "id": "a456bc86b6835514",
       "keyword": "덕산넵코어스",
@@ -40,28 +106,6 @@
       "publishedAt": "2026-08-11T07:44:00.000Z"
     },
     {
-      "id": "d24d216ae9a09674",
-      "keyword": "니어스랩",
-      "companyName": "니어스랩",
-      "title": "니어스랩, 흥행 예감...공모가 '희망 최상단' 4만1200원 확정",
-      "description": "최근 증시 변동성이 확대되고 일부 신규 상장 기업의 주가가 공모가를 밑돌면서 IPO 시장의 투자심리가 위축된 가운데에서도 나온 기록적인 결과다. 삼성증권은 니어스랩이 산업 현장에서 축적한 자율비행 기술을...",
-      "link": "https://www.financialpost.co.kr/news/articleView.html?idxno=270014",
-      "originallink": "https://www.financialpost.co.kr/news/articleView.html?idxno=270014",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-11T06:40:00.000Z"
-    },
-    {
-      "id": "e5ed5086b96fb650",
-      "keyword": "니어스랩",
-      "companyName": "니어스랩",
-      "title": "AI 드론 기업 니어스랩, 최종 공모가 4만1200원…공모가 밴드 상단으로...",
-      "description": "최근 국내 증시는 시장 변동성이 크게 확대됐고, 같은 달 신규 상장한 일부 기업은 상장 첫날 종가가 공모가를 밑돌기도 했다. 이러한 시장 환경으로 인해 IPO 투자심리가 위축된 상황에서도 니어스랩은...",
-      "link": "https://www.livebiz.today/news/articleView.html?idxno=204037",
-      "originallink": "https://www.livebiz.today/news/articleView.html?idxno=204037",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-11T05:40:00.000Z"
-    },
-    {
       "id": "d75f50f90d7428fb",
       "keyword": "글로벌테크놀로지",
       "companyName": "글로벌테크놀로지",
@@ -73,17 +117,6 @@
       "publishedAt": "2026-08-11T05:20:00.000Z"
     },
     {
-      "id": "21420054f1fa74ed",
-      "keyword": "니어스랩",
-      "companyName": "니어스랩",
-      "title": "니어스랩, 공모가 4만1200원 확정…기관 경쟁률 743.5대 1",
-      "description": "[사진=니어스랩] 회사 측은 최근 국내 증시의 변동성이 확대되고 같은 달 신규 상장한 일부 기업의 상장 첫날 종가가 공모가를 밑도는 등 기업공개(IPO) 투자심리가 위축된 상황에서 밴드 상단으로 공모가가...",
-      "link": "https://www.newspim.com/news/view/20260811000688",
-      "originallink": "https://www.newspim.com/news/view/20260811000688",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-11T05:09:00.000Z"
-    },
-    {
       "id": "40752591e67e4c49",
       "keyword": "네오사피엔스",
       "companyName": "네오사피엔스",
@@ -93,28 +126,6 @@
       "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=33126",
       "provider": "뉴스 검색",
       "publishedAt": "2026-08-11T05:00:00.000Z"
-    },
-    {
-      "id": "7a16e36927060476",
-      "keyword": "해치텍",
-      "companyName": "해치텍",
-      "title": "K패션, 일본서 통했다…무신사 거래액 182% 급증",
-      "description": "▲ AI 프리즘* 맞춤형 경제 브리핑 * 편집자 주: ‘AI PRISM’(Personalized Report & Insight Summarizing Media)은... 프리 IPO(상장 전 지분투자)에 착수하고, 반도체 센서 팹리스(설계 전문) 기업 해치텍은 공모가를 확정하며 코스닥...",
-      "link": "https://n.news.naver.com/mnews/article/011/0004650502?sid=101",
-      "originallink": "https://www.sedaily.com/article/20077960?ref=naver",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-11T01:03:00.000Z"
-    },
-    {
-      "id": "41b006081d10e7e7",
-      "keyword": "기도산업",
-      "companyName": "기도산업",
-      "title": "[공모주 현황] 기도산업 공모주 청약 첫날…공모가 상단 2만8400원, 21일 ...",
-      "description": "IPO 자료사진. AI가 생성한 이미지. 고기능성 의류 제조기업 기도산업이 코스닥 상장을 위한 일반투자자 대상 공모주 청약에 돌입하면서 투자자들의 관심이 집중되고 있다. 11일 오전 9시대 현재 균등배정수는...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=597011",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=597011",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-11T00:10:00.000Z"
     },
     {
       "id": "e8a9239b1f642364",
@@ -203,17 +214,6 @@
       "originallink": "https://www.sedaily.com/article/20077438?ref=naver",
       "provider": "뉴스 검색",
       "publishedAt": "2026-08-09T21:01:00.000Z"
-    },
-    {
-      "id": "c9f983e51a7fd308",
-      "keyword": "글로벌테크놀로지",
-      "companyName": "글로벌테크놀로지",
-      "title": "中 로봇기술도 패권 강화… 유니트리 IPO에 딥시크도 투자",
-      "description": "IPO 예상 규모는 올 3월 제시한 금액(42억200만 위안)보다 약 45% 늘었다. 기관 수요가 몰리면서 최종 공모가가 크게 올랐기 때문이다. 앞서 지난달 27일 상장한 중국 메모리 반도체 기업 창신메모리테크놀로지(CXMT)는...",
-      "link": "https://n.news.naver.com/mnews/article/020/0003739656?sid=104",
-      "originallink": "https://www.donga.com/news/Inter/article/all/20260810/134445902/2",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-09T19:33:00.000Z"
     },
     {
       "id": "0455054a27585535",
@@ -326,6 +326,17 @@
       "publishedAt": "2026-08-03T05:42:00.000Z"
     },
     {
+      "id": "19695b8859c08d6a",
+      "keyword": "판타지오",
+      "companyName": "판타지오",
+      "title": "[자금조달 프리뷰] 메리츠금융·하나F&I 공모채…판타지오 유증 '시동'",
+      "description": "메리츠금융지주와 하나에프앤아이(F&I)가 다음주 공모 회사채를 발행한다. 엔터테인먼트 기업 판타지오는 최대주주를 대상으로 한 제3자배정 유상증자를 통해 35억원을 조달한다. 기업공개(IPO) 시장에서는...",
+      "link": "https://n.news.naver.com/mnews/article/293/0000088470?sid=101",
+      "originallink": "https://www.bloter.net/news/articleView.html?idxno=669757",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-02T00:00:00.000Z"
+    },
+    {
       "id": "386983bc57ff6297",
       "keyword": "와이즈플래닛컴퍼니",
       "companyName": "와이즈플래닛컴퍼니",
@@ -390,6 +401,50 @@
       "originallink": "https://www.ppss.kr/news/articleView.html?idxno=277757",
       "provider": "뉴스 검색",
       "publishedAt": "2025-12-08T08:43:00.000Z"
+    },
+    {
+      "id": "fcb1a0706055e05d",
+      "keyword": "판타지오",
+      "companyName": "판타지오",
+      "title": "[13일 특징주] NH투자증권, 자사주 매입·소각 결정에 '52주 신고가'…오...",
+      "description": "한편 코스닥에서는 ▲가비아 ▲플래스크 ▲래몽래인 ▲씨이랩 ▲판타지오가 상한가를 기록했다.... 오상헬스케어는 이번 기업공개(IPO)를 통해 모은 공모자금을 ▲연속혈당측정기(CGM) 개발 ▲신제품 출시...",
+      "link": "http://www.newsworks.co.kr/news/articleView.html?idxno=746456",
+      "originallink": "http://www.newsworks.co.kr/news/articleView.html?idxno=746456",
+      "provider": "뉴스 검색",
+      "publishedAt": "2024-03-13T08:00:00.000Z"
+    },
+    {
+      "id": "302a635bd9e71cbc",
+      "keyword": "판타지오",
+      "companyName": "판타지오",
+      "title": "이주의 주식시장은? 코로나19 확산세에 관련주들 강세, 메타버스·NFT 강...",
+      "description": "현우산업, 판타지오, 버킷스튜디오, 덱스터, 티사이언티픽, FSN, 시그네틱스, 이트론, 엑셈 순이었다. 이날... 마인즈랩(+28.16%)은 상장 첫 날 급등했다. 시초가는 공모가인 3만원보다 1.16% 낮은 2만9650원에 형성됐다....",
+      "link": "http://www.ggilbo.com/news/articleView.html?idxno=882053",
+      "originallink": "http://www.ggilbo.com/news/articleView.html?idxno=882053",
+      "provider": "뉴스 검색",
+      "publishedAt": "2021-11-28T05:42:00.000Z"
+    },
+    {
+      "id": "b88d403e6c728305",
+      "keyword": "판타지오",
+      "companyName": "판타지오",
+      "title": "[마감종합기사] 삼성전자·SK하이닉스 상승에 반도체주 강세, 상한가 4종...",
+      "description": "상장 직후 '따상'에 오르기도 했으나 이후 시초가 대비 3850원 내린 3만8950원에 거래를 마쳤다. 이는 공모... 현우산업, 판타지오, 버킷스튜디오, 덱스터, 티사이언티픽, FSN, 시그네틱스, 이트론, 엑셈 순이었다....",
+      "link": "http://www.ggilbo.com/news/articleView.html?idxno=880915",
+      "originallink": "http://www.ggilbo.com/news/articleView.html?idxno=880915",
+      "provider": "뉴스 검색",
+      "publishedAt": "2021-11-22T07:20:00.000Z"
+    },
+    {
+      "id": "2658fbecb0a572bf",
+      "keyword": "판타지오",
+      "companyName": "판타지오",
+      "title": "이주의 주식시장은? 메타버스·NFT관련주 계속되는 강세, 애플카 관련주...",
+      "description": "IPO)를 추진하기 위해 대표 주관사로 한국투자증권을 선정했다는 기대감에 급등한 것으로 풀이된다. 플루오린코리아는 17일 대표주관사와 계약을 체결하고 오는 2023년 상장을 목표로 내부조직을 정비해 공모절차...",
+      "link": "http://www.ggilbo.com/news/articleView.html?idxno=880516",
+      "originallink": "http://www.ggilbo.com/news/articleView.html?idxno=880516",
+      "provider": "뉴스 검색",
+      "publishedAt": "2021-11-20T02:46:00.000Z"
     }
   ]
 }

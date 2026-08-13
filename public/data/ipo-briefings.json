@@ -1,64 +1,14 @@
 {
   "metadata": {
     "source": "local-rules",
-    "generatedAt": "2026-08-13T08:48:55.674Z",
+    "generatedAt": "2026-08-13T23:01:49.522Z",
     "model": null,
     "itemCount": 8,
     "geminiUsed": 0,
-    "cacheUsed": 2,
+    "cacheUsed": 1,
     "policy": "회사 설명, IPO 단계, 일정, 경쟁률 뉴스 언급, 원문 확인 포인트만 표시합니다. 투자 판단 표현은 제외합니다."
   },
   "items": [
-    {
-      "id": "briefing-니어스랩",
-      "ipoId": "니어스랩",
-      "companyName": "니어스랩",
-      "sector": "IPO 일정 확인 대상 기업",
-      "ipoStage": "청약 진행중",
-      "underwriter": "주관사 확인",
-      "basisTimeLabel": "오늘 09:30 기준",
-      "oneLine": "IPO 일정 확인 대상 기업",
-      "body": "니어스랩은 IPO 일정 확인 대상 기업입니다. 08.12 일정 기준으로 청약 진행중 단계라 원문 일정과 변경 여부를 함께 확인합니다.",
-      "points": [
-        "청약 시작·마감일 확인",
-        "환불일 확인",
-        "정정 공시 여부 확인"
-      ],
-      "sourceLabels": [
-        "DART 일정",
-        "환불일 확인",
-        "뉴스 검색",
-        "주관사 확인"
-      ],
-      "competition": null,
-      "generatedBy": "local-rules",
-      "model": null
-    },
-    {
-      "id": "briefing-해치텍",
-      "ipoId": "해치텍",
-      "companyName": "해치텍",
-      "sector": "IPO 일정 확인 대상 기업",
-      "ipoStage": "청약 진행중",
-      "underwriter": "주관사 확인",
-      "basisTimeLabel": "오늘 09:30 기준",
-      "oneLine": "IPO 일정 확인 대상 기업",
-      "body": "해치텍은 IPO 일정 확인 대상 기업입니다. 08.12 일정 기준으로 청약 진행중 단계라 원문 일정과 변경 여부를 함께 확인합니다.",
-      "points": [
-        "청약 시작·마감일 확인",
-        "환불일 확인",
-        "정정 공시 여부 확인"
-      ],
-      "sourceLabels": [
-        "DART 일정",
-        "환불일 확인",
-        "뉴스 검색",
-        "주관사 확인"
-      ],
-      "competition": null,
-      "generatedBy": "local-rules",
-      "model": null
-    },
     {
       "id": "briefing-스카이랩스",
       "ipoId": "스카이랩스",
@@ -67,21 +17,22 @@
       "ipoStage": "청약 예정",
       "underwriter": "주관사 확인",
       "basisTimeLabel": "오늘 09:30 기준",
-      "oneLine": "디지털 헬스케어 기업 스카이랩스",
-      "body": "스카이랩스는 디지털 헬스케어 기업입니다. 현재 청약 예정 단계이며, 08.26 청약 시작 전 일정입니다. 기관 수요예측 진행 여부와 공모주 청약 일정을 확인합니다.",
+      "oneLine": "IPO 일정 확인 대상 기업",
+      "body": "스카이랩스는 IPO 일정 확인 대상 기업입니다. 08.26 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
       "points": [
-        "청약 시작 및 마감일 확인",
-        "환불일 및 상장일 확인",
+        "청약 시작·마감일 확인",
+        "환불일 확인",
         "정정 공시 여부 확인"
       ],
       "sourceLabels": [
+        "DART 일정",
+        "환불일 확인",
         "뉴스 검색",
-        "DART 공시",
-        "주관사 공지"
+        "주관사 확인"
       ],
       "competition": null,
-      "generatedBy": "gemini-cache",
-      "model": "gemini-2.5-flash"
+      "generatedBy": "local-rules",
+      "model": null
     },
     {
       "id": "briefing-엔에이치기업인수목적34호",
@@ -200,6 +151,55 @@
       "sourceLabels": [
         "DART 일정",
         "환불일 확인",
+        "뉴스 검색",
+        "주관사 확인"
+      ],
+      "competition": null,
+      "generatedBy": "local-rules",
+      "model": null
+    },
+    {
+      "id": "briefing-케이비제34호기업인수목적",
+      "ipoId": "케이비제34호기업인수목적",
+      "companyName": "케이비제34호기업인수목적",
+      "sector": "IPO 일정 확인 대상 기업",
+      "ipoStage": "청약 예정",
+      "underwriter": "주관사 확인",
+      "basisTimeLabel": "오늘 09:30 기준",
+      "oneLine": "IPO 일정 확인 대상 기업",
+      "body": "케이비제34호기업인수목적은 IPO 일정 확인 대상 기업입니다. 09.10 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 09.15, 변경 여부를 함께 확인합니다.",
+      "points": [
+        "청약 시작·마감일 확인",
+        "환불일 확인",
+        "정정 공시 여부 확인"
+      ],
+      "sourceLabels": [
+        "DART 일정",
+        "환불일 09.15",
+        "주관사 확인"
+      ],
+      "competition": null,
+      "generatedBy": "local-rules",
+      "model": null
+    },
+    {
+      "id": "briefing-와이즈플래닛컴퍼니",
+      "ipoId": "와이즈플래닛컴퍼니",
+      "companyName": "와이즈플래닛컴퍼니",
+      "sector": "IPO 일정 확인 대상 기업",
+      "ipoStage": "청약 예정",
+      "underwriter": "주관사 확인",
+      "basisTimeLabel": "오늘 09:30 기준",
+      "oneLine": "IPO 일정 확인 대상 기업",
+      "body": "와이즈플래닛컴퍼니는 IPO 일정 확인 대상 기업입니다. 09.14 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 09.17, 변경 여부를 함께 확인합니다.",
+      "points": [
+        "청약 시작·마감일 확인",
+        "환불일 확인",
+        "정정 공시 여부 확인"
+      ],
+      "sourceLabels": [
+        "DART 일정",
+        "환불일 09.17",
         "뉴스 검색",
         "주관사 확인"
       ],

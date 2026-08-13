@@ -1,21 +1,87 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-08-12T23:13:27.005Z",
+    "updatedAt": "2026-08-13T22:59:10.741Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
-    "queryCount": 12
+    "queryCount": 11
   },
   "items": [
     {
-      "id": "eb9853b20826292b",
-      "keyword": "해치텍",
-      "companyName": "해치텍",
-      "title": "[더벨][해치텍 IPO] 기관 수요예측 양극화에 공모가 하단 결정",
-      "description": "해치텍은 공모가를 밴드 하단까지 낮춘 만큼 향후 일반 청약 및 상장 후 주가 상승 여력을 보여주는 데 집중한다는 입장이다. 오는 12일부터 13일까지 전체 공모물량의 25%인 25만주를 대상으로 청약을 진행한 뒤...",
-      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608111407564520101853",
-      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608111407564520101853",
+      "id": "2f3d1b3f41674023",
+      "keyword": "브릴스",
+      "companyName": "브릴스",
+      "title": "로봇 모듈화 플랫폼 '브릴스', 코스닥으로...피지컬 AI, 지능형 로봇 플...",
+      "description": "브릴스는 13일, 서울 여의도에서 IPO 기자간담회를 열고 코스닥 상장 추진 배경과 핵심 경쟁력, 향후 성장... 브릴스는 이번 상장에서 신주 120만주를 공모한다. 희망 공모가 범위는 1만6500원~1만9500원이며, 공모 예정...",
+      "link": "https://www.aitimes.kr/news/articleView.html?idxno=41443",
+      "originallink": "https://www.aitimes.kr/news/articleView.html?idxno=41443",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-08-12T22:02:00.000Z"
+      "publishedAt": "2026-08-13T11:36:00.000Z"
+    },
+    {
+      "id": "8ca95bebba371a48",
+      "keyword": "브릴스",
+      "companyName": "브릴스",
+      "title": "[현장] 브릴스, 로봇 '모듈화'로 코스닥 도전…피지컬AI 확장, 현금흐름...",
+      "description": "전진 브릴스 대표이사가 13일 서울 여의도 CCMM빌딩에서 열린 기업공개(IPO) 기자간담회에서 브릴스의 '로봇... 브릴스는 이번 상장에서 신주 120만주를 공모한다. 희망 공모가는 1만6500~1만9500원으로 공모 예정 금액은 198억...",
+      "link": "https://www.straightnews.co.kr/news/articleView.html?idxno=308922",
+      "originallink": "https://www.straightnews.co.kr/news/articleView.html?idxno=308922",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-13T08:34:00.000Z"
+    },
+    {
+      "id": "bef235686636451c",
+      "keyword": "브릴스",
+      "companyName": "브릴스",
+      "title": "[현장] 브릴스, 9월 코스닥 입성 추진…피지컬 AI로 성장동력 확대",
+      "description": "\" 로봇 모듈화 플랫폼 솔루션 기업 브릴스의 전진 대표가 13일 서울 여의도 기업공개(IPO) 기자간담회를... 브릴스는 코스닥 상장을 통해 확보한 공모자금을 피지컬 AI 및 온디바이스 AI 기술 고도화, AX 기반 신규 솔루션...",
+      "link": "http://www.ftoday.co.kr/news/articleView.html?idxno=363599",
+      "originallink": "http://www.ftoday.co.kr/news/articleView.html?idxno=363599",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-13T08:22:00.000Z"
+    },
+    {
+      "id": "c66022bf9bee59f5",
+      "keyword": "브릴스",
+      "companyName": "브릴스",
+      "title": "브릴스, 9월 코스닥 상장 도전…피지컬 AI로 글로벌 로봇 플랫폼 기업 도...",
+      "description": "브릴스는 13일 서울 여의도에서 IPO 기자간담회를 열고 코스닥 상장 추진 배경과 향후 성장 전략을... 한편 브릴스는 이번 상장을 통해 총 120만 주를 공모한다. 희망 공모가 범위는 1만6500원~1만9500원이며, 총 공모 예정...",
+      "link": "https://n.news.naver.com/mnews/article/031/0001049576?sid=101",
+      "originallink": "http://www.inews24.com/view/1994792",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-13T07:18:00.000Z"
+    },
+    {
+      "id": "bf5f3e6c1f7a8b16",
+      "keyword": "브릴스",
+      "companyName": "브릴스",
+      "title": "브릴스, 코스닥 상장 추진...\"로봇 모듈화 플랫폼으로 피지컬 AI 선도할...",
+      "description": "브릴스는 13일 서울 여의도에서 기업공개(IPO) 기자간담회를 열고 코스닥 상장 추진 배경과 성장 전략을 공개했다. 브릴스는 이번 상장에서 신주 120만주를 공모한다. 희망 공모가 범위는 1만6500~1만9500원이며, 공모 예정...",
+      "link": "https://www.newspim.com/news/view/20260813001179",
+      "originallink": "https://www.newspim.com/news/view/20260813001179",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-13T07:13:00.000Z"
+    },
+    {
+      "id": "31cb66982209375f",
+      "keyword": "글로벌테크놀로지",
+      "companyName": "글로벌테크놀로지",
+      "title": "[네오사피엔스 IPO] FI 지원사격…수급 부담 최소화",
+      "description": "네오사피엔스는 2017년 설립 이후 지난해 프리 IPO(상장 전 투자 유치) 단계를 거치며 427억원에 달하는 외부... 현재 증권신고서를 내고 공모 준비에 한창인 브릴스(26.42%), 글로벌테크놀로지(22.26%) 등과 비교해도...",
+      "link": "https://www.the-stock.kr/news/articleView.html?idxno=33152",
+      "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=33152",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-13T02:34:00.000Z"
+    },
+    {
+      "id": "a424ebae52181281",
+      "keyword": "엣지파운드리",
+      "companyName": "엣지파운드리",
+      "title": "[N2 증시 풍향계] MLCC株 '강세'…미래컴퍼니·한탑 '강세', 케이앤에스...",
+      "description": "코스닥 상장일 장 초반 급등하고 있다. 같은 시각 케이앤에스아이앤씨는 코스닥시장에서 공모가... 한편 이밖에 금호전기(30.00%)와 디알텍(29.98%), 골드앤에스(29.95%), 엣지파운드리(29.84%) 등도 이날 상한가를...",
+      "link": "https://www.news2day.co.kr/article/20260813500122",
+      "originallink": "https://www.news2day.co.kr/article/20260813500122",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-13T01:40:00.000Z"
     },
     {
       "id": "2ad0d9e289304bcc",
@@ -29,17 +95,6 @@
       "publishedAt": "2026-08-12T21:15:00.000Z"
     },
     {
-      "id": "d77da6d7b14ceece",
-      "keyword": "니어스랩",
-      "companyName": "니어스랩",
-      "title": "[공모주 투데이] 니어스랩 청약 1일차 마무리, 균등·비례 경쟁률은?......",
-      "description": "IPO 자료사진. AI가 생성한 이미지. AI 기반 자율비행 드론 솔루션 공급 기업 니어스랩의 공모주 청약이... 기관 수요예측에 이어 일반청약을 거쳐 증시에 입성하는 니어스랩이 상장 첫날 공모가 4만1200원 대비 어떤...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=597676",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=597676",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-12T07:04:00.000Z"
-    },
-    {
       "id": "d5d4cd429c471711",
       "keyword": "덕산넵코어스",
       "companyName": "덕산넵코어스",
@@ -49,28 +104,6 @@
       "originallink": "https://www.etoday.co.kr/news/view/2613788",
       "provider": "뉴스 검색",
       "publishedAt": "2026-08-12T06:42:00.000Z"
-    },
-    {
-      "id": "22ce3bd91fdc0783",
-      "keyword": "해치텍",
-      "companyName": "해치텍",
-      "title": "[공모주 현황] 해치텍, 반도체 센서 기업…공모가 2만3000원·IC 기술력 ...",
-      "description": "IPO 자료사진. AI가 생성한 이미지. 반도체 센서 IC 전문기업 해치텍이 12일 일반투자자를 대상으로 공모주... 해치텍은 코스닥시장 상장을 추진하고 있다. 업종은 반도체 제조업으로 분류된다. 회사의 희망 공모가...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=597548",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=597548",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-12T01:32:00.000Z"
-    },
-    {
-      "id": "8f319b8702890c71",
-      "keyword": "니어스랩",
-      "companyName": "니어스랩",
-      "title": "[공모주 현황] 니어스랩, 기관 경쟁률 743대 1 흥행…12일 일반청약 시작",
-      "description": "IPO 자료사진. AI가 생성한 이미지. AI 자율비행 기술을 앞세운 니어스랩이 코스닥 상장을 향한 일반투자자 청약 일정에 돌입한다. 기관 수요예측에서 743대 1이 넘는 경쟁률을 기록하며 공모가를 희망 범위 최상단으로...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=597546",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=597546",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-12T01:30:00.000Z"
     },
     {
       "id": "a456bc86b6835514",
@@ -129,10 +162,10 @@
     },
     {
       "id": "e8a9239b1f642364",
-      "keyword": "브릴스",
-      "companyName": "브릴스",
+      "keyword": "스카이랩스",
+      "companyName": "스카이랩스",
       "title": "[N2 뷰] 거품 꺼지는 K-IPO...하반기 '슈퍼 루키' 등장할까",
-      "description": "[그림=제미나이] [뉴스투데이=임성지 기자] 7월 코스닥에 상장한 새내기주들의 주가가 공모가 대비 크게... 네이사피엔스 △브릴스 등이 코스닥 상장을 위한 절차를 진행 중이다. 이처럼 복수의 기업이 기업공개(IPO)를...",
+      "description": "또 △기도산업 △해치텍 △니어스랩 △스카이랩스 △네이사피엔스 △브릴스 등이 코스닥 상장을 위한 절차를 진행 중이다. 이처럼 복수의 기업이 기업공개(IPO)를 추진하고 있으나 코스닥 시장의 상황은 녹록지 않다....",
       "link": "https://www.news2day.co.kr/article/20260810500085",
       "originallink": "https://www.news2day.co.kr/article/20260810500085",
       "provider": "뉴스 검색",
@@ -172,17 +205,6 @@
       "publishedAt": "2026-08-10T08:10:00.000Z"
     },
     {
-      "id": "ace7b42f59b42496",
-      "keyword": "브릴스",
-      "companyName": "브릴스",
-      "title": "“대출에서 IPO까지”…장민영號 기업은행, 중소기업 ‘자본시장 사다리...",
-      "description": "회사채, IPO 등 다양한 자금조달 수단을 연결할 수 있기 때문이다. 실체적 기반도 갖춰져 있다. IBK투자증권은 최근 브릴스, 케이앤에스아이앤씨 등의 코스닥 상장 공모주 청약을 성료하는 등 자본시장 내 IB 역량을...",
-      "link": "https://www.fntimes.com/html/view.php?ud=2026081013574881022a735e27af_18",
-      "originallink": "https://www.fntimes.com/html/view.php?ud=2026081013574881022a735e27af_18",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-10T05:08:00.000Z"
-    },
-    {
       "id": "546f266f64185862",
       "keyword": "스카이랩스",
       "companyName": "스카이랩스",
@@ -192,17 +214,6 @@
       "originallink": "http://www.inews24.com/view/1993304",
       "provider": "뉴스 검색",
       "publishedAt": "2026-08-10T00:19:00.000Z"
-    },
-    {
-      "id": "07cb5dffe16a25be",
-      "keyword": "글로벌테크놀로지",
-      "companyName": "글로벌테크놀로지",
-      "title": "[스페셜리포트]인제니아테라퓨틱스, MSD 후기 임상 오른 'IGT-427'…TIE2 기...",
-      "description": "공모금액은 600억원이며, 상장주선인 의무인수금액 30억원을 합친 총 조달액은 630억원이다. 발행비용을... 한상열 대표는 하버드대학교 의과대학과 삼성종합기술원, IBS 혈관연구센터, 셀 시그널링 테크놀로지에...",
-      "link": "https://www.yakup.com/news/index.html?mode=view&cat=12&nid=330838",
-      "originallink": "https://www.yakup.com/news/index.html?mode=view&cat=12&nid=330838",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-09T21:02:00.000Z"
     },
     {
       "id": "fc0d5a62cb5841c4",
@@ -225,17 +236,6 @@
       "originallink": "https://daily.hankooki.com/news/articleView.html?idxno=1393083",
       "provider": "뉴스 검색",
       "publishedAt": "2026-08-08T00:00:00.000Z"
-    },
-    {
-      "id": "432ce5de277100c0",
-      "keyword": "브릴스",
-      "companyName": "브릴스",
-      "title": "중국 휴머노이드 잇딴 IPO...K-로봇은 어디쯤?",
-      "description": "25일 상장할 예정이다. 로봇 모듈화 플랫폼 솔루션 전문기업 브릴스도 코스닥 시장 상장을 준비 중이다.25일... 올해 IPO에 나선 기업 21곳 가운데 현재 주가가 공모가보다 높은 곳은 코스모로보틱스가 유일하다.상장 관련...",
-      "link": "https://news.mtn.co.kr/news-detail/2026080614064056634",
-      "originallink": "https://news.mtn.co.kr/news-detail/2026080614064056634",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-06T06:04:00.000Z"
     },
     {
       "id": "0e6cf7e562d9d024",
@@ -269,17 +269,6 @@
       "originallink": "https://www.etoday.co.kr/news/view/2611381",
       "provider": "뉴스 검색",
       "publishedAt": "2026-08-05T06:42:00.000Z"
-    },
-    {
-      "id": "8289ba951b16dd98",
-      "keyword": "브릴스",
-      "companyName": "브릴스",
-      "title": "상반기 반토막 난 IPO시장, 8월 반등 시험대...니어스랩·해치텍 등 4개...",
-      "description": "상반기 기업공개(IPO) 시장이 신규 상장사와 공모금액 모두 지난해의 절반 수준으로 위축된 가운데 8월 공모시장이 반등 시험대에 오른다. 이달 첫째 주 니어스랩과 해치텍, 빅웨이브로보틱스, 기도산업 등 4개사가...",
-      "link": "https://www.greened.kr/news/articleView.html?idxno=346756",
-      "originallink": "https://www.greened.kr/news/articleView.html?idxno=346756",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-04T06:13:00.000Z"
     },
     {
       "id": "42b8a1265e28bf05",
@@ -348,17 +337,6 @@
       "publishedAt": "2026-07-31T03:08:00.000Z"
     },
     {
-      "id": "2fb1c2819936164d",
-      "keyword": "네오사피엔스",
-      "companyName": "네오사피엔스",
-      "title": "[N2 포커스] 8월 IPO 시장 ‘공모 러시’…케이앤에스아이앤씨·인제니아...",
-      "description": "8월 마지막 날에는 생성형 AI 기업 네오사피엔스가 수요예측에 돌입한다. 기관 수요예측은 다음 달 31일부터 9월 4일까지, 일반청약은 9월 8~9일 진행한다. 희망 공모가는 1만3800~1만5800원이며 대신증권이 상장...",
-      "link": "https://www.news2day.co.kr/article/20260730500187",
-      "originallink": "https://www.news2day.co.kr/article/20260730500187",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-30T19:40:00.000Z"
-    },
-    {
       "id": "7f16b0014b3034f5",
       "keyword": "엣지파운드리",
       "companyName": "엣지파운드리",
@@ -390,17 +368,6 @@
       "originallink": "http://www.finomy.com/news/articleView.html?idxno=245338",
       "provider": "뉴스 검색",
       "publishedAt": "2025-12-13T15:10:00.000Z"
-    },
-    {
-      "id": "3dc76f54dded9653",
-      "keyword": "엣지파운드리",
-      "companyName": "엣지파운드리",
-      "title": "[이번주 공모주] 12월 2주차 수요예측·청약·상장 일정 한눈에 총정리",
-      "description": "엣지, CXL, 자율주행 등 다양한 응용 분야로 설계 영역을 넓히고 있다. 팹리스–디자인하우스–파운드리... 둘째 주 공모주 달력은 상장·청약·수요예측 일정이 촘촘히 배치되며 연말 IPO 시장의 열기를 가늠하는...",
-      "link": "https://www.ppss.kr/news/articleView.html?idxno=277757",
-      "originallink": "https://www.ppss.kr/news/articleView.html?idxno=277757",
-      "provider": "뉴스 검색",
-      "publishedAt": "2025-12-08T08:43:00.000Z"
     },
     {
       "id": "fcb1a0706055e05d",

@@ -1,11 +1,33 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-08-13T22:59:10.741Z",
+    "updatedAt": "2026-08-14T22:53:23.876Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
-    "queryCount": 11
+    "queryCount": 9
   },
   "items": [
+    {
+      "id": "b947a21ef20fe151",
+      "keyword": "브릴스",
+      "companyName": "브릴스",
+      "title": "[봇규의 헬로BOT] ‘AI 자산’ 된 1295개 프로젝트...노하우·경험으로 상...",
+      "description": "브릴스는 이러한 체질 전환의 속도를 올리고 사업 체급을 확대할 수단으로 이번 IPO를 선택했다. 195억 공모 실탄은 ‘피지컬 AI 양산’으로...핵심은 ‘3각 기지’ 구축 회사가 이번 상장을 통해 확보하려는 것은...",
+      "link": "https://www.hellot.net/news/article.html?no=114383",
+      "originallink": "https://www.hellot.net/news/article.html?no=114383",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-14T08:54:00.000Z"
+    },
+    {
+      "id": "edcfb5296a9212e6",
+      "keyword": "브릴스",
+      "companyName": "브릴스",
+      "title": "브릴스, IPO 기자간담회 \"로봇 모듈화 플랫폼으로 피지컬 AI 시장 선도\"",
+      "description": "로봇 모듈화 플랫폼 솔루션 전문기업 브릴스(대표 전진)가 13일 서울 여의도에서 기업공개(IPO)... 브릴스는 이번 상장에서 신주 120만주를 공모한다. 희망 공모가는 1만6500~1만9500원, 공모 예정 금액은 약 198억...",
+      "link": "https://www.betanews.net/article/view/beta202608140053",
+      "originallink": "https://www.betanews.net/article/view/beta202608140053",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-14T08:52:00.000Z"
+    },
     {
       "id": "2f3d1b3f41674023",
       "keyword": "브릴스",
@@ -38,28 +60,6 @@
       "originallink": "http://www.ftoday.co.kr/news/articleView.html?idxno=363599",
       "provider": "뉴스 검색",
       "publishedAt": "2026-08-13T08:22:00.000Z"
-    },
-    {
-      "id": "c66022bf9bee59f5",
-      "keyword": "브릴스",
-      "companyName": "브릴스",
-      "title": "브릴스, 9월 코스닥 상장 도전…피지컬 AI로 글로벌 로봇 플랫폼 기업 도...",
-      "description": "브릴스는 13일 서울 여의도에서 IPO 기자간담회를 열고 코스닥 상장 추진 배경과 향후 성장 전략을... 한편 브릴스는 이번 상장을 통해 총 120만 주를 공모한다. 희망 공모가 범위는 1만6500원~1만9500원이며, 총 공모 예정...",
-      "link": "https://n.news.naver.com/mnews/article/031/0001049576?sid=101",
-      "originallink": "http://www.inews24.com/view/1994792",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-13T07:18:00.000Z"
-    },
-    {
-      "id": "bf5f3e6c1f7a8b16",
-      "keyword": "브릴스",
-      "companyName": "브릴스",
-      "title": "브릴스, 코스닥 상장 추진...\"로봇 모듈화 플랫폼으로 피지컬 AI 선도할...",
-      "description": "브릴스는 13일 서울 여의도에서 기업공개(IPO) 기자간담회를 열고 코스닥 상장 추진 배경과 성장 전략을 공개했다. 브릴스는 이번 상장에서 신주 120만주를 공모한다. 희망 공모가 범위는 1만6500~1만9500원이며, 공모 예정...",
-      "link": "https://www.newspim.com/news/view/20260813001179",
-      "originallink": "https://www.newspim.com/news/view/20260813001179",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-13T07:13:00.000Z"
     },
     {
       "id": "31cb66982209375f",
@@ -95,28 +95,6 @@
       "publishedAt": "2026-08-12T21:15:00.000Z"
     },
     {
-      "id": "d5d4cd429c471711",
-      "keyword": "덕산넵코어스",
-      "companyName": "덕산넵코어스",
-      "title": "[장외시황] 니어스랩ㆍ해치텍, 공모주 청약시작",
-      "description": "공모가는 2만3000원이며 수요예측 갱쟁률은 101.91:1을 기록했다. IPO(기업공개)관련 상장 예비심사 청구종목으로 특수 목적용 항법 및 항재밍 토탈 솔루션 전문기업 덕산넵코어스(구.넵코어스)가 전날과 동일한...",
-      "link": "https://www.etoday.co.kr/news/view/2613788",
-      "originallink": "https://www.etoday.co.kr/news/view/2613788",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-12T06:42:00.000Z"
-    },
-    {
-      "id": "a456bc86b6835514",
-      "keyword": "덕산넵코어스",
-      "companyName": "덕산넵코어스",
-      "title": "상반기 가뭄 끝낸 IPO, 하반기 기지개… 공급 회복에도 ‘옥석 가리기’...",
-      "description": "상반기 신규상장 17곳…지난해 절반 못미쳐 일반청약 1000대1 이상 82%…공모주 투자 수요는 견조 하반기 IPO... 에식스솔루션즈가 상장예비심사를 철회했고, 코스닥시장에서는 디티에스와 덕산넵코어스 등의 심사가...",
-      "link": "https://n.news.naver.com/mnews/article/366/0001185668?sid=101",
-      "originallink": "https://biz.chosun.com/stock/stock_general/2026/08/12/T7N6YUOVVJAE5OGL6TY44Q7ROI/?utm_source=naver&utm_medium=original&utm_campaign=biz",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-11T21:01:00.000Z"
-    },
-    {
       "id": "b3188a140a6ed625",
       "keyword": "빅웨이브로보틱스",
       "companyName": "빅웨이브로보틱스",
@@ -128,17 +106,6 @@
       "publishedAt": "2026-08-11T15:01:00.000Z"
     },
     {
-      "id": "66b49f1052c7a266",
-      "keyword": "덕산넵코어스",
-      "companyName": "덕산넵코어스",
-      "title": "[장외시황] 기도산업, 공모주 청약 시작",
-      "description": "86%)으로 약세를 나타냈다. 기업공개(IPO) 관련 상장 예비심사 청구종목으로 특수 목적용 항법 및 항재밍 토탈 솔루션 전문기업 덕산넵코어스가 호가 2만250원(2.53%)으로 상승하며 장을 마감했다.",
-      "link": "https://www.etoday.co.kr/news/view/2613372",
-      "originallink": "https://www.etoday.co.kr/news/view/2613372",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-11T07:44:00.000Z"
-    },
-    {
       "id": "d75f50f90d7428fb",
       "keyword": "글로벌테크놀로지",
       "companyName": "글로벌테크놀로지",
@@ -148,17 +115,6 @@
       "originallink": "http://www.newsworker.co.kr/news/articleView.html?idxno=440662",
       "provider": "뉴스 검색",
       "publishedAt": "2026-08-11T05:20:00.000Z"
-    },
-    {
-      "id": "40752591e67e4c49",
-      "keyword": "네오사피엔스",
-      "companyName": "네오사피엔스",
-      "title": "[네오사피엔스 IPO] AI 음성 기업 출격, 시장은 '기대반 우려반'",
-      "description": "11일 투자은행(IB) 업계에 따르면 네오사피엔스는 지난달 금융위원회에 증권신고서를 제출했다. 총 공모주식은 200만주, 공모 희망밴드는 1만3800~1만5800원이다. 상장 후 예상 시가총액은 1683억~1926억원이다. 기관...",
-      "link": "https://www.the-stock.kr/news/articleView.html?idxno=33126",
-      "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=33126",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-11T05:00:00.000Z"
     },
     {
       "id": "e8a9239b1f642364",
@@ -184,8 +140,8 @@
     },
     {
       "id": "9a1542d312126af7",
-      "keyword": "덕산넵코어스",
-      "companyName": "덕산넵코어스",
+      "keyword": "글로벌테크놀로지",
+      "companyName": "글로벌테크놀로지",
       "title": "올해 새내기株 85% 공모가 밑돌아…심사 통과해도 코스닥행 미룬다 [시...",
       "description": "금감원의 신고서 심사가 예년 대비 촘촘해진 가운데 연내 상장을 위해서는 발 빠른 공모 절차가 필요하지만 주관사마다 조심스러운 분위기가 감지된다. 이처럼 기업들이 IPO 고삐를 느슨하게 쥐는 것은 상장 후 주가...",
       "link": "https://n.news.naver.com/mnews/article/011/0004650330?sid=101",

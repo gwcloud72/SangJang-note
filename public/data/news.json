@@ -1,11 +1,33 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-08-15T22:30:51.888Z",
+    "updatedAt": "2026-08-16T22:30:34.902Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "f5e56d8776d67b91",
+      "keyword": "스카이랩스",
+      "companyName": "스카이랩스",
+      "title": "[IPO 워치] 인제니아·기도산업 코스닥 입성…스카이랩스 수요예측",
+      "description": "인제니아 18일·기도산업 21일 상장 이번 주 일반투자자 공모청약 없어 스카이랩스 21일까지 기관... [그림=챗GPT] [뉴스투데이=염보라 기자] 8월 셋째 주(18~21일) 기업공개(IPO) 시장에서는 바이오기업...",
+      "link": "https://www.news2day.co.kr/article/20260816500050",
+      "originallink": "https://www.news2day.co.kr/article/20260816500050",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-16T19:48:00.000Z"
+    },
+    {
+      "id": "309614f7fcfe1a1e",
+      "keyword": "스카이랩스",
+      "companyName": "스카이랩스",
+      "title": "이번 주 인제니아·기도산업 코스닥 상장…청약 경쟁률 올해 IPO 최저",
+      "description": "이번 주(8월 18일~21일) 기업공개(IPO) 시장에서 인제니아테라퓨틱스와 기도산업이 코스닥시장에 입성한다. 디지털 헬스케어 기업 스카이랩스는 지난주에 이어 기관 투자자 대상 수요예측을 진행한다. 16일...",
+      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4430348",
+      "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4430348",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-16T04:02:00.000Z"
+    },
     {
       "id": "16d8a12cdfc43827",
       "keyword": "스카이랩스",
@@ -181,17 +203,6 @@
       "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=33126",
       "provider": "뉴스 검색",
       "publishedAt": "2026-08-11T05:00:00.000Z"
-    },
-    {
-      "id": "e8a9239b1f642364",
-      "keyword": "스카이랩스",
-      "companyName": "스카이랩스",
-      "title": "[N2 뷰] 거품 꺼지는 K-IPO...하반기 '슈퍼 루키' 등장할까",
-      "description": "또 △기도산업 △해치텍 △니어스랩 △스카이랩스 △네이사피엔스 △브릴스 등이 코스닥 상장을 위한 절차를 진행 중이다. 이처럼 복수의 기업이 기업공개(IPO)를 추진하고 있으나 코스닥 시장의 상황은 녹록지 않다....",
-      "link": "https://www.news2day.co.kr/article/20260810500085",
-      "originallink": "https://www.news2day.co.kr/article/20260810500085",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-10T21:02:00.000Z"
     },
     {
       "id": "609059bc5282d583",

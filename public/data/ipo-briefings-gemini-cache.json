@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "updatedAt": "2026-08-16T22:32:45.756Z",
+    "updatedAt": "2026-08-17T01:59:02.570Z",
     "source": "gemini-briefing-cache"
   },
   "items": [
@@ -413,6 +413,36 @@
         "model": null
       },
       "updatedAt": "2026-08-14T08:42:14.867Z"
+    },
+    {
+      "key": "0865bf5fa4684088df6a3c9d",
+      "model": "gemini-2.5-flash",
+      "briefing": {
+        "id": "briefing-엣지파운드리",
+        "ipoId": "엣지파운드리",
+        "companyName": "엣지파운드리",
+        "sector": "IPO 일정 확인 대상 기업",
+        "ipoStage": "청약 예정",
+        "underwriter": "주관사 확인",
+        "basisTimeLabel": "오늘 09:30 기준",
+        "oneLine": "IPO 일정 확인 대상 기업",
+        "body": "엣지파운드리는 IPO 일정 확인 대상 기업입니다. 09.02 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 09.07, 변경 여부를 함께 확인합니다.",
+        "points": [
+          "청약 시작·마감일 확인",
+          "환불일 확인",
+          "정정 공시 여부 확인"
+        ],
+        "sourceLabels": [
+          "DART 일정",
+          "환불일 09.07",
+          "뉴스 검색",
+          "주관사 확인"
+        ],
+        "competition": null,
+        "generatedBy": "local-rules",
+        "model": null
+      },
+      "updatedAt": "2026-08-17T01:58:06.421Z"
     }
   ]
 }

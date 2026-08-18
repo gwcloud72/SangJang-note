@@ -1,11 +1,33 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-08-17T22:55:08.902Z",
+    "updatedAt": "2026-08-18T22:54:56.951Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "5f722bf165459849",
+      "keyword": "브릴스",
+      "companyName": "브릴스",
+      "title": "[혁신기업 돋보기] 브릴스, IPO 통해 글로벌 로봇 플랫폼 기업 탈바꿈",
+      "description": "브릴스는 오는 9월17일 증권시장 상장을 예정하고 있다. 상장에선 120만주를 공모한다. 희망 공모가 범위는 1만6500~1만9500원으로, 공모 예정금액은 약 198억~234억원이다. 전 대표는 \"상장을 통해 확보한 공모자금은 피지컬...",
+      "link": "http://www.metroseoul.co.kr/article/20260818500292",
+      "originallink": "http://www.metroseoul.co.kr/article/20260818500292",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-18T05:10:00.000Z"
+    },
+    {
+      "id": "c381d1033f94ec7e",
+      "keyword": "스카이랩스",
+      "companyName": "스카이랩스",
+      "title": "인제니아·기도산업 코스닥 입성⋯스카이랩스 수요예측",
+      "description": "주 기업공개(IPO) 시장에서는 인제니아테라퓨틱스와 기도산업이 코스닥 시장에 입성한다. 스카이랩스는... 신규 상장한다. 공모가는 1만2000원으로 희망밴드 하단에서 확정됐다. 공모 물량은 한국주식예탁증서(KDR)...",
+      "link": "https://n.news.naver.com/mnews/article/031/0001050278?sid=101",
+      "originallink": "http://www.inews24.com/view/1995641",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-18T00:22:00.000Z"
+    },
     {
       "id": "2c586d23c035d693",
       "keyword": "와이즈플래닛컴퍼니",
@@ -104,17 +126,6 @@
       "originallink": "https://www.straightnews.co.kr/news/articleView.html?idxno=308922",
       "provider": "뉴스 검색",
       "publishedAt": "2026-08-13T08:34:00.000Z"
-    },
-    {
-      "id": "bef235686636451c",
-      "keyword": "브릴스",
-      "companyName": "브릴스",
-      "title": "[현장] 브릴스, 9월 코스닥 입성 추진…피지컬 AI로 성장동력 확대",
-      "description": "\" 로봇 모듈화 플랫폼 솔루션 기업 브릴스의 전진 대표가 13일 서울 여의도 기업공개(IPO) 기자간담회를... 브릴스는 코스닥 상장을 통해 확보한 공모자금을 피지컬 AI 및 온디바이스 AI 기술 고도화, AX 기반 신규 솔루션...",
-      "link": "http://www.ftoday.co.kr/news/articleView.html?idxno=363599",
-      "originallink": "http://www.ftoday.co.kr/news/articleView.html?idxno=363599",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-13T08:22:00.000Z"
     },
     {
       "id": "31cb66982209375f",

@@ -1,18 +1,18 @@
 {
   "metadata": {
-    "updatedAt": "2026-08-17T22:55:01.923Z",
+    "updatedAt": "2026-08-18T22:54:49.755Z",
     "source": "OpenDART",
     "basis": "증권신고서 주요정보 - 지분증권(estkRs), 공시검색(list), 공시원문(document.xml)",
     "dateRange": {
-      "bgnDe": "20260219",
-      "endDe": "20260818"
+      "bgnDe": "20260220",
+      "endDe": "20260819"
     },
     "lookbackDays": 180,
     "lookaheadDays": 120,
-    "totalFilings": 12502,
+    "totalFilings": 12439,
     "totalCompanies": 329,
     "totalItems": 12,
-    "referenceDate": "2026-08-18",
+    "referenceDate": "2026-08-19",
     "status": "ready",
     "candidateItems": 32,
     "futureCandidateItems": 12,
@@ -388,9 +388,9 @@
       "corpCode": "01867688",
       "corpClass": "E",
       "stockCode": "",
-      "receiptNo": "20260729000302",
-      "receiptDate": "2026-07-29",
-      "reportName": "증권신고서(지분증권)",
+      "receiptNo": "20260818000130",
+      "receiptDate": "2026-08-18",
+      "reportName": "[기재정정]증권신고서(지분증권)",
       "securityType": "보통주",
       "offeringMethod": "일반공모",
       "offerPrice": "10,000",
@@ -409,7 +409,7 @@
       "underwriters": [
         "대신증권"
       ],
-      "dartUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260729000302",
+      "dartUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260818000130",
       "mainMatterReceiptNo": "",
       "mainMatterUrl": "",
       "status": "청약 예정",

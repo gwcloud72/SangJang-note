@@ -1,11 +1,22 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-08-18T22:54:56.951Z",
+    "updatedAt": "2026-08-19T22:53:53.324Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "900b50d3fabffbee",
+      "keyword": "글로벌테크놀로지",
+      "companyName": "글로벌테크놀로지",
+      "title": "[글로벌 비즈 브리핑] 모더나 주가 폭등...맞춤형 mRNA 암 치료제 3상 성...",
+      "description": "창신메모리테크놀로지(CXMT)의 기록적인 기업공개(IPO)에 이어 중국 증시 상장에 한 걸음 더 다가섰습니다.... 1위 상장기업에 올랐습니다. 양사는 인공지능(AI) 수요발 글로벌 메모리 공급난과 업계 전반의 수익 급증...",
+      "link": "https://n.news.naver.com/mnews/article/374/0000528290?sid=104",
+      "originallink": "https://biz.sbs.co.kr/article_hub/20000329587?division=NAVER",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-19T19:41:00.000Z"
+    },
     {
       "id": "5f722bf165459849",
       "keyword": "브릴스",

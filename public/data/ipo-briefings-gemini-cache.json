@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "updatedAt": "2026-08-22T07:07:36.230Z",
+    "updatedAt": "2026-08-22T07:49:49.777Z",
     "source": "gemini-briefing-cache"
   },
   "items": [
@@ -503,6 +503,36 @@
         "model": null
       },
       "updatedAt": "2026-08-21T07:12:26.249Z"
+    },
+    {
+      "key": "d2e059a686fc56b1d6000c9d",
+      "model": "gemini-2.5-flash",
+      "briefing": {
+        "id": "briefing-판타지오",
+        "ipoId": "판타지오",
+        "companyName": "판타지오",
+        "sector": "IPO 일정 확인 대상 기업",
+        "ipoStage": "청약 예정",
+        "underwriter": "주관사 확인",
+        "basisTimeLabel": "오늘 09:30 기준",
+        "oneLine": "판타지오는 청약 예정인 IPO 일정 확인 대상 기업입니다.",
+        "body": "엔터테인먼트 기업 판타지오는 최대주주 대상 유상증자를 통해 자금을 조달했습니다. 현재 청약 예정 단계로, 09.01 청약 시작 전 일정과 환불일 09.04, 변경 여부를 확인합니다.",
+        "points": [
+          "청약 시작·마감일 확인",
+          "환불일 확인",
+          "정정 공시 여부 확인"
+        ],
+        "sourceLabels": [
+          "뉴스 검색",
+          "DART 일정",
+          "환불일 09.04",
+          "주관사 확인"
+        ],
+        "competition": null,
+        "generatedBy": "local-rules",
+        "model": null
+      },
+      "updatedAt": "2026-08-22T07:49:24.676Z"
     }
   ]
 }

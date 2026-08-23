@@ -1,54 +1,65 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-08-22T22:27:23.222Z",
+    "updatedAt": "2026-08-23T22:54:20.164Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
     {
-      "id": "4f9fc353acf7a146",
+      "id": "2ea5fbb00ebd10b3",
       "keyword": "스카이랩스",
       "companyName": "스카이랩스",
-      "title": "이번주 공모주 청약, 스카이랩스 1개사",
-      "description": "주(24~28일) 기업공개(IPO) 시장에서는 디지털 헬스케어 기업 스카이랩스 1개사가 일반투자자 대상 공모주... 따르면 스카이랩스는 오는 26일과 27일 양일간 일반투자자 대상으로 공모 청약에 나선다. 청약은 상장...",
-      "link": "https://n.news.naver.com/mnews/article/119/0003124215?sid=101",
-      "originallink": "https://www.dailian.co.kr/news/view/1680641/?sc=Naver",
+      "title": "청약 흥행 갈린 니어스랩·해치텍 코스닥 상장…스카이랩스는 청약",
+      "description": "상장 직후 유통 가능 물량은 전체의 38.42%다. 투자자 보호를 위한 환매청구권(풋백옵션)도 자발적으로 부여했다. 이어 26~27일에는 디지털 헬스케어기업 스카이랩스가 일반투자자 대상 공모청약을 진행한다....",
+      "link": "https://www.newstopkorea.com/news/articleView.html?idxno=47203",
+      "originallink": "https://www.newstopkorea.com/news/articleView.html?idxno=47203",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-08-22T22:02:00.000Z"
+      "publishedAt": "2026-08-23T20:54:00.000Z"
     },
     {
-      "id": "3737a4145e33130a",
+      "id": "7cbb378cff5049a6",
       "keyword": "스카이랩스",
       "companyName": "스카이랩스",
-      "title": "[자금조달 프리뷰] 롯데건설·이랜드월드 공모채…코스닥 2곳 '데뷔'",
-      "description": "니어스랩·해치텍 상장…스카이랩스 청약 IPO 시장에서는 피지컬 인공지능(AI) 기반 자율비행 드론 기업 니어스랩이 이달 24일 코스닥 시장에 진출한다. 니어스랩은 공모가를 희망 범위인 3만~4만1200원의 상단인...",
-      "link": "https://n.news.naver.com/mnews/article/293/0000089405?sid=101",
-      "originallink": "https://www.bloter.net/news/articleView.html?idxno=671538",
+      "title": "[IPO 워치] 니어스랩·해치텍 코스닥 입성…스카이랩스 청약",
+      "description": "25일 상장 공모가 상단·하단 ‘엇갈린 성적’ 스카이랩스 26~27일 일반청약 위 이미지는 기사 이해를 돕기 위해 AI(인공지능)를 활용해 제작했습니다. [그림=챗GPT] [뉴스투데이=염보라 기자] 8월 마지막 주(24~28일)...",
+      "link": "https://www.news2day.co.kr/article/20260822500021",
+      "originallink": "https://www.news2day.co.kr/article/20260822500021",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-08-22T08:00:00.000Z"
+      "publishedAt": "2026-08-23T19:32:00.000Z"
     },
     {
-      "id": "87c179c1724ed394",
+      "id": "febb54d15c28bc91",
       "keyword": "스카이랩스",
       "companyName": "스카이랩스",
-      "title": "니어스랩·해치텍 코스닥 출격…엇갈린 공모 성적표",
-      "description": "기관투자자 수요예측부터 일반청약까지 두 기업의 흥행 성적이 크게 엇갈린 만큼 상장 첫날 주가... 다음 주 일반투자자를 대상으로 한 공모주 청약에는 디지털 헬스케어 기업 스카이랩스가 나선다. 스카이랩스는...",
-      "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1721281",
-      "originallink": "https://www.ebn.co.kr/news/articleView.html?idxno=1721281",
+      "title": "이번 주 니어스랩·해치텍 코스닥 상장…스카이랩스는 청약 나서",
+      "description": "이번 주(8월 24일~28일) 기업공개(IPO) 시장에서 니어스랩과 해치텍 등 2곳이 코스닥시장에 입성한다. 지난주 수요예측을 마친 디지털 헬스케어 기업 스카이랩스는 공모주 청약에 나선다. 23일 연합인포맥스 캘린더...",
+      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4431360",
+      "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4431360",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-08-22T05:46:00.000Z"
+      "publishedAt": "2026-08-23T04:02:00.000Z"
     },
     {
-      "id": "6bb8cd4970953cf4",
+      "id": "fa3f4fd5899877a2",
       "keyword": "스카이랩스",
       "companyName": "스카이랩스",
-      "title": "공모가 희비 갈린 니어스랩·해치텍…나란히 코스닥 상장",
-      "description": "다음 주 기업공개(IPO) 시장에서는 인공지능(AI) 자율비행 드론 기업 니어스랩과 반도체 센서 팹리스 기업 해치텍이 하루 차이로 코스닥시장에 상장합니다. 두 기업은 기관투자자 대상 수요예측에서 공모가가 각각 희망...",
-      "link": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005905942",
-      "originallink": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005905942",
+      "title": "니어스랩·해치텍 코스닥 입성…스카이랩스 26일 청약",
+      "description": "주 기업공개(IPO) 시장에서는 인공지능(AI) 자율비행 드론 기업 니어스랩과 반도체 센서 팹리스 기업 해치텍이 잇따라 코스닥 시장에 입성한다. 웨어러블 의료기기 기업 스카이랩스는 일반투자자를 대상으로 공모주...",
+      "link": "http://www.smedaily.co.kr/news/articleView.html?idxno=362074",
+      "originallink": "http://www.smedaily.co.kr/news/articleView.html?idxno=362074",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-08-22T02:36:00.000Z"
+      "publishedAt": "2026-08-23T02:02:00.000Z"
+    },
+    {
+      "id": "1ce9fcc16f9c5872",
+      "keyword": "스카이랩스",
+      "companyName": "스카이랩스",
+      "title": "니어스랩·해치텍 상장[증시캘린더]",
+      "description": "다음 주(8월 24~28일) 기업공개(IPO) 시장에서는 니어스랩과 해치텍이 코스닥 시장에 상장한다. 스카이랩스는 일반투자자 대상 공모주 청약에 나선다. 8월 24일 △니어스랩 상장 -인공지능(AI) 기반 자율비행 드론...",
+      "link": "https://n.news.naver.com/mnews/article/018/0006356287?sid=101",
+      "originallink": "https://www.edaily.co.kr/News/Read?newsId=01180806645550272&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-23T00:02:00.000Z"
     },
     {
       "id": "ba0cd663880e1690",

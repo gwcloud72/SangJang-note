@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "updatedAt": "2026-08-24T05:57:42.718Z",
+    "updatedAt": "2026-08-24T07:32:51.888Z",
     "source": "gemini-briefing-cache"
   },
   "items": [
@@ -533,6 +533,36 @@
         "model": null
       },
       "updatedAt": "2026-08-22T07:49:24.676Z"
+    },
+    {
+      "key": "3242a964df755d6bb8975c9a",
+      "model": "gemini-2.5-flash",
+      "briefing": {
+        "id": "briefing-엔에이치기업인수목적34호",
+        "ipoId": "엔에이치기업인수목적34호",
+        "companyName": "엔에이치기업인수목적34호",
+        "sector": "IPO 일정 확인 대상 기업",
+        "ipoStage": "청약 예정",
+        "underwriter": "주관사 확인",
+        "basisTimeLabel": "오늘 09:30 기준",
+        "oneLine": "IPO 일정 확인 대상 기업",
+        "body": "엔에이치기업인수목적34호는 IPO 일정 확인 대상 기업입니다. 09.01 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
+        "points": [
+          "청약 시작·마감일 확인",
+          "환불일 확인",
+          "정정 공시 여부 확인"
+        ],
+        "sourceLabels": [
+          "DART 일정",
+          "환불일 확인",
+          "뉴스 검색",
+          "주관사 확인"
+        ],
+        "competition": null,
+        "generatedBy": "local-rules",
+        "model": null
+      },
+      "updatedAt": "2026-08-24T07:32:21.577Z"
     }
   ]
 }

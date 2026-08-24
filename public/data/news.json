@@ -1,11 +1,77 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-08-23T22:54:20.164Z",
+    "updatedAt": "2026-08-24T22:35:42.758Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "c3bc842e727337d7",
+      "keyword": "스카이랩스",
+      "companyName": "스카이랩스",
+      "title": "[증권 Pick] 이번주 IPO 일정 모아보기",
+      "description": "이번 주 기업공개(IPO) 시장에서는 인공지능(AI) 자율비행 드론 기업 니어스랩과 반도체 센서 설계 전문 기업 해치텍이 코스닥에 잇달아 입성한다. 웨어러블 의료기기 기업 스카이랩스는 일반투자자 대상 공모주 청약에...",
+      "link": "https://www.lcnews.co.kr/news/articleView.html?idxno=207007",
+      "originallink": "https://www.lcnews.co.kr/news/articleView.html?idxno=207007",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-24T07:22:00.000Z"
+    },
+    {
+      "id": "58d8a37842ceaec2",
+      "keyword": "덕산넵코어스",
+      "companyName": "덕산넵코어스",
+      "title": "[장외시황] 엘리스그룹ㆍ멜콘, 증권신고서 제출",
+      "description": "00%)으로 약세를 나타냈다. IPO(기업공개)관련 상장 예비심사 청구종목으로 특수 목적용 항법 및 항재밍 토탈 솔루션 전문업체 덕산넵코어스(구 넵코어스)는 1만9000원(-3.80%)으로 떨어졌다.",
+      "link": "https://www.etoday.co.kr/news/view/2617535",
+      "originallink": "https://www.etoday.co.kr/news/view/2617535",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-24T06:48:00.000Z"
+    },
+    {
+      "id": "b964c885fade639e",
+      "keyword": "글로벌테크놀로지",
+      "companyName": "글로벌테크놀로지",
+      "title": "'13억→200억' 휴온스, 인제니아 상장으로 투자 결실 … 바이오 투자성...",
+      "description": "상장 이후 주가가 공모가를 웃돌면서 평가가치는 더욱 커졌다. 이날 오전 11시 기준 인제니아 주가는... 올해 6월 말 기준 휴온스는 메디허브와 노바셀테크놀로지, 엠테라파마, 팜캐드, 앱스바이오, 지투이...",
+      "link": "https://biz.newdaily.co.kr/site/data/html/2026/08/24/2026082400158.html",
+      "originallink": "https://biz.newdaily.co.kr/site/data/html/2026/08/24/2026082400158.html",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-24T04:42:00.000Z"
+    },
+    {
+      "id": "83d528c0c18d3b46",
+      "keyword": "글로벌테크놀로지",
+      "companyName": "글로벌테크놀로지",
+      "title": "중국 반도체 또 상장…양쯔메모리, 6조원대 조달",
+      "description": "(사진=로이터) 24일 중국 관영 글로벌타임스(GT) 등 현지 매체에 따르면 양쯔메모리테크놀로지(YMTC·이하 양쯔메모리)는 최근 상하이 증권거래소에 IPO를 신청했다. 양쯔메모리가 상장할 시장은 ‘중국판 나스닥’으로...",
+      "link": "https://n.news.naver.com/mnews/article/018/0006356964?sid=101",
+      "originallink": "https://www.edaily.co.kr/News/Read?newsId=02909366645550600&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-24T03:06:00.000Z"
+    },
+    {
+      "id": "3df1c2f4f63431a2",
+      "keyword": "스카이랩스",
+      "companyName": "스카이랩스",
+      "title": "니어스랩·해치텍 코스닥 입성…스카이랩스 일반청약 진행",
+      "description": "이번 주 기업공개(IPO) 시장에서는 니어스랩과 해치텍이 상장한다. 스카이랩스는 일반 투자자 대상 공모 청약에 나선다. 24일 금융투자업계에 따르면 이날 인공지능(AI) 기반 자율비행 드론 기업 니어스랩이...",
+      "link": "https://n.news.naver.com/mnews/article/031/0001051752?sid=101",
+      "originallink": "http://www.inews24.com/view/1997473",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-24T00:23:00.000Z"
+    },
+    {
+      "id": "7cad52653dfa14a0",
+      "keyword": "글로벌테크놀로지",
+      "companyName": "글로벌테크놀로지",
+      "title": "中반도체에 몰리는 자본…삼전닉스 '차이나 디스카운트' 커질까",
+      "description": "중국 D램 업체 창신메모리테크놀로지(CXMT)에 이어 낸드플래시 업체 양쯔메모리테크놀로지(YMTC)까지... CXMT는 지난달 상하이 과창판 IPO에서 579억위안(11조9천500억원)을 조달했다. 상장 첫날 주가는 공모가 대비 466...",
+      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4431388",
+      "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4431388",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-23T23:28:00.000Z"
+    },
     {
       "id": "2ea5fbb00ebd10b3",
       "keyword": "스카이랩스",
@@ -38,28 +104,6 @@
       "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4431360",
       "provider": "뉴스 검색",
       "publishedAt": "2026-08-23T04:02:00.000Z"
-    },
-    {
-      "id": "fa3f4fd5899877a2",
-      "keyword": "스카이랩스",
-      "companyName": "스카이랩스",
-      "title": "니어스랩·해치텍 코스닥 입성…스카이랩스 26일 청약",
-      "description": "주 기업공개(IPO) 시장에서는 인공지능(AI) 자율비행 드론 기업 니어스랩과 반도체 센서 팹리스 기업 해치텍이 잇따라 코스닥 시장에 입성한다. 웨어러블 의료기기 기업 스카이랩스는 일반투자자를 대상으로 공모주...",
-      "link": "http://www.smedaily.co.kr/news/articleView.html?idxno=362074",
-      "originallink": "http://www.smedaily.co.kr/news/articleView.html?idxno=362074",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-23T02:02:00.000Z"
-    },
-    {
-      "id": "1ce9fcc16f9c5872",
-      "keyword": "스카이랩스",
-      "companyName": "스카이랩스",
-      "title": "니어스랩·해치텍 상장[증시캘린더]",
-      "description": "다음 주(8월 24~28일) 기업공개(IPO) 시장에서는 니어스랩과 해치텍이 코스닥 시장에 상장한다. 스카이랩스는 일반투자자 대상 공모주 청약에 나선다. 8월 24일 △니어스랩 상장 -인공지능(AI) 기반 자율비행 드론...",
-      "link": "https://n.news.naver.com/mnews/article/018/0006356287?sid=101",
-      "originallink": "https://www.edaily.co.kr/News/Read?newsId=01180806645550272&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-23T00:02:00.000Z"
     },
     {
       "id": "ba0cd663880e1690",
@@ -104,17 +148,6 @@
       "originallink": "https://www.imaeil.com/page/view/2026082009440465941",
       "provider": "뉴스 검색",
       "publishedAt": "2026-08-20T00:59:00.000Z"
-    },
-    {
-      "id": "900b50d3fabffbee",
-      "keyword": "글로벌테크놀로지",
-      "companyName": "글로벌테크놀로지",
-      "title": "[글로벌 비즈 브리핑] 모더나 주가 폭등...맞춤형 mRNA 암 치료제 3상 성...",
-      "description": "창신메모리테크놀로지(CXMT)의 기록적인 기업공개(IPO)에 이어 중국 증시 상장에 한 걸음 더 다가섰습니다.... 1위 상장기업에 올랐습니다. 양사는 인공지능(AI) 수요발 글로벌 메모리 공급난과 업계 전반의 수익 급증...",
-      "link": "https://n.news.naver.com/mnews/article/374/0000528290?sid=104",
-      "originallink": "https://biz.sbs.co.kr/article_hub/20000329587?division=NAVER",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-19T19:41:00.000Z"
     },
     {
       "id": "5f722bf165459849",
@@ -184,10 +217,10 @@
     },
     {
       "id": "31cb66982209375f",
-      "keyword": "글로벌테크놀로지",
-      "companyName": "글로벌테크놀로지",
+      "keyword": "네오사피엔스",
+      "companyName": "네오사피엔스",
       "title": "[네오사피엔스 IPO] FI 지원사격…수급 부담 최소화",
-      "description": "네오사피엔스는 2017년 설립 이후 지난해 프리 IPO(상장 전 투자 유치) 단계를 거치며 427억원에 달하는 외부... 현재 증권신고서를 내고 공모 준비에 한창인 브릴스(26.42%), 글로벌테크놀로지(22.26%) 등과 비교해도...",
+      "description": "따르면 네오사피엔스는 다음달 기관 수요예측을 시작할 예정이다. 본격적인 공모를 앞두고 회사와 주관사... 네오사피엔스는 2017년 설립 이후 지난해 프리 IPO(상장 전 투자 유치) 단계를 거치며 427억원에 달하는 외부...",
       "link": "https://www.the-stock.kr/news/articleView.html?idxno=33152",
       "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=33152",
       "provider": "뉴스 검색",
@@ -203,17 +236,6 @@
       "originallink": "https://www.news2day.co.kr/article/20260813500122",
       "provider": "뉴스 검색",
       "publishedAt": "2026-08-13T01:40:00.000Z"
-    },
-    {
-      "id": "2ad0d9e289304bcc",
-      "keyword": "글로벌테크놀로지",
-      "companyName": "글로벌테크놀로지",
-      "title": "[중국 특징주] 유니트리, IPO 공모주 70% 이상 기관에 배정",
-      "description": "공모를 통해 배정된 주식 비중 역시 창신메모리테크놀로지의 19%에 불과하다. 유니트리의 오프라인 배정 비율은 올해 신규 상장 기업 가운데서도 높은 수준이다. 오프라인 청약 데이터를 공개한 46개 IPO...",
-      "link": "https://www.newspim.com/news/view/20260813000030",
-      "originallink": "https://www.newspim.com/news/view/20260813000030",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-12T21:15:00.000Z"
     },
     {
       "id": "d5d4cd429c471711",
@@ -272,8 +294,8 @@
     },
     {
       "id": "9a1542d312126af7",
-      "keyword": "덕산넵코어스",
-      "companyName": "덕산넵코어스",
+      "keyword": "네오사피엔스",
+      "companyName": "네오사피엔스",
       "title": "올해 새내기株 85% 공모가 밑돌아…심사 통과해도 코스닥행 미룬다 [시...",
       "description": "금감원의 신고서 심사가 예년 대비 촘촘해진 가운데 연내 상장을 위해서는 발 빠른 공모 절차가 필요하지만 주관사마다 조심스러운 분위기가 감지된다. 이처럼 기업들이 IPO 고삐를 느슨하게 쥐는 것은 상장 후 주가...",
       "link": "https://n.news.naver.com/mnews/article/011/0004650330?sid=101",

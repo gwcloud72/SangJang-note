@@ -1,18 +1,18 @@
 {
   "metadata": {
-    "updatedAt": "2026-08-23T22:54:12.849Z",
+    "updatedAt": "2026-08-24T22:35:36.206Z",
     "source": "OpenDART",
     "basis": "증권신고서 주요정보 - 지분증권(estkRs), 공시검색(list), 공시원문(document.xml)",
     "dateRange": {
-      "bgnDe": "20260225",
-      "endDe": "20260824"
+      "bgnDe": "20260226",
+      "endDe": "20260825"
     },
     "lookbackDays": 180,
     "lookaheadDays": 120,
-    "totalFilings": 12449,
-    "totalCompanies": 330,
+    "totalFilings": 12393,
+    "totalCompanies": 325,
     "totalItems": 14,
-    "referenceDate": "2026-08-24",
+    "referenceDate": "2026-08-25",
     "status": "ready",
     "candidateItems": 34,
     "futureCandidateItems": 14,
@@ -298,8 +298,8 @@
       "corpCode": "02032155",
       "corpClass": "E",
       "stockCode": "",
-      "receiptNo": "20260813001779",
-      "receiptDate": "2026-08-13",
+      "receiptNo": "20260824000116",
+      "receiptDate": "2026-08-24",
       "reportName": "[기재정정]증권신고서(지분증권)",
       "securityType": "보통주",
       "offeringMethod": "일반공모",
@@ -319,7 +319,7 @@
       "underwriters": [
         "케이비증권"
       ],
-      "dartUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813001779",
+      "dartUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260824000116",
       "mainMatterReceiptNo": "",
       "mainMatterUrl": "",
       "status": "청약 예정",

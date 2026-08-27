@@ -1,11 +1,99 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-08-25T22:56:12.240Z",
+    "updatedAt": "2026-08-27T03:05:49.723Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "b6a55b5e3dfc2364",
+      "keyword": "스카이랩스",
+      "companyName": "스카이랩스",
+      "title": "치킨값 벌어볼까…'스카이랩스' 공모주 청약, 오늘까지",
+      "description": "개발사인 스카이랩스가 8월 27일 한국투자증권을 통해 코스닥 상장을 위한 일반 공모청약을 마감한다.... 기업공개(IPO) 일정과 공모 구조를 보면, 스카이랩스는 2026년 1월 30일 예비 심사를 청구한 이후 6월 24일 심사...",
+      "link": "https://www.wikitree.co.kr/articles/1155331",
+      "originallink": "https://www.wikitree.co.kr/articles/1155331",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-27T02:28:00.000Z"
+    },
+    {
+      "id": "cb56a6323d92c062",
+      "keyword": "스카이랩스",
+      "companyName": "스카이랩스",
+      "title": "\"'따따블' 쳤다던데, 1주일만에 47% 폭락\"...꽝꽝 얼어버린 공모주 시장...",
+      "description": "상장 첫날부터 공모가를 밑도는 사례가 잇따르면서 공모주 시장 투자심리도 위축됐다. 기관투자자 수요도 약해졌다. 지난 14~21일 수요예측을 진행한 스카이랩스는 공모가를 희망밴드 1만3000~1만6000원 하단보다 낮은...",
+      "link": "https://n.news.naver.com/mnews/article/014/0005567188?sid=101",
+      "originallink": "https://www.fnnews.com/news/202608271027387355",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-27T01:41:00.000Z"
+    },
+    {
+      "id": "4678b1bcc5138865",
+      "keyword": "스카이랩스",
+      "companyName": "스카이랩스",
+      "title": "[공모주 현황]스카이랩스 공모주 청약 성적은...시장 분위기 촉각",
+      "description": "IPO 자료사진. 스카이랩스 공모주 청약에 1만건이 넘는 신청이 몰린 가운데, 회사의 핵심 의료기기 사업과 상장 이후 성장성이 함께 관심을 받고 있다. 27일 청약 현황에 따르면 스카이랩스의 공모가는 1만원으로...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=601586",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=601586",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-27T01:26:00.000Z"
+    },
+    {
+      "id": "768661ffea76fdd2",
+      "keyword": "글로벌테크놀로지",
+      "companyName": "글로벌테크놀로지",
+      "title": "美·캐나다 50% 관세 맞불, 韓 자동차·뷰티 어부지리?",
+      "description": "■ YMTC 낸드 1위 도전…메모리 수급 교란 리스크 가시화: 중국 양쯔메모리테크놀로지(YMTC)가 IPO로 조달한... 유니트리 상장 1주 만에 반토막…中 로봇 IPO 거품 경고 핵심 요약: 상장 첫날 공모가 대비 460% 폭등했던...",
+      "link": "https://n.news.naver.com/mnews/article/011/0004655683?sid=102",
+      "originallink": "https://www.sedaily.com/article/20083851?ref=naver",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-27T01:01:00.000Z"
+    },
+    {
+      "id": "2d5c8385082bc17b",
+      "keyword": "스카이랩스",
+      "companyName": "스카이랩스",
+      "title": "상반기엔 '따따블'이었는데…다시 고개 든 '공모주 잔혹사'",
+      "description": "상장 이후 주가가 공모가를 회복하지 못하는 종목이 늘면서 기관투자자들의 IPO 수요도 함께 위축되는 모습이다. 실제 지난 14~21일 기관 수요예측을 진행한 스카이랩스는 희망 공모가 밴드 1만3000~1만6000원의 하단에도 못...",
+      "link": "https://www.g-enews.com/view.php?ud=202608270952408697153ddfb15a_1",
+      "originallink": "https://www.g-enews.com/view.php?ud=202608270952408697153ddfb15a_1",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-27T00:58:00.000Z"
+    },
+    {
+      "id": "3c51b9bdb0e4d242",
+      "keyword": "스카이랩스",
+      "companyName": "스카이랩스",
+      "title": "\"상장 일주일 만에 반토막\"…계속되는 공모주 잔혹사",
+      "description": "지난 14~21일 수요예측을 진행한 스카이랩스는 기관투자자들의 냉담한 반응 속에 공모가를 희망밴드(1만3000~1만6000원) 하단에도 못 미치는 1만원으로 정했다. 기관 경쟁률은 63.41대 1에 그쳤으며, 상장 이후 일정 기간...",
+      "link": "https://n.news.naver.com/mnews/article/003/0014151310?sid=101",
+      "originallink": "https://www.newsis.com/view/NISX20260827_0003764538",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-27T00:41:00.000Z"
+    },
+    {
+      "id": "631438af644cdccf",
+      "keyword": "브릴스",
+      "companyName": "브릴스",
+      "title": "경쟁률 1000대 1도 안 통한다…공모주 흥행 공식 '흔들'",
+      "description": "장기보유 유도하고 시장수요 반영…IPO 제도 재정비 금융당국도 기관의 단기 투자 수요를 걸러내고... 희망 공모가에 시장 수요를 보다 충실히 반영하고 상장 초기 수급을 안정시키려는 취지다. 다음 달에는 브릴스와...",
+      "link": "https://www.newsway.co.kr/news/view?ud=2026082616313956611",
+      "originallink": "https://www.newsway.co.kr/news/view?ud=2026082616313956611",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-26T08:02:00.000Z"
+    },
+    {
+      "id": "9a43827246711672",
+      "keyword": "글로벌테크놀로지",
+      "companyName": "글로벌테크놀로지",
+      "title": "오픈AI·앤트로픽 IPO 앞두고…AI 투자도 ‘모델별’로 쪼개진다",
+      "description": "IPO 시장의 열기가 3분기 증시 조정과 맞물려 빠르게 식었다. 공모가를 회복하지 못하는 신규 상장주가... SK아이이테크놀로지(361610)(SKIET) 흡수합병을 결정했고, 애프터마켓에서 정규장 종가 13만 100원보다 3.38...",
+      "link": "https://n.news.naver.com/mnews/article/011/0004655258?sid=101",
+      "originallink": "https://www.sedaily.com/article/20083333?ref=naver",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-26T01:01:00.000Z"
+    },
     {
       "id": "efd779124cb54862",
       "keyword": "브릴스",
@@ -18,50 +106,6 @@
       "publishedAt": "2026-08-25T20:44:00.000Z"
     },
     {
-      "id": "0b753c1d7501c35d",
-      "keyword": "스카이랩스",
-      "companyName": "스카이랩스",
-      "title": "'스카이랩스 공모주' 수요예측 흥행 실패...청약 반전 노린다",
-      "description": "스카이랩스 공모주 로고 디지털 헬스케어 기업 스카이랩스가 26~27일 일반 공모청약을 진행한다. 앞서... 혈압 변화를 측정할 수 있는 반지형 의료기기다. 상장 예정일은 내달 4일이며, 주관사는 한국투자증권이다.",
-      "link": "https://www.gukjenews.com/news/articleView.html?idxno=3674459",
-      "originallink": "https://www.gukjenews.com/news/articleView.html?idxno=3674459",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-25T15:10:00.000Z"
-    },
-    {
-      "id": "078a1a33ae6df8a0",
-      "keyword": "스카이랩스",
-      "companyName": "스카이랩스",
-      "title": "IPO 투심 꺾이더니 급기야…공모가 올해 처음 밴드 아래로[시그널]",
-      "description": "반지형 혈압계 제조사 스카이랩스가 코스닥 기업공개(IPO)를 위한 기관 수요예측에서 공모가를 1만 원에 확정했다. 올해 신규상장을 완료한 기업 중에서는 처음으로 희망 공모가 밴드을 밑돌았다. 최근 상장...",
-      "link": "https://n.news.naver.com/mnews/article/011/0004655096?sid=101",
-      "originallink": "https://www.sedaily.com/article/20083221?ref=naver",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-25T09:16:00.000Z"
-    },
-    {
-      "id": "a239661302fe0425",
-      "keyword": "스카이랩스",
-      "companyName": "스카이랩스",
-      "title": "‘따따블’커녕 공모가 아래로…조정장에 투심 더 위축",
-      "description": "이달 14일부터 21일까지 기관 수요예측을 진행한 반지형 혈압계 제조사 스카이랩스는 이날 공모가를 1만 원에 확정했다. 희망 공모가 밴드(1만 3000~1만 6000원) 하단의 약 20%를 하회하는 가격으로 올해 신규상장을 마친...",
-      "link": "https://n.news.naver.com/mnews/article/011/0004655087?sid=101",
-      "originallink": "https://www.sedaily.com/article/20083209?ref=naver",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-25T09:05:00.000Z"
-    },
-    {
-      "id": "19e4f96b67d9bc86",
-      "keyword": "스카이랩스",
-      "companyName": "스카이랩스",
-      "title": "AI 밸류체인 기업도 상장 효과 '無'…냉혹한 8월 IPO 시장",
-      "description": "오는 9월 IPO를 준비 중인 기업들의 고심도 깊어질 전망이다. 9월에는 AI 의료데이터 플랫폼기업 스카이랩스를 비롯해 다수의 기술·헬스케어 기업들이 줄지어 상장 심사대와 청양 시장에 오를 예정이다. 한...",
-      "link": "https://n.news.naver.com/mnews/article/629/0000527287?sid=101",
-      "originallink": "https://news.tf.co.kr/read/economy/2357594.htm",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-25T02:19:00.000Z"
-    },
-    {
       "id": "f5688ca166826394",
       "keyword": "글로벌테크놀로지",
       "companyName": "글로벌테크놀로지",
@@ -71,17 +115,6 @@
       "originallink": "https://www.newsis.com/view/NISX20260825_0003761475",
       "provider": "뉴스 검색",
       "publishedAt": "2026-08-25T02:15:00.000Z"
-    },
-    {
-      "id": "c3bc842e727337d7",
-      "keyword": "스카이랩스",
-      "companyName": "스카이랩스",
-      "title": "[증권 Pick] 이번주 IPO 일정 모아보기",
-      "description": "이번 주 기업공개(IPO) 시장에서는 인공지능(AI) 자율비행 드론 기업 니어스랩과 반도체 센서 설계 전문 기업 해치텍이 코스닥에 잇달아 입성한다. 웨어러블 의료기기 기업 스카이랩스는 일반투자자 대상 공모주 청약에...",
-      "link": "https://www.lcnews.co.kr/news/articleView.html?idxno=207007",
-      "originallink": "https://www.lcnews.co.kr/news/articleView.html?idxno=207007",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-24T07:22:00.000Z"
     },
     {
       "id": "58d8a37842ceaec2",
@@ -104,28 +137,6 @@
       "originallink": "https://biz.newdaily.co.kr/site/data/html/2026/08/24/2026082400158.html",
       "provider": "뉴스 검색",
       "publishedAt": "2026-08-24T04:42:00.000Z"
-    },
-    {
-      "id": "83d528c0c18d3b46",
-      "keyword": "글로벌테크놀로지",
-      "companyName": "글로벌테크놀로지",
-      "title": "중국 반도체 또 상장…양쯔메모리, 6조원대 조달",
-      "description": "(사진=로이터) 24일 중국 관영 글로벌타임스(GT) 등 현지 매체에 따르면 양쯔메모리테크놀로지(YMTC·이하 양쯔메모리)는 최근 상하이 증권거래소에 IPO를 신청했다. 양쯔메모리가 상장할 시장은 ‘중국판 나스닥’으로...",
-      "link": "https://n.news.naver.com/mnews/article/018/0006356964?sid=101",
-      "originallink": "https://www.edaily.co.kr/News/Read?newsId=02909366645550600&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-24T03:06:00.000Z"
-    },
-    {
-      "id": "7cad52653dfa14a0",
-      "keyword": "글로벌테크놀로지",
-      "companyName": "글로벌테크놀로지",
-      "title": "中반도체에 몰리는 자본…삼전닉스 '차이나 디스카운트' 커질까",
-      "description": "중국 D램 업체 창신메모리테크놀로지(CXMT)에 이어 낸드플래시 업체 양쯔메모리테크놀로지(YMTC)까지... CXMT는 지난달 상하이 과창판 IPO에서 579억위안(11조9천500억원)을 조달했다. 상장 첫날 주가는 공모가 대비 466...",
-      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4431388",
-      "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4431388",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-23T23:28:00.000Z"
     },
     {
       "id": "ba0cd663880e1690",
@@ -192,17 +203,6 @@
       "originallink": "https://www.betanews.net/article/view/beta202608140053",
       "provider": "뉴스 검색",
       "publishedAt": "2026-08-14T08:52:00.000Z"
-    },
-    {
-      "id": "2f3d1b3f41674023",
-      "keyword": "브릴스",
-      "companyName": "브릴스",
-      "title": "로봇 모듈화 플랫폼 '브릴스', 코스닥으로...피지컬 AI, 지능형 로봇 플...",
-      "description": "브릴스는 13일, 서울 여의도에서 IPO 기자간담회를 열고 코스닥 상장 추진 배경과 핵심 경쟁력, 향후 성장... 브릴스는 이번 상장에서 신주 120만주를 공모한다. 희망 공모가 범위는 1만6500원~1만9500원이며, 공모 예정...",
-      "link": "https://www.aitimes.kr/news/articleView.html?idxno=41443",
-      "originallink": "https://www.aitimes.kr/news/articleView.html?idxno=41443",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-13T11:36:00.000Z"
     },
     {
       "id": "31cb66982209375f",
@@ -335,17 +335,6 @@
       "originallink": "https://www.bloter.net/news/articleView.html?idxno=669789",
       "provider": "뉴스 검색",
       "publishedAt": "2026-08-03T05:47:00.000Z"
-    },
-    {
-      "id": "801d52e7ffea92ec",
-      "keyword": "와이즈플래닛컴퍼니",
-      "companyName": "와이즈플래닛컴퍼니",
-      "title": "\"첫날에 팔았어야\"…7월 공모주, 수요예측 '후끈' vs 주가 '냉랭’",
-      "description": "네오사피엔스, 와이즈플래닛컴퍼니, 글로벌테크놀로지, 덕산넵코어스 등 총 14개사다. 예상 공모금액은 2000억원~2800억원으로 역대 동월 평균 5958억원 및 최근 5년 평균 2조1967억원을 밑돌 전망이다. 예상 상장...",
-      "link": "http://www.newsprime.co.kr/news/article.html?no=742457",
-      "originallink": "http://www.newsprime.co.kr/news/article.html?no=742457",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-03T05:44:00.000Z"
     },
     {
       "id": "19695b8859c08d6a",

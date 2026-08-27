@@ -1,27 +1,27 @@
 {
   "metadata": {
-    "updatedAt": "2026-08-25T22:56:05.610Z",
+    "updatedAt": "2026-08-27T03:05:43.328Z",
     "source": "OpenDART",
     "basis": "증권신고서 주요정보 - 지분증권(estkRs), 공시검색(list), 공시원문(document.xml)",
     "dateRange": {
-      "bgnDe": "20260227",
-      "endDe": "20260826"
+      "bgnDe": "20260228",
+      "endDe": "20260827"
     },
     "lookbackDays": 180,
     "lookaheadDays": 120,
-    "totalFilings": 12334,
-    "totalCompanies": 326,
-    "totalItems": 15,
-    "referenceDate": "2026-08-26",
+    "totalFilings": 12304,
+    "totalCompanies": 328,
+    "totalItems": 16,
+    "referenceDate": "2026-08-27",
     "status": "ready",
-    "candidateItems": 35,
-    "futureCandidateItems": 15,
+    "candidateItems": 36,
+    "futureCandidateItems": 16,
     "statusCounts": {
       "청약 진행중": 1,
-      "청약 예정": 14
+      "청약 예정": 15
     },
-    "documentDetailItems": 35,
-    "warning": "35개 항목의 상세 조회 또는 원문 추출에 실패했습니다. Actions 로그에서 확인하세요."
+    "documentDetailItems": 36,
+    "warning": "36개 항목의 상세 조회 또는 원문 추출에 실패했습니다. Actions 로그에서 확인하세요."
   },
   "items": [
     {
@@ -690,6 +690,51 @@
       "listingDate": "",
       "demandForecastStart": "2026-09-28",
       "demandForecastEnd": "2026-09-28",
+      "refundDateSource": "",
+      "listingDateSource": "",
+      "subscriptionCompetitionRate": "",
+      "demandForecastCompetitionRate": "",
+      "detailSource": "document",
+      "detailSourceNote": "환불일·상장예정일·수요예측 기간·경쟁률은 공시 원문에서 자동 추출된 값입니다.",
+      "offeringCategory": "ipo",
+      "eventType": "initial_public_offering",
+      "sourceMode": "opendart",
+      "demandForecastSource": "dart-document"
+    },
+    {
+      "companyName": "에스케이증권제14호기업인수목적",
+      "corpCode": "02032951",
+      "corpClass": "E",
+      "stockCode": "",
+      "receiptNo": "20260826000506",
+      "receiptDate": "2026-08-26",
+      "reportName": "증권신고서(지분증권)",
+      "securityType": "보통주",
+      "offeringMethod": "일반공모",
+      "offerPrice": "2,000",
+      "offerAmount": "13,000,000,000",
+      "stockCount": "6,500,000",
+      "parValue": "100",
+      "subscriptionDate": "2026년 10월 15일 ~ 2026년 10월 16일",
+      "subscriptionNoticeDate": "2026-10-15",
+      "paymentDate": "2026-10-20",
+      "allotmentNoticeDate": "2026-10-19",
+      "allotmentBaseDate": "",
+      "scheduleStart": "2026-10-15",
+      "scheduleEnd": "2026-10-16",
+      "subscriptionStart": "2026-10-15",
+      "subscriptionEnd": "2026-10-16",
+      "underwriters": [
+        "SK증권"
+      ],
+      "dartUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260826000506",
+      "mainMatterReceiptNo": "",
+      "mainMatterUrl": "",
+      "status": "청약 예정",
+      "refundDate": "",
+      "listingDate": "",
+      "demandForecastStart": "2020-11-19",
+      "demandForecastEnd": "2020-11-19",
       "refundDateSource": "",
       "listingDateSource": "",
       "subscriptionCompetitionRate": "",

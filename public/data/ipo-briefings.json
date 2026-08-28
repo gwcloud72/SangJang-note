@@ -1,10 +1,10 @@
 {
   "metadata": {
     "source": "gemini-briefings-mixed",
-    "generatedAt": "2026-08-28T06:31:29.391Z",
+    "generatedAt": "2026-08-28T11:32:53.160Z",
     "model": "gemini-2.5-flash",
     "itemCount": 8,
-    "geminiUsed": 2,
+    "geminiUsed": 1,
     "cacheUsed": 4,
     "policy": "회사 설명, IPO 단계, 일정, 경쟁률 뉴스 언급, 원문 확인 포인트만 표시합니다. 투자 판단 표현은 제외합니다."
   },
@@ -67,8 +67,8 @@
       "ipoStage": "청약 예정",
       "underwriter": "주관사 확인",
       "basisTimeLabel": "오늘 09:30 기준",
-      "oneLine": "인공지능(AI) 음성 생성 전문기업 네오사피엔스",
-      "body": "인공지능(AI) 음성 생성 전문기업 네오사피엔스는 2017년 설립되었습니다. 현재 코스닥 상장을 위한 청약이 09.10 예정되어 있습니다. 수요예측은 9월 2일부터 8일까지 진 …",
+      "oneLine": "IPO 일정 확인 대상 기업",
+      "body": "네오사피엔스는 IPO 일정 확인 대상 기업입니다. 09.10 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 09.11, 변경 여부를 함께 확인합니다.",
       "points": [
         "청약 시작·마감일 확인",
         "환불일 확인",
@@ -81,8 +81,8 @@
         "주관사 확인"
       ],
       "competition": null,
-      "generatedBy": "gemini",
-      "model": "gemini-2.5-flash"
+      "generatedBy": "local-rules",
+      "model": null
     },
     {
       "id": "briefing-케이비제34호기업인수목적",

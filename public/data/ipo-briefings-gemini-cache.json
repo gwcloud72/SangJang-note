@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "updatedAt": "2026-08-27T09:59:17.090Z",
+    "updatedAt": "2026-08-28T06:31:29.390Z",
     "source": "gemini-briefing-cache"
   },
   "items": [
@@ -563,6 +563,66 @@
         "model": null
       },
       "updatedAt": "2026-08-24T07:32:21.577Z"
+    },
+    {
+      "key": "6919a8cce89f60db3535e27d",
+      "model": "gemini-2.5-flash",
+      "briefing": {
+        "id": "briefing-네오사피엔스",
+        "ipoId": "네오사피엔스",
+        "companyName": "네오사피엔스",
+        "sector": "IPO 일정 확인 대상 기업",
+        "ipoStage": "청약 예정",
+        "underwriter": "주관사 확인",
+        "basisTimeLabel": "오늘 09:30 기준",
+        "oneLine": "인공지능(AI) 음성 생성 전문기업 네오사피엔스",
+        "body": "인공지능(AI) 음성 생성 전문기업 네오사피엔스는 2017년 설립되었습니다. 현재 코스닥 상장을 위한 청약이 09.10 예정되어 있습니다. 수요예측은 9월 2일부터 8일까지 진 …",
+        "points": [
+          "청약 시작·마감일 확인",
+          "환불일 확인",
+          "정정 공시 여부 확인"
+        ],
+        "sourceLabels": [
+          "DART 일정",
+          "환불일 09.11",
+          "뉴스 검색",
+          "주관사 확인"
+        ],
+        "competition": null,
+        "generatedBy": "local-rules",
+        "model": null
+      },
+      "updatedAt": "2026-08-28T06:26:56.048Z"
+    },
+    {
+      "key": "bf57ce40984250568b14b1dd",
+      "model": "gemini-2.5-flash",
+      "briefing": {
+        "id": "briefing-엣지파운드리",
+        "ipoId": "엣지파운드리",
+        "companyName": "엣지파운드리",
+        "sector": "IPO 일정 확인 대상 기업",
+        "ipoStage": "청약 예정",
+        "underwriter": "주관사 확인",
+        "basisTimeLabel": "오늘 09:30 기준",
+        "oneLine": "IPO 일정 확인 대상 기업",
+        "body": "엣지파운드리는 IPO 일정 확인 대상 기업입니다. 09.15 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 09.18, 변경 여부를 함께 확인합니다.",
+        "points": [
+          "청약 시작·마감일 확인",
+          "환불일 확인",
+          "정정 공시 여부 확인"
+        ],
+        "sourceLabels": [
+          "DART 일정",
+          "환불일 09.18",
+          "뉴스 검색",
+          "주관사 확인"
+        ],
+        "competition": null,
+        "generatedBy": "local-rules",
+        "model": null
+      },
+      "updatedAt": "2026-08-28T06:31:29.389Z"
     }
   ]
 }

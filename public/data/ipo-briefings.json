@@ -1,39 +1,14 @@
 {
   "metadata": {
-    "source": "local-rules",
-    "generatedAt": "2026-08-27T09:59:17.091Z",
-    "model": null,
+    "source": "gemini-briefings-mixed",
+    "generatedAt": "2026-08-28T06:31:29.391Z",
+    "model": "gemini-2.5-flash",
     "itemCount": 8,
-    "geminiUsed": 0,
-    "cacheUsed": 5,
+    "geminiUsed": 2,
+    "cacheUsed": 4,
     "policy": "회사 설명, IPO 단계, 일정, 경쟁률 뉴스 언급, 원문 확인 포인트만 표시합니다. 투자 판단 표현은 제외합니다."
   },
   "items": [
-    {
-      "id": "briefing-스카이랩스",
-      "ipoId": "스카이랩스",
-      "companyName": "스카이랩스",
-      "sector": "IPO 일정 확인 대상 기업",
-      "ipoStage": "청약 진행중",
-      "underwriter": "주관사 확인",
-      "basisTimeLabel": "오늘 09:30 기준",
-      "oneLine": "IPO 일정 확인 대상 기업",
-      "body": "스카이랩스는 IPO 일정 확인 대상 기업입니다. 08.26 일정 기준으로 청약 진행중 단계라 원문 일정과 변경 여부를 함께 확인합니다.",
-      "points": [
-        "청약 시작·마감일 확인",
-        "환불일 확인",
-        "정정 공시 여부 확인"
-      ],
-      "sourceLabels": [
-        "DART 일정",
-        "환불일 확인",
-        "뉴스 검색",
-        "주관사 확인"
-      ],
-      "competition": null,
-      "generatedBy": "local-rules",
-      "model": null
-    },
     {
       "id": "briefing-엔에이치기업인수목적34호",
       "ipoId": "엔에이치기업인수목적34호",
@@ -85,31 +60,6 @@
       "model": "gemini-2.5-flash"
     },
     {
-      "id": "briefing-엣지파운드리",
-      "ipoId": "엣지파운드리",
-      "companyName": "엣지파운드리",
-      "sector": "IPO 일정 확인 대상 기업",
-      "ipoStage": "청약 예정",
-      "underwriter": "주관사 확인",
-      "basisTimeLabel": "오늘 09:30 기준",
-      "oneLine": "IPO 일정 확인 대상 기업",
-      "body": "엣지파운드리는 IPO 일정 확인 대상 기업입니다. 09.02 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 09.07, 변경 여부를 함께 확인합니다.",
-      "points": [
-        "청약 시작·마감일 확인",
-        "환불일 확인",
-        "정정 공시 여부 확인"
-      ],
-      "sourceLabels": [
-        "DART 일정",
-        "환불일 09.07",
-        "뉴스 검색",
-        "주관사 확인"
-      ],
-      "competition": null,
-      "generatedBy": "gemini-cache",
-      "model": "gemini-2.5-flash"
-    },
-    {
       "id": "briefing-네오사피엔스",
       "ipoId": "네오사피엔스",
       "companyName": "네오사피엔스",
@@ -117,8 +67,8 @@
       "ipoStage": "청약 예정",
       "underwriter": "주관사 확인",
       "basisTimeLabel": "오늘 09:30 기준",
-      "oneLine": "IPO 일정 확인 대상 기업",
-      "body": "네오사피엔스는 IPO 일정 확인 대상 기업입니다. 09.10 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 09.11, 변경 여부를 함께 확인합니다.",
+      "oneLine": "인공지능(AI) 음성 생성 전문기업 네오사피엔스",
+      "body": "인공지능(AI) 음성 생성 전문기업 네오사피엔스는 2017년 설립되었습니다. 현재 코스닥 상장을 위한 청약이 09.10 예정되어 있습니다. 수요예측은 9월 2일부터 8일까지 진 …",
       "points": [
         "청약 시작·마감일 확인",
         "환불일 확인",
@@ -131,8 +81,8 @@
         "주관사 확인"
       ],
       "competition": null,
-      "generatedBy": "local-rules",
-      "model": null
+      "generatedBy": "gemini",
+      "model": "gemini-2.5-flash"
     },
     {
       "id": "briefing-케이비제34호기업인수목적",
@@ -207,6 +157,56 @@
       "competition": null,
       "generatedBy": "local-rules",
       "model": null
+    },
+    {
+      "id": "briefing-빅웨이브로보틱스",
+      "ipoId": "빅웨이브로보틱스",
+      "companyName": "빅웨이브로보틱스",
+      "sector": "로봇 플랫폼 기업",
+      "ipoStage": "청약 예정",
+      "underwriter": "주관사 확인",
+      "basisTimeLabel": "오늘 09:30 기준",
+      "oneLine": "로봇 플랫폼 기업",
+      "body": "빅웨이브로보틱스는 로봇 플랫폼 기업입니다. 09.15 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
+      "points": [
+        "청약 시작·마감일 확인",
+        "환불일 확인",
+        "정정 공시 여부 확인"
+      ],
+      "sourceLabels": [
+        "DART 일정",
+        "환불일 확인",
+        "뉴스 검색",
+        "주관사 확인"
+      ],
+      "competition": null,
+      "generatedBy": "local-rules",
+      "model": null
+    },
+    {
+      "id": "briefing-엣지파운드리",
+      "ipoId": "엣지파운드리",
+      "companyName": "엣지파운드리",
+      "sector": "IPO 일정 확인 대상 기업",
+      "ipoStage": "청약 예정",
+      "underwriter": "주관사 확인",
+      "basisTimeLabel": "오늘 09:30 기준",
+      "oneLine": "IPO 일정 확인 대상 기업",
+      "body": "엣지파운드리는 IPO 일정 확인 대상 기업입니다. 09.15 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 09.18, 변경 여부를 함께 확인합니다.",
+      "points": [
+        "청약 시작·마감일 확인",
+        "환불일 확인",
+        "정정 공시 여부 확인"
+      ],
+      "sourceLabels": [
+        "DART 일정",
+        "환불일 09.18",
+        "뉴스 검색",
+        "주관사 확인"
+      ],
+      "competition": null,
+      "generatedBy": "gemini",
+      "model": "gemini-2.5-flash"
     }
   ]
 }

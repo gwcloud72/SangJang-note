@@ -1,11 +1,99 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-08-28T06:26:50.646Z",
+    "updatedAt": "2026-08-29T03:59:12.443Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "b9624f9f4a929e17",
+      "keyword": "와이즈플래닛컴퍼니",
+      "companyName": "와이즈플래닛컴퍼니",
+      "title": "스카이랩스 코스닥 데뷔···공모주 시장 시험대",
+      "description": "최근 상장한 새내기주들이 잇따라 공모가를 밑돌면서 기업공개(IPO) 시장의 투자심리가 식은 가운데... 다음 주 IPO 시장에서는 스카이랩스의 상장과 네오사피엔스·와이즈플래닛컴퍼니의 수요예측이 잇따라 진행된다....",
+      "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=860512",
+      "originallink": "http://www.hansbiz.co.kr/news/articleView.html?idxno=860512",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-29T00:32:00.000Z"
+    },
+    {
+      "id": "f1b889c84506b1e4",
+      "keyword": "와이즈플래닛컴퍼니",
+      "companyName": "와이즈플래닛컴퍼니",
+      "title": "스카이랩스 공모가 1만원, 희망 범위 하단 밑돌아",
+      "description": "스카이랩스가 희망 공모가 범위보다 낮은 1만원에 공모가를 확정하고 9월 4일 코스닥 시장에 상장한다.... 공모가는 9월 9일 확정될 예정이다. 와이즈플래닛컴퍼니는 9월 4~10일 기관 수요예측에 나선다. 희망 공모가는...",
+      "link": "https://www.tokenpost.kr/news/market/400154",
+      "originallink": "https://www.tokenpost.kr/news/market/400154",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-29T00:24:00.000Z"
+    },
+    {
+      "id": "2b848e7322270377",
+      "keyword": "와이즈플래닛컴퍼니",
+      "companyName": "와이즈플래닛컴퍼니",
+      "title": "스카이랩스, 코스닥 입성…네오사피엔스·와이즈플래닛 수요예측 주목 ...",
+      "description": "소비재 전문기업 와이즈플래닛컴퍼니도 다음달 4일부터 10일까지 기관 수요예측을 진행하며 공모 절차를 본격화한다. 와이즈플래닛컴퍼니의 희망 공모가 밴드는 1만원~1만2000원이며, 상장 주관사는 대신증권이다.",
+      "link": "https://www.etoday.co.kr/news/view/2619166",
+      "originallink": "https://www.etoday.co.kr/news/view/2619166",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-29T00:02:00.000Z"
+    },
+    {
+      "id": "d659b8b531ce0564",
+      "keyword": "와이즈플래닛컴퍼니",
+      "companyName": "와이즈플래닛컴퍼니",
+      "title": "[IPO챗] 스카이랩스, 몸값 낮춰 내주 코스닥 입성",
+      "description": "와이즈플래닛컴퍼니 기관 수요예측 기업공개(IPO) 시장의 투자심리가 주춤한 가운데 다음 주(8월 31일∼9월... 앞서 기도산업과 니어스랩, 해치텍은 모두 상장 첫날 공모가보다 낮은 가격으로 거래를 마쳤다....",
+      "link": "https://n.news.naver.com/mnews/article/001/0016277715?sid=101",
+      "originallink": "https://www.yna.co.kr/view/AKR20260828096200008?input=1195m",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-29T00:00:00.000Z"
+    },
+    {
+      "id": "3a23cfb8cdd39481",
+      "keyword": "글로벌테크놀로지",
+      "companyName": "글로벌테크놀로지",
+      "title": "[亞증시-종합] 워시 잭슨홀 연설 경계 속 혼조",
+      "description": "줄어들고 글로벌 AI 관련 투자 흐름이 다시 탄력을 받을 경우, 중국 증시의 수급 여건이 개선될 여지가 있다고 진단했다. 최근 반도체 업체 창신메모리테크놀로지(CXMT)의 기업공개(IPO) 등 대형 공모주 상장이...",
+      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4432446",
+      "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4432446",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-28T10:20:00.000Z"
+    },
+    {
+      "id": "75c0792ce02b66f3",
+      "keyword": "글로벌테크놀로지",
+      "companyName": "글로벌테크놀로지",
+      "title": "[중국증시-마감] 반도체주 약세에 하락",
+      "description": "줄어들고 글로벌 AI 관련 투자 흐름이 다시 탄력을 받을 경우, 중국 증시의 수급 여건이 개선될 여지가 있다고 진단했다. 최근 반도체 업체 창신메모리테크놀로지(CXMT)의 기업공개(IPO) 등 대형 공모주 상장이...",
+      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4432439",
+      "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4432439",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-28T09:22:00.000Z"
+    },
+    {
+      "id": "d6884324730f1189",
+      "keyword": "글로벌테크놀로지",
+      "companyName": "글로벌테크놀로지",
+      "title": "삼성증권發 해외기업 IPO 본격화…국내 증시 노크 잇따라",
+      "description": "테크놀로지는 이달 시리즈B 투자를 마무리하면서 누적 유치액을 1억3600만달러(약 1930억원)로 늘렸다. 엔비디아, Arm, UMC캐피털, 보쉬벤처스 등 글로벌 반도체·부품 기업이 투자자로 참여했다. 회사는 코스닥 상장 시...",
+      "link": "https://www.newstopkorea.com/news/articleView.html?idxno=47339",
+      "originallink": "https://www.newstopkorea.com/news/articleView.html?idxno=47339",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-28T08:24:00.000Z"
+    },
+    {
+      "id": "54a4a3d98f28374a",
+      "keyword": "글로벌테크놀로지",
+      "companyName": "글로벌테크놀로지",
+      "title": "[SKIET, 7년간의 계산서 ②] 2조원대 IPO 흥행 뒤 닥친 '증설 후유증'",
+      "description": "/편집자 주 SK아이이테크놀로지(SKIET)의 지난 7년을 들여다보면 한 가지 숫자부터 다시 볼 필요가 있다. '2조2460억원을 IPO로 조달했다'는 표현이다. 공모 규모만 놓고 보면 맞지만 실제 SKIET가 성장자금으로 확보한...",
+      "link": "https://www.seoulfn.com/news/articleView.html?idxno=636637",
+      "originallink": "https://www.seoulfn.com/news/articleView.html?idxno=636637",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-28T07:00:00.000Z"
+    },
     {
       "id": "1e8f86e956ababf4",
       "keyword": "글로벌테크놀로지",
@@ -16,17 +104,6 @@
       "originallink": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=696413",
       "provider": "뉴스 검색",
       "publishedAt": "2026-08-28T06:22:00.000Z"
-    },
-    {
-      "id": "757c85140a229761",
-      "keyword": "글로벌테크놀로지",
-      "companyName": "글로벌테크놀로지",
-      "title": "[NZSI INDEX] 2026년 8월 25일…10만5000원에 상장한 SKIET, 1만4783원 기준...",
-      "description": "86%를 기록하면서 한국 대표 종목과 글로벌 대표 종목의 수익률 격차가 줄어드는 흐름을 보였다. 물적분할 후 상장 5년 만에 다시 흡수합병 이날 SK이노베이션과 SK아이이테크놀로지(SKIET)는 각각 이사회를 열고...",
-      "link": "https://www.the-today.com/news/articleView.html?idxno=89080",
-      "originallink": "https://www.the-today.com/news/articleView.html?idxno=89080",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-28T03:52:00.000Z"
     },
     {
       "id": "0d7409a350a21948",
@@ -51,28 +128,6 @@
       "publishedAt": "2026-08-27T22:02:00.000Z"
     },
     {
-      "id": "df53538100c8b731",
-      "keyword": "와이즈플래닛컴퍼니",
-      "companyName": "와이즈플래닛컴퍼니",
-      "title": "[주간IPO] 9월 첫째 주, 네오사피엔스·와이즈플래닛컴퍼니 수요예측 시...",
-      "description": "9월 첫째 주 기업공개(IPO) 시장에서는 네오사피엔스와 와이즈플래닛컴퍼니가 수요예측을 진행한다. 공모주 청약 일정은 없다. 인공지능(AI) 음성 생성 전문기업 네오사피엔스는 9월 2일부터 8일까지 코스닥 상장...",
-      "link": "http://www.consumernews.co.kr/news/articleView.html?idxno=762501",
-      "originallink": "http://www.consumernews.co.kr/news/articleView.html?idxno=762501",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-27T21:10:00.000Z"
-    },
-    {
-      "id": "768661ffea76fdd2",
-      "keyword": "글로벌테크놀로지",
-      "companyName": "글로벌테크놀로지",
-      "title": "美·캐나다 50% 관세 맞불, 韓 자동차·뷰티 어부지리?",
-      "description": "■ YMTC 낸드 1위 도전…메모리 수급 교란 리스크 가시화: 중국 양쯔메모리테크놀로지(YMTC)가 IPO로 조달한... 유니트리 상장 1주 만에 반토막…中 로봇 IPO 거품 경고 핵심 요약: 상장 첫날 공모가 대비 460% 폭등했던...",
-      "link": "https://n.news.naver.com/mnews/article/011/0004655683?sid=102",
-      "originallink": "https://www.sedaily.com/article/20083851?ref=naver",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-27T01:01:00.000Z"
-    },
-    {
       "id": "631438af644cdccf",
       "keyword": "브릴스",
       "companyName": "브릴스",
@@ -82,17 +137,6 @@
       "originallink": "https://www.newsway.co.kr/news/view?ud=2026082616313956611",
       "provider": "뉴스 검색",
       "publishedAt": "2026-08-26T08:02:00.000Z"
-    },
-    {
-      "id": "9a43827246711672",
-      "keyword": "글로벌테크놀로지",
-      "companyName": "글로벌테크놀로지",
-      "title": "오픈AI·앤트로픽 IPO 앞두고…AI 투자도 ‘모델별’로 쪼개진다",
-      "description": "IPO 시장의 열기가 3분기 증시 조정과 맞물려 빠르게 식었다. 공모가를 회복하지 못하는 신규 상장주가... SK아이이테크놀로지(361610)(SKIET) 흡수합병을 결정했고, 애프터마켓에서 정규장 종가 13만 100원보다 3.38...",
-      "link": "https://n.news.naver.com/mnews/article/011/0004655258?sid=101",
-      "originallink": "https://www.sedaily.com/article/20083333?ref=naver",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-26T01:01:00.000Z"
     },
     {
       "id": "2653da817089ea3b",
@@ -172,17 +216,6 @@
       "publishedAt": "2026-08-18T05:10:00.000Z"
     },
     {
-      "id": "2c586d23c035d693",
-      "keyword": "와이즈플래닛컴퍼니",
-      "companyName": "와이즈플래닛컴퍼니",
-      "title": "“데이터로 브랜드 키운다…글로벌 브랜드 빌더 도약”[IPO 출사표]",
-      "description": "주경민 와이즈플래닛컴퍼니 대표. 주 대표는 기존 미디어커머스 기업과의 가장 큰 차이로 ‘반복 가능한... 상장 직후 유통가능물량이 전체 상장예정주식수의 21.12%인 211만2650주에 그친다는 점도 수급 측면에서 공모주...",
-      "link": "https://n.news.naver.com/mnews/article/018/0006352813?sid=101",
-      "originallink": "https://www.edaily.co.kr/news/newspath.asp?newsid=01515366645548304",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-17T04:23:00.000Z"
-    },
-    {
       "id": "b947a21ef20fe151",
       "keyword": "브릴스",
       "companyName": "브릴스",
@@ -192,17 +225,6 @@
       "originallink": "https://www.hellot.net/news/article.html?no=114383",
       "provider": "뉴스 검색",
       "publishedAt": "2026-08-14T08:54:00.000Z"
-    },
-    {
-      "id": "31cb66982209375f",
-      "keyword": "네오사피엔스",
-      "companyName": "네오사피엔스",
-      "title": "[네오사피엔스 IPO] FI 지원사격…수급 부담 최소화",
-      "description": "따르면 네오사피엔스는 다음달 기관 수요예측을 시작할 예정이다. 본격적인 공모를 앞두고 회사와 주관사... 네오사피엔스는 2017년 설립 이후 지난해 프리 IPO(상장 전 투자 유치) 단계를 거치며 427억원에 달하는 외부...",
-      "link": "https://www.the-stock.kr/news/articleView.html?idxno=33152",
-      "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=33152",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-13T02:34:00.000Z"
     },
     {
       "id": "a424ebae52181281",

@@ -1,11 +1,22 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-08-29T03:59:12.443Z",
+    "updatedAt": "2026-08-30T00:25:09.988Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "d6b2fc990f97c200",
+      "keyword": "와이즈플래닛컴퍼니",
+      "companyName": "와이즈플래닛컴퍼니",
+      "title": "[이번주 IPO]9월 첫째 주 수요예측·청약 일정",
+      "description": "간 공모주 일반 청약을 받을 예정이다. 상장 주관사는 대신증권이다. ◆와이즈플래닛컴퍼니= 와이즈플래닛컴퍼니는 2013년 설립 이후 13년 연속 흑자를 유지하며 성장해온 소비재 브랜드 플랫폼 기업이다. 자체...",
+      "link": "https://n.news.naver.com/mnews/article/277/0005809031?sid=101",
+      "originallink": "https://view.asiae.co.kr/article/2026082910345158311",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-29T23:00:00.000Z"
+    },
     {
       "id": "b9624f9f4a929e17",
       "keyword": "와이즈플래닛컴퍼니",

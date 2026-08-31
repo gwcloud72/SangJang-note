@@ -1,18 +1,18 @@
 {
   "metadata": {
-    "updatedAt": "2026-08-30T00:25:03.084Z",
+    "updatedAt": "2026-08-31T00:45:58.340Z",
     "source": "OpenDART",
     "basis": "증권신고서 주요정보 - 지분증권(estkRs), 공시검색(list), 공시원문(document.xml)",
     "dateRange": {
-      "bgnDe": "20260303",
-      "endDe": "20260830"
+      "bgnDe": "20260304",
+      "endDe": "20260831"
     },
     "lookbackDays": 180,
     "lookaheadDays": 120,
-    "totalFilings": 12516,
-    "totalCompanies": 333,
+    "totalFilings": 12435,
+    "totalCompanies": 330,
     "totalItems": 17,
-    "referenceDate": "2026-08-30",
+    "referenceDate": "2026-08-31",
     "status": "ready",
     "candidateItems": 38,
     "futureCandidateItems": 17,

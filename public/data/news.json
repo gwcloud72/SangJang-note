@@ -1,65 +1,87 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-08-30T00:25:09.988Z",
+    "updatedAt": "2026-08-31T00:46:05.417Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
     {
-      "id": "d6b2fc990f97c200",
+      "id": "50ce81baa9e6e007",
       "keyword": "와이즈플래닛컴퍼니",
       "companyName": "와이즈플래닛컴퍼니",
-      "title": "[이번주 IPO]9월 첫째 주 수요예측·청약 일정",
-      "description": "간 공모주 일반 청약을 받을 예정이다. 상장 주관사는 대신증권이다. ◆와이즈플래닛컴퍼니= 와이즈플래닛컴퍼니는 2013년 설립 이후 13년 연속 흑자를 유지하며 성장해온 소비재 브랜드 플랫폼 기업이다. 자체...",
-      "link": "https://n.news.naver.com/mnews/article/277/0005809031?sid=101",
-      "originallink": "https://view.asiae.co.kr/article/2026082910345158311",
+      "title": "'최저 경쟁률' 스카이랩스, 코스닥 입성⋯네오사피엔스 수요예측 [IPO 돋...",
+      "description": "대신증권이 상장을 주관한다. 소비재 전문기업인 와이즈플래닛컴퍼니는 다음 달 4일부터 10일까지 수요예측을 실시할 예정이다. 공모가 희망 범위는 1만~1만2000원이다. 공모 금액은 160억~192억원이다....",
+      "link": "https://n.news.naver.com/mnews/article/031/0001053666?sid=101",
+      "originallink": "http://www.inews24.com/view/1999833",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-08-29T23:00:00.000Z"
+      "publishedAt": "2026-08-31T00:37:00.000Z"
     },
     {
-      "id": "b9624f9f4a929e17",
-      "keyword": "와이즈플래닛컴퍼니",
-      "companyName": "와이즈플래닛컴퍼니",
-      "title": "스카이랩스 코스닥 데뷔···공모주 시장 시험대",
-      "description": "최근 상장한 새내기주들이 잇따라 공모가를 밑돌면서 기업공개(IPO) 시장의 투자심리가 식은 가운데... 다음 주 IPO 시장에서는 스카이랩스의 상장과 네오사피엔스·와이즈플래닛컴퍼니의 수요예측이 잇따라 진행된다....",
-      "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=860512",
-      "originallink": "http://www.hansbiz.co.kr/news/articleView.html?idxno=860512",
+      "id": "8fe03f60b811b914",
+      "keyword": "네오사피엔스",
+      "companyName": "네오사피엔스",
+      "title": "[더벨][네오사피엔스 IPO] 인공지능·로봇에 쏠린 공모주 수요…음성 AI...",
+      "description": "최근 상장한 기업 대부분이 공모가를 밑돌았지만 AI·로봇 기업들은 상대적으로 선방하고 있는 모습이다. 음성 AI 기업 네오사피엔스가 이와 같은 수요의 수혜를 받을 수 있을지 시장의 관심이 쏠린다. 28일...",
+      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608272107551920107512",
+      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608272107551920107512",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-08-29T00:32:00.000Z"
+      "publishedAt": "2026-08-30T23:48:00.000Z"
     },
     {
-      "id": "f1b889c84506b1e4",
-      "keyword": "와이즈플래닛컴퍼니",
-      "companyName": "와이즈플래닛컴퍼니",
-      "title": "스카이랩스 공모가 1만원, 희망 범위 하단 밑돌아",
-      "description": "스카이랩스가 희망 공모가 범위보다 낮은 1만원에 공모가를 확정하고 9월 4일 코스닥 시장에 상장한다.... 공모가는 9월 9일 확정될 예정이다. 와이즈플래닛컴퍼니는 9월 4~10일 기관 수요예측에 나선다. 희망 공모가는...",
-      "link": "https://www.tokenpost.kr/news/market/400154",
-      "originallink": "https://www.tokenpost.kr/news/market/400154",
+      "id": "628a52c98d2f2553",
+      "keyword": "엘리스그룹",
+      "companyName": "엘리스그룹",
+      "title": "[더벨][엘리스그룹 IPO] 주요주주 자발적 락업, '품절주' 구조 만들었다",
+      "description": "기업공개(IPO)를 추진하는 엘리스그룹의 주요주주들이 보유한 주식에 대거 자발적 락업을 설정하면서 상장 직후 유통물량이 최소화됐다. 사실상 공모에서 발행하는 신주만 유통가능한 구조라 이른바 '품절주'로...",
+      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608271427352360102534",
+      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608271427352360102534",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-08-29T00:24:00.000Z"
+      "publishedAt": "2026-08-30T22:02:00.000Z"
     },
     {
-      "id": "2b848e7322270377",
+      "id": "0ce80b9f4dee2c33",
       "keyword": "와이즈플래닛컴퍼니",
       "companyName": "와이즈플래닛컴퍼니",
-      "title": "스카이랩스, 코스닥 입성…네오사피엔스·와이즈플래닛 수요예측 주목 ...",
-      "description": "소비재 전문기업 와이즈플래닛컴퍼니도 다음달 4일부터 10일까지 기관 수요예측을 진행하며 공모 절차를 본격화한다. 와이즈플래닛컴퍼니의 희망 공모가 밴드는 1만원~1만2000원이며, 상장 주관사는 대신증권이다.",
-      "link": "https://www.etoday.co.kr/news/view/2619166",
-      "originallink": "https://www.etoday.co.kr/news/view/2619166",
+      "title": "위축된 IPO 투심 속…‘공모가 하단 밑’ 스카이랩스, 코스닥 상장 [이번...",
+      "description": "국내 기업공개(IPO) 시장에서 찬바람이 불고 있는 가운데 이번주 디지털 헬스케어 기업 스카이랩스가 코스닥 시장에 신규 상장한다. 생성형 인공지능(AI) 기업 네오사피엔스와 미디어커머스 기업 와이즈플래닛컴퍼니...",
+      "link": "https://n.news.naver.com/mnews/article/011/0004656710?sid=101",
+      "originallink": "https://www.sedaily.com/article/20084862?ref=naver",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-08-29T00:02:00.000Z"
+      "publishedAt": "2026-08-30T21:01:00.000Z"
     },
     {
-      "id": "d659b8b531ce0564",
+      "id": "4c049d62b24f8a19",
       "keyword": "와이즈플래닛컴퍼니",
       "companyName": "와이즈플래닛컴퍼니",
-      "title": "[IPO챗] 스카이랩스, 몸값 낮춰 내주 코스닥 입성",
-      "description": "와이즈플래닛컴퍼니 기관 수요예측 기업공개(IPO) 시장의 투자심리가 주춤한 가운데 다음 주(8월 31일∼9월... 앞서 기도산업과 니어스랩, 해치텍은 모두 상장 첫날 공모가보다 낮은 가격으로 거래를 마쳤다....",
-      "link": "https://n.news.naver.com/mnews/article/001/0016277715?sid=101",
-      "originallink": "https://www.yna.co.kr/view/AKR20260828096200008?input=1195m",
+      "title": "[IPO 워치] 스카이랩스 코스닥 입성…수요예측 2곳",
+      "description": "4일 상장…공모가 하단 하회 네오사피엔스·와이즈플래닛컴퍼니 수요예측 위 이미지는 기사 이해를 돕기 위해 AI(인공지능)를 활용해 제작했습니다. [그림=챗GPT] [뉴스투데이=염보라 기자] 9월 첫째 주 기업공개(IPO)...",
+      "link": "https://www.news2day.co.kr/article/20260828500193",
+      "originallink": "https://www.news2day.co.kr/article/20260828500193",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-08-29T00:00:00.000Z"
+      "publishedAt": "2026-08-30T19:20:00.000Z"
+    },
+    {
+      "id": "240c16f11dc2f748",
+      "keyword": "와이즈플래닛컴퍼니",
+      "companyName": "와이즈플래닛컴퍼니",
+      "title": "이번주 스카이랩스 코스닥 상장…네오사피엔스·와이즈플래닛은 수요예...",
+      "description": "2026.7.8 cityboy@yna.co.kr 이번 주(8월 31일~9월 4일) 기업공개(IPO) 시장에서 디지털 헬스케어 기업 스카이랩스가 코스닥 시장에 입성한다. 네오사피엔스와 와이즈플래닛컴퍼니는 코스닥 상장을 위한 수요예측에 나선다....",
+      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4432523",
+      "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4432523",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-30T04:02:00.000Z"
+    },
+    {
+      "id": "eef28a5f8ada2ac2",
+      "keyword": "엣지파운드리",
+      "companyName": "엣지파운드리",
+      "title": "[자금조달 프리뷰] 롯데지주·한화리츠 공모채…IPO 2곳 '탐색전'",
+      "description": "코스닥 상장을 위한 수요예측에 나선다. 유상증자 시장에서는 SK디앤디·에코프로비엠·엘앤씨바이오가 신주배정기준일을 맞고, 엣지파운드리는 일반공모 청약을 진행한다. 공모채 3곳·영구채 2곳 '릴레이 발행...",
+      "link": "https://n.news.naver.com/mnews/article/293/0000089753?sid=101",
+      "originallink": "https://www.bloter.net/news/articleView.html?idxno=672131",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-30T04:00:00.000Z"
     },
     {
       "id": "3a23cfb8cdd39481",
@@ -150,17 +172,6 @@
       "publishedAt": "2026-08-26T08:02:00.000Z"
     },
     {
-      "id": "2653da817089ea3b",
-      "keyword": "엘리스그룹",
-      "companyName": "엘리스그룹",
-      "title": "[더벨][엘리스그룹 IPO] 최대 1조 밸류 도모, 데이터센터 중심 피어그룹...",
-      "description": "엘리스그룹이 최대 1조원의 몸값을 목표로 상장 절차를 본격 추진한다. 1조5000억원 가량의 몸값을... 엘리스그룹은 IPO 공모자금을 활용해 AI 인프라 및 클라우드 기술 초격차를 확보할 방침이다. 수도권 및 권역별...",
-      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608241633536400108067",
-      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608241633536400108067",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-25T22:02:00.000Z"
-    },
-    {
       "id": "cac5549c4b74e584",
       "keyword": "엘리스그룹",
       "companyName": "엘리스그룹",
@@ -172,11 +183,22 @@
       "publishedAt": "2026-08-25T22:02:00.000Z"
     },
     {
-      "id": "efd779124cb54862",
+      "id": "2653da817089ea3b",
       "keyword": "엘리스그룹",
       "companyName": "엘리스그룹",
+      "title": "[더벨][엘리스그룹 IPO] 최대 1조 밸류 도모, 데이터센터 중심 피어그룹...",
+      "description": "엘리스그룹이 최대 1조원의 몸값을 목표로 상장 절차를 본격 추진한다. 1조5000억원 가량의 몸값을... 엘리스그룹은 IPO 공모자금을 활용해 AI 인프라 및 클라우드 기술 초격차를 확보할 방침이다. 수도권 및 권역별...",
+      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608241633536400108067",
+      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608241633536400108067",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-25T22:02:00.000Z"
+    },
+    {
+      "id": "efd779124cb54862",
+      "keyword": "브릴스",
+      "companyName": "브릴스",
       "title": "없어서 몰렸던 공모주, 이젠 골라야 한다…9월 IPO 옥석가리기",
-      "description": "달하는 엘리스그룹도 뒤를 잇는다. 이처럼 청약 일정이 촘촘하게 이어지면서 9월 중순에는 공모가와 성장성, 상장 직후 유통물량 등을 따져 청약 자금을 선별적으로 배분하려는 움직임이 한층 뚜렷해질 가능성이...",
+      "description": "상반기 공모주 공급이 급감한 가운데 신규 상장주 청약에 자금이 몰렸던 기업공개(IPO) 시장이 9월부터... 25일 금융투자업계에 따르면 현재 예정된 9월 일반기업 청약은 △브릴스(8~9일) △네오사피엔스(10~11일)...",
       "link": "https://www.etoday.co.kr/news/view/2617820",
       "originallink": "https://www.etoday.co.kr/news/view/2617820",
       "provider": "뉴스 검색",
@@ -368,17 +390,6 @@
       "originallink": "http://www.fntimes.com/html/view.php?ud=202512142230535782dd55077bc2_18",
       "provider": "뉴스 검색",
       "publishedAt": "2025-12-14T20:02:00.000Z"
-    },
-    {
-      "id": "acd0a4fa3dee422a",
-      "keyword": "엣지파운드리",
-      "companyName": "엣지파운드리",
-      "title": "우주항공산업 관련주, '봄날의 햇살' 에이치브이엠·태웅·한화시스템·...",
-      "description": "내년 기업공개(IPO) 목표에, 상장 시 기업가치와 공모 규모가 역사상 최대 수준에 이를 수 있다는 전망까지... 삼성전자 파운드리·패키징 라인에 솔더볼을 납품하고 있으며 고객사로 삼성전자, SK하이닉스, ASE, Amkor...",
-      "link": "http://www.finomy.com/news/articleView.html?idxno=245338",
-      "originallink": "http://www.finomy.com/news/articleView.html?idxno=245338",
-      "provider": "뉴스 검색",
-      "publishedAt": "2025-12-13T15:10:00.000Z"
     },
     {
       "id": "7da1ef9c17789554",

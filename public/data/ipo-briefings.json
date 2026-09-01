@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "source": "local-rules",
-    "generatedAt": "2026-08-31T14:05:18.250Z",
-    "model": null,
+    "source": "gemini-briefings-mixed",
+    "generatedAt": "2026-09-01T01:14:59.648Z",
+    "model": "gemini-2.5-flash",
     "itemCount": 8,
-    "geminiUsed": 0,
-    "cacheUsed": 4,
+    "geminiUsed": 1,
+    "cacheUsed": 2,
     "policy": "회사 설명, IPO 단계, 일정, 경쟁률 뉴스 언급, 원문 확인 포인트만 표시합니다. 투자 판단 표현은 제외합니다."
   },
   "items": [
@@ -14,11 +14,11 @@
       "ipoId": "엔에이치기업인수목적34호",
       "companyName": "엔에이치기업인수목적34호",
       "sector": "IPO 일정 확인 대상 기업",
-      "ipoStage": "청약 예정",
+      "ipoStage": "청약 진행중",
       "underwriter": "주관사 확인",
       "basisTimeLabel": "오늘 09:30 기준",
       "oneLine": "IPO 일정 확인 대상 기업",
-      "body": "엔에이치기업인수목적34호는 IPO 일정 확인 대상 기업입니다. 09.01 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
+      "body": "엔에이치기업인수목적34호는 IPO 일정 확인 대상 기업입니다. 09.01 일정 기준으로 청약 진행중 단계라 원문 일정과 변경 여부를 함께 확인합니다.",
       "points": [
         "청약 시작·마감일 확인",
         "환불일 확인",
@@ -31,7 +31,7 @@
         "주관사 확인"
       ],
       "competition": null,
-      "generatedBy": "gemini-cache",
+      "generatedBy": "gemini",
       "model": "gemini-2.5-flash"
     },
     {
@@ -39,25 +39,25 @@
       "ipoId": "판타지오",
       "companyName": "판타지오",
       "sector": "IPO 일정 확인 대상 기업",
-      "ipoStage": "청약 예정",
+      "ipoStage": "청약 진행중",
       "underwriter": "주관사 확인",
       "basisTimeLabel": "오늘 09:30 기준",
-      "oneLine": "판타지오는 청약 예정인 IPO 일정 확인 대상 기업입니다.",
-      "body": "엔터테인먼트 기업 판타지오는 최대주주 대상 유상증자를 통해 자금을 조달했습니다. 현재 청약 예정 단계로, 09.01 청약 시작 전 일정과 환불일 09.04, 변경 여부를 확인합니다.",
+      "oneLine": "IPO 일정 확인 대상 기업",
+      "body": "판타지오는 IPO 일정 확인 대상 기업입니다. 09.01 일정 기준으로 청약 진행중 단계라 원문 일정과 변경 여부를 함께 확인합니다.",
       "points": [
         "청약 시작·마감일 확인",
         "환불일 확인",
         "정정 공시 여부 확인"
       ],
       "sourceLabels": [
-        "뉴스 검색",
         "DART 일정",
         "환불일 09.04",
+        "뉴스 검색",
         "주관사 확인"
       ],
       "competition": null,
-      "generatedBy": "gemini-cache",
-      "model": "gemini-2.5-flash"
+      "generatedBy": "local-rules",
+      "model": null
     },
     {
       "id": "briefing-네오사피엔스",

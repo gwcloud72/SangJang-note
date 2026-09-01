@@ -1,25 +1,26 @@
 {
   "metadata": {
-    "updatedAt": "2026-08-31T00:45:58.340Z",
+    "updatedAt": "2026-09-01T01:12:36.505Z",
     "source": "OpenDART",
     "basis": "증권신고서 주요정보 - 지분증권(estkRs), 공시검색(list), 공시원문(document.xml)",
     "dateRange": {
-      "bgnDe": "20260304",
-      "endDe": "20260831"
+      "bgnDe": "20260305",
+      "endDe": "20260901"
     },
     "lookbackDays": 180,
     "lookaheadDays": 120,
-    "totalFilings": 12435,
-    "totalCompanies": 330,
+    "totalFilings": 12434,
+    "totalCompanies": 326,
     "totalItems": 17,
-    "referenceDate": "2026-08-31",
+    "referenceDate": "2026-09-01",
     "status": "ready",
-    "candidateItems": 38,
+    "candidateItems": 37,
     "futureCandidateItems": 17,
     "statusCounts": {
-      "청약 예정": 17
+      "청약 진행중": 2,
+      "청약 예정": 15
     },
-    "documentDetailItems": 38,
+    "documentDetailItems": 37,
     "warning": "38개 항목의 상세 조회 또는 원문 추출에 실패했습니다. Actions 로그에서 확인하세요."
   },
   "items": [
@@ -52,7 +53,7 @@
       "dartUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260729000264",
       "mainMatterReceiptNo": "",
       "mainMatterUrl": "",
-      "status": "청약 예정",
+      "status": "청약 진행중",
       "refundDate": "",
       "listingDate": "",
       "demandForecastStart": "2026-03-12",
@@ -97,7 +98,7 @@
       "dartUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812000852",
       "mainMatterReceiptNo": "20260804000375",
       "mainMatterUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260804000375",
-      "status": "청약 예정",
+      "status": "청약 진행중",
       "refundDate": "2026-09-04",
       "listingDate": "",
       "demandForecastStart": "",

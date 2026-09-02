@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "updatedAt": "2026-09-02T04:45:30.890Z",
+    "updatedAt": "2026-09-02T09:44:14.853Z",
     "source": "gemini-briefing-cache"
   },
   "items": [
@@ -622,6 +622,35 @@
         "model": null
       },
       "updatedAt": "2026-09-02T04:44:33.508Z"
+    },
+    {
+      "key": "0ccd5da144f831cd38010601",
+      "model": "gemini-2.5-flash",
+      "briefing": {
+        "id": "briefing-와이즈플래닛컴퍼니",
+        "ipoId": "와이즈플래닛컴퍼니",
+        "companyName": "와이즈플래닛컴퍼니",
+        "sector": "IPO 일정 확인 대상 기업",
+        "ipoStage": "청약 예정",
+        "underwriter": "주관사 확인",
+        "basisTimeLabel": "오늘 09:30 기준",
+        "oneLine": "IPO 일정 확인 대상 기업",
+        "body": "와이즈플래닛컴퍼니는 IPO 일정 확인 대상 기업입니다. 09.14 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 09.17, 변경 여부를 함께 확인합니다.",
+        "points": [
+          "청약 시작·마감일 확인",
+          "환불일 확인",
+          "정정 공시 여부 확인"
+        ],
+        "sourceLabels": [
+          "DART 일정",
+          "환불일 09.17",
+          "주관사 확인"
+        ],
+        "competition": null,
+        "generatedBy": "local-rules",
+        "model": null
+      },
+      "updatedAt": "2026-09-02T09:43:13.279Z"
     }
   ]
 }

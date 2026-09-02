@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "source": "local-rules",
-    "generatedAt": "2026-09-02T00:01:04.613Z",
-    "model": null,
+    "source": "gemini-briefings-mixed",
+    "generatedAt": "2026-09-02T04:45:30.891Z",
+    "model": "gemini-2.5-flash",
     "itemCount": 8,
-    "geminiUsed": 0,
+    "geminiUsed": 1,
     "cacheUsed": 2,
     "policy": "회사 설명, IPO 단계, 일정, 경쟁률 뉴스 언급, 원문 확인 포인트만 표시합니다. 투자 판단 표현은 제외합니다."
   },
@@ -80,8 +80,8 @@
         "주관사 확인"
       ],
       "competition": null,
-      "generatedBy": "local-rules",
-      "model": null
+      "generatedBy": "gemini",
+      "model": "gemini-2.5-flash"
     },
     {
       "id": "briefing-케이비제34호기업인수목적",

@@ -1,11 +1,110 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-09-01T01:12:43.022Z",
+    "updatedAt": "2026-09-01T23:57:46.051Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "331793f4150e5dd8",
+      "keyword": "브릴스",
+      "companyName": "브릴스",
+      "title": "꺼져버린 IPO 열기…이젠 옥석가리기 시간[클릭e시장]",
+      "description": "2일 삼성증권은 기업공개(IPO) 시장의 열기가 식은 만큼 향후 공모주 사이에서 선별 과정이 나타날 것이라고 전망했다. 이달 IPO 시장에서는 스팩을 제외하고 총 6개 기업이 상장해 2106억원을 조달했다. 패션 기업간거래...",
+      "link": "https://n.news.naver.com/mnews/article/277/0005810535?sid=101",
+      "originallink": "https://view.asiae.co.kr/article/2026090122560639182",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-01T22:00:00.000Z"
+    },
+    {
+      "id": "585d87a950059d6e",
+      "keyword": "덕산넵코어스",
+      "companyName": "덕산넵코어스",
+      "title": "얼어붙은 IPO 투심, 9월 전환점 될까…코스닥 우호적 환경 기대",
+      "description": "기업인 '덕산넵코어스'를 꼽았다. ◆8월 '옥석 가리기' 심화…9월엔 코스닥 발 훈풍 기대 지난 8월 IPO 시장은 부진의 연속이었다. 케이앤에스아이앤씨, 니어스랩 등 6개 기업이 코스닥에 상장했으나, 평균 청약 경쟁률은...",
+      "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1722552",
+      "originallink": "https://www.ebn.co.kr/news/articleView.html?idxno=1722552",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-01T21:02:00.000Z"
+    },
+    {
+      "id": "c00c988a246babea",
+      "keyword": "엘리스그룹",
+      "companyName": "엘리스그룹",
+      "title": "[N2 포커스] 9월 12개社 코스닥 상장 채비…IPO 시장 반등 시험대",
+      "description": "기업공개(IPO) 시장에는 예년보다 많은 공모 물량이 쏟아진다. 이달 12개 기업이 코스닥 상장을 목표로... 일반청약을, 엘리스그룹은 9~15일 수요예측에 이어 18~21일 일반청약을 받는다. 멜콘과 진코스텍, 엠비디와...",
+      "link": "https://www.news2day.co.kr/article/20260901500283",
+      "originallink": "https://www.news2day.co.kr/article/20260901500283",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-01T19:54:00.000Z"
+    },
+    {
+      "id": "10215a80510f3877",
+      "keyword": "덕산넵코어스",
+      "companyName": "덕산넵코어스",
+      "title": "‘따따상’ 축포도 이젠 옛말…얼어붙은 IPO 시장 [투자360]",
+      "description": "신규상장을 앞둔 기업들의 흐름을 막았다”고 분석했다. IPO 추진 당시 몸값이 2조원대로 거론됐던 에식스솔루션즈가 심사를 철회했고 디티에스와 덕산넵코어스는 심사가 장기간 지연됐다. 덕산넵코어스와...",
+      "link": "https://n.news.naver.com/mnews/article/016/0002691448?sid=101",
+      "originallink": "https://biz.heraldcorp.com/article/10859045?ref=naver",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-01T13:41:00.000Z"
+    },
+    {
+      "id": "1a521eccf26df1af",
+      "keyword": "브릴스",
+      "companyName": "브릴스",
+      "title": "공모주 '품귀 프리미엄' 끝났다…IPO 옥석 가리기 본격화 [fn마켓워치]",
+      "description": "한편 9월에는 △ 네오사피엔스 △브릴스 △와이즈플래닛컴퍼니 등 8개 기업이 상장을 준비하고 있다.... 11~12월 IPO 성수기를 앞두고 코스피 상장 후보와 로봇·AI 기업, 대형 공모가 대기하고 있다. 사전 수요예측과...",
+      "link": "https://n.news.naver.com/mnews/article/014/0005569612?sid=101",
+      "originallink": "https://www.fnnews.com/news/202609011929377566",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-01T10:37:00.000Z"
+    },
+    {
+      "id": "470fca8a17af3a4b",
+      "keyword": "빅웨이브로보틱스",
+      "companyName": "빅웨이브로보틱스",
+      "title": "‘코스피보다 더 낫다’ 8월에만 2조원 폭풍매수…코스닥에 몰려가는 개...",
+      "description": "코스닥 예비심사청구 건수는 6건으로 7월 15건보다 감소했지만 이달 스카이랩스 상장을 시작으로 네오사피엔스, 와이즈플래닛컴퍼니, 빅웨이브로보틱스 등 7개 기업의 수요예측과 공모청약 일정이 예정돼 있다....",
+      "link": "https://n.news.naver.com/mnews/article/016/0002691413?sid=101",
+      "originallink": "https://biz.heraldcorp.com/article/10859016?ref=naver",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-01T09:41:00.000Z"
+    },
+    {
+      "id": "c740649517e510bf",
+      "keyword": "글로벌테크놀로지",
+      "companyName": "글로벌테크놀로지",
+      "title": "中 CXMT에 이어 YMTC도 상장···삼전닉스 주가 폭락 재현될까",
+      "description": "창신메모리테크놀로지(CXMT) 상장 당시에도 글로벌 반도체 펀드들이 편입하고 있던 삼성전자와 SK하이닉스 주식을 대거 매도하면서 삼성전자와 SK하이닉스 주가가 급락한 바 있다. ◇ CXMT와 닮은 YMTC IPO...",
+      "link": "https://www.sisajournal-e.com/news/articleView.html?idxno=423452",
+      "originallink": "https://www.sisajournal-e.com/news/articleView.html?idxno=423452",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-01T08:18:00.000Z"
+    },
+    {
+      "id": "e1d553ec4b8c30c8",
+      "keyword": "엘리스그룹",
+      "companyName": "엘리스그룹",
+      "title": "9월 공모주 ‘슈퍼 먼스’ 온다...새내기주 반등할까",
+      "description": "엘리스그룹은 AI 교육 플랫폼과 클라우드, 인프라를 통합 제공한다. 하지만 공모 물량이 늘어나는 것만으로 시장이 완전히 회복됐다고 보기는 어렵다. 올해 증시에 입성한 기업 대부분이 상장 이후 공모가를 밑돌고...",
+      "link": "https://n.news.naver.com/mnews/article/050/0000110336?sid=101",
+      "originallink": "https://magazine.hankyung.com/business/article/202609016119b",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-01T04:59:00.000Z"
+    },
+    {
+      "id": "66bdea2de35dcee1",
+      "keyword": "덕산넵코어스",
+      "companyName": "덕산넵코어스",
+      "title": "올 신규 상장 27곳에 그쳐…얼어붙은 IPO시장",
+      "description": "신규상장을 앞둔 기업들의 흐름을 막았다”고 분석했다. IPO 추진 당시 몸값이 2조원대로 거론됐던 에식스솔루션즈가 심사를 철회했고 디티에스와 덕산넵코어스는 심사가 장기간 지연됐다. 덕산넵코어스와...",
+      "link": "https://n.news.naver.com/mnews/article/016/0002691105?sid=101",
+      "originallink": "https://biz.heraldcorp.com/article/10858546?ref=naver",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-01T02:15:00.000Z"
+    },
     {
       "id": "0c6792176f1ceba5",
       "keyword": "엘리스그룹",
@@ -40,59 +139,15 @@
       "publishedAt": "2026-08-31T22:02:00.000Z"
     },
     {
-      "id": "7ca45f6bbc87ea82",
-      "keyword": "덕산넵코어스",
-      "companyName": "덕산넵코어스",
-      "title": "‘대어’ 실종…상장기업 수도 5년래 최저[월간IPO]",
-      "description": "8월 말까지 상장한 기업은 예년 평균의 절반 수준에 그쳤고, 공모금액도 1년 전보다 반 토막 났다.... 중복상장 관련 이슈로 상장이 정체됐던 덕산넵코어스과 디티에스가 지난달 20일 나란히 거래소 상장 심사 승인을...",
-      "link": "https://www.ekn.kr/web/view.php?key=20260831025248536",
-      "originallink": "https://www.ekn.kr/web/view.php?key=20260831025248536",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-31T06:20:00.000Z"
-    },
-    {
-      "id": "10ea9a166dc8c7fc",
-      "keyword": "와이즈플래닛컴퍼니",
-      "companyName": "와이즈플래닛컴퍼니",
-      "title": "[증권 Pick] 이번주 IPO 일정 모아보기",
-      "description": "기업공개(IPO) 시장에서는 일반 투자자 대상 신규 공모청약 일정은 없는 가운데 디지털 헬스케어 기업 스카이랩스가 코스닥에 입성하고 인공지능(AI) 음성 기업 네오사피엔스와 소비재 기업 와이즈플래닛컴퍼니...",
-      "link": "https://www.lcnews.co.kr/news/articleView.html?idxno=207446",
-      "originallink": "https://www.lcnews.co.kr/news/articleView.html?idxno=207446",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-31T04:58:00.000Z"
-    },
-    {
       "id": "b97b61a3fd6cb18a",
-      "keyword": "엘리스그룹",
-      "companyName": "엘리스그룹",
+      "keyword": "글로벌테크놀로지",
+      "companyName": "글로벌테크놀로지",
       "title": "[A 증시어택] 로봇·AI부터 방산까지 코스닥 상장 도전...9월 공모주 소...",
-      "description": "성장성과 기술력을 앞세운 기업들이 대거 공모 시장에 몰리면서 얼어붙었던 기업공개(IPO) 시장에도... 전문기업 엘리스그룹이 코스닥 상장을 위한 공모 절차에 본격적으로 나선다. 엘리스그룹은 총 222만2000주를...",
+      "description": "성장성과 기술력을 앞세운 기업들이 대거 공모 시장에 몰리면서 얼어붙었던 기업공개(IPO) 시장에도... 전문기업 글로벌테크놀로지(GT)가 코스닥 상장을 위한 공모 절차에 돌입한다. 글로벌테크놀로지는 총 400만...",
       "link": "https://www.asiaa.co.kr/news/articleView.html?idxno=260416",
       "originallink": "https://www.asiaa.co.kr/news/articleView.html?idxno=260416",
       "provider": "뉴스 검색",
       "publishedAt": "2026-08-31T04:00:00.000Z"
-    },
-    {
-      "id": "50ce81baa9e6e007",
-      "keyword": "와이즈플래닛컴퍼니",
-      "companyName": "와이즈플래닛컴퍼니",
-      "title": "'최저 경쟁률' 스카이랩스, 코스닥 입성⋯네오사피엔스 수요예측 [IPO 돋...",
-      "description": "대신증권이 상장을 주관한다. 소비재 전문기업인 와이즈플래닛컴퍼니는 다음 달 4일부터 10일까지 수요예측을 실시할 예정이다. 공모가 희망 범위는 1만~1만2000원이다. 공모 금액은 160억~192억원이다....",
-      "link": "https://n.news.naver.com/mnews/article/031/0001053666?sid=101",
-      "originallink": "http://www.inews24.com/view/1999833",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-31T00:37:00.000Z"
-    },
-    {
-      "id": "628a52c98d2f2553",
-      "keyword": "엘리스그룹",
-      "companyName": "엘리스그룹",
-      "title": "[더벨][엘리스그룹 IPO] 주요주주 자발적 락업, '품절주' 구조 만들었다",
-      "description": "기업공개(IPO)를 추진하는 엘리스그룹의 주요주주들이 보유한 주식에 대거 자발적 락업을 설정하면서 상장 직후 유통물량이 최소화됐다. 사실상 공모에서 발행하는 신주만 유통가능한 구조라 이른바 '품절주'로...",
-      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608271427352360102534",
-      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608271427352360102534",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-30T22:02:00.000Z"
     },
     {
       "id": "0ce80b9f4dee2c33",
@@ -115,61 +170,6 @@
       "originallink": "https://www.bloter.net/news/articleView.html?idxno=672131",
       "provider": "뉴스 검색",
       "publishedAt": "2026-08-30T04:00:00.000Z"
-    },
-    {
-      "id": "3a23cfb8cdd39481",
-      "keyword": "글로벌테크놀로지",
-      "companyName": "글로벌테크놀로지",
-      "title": "[亞증시-종합] 워시 잭슨홀 연설 경계 속 혼조",
-      "description": "줄어들고 글로벌 AI 관련 투자 흐름이 다시 탄력을 받을 경우, 중국 증시의 수급 여건이 개선될 여지가 있다고 진단했다. 최근 반도체 업체 창신메모리테크놀로지(CXMT)의 기업공개(IPO) 등 대형 공모주 상장이...",
-      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4432446",
-      "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4432446",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-28T10:20:00.000Z"
-    },
-    {
-      "id": "75c0792ce02b66f3",
-      "keyword": "글로벌테크놀로지",
-      "companyName": "글로벌테크놀로지",
-      "title": "[중국증시-마감] 반도체주 약세에 하락",
-      "description": "줄어들고 글로벌 AI 관련 투자 흐름이 다시 탄력을 받을 경우, 중국 증시의 수급 여건이 개선될 여지가 있다고 진단했다. 최근 반도체 업체 창신메모리테크놀로지(CXMT)의 기업공개(IPO) 등 대형 공모주 상장이...",
-      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4432439",
-      "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4432439",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-28T09:22:00.000Z"
-    },
-    {
-      "id": "0d7409a350a21948",
-      "keyword": "브릴스",
-      "companyName": "브릴스",
-      "title": "IPO 수확의 달 9월…VC 투자금 회수 기대할 수 있을까",
-      "description": "만에 IPO에 나선다는 점에서 회수 사례로 의미가 있다. 브릴스에는 포스코그룹과 산업은행, IBKS 로봇솔루션... 다만 최근 공모주 시장에서는 상장 후 주가가 공모가를 밑도는 사례가 이어지고 있다. IPO가 곧바로...",
-      "link": "https://n.news.naver.com/mnews/article/015/0005325862?sid=101",
-      "originallink": "https://www.hankyung.com/article/202608276806r",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-28T01:17:00.000Z"
-    },
-    {
-      "id": "631438af644cdccf",
-      "keyword": "브릴스",
-      "companyName": "브릴스",
-      "title": "경쟁률 1000대 1도 안 통한다…공모주 흥행 공식 '흔들'",
-      "description": "장기보유 유도하고 시장수요 반영…IPO 제도 재정비 금융당국도 기관의 단기 투자 수요를 걸러내고... 희망 공모가에 시장 수요를 보다 충실히 반영하고 상장 초기 수급을 안정시키려는 취지다. 다음 달에는 브릴스와...",
-      "link": "https://www.newsway.co.kr/news/view?ud=2026082616313956611",
-      "originallink": "https://www.newsway.co.kr/news/view?ud=2026082616313956611",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-26T08:02:00.000Z"
-    },
-    {
-      "id": "efd779124cb54862",
-      "keyword": "빅웨이브로보틱스",
-      "companyName": "빅웨이브로보틱스",
-      "title": "없어서 몰렸던 공모주, 이젠 골라야 한다…9월 IPO 옥석가리기",
-      "description": "상장사는 17개사로 전년 동기보다 55.3% 줄고 공모액도 1조1327억원으로 48.7% 감소했지만, 일반청약 경쟁률 1000대 1 이상 기업은 14개사로 전체의 82.4%를 차지했다. 기관 수요예측도 나란히 진행된다. 빅웨이브로보틱스와...",
-      "link": "https://www.etoday.co.kr/news/view/2617820",
-      "originallink": "https://www.etoday.co.kr/news/view/2617820",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-25T20:44:00.000Z"
     },
     {
       "id": "ba0cd663880e1690",

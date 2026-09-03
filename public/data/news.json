@@ -1,11 +1,44 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-09-01T23:57:46.051Z",
+    "updatedAt": "2026-09-02T23:59:57.900Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "517156b84d070c06",
+      "keyword": "브릴스",
+      "companyName": "브릴스",
+      "title": "수요 주는데 공급 늘어난 공모주 시장...\"옥석가리기 심화\"",
+      "description": "오는 4일 스카이랩스 상장을 시작으로 네오사피엔스, 브릴스, 와이즈플래닛컴퍼니, 빅웨이브로보틱스 등... 전통적으로 IPO 성수기인 만큼 투자자의 공모주 관심이 점차 확대될 것\"이라면서도 \"상장하는 종목이 늘어나는...",
+      "link": "https://daily.hankooki.com/news/articleView.html?idxno=1401988",
+      "originallink": "https://daily.hankooki.com/news/articleView.html?idxno=1401988",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-02T07:12:00.000Z"
+    },
+    {
+      "id": "3e049723945c393e",
+      "keyword": "빅웨이브로보틱스",
+      "companyName": "빅웨이브로보틱스",
+      "title": "[빅웨이브로보틱스 IPO] 몸값 또 하향 조정···밸류 산정 의문 커진다",
+      "description": "6차 정정 통해 주식 수 축소·공모가 밴드 하단도 31% 낮춰 PER 평가액 대비로는 여전히 밸류 높아···흥행 여부 불투명 빅웨이브로보틱스가 공모가 희망밴드를 또 낮췄다. 상장 전부터 몸값이 잇달아 줄어들면서...",
+      "link": "https://www.topdaily.kr/articles/111769",
+      "originallink": "https://www.topdaily.kr/articles/111769",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-02T07:02:00.000Z"
+    },
+    {
+      "id": "722dc34250d77dcb",
+      "keyword": "엘리스그룹",
+      "companyName": "엘리스그룹",
+      "title": "증시 유동성 둔화에 9월 공모는 2.5배…IPO 시장 옥석 가리기 본격화",
+      "description": "주식시장의 거래 위축은 IPO 시장에도 부담을 더하고 있다. 최근 신규 상장 종목들이 상장 이후 부진한 주가... 엘리스그룹은 222만2000주를 공모하며 희망 공모 규모는 1564억~2011억원이다. 기관투자자 대상 수요예측은...",
+      "link": "https://www.viva100.com/article/20260902500605",
+      "originallink": "https://www.viva100.com/article/20260902500605",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-02T05:26:00.000Z"
+    },
     {
       "id": "331793f4150e5dd8",
       "keyword": "브릴스",
@@ -30,10 +63,10 @@
     },
     {
       "id": "c00c988a246babea",
-      "keyword": "엘리스그룹",
-      "companyName": "엘리스그룹",
+      "keyword": "멜콘",
+      "companyName": "멜콘",
       "title": "[N2 포커스] 9월 12개社 코스닥 상장 채비…IPO 시장 반등 시험대",
-      "description": "기업공개(IPO) 시장에는 예년보다 많은 공모 물량이 쏟아진다. 이달 12개 기업이 코스닥 상장을 목표로... 일반청약을, 엘리스그룹은 9~15일 수요예측에 이어 18~21일 일반청약을 받는다. 멜콘과 진코스텍, 엠비디와...",
+      "description": "기업공개(IPO) 시장에는 예년보다 많은 공모 물량이 쏟아진다. 이달 12개 기업이 코스닥 상장을 목표로... 멜콘과 진코스텍, 엠비디와 래블업은 이달 기관 수요예측, 내달 공모청약을 실시한다. 멜콘과 진코스텍은...",
       "link": "https://www.news2day.co.kr/article/20260901500283",
       "originallink": "https://www.news2day.co.kr/article/20260901500283",
       "provider": "뉴스 검색",
@@ -128,17 +161,6 @@
       "publishedAt": "2026-09-01T00:38:00.000Z"
     },
     {
-      "id": "004e4d1f8c93c96c",
-      "keyword": "엘리스그룹",
-      "companyName": "엘리스그룹",
-      "title": "[더벨][엘리스그룹 IPO] 자사주 취득 병행…희망공모가 기준 20억대",
-      "description": "엘리스그룹의 자사주는 공모 후 전체 주식의 0.26%다. 지분 구조에 미치는 영향은 제한적이지만 희망공모가 기준 보상 규모는 20억원을 웃돈다. 보유 자사주 2만9250주는 전량 상장일부터 6개월 동안 의무보유된다....",
-      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608271828307880104865",
-      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608271828307880104865",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-31T22:02:00.000Z"
-    },
-    {
       "id": "b97b61a3fd6cb18a",
       "keyword": "글로벌테크놀로지",
       "companyName": "글로벌테크놀로지",
@@ -148,17 +170,6 @@
       "originallink": "https://www.asiaa.co.kr/news/articleView.html?idxno=260416",
       "provider": "뉴스 검색",
       "publishedAt": "2026-08-31T04:00:00.000Z"
-    },
-    {
-      "id": "0ce80b9f4dee2c33",
-      "keyword": "엔에이치기업인수목적34호",
-      "companyName": "엔에이치기업인수목적34호",
-      "title": "위축된 IPO 투심 속…‘공모가 하단 밑’ 스카이랩스, 코스닥 상장 [이번...",
-      "description": "이 외에 기업인수목적회사(SPAC)들도 공모 일정에 나선다. KB스팩34호는 다음달 4일부터 기관 대상 수요예측을 진행한다. 엔에이치스팩34호는 다음달 1~2일 일반투자자 대상 공모주 청약을 앞두고 있다. 기관...",
-      "link": "https://n.news.naver.com/mnews/article/011/0004656710?sid=101",
-      "originallink": "https://www.sedaily.com/article/20084862?ref=naver",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-30T21:01:00.000Z"
     },
     {
       "id": "eef28a5f8ada2ac2",
@@ -172,15 +183,15 @@
       "publishedAt": "2026-08-30T04:00:00.000Z"
     },
     {
-      "id": "ba0cd663880e1690",
-      "keyword": "엔에이치기업인수목적34호",
-      "companyName": "엔에이치기업인수목적34호",
-      "title": "[주간 IPO] 니어스랩·해치텍 코스닥 입성…스카이랩스 청약",
-      "description": "이투데이=심영주 기자 | 다음 주(8월 24~28일) 기업공개(IPO) 시장에서는 니어스랩과 해치텍이 연이어 코스닥 시장에 입성한다. 스카이랩스는 일반투자자 대상 공모주 청약에 나서고, 엔에이치기업인수목적34호...",
-      "link": "https://www.etoday.co.kr/news/view/2616862",
-      "originallink": "https://www.etoday.co.kr/news/view/2616862",
+      "id": "58d8a37842ceaec2",
+      "keyword": "멜콘",
+      "companyName": "멜콘",
+      "title": "[장외시황] 엘리스그룹ㆍ멜콘, 증권신고서 제출",
+      "description": "전문업체 멜콘(구 에스앤에프솔루션)이 코스닥 상장을 위한 증권신고서를 제출했다. 공모예정 주식수는... IPO(기업공개)관련 상장 예비심사 청구종목으로 특수 목적용 항법 및 항재밍 토탈 솔루션 전문업체...",
+      "link": "https://www.etoday.co.kr/news/view/2617535",
+      "originallink": "https://www.etoday.co.kr/news/view/2617535",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-08-22T00:02:00.000Z"
+      "publishedAt": "2026-08-24T06:48:00.000Z"
     },
     {
       "id": "a424ebae52181281",
@@ -214,6 +225,28 @@
       "originallink": "https://www.bloter.net/news/articleView.html?idxno=669757",
       "provider": "뉴스 검색",
       "publishedAt": "2026-08-02T00:00:00.000Z"
+    },
+    {
+      "id": "2c37d40a5837f3b7",
+      "keyword": "멜콘",
+      "companyName": "멜콘",
+      "title": "[더벨][멜콘 IPO] 반도체 훈풍에 실적 반등…예심에도 영향 줄까",
+      "description": "21일 투자은행(IB) 업계에 따르면 멜콘의 코스닥 상장 예비심사는 절차에 따라 차질없이 진행 중인 것으로... 통해 공모금액이 전액 회사로 흘러들어가는 구조를 짰다. 회사는 현재 주 수익원인 THC 이외에 초정밀 정제...",
+      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202605211620067520107686",
+      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202605211620067520107686",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-05-25T22:02:00.000Z"
+    },
+    {
+      "id": "92a49a0bce2b2e92",
+      "keyword": "멜콘",
+      "companyName": "멜콘",
+      "title": "5월 공모주 시장 대형주 실종…중소형주에 투자 집중",
+      "description": "5월 IPO 시장은 금융당국의 중복상장 규제와 대내외 금융시장의 변동성이 맞물리며 대형 기업들이 자취를 감춘 채 중소형주 위주의 제한적인 시장이 형성되었다. 소수 중소형 공모주에 자금이 집중되며 청약 경쟁률이...",
+      "link": "https://www.junggi.co.kr/news/articleView.html?idxno=36401",
+      "originallink": "https://www.junggi.co.kr/news/articleView.html?idxno=36401",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-05-12T05:22:00.000Z"
     },
     {
       "id": "d1c78174c1d09481",
@@ -269,6 +302,17 @@
       "originallink": "http://www.fntimes.com/html/view.php?ud=202512142230535782dd55077bc2_18",
       "provider": "뉴스 검색",
       "publishedAt": "2025-12-14T20:02:00.000Z"
+    },
+    {
+      "id": "177b6466d84978f1",
+      "keyword": "멜콘",
+      "companyName": "멜콘",
+      "title": "[Who Is ?] 김원경 라온테크 대표이사",
+      "description": "박석순 멜콘 부회장이 사외이사를 맡고 있다. 이사회 내 별도의 위원회는 구성되어 있지 않다. 비상근... 상장 후 1년간 락업되는 우리사주조합 물량 5만 주를 뺀 공모주 45만 주(9.21%)를 제외하면, 나머지 222만8444주...",
+      "link": "https://www.businesspost.co.kr/BP?command=article_view&num=421026",
+      "originallink": "https://www.businesspost.co.kr/BP?command=article_view&num=421026",
+      "provider": "뉴스 검색",
+      "publishedAt": "2025-11-23T22:38:00.000Z"
     },
     {
       "id": "7da1ef9c17789554",

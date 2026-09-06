@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "updatedAt": "2026-09-06T04:50:34.606Z",
+    "updatedAt": "2026-09-06T09:32:39.833Z",
     "source": "gemini-briefing-cache"
   },
   "items": [
@@ -680,6 +680,95 @@
         "model": null
       },
       "updatedAt": "2026-09-03T04:40:01.398Z"
+    },
+    {
+      "key": "874069fcdaf268f03d5c9539",
+      "model": "gemini-2.5-flash",
+      "briefing": {
+        "id": "briefing-한국제17호기업인수목적",
+        "ipoId": "한국제17호기업인수목적",
+        "companyName": "한국제17호기업인수목적",
+        "sector": "IPO 일정 확인 대상 기업",
+        "ipoStage": "청약 예정",
+        "underwriter": "주관사 확인",
+        "basisTimeLabel": "오늘 09:30 기준",
+        "oneLine": "IPO 일정 확인 대상 기업",
+        "body": "한국제17호기업인수목적은 IPO 일정 확인 대상 기업입니다. 09.10 청약 예정이며, 원문 일정과 환불일, 변경 여부를 확인해야 합니다.",
+        "points": [
+          "청약 시작·마감일 확인",
+          "환불일 확인",
+          "정정 공시 여부 확인"
+        ],
+        "sourceLabels": [
+          "DART 일정",
+          "환불일 확인",
+          "뉴스 검색",
+          "주관사 확인"
+        ],
+        "competition": null,
+        "generatedBy": "local-rules",
+        "model": null
+      },
+      "updatedAt": "2026-09-06T09:30:54.821Z"
+    },
+    {
+      "key": "eb89d5b9dcc4513fc55435a5",
+      "model": "gemini-2.5-flash",
+      "briefing": {
+        "id": "briefing-글로벌테크놀로지",
+        "ipoId": "글로벌테크놀로지",
+        "companyName": "글로벌테크놀로지",
+        "sector": "IPO 일정 확인 대상 기업",
+        "ipoStage": "청약 예정",
+        "underwriter": "주관사 확인",
+        "basisTimeLabel": "오늘 09:30 기준",
+        "oneLine": "IPO 일정 확인 대상 기업",
+        "body": "글로벌테크놀로지는 현재 청약 예정 단계에 있습니다. 09.16 청약 시작 전 일정으로, 원문 일정과 환불일, 변경 여부를 확인해야 합니다.",
+        "points": [
+          "청약 시작·마감일 확인",
+          "환불일 확인",
+          "정정 공시 여부 확인"
+        ],
+        "sourceLabels": [
+          "DART 일정",
+          "환불일 확인",
+          "뉴스 검색",
+          "주관사 확인"
+        ],
+        "competition": null,
+        "generatedBy": "local-rules",
+        "model": null
+      },
+      "updatedAt": "2026-09-06T09:32:35.606Z"
+    },
+    {
+      "key": "3046d4ff0172a7b013cb1f3c",
+      "model": "gemini-2.5-flash",
+      "briefing": {
+        "id": "briefing-덕산넵코어스",
+        "ipoId": "덕산넵코어스",
+        "companyName": "덕산넵코어스",
+        "sector": "IPO 일정 확인 대상 기업",
+        "ipoStage": "청약 예정",
+        "underwriter": "주관사 확인",
+        "basisTimeLabel": "오늘 09:30 기준",
+        "oneLine": "IPO 일정 확인 대상 기업",
+        "body": "덕산넵코어스는 IPO 일정 확인 대상 기업입니다. 09.16 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 09.21, 변경 여부를 함께 확인합니다.",
+        "points": [
+          "청약 시작·마감일 확인",
+          "환불일 확인",
+          "정정 공시 여부 확인"
+        ],
+        "sourceLabels": [
+          "DART 일정",
+          "환불일 09.21",
+          "주관사 확인"
+        ],
+        "competition": null,
+        "generatedBy": "local-rules",
+        "model": null
+      },
+      "updatedAt": "2026-09-06T09:32:39.833Z"
     }
   ]
 }

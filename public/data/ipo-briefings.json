@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "local-rules",
-    "generatedAt": "2026-09-05T09:12:08.652Z",
+    "generatedAt": "2026-09-06T00:13:15.831Z",
     "model": null,
     "itemCount": 8,
     "geminiUsed": 0,
@@ -201,7 +201,6 @@
       "sourceLabels": [
         "DART 일정",
         "환불일 09.21",
-        "뉴스 검색",
         "주관사 확인"
       ],
       "competition": null,

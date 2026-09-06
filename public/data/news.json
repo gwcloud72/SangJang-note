@@ -1,11 +1,88 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-09-06T00:10:48.343Z",
+    "updatedAt": "2026-09-06T23:43:57.174Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "4c6309fa34f7f393",
+      "keyword": "덕산넵코어스",
+      "companyName": "덕산넵코어스",
+      "title": "8월 새내기주 6곳 중 5곳 공모가 밑돌았다",
+      "description": "중복상장 가이드라인 시행 뒤 멈춰 있던 일부 기업공개(IPO) 심사가 다시 움직이고 있다. 다만 8월 신규 상장... 공모가 대비 상승률은 135%였다. 중복상장 후보 가운데서는 덕산넵코어스가 첫 시험대에 오른다. 모회사...",
+      "link": "https://www.tokenpost.kr/news/market/403520",
+      "originallink": "https://www.tokenpost.kr/news/market/403520",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-06T22:46:00.000Z"
+    },
+    {
+      "id": "79b83aa3a293a76f",
+      "keyword": "덕산넵코어스",
+      "companyName": "덕산넵코어스",
+      "title": "중복상장 금지에 IPO 시장 기지개...투심 회복은 '아직'",
+      "description": "일부 상장 심사가 다시 움직이고 9월 기업공개(IPO) 공급도 늘어날 전망이다. 다만 8월 신규 상장사 대부분이... 덕산넵코어스의 공모 결과는 다른 중복상장 후보의 판단에도 영향을 미칠 수 있다. HD현대로보틱스가...",
+      "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=698398",
+      "originallink": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=698398",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-06T22:30:00.000Z"
+    },
+    {
+      "id": "5ed4ac18b9acbd4f",
+      "keyword": "브릴스",
+      "companyName": "브릴스",
+      "title": "공모주 청약 봇물…덕산넵코어스 등 6곳 수요예측 시험대 [이번주 증시...",
+      "description": "한동안 썰렁했던 기업공개(IPO) 시장이 이번 주 다시 북적일 전망이다. 중복상장 원칙 금지 규제가 발표된... 빅웨이브로보틱스, 브릴스, KB스팩34호, 한국스팩17호가 기관 수요예측 일정에 돌입한다. 희망 공모가 밴드...",
+      "link": "https://n.news.naver.com/mnews/article/011/0004659107?sid=101",
+      "originallink": "https://www.sedaily.com/article/20087606?ref=naver",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-06T21:01:00.000Z"
+    },
+    {
+      "id": "6f2a6511a91ae22e",
+      "keyword": "브릴스",
+      "companyName": "브릴스",
+      "title": "[IPO 워치] 수요예측 7곳 몰린다…네오사피엔스 청약",
+      "description": "기업공개(IPO) 시장에서는 7개 기업이 기관투자자 대상 수요예측을 진행한다. 이번 주 신규 상장 일정은 없는 가운데 인공지능(AI)과 로봇, 반도체 장비, 방산 등 다양한 업종의 기업들이 공모가 산정을 위한 기관...",
+      "link": "https://www.news2day.co.kr/article/20260906500013",
+      "originallink": "https://www.news2day.co.kr/article/20260906500013",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-06T19:54:00.000Z"
+    },
+    {
+      "id": "16beada35dba30d4",
+      "keyword": "브릴스",
+      "companyName": "브릴스",
+      "title": "IPO 시장 다시 활기…이번주 수요예측 나서는 기업만 7곳",
+      "description": "이번 주 수요예측에 들어간다. 공모가 희망밴드는 1만2천400~1만4천600원, 상장 주관사는 대신증권이다. 인공지능(AI) 풀스택 기업 엘리스그룹과 로봇 모듈화 플랫폼 기업 브릴스도 같은 날 수요예측을 시작한다....",
+      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433621",
+      "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433621",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-06T04:02:00.000Z"
+    },
+    {
+      "id": "80eedf7aca9aec6f",
+      "keyword": "와이즈플래닛컴퍼니",
+      "companyName": "와이즈플래닛컴퍼니",
+      "title": "네오사피엔스 일반청약 돌입⋯'스카이랩스 상장 첫날 135%↑ [IPO 돋보기...",
+      "description": "주(9월7일~11일) 기업공개(IPO) 시장에서는 네오사피엔스가 수요예측과 일반청약을 진행한다. 와이즈플래닛컴퍼니는 지난주에 이어 수요예측을 지속한다. 이달 들어 첫 번째 상장한 스카이랩스는 시초가가 공모가를...",
+      "link": "https://n.news.naver.com/mnews/article/031/0001055742?sid=101",
+      "originallink": "http://www.inews24.com/view/2002192",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-06T02:01:00.000Z"
+    },
+    {
+      "id": "93daed200cddac70",
+      "keyword": "글로벌테크놀로지",
+      "companyName": "글로벌테크놀로지",
+      "title": "[DD 주간브리핑] 오픈AI 1주년에 삼성SDS '리얼 서밋'까지…서울 달구는...",
+      "description": "이번 주는 삼성SDS와 오픈AI 등 글로벌·국내 AI 대표 주자들의 대규모 기술 서밋과 IPO·상장 로드맵이... 같은 날(9일) 코난테크놀로지의 'Konan AI Summit'과 브로드컴의 프라이빗 클라우드 전략 발표가 이어지며...",
+      "link": "https://n.news.naver.com/mnews/article/138/0002240354?sid=105",
+      "originallink": "https://www.ddaily.co.kr/page/view/2026090415354410352",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-06T01:00:00.000Z"
+    },
     {
       "id": "9f617ea812f8b19c",
       "keyword": "글로벌테크놀로지",
@@ -29,17 +106,6 @@
       "publishedAt": "2026-09-06T00:00:00.000Z"
     },
     {
-      "id": "427305fe8234c432",
-      "keyword": "브릴스",
-      "companyName": "브릴스",
-      "title": "[공모주달력]빅웨이브로보틱스 몸값 낮춰 재도전…공모주 '슈퍼위크'",
-      "description": "이번 주 공모주 시장은 수요예측 일정이 빽빽해요. 상장 절차가 수차례 미뤄졌던 빅웨이브로보틱스가... 브릴스·한국스팩17호도 수요예측…공모 일정 줄줄이 브릴스도 같은 기간 기관투자자를 대상으로...",
-      "link": "https://n.news.naver.com/mnews/article/648/0000050505?sid=101",
-      "originallink": "https://news.bizwatch.co.kr/article/market/2026/09/04/0029",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-05T23:00:00.000Z"
-    },
-    {
       "id": "493ea44bbdae044a",
       "keyword": "브릴스",
       "companyName": "브릴스",
@@ -49,39 +115,6 @@
       "originallink": "https://view.asiae.co.kr/article/2026090522541113845",
       "provider": "뉴스 검색",
       "publishedAt": "2026-09-05T23:00:00.000Z"
-    },
-    {
-      "id": "00a910486288b880",
-      "keyword": "브릴스",
-      "companyName": "브릴스",
-      "title": "신규 상장 공백기 틈탄 테크 기업들의 각축전… AI·로봇·소부장 중심의...",
-      "description": "공모주 시장 달군다 다음 주 IPO 시장에서 7개 기업이 기관투자자 대상 수요예측을 진행한다. 신규 상장은... 희망 공모가는 1만2천400∼1만4천600원이며 대표주관사는 대신증권이다. 엘리스그룹과 브릴스도 9일부터...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=604155",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=604155",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-05T15:00:00.000Z"
-    },
-    {
-      "id": "cb9541e81c138b03",
-      "keyword": "브릴스",
-      "companyName": "브릴스",
-      "title": "기대감과 거품론 사이… 로봇주 '빅웨이브로보틱스'에 쏠린 눈",
-      "description": "이 중 빅웨이브로보틱스는 글로벌테크놀로지, 덕산넵코어스, 네오사피엔스, 브릴스, 와이즈플래닛컴퍼니... 유니트리로보틱스는 IPO를 통해 약 61억위안(약 1조2000억원)을 조달하고, 상장 첫날 주가가 공모가(150.8위안)...",
-      "link": "https://n.news.naver.com/mnews/article/053/0000061266?sid=101",
-      "originallink": "http://weekly.chosun.com/news/articleView.html?idxno=54951",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-05T07:00:00.000Z"
-    },
-    {
-      "id": "d840b18beaebef33",
-      "keyword": "와이즈플래닛컴퍼니",
-      "companyName": "와이즈플래닛컴퍼니",
-      "title": "다음 주 신규상장 ‘제로’…IPO 7곳 수요예측 돌입",
-      "description": "다음 주 기업공개(IPO) 시장에서는 신규 상장 종목 없이 7개 기업의 기관투자자 대상 수요예측이 이어진다.... 와이즈플래닛컴퍼니는 1만~1만2000원을 희망 공모가로 제시했다. 상품 기획부터 마케팅과 판매까지 직접...",
-      "link": "https://n.news.naver.com/mnews/article/366/0001190533?sid=101",
-      "originallink": "https://biz.chosun.com/stock/stock_general/2026/09/05/KU5R7JWHZZDF7K4W26A5AHYOFQ/?utm_source=naver&utm_medium=original&utm_campaign=biz",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-05T00:30:00.000Z"
     },
     {
       "id": "900fe8ad2e693171",

@@ -1,11 +1,88 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-09-06T23:43:57.174Z",
+    "updatedAt": "2026-09-08T00:30:21.677Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "9e0463b3f92281fc",
+      "keyword": "글로벌테크놀로지",
+      "companyName": "글로벌테크놀로지",
+      "title": "앤트로픽 뜨자 코스피 '진퇴양난'… AI 대어 줄상장, 상승장 끝물 신호...",
+      "description": "내년 상장을 목표로 기술 경쟁력 입증에 나선 것으로 풀이된다. 중국 최대 낸드플래시 제조사 양쯔메모리테크놀로지(YMTC)는 지난달 중국 상하이거래소 과창판 IPO를 통해 약 46억 달러를 조달하겠다고 밝혔다....",
+      "link": "https://n.news.naver.com/mnews/article/469/0000952633?sid=101",
+      "originallink": "https://www.hankookilbo.com/news/article/A2026090714000002830?did=NA",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-07T09:01:00.000Z"
+    },
+    {
+      "id": "f186f06a3a78468b",
+      "keyword": "덕산넵코어스",
+      "companyName": "덕산넵코어스",
+      "title": "[기획] 심사지연·공모가 붕괴·코너스톤 ‘3중 덫’… IPO 반토막",
+      "description": "실제 몸값 2조원대로 거론되던 에식스솔루션즈가 심사를 철회했고, 디티에스와 덕산넵코어스는 예비심사 청구부터 결과가 나오기까지 각각 305일, 251일이 걸렸다. 코스피에서는 지난 3월 5일 케이뱅크 상장 이후...",
+      "link": "https://n.news.naver.com/mnews/article/029/0003046622?sid=101",
+      "originallink": "https://www.dt.co.kr/article/12082548?ref=naver",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-07T07:38:00.000Z"
+    },
+    {
+      "id": "133ecc75925754a5",
+      "keyword": "엠비디",
+      "companyName": "엠비디",
+      "title": "공모 흥행 공식 깨진 바이오...스카이랩스 나홀로 급등에 '옥석가리기'...",
+      "description": "바이오 IPO 기업들이 공모가를 밑도는 상황에서 투자자들이 기업별 기술력과 사업모델을 다시 따져보고 있다는 의미로도 해석할 수 있다. 하반기에는 엠에스바이오와 엠비디 등 바이오·헬스케어 기업들의 상장이...",
+      "link": "https://www.mediapen.com/news/view/1121795",
+      "originallink": "https://www.mediapen.com/news/view/1121795",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-07T07:02:00.000Z"
+    },
+    {
+      "id": "952425d7cff0a4dc",
+      "keyword": "네오사피엔스",
+      "companyName": "네오사피엔스",
+      "title": "네오사피엔스, 2년 뒤 해외 매출 16배 뛴다?…수요예측 '시험대'",
+      "description": "희망공모가액은 1만3800~1만5800원으로 제시했다. 상장 이후 기업가치를 입증할 첫 시험대 역시 해외 성장... 한편 네오사피엔스의 공모주식수는 200만주로 희망 공모가(1만3800~1만5800원) 기준 276억~316억원의 자금을...",
+      "link": "https://www.greened.kr/news/articleView.html?idxno=349427",
+      "originallink": "https://www.greened.kr/news/articleView.html?idxno=349427",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-07T06:52:00.000Z"
+    },
+    {
+      "id": "b2c465db47dc5928",
+      "keyword": "브릴스",
+      "companyName": "브릴스",
+      "title": "하반기 'IPO 시계' 다시 돈다…로봇·AI부터 조단위 대형주까지 출격",
+      "description": "코스피 상장예비심사 청구를 진행할 것으로 관측된다. 7일 증권가에 따르면 이달 네오사피엔스, 브릴스... 대형 공모를 추진하는 기업들도 본격 상장 채비에 나서면서 IPO 시장 투자 심리 개선이 기대된다. 강영훈...",
+      "link": "https://www.g-enews.com/view.php?ud=20260907135014269923c501012_1",
+      "originallink": "https://www.g-enews.com/view.php?ud=20260907135014269923c501012_1",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-07T06:14:00.000Z"
+    },
+    {
+      "id": "255de4963ba43965",
+      "keyword": "브릴스",
+      "companyName": "브릴스",
+      "title": "[증권 Pick] 이번주 IPO 일정 모아보기",
+      "description": "덕산넵코어스·엘리스그룹·브릴스도 9일부터 기관 평가를 받는다. 시스템반도체 팹리스 기업... 총 160만주를 공모하며 희망공모가는 2만~2만4000원이다. 앞서 상장이 여러 차례 미뤄졌던 만큼 이번 수요예측에서...",
+      "link": "https://www.lcnews.co.kr/news/articleView.html?idxno=207869",
+      "originallink": "https://www.lcnews.co.kr/news/articleView.html?idxno=207869",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-07T05:58:00.000Z"
+    },
+    {
+      "id": "f5e752b93dc820f2",
+      "keyword": "글로벌테크놀로지",
+      "companyName": "글로벌테크놀로지",
+      "title": "[CEO인사이트] 역대급 IPO 줄줄이…증시 자금 '블랙홀' 되나",
+      "description": "테크놀로지(YMTC)까지 대규모 IPO에 합류하고 있습니다. 사상 최대 규모의 스페이스X 상장 이후 대형 공모주... ◇ 초대형 IPO 릴레이에 흔들리는 글로벌 증시…'유동성 블랙홀' 현실화되나 전 세계 주요 반도체...",
+      "link": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005916885",
+      "originallink": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005916885",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-07T04:02:00.000Z"
+    },
     {
       "id": "4c6309fa34f7f393",
       "keyword": "덕산넵코어스",
@@ -52,69 +129,14 @@
     },
     {
       "id": "16beada35dba30d4",
-      "keyword": "브릴스",
-      "companyName": "브릴스",
+      "keyword": "빅웨이브로보틱스",
+      "companyName": "빅웨이브로보틱스",
       "title": "IPO 시장 다시 활기…이번주 수요예측 나서는 기업만 7곳",
-      "description": "이번 주 수요예측에 들어간다. 공모가 희망밴드는 1만2천400~1만4천600원, 상장 주관사는 대신증권이다. 인공지능(AI) 풀스택 기업 엘리스그룹과 로봇 모듈화 플랫폼 기업 브릴스도 같은 날 수요예측을 시작한다....",
+      "description": "공모가 희망밴드는 1만3천~1만5천원이며, 상장 주관사는 한국투자증권이다. 공모가 산정과 관련해 금융감독원의 증권신고서 정정 요구로 일정이 밀렸던 빅웨이브로보틱스는 희망밴드를 낮춰 수요예측에...",
       "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433621",
       "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433621",
       "provider": "뉴스 검색",
       "publishedAt": "2026-09-06T04:02:00.000Z"
-    },
-    {
-      "id": "80eedf7aca9aec6f",
-      "keyword": "와이즈플래닛컴퍼니",
-      "companyName": "와이즈플래닛컴퍼니",
-      "title": "네오사피엔스 일반청약 돌입⋯'스카이랩스 상장 첫날 135%↑ [IPO 돋보기...",
-      "description": "주(9월7일~11일) 기업공개(IPO) 시장에서는 네오사피엔스가 수요예측과 일반청약을 진행한다. 와이즈플래닛컴퍼니는 지난주에 이어 수요예측을 지속한다. 이달 들어 첫 번째 상장한 스카이랩스는 시초가가 공모가를...",
-      "link": "https://n.news.naver.com/mnews/article/031/0001055742?sid=101",
-      "originallink": "http://www.inews24.com/view/2002192",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-06T02:01:00.000Z"
-    },
-    {
-      "id": "93daed200cddac70",
-      "keyword": "글로벌테크놀로지",
-      "companyName": "글로벌테크놀로지",
-      "title": "[DD 주간브리핑] 오픈AI 1주년에 삼성SDS '리얼 서밋'까지…서울 달구는...",
-      "description": "이번 주는 삼성SDS와 오픈AI 등 글로벌·국내 AI 대표 주자들의 대규모 기술 서밋과 IPO·상장 로드맵이... 같은 날(9일) 코난테크놀로지의 'Konan AI Summit'과 브로드컴의 프라이빗 클라우드 전략 발표가 이어지며...",
-      "link": "https://n.news.naver.com/mnews/article/138/0002240354?sid=105",
-      "originallink": "https://www.ddaily.co.kr/page/view/2026090415354410352",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-06T01:00:00.000Z"
-    },
-    {
-      "id": "9f617ea812f8b19c",
-      "keyword": "글로벌테크놀로지",
-      "companyName": "글로벌테크놀로지",
-      "title": "와이즈플래닛 수요예측·네오사피엔스 청약[증시캘린더]",
-      "description": "다음 주(9월 7~11일) 기업공개(IPO) 시장에서는 인공지능(AI) 음성 기술 기업 네오사피엔스와... 1만5000~1만8000원, 공모금액 상단 기준 288억원. -2025년 매출액 207억원, 영업이익 7억원. △글로벌테크놀로지 수요예측...",
-      "link": "https://n.news.naver.com/mnews/article/018/0006364326?sid=101",
-      "originallink": "https://www.edaily.co.kr/News/Read?newsId=01233286645577496&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-06T00:02:00.000Z"
-    },
-    {
-      "id": "c3e2874b7690dc95",
-      "keyword": "브릴스",
-      "companyName": "브릴스",
-      "title": "[자금조달 프리뷰] 하나·대신·DB證 공모채…IPO 5곳 '러시'",
-      "description": "기업공개(IPO) 시장에서는 글로벌테크놀로지·빅웨이브로보틱스·덕산넵코어스·엘리스그룹·브릴스 등 5곳이 코스닥 상장을 앞두고 수요예측에 나선다. 공모채 5곳·영구채 1곳 '출격' 6일 금융감독원...",
-      "link": "https://n.news.naver.com/mnews/article/293/0000090065?sid=101",
-      "originallink": "https://www.bloter.net/news/articleView.html?idxno=672796",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-06T00:00:00.000Z"
-    },
-    {
-      "id": "493ea44bbdae044a",
-      "keyword": "브릴스",
-      "companyName": "브릴스",
-      "title": "[이번주 IPO]9월 둘째 주 수요예측·청약 일정",
-      "description": "총 공모 금액은 1564억~2011억원으로 예상된다. 수요예측은 오는 9~15일 진행되며 일반 청약은 18~21일 양일간 진행될 예정이다. 상장 대표 주관사는 미래에셋증권이며 공동주관사는 삼성증권이다. ◆브릴스...",
-      "link": "https://n.news.naver.com/mnews/article/277/0005812347?sid=101",
-      "originallink": "https://view.asiae.co.kr/article/2026090522541113845",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-05T23:00:00.000Z"
     },
     {
       "id": "900fe8ad2e693171",
@@ -247,17 +269,6 @@
       "originallink": "https://www.news2day.co.kr/article/20260813500122",
       "provider": "뉴스 검색",
       "publishedAt": "2026-08-13T01:40:00.000Z"
-    },
-    {
-      "id": "b35a640aa157ba51",
-      "keyword": "엠비디",
-      "companyName": "엠비디",
-      "title": "올해 상장 제약·바이오 8곳 전부 공모가 밑…하반기 IPO도 몸 낮추나",
-      "description": "올해 말 상장을 목표로 하는 한 기업 관계자는 \"IPO 요건이 강화된 데다 상장 이후 공모주 프리미엄도... 기업 엠비디도 상장 예비심사를 통과하고 본격적인 상장 절차에 진입했다. 현재 코스닥 상장예비심사...",
-      "link": "https://n.news.naver.com/mnews/article/018/0006344737?sid=105",
-      "originallink": "https://www.edaily.co.kr/news/newspath.asp?newsid=02643686645544368",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-04T22:32:00.000Z"
     },
     {
       "id": "42b8a1265e28bf05",

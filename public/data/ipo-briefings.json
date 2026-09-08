@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "source": "gemini-briefings-mixed",
-    "generatedAt": "2026-09-07T10:29:46.862Z",
-    "model": "gemini-2.5-flash",
+    "source": "local-rules",
+    "generatedAt": "2026-09-08T00:34:27.751Z",
+    "model": null,
     "itemCount": 8,
-    "geminiUsed": 1,
-    "cacheUsed": 2,
+    "geminiUsed": 0,
+    "cacheUsed": 3,
     "policy": "회사 설명, IPO 단계, 일정, 경쟁률 뉴스 언급, 원문 확인 포인트만 표시합니다. 투자 판단 표현은 제외합니다."
   },
   "items": [
@@ -101,12 +101,11 @@
       "sourceLabels": [
         "DART 일정",
         "환불일 09.17",
-        "뉴스 검색",
         "주관사 확인"
       ],
       "competition": null,
-      "generatedBy": "local-rules",
-      "model": null
+      "generatedBy": "gemini-cache",
+      "model": "gemini-2.5-flash"
     },
     {
       "id": "briefing-빅웨이브로보틱스",
@@ -126,11 +125,12 @@
       "sourceLabels": [
         "DART 일정",
         "환불일 확인",
+        "뉴스 검색",
         "주관사 확인"
       ],
       "competition": null,
-      "generatedBy": "gemini",
-      "model": "gemini-2.5-flash"
+      "generatedBy": "local-rules",
+      "model": null
     },
     {
       "id": "briefing-엣지파운드리",

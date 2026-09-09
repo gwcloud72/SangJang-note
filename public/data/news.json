@@ -1,11 +1,55 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-09-08T00:30:21.677Z",
+    "updatedAt": "2026-09-09T00:01:31.405Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "dbbc5ee5449d26f3",
+      "keyword": "브릴스",
+      "companyName": "브릴스",
+      "title": "[IPO 돋보기] 코스닥 도전 나선 브릴스, K-로봇주 기대감 부응하나",
+      "description": "코스닥 상장을 위한 절차에 돌입하면서 기업공개(IPO) 흥행에 관심이 높아지고 있다. 9일 투자은행(IB)업계에 따르면 브릴스는 오는 15일까지 국내외 기관투자자를 대상으로 수요예측에 돌입한다. 총 120만주를 공모하는...",
+      "link": "https://www.news2day.co.kr/article/20260908500254",
+      "originallink": "https://www.news2day.co.kr/article/20260908500254",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-08T22:02:00.000Z"
+    },
+    {
+      "id": "de99f1be242f3847",
+      "keyword": "글로벌테크놀로지",
+      "companyName": "글로벌테크놀로지",
+      "title": "[홍콩 특징주] 中 메모리 제조사 '강파룡' 홍콩상장, 'A+H주'로 재탄생",
+      "description": "상장 첫날 강파룡 H주는 233.6홍콩달러로 마감해 1.02% 하락했으며, 강파룡 A주는 358.86위안으로 0.18% 소폭 상승했다. 강파룡이 공개한 홍콩주식 IPO 배정 결과에 따르면 이번 글로벌 공모 주식 수는 총...",
+      "link": "https://www.newspim.com/news/view/20260909000009",
+      "originallink": "https://www.newspim.com/news/view/20260909000009",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-08T15:25:00.000Z"
+    },
+    {
+      "id": "14bd768b111d1411",
+      "keyword": "덕산넵코어스",
+      "companyName": "덕산넵코어스",
+      "title": "[장외시황] 무신사, 코스피 상장예비심사 청구",
+      "description": "상장주관사는 한국투자증권, KB증권, 씨티그룹글로벌마켓증권, 제이피모간증권 서울지점이 맡았고, 총 2660만주를 공모할 예정이다. 초정밀 항법, 항재밍 전문기업 덕산넵코어스가 기관 투자자 대상 수요예측을...",
+      "link": "https://www.etoday.co.kr/news/view/2623168",
+      "originallink": "https://www.etoday.co.kr/news/view/2623168",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-08T06:42:00.000Z"
+    },
+    {
+      "id": "44e7dbc2e2c8b05e",
+      "keyword": "덕산넵코어스",
+      "companyName": "덕산넵코어스",
+      "title": "[더벨][Product Tracker] 동아특수금속, '덕산넵코어스 상장' 대신증권 주...",
+      "description": "당초 예상한 기업공개(IPO) 스케줄 대비 지연은 있겠으나, 대신증권이 소재사 '덕산넵코어스' 상장을... 자회사 덕산넵코어스의 상장 주관을 맡았는데 최근 이 기업은 상장예비심사를 통과하고 본격적인 공모 절차에...",
+      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609040715526180103070",
+      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609040715526180103070",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-08T02:22:00.000Z"
+    },
     {
       "id": "9e0463b3f92281fc",
       "keyword": "글로벌테크놀로지",
@@ -84,28 +128,6 @@
       "publishedAt": "2026-09-07T04:02:00.000Z"
     },
     {
-      "id": "4c6309fa34f7f393",
-      "keyword": "덕산넵코어스",
-      "companyName": "덕산넵코어스",
-      "title": "8월 새내기주 6곳 중 5곳 공모가 밑돌았다",
-      "description": "중복상장 가이드라인 시행 뒤 멈춰 있던 일부 기업공개(IPO) 심사가 다시 움직이고 있다. 다만 8월 신규 상장... 공모가 대비 상승률은 135%였다. 중복상장 후보 가운데서는 덕산넵코어스가 첫 시험대에 오른다. 모회사...",
-      "link": "https://www.tokenpost.kr/news/market/403520",
-      "originallink": "https://www.tokenpost.kr/news/market/403520",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-06T22:46:00.000Z"
-    },
-    {
-      "id": "79b83aa3a293a76f",
-      "keyword": "덕산넵코어스",
-      "companyName": "덕산넵코어스",
-      "title": "중복상장 금지에 IPO 시장 기지개...투심 회복은 '아직'",
-      "description": "일부 상장 심사가 다시 움직이고 9월 기업공개(IPO) 공급도 늘어날 전망이다. 다만 8월 신규 상장사 대부분이... 덕산넵코어스의 공모 결과는 다른 중복상장 후보의 판단에도 영향을 미칠 수 있다. HD현대로보틱스가...",
-      "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=698398",
-      "originallink": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=698398",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-06T22:30:00.000Z"
-    },
-    {
       "id": "5ed4ac18b9acbd4f",
       "keyword": "브릴스",
       "companyName": "브릴스",
@@ -118,10 +140,10 @@
     },
     {
       "id": "6f2a6511a91ae22e",
-      "keyword": "브릴스",
-      "companyName": "브릴스",
+      "keyword": "빅웨이브로보틱스",
+      "companyName": "빅웨이브로보틱스",
       "title": "[IPO 워치] 수요예측 7곳 몰린다…네오사피엔스 청약",
-      "description": "기업공개(IPO) 시장에서는 7개 기업이 기관투자자 대상 수요예측을 진행한다. 이번 주 신규 상장 일정은 없는 가운데 인공지능(AI)과 로봇, 반도체 장비, 방산 등 다양한 업종의 기업들이 공모가 산정을 위한 기관...",
+      "description": "빅웨이브로보틱스는 로봇 도입을 원하는 기업과 로봇 공급업체를 연결하는 로봇 자동화 플랫폼 ‘마로솔’을 운영하는 기업이다. 상장 준비 과정에서 공모 희망가 범위를 여러 차례 조정했으며 현재 희망...",
       "link": "https://www.news2day.co.kr/article/20260906500013",
       "originallink": "https://www.news2day.co.kr/article/20260906500013",
       "provider": "뉴스 검색",

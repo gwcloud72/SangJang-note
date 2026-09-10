@@ -1,11 +1,77 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-09-09T00:01:31.405Z",
+    "updatedAt": "2026-09-10T00:01:03.769Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "fc733e823bfd38f6",
+      "keyword": "브릴스",
+      "companyName": "브릴스",
+      "title": "\"4500억 몰린다\" IPO 시장 '온기'…11개 기업 상장 전망",
+      "description": "10일 뉴스1에 따르면 이달 IPO 시장의 예상 공모금액은 4000억~4500억원으로 추산된다. 상장 예정 기업들의... 상장 기업 수도 늘어난다. 이달에는 네오사피엔스, 브릴스, 와이즈플래닛컴퍼니 등을 포함해 8~11개 기업이...",
+      "link": "https://n.news.naver.com/mnews/article/015/0005330758?sid=101",
+      "originallink": "https://www.hankyung.com/article/2026091055147",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-09T23:57:00.000Z"
+    },
+    {
+      "id": "9318f8452cd96b8c",
+      "keyword": "글로벌테크놀로지",
+      "companyName": "글로벌테크놀로지",
+      "title": "[허정수칼럼] 누가 SKIET 합병을 원하는가",
+      "description": "SK아이이테크놀로지(SKIET) 공모주 청약에 80조9000억원 넘는 자금이 몰렸다. 공모 기준 시가총액... 합병가액은 SK이노베이션 12만5862원, SKIET는 1만4783원으로 상장 공모가의 14% 수준에 불과했다. 5년 전 시장의...",
+      "link": "https://n.news.naver.com/mnews/article/293/0000090251?sid=110",
+      "originallink": "https://www.bloter.net/news/articleView.html?idxno=673159",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-09T21:00:00.000Z"
+    },
+    {
+      "id": "704bafd730e51497",
+      "keyword": "진코스텍",
+      "companyName": "진코스텍",
+      "title": "IPO 투자심리에 '찬물'… 공모가 상단 새내기주 최대 54% 뚝",
+      "description": "수요예측과 공모청약 일정을 잡았다. 멜콘과 코스닥 이전상장을 추진하는 진코스텍도 9월 수요예측, 10월... 정책적 지원이 우호적인 환경을 조성할 여지가 있다\"며 하반기 기업공개(IPO) 시장에 긍정적인 전망을 유지했다.",
+      "link": "https://n.news.naver.com/mnews/article/014/0005573531?sid=101",
+      "originallink": "https://www.fnnews.com/news/202609091826509541",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-09T09:29:00.000Z"
+    },
+    {
+      "id": "1d816294ef1739de",
+      "keyword": "와이즈플래닛컴퍼니",
+      "companyName": "와이즈플래닛컴퍼니",
+      "title": "IPO 앞둔 와이즈플래닛컴퍼니 대표 \"상장 후 해외시장 공략…글로벌 브...",
+      "description": "주 대표는 \"Pre IPO 이전까지 외부 투자 없이 무차입 경영 원칙을 바탕으로 13년 연속 흑자를 유지하고 있다... 한편, 와이즈플래닛컴퍼니의 총 공모주식수는 1,600,000주이며, 주당 희망 공모가 밴드는 1만원...",
+      "link": "https://www.thedailypost.kr/news/articleView.html?idxno=115499",
+      "originallink": "https://www.thedailypost.kr/news/articleView.html?idxno=115499",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-09T08:34:00.000Z"
+    },
+    {
+      "id": "519c3122bcfbfdc1",
+      "keyword": "와이즈플래닛컴퍼니",
+      "companyName": "와이즈플래닛컴퍼니",
+      "title": "'닥터피엘·누잠' 키운 와이즈플래닛 \"다음 무대는 미국\"…코스닥 출사...",
+      "description": "와이즈플래닛컴퍼니는 9일 열린 기업공개(IPO) 기자간담회에서 상장 이후 성장 전략을 공개했다. 이날... 회사의 희망 공모가는 1만~1만2000원, 공모 예정 금액은 160억~192억원이다. 희망 공모가 기준 예상 시가총액은...",
+      "link": "https://www.thepublic.kr/news/articleView.html?idxno=318143",
+      "originallink": "https://www.thepublic.kr/news/articleView.html?idxno=318143",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-09T07:34:00.000Z"
+    },
+    {
+      "id": "454ed8ce8481afe8",
+      "keyword": "와이즈플래닛컴퍼니",
+      "companyName": "와이즈플래닛컴퍼니",
+      "title": "와이즈플래닛컴퍼니 \"코스닥 상장으로 글로벌 브랜드 빌더 도약\"",
+      "description": "주 대표는 \"성장 잠재력이 높은 카테고리 리더 브랜드를 발굴하고 회사 역량과 결합시켜 윈윈 구도를 만들 것\"이라고 강조했다. 와이즈플래닛컴퍼니의 총 공모주식수는 160만주로, 그중 16.25%인 26만주는 구주매출이다....",
+      "link": "https://daily.hankooki.com/news/articleView.html?idxno=1404367",
+      "originallink": "https://daily.hankooki.com/news/articleView.html?idxno=1404367",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-09T06:48:00.000Z"
+    },
     {
       "id": "dbbc5ee5449d26f3",
       "keyword": "브릴스",
@@ -117,48 +183,15 @@
       "publishedAt": "2026-09-07T05:58:00.000Z"
     },
     {
-      "id": "f5e752b93dc820f2",
-      "keyword": "글로벌테크놀로지",
-      "companyName": "글로벌테크놀로지",
-      "title": "[CEO인사이트] 역대급 IPO 줄줄이…증시 자금 '블랙홀' 되나",
-      "description": "테크놀로지(YMTC)까지 대규모 IPO에 합류하고 있습니다. 사상 최대 규모의 스페이스X 상장 이후 대형 공모주... ◇ 초대형 IPO 릴레이에 흔들리는 글로벌 증시…'유동성 블랙홀' 현실화되나 전 세계 주요 반도체...",
-      "link": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005916885",
-      "originallink": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005916885",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-07T04:02:00.000Z"
-    },
-    {
       "id": "5ed4ac18b9acbd4f",
-      "keyword": "브릴스",
-      "companyName": "브릴스",
+      "keyword": "빅웨이브로보틱스",
+      "companyName": "빅웨이브로보틱스",
       "title": "공모주 청약 봇물…덕산넵코어스 등 6곳 수요예측 시험대 [이번주 증시...",
       "description": "한동안 썰렁했던 기업공개(IPO) 시장이 이번 주 다시 북적일 전망이다. 중복상장 원칙 금지 규제가 발표된... 빅웨이브로보틱스, 브릴스, KB스팩34호, 한국스팩17호가 기관 수요예측 일정에 돌입한다. 희망 공모가 밴드...",
       "link": "https://n.news.naver.com/mnews/article/011/0004659107?sid=101",
       "originallink": "https://www.sedaily.com/article/20087606?ref=naver",
       "provider": "뉴스 검색",
       "publishedAt": "2026-09-06T21:01:00.000Z"
-    },
-    {
-      "id": "6f2a6511a91ae22e",
-      "keyword": "빅웨이브로보틱스",
-      "companyName": "빅웨이브로보틱스",
-      "title": "[IPO 워치] 수요예측 7곳 몰린다…네오사피엔스 청약",
-      "description": "빅웨이브로보틱스는 로봇 도입을 원하는 기업과 로봇 공급업체를 연결하는 로봇 자동화 플랫폼 ‘마로솔’을 운영하는 기업이다. 상장 준비 과정에서 공모 희망가 범위를 여러 차례 조정했으며 현재 희망...",
-      "link": "https://www.news2day.co.kr/article/20260906500013",
-      "originallink": "https://www.news2day.co.kr/article/20260906500013",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-06T19:54:00.000Z"
-    },
-    {
-      "id": "16beada35dba30d4",
-      "keyword": "빅웨이브로보틱스",
-      "companyName": "빅웨이브로보틱스",
-      "title": "IPO 시장 다시 활기…이번주 수요예측 나서는 기업만 7곳",
-      "description": "공모가 희망밴드는 1만3천~1만5천원이며, 상장 주관사는 한국투자증권이다. 공모가 산정과 관련해 금융감독원의 증권신고서 정정 요구로 일정이 밀렸던 빅웨이브로보틱스는 희망밴드를 낮춰 수요예측에...",
-      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433621",
-      "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4433621",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-06T04:02:00.000Z"
     },
     {
       "id": "900fe8ad2e693171",
@@ -247,17 +280,6 @@
       "originallink": "https://www.edaily.co.kr/News/Read?newsId=03063526645551912&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
       "provider": "뉴스 검색",
       "publishedAt": "2026-08-28T01:05:00.000Z"
-    },
-    {
-      "id": "6541c3b70c5ca4e2",
-      "keyword": "진코스텍",
-      "companyName": "진코스텍",
-      "title": "진코스텍, 증권신고서 제출…코스닥 이전상장 절차 돌입",
-      "description": "김임준 진코스텍 대표이사는 \"증권신고서 제출을 시작으로 코스닥 이전상장을 위한 본격적인 공모 절차에 돌입하게 됐다\"며 \"이번 기업공개(IPO)를 통해 확보한 자금을 생산 기반 확충과 차세대 하이드로겔 기술 개발 등...",
-      "link": "https://www.newspim.com/news/view/20260828000311",
-      "originallink": "https://www.newspim.com/news/view/20260828000311",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-28T01:03:00.000Z"
     },
     {
       "id": "58d8a37842ceaec2",
@@ -379,17 +401,6 @@
       "originallink": "http://www.fntimes.com/html/view.php?ud=202512142230535782dd55077bc2_18",
       "provider": "뉴스 검색",
       "publishedAt": "2025-12-14T20:02:00.000Z"
-    },
-    {
-      "id": "177b6466d84978f1",
-      "keyword": "멜콘",
-      "companyName": "멜콘",
-      "title": "[Who Is ?] 김원경 라온테크 대표이사",
-      "description": "박석순 멜콘 부회장이 사외이사를 맡고 있다. 이사회 내 별도의 위원회는 구성되어 있지 않다. 비상근... 상장 후 1년간 락업되는 우리사주조합 물량 5만 주를 뺀 공모주 45만 주(9.21%)를 제외하면, 나머지 222만8444주...",
-      "link": "https://www.businesspost.co.kr/BP?command=article_view&num=421026",
-      "originallink": "https://www.businesspost.co.kr/BP?command=article_view&num=421026",
-      "provider": "뉴스 검색",
-      "publishedAt": "2025-11-23T22:38:00.000Z"
     },
     {
       "id": "7da1ef9c17789554",

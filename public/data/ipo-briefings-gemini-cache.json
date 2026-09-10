@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "updatedAt": "2026-09-10T04:55:07.253Z",
+    "updatedAt": "2026-09-10T09:55:27.260Z",
     "source": "gemini-briefing-cache"
   },
   "items": [
@@ -798,6 +798,65 @@
         "model": null
       },
       "updatedAt": "2026-09-07T10:28:17.147Z"
+    },
+    {
+      "key": "64595ca5db1c036996dd0410",
+      "model": "gemini-2.5-flash",
+      "briefing": {
+        "id": "briefing-케이비제34호기업인수목적",
+        "ipoId": "케이비제34호기업인수목적",
+        "companyName": "케이비제34호기업인수목적",
+        "sector": "IPO 일정 확인 대상 기업",
+        "ipoStage": "청약 진행중",
+        "underwriter": "주관사 확인",
+        "basisTimeLabel": "오늘 09:30 기준",
+        "oneLine": "IPO 일정 확인 대상 기업",
+        "body": "케이비제34호기업인수목적은 IPO 일정 확인 대상 기업입니다. 09.10 일정 기준으로 청약 진행중 단계라 원문 일정과 변경 여부를 함께 확인합니다.",
+        "points": [
+          "청약 시작·마감일 확인",
+          "환불일 확인",
+          "정정 공시 여부 확인"
+        ],
+        "sourceLabels": [
+          "DART 일정",
+          "환불일 09.15",
+          "주관사 확인"
+        ],
+        "competition": null,
+        "generatedBy": "local-rules",
+        "model": null
+      },
+      "updatedAt": "2026-09-10T09:51:27.893Z"
+    },
+    {
+      "key": "9239a5a0cd0b2cd6f633825d",
+      "model": "gemini-2.5-flash",
+      "briefing": {
+        "id": "briefing-글로벌테크놀로지",
+        "ipoId": "글로벌테크놀로지",
+        "companyName": "글로벌테크놀로지",
+        "sector": "IPO 일정 확인 대상 기업",
+        "ipoStage": "청약 예정",
+        "underwriter": "주관사 확인",
+        "basisTimeLabel": "오늘 09:30 기준",
+        "oneLine": "IPO 일정 확인 대상 기업",
+        "body": "글로벌테크놀로지는 IPO 일정 확인 대상 기업입니다. 09.16 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
+        "points": [
+          "청약 시작·마감일 확인",
+          "환불일 확인",
+          "정정 공시 여부 확인"
+        ],
+        "sourceLabels": [
+          "DART 일정",
+          "환불일 확인",
+          "뉴스 검색",
+          "주관사 확인"
+        ],
+        "competition": null,
+        "generatedBy": "local-rules",
+        "model": null
+      },
+      "updatedAt": "2026-09-10T09:54:56.757Z"
     }
   ]
 }

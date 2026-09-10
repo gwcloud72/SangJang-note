@@ -2,15 +2,15 @@
   "metadata": {
     "source": "naver-news-search",
     "displayLabel": "뉴스 언급",
-    "updatedAt": "2026-09-10T04:52:06.690Z",
-    "updatedKst": "2026-09-10T13:52+09:00",
+    "updatedAt": "2026-09-10T09:49:29.248Z",
+    "updatedKst": "2026-09-10T18:49+09:00",
     "referenceDate": "2026-09-10",
     "policyVersion": "retail-same-company-same-day-v2",
     "policy": "당일 기사에서 같은 회사와 같은 문맥에 있는 일반투자자 청약 경쟁률만 저장합니다.",
     "parserPolicy": "기관 수요예측 경쟁률, 다른 회사 숫자, 날짜 없는 기사, 전일 이전 기사는 제외합니다.",
     "activeIpoCount": 3,
     "itemCount": 1,
-    "reason": "",
+    "reason": "KST 09~16시 외: 당일 검증 데이터만 유지",
     "gemini": {
       "enabled": false,
       "model": null,
@@ -20,11 +20,11 @@
       "accepted": 0,
       "rejected": 0,
       "cacheHits": 0,
-      "regexOnly": 1
+      "regexOnly": 0
     },
     "rejected": {
-      "staleOrUndated": 78,
-      "entityOrScope": 3
+      "staleOrUndated": 0,
+      "entityOrScope": 0
     }
   },
   "items": [

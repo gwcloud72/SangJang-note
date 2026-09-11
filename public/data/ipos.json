@@ -1,18 +1,18 @@
 {
   "metadata": {
-    "updatedAt": "2026-09-10T00:00:57.442Z",
+    "updatedAt": "2026-09-11T00:17:00.940Z",
     "source": "OpenDART",
     "basis": "증권신고서 주요정보 - 지분증권(estkRs), 공시검색(list), 공시원문(document.xml)",
     "dateRange": {
-      "bgnDe": "20260314",
-      "endDe": "20260910"
+      "bgnDe": "20260315",
+      "endDe": "20260911"
     },
     "lookbackDays": 180,
     "lookaheadDays": 120,
-    "totalFilings": 12499,
-    "totalCompanies": 329,
+    "totalFilings": 12635,
+    "totalCompanies": 335,
     "totalItems": 20,
-    "referenceDate": "2026-09-10",
+    "referenceDate": "2026-09-11",
     "status": "ready",
     "candidateItems": 41,
     "futureCandidateItems": 20,
@@ -480,9 +480,9 @@
       "corpCode": "01158632",
       "corpClass": "N",
       "stockCode": "250030",
-      "receiptNo": "20260827001060",
-      "receiptDate": "2026-08-27",
-      "reportName": "증권신고서(지분증권)",
+      "receiptNo": "20260910000579",
+      "receiptDate": "2026-09-10",
+      "reportName": "[기재정정]증권신고서(지분증권)",
       "securityType": "보통주",
       "offeringMethod": "일반공모",
       "offerPrice": "19,500",
@@ -501,7 +501,7 @@
       "underwriters": [
         "하나증권"
       ],
-      "dartUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260827001060",
+      "dartUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260910000579",
       "mainMatterReceiptNo": "",
       "mainMatterUrl": "",
       "status": "청약 예정",

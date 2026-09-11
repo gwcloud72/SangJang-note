@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "source": "gemini-briefings-mixed",
-    "generatedAt": "2026-09-10T09:55:27.261Z",
-    "model": "gemini-2.5-flash",
+    "source": "local-rules",
+    "generatedAt": "2026-09-11T00:19:05.965Z",
+    "model": null,
     "itemCount": 8,
-    "geminiUsed": 2,
-    "cacheUsed": 0,
+    "geminiUsed": 0,
+    "cacheUsed": 3,
     "policy": "회사 설명, IPO 단계, 일정, 경쟁률 뉴스 언급, 원문 확인 포인트만 표시합니다. 투자 판단 표현은 제외합니다."
   },
   "items": [
@@ -16,27 +16,21 @@
       "sector": "IPO 일정 확인 대상 기업",
       "ipoStage": "청약 진행중",
       "underwriter": "주관사 확인",
-      "basisTimeLabel": "09.10.10:06",
+      "basisTimeLabel": "오늘 09:30 기준",
       "oneLine": "IPO 일정 확인 대상 기업",
-      "body": "네오사피엔스는 IPO 일정 확인 대상 기업입니다. 09.10 일정 기준으로 09.10.10:06 뉴스 언급 기준 청약 경쟁률과 환불일 09.15을 함께 확인합니다.",
+      "body": "네오사피엔스는 IPO 일정 확인 대상 기업입니다. 09.10 일정 기준으로 청약 진행중 단계라 원문 일정과 변경 여부를 함께 확인합니다.",
       "points": [
-        "청약 마감 시각 확인",
-        "비례경쟁률 기준 확인",
+        "청약 시작·마감일 확인",
+        "환불일 확인",
         "정정 공시 여부 확인"
       ],
       "sourceLabels": [
         "DART 일정",
         "환불일 09.15",
-        "뉴스 언급",
-        "뉴스 검색"
+        "뉴스 검색",
+        "주관사 확인"
       ],
-      "competition": {
-        "label": "뉴스 언급",
-        "value": 1.46,
-        "proportionalValue": null,
-        "timeLabel": "09.10.10:06",
-        "sourceLine": "용돈 되려나…' 네오사피엔스 ' 공모주, 오늘 시작"
-      },
+      "competition": null,
       "generatedBy": "local-rules",
       "model": null
     },
@@ -61,7 +55,7 @@
         "주관사 확인"
       ],
       "competition": null,
-      "generatedBy": "gemini",
+      "generatedBy": "gemini-cache",
       "model": "gemini-2.5-flash"
     },
     {
@@ -132,12 +126,11 @@
       "sourceLabels": [
         "DART 일정",
         "환불일 확인",
-        "뉴스 검색",
         "주관사 확인"
       ],
       "competition": null,
-      "generatedBy": "local-rules",
-      "model": null
+      "generatedBy": "gemini-cache",
+      "model": "gemini-2.5-flash"
     },
     {
       "id": "briefing-엣지파운드리",
@@ -186,7 +179,7 @@
         "주관사 확인"
       ],
       "competition": null,
-      "generatedBy": "gemini",
+      "generatedBy": "gemini-cache",
       "model": "gemini-2.5-flash"
     },
     {

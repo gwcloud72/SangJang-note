@@ -1,11 +1,99 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-09-10T00:01:03.769Z",
+    "updatedAt": "2026-09-11T00:17:07.662Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "6c7eeab4c7a00e28",
+      "keyword": "네오사피엔스",
+      "companyName": "네오사피엔스",
+      "title": "[IPO 뜯어보기] [네오사피엔스] AI 규제·비용·경쟁↑…적자지속 우려",
+      "description": "① 3개년 영업손실 지속…회사 측 \"내년 흑자전환\" 코스닥 상장을 추진중인 네오사피엔스가 오는 10일부터 이틀간 공모주 청약을 실시한다. 네오사피엔스는 생성형 AI(인공지능) 파운데이션 모델과 TTS(Text-to-Speech) 기술을...",
+      "link": "https://news.dealsitetv.com/articles/175867",
+      "originallink": "https://news.dealsitetv.com/articles/175867",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-10T23:02:00.000Z"
+    },
+    {
+      "id": "2e3b5a5cf74fb063",
+      "keyword": "와이즈플래닛컴퍼니",
+      "companyName": "와이즈플래닛컴퍼니",
+      "title": "[IPO 뜯어보기] [와이즈플래닛컴퍼니] 매출 쏠림에 성장 정체, 해법은?",
+      "description": "주경민 대표는 이번 IPO를 통해 구주매출에 나섰다. 와이즈플래닛컴퍼니의 전체 공모주식 160만주 가운데 구주매출은 26만주다. 구주매출 물량 전량이 주 대표의 보유주식으로, 이번 공모에서 구주매출에 나서는 기존...",
+      "link": "https://news.dealsitetv.com/articles/175872",
+      "originallink": "https://news.dealsitetv.com/articles/175872",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-10T22:02:00.000Z"
+    },
+    {
+      "id": "268a676a510efe80",
+      "keyword": "멜콘",
+      "companyName": "멜콘",
+      "title": "[더벨][멜콘 IPO] 공모자금으로 생산능력 최대 50% 확대…2년만에 추가 ...",
+      "description": "기업공개(IPO)를 추진 중인 멜콘이 상장 이후 생산능력 확대에 나선다. 최근 반도체 업황 회복과 고객사... 9일 투자은행(IB) 업계에 따르면 멜콘은 IPO 공모자금과 자체자금을 활용해 2027년부터 생산시설 증설에...",
+      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609091519471520101238",
+      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609091519471520101238",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-10T22:02:00.000Z"
+    },
+    {
+      "id": "6d46008893ead982",
+      "keyword": "브릴스",
+      "companyName": "브릴스",
+      "title": "이달 AI·로봇社 최대 11곳 공모… IPO시장 달아오른다",
+      "description": "연말 IPO 시장의 문을 두드리기 시작했다. 10일 금융투자업계에 따르면 이달 네오사피엔스, 브릴스... 이들 기업의 상장이 진행되면 최근 몇 년간 대형 공모주 부재로 침체됐던 국내 IPO 시장에도 상당한 자금이 유입될...",
+      "link": "https://n.news.naver.com/mnews/article/023/0003997793?sid=101",
+      "originallink": "https://www.chosun.com/economy/money/2026/09/11/LNW5H3OX2FGRRF4FCSL7JYA7EA/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-10T15:36:00.000Z"
+    },
+    {
+      "id": "74bb385427b353fa",
+      "keyword": "네오사피엔스",
+      "companyName": "네오사피엔스",
+      "title": "[공모주 현황] 네오사피엔스 청약 1일차 종료, 균등·비례 경쟁률은?",
+      "description": "IPO 자료사진. AI가 생성한 이미지. 공모주 네오사피엔스의 청약 1일차 일정이 10일 오후 4시를 기해... 네오사피엔스는 오는 11일까지 청약을 실시하는 가운데 향후 청약 추이에도 관심이 모아진다. 또한 상장일...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=605651",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=605651",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-10T07:16:00.000Z"
+    },
+    {
+      "id": "6ffad9ef7dc8c5f4",
+      "keyword": "덕산넵코어스",
+      "companyName": "덕산넵코어스",
+      "title": "[장외시황] 네오사피엔스, 공모주 청약 시작",
+      "description": "이틀간 공모주 청약을 진행한다. 공모가는 희망밴드 하단보다 낮은 1만원으로 확정되었고, 수요예측... 상장 예비심사 승인종목으로 특수 목적용 항법 및 항재밍 토탈 솔루션 전문기업 덕산넵코어스(넵코어스)는...",
+      "link": "https://www.etoday.co.kr/news/view/2624152",
+      "originallink": "https://www.etoday.co.kr/news/view/2624152",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-10T06:46:00.000Z"
+    },
+    {
+      "id": "14634b7c996c7107",
+      "keyword": "엠비디",
+      "companyName": "엠비디",
+      "title": "주춤하던 IPO 시장 다시 기지개",
+      "description": "이외에도 멜콘, 엠비디, 래블업 등의 기업 등이 이달 말까지 수요예측을 진행하고 코스닥에 상장할 예정이다. 이달 예상 공모금액은 4000억~4500억원, 예상 시가총액은 최대 2조7000억원 규모로 전망된다. 이는 최근 5년...",
+      "link": "http://www.smedaily.co.kr/news/articleView.html?idxno=362936",
+      "originallink": "http://www.smedaily.co.kr/news/articleView.html?idxno=362936",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-10T00:54:00.000Z"
+    },
+    {
+      "id": "054103b7bdc27e36",
+      "keyword": "브릴스",
+      "companyName": "브릴스",
+      "title": "8월 최악 부진 딛고… 9월엔 AI·로봇 몰려드는 IPO 시장",
+      "description": "이달에만 네오사피엔스, 브릴스, 와이즈플래닛컴퍼니 등을 포함해 8~11개 기업이 신규 상장을 추진하고... 이들 기업의 상장이 현실화할 경우 최근 몇 년간 대형 공모주 부재로 침체됐던 국내 IPO 시장에도 상당한...",
+      "link": "https://n.news.naver.com/mnews/article/023/0003997662?sid=101",
+      "originallink": "https://www.chosun.com/economy/money/2026/09/10/KE7LBJYOTNAUPMOCDLE7ODOVLE/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-10T00:10:00.000Z"
+    },
     {
       "id": "fc733e823bfd38f6",
       "keyword": "브릴스",
@@ -38,39 +126,6 @@
       "originallink": "https://www.fnnews.com/news/202609091826509541",
       "provider": "뉴스 검색",
       "publishedAt": "2026-09-09T09:29:00.000Z"
-    },
-    {
-      "id": "1d816294ef1739de",
-      "keyword": "와이즈플래닛컴퍼니",
-      "companyName": "와이즈플래닛컴퍼니",
-      "title": "IPO 앞둔 와이즈플래닛컴퍼니 대표 \"상장 후 해외시장 공략…글로벌 브...",
-      "description": "주 대표는 \"Pre IPO 이전까지 외부 투자 없이 무차입 경영 원칙을 바탕으로 13년 연속 흑자를 유지하고 있다... 한편, 와이즈플래닛컴퍼니의 총 공모주식수는 1,600,000주이며, 주당 희망 공모가 밴드는 1만원...",
-      "link": "https://www.thedailypost.kr/news/articleView.html?idxno=115499",
-      "originallink": "https://www.thedailypost.kr/news/articleView.html?idxno=115499",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-09T08:34:00.000Z"
-    },
-    {
-      "id": "519c3122bcfbfdc1",
-      "keyword": "와이즈플래닛컴퍼니",
-      "companyName": "와이즈플래닛컴퍼니",
-      "title": "'닥터피엘·누잠' 키운 와이즈플래닛 \"다음 무대는 미국\"…코스닥 출사...",
-      "description": "와이즈플래닛컴퍼니는 9일 열린 기업공개(IPO) 기자간담회에서 상장 이후 성장 전략을 공개했다. 이날... 회사의 희망 공모가는 1만~1만2000원, 공모 예정 금액은 160억~192억원이다. 희망 공모가 기준 예상 시가총액은...",
-      "link": "https://www.thepublic.kr/news/articleView.html?idxno=318143",
-      "originallink": "https://www.thepublic.kr/news/articleView.html?idxno=318143",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-09T07:34:00.000Z"
-    },
-    {
-      "id": "454ed8ce8481afe8",
-      "keyword": "와이즈플래닛컴퍼니",
-      "companyName": "와이즈플래닛컴퍼니",
-      "title": "와이즈플래닛컴퍼니 \"코스닥 상장으로 글로벌 브랜드 빌더 도약\"",
-      "description": "주 대표는 \"성장 잠재력이 높은 카테고리 리더 브랜드를 발굴하고 회사 역량과 결합시켜 윈윈 구도를 만들 것\"이라고 강조했다. 와이즈플래닛컴퍼니의 총 공모주식수는 160만주로, 그중 16.25%인 26만주는 구주매출이다....",
-      "link": "https://daily.hankooki.com/news/articleView.html?idxno=1404367",
-      "originallink": "https://daily.hankooki.com/news/articleView.html?idxno=1404367",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-09T06:48:00.000Z"
     },
     {
       "id": "dbbc5ee5449d26f3",
@@ -150,48 +205,15 @@
       "publishedAt": "2026-09-07T07:02:00.000Z"
     },
     {
-      "id": "952425d7cff0a4dc",
-      "keyword": "네오사피엔스",
-      "companyName": "네오사피엔스",
-      "title": "네오사피엔스, 2년 뒤 해외 매출 16배 뛴다?…수요예측 '시험대'",
-      "description": "희망공모가액은 1만3800~1만5800원으로 제시했다. 상장 이후 기업가치를 입증할 첫 시험대 역시 해외 성장... 한편 네오사피엔스의 공모주식수는 200만주로 희망 공모가(1만3800~1만5800원) 기준 276억~316억원의 자금을...",
-      "link": "https://www.greened.kr/news/articleView.html?idxno=349427",
-      "originallink": "https://www.greened.kr/news/articleView.html?idxno=349427",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-07T06:52:00.000Z"
-    },
-    {
       "id": "b2c465db47dc5928",
-      "keyword": "브릴스",
-      "companyName": "브릴스",
+      "keyword": "글로벌테크놀로지",
+      "companyName": "글로벌테크놀로지",
       "title": "하반기 'IPO 시계' 다시 돈다…로봇·AI부터 조단위 대형주까지 출격",
-      "description": "코스피 상장예비심사 청구를 진행할 것으로 관측된다. 7일 증권가에 따르면 이달 네오사피엔스, 브릴스... 대형 공모를 추진하는 기업들도 본격 상장 채비에 나서면서 IPO 시장 투자 심리 개선이 기대된다. 강영훈...",
+      "description": "안팎의 공모를 추진할 것으로 보고 있다. 이외에도 조선미녀, 티르티르, 스킨1004, 라운드랩 등 다수 뷰티 브랜드를 운영하는 구다이글로벌과 AI 기업 업스테이지도 하반기 IPO 상장예비심사 청구 진행을 검토하는 것으로...",
       "link": "https://www.g-enews.com/view.php?ud=20260907135014269923c501012_1",
       "originallink": "https://www.g-enews.com/view.php?ud=20260907135014269923c501012_1",
       "provider": "뉴스 검색",
       "publishedAt": "2026-09-07T06:14:00.000Z"
-    },
-    {
-      "id": "255de4963ba43965",
-      "keyword": "브릴스",
-      "companyName": "브릴스",
-      "title": "[증권 Pick] 이번주 IPO 일정 모아보기",
-      "description": "덕산넵코어스·엘리스그룹·브릴스도 9일부터 기관 평가를 받는다. 시스템반도체 팹리스 기업... 총 160만주를 공모하며 희망공모가는 2만~2만4000원이다. 앞서 상장이 여러 차례 미뤄졌던 만큼 이번 수요예측에서...",
-      "link": "https://www.lcnews.co.kr/news/articleView.html?idxno=207869",
-      "originallink": "https://www.lcnews.co.kr/news/articleView.html?idxno=207869",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-07T05:58:00.000Z"
-    },
-    {
-      "id": "5ed4ac18b9acbd4f",
-      "keyword": "빅웨이브로보틱스",
-      "companyName": "빅웨이브로보틱스",
-      "title": "공모주 청약 봇물…덕산넵코어스 등 6곳 수요예측 시험대 [이번주 증시...",
-      "description": "한동안 썰렁했던 기업공개(IPO) 시장이 이번 주 다시 북적일 전망이다. 중복상장 원칙 금지 규제가 발표된... 빅웨이브로보틱스, 브릴스, KB스팩34호, 한국스팩17호가 기관 수요예측 일정에 돌입한다. 희망 공모가 밴드...",
-      "link": "https://n.news.naver.com/mnews/article/011/0004659107?sid=101",
-      "originallink": "https://www.sedaily.com/article/20087606?ref=naver",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-06T21:01:00.000Z"
     },
     {
       "id": "900fe8ad2e693171",
@@ -293,17 +315,6 @@
       "publishedAt": "2026-08-24T06:48:00.000Z"
     },
     {
-      "id": "8e8ce1228e6d9206",
-      "keyword": "엠비디",
-      "companyName": "엠비디",
-      "title": "청약은 흥행, 주가는 뒷걸음…올해 상장 바이오텍들 반쪽짜리 ‘실탄 확...",
-      "description": "이들 기업들은 화려하게 증시에 입성했지만 현재 주가가 공모가보다 낮은 곳이 대부분이다. 이런 주가로는... 다음 IPO 주자들에게 악영향을 줄 수 있다고 보고 있다. 카이랩스, 엠에스바이오, 엠비디 등이 상장을...",
-      "link": "https://n.news.naver.com/mnews/article/029/0003043416?sid=105",
-      "originallink": "https://www.dt.co.kr/article/12079302?ref=naver",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-20T07:55:00.000Z"
-    },
-    {
       "id": "a424ebae52181281",
       "keyword": "엣지파운드리",
       "companyName": "엣지파운드리",
@@ -324,28 +335,6 @@
       "originallink": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003256354&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
       "provider": "뉴스 검색",
       "publishedAt": "2026-08-04T02:06:00.000Z"
-    },
-    {
-      "id": "2c37d40a5837f3b7",
-      "keyword": "멜콘",
-      "companyName": "멜콘",
-      "title": "[더벨][멜콘 IPO] 반도체 훈풍에 실적 반등…예심에도 영향 줄까",
-      "description": "21일 투자은행(IB) 업계에 따르면 멜콘의 코스닥 상장 예비심사는 절차에 따라 차질없이 진행 중인 것으로... 통해 공모금액이 전액 회사로 흘러들어가는 구조를 짰다. 회사는 현재 주 수익원인 THC 이외에 초정밀 정제...",
-      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202605211620067520107686",
-      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202605211620067520107686",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-05-25T22:02:00.000Z"
-    },
-    {
-      "id": "92a49a0bce2b2e92",
-      "keyword": "멜콘",
-      "companyName": "멜콘",
-      "title": "5월 공모주 시장 대형주 실종…중소형주에 투자 집중",
-      "description": "5월 IPO 시장은 금융당국의 중복상장 규제와 대내외 금융시장의 변동성이 맞물리며 대형 기업들이 자취를 감춘 채 중소형주 위주의 제한적인 시장이 형성되었다. 소수 중소형 공모주에 자금이 집중되며 청약 경쟁률이...",
-      "link": "https://www.junggi.co.kr/news/articleView.html?idxno=36401",
-      "originallink": "https://www.junggi.co.kr/news/articleView.html?idxno=36401",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-05-12T05:22:00.000Z"
     },
     {
       "id": "d1c78174c1d09481",

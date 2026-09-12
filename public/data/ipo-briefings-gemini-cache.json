@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "updatedAt": "2026-09-11T09:53:45.593Z",
+    "updatedAt": "2026-09-12T00:26:41.270Z",
     "source": "gemini-briefing-cache"
   },
   "items": [
@@ -857,6 +857,36 @@
         "model": null
       },
       "updatedAt": "2026-09-10T09:54:56.757Z"
+    },
+    {
+      "key": "76106a3cee9e3d26e2ad242a",
+      "model": "gemini-2.5-flash",
+      "briefing": {
+        "id": "briefing-케이비제34호기업인수목적",
+        "ipoId": "케이비제34호기업인수목적",
+        "companyName": "케이비제34호기업인수목적",
+        "sector": "IPO 일정 확인 대상 기업",
+        "ipoStage": "환불일",
+        "underwriter": "주관사 확인",
+        "basisTimeLabel": "오늘 09:30 기준",
+        "oneLine": "IPO 일정 확인 대상 기업",
+        "body": "케이비제34호기업인수목적은 IPO 일정 확인 대상 기업입니다. 09.10 일정 기준으로 환불일 단계라 원문 일정과 변경 여부를 함께 확인합니다.",
+        "points": [
+          "환불일 확인",
+          "상장일 확인",
+          "원문 일정 대조"
+        ],
+        "sourceLabels": [
+          "DART 일정",
+          "환불일 09.15",
+          "뉴스 검색",
+          "주관사 확인"
+        ],
+        "competition": null,
+        "generatedBy": "local-rules",
+        "model": null
+      },
+      "updatedAt": "2026-09-12T00:24:48.505Z"
     }
   ]
 }

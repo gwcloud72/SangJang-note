@@ -1,21 +1,65 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-09-12T00:24:14.328Z",
+    "updatedAt": "2026-09-12T23:58:16.748Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
     {
-      "id": "2789a639e4064540",
+      "id": "a36dc467fd389a14",
+      "keyword": "진코스텍",
+      "companyName": "진코스텍",
+      "title": "[이번주 IPO]9월 셋째 주 수요예측·청약 일정",
+      "description": "◆진코스텍=진코스텍은 하이드로겔 소재 기반 화장품 ODM/OEM 기업이다. 이번 IPO를 생산 인프라 확대와 차세대 하이드로겔 기술 개발을 본격화하는 성장 재원 확보의 계기로 활용한다는 계획이다. 공모자금은...",
+      "link": "https://n.news.naver.com/mnews/article/277/0005815449?sid=101",
+      "originallink": "https://view.asiae.co.kr/article/2026091219111025691",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-12T23:00:00.000Z"
+    },
+    {
+      "id": "1a3a30106534c3ed",
       "keyword": "브릴스",
       "companyName": "브릴스",
-      "title": "와이즈플래닛부터 브릴스까지⋯5개사 릴레이 청약 [주간IPO]",
-      "description": "나란히 공모 브릴스, 17~18일 청약…희망가 1만6500~1만9500원 다음 주 기업공개(IPO) 시장에서는... 총 160만주를 공모하며 희망 공모가는 1만~1만2000원, 공모 예정액은 160억~192억원이다. 상장 주관사는 대신증권이며...",
-      "link": "https://www.etoday.co.kr/news/view/2624484",
-      "originallink": "https://www.etoday.co.kr/news/view/2624484",
+      "title": "'신고서 7번 정정' 빅웨이브로보, 일반청약⋯넵코어스 등 5개사도 [IPO 돋...",
+      "description": "이번 주(14~18일) 기업공개(IPO) 시장에서는 빅웨이브로보틱스가 일반 투자자 대상 공모 청약을 받는다.... 희망 공모가는 1만3000~1만5000원이다. 한국투자증권이 주관을 맡았다. 로봇 표준화 플랫폼 전문기업 브릴스도...",
+      "link": "https://n.news.naver.com/mnews/article/031/0001057816?sid=101",
+      "originallink": "http://www.inews24.com/view/2004787",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-09-12T00:00:00.000Z"
+      "publishedAt": "2026-09-12T22:01:00.000Z"
+    },
+    {
+      "id": "a76b9e9455c4aa78",
+      "keyword": "글로벌테크놀로지",
+      "companyName": "글로벌테크놀로지",
+      "title": "\"엔비디아 대항마 떴다\"… 中 '엔플레임', 상하이 스타마켓 데뷔 첫날 1...",
+      "description": "테크놀로지(Enflame·쑤이위안커지)가 상하이 증권거래소 과학혁신판(커촹반·스타마켓) 상장 첫날 공모가... 아시아 증시 폭락장 뚫은 179% 독주… 공모 청약 '6,000배' 폭주 이날 엔플레임의 주가 폭등은 글로벌...",
+      "link": "https://www.g-enews.com/view.php?ud=2026091300323822830c8c1c064d_1",
+      "originallink": "https://www.g-enews.com/view.php?ud=2026091300323822830c8c1c064d_1",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-12T21:26:00.000Z"
+    },
+    {
+      "id": "5f7a10742f4e92f0",
+      "keyword": "브릴스",
+      "companyName": "브릴스",
+      "title": "이번주 공모주 청약, 글로벌테크놀로지·덕산넵코어스 등 5개사",
+      "description": "9월 셋째 주(14~18일) 기업공개(IPO) 시장에서는 와이즈플래닛컴퍼니·빅웨이브로보틱스·덕산넵코어스·글로벌테크놀로지·브릴스 등 5개사가 일반투자자 대상 공모주 청약을 진행한다. 13일 금융투자업계에 따르면...",
+      "link": "https://n.news.naver.com/mnews/article/119/0003131969?sid=101",
+      "originallink": "https://www.dailian.co.kr/news/view/1689221/?sc=Naver",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-12T21:18:00.000Z"
+    },
+    {
+      "id": "269e8647989765d5",
+      "keyword": "진코스텍",
+      "companyName": "진코스텍",
+      "title": "와이즈플래닛 1.2만원 확정… 빅웨이브·덕산넵코어스 등 코스닥 상장 ...",
+      "description": "로봇·방산·미디어커머스 줄상장 예고… 다음 주 5개 기업 IPO 청약 개막 / 한국거래소 다음 주 기업공개... 덕산넵코어스와 브릴스는 각각 14일과 15일까지 수요예측을 마치고, 진코스텍과 멜콘은 16일부터 기관투자자...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=606245",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=606245",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-12T15:06:00.000Z"
     },
     {
       "id": "635ca089d194ac1b",
@@ -29,6 +73,17 @@
       "publishedAt": "2026-09-12T00:00:00.000Z"
     },
     {
+      "id": "2789a639e4064540",
+      "keyword": "브릴스",
+      "companyName": "브릴스",
+      "title": "와이즈플래닛부터 브릴스까지⋯5개사 릴레이 청약 [주간IPO]",
+      "description": "나란히 공모 브릴스, 17~18일 청약…희망가 1만6500~1만9500원 다음 주 기업공개(IPO) 시장에서는... 총 160만주를 공모하며 희망 공모가는 1만~1만2000원, 공모 예정액은 160억~192억원이다. 상장 주관사는 대신증권이며...",
+      "link": "https://www.etoday.co.kr/news/view/2624484",
+      "originallink": "https://www.etoday.co.kr/news/view/2624484",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-12T00:00:00.000Z"
+    },
+    {
       "id": "70083525cd4d713d",
       "keyword": "엘리스그룹",
       "companyName": "엘리스그룹",
@@ -38,28 +93,6 @@
       "originallink": "https://news.mtn.co.kr/news-detail/2026091116255245139",
       "provider": "뉴스 검색",
       "publishedAt": "2026-09-11T08:38:00.000Z"
-    },
-    {
-      "id": "d80d899c4e2ed61d",
-      "keyword": "와이즈플래닛컴퍼니",
-      "companyName": "와이즈플래닛컴퍼니",
-      "title": "와이즈플래닛컴퍼니, 공모가 1만2000원 확정…기관 수요예측 1248대 1",
-      "description": "씨앤비저널 IPO 시장에서 기업별 선별 투자가 이어지는 가운데, 와이즈플래닛컴퍼니가 공모가를 희망밴드... 총 공모금액은 약 192억원, 상장 후 예상 시가총액은 약 1200억원이다. 대신증권 관계자는 \"공모주 시장에서...",
-      "link": "https://www.cnbizm.com/news/articleView.html?idxno=314865",
-      "originallink": "https://www.cnbizm.com/news/articleView.html?idxno=314865",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-11T07:50:00.000Z"
-    },
-    {
-      "id": "4ba1b616b157a04a",
-      "keyword": "와이즈플래닛컴퍼니",
-      "companyName": "와이즈플래닛컴퍼니",
-      "title": "주관 맡고 베팅한 대신證...와이즈플래닛 공모가 상단에 '함박웃음'",
-      "description": "한편 대신증권이 보유한 와이즈플래닛컴퍼니 주식 18만5150주는 상장 후 3개월간 의무보호예수(락업) 대상이다. 대신증권은 이번 IPO에서 대표주관사와 주주라는 두 지위를 동시에 갖는다. 와이즈플래닛도...",
-      "link": "https://www.newstopkorea.com/news/articleView.html?idxno=47621",
-      "originallink": "https://www.newstopkorea.com/news/articleView.html?idxno=47621",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-11T07:50:00.000Z"
     },
     {
       "id": "55a89553db9ccaa6",
@@ -95,17 +128,6 @@
       "publishedAt": "2026-09-11T06:08:00.000Z"
     },
     {
-      "id": "ddffec7031604183",
-      "keyword": "덕산넵코어스",
-      "companyName": "덕산넵코어스",
-      "title": "[덕산일렉테라 IPO] 형 따라가는 이수완…중복상장 도전장",
-      "description": "덕산일렉테라 IPO는 계열 분리 이후 이수완 덕산산업 회장이 추진하는 첫 자회사 상장이라는 상징성도 가진다. 형인 이수훈 회장이 이끄는 덕산홀딩스는 덕산하이메탈 자회사 덕산넵코어스의 공모를 진행하고 있다....",
-      "link": "https://www.the-stock.kr/news/articleView.html?idxno=33362",
-      "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=33362",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-11T04:08:00.000Z"
-    },
-    {
       "id": "6c7eeab4c7a00e28",
       "keyword": "네오사피엔스",
       "companyName": "네오사피엔스",
@@ -115,17 +137,6 @@
       "originallink": "https://news.dealsitetv.com/articles/175867",
       "provider": "뉴스 검색",
       "publishedAt": "2026-09-10T23:02:00.000Z"
-    },
-    {
-      "id": "2e3b5a5cf74fb063",
-      "keyword": "와이즈플래닛컴퍼니",
-      "companyName": "와이즈플래닛컴퍼니",
-      "title": "[IPO 뜯어보기] [와이즈플래닛컴퍼니] 매출 쏠림에 성장 정체, 해법은?",
-      "description": "주경민 대표는 이번 IPO를 통해 구주매출에 나섰다. 와이즈플래닛컴퍼니의 전체 공모주식 160만주 가운데 구주매출은 26만주다. 구주매출 물량 전량이 주 대표의 보유주식으로, 이번 공모에서 구주매출에 나서는 기존...",
-      "link": "https://news.dealsitetv.com/articles/175872",
-      "originallink": "https://news.dealsitetv.com/articles/175872",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-10T22:02:00.000Z"
     },
     {
       "id": "268a676a510efe80",
@@ -148,17 +159,6 @@
       "originallink": "https://www.chosun.com/economy/money/2026/09/11/LNW5H3OX2FGRRF4FCSL7JYA7EA/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
       "provider": "뉴스 검색",
       "publishedAt": "2026-09-10T15:36:00.000Z"
-    },
-    {
-      "id": "6ffad9ef7dc8c5f4",
-      "keyword": "덕산넵코어스",
-      "companyName": "덕산넵코어스",
-      "title": "[장외시황] 네오사피엔스, 공모주 청약 시작",
-      "description": "이틀간 공모주 청약을 진행한다. 공모가는 희망밴드 하단보다 낮은 1만원으로 확정되었고, 수요예측... 상장 예비심사 승인종목으로 특수 목적용 항법 및 항재밍 토탈 솔루션 전문기업 덕산넵코어스(넵코어스)는...",
-      "link": "https://www.etoday.co.kr/news/view/2624152",
-      "originallink": "https://www.etoday.co.kr/news/view/2624152",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-10T06:46:00.000Z"
     },
     {
       "id": "14634b7c996c7107",
@@ -194,17 +194,6 @@
       "publishedAt": "2026-09-09T23:57:00.000Z"
     },
     {
-      "id": "9318f8452cd96b8c",
-      "keyword": "글로벌테크놀로지",
-      "companyName": "글로벌테크놀로지",
-      "title": "[허정수칼럼] 누가 SKIET 합병을 원하는가",
-      "description": "SK아이이테크놀로지(SKIET) 공모주 청약에 80조9000억원 넘는 자금이 몰렸다. 공모 기준 시가총액... 합병가액은 SK이노베이션 12만5862원, SKIET는 1만4783원으로 상장 공모가의 14% 수준에 불과했다. 5년 전 시장의...",
-      "link": "https://n.news.naver.com/mnews/article/293/0000090251?sid=110",
-      "originallink": "https://www.bloter.net/news/articleView.html?idxno=673159",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-09T21:00:00.000Z"
-    },
-    {
       "id": "704bafd730e51497",
       "keyword": "진코스텍",
       "companyName": "진코스텍",
@@ -214,17 +203,6 @@
       "originallink": "https://www.fnnews.com/news/202609091826509541",
       "provider": "뉴스 검색",
       "publishedAt": "2026-09-09T09:29:00.000Z"
-    },
-    {
-      "id": "de99f1be242f3847",
-      "keyword": "글로벌테크놀로지",
-      "companyName": "글로벌테크놀로지",
-      "title": "[홍콩 특징주] 中 메모리 제조사 '강파룡' 홍콩상장, 'A+H주'로 재탄생",
-      "description": "상장 첫날 강파룡 H주는 233.6홍콩달러로 마감해 1.02% 하락했으며, 강파룡 A주는 358.86위안으로 0.18% 소폭 상승했다. 강파룡이 공개한 홍콩주식 IPO 배정 결과에 따르면 이번 글로벌 공모 주식 수는 총...",
-      "link": "https://www.newspim.com/news/view/20260909000009",
-      "originallink": "https://www.newspim.com/news/view/20260909000009",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-08T15:25:00.000Z"
     },
     {
       "id": "133ecc75925754a5",
@@ -291,28 +269,6 @@
       "originallink": "https://www.bloter.net/news/articleView.html?idxno=672131",
       "provider": "뉴스 검색",
       "publishedAt": "2026-08-30T04:00:00.000Z"
-    },
-    {
-      "id": "779c93184a5b8d69",
-      "keyword": "진코스텍",
-      "companyName": "진코스텍",
-      "title": "진코스텍, 코스닥 이전상장 시동…성장재원 확보",
-      "description": "김임준 진코스텍 대표이사는 \"증권신고서 제출을 시작으로 코스닥 이전상장을 위한 본격적인 공모 절차에 돌입하게 됐다\"며 \"이번 IPO를 통해 확보한 자금을 생산 기반 확충과 차세대 하이드로겔 기술 개발 등 회사의...",
-      "link": "https://news.dealsitetv.com/articles/175328",
-      "originallink": "https://news.dealsitetv.com/articles/175328",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-30T01:08:00.000Z"
-    },
-    {
-      "id": "0de2d397ebe40dd4",
-      "keyword": "진코스텍",
-      "companyName": "진코스텍",
-      "title": "진코스텍, 코스닥 이전상장 본격화…'3공장·차세대 하이드로겔' 승부수",
-      "description": "김임준 진코스텍 대표이사는 \"증권신고서 제출을 시작으로 코스닥 이전상장을 위한 본격적인 공모 절차에 돌입하게 됐다\"며 \"이번 IPO를 통해 확보한 자금을 생산 기반 확충과 차세대 하이드로겔 기술 개발 등 회사의...",
-      "link": "https://n.news.naver.com/mnews/article/629/0000528449?sid=101",
-      "originallink": "https://news.tf.co.kr/read/economy/2359120.htm",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-28T02:34:00.000Z"
     },
     {
       "id": "a424ebae52181281",

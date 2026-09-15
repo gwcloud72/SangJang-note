@@ -1,21 +1,120 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-09-14T00:30:25.276Z",
+    "updatedAt": "2026-09-15T00:28:50.832Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
     {
-      "id": "d3865bfd573ccb2c",
+      "id": "67953706de6df603",
+      "keyword": "글로벌테크놀로지",
+      "companyName": "글로벌테크놀로지",
+      "title": "[N2 모닝 경제 브리핑-9월 15일] 美 증시, AI 경고·국채금리 급등에 3대...",
+      "description": "기업공개(IPO)를 추진할 가능성이 높은 것으로 전해졌다. 다리오 아모데이 최고경영자(CEO)가 최근 AI 모델 개발 속도를 늦춰야 한다고 주장했지만, 경영진은 상장을 통해 투명성을 높이는 것이 오히려...",
+      "link": "https://www.news2day.co.kr/article/20260914500066",
+      "originallink": "https://www.news2day.co.kr/article/20260914500066",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-14T20:54:00.000Z"
+    },
+    {
+      "id": "bf1c1e8abe590022",
+      "keyword": "진코스텍",
+      "companyName": "진코스텍",
+      "title": "\"치킨값 벌려다...\" 공모주 무패 공식 깨진 슈퍼위크 주의보",
+      "description": "이번 주 국내 기업공개(IPO) 시장에서 5개 기업이 잇따라 일반투자자 대상 공모주 청약에 나선다.... 이 외에도 코넥스에서 코스닥으로 이전상장을 추진하는 화장품 소재·완제품 기업 진코스텍과 반도체 장비사 멜콘이...",
+      "link": "https://www.newsquest.co.kr/news/articleView.html?idxno=300885",
+      "originallink": "https://www.newsquest.co.kr/news/articleView.html?idxno=300885",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-14T13:32:00.000Z"
+    },
+    {
+      "id": "b881dda95a14dd38",
+      "keyword": "엠비디",
+      "companyName": "엠비디",
+      "title": "하나증권, 진코스텍 IPO 단독 주관…8년 동행 코스닥 결실",
+      "description": "이전상장 주관 계약을 다시 체결하면서 단독 대표주관까지 맡게 됐다. 이번 공모는 하나증권의 IPO 주관... IPO 주관 실적을 추가할 기반도 마련하고 있다. 단독 대표주관을 맡은 세포배양 플랫폼 기업 엠비디가...",
+      "link": "http://www.press9.kr/news/articleView.html?idxno=82704",
+      "originallink": "http://www.press9.kr/news/articleView.html?idxno=82704",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-14T09:10:00.000Z"
+    },
+    {
+      "id": "46e5ffed498d4a1a",
+      "keyword": "멜콘",
+      "companyName": "멜콘",
+      "title": "중복상장 규제에도…대신증권, IPO 주관 ‘두각’",
+      "description": "올해 기업공개(IPO) 시장 문턱이 예년보다 높아진 상황 속에서 대신증권이 유독 약진하고 있습니다. 중복상장 규제 국면에서 예외 사례 1호 주관을 따낸 데 이어, 이번 주에도 대신증권이 맡은 공모청약이 잇따르고...",
+      "link": "https://www.sentv.co.kr/article/view/sentv202609140130",
+      "originallink": "https://www.sentv.co.kr/article/view/sentv202609140130",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-14T08:54:00.000Z"
+    },
+    {
+      "id": "eec9f51a6f40bcff",
+      "keyword": "덕산넵코어스",
+      "companyName": "덕산넵코어스",
+      "title": "[장외시황] 와이즈플래닛컴퍼니, 공모주 청약 시작",
+      "description": "기업공개(IPO)관련 상장 예비심사 청구종목으로 온라인 패션 플랫폼 무신사가 전 거래일과 동일한 호가였다. 상장 예비심사 승인종목으로 특수 목적용 항법 및 항재밍 토탈 솔루션 전문기업 덕산넵코어스는 호가...",
+      "link": "https://www.etoday.co.kr/news/view/2625315",
+      "originallink": "https://www.etoday.co.kr/news/view/2625315",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-14T07:10:00.000Z"
+    },
+    {
+      "id": "9112cd75cdbe3a54",
+      "keyword": "브릴스",
+      "companyName": "브릴스",
+      "title": "스카이랩스가 살린 공모주 시장···9월 청약 슈퍼위크 기대↑",
+      "description": "9월 공모주 슈퍼위크가 시작됐다. 지난달 급격히 얼어붙었던 공모주 시장은 이달 상장한 스카이랩스의... 마감되는 브릴스 공모청약에 온전히 참여할 수 있다. 결국 공모주 투자자로서는 이번 주 5개사 공모청약...",
+      "link": "https://www.sisajournal-e.com/news/articleView.html?idxno=423683",
+      "originallink": "https://www.sisajournal-e.com/news/articleView.html?idxno=423683",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-14T06:24:00.000Z"
+    },
+    {
+      "id": "f70167353dded462",
       "keyword": "와이즈플래닛컴퍼니",
       "companyName": "와이즈플래닛컴퍼니",
-      "title": "[더벨][엠에스바이오 IPO] 기관 DR 돌입...홍콩·싱가포르 투자자도 관심",
-      "description": "1만원에서 공모가액을 결정하고 상장 당일 135% 상승, 2만3500원에 장을 마감했다. 이후 3만원대까지 주가가 상승했고 11일 종가는 2만5550원이었다. 이후 수요예측에 돌입한 와이즈플래닛컴퍼니는 희망 밴드상단인...",
-      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609111612018840103314",
-      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609111612018840103314",
+      "title": "[IPO 워치] 와이즈플래닛, 수요예측 흥행…확약은 4% 못미쳐",
+      "description": "기관들은 장기 보유보다는 상장 초기 수익 실현에 무게를 둔 것으로 풀이된다. 14일 금융감독원 전자공시시스템에 따르면 와이즈플래닛컴퍼니는 공모가를 1만2000원으로 확정했다. 희망공모가 밴드(1만~1만2000원)의...",
+      "link": "https://n.news.naver.com/mnews/article/293/0000090431?sid=101",
+      "originallink": "https://www.bloter.net/news/articleView.html?idxno=673497",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-09-13T23:02:00.000Z"
+      "publishedAt": "2026-09-14T05:46:00.000Z"
+    },
+    {
+      "id": "41e541a50ea4b51d",
+      "keyword": "진코스텍",
+      "companyName": "진코스텍",
+      "title": "[증권 Pick] 이번주 IPO 일정 모아보기",
+      "description": "멜콘은 반도체 장비 기업으로 희망공모가는 1만700~1만2300원이며 대신증권이 대표주관을 맡는다. 진코스텍은 코넥스에서 코스닥으로 이전 상장을 추진하는 하이드로겔 소재 기반 화장품 ODM/OEM 기업으로...",
+      "link": "https://www.lcnews.co.kr/news/articleView.html?idxno=208235",
+      "originallink": "https://www.lcnews.co.kr/news/articleView.html?idxno=208235",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-14T05:02:00.000Z"
+    },
+    {
+      "id": "92f48ea82bf1b5d4",
+      "keyword": "엘리스그룹",
+      "companyName": "엘리스그룹",
+      "title": "8월 한파 딛고 IPO 시장 '꿈틀'…무신사 등 대어 출격에 흥행 기대",
+      "description": "14일 금융투자업계에 따르면 이번 주 IPO 시장에서는 멜콘과 진코스텍이 기관투자자 대상 수요예측에... 달 상장을 목표로 하고 있다. AI 코딩 교육 플랫폼 기업 엘리스그룹도 공모시장에 출격한다. ◆ 중소형주 이어...",
+      "link": "https://n.news.naver.com/mnews/article/629/0000533463?sid=101",
+      "originallink": "https://news.tf.co.kr/read/economy/2365474.htm",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-14T02:20:00.000Z"
+    },
+    {
+      "id": "bf5303483895ad83",
+      "keyword": "네오사피엔스",
+      "companyName": "네오사피엔스",
+      "title": "[더벨][네오사피엔스 IPO] 코스닥 입성 앞두고 일반청약 흥행…경쟁률 ...",
+      "description": "총 공모금액은 200억원, 상장 후 예상 시가총액은 약 1220억원이다. 네오사피엔스는 오는 15일 공모대금 납입을 거쳐 21일 코스닥 시장에 상장한다. 시장에서는 이번 청약 흥행이 상장 이후에도 이어져 이달 공모주...",
+      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609140838590480108949",
+      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609140838590480108949",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-14T01:02:00.000Z"
     },
     {
       "id": "4811c5e8ae7158c0",
@@ -41,8 +140,8 @@
     },
     {
       "id": "fd8bd3a439fc2b95",
-      "keyword": "진코스텍",
-      "companyName": "진코스텍",
+      "keyword": "멜콘",
+      "companyName": "멜콘",
       "title": "이번 주 공모주 5곳 청약 러시… 방산·반도체·로봇주 대기",
       "description": "이번 주 기업공개(IPO) 시장에서는 와이즈플래닛컴퍼니와 빅웨이브로보틱스, 덕산넵코어스... 공모가는 1만2000원, 공모금액은 192억원이다. 상장 후 예상 시가총액은 약 1200억원이다. 지난주 진행된 기관...",
       "link": "https://www.newstopkorea.com/news/articleView.html?idxno=47630",
@@ -62,61 +161,6 @@
       "publishedAt": "2026-09-13T21:00:00.000Z"
     },
     {
-      "id": "4af7933138e5750e",
-      "keyword": "진코스텍",
-      "companyName": "진코스텍",
-      "title": "공모주 청약 5곳 몰린다…덕산넵코어스·로봇株 줄줄이 출격[이번주 증...",
-      "description": "빅웨이브로보틱스에 이어 같은 주 로봇 관련 기업의 공모가 이어지는 만큼 투자자 수요가 어떻게 갈릴지도 관심사다. 후속 IPO 주자들도 기관 평가를 받는다. 코넥스에서 코스닥으로 이전상장을 추진하는 진코스텍과...",
-      "link": "https://n.news.naver.com/mnews/article/011/0004661387?sid=101",
-      "originallink": "https://www.sedaily.com/article/20090191?ref=naver",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-13T21:00:00.000Z"
-    },
-    {
-      "id": "62949bb37904160a",
-      "keyword": "진코스텍",
-      "companyName": "진코스텍",
-      "title": "[IPO 워치] 공모주 청약 5곳 몰린다…로봇·방산·반도체株 출격",
-      "description": "셋째 주(14~18일) 기업공개(IPO) 시장에서는 와이즈플래닛컴퍼니를 시작으로 빅웨이브로보틱스와 덕산넵코어스, 글로벌테크놀로지, 브릴스 등 5개 기업이 일반투자자 대상 공모청약에 나선다. 신규 상장 일정은 없는...",
-      "link": "https://www.news2day.co.kr/article/20260913500005",
-      "originallink": "https://www.news2day.co.kr/article/20260913500005",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-13T19:58:00.000Z"
-    },
-    {
-      "id": "812e293fb1cc3ce3",
-      "keyword": "글로벌테크놀로지",
-      "companyName": "글로벌테크놀로지",
-      "title": "[강현철의 뉴스 솎아내기] 中 테크 IPO가 韓에 던진 ‘경고장’",
-      "description": "첫날 공모가 대비 600% 이상 폭등하는 기염을 토했다. 오픈소스 AI 시장을 뒤흔들고 있는 중국 스타트업들의 상장 행보는 글로벌 자금의 흐름도 바꾸고 있다. 기업가치 약 100조원을 목표로 IPO를 추진중인 딥시크(DeepSeek)...",
-      "link": "https://n.news.naver.com/mnews/article/029/0003047723?sid=110",
-      "originallink": "https://www.dt.co.kr/article/12083665?ref=naver",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-13T09:15:00.000Z"
-    },
-    {
-      "id": "4e470751d0f8d393",
-      "keyword": "진코스텍",
-      "companyName": "진코스텍",
-      "title": "이번주 IPO 청약 5곳 몰린다…코넥스 진코스텍은 이전상장 수요예측 나...",
-      "description": "이번 주(9월 14~18일) 기업공개(IPO) 시장에서는 코스닥 상장을 추진하는 멜콘과 진코스텍이 기관투자자... 공모가 희망밴드는 1만700~1만2천300원이며, 대신증권이 상장을 주관한다. 2010년 설립된 진코스텍은...",
-      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434592",
-      "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4434592",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-13T04:02:00.000Z"
-    },
-    {
-      "id": "a36dc467fd389a14",
-      "keyword": "멜콘",
-      "companyName": "멜콘",
-      "title": "[이번주 IPO]9월 셋째 주 수요예측·청약 일정",
-      "description": "공모자금은 3공장 신설을 비롯해 원·부재료 확보, 하이드로겔 신제품 연구개발, 사업 확대를 위한... 이전 상장 절차를 마무리한다는 계획이다. ◆멜콘=2003년 설립된 멜콘은 반도체 핵심 공정인 포토공정...",
-      "link": "https://n.news.naver.com/mnews/article/277/0005815449?sid=101",
-      "originallink": "https://view.asiae.co.kr/article/2026091219111025691",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-12T23:00:00.000Z"
-    },
-    {
       "id": "70083525cd4d713d",
       "keyword": "엘리스그룹",
       "companyName": "엘리스그룹",
@@ -126,39 +170,6 @@
       "originallink": "https://news.mtn.co.kr/news-detail/2026091116255245139",
       "provider": "뉴스 검색",
       "publishedAt": "2026-09-11T08:38:00.000Z"
-    },
-    {
-      "id": "55a89553db9ccaa6",
-      "keyword": "네오사피엔스",
-      "companyName": "네오사피엔스",
-      "title": "네오사피엔스, 코스닥 IPO 청약 경쟁률 1048대 1…증거금 2.6兆",
-      "description": "AI 기반 음성·영상 생성 플랫폼 기업 네오사피엔스가 코스닥 상장을 위한 일반청약에서 약 2조6000억원의 청약 증거금을 모았다. 네오사피엔스가 10~11일 일반투자자를 대상으로 공모주 청약을 실시한 결과 최종...",
-      "link": "https://n.news.naver.com/mnews/article/015/0005331378?sid=101",
-      "originallink": "https://www.hankyung.com/article/202609119422r",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-11T07:46:00.000Z"
-    },
-    {
-      "id": "8b5436bc808738b4",
-      "keyword": "네오사피엔스",
-      "companyName": "네오사피엔스",
-      "title": "[공모주 마감] 네오사피엔스 청약 일정 2일차까지 마무리…균등·비례 ...",
-      "description": "IPO 자료사진. AI가 생성한 이미지. 공모주 네오사피엔스의 청약일정이 11일 오후를 기해 모두 종료됐다.... 네오사피엔스가 상장일인 21일 어떤 추이를 보일지 관심이 모아진다. 만약 따따블을 기록한다면 공모가...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=606010",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=606010",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-11T07:04:00.000Z"
-    },
-    {
-      "id": "950f8cd1e805d898",
-      "keyword": "네오사피엔스",
-      "companyName": "네오사피엔스",
-      "title": "[더벨][무신사 IPO] 오랜만의 대어 등장…공모주 시장 살아날까",
-      "description": "공모가 밴드보다 낮게 할인된 공모가를 제시하고, 상장 이후 수급에 따라 주가가 오르는 그림이다. 이런 흐름에 따라 8일까지 수요예측을 진행한 네오사피엔스 역시 공모가 밴드(1만3800~1만5800원)보다 낮은 1만원선에서...",
-      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609091343259840105435",
-      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609091343259840105435",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-11T06:08:00.000Z"
     },
     {
       "id": "6d46008893ead982",
@@ -194,17 +205,6 @@
       "publishedAt": "2026-09-10T00:10:00.000Z"
     },
     {
-      "id": "fc733e823bfd38f6",
-      "keyword": "엘리스그룹",
-      "companyName": "엘리스그룹",
-      "title": "\"4500억 몰린다\" IPO 시장 '온기'…11개 기업 상장 전망",
-      "description": "한동안 얼어붙었던 기업공개(IPO) 시장에 다시 온기가 돌고 있다. 지난달 공모 규모와 투자 성과가 동시에... AI 코딩 교육 플랫폼 기업 엘리스그룹은 공모금액 1564억원 규모로 이달 상장 예정 기업 가운데 최대어로...",
-      "link": "https://n.news.naver.com/mnews/article/015/0005330758?sid=101",
-      "originallink": "https://www.hankyung.com/article/2026091055147",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-09T23:57:00.000Z"
-    },
-    {
       "id": "133ecc75925754a5",
       "keyword": "엠비디",
       "companyName": "엠비디",
@@ -225,17 +225,6 @@
       "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=33311",
       "provider": "뉴스 검색",
       "publishedAt": "2026-09-04T02:46:00.000Z"
-    },
-    {
-      "id": "62f255049a15332f",
-      "keyword": "엠비디",
-      "companyName": "엠비디",
-      "title": "[더벨][엠비디 IPO] 2029년 순이익 180억 전제, 상장 밸류 1600억 제시",
-      "description": "희망공모가는 평가가액에 26.09~39.06%의 할인율을 적용해 9400~1만1500원으로 정했다. 2024년 이후 코스닥 기술특례 상장사들이 적용한 할인율 수준을 반영했다. 결국 엠비디의 1600억원대 상장 밸류가 현실화될지는...",
-      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609011456352040106938",
-      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609011456352040106938",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-01T22:02:00.000Z"
     },
     {
       "id": "0c6792176f1ceba5",

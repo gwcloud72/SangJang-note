@@ -1,11 +1,121 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-09-17T00:45:18.762Z",
+    "updatedAt": "2026-09-18T00:30:52.606Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "0955c1388ba3b698",
+      "keyword": "덕산넵코어스",
+      "companyName": "덕산넵코어스",
+      "title": "[Invest]코너스톤 TF 가동했지만…공모주 한파에 첫 도입부터 난관",
+      "description": "증권사별 전산 시스템과 계약·업무 처리 절차 등을 조율하고 있지만 실무진 사이에서는 실제 상장 업무에... 글로벌테크놀로지, 덕산넵코어스의 확약률도 각각 3.65%, 0.27%, 4.05%에 그쳤다. 최근 공모주 수익률이 부진하면서...",
+      "link": "https://www.investchosun.com/site/data/html_dir/2026/09/17/2026091780080.html",
+      "originallink": "https://www.investchosun.com/site/data/html_dir/2026/09/17/2026091780080.html",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-17T22:02:00.000Z"
+    },
+    {
+      "id": "d90a150590ea7095",
+      "keyword": "디티에스",
+      "companyName": "디티에스",
+      "title": "[더벨][덕산넵코어스 IPO] 중복상장 1호, 심사부터 공모까지 10개월 걸린...",
+      "description": "금융위원회의 중복상장 금지 방침 발표 이후 나온 첫 예외 허용 사례다. 덕산넵코어스의 공모 성사로 자회사 기업공개(IPO)를 준비중인 다른 기업들이 후발주자로 나설지 주목받고 있다. 당장 디티에스가 내달...",
+      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609171438180520109087",
+      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609171438180520109087",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-17T09:08:00.000Z"
+    },
+    {
+      "id": "b12c5474fdbb4754",
+      "keyword": "덕산넵코어스",
+      "companyName": "덕산넵코어스",
+      "title": "덕산넵코어스 1.8兆, 글로벌테크 0.3兆…공모주 청약 양극화",
+      "description": "이번 주 공모주 청약 건수가 5건으로 몰리면서 투자자들이 옥석 가리기에 나섰다는 분석이다. 상장 이후 일정 기간 주식을 팔지 않겠다고 약속하는 확약 비율이 낮았던 점도 영향을 끼쳤다. 덕산넵코어스의...",
+      "link": "https://n.news.naver.com/mnews/article/015/0005333565?sid=101",
+      "originallink": "https://www.hankyung.com/article/202609171792r",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-17T08:50:00.000Z"
+    },
+    {
+      "id": "9e4c533b84ec646c",
+      "keyword": "진코스텍",
+      "companyName": "진코스텍",
+      "title": "'이전상장' 진코스텍, 코넥스 시세 턱밑 공모가…유통물량 58% 우려",
+      "description": "일반상장기업 평균 할인율은 상단 22.40%, 하단 33.89%다. 진코스텍의 공모밴드 상단 할인율은 평균 상단... 최대주주와 일부 프리IPO 투자자 물량은 1년, 하나증권의 일부 보유분과 의무인수분은 6개월의...",
+      "link": "https://www.newstopkorea.com/news/articleView.html?idxno=47738",
+      "originallink": "https://www.newstopkorea.com/news/articleView.html?idxno=47738",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-17T07:40:00.000Z"
+    },
+    {
+      "id": "709727d9119eb49a",
+      "keyword": "브릴스",
+      "companyName": "브릴스",
+      "title": "[공모주 투데이] 브릴스 청약 1일차 종료, 균등 비례 경쟁률은?",
+      "description": "IPO 자료사진. AI가 생성한 이미지. 로봇 모듈화 플랫폼 회사 브릴스의 일반투자자 대상 공모주 청약... 브릴스는 17일부터 상장 주관사인 IBK투자증권을 통해 일반청약을 진행하고 있다. 청약은 오는 18일까지...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=607700",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=607700",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-17T07:04:00.000Z"
+    },
+    {
+      "id": "b9e95257268e0994",
+      "keyword": "덕산넵코어스",
+      "companyName": "덕산넵코어스",
+      "title": "[공모주 마감] 덕산넵코어스 청약 일정 종료, 비례·균등 '나는 몇주 받...",
+      "description": "IPO 자료사진. AI가 생성한 이미지. 덕산넵코어스의 일반투자자 대상 공모주 청약 일정이 2일차까지 17일... 덕산넵코어스는 지난 16일부터 이틀 동안 상장 주관사인 대신증권을 통해 일반청약을 진행했다. 확정...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=607683",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=607683",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-17T07:02:00.000Z"
+    },
+    {
+      "id": "63d92648cb6ab7db",
+      "keyword": "디티에스",
+      "companyName": "디티에스",
+      "title": "대신증권, IPO 파이프라인 결실…9월 예심 승인 절반 주관",
+      "description": "모회사 일반주주의 권익 보호 방안과 자회사 상장의 필요성까지 살펴보는 까다로운 심사에서 승인 경험을 확보하면서 향후 유사 구조의 IPO를 수임할 때 활용할 수 있는 레퍼런스도 마련했다. 공모 일정도 이어지고 있다....",
+      "link": "http://www.press9.kr/news/articleView.html?idxno=82924",
+      "originallink": "http://www.press9.kr/news/articleView.html?idxno=82924",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-17T07:00:00.000Z"
+    },
+    {
+      "id": "56b78a5ee40b4c6f",
+      "keyword": "브릴스",
+      "companyName": "브릴스",
+      "title": "[장외시황] 브릴스, 공모청약 진행",
+      "description": "이투데이=정수천 기자 | 로봇 모듈화플랫폼 솔루션 기업 브릴스가 일반투자자 대상 공모주 청약을... 기업공개(IPO) 관련 상장 예비심사 청구종목으로 온라인 패션 플랫폼 무신사는 호가 변화가 없었다. 상장 예비심사...",
+      "link": "https://www.etoday.co.kr/news/view/2626876",
+      "originallink": "https://www.etoday.co.kr/news/view/2626876",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-17T06:46:00.000Z"
+    },
+    {
+      "id": "0afbb46ee9c2a28b",
+      "keyword": "브릴스",
+      "companyName": "브릴스",
+      "title": "[기자수첩] 공모 '흥행'에 가려진 투자자의 '이익' 성적표",
+      "description": "IPO 시장의 활기가 투자자의 이익으로 반드시 이어지는 것은 아니다. 시장의 회복을 평가할 때도 공모 규모와 상장 기업 수에 더해 상장 이후의 성과를 살펴야 한다. 기업이 공모 당시 제시한 성장 계획을 실제 실적으로...",
+      "link": "https://www.financialpost.co.kr/news/articleView.html?idxno=275974",
+      "originallink": "https://www.financialpost.co.kr/news/articleView.html?idxno=275974",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-17T06:16:00.000Z"
+    },
+    {
+      "id": "fd7037f4eafb3d1e",
+      "keyword": "브릴스",
+      "companyName": "브릴스",
+      "title": "시마크로, AI 디지털트윈으로 글로벌 공략…CJ·삼성물산도 ‘찜’",
+      "description": "▲ AI 프리즘* 맞춤형 경제 브리핑 * 편집자 주: ‘AI PRISM’(Personalized Report & Insight Summarizing Media)은... ‘로봇 자동화’ 브릴스 공모가 확정…상단 1만 9500원에 코스닥 상장 - 핵심 요약: 코스닥 기업공개(IPO)를 추진...",
+      "link": "https://n.news.naver.com/mnews/article/011/0004662786?sid=101",
+      "originallink": "https://www.sedaily.com/article/20091948?ref=naver",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-17T01:01:00.000Z"
+    },
     {
       "id": "3b72bb2f7f402d9a",
       "keyword": "브릴스",
@@ -16,94 +126,6 @@
       "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=607565",
       "provider": "뉴스 검색",
       "publishedAt": "2026-09-17T00:02:00.000Z"
-    },
-    {
-      "id": "d4bbde75d218911a",
-      "keyword": "덕산넵코어스",
-      "companyName": "덕산넵코어스",
-      "title": "덕산넵코어스, 일반청약 시작…확약 배정에 첫날 유통 40%→33%[IPO 엑스레...",
-      "description": "덕산넵코어스가 기업공개(IPO) 일반청약에 돌입한 가운데 현재 기관 배정 기준 상장 첫날 유통가능물량이... 따르면 덕산넵코어스는 이날부터 17일까지 일반청약을 진행한다. 공모가는 희망범위 1만2400~1만4600원의...",
-      "link": "https://www.etoday.co.kr/news/view/2626312",
-      "originallink": "https://www.etoday.co.kr/news/view/2626312",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-16T20:00:00.000Z"
-    },
-    {
-      "id": "4976e9c933605421",
-      "keyword": "브릴스",
-      "companyName": "브릴스",
-      "title": "브릴스, IPO 공모가 1만9500원 확정…기관 경쟁률 1187대 1",
-      "description": "브릴스는 17~18일 일반투자자를 대상으로 공모 청약을 진행한 뒤 10월 1일 코스닥 시장에 상장할 예정이다. 이번 IPO를 통해 신주 120만주를 발행하며 상장 주관사는...",
-      "link": "https://www.venturesquare.net/1114289/",
-      "originallink": "https://www.venturesquare.net/1114289/",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-16T12:56:00.000Z"
-    },
-    {
-      "id": "fff7dd731bd57e25",
-      "keyword": "브릴스",
-      "companyName": "브릴스",
-      "title": "브릴스, 공모가 상단 1만9500원 확정…글로벌 성과 주목",
-      "description": "로봇 모듈화 플랫폼 솔루션 전문기업 브릴스(대표 전진)가 기관투자자를 대상으로 진행한 기업공개(IPO) 수요예측에서 흥행에 성공하며 최종 공모가를 희망밴드(1만6500원~1만9500원) 상단인 1만9500원으로 확정했다고...",
-      "link": "https://www.irobotnews.com/news/articleView.html?idxno=48541",
-      "originallink": "https://www.irobotnews.com/news/articleView.html?idxno=48541",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-16T09:40:00.000Z"
-    },
-    {
-      "id": "ec2e2fe2f19f669b",
-      "keyword": "브릴스",
-      "companyName": "브릴스",
-      "title": "브릴스, IPO 수요예측 흥행 … 공모가 1만9500원 확정",
-      "description": "기업 브릴스가 기업공개(IPO) 수요예측에서 높은 경쟁률을 기록하며 공모가를 희망밴드 최상단으로... 희망 공모가 범위는 1만6500~1만9500원이었다. 이에 따라 공모 규모는 약 234억원, 상장 후 예상 시가총액은 약...",
-      "link": "http://www.worktoday.co.kr/news/articleView.html?idxno=89332",
-      "originallink": "http://www.worktoday.co.kr/news/articleView.html?idxno=89332",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-16T08:32:00.000Z"
-    },
-    {
-      "id": "09fbb3e181611ea4",
-      "keyword": "브릴스",
-      "companyName": "브릴스",
-      "title": "브릴스, 공모가 1만9500원 확정",
-      "description": "로봇 모듈화 플랫폼 솔루션 기업 브릴스가 기관투자자 대상 IPO 수요예측에서 공모가 상단인 1만9500원을 확정했다고 16일 밝혔다. 총 공모금액은 약 234억원이며, 상장 후 시가총액은 약 2216억원 수준이 될 것으로...",
-      "link": "https://www.newspim.com/news/view/20260916001107",
-      "originallink": "https://www.newspim.com/news/view/20260916001107",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-16T08:03:00.000Z"
-    },
-    {
-      "id": "053f7b56c2687c62",
-      "keyword": "글로벌테크놀로지",
-      "companyName": "글로벌테크놀로지",
-      "title": "브릴스, 수요예측 흥행...공모가 1만9500원 확정",
-      "description": "이에 따라 총 공모금액은 약 234억원 규모로 상장 후 시가총액은 2216억원 수준이 될 전망이다. 이번... 의무보유확약 비율 21.75%는 올해 하반기 공모를 완료한 빅웨이브로보틱스(18.14%), 글로벌테크놀로지(0.27...",
-      "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=865881",
-      "originallink": "http://www.hansbiz.co.kr/news/articleView.html?idxno=865881",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-16T07:18:00.000Z"
-    },
-    {
-      "id": "0dea64ccc76b9e38",
-      "keyword": "글로벌테크놀로지",
-      "companyName": "글로벌테크놀로지",
-      "title": "[공모주 현황] 글로벌테크놀로지 청약 첫날 마무리, 균등·비례 각각 얼...",
-      "description": "IPO 자료사진. AI가 생성한 이미지. 공모주 글로벌테크놀로지의 청약 첫날 일정이 16일 오후 4시께... 글로벌테크놀로지는 오는 29일 증시에 입성할 예정이다. 상장일 추가 흐름에도 이목이 모아진다. 장세의 추이...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=607292",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=607292",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-16T07:04:00.000Z"
-    },
-    {
-      "id": "294105de28746e10",
-      "keyword": "덕산넵코어스",
-      "companyName": "덕산넵코어스",
-      "title": "[공모주 투데이] 덕산넵코어스 청약 1일차 어땠나…균등·비례 경쟁률은...",
-      "description": "IPO 자료사진. AI가 생성한 이미지. 공모주 덕산넵코어스 청약 1일차 일정이 16일 오후 4시 종료됐다.... 아울러 상장일인 9월 30일 주가 추이에도 이목이 쏠린다. 다만 공모주 특성상 당일 주가 변동성은 고려해야할...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=607290",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=607290",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-16T07:04:00.000Z"
     },
     {
       "id": "cab9d14295e28d11",
@@ -117,17 +139,6 @@
       "publishedAt": "2026-09-16T06:46:00.000Z"
     },
     {
-      "id": "cd0ac8476df32fe2",
-      "keyword": "덕산넵코어스",
-      "companyName": "덕산넵코어스",
-      "title": "[더벨][덕산넵코어스 IPO] 상장일 유통가능물량 40%→33%, 의무보유확약...",
-      "description": "다만 기관 수요예측 이후 실제 상장일에 나올 수 있는 유통 물량은 더 적어질 것으로 전망됐다. 기관에 배정된 공모 주식 중 의무 보유 확약을 받은 물량이 추가로 묶이기 때문이다. 덕산넵코어스 IPO 간담회에 참석한...",
-      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609161250186840105558",
-      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609161250186840105558",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-16T06:28:00.000Z"
-    },
-    {
       "id": "f51d8dd4589e99b1",
       "keyword": "진코스텍",
       "companyName": "진코스텍",
@@ -139,26 +150,15 @@
       "publishedAt": "2026-09-16T06:00:00.000Z"
     },
     {
-      "id": "dc7b414887945790",
-      "keyword": "덕산넵코어스",
-      "companyName": "덕산넵코어스",
-      "title": "[공모주 현황] 덕산넵코어스 공모가 1만4600원 확정…16~17일 일반청약,...",
-      "description": "IPO 자료사진. AI가 생성한 이미지. 특수목적용 항법·항재밍 솔루션 전문기업 덕산넵코어스가 코스닥 상장을... 점에서 상장 이후 시장의 평가에 관심이 쏠린다. 덕산넵코어스의 공모가는 1만4600원으로 확정됐다....",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=607295",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=607295",
+      "id": "e2efe886e69ebff5",
+      "keyword": "다비오",
+      "companyName": "다비오",
+      "title": "다비오, 증권신고서 제출…기술특례로 코스닥 상장 추진",
+      "description": "IPO) 절차를 이어가게 됐다. 상장 주관사는 대신증권이다. 다비오는 기술특례 방식으로 올해 하반기 코스닥 입성을 추진한다. 증권신고서 효력 발생 이후 기관투자자를 대상으로 한 수요예측을 거쳐 최종 공모가를...",
+      "link": "https://theviewers.co.kr/View.aspx?No=4229296",
+      "originallink": "https://theviewers.co.kr/View.aspx?No=4229296",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-09-16T02:38:00.000Z"
-    },
-    {
-      "id": "941ffc2a5f48dcb8",
-      "keyword": "와이즈플래닛컴퍼니",
-      "companyName": "와이즈플래닛컴퍼니",
-      "title": "와이즈플래닛, 일반청약 1477대 1…3.5조 몰려 IPO 청약 흥행",
-      "description": "상장 첫날 유통 가능한 주식 비중도 14%대로 집계되면서 오는 23일 코스닥 입성을 앞두고 공모 절차가 막바지에 들어갔다. 와이즈플래닛컴퍼니는 지난 14~15일 진행한 일반투자자 대상 공모주 청약에서 1477.65대 1의...",
-      "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=487495",
-      "originallink": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=487495",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-16T01:48:00.000Z"
+      "publishedAt": "2026-09-16T01:42:00.000Z"
     },
     {
       "id": "3b1cd9f900524606",
@@ -217,10 +217,10 @@
     },
     {
       "id": "bf1c1e8abe590022",
-      "keyword": "진코스텍",
-      "companyName": "진코스텍",
+      "keyword": "멜콘",
+      "companyName": "멜콘",
       "title": "\"치킨값 벌려다...\" 공모주 무패 공식 깨진 슈퍼위크 주의보",
-      "description": "이번 주 국내 기업공개(IPO) 시장에서 5개 기업이 잇따라 일반투자자 대상 공모주 청약에 나선다.... 이 외에도 코넥스에서 코스닥으로 이전상장을 추진하는 화장품 소재·완제품 기업 진코스텍과 반도체 장비사 멜콘이...",
+      "description": "이번 주 국내 기업공개(IPO) 시장에서 5개 기업이 잇따라 일반투자자 대상 공모주 청약에 나선다.... 장비사 멜콘이 기관투자자 대상 수요예측을 진행하며 상장 절차를 본격화한다. 다만 최근 개인 투자자들 사이에서는...",
       "link": "https://www.newsquest.co.kr/news/articleView.html?idxno=300885",
       "originallink": "https://www.newsquest.co.kr/news/articleView.html?idxno=300885",
       "provider": "뉴스 검색",
@@ -258,17 +258,6 @@
       "originallink": "https://www.etoday.co.kr/news/view/2625315",
       "provider": "뉴스 검색",
       "publishedAt": "2026-09-14T07:10:00.000Z"
-    },
-    {
-      "id": "41e541a50ea4b51d",
-      "keyword": "멜콘",
-      "companyName": "멜콘",
-      "title": "[증권 Pick] 이번주 IPO 일정 모아보기",
-      "description": "멜콘은 반도체 장비 기업으로 희망공모가는 1만700~1만2300원이며 대신증권이 대표주관을 맡는다. 진코스텍은 코넥스에서 코스닥으로 이전 상장을 추진하는 하이드로겔 소재 기반 화장품 ODM/OEM 기업으로...",
-      "link": "https://www.lcnews.co.kr/news/articleView.html?idxno=208235",
-      "originallink": "https://www.lcnews.co.kr/news/articleView.html?idxno=208235",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-14T05:02:00.000Z"
     },
     {
       "id": "92f48ea82bf1b5d4",
@@ -348,6 +337,17 @@
       "publishedAt": "2026-09-10T00:10:00.000Z"
     },
     {
+      "id": "228313b7d40cb326",
+      "keyword": "다비오",
+      "companyName": "다비오",
+      "title": "[인터뷰] '달바 잭팟' 이승문 HB인베스트 상무, 크리에이츠로 연속 회수...",
+      "description": "통과·IPO 본격화…멀티플 약 2배 기대 투자 원칙 회수 성과로 증명…상장심사 통과 ‘다비오’ 등 후속 회수... 코스닥 상장 예비심사를 통과하면서 투자금 회수에도 청신호가 켜졌다. HB인베스트먼트는 최근 공모주 시장...",
+      "link": "https://www.topdaily.kr/articles/111851",
+      "originallink": "https://www.topdaily.kr/articles/111851",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-08T23:31:00.000Z"
+    },
+    {
       "id": "14bd768b111d1411",
       "keyword": "엠에스바이오",
       "companyName": "엠에스바이오",
@@ -379,28 +379,6 @@
       "originallink": "https://www.mediapen.com/news/view/1121795",
       "provider": "뉴스 검색",
       "publishedAt": "2026-09-07T07:02:00.000Z"
-    },
-    {
-      "id": "4c6309fa34f7f393",
-      "keyword": "디티에스",
-      "companyName": "디티에스",
-      "title": "8월 새내기주 6곳 중 5곳 공모가 밑돌았다",
-      "description": "기업공개(IPO) 심사가 다시 움직이고 있다. 다만 8월 신규 상장 일반기업 6곳 중 5곳이 공모가를 밑돌면서... 중복상장 후보 심사도 일부 재개됐다. 덕산하이메탈 자회사 덕산넵코어스와 다산네트웍스 자회사 디티에스는...",
-      "link": "https://www.tokenpost.kr/news/market/403520",
-      "originallink": "https://www.tokenpost.kr/news/market/403520",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-06T22:46:00.000Z"
-    },
-    {
-      "id": "79b83aa3a293a76f",
-      "keyword": "디티에스",
-      "companyName": "디티에스",
-      "title": "중복상장 금지에 IPO 시장 기지개...투심 회복은 '아직'",
-      "description": "기업공개(IPO) 공급도 늘어날 전망이다. 다만 8월 신규 상장사 대부분이 공모가를 밑도는 등 공모주... 중복상장 후보의 심사도 일부 재개됐다. 덕산하이메탈 자회사 덕산넵코어스와 다산네트웍스 자회사 디티에스는...",
-      "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=698398",
-      "originallink": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=698398",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-06T22:30:00.000Z"
     },
     {
       "id": "900fe8ad2e693171",
@@ -489,6 +467,17 @@
       "originallink": "http://www.fntimes.com/html/view.php?ud=202512142230535782dd55077bc2_18",
       "provider": "뉴스 검색",
       "publishedAt": "2025-12-14T20:02:00.000Z"
+    },
+    {
+      "id": "2f8eec70f294a77c",
+      "keyword": "에스케이증권제14호기업인수목적",
+      "companyName": "에스케이증권제14호기업인수목적",
+      "title": "'단타 놀이터'된 스팩…당국 경고에도 ‘이상과열’ 여전",
+      "description": "같은 달 12일 상장한 DB금융스팩11호(456440)도 오름세를 보이며 상장 첫날 공모가 대비 고가 기준 상승률 243%를 찍었다. 마찬가지로 같은 달 21일, 27일 각각 상장한 에스케이증권제9호스팩(455910)과 유안타제14호스팩...",
+      "link": "https://n.news.naver.com/mnews/article/018/0005550871?sid=101",
+      "originallink": "http://www.edaily.co.kr/news/newspath.asp?newsid=01207046635707320",
+      "provider": "뉴스 검색",
+      "publishedAt": "2023-08-13T21:52:00.000Z"
     }
   ]
 }

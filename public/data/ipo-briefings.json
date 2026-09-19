@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "source": "gemini-briefings-mixed",
-    "generatedAt": "2026-09-18T09:54:58.516Z",
-    "model": "gemini-2.5-flash",
+    "source": "local-rules",
+    "generatedAt": "2026-09-19T04:46:43.913Z",
+    "model": null,
     "itemCount": 8,
-    "geminiUsed": 1,
-    "cacheUsed": 0,
+    "geminiUsed": 0,
+    "cacheUsed": 1,
     "policy": "회사 설명, IPO 단계, 일정, 경쟁률 뉴스 언급, 원문 확인 포인트만 표시합니다. 투자 판단 표현은 제외합니다."
   },
   "items": [
@@ -68,7 +68,7 @@
       "underwriter": "주관사 확인",
       "basisTimeLabel": "오늘 09:30 기준",
       "oneLine": "IPO 일정 확인 대상 기업",
-      "body": "브릴스는 IPO 일정 확인 대상 기업입니다. 09.17 일정 기준으로 청약 진행중 단계라 원문 일정과 변경 여부를 함께 확인합니다.",
+      "body": "브릴스는 IPO 일정 확인 대상 기업입니다. 09.17 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
       "points": [
         "청약 시작·마감일 확인",
         "환불일 확인",
@@ -180,7 +180,7 @@
         "주관사 확인"
       ],
       "competition": null,
-      "generatedBy": "gemini",
+      "generatedBy": "gemini-cache",
       "model": "gemini-2.5-flash"
     },
     {

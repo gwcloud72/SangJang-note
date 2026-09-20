@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "updatedAt": "2026-09-20T05:02:58.383Z",
+    "updatedAt": "2026-09-20T09:54:23.072Z",
     "source": "gemini-briefing-cache"
   },
   "items": [
@@ -975,6 +975,65 @@
         "model": null
       },
       "updatedAt": "2026-09-18T09:54:38.057Z"
+    },
+    {
+      "key": "c21dd533bb981d431d0b75cf",
+      "model": "gemini-2.5-flash",
+      "briefing": {
+        "id": "briefing-멜콘",
+        "ipoId": "멜콘",
+        "companyName": "멜콘",
+        "sector": "IPO 일정 확인 대상 기업",
+        "ipoStage": "청약 예정",
+        "underwriter": "주관사 확인",
+        "basisTimeLabel": "오늘 09:30 기준",
+        "oneLine": "IPO 일정 확인 대상 기업",
+        "body": "멜콘은 IPO 일정 확인 대상 기업입니다. 10.01 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 10.07, 변경 여부를 함께 확인합니다.",
+        "points": [
+          "청약 시작·마감일 확인",
+          "환불일 확인",
+          "정정 공시 여부 확인"
+        ],
+        "sourceLabels": [
+          "DART 일정",
+          "환불일 10.07",
+          "주관사 확인"
+        ],
+        "competition": null,
+        "generatedBy": "local-rules",
+        "model": null
+      },
+      "updatedAt": "2026-09-20T09:51:45.883Z"
+    },
+    {
+      "key": "8471178348fc623b9ed66d91",
+      "model": "gemini-2.5-flash",
+      "briefing": {
+        "id": "briefing-에스케이증권제14호기업인수목적",
+        "ipoId": "에스케이증권제14호기업인수목적",
+        "companyName": "에스케이증권제14호기업인수목적",
+        "sector": "IPO 일정 확인 대상 기업",
+        "ipoStage": "청약 예정",
+        "underwriter": "주관사 확인",
+        "basisTimeLabel": "오늘 09:30 기준",
+        "oneLine": "IPO 일정 확인 대상 기업",
+        "body": "에스케이증권제14호기업인수목적은 IPO 일정 확인 대상 기업입니다. 10.15 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
+        "points": [
+          "청약 시작·마감일 확인",
+          "환불일 확인",
+          "정정 공시 여부 확인"
+        ],
+        "sourceLabels": [
+          "DART 일정",
+          "환불일 확인",
+          "뉴스 검색",
+          "주관사 확인"
+        ],
+        "competition": null,
+        "generatedBy": "local-rules",
+        "model": null
+      },
+      "updatedAt": "2026-09-20T09:54:23.072Z"
     }
   ]
 }

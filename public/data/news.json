@@ -1,11 +1,22 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-09-20T00:25:20.902Z",
+    "updatedAt": "2026-09-21T00:00:07.789Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "b1f76b283bc3922f",
+      "keyword": "엘리스그룹",
+      "companyName": "엘리스그룹",
+      "title": "이번주 네오사피엔스·와이즈플래닛컴퍼니 코스닥 데뷔…수요예측은 4곳",
+      "description": "엘리스그룹은 2015년 설립된 회사로, 공교육 AI 교육 솔루션 '엘리스스쿨'을 운영하다 GPU 클라우드 사업으로 영역을 넓혔다. 수요예측은 23일 진행하며 희망 공모가는 7만400~9만500원이다. 상장 주관사는...",
+      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435794",
+      "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435794",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-20T04:02:00.000Z"
+    },
     {
       "id": "4e228a8470ad684e",
       "keyword": "엘리스그룹",
@@ -52,10 +63,10 @@
     },
     {
       "id": "aabaddc5a6b4af82",
-      "keyword": "엘리스그룹",
-      "companyName": "엘리스그룹",
+      "keyword": "진코스텍",
+      "companyName": "진코스텍",
       "title": "[주간 IPO] 청약 쉬어가고 수요예측·상장 집중…네오사피엔스 등 4곳 증...",
-      "description": "하나증권이 상장을 주관한다. 이번 주 수요예측 기업 가운데 희망가 하단 기준 공모 규모가 가장 큰 곳은 엘리스그룹이다. 엘리스그룹은 23일부터 다음 달 1일까지 기관 수요예측을 진행한다. 희망 공모가는 7만400...",
+      "description": "이투데이=심영주 기자 | 9월 넷째 주(21~25일) 기업공개(IPO) 시장은 일반청약 공백 속 수요예측과 신규 상장 일정이 이어진다. 엠비디와 엘리스그룹이 기관투자자 대상 수요예측에 돌입하고 멜콘과 진코스텍은...",
       "link": "https://www.etoday.co.kr/news/view/2627106",
       "originallink": "https://www.etoday.co.kr/news/view/2627106",
       "provider": "뉴스 검색",
@@ -115,17 +126,6 @@
       "originallink": "https://www.hankyung.com/article/202609171792r",
       "provider": "뉴스 검색",
       "publishedAt": "2026-09-17T08:50:00.000Z"
-    },
-    {
-      "id": "9e4c533b84ec646c",
-      "keyword": "진코스텍",
-      "companyName": "진코스텍",
-      "title": "'이전상장' 진코스텍, 코넥스 시세 턱밑 공모가…유통물량 58% 우려",
-      "description": "일반상장기업 평균 할인율은 상단 22.40%, 하단 33.89%다. 진코스텍의 공모밴드 상단 할인율은 평균 상단... 최대주주와 일부 프리IPO 투자자 물량은 1년, 하나증권의 일부 보유분과 의무인수분은 6개월의...",
-      "link": "https://www.newstopkorea.com/news/articleView.html?idxno=47738",
-      "originallink": "https://www.newstopkorea.com/news/articleView.html?idxno=47738",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-17T07:40:00.000Z"
     },
     {
       "id": "b9e95257268e0994",

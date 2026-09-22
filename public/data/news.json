@@ -1,11 +1,44 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-09-21T00:00:07.789Z",
+    "updatedAt": "2026-09-22T01:13:47.772Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "5e34831952d8da86",
+      "keyword": "진코스텍",
+      "companyName": "진코스텍",
+      "title": "[IPO 돋보기] 수요예측 돌입한 진코스텍, K-뷰티 흥행 이을까",
+      "description": "이전 상장을 위한 수요예측을 돌입하며 IPO 흥행에 대한 관심이 높아지고 있다. 22일 투자은행(IB)업계에 따르면 진코스텍은 지난 16일부터 국내외 기관투자자를 대상으로 수요예측을 추진했다. 총 85만2000주를 공모하...",
+      "link": "https://www.news2day.co.kr/article/20260921500082",
+      "originallink": "https://www.news2day.co.kr/article/20260921500082",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-21T22:02:00.000Z"
+    },
+    {
+      "id": "dda8469f48954952",
+      "keyword": "인텔리빅스",
+      "companyName": "인텔리빅스",
+      "title": "[애널리스트의 마켓뷰]2026년 남은 한해, 공모주 시장 주목해야",
+      "description": "엘리스그룹의 상장이 예정돼 있다. 엘리스그룹의 경우 공모액 2011억 원, 예상 시가총액 최대 1조145억 원으로 대어급 IPO라 볼 수 있다. 다음 달에는 AI 인프라 소프트웨어 기업 래블업, 안전 딥테크 업체 인텔리빅스...",
+      "link": "https://n.news.naver.com/mnews/article/020/0003749869?sid=101",
+      "originallink": "https://www.donga.com/news/Economy/article/all/20260921/134712516/2",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-21T15:32:00.000Z"
+    },
+    {
+      "id": "d4f880269fcb2205",
+      "keyword": "티앤이코리아",
+      "companyName": "티앤이코리아",
+      "title": "신한투자증권, IPO 상장 이어갔지만 후속 물량 '뚝'",
+      "description": "올해 상장 예비심사 청구 기업 가운데 티앤이코리아는 예비심사를 통과했으나 아직 공모 절차에 들어가지 않았고, 태석광학은 심사가 진행 중이다. 신한투자증권의 파이프라인 약화는 지난해 IPO 조직을 재편한 이후...",
+      "link": "https://www.kbanker.co.kr/news/articleView.html?idxno=225986",
+      "originallink": "https://www.kbanker.co.kr/news/articleView.html?idxno=225986",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-21T05:42:00.000Z"
+    },
     {
       "id": "b1f76b283bc3922f",
       "keyword": "엘리스그룹",
@@ -52,14 +85,25 @@
     },
     {
       "id": "29349614c7f4fd08",
-      "keyword": "엘리스그룹",
-      "companyName": "엘리스그룹",
+      "keyword": "진코스텍",
+      "companyName": "진코스텍",
       "title": "다음주 IPO 시장, 네오사피엔스·와이즈플래닛 코스닥 입성",
-      "description": "다음 주, 21∼23일 기업공개, IPO 시장에서는 기관투자자 대상 수요예측에서 엇갈린 성적표를 받아든... 희망 공모가는 7만400∼9만500원이며 공모가 상단 기준 예상 시가총액은 1조원 수준입니다. 엘리스그룹은 당초...",
+      "description": "다음 주, 21∼23일 기업공개, IPO 시장에서는 기관투자자 대상 수요예측에서 엇갈린 성적표를 받아든... 코넥스시장에서 코스닥시장으로 이전상장을 추진하는 진코스텍과 반도체 장비 기업 멜콘은 22일까지...",
       "link": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005924447",
       "originallink": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005924447",
       "provider": "뉴스 검색",
       "publishedAt": "2026-09-19T01:36:00.000Z"
+    },
+    {
+      "id": "9196d7099f2b1964",
+      "keyword": "멜콘",
+      "companyName": "멜콘",
+      "title": "[IPO챗] 공모가 희비 엇갈린 네오사피엔스·와이즈플래닛 코스닥 입성",
+      "description": "멜콘은 반도체 포토공정에서 장비 내부의 온도와 습도 등을 정밀하게 제어하는 장비를 생산한다. 희망 공모가는 1만700∼1만2천300원이며 대신증권이 상장을 주관한다. 3차원(3D) 세포배양 기반 의료 플랫폼 기업...",
+      "link": "https://n.news.naver.com/mnews/article/001/0016321985?sid=101",
+      "originallink": "https://www.yna.co.kr/view/AKR20260918077700008?input=1195m",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-19T00:00:00.000Z"
     },
     {
       "id": "aabaddc5a6b4af82",
@@ -73,37 +117,15 @@
       "publishedAt": "2026-09-19T00:00:00.000Z"
     },
     {
-      "id": "9196d7099f2b1964",
-      "keyword": "진코스텍",
-      "companyName": "진코스텍",
-      "title": "[IPO챗] 공모가 희비 엇갈린 네오사피엔스·와이즈플래닛 코스닥 입성",
-      "description": "진코스텍 등 4곳 수요예측 다음 주(21∼23일) 기업공개(IPO) 시장에서는 기관투자자 대상 수요예측에서... 상장 ▲네오사피엔스, 코스닥, 21일, 공모가 1만원, 대표주관사 대신증권. ▲와이즈플래닛컴퍼니, 코스닥...",
-      "link": "https://n.news.naver.com/mnews/article/001/0016321985?sid=101",
-      "originallink": "https://www.yna.co.kr/view/AKR20260918077700008?input=1195m",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-19T00:00:00.000Z"
-    },
-    {
       "id": "32c0bf08de25a7a1",
-      "keyword": "래블업",
-      "companyName": "래블업",
+      "keyword": "인텔리빅스",
+      "companyName": "인텔리빅스",
       "title": "AI 기업 줄줄이 증시로…하반기 IPO '실적 검증대'",
       "description": "18일 AI 업계에 따르면, 네오사피엔스를 시작으로 엘리스그룹, 래블업, 인텔리빅스 등 AI 기업들이 하반기 잇따라 공모 절차에 나서고 있다. 기업용 생성형 AI 기업 제논과 페르소나AI도 상장을 준비 중이다.■ IPO 시장...",
       "link": "https://news.mtn.co.kr/news-detail/2026091814183622624",
       "originallink": "https://news.mtn.co.kr/news-detail/2026091814183622624",
       "provider": "뉴스 검색",
       "publishedAt": "2026-09-18T06:44:00.000Z"
-    },
-    {
-      "id": "0955c1388ba3b698",
-      "keyword": "덕산넵코어스",
-      "companyName": "덕산넵코어스",
-      "title": "[Invest]코너스톤 TF 가동했지만…공모주 한파에 첫 도입부터 난관",
-      "description": "증권사별 전산 시스템과 계약·업무 처리 절차 등을 조율하고 있지만 실무진 사이에서는 실제 상장 업무에... 글로벌테크놀로지, 덕산넵코어스의 확약률도 각각 3.65%, 0.27%, 4.05%에 그쳤다. 최근 공모주 수익률이 부진하면서...",
-      "link": "https://www.investchosun.com/site/data/html_dir/2026/09/17/2026091780080.html",
-      "originallink": "https://www.investchosun.com/site/data/html_dir/2026/09/17/2026091780080.html",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-17T22:02:00.000Z"
     },
     {
       "id": "d90a150590ea7095",
@@ -117,28 +139,6 @@
       "publishedAt": "2026-09-17T09:08:00.000Z"
     },
     {
-      "id": "b12c5474fdbb4754",
-      "keyword": "덕산넵코어스",
-      "companyName": "덕산넵코어스",
-      "title": "덕산넵코어스 1.8兆, 글로벌테크 0.3兆…공모주 청약 양극화",
-      "description": "이번 주 공모주 청약 건수가 5건으로 몰리면서 투자자들이 옥석 가리기에 나섰다는 분석이다. 상장 이후 일정 기간 주식을 팔지 않겠다고 약속하는 확약 비율이 낮았던 점도 영향을 끼쳤다. 덕산넵코어스의...",
-      "link": "https://n.news.naver.com/mnews/article/015/0005333565?sid=101",
-      "originallink": "https://www.hankyung.com/article/202609171792r",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-17T08:50:00.000Z"
-    },
-    {
-      "id": "b9e95257268e0994",
-      "keyword": "덕산넵코어스",
-      "companyName": "덕산넵코어스",
-      "title": "[공모주 마감] 덕산넵코어스 청약 일정 종료, 비례·균등 '나는 몇주 받...",
-      "description": "IPO 자료사진. AI가 생성한 이미지. 덕산넵코어스의 일반투자자 대상 공모주 청약 일정이 2일차까지 17일... 덕산넵코어스는 지난 16일부터 이틀 동안 상장 주관사인 대신증권을 통해 일반청약을 진행했다. 확정...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=607683",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=607683",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-17T07:02:00.000Z"
-    },
-    {
       "id": "63d92648cb6ab7db",
       "keyword": "디티에스",
       "companyName": "디티에스",
@@ -148,6 +148,17 @@
       "originallink": "http://www.press9.kr/news/articleView.html?idxno=82924",
       "provider": "뉴스 검색",
       "publishedAt": "2026-09-17T07:00:00.000Z"
+    },
+    {
+      "id": "56b78a5ee40b4c6f",
+      "keyword": "인텔리빅스",
+      "companyName": "인텔리빅스",
+      "title": "[장외시황] 브릴스, 공모청약 진행",
+      "description": "안전 딥테크 AI 전문기업 인텔리빅스는 금융위원회에 증권신고서를 제출했다. 이날 비상장 주식시장은 2일 연속 상승했다. 기업공개(IPO) 관련 상장 예비심사 청구종목으로 온라인 패션 플랫폼 무신사는 호가 변화가...",
+      "link": "https://www.etoday.co.kr/news/view/2626876",
+      "originallink": "https://www.etoday.co.kr/news/view/2626876",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-17T06:46:00.000Z"
     },
     {
       "id": "e2efe886e69ebff5",
@@ -194,17 +205,6 @@
       "publishedAt": "2026-09-14T07:10:00.000Z"
     },
     {
-      "id": "92f48ea82bf1b5d4",
-      "keyword": "래블업",
-      "companyName": "래블업",
-      "title": "8월 한파 딛고 IPO 시장 '꿈틀'…무신사 등 대어 출격에 흥행 기대",
-      "description": "시장을 주도할 대형 공모주가 부재한 가운데 수요예측 경쟁률과 상장 이후 수익률도 부진하면서 투자심리가 크게 위축됐다. ◆ 9월 들어 달라진 분위기…이번 주 5곳 청약 바닥을 찍었던 IPO 시장은 9월 들어 조금씩...",
-      "link": "https://n.news.naver.com/mnews/article/629/0000533463?sid=101",
-      "originallink": "https://news.tf.co.kr/read/economy/2365474.htm",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-14T02:20:00.000Z"
-    },
-    {
       "id": "d3865bfd573ccb2c",
       "keyword": "엠에스바이오",
       "companyName": "엠에스바이오",
@@ -214,17 +214,6 @@
       "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609111612018840103314",
       "provider": "뉴스 검색",
       "publishedAt": "2026-09-13T23:02:00.000Z"
-    },
-    {
-      "id": "70083525cd4d713d",
-      "keyword": "래블업",
-      "companyName": "래블업",
-      "title": "AI·로봇 이어 '조 단위 대어'까지…IPO시장 기지개",
-      "description": "지난해 이맘때 신규 상장 기업이 한 곳에 그쳤던 것과 비교해 눈에 띄게 늘었습니다.특히 이번엔 AI와 로봇... 엘리스그룹, 래블업 등이 대기 중이고,로봇 분야에선 빅웨이브로보틱스와 브릴스 등이 공모 일정에...",
-      "link": "https://news.mtn.co.kr/news-detail/2026091116255245139",
-      "originallink": "https://news.mtn.co.kr/news-detail/2026091116255245139",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-11T08:38:00.000Z"
     },
     {
       "id": "f7f8a0605e89bdea",
@@ -238,26 +227,15 @@
       "publishedAt": "2026-09-11T00:53:00.000Z"
     },
     {
-      "id": "6d46008893ead982",
-      "keyword": "래블업",
-      "companyName": "래블업",
-      "title": "이달 AI·로봇社 최대 11곳 공모… IPO시장 달아오른다",
-      "description": "AI 인프라 소프트웨어 기업 래블업도 뒤를 잇는다. 래블업은 오는 28일부터 다음 달 2일까지 기관 수요... 이들 기업의 상장이 진행되면 최근 몇 년간 대형 공모주 부재로 침체됐던 국내 IPO 시장에도 상당한 자금이...",
-      "link": "https://n.news.naver.com/mnews/article/023/0003997793?sid=101",
-      "originallink": "https://www.chosun.com/economy/money/2026/09/11/LNW5H3OX2FGRRF4FCSL7JYA7EA/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+      "id": "257191a8728a65cd",
+      "keyword": "인텔리빅스",
+      "companyName": "인텔리빅스",
+      "title": "[더벨][IPO 모니터] '안전 AI' 인텔리빅스, 일반상장 트랙으로 예심 통과",
+      "description": "이달 중으로 금융감독원에 증권신고서를 제출하고 기관투자자 대상 수요예측과 일반 청약 등 후속 공모 절차에 착수할 예정이다. 인텔리빅스의 상장 예정 주식 수는 1133만5408주다. 이 중 약 22.05%에 해당하는 250만주를...",
+      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609081255431360101116",
+      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609081255431360101116",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-09-10T15:36:00.000Z"
-    },
-    {
-      "id": "14634b7c996c7107",
-      "keyword": "래블업",
-      "companyName": "래블업",
-      "title": "주춤하던 IPO 시장 다시 기지개",
-      "description": "사진/챗GPT 올해 하반기 들어 부진을 이어가던 IPO(기업공개) 시장이 이달부터 본격적으로 반등을 노린다.... 래블업 등의 기업 등이 이달 말까지 수요예측을 진행하고 코스닥에 상장할 예정이다. 이달 예상 공모금액...",
-      "link": "http://www.smedaily.co.kr/news/articleView.html?idxno=362936",
-      "originallink": "http://www.smedaily.co.kr/news/articleView.html?idxno=362936",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-10T00:54:00.000Z"
+      "publishedAt": "2026-09-09T22:02:00.000Z"
     },
     {
       "id": "228313b7d40cb326",
@@ -337,6 +315,17 @@
       "publishedAt": "2026-08-20T07:55:00.000Z"
     },
     {
+      "id": "64451ecc15fa0a1c",
+      "keyword": "인텔리빅스",
+      "companyName": "인텔리빅스",
+      "title": "올 상반기 벤처투자 54% 급증…AI·바이오에 돈 몰렸다",
+      "description": "상하이증권거래소 상장 직후 공모가(150.8위안) 대비 629.44% 급등한 1100위안까지 치솟았다가 460.34% 오른... 전문기업 인텔리빅스의 AI 로봇 관제 플랫폼과 연동해 현장 위험 상황을 관제센터에 실시간으로 전달한다....",
+      "link": "https://n.news.naver.com/mnews/article/011/0004653452?sid=101",
+      "originallink": "https://www.sedaily.com/article/20081331?ref=naver",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-08-20T04:39:00.000Z"
+    },
+    {
       "id": "997c9eb441d97a17",
       "keyword": "유캐스트",
       "companyName": "유캐스트",
@@ -370,6 +359,50 @@
       "publishedAt": "2026-07-19T00:04:00.000Z"
     },
     {
+      "id": "d95bdaacdcc47a05",
+      "keyword": "한화플러스제6호기업인수목적",
+      "companyName": "한화플러스제6호기업인수목적",
+      "title": "[스팩 시장 점검①] 3년 뒤 돌아온 청구서…청산 러시 본격화",
+      "description": "[출처=각 사] 한때 기업공개(IPO)의 대안적 상장 수단으로 주목받았던 기업인수목적회사(스팩·SPAC)가 최근... 6일), 한화플러스제4호스팩(4월 14일), 대신밸런스제16호스팩(4월 15일) 등이 이미 시장에서 퇴출됐으며...",
+      "link": "https://www.greened.kr/news/articleView.html?idxno=339439",
+      "originallink": "https://www.greened.kr/news/articleView.html?idxno=339439",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-04-17T06:27:00.000Z"
+    },
+    {
+      "id": "ff9ee9cb36345ec1",
+      "keyword": "한화플러스제6호기업인수목적",
+      "companyName": "한화플러스제6호기업인수목적",
+      "title": "[단독] '2년 만의 직상장 주관' 한화증권, 페스카로 공모주 오배정에 배...",
+      "description": "(E8) 상장을 주관한 이후 기업인수목적회사(스팩, SPAC) 신규 상장 업무만 맡았다. 그간 상장 추진한 스팩은 2023년 6월 한화플러스제4호스팩, 지난해 12월 한화플러스제5호스팩, 올해 11월 한화플러스제6호스팩 등이다....",
+      "link": "https://www.bizhankook.com/bk/article/30954",
+      "originallink": "https://www.bizhankook.com/bk/article/30954",
+      "provider": "뉴스 검색",
+      "publishedAt": "2025-12-17T07:58:00.000Z"
+    },
+    {
+      "id": "ffd4793b896fe177",
+      "keyword": "한화플러스제6호기업인수목적",
+      "companyName": "한화플러스제6호기업인수목적",
+      "title": "IPO '불장'에도 대표주관 '빈손'…내년 슈퍼이어, 빅하우스만 웃나",
+      "description": "스팩(기업인수목적회사) 상장이나 타 증권사와의 공동주관 등을 통해 돌파구를 모색하고 있다. 한화투자증권은 올해 페스카로 상장에 NH투자증권과 공동주관사로 참여했고, 한화플러스제6호스팩의...",
+      "link": "https://www.etoday.co.kr/news/view/2535555",
+      "originallink": "https://www.etoday.co.kr/news/view/2535555",
+      "provider": "뉴스 검색",
+      "publishedAt": "2025-12-14T20:12:00.000Z"
+    },
+    {
+      "id": "b9d3bb68233946b9",
+      "keyword": "한화플러스제6호기업인수목적",
+      "companyName": "한화플러스제6호기업인수목적",
+      "title": "'스팩 광풍' 꺾였나…공모가 하회 속출 [시그널]",
+      "description": "스팩 투자 광풍은 금융 당국이 6월 말 상장일 가격제한폭을 공모가의 60~400%로 확대한 데 따른 부작용이었다. 스팩은 기업 인수합병(M&A)을 유일한 목적으로 삼는 명목상 회사로 합병 대상을 찾기 전까지 경영...",
+      "link": "https://n.news.naver.com/mnews/article/011/0004243352?sid=101",
+      "originallink": "https://www.sedaily.com/NewsView/29UU2BJCK9",
+      "provider": "뉴스 검색",
+      "publishedAt": "2023-09-26T08:46:00.000Z"
+    },
+    {
       "id": "2f8eec70f294a77c",
       "keyword": "에스케이증권제14호기업인수목적",
       "companyName": "에스케이증권제14호기업인수목적",
@@ -390,6 +423,17 @@
       "originallink": "http://www.newsprime.co.kr/news/article.html?no=575780",
       "provider": "뉴스 검색",
       "publishedAt": "2022-08-04T08:22:00.000Z"
+    },
+    {
+      "id": "13e1418cae7c35c4",
+      "keyword": "한화플러스제6호기업인수목적",
+      "companyName": "한화플러스제6호기업인수목적",
+      "title": "나 홀로 고공행진 스팩(SPAC)…IPO 한파에도 스팩 투자는 ‘앗 뜨거~’",
+      "description": "올해 코스닥 시장에 신규 상장한 24개 종목(스팩 제외) 가운데 9개는 공모가를 밑돌고 있어 스팩의 선전이 더욱 두드러진다. 스팩은 기업 인수합병(M&A)과 이를 통한 우회 상장만을 목적으로 설립되는 페이퍼컴퍼니다....",
+      "link": "https://n.news.naver.com/mnews/article/024/0000075591?sid=101",
+      "originallink": "https://www.mk.co.kr/economy/view/2022/509451",
+      "provider": "뉴스 검색",
+      "publishedAt": "2022-06-14T07:53:00.000Z"
     }
   ]
 }

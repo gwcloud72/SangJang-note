@@ -1,11 +1,66 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-09-23T00:43:43.751Z",
+    "updatedAt": "2026-09-24T00:52:54.859Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "70474102ae821b3b",
+      "keyword": "티앤이코리아",
+      "companyName": "티앤이코리아",
+      "title": "[공시]티앤이코리아, 증권신고서 정정…코스닥 상장 속도",
+      "description": "따르면 티앤이코리아는 다가오는 2027년 순이익 155억3000만원을 목표로 설정하고 기업공개(IPO) 밸류에이션을 산정했다. 수소 모빌리티 및 친환경 수처리용 터보블로워 분야의 탄탄한 포트폴리오를 기반으로 공모주...",
+      "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=867970",
+      "originallink": "http://www.hansbiz.co.kr/news/articleView.html?idxno=867970",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-23T14:14:00.000Z"
+    },
+    {
+      "id": "da44402ec38bd805",
+      "keyword": "엘리스그룹",
+      "companyName": "엘리스그룹",
+      "title": "개미들 뭉칫돈 들고 속속 귀환…코스닥 IPO시장 다시 북적 [시그널]",
+      "description": "이달 들어 새내기주들이 상장 첫날 일제히 흥행에 성공하면서 침체됐던 기업공개(IPO) 시장에 온기가 돌고 있다. 시장 부진에 몸값을 낮춰 상승 여력을 키우자 한동안 공모주 시장에서 이탈했던 개인투자자 자금도...",
+      "link": "https://n.news.naver.com/mnews/article/011/0004665052?sid=101",
+      "originallink": "https://www.sedaily.com/article/20094667?ref=naver",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-23T08:26:00.000Z"
+    },
+    {
+      "id": "38ed76b7f780d8c0",
+      "keyword": "엘리스그룹",
+      "companyName": "엘리스그룹",
+      "title": "‘따따블’ 환상 걷힌 IPO 시장…대어급 등판으로 분위기 바뀔까",
+      "description": "가을 공모 시장의 회복 가능성에 금융투자업계의 이목이 쏠리고 있다. 최근 상장한 새내기주들이 상장... 대형 공모주 엘리스그룹이 수요예측에 돌입하면서 얼어붙었던 대형 IPO 잔혹사를 끊어낼 수 있을지 시장의...",
+      "link": "https://www.mediapen.com/news/view/1125748",
+      "originallink": "https://www.mediapen.com/news/view/1125748",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-23T05:06:00.000Z"
+    },
+    {
+      "id": "f4fd4897c35d8875",
+      "keyword": "멜콘",
+      "companyName": "멜콘",
+      "title": "얼어붙었던 공모주 시장에 다시 '온기'…AI·로봇·방산엔 돈 몰린다",
+      "description": "신규 상장 조건이 엄격해진 탓에 시장 분위기가 침체되면서 투자 심리는 위축됐지만 9월 들어 AI·로봇·방산 분야 중심으로 기관과 개인 자금이 몰리고 있다. 9월 IPO 다시 열린다…공모금액 2.5배 증가 23일...",
+      "link": "https://www.insightkorea.co.kr/news/articleView.html?idxno=255214",
+      "originallink": "https://www.insightkorea.co.kr/news/articleView.html?idxno=255214",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-23T02:02:00.000Z"
+    },
+    {
+      "id": "f985b66325578691",
+      "keyword": "디티에스",
+      "companyName": "디티에스",
+      "title": "[주간IPO] 9월 마지막 주, 멜콘·진코스텍 공모청약…엘리스그룹·엠에스...",
+      "description": "9월 마지막 주 기업공개(IPO) 시장에서는 멜콘·진코스텍이 공모청약을 실시한다. 엘리스그룹·엠에스바이오·디티에스도 수요예측을 시작한다. 반도체 공정 환경제어 장비 전문기업 멜콘은 10월 1일과 2일...",
+      "link": "http://www.consumernews.co.kr/news/articleView.html?idxno=764597",
+      "originallink": "http://www.consumernews.co.kr/news/articleView.html?idxno=764597",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-23T01:50:00.000Z"
+    },
     {
       "id": "d110144f19b44ec9",
       "keyword": "다비오",
@@ -139,39 +194,6 @@
       "publishedAt": "2026-09-21T05:42:00.000Z"
     },
     {
-      "id": "b1f76b283bc3922f",
-      "keyword": "엘리스그룹",
-      "companyName": "엘리스그룹",
-      "title": "이번주 네오사피엔스·와이즈플래닛컴퍼니 코스닥 데뷔…수요예측은 4곳",
-      "description": "엘리스그룹은 2015년 설립된 회사로, 공교육 AI 교육 솔루션 '엘리스스쿨'을 운영하다 GPU 클라우드 사업으로 영역을 넓혔다. 수요예측은 23일 진행하며 희망 공모가는 7만400~9만500원이다. 상장 주관사는...",
-      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435794",
-      "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435794",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-20T04:02:00.000Z"
-    },
-    {
-      "id": "4e228a8470ad684e",
-      "keyword": "엘리스그룹",
-      "companyName": "엘리스그룹",
-      "title": "네오사피엔스·와이즈플래닛컴퍼니 상장[증시캘린더]",
-      "description": "다음 주(9월 21~25일) 기업공개(IPO) 시장에서는 네오사피엔스·케이비제34호스팩·한국제17호스팩·와이즈플래닛컴퍼니가 코스닥 상장에 나선다. 앨리스그룹은 수요예측에 나서며 일반청약에 나서는 기업은 없다....",
-      "link": "https://n.news.naver.com/mnews/article/018/0006372770?sid=101",
-      "originallink": "https://www.edaily.co.kr/News/Read?newsId=01184086645582088&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-20T00:02:00.000Z"
-    },
-    {
-      "id": "1ade3f9fa0861b46",
-      "keyword": "멜콘",
-      "companyName": "멜콘",
-      "title": "'몸값 1조' 엘리스그룹, 수요예측⋯네오사피엔스·와이즈플래닛 '상장'...",
-      "description": "공모가 희망범위는 7만400원~9만500원으로 책정됐다. 공모 금액은 약 1564억~2011억원 수준이다. 상장 후 예상... 멜콘과 수요예측 기간이 같은 진코스텍도 다음 주 수요예측을 종료하고 공모가를 확정할 예정이다....",
-      "link": "https://n.news.naver.com/mnews/article/031/0001059946?sid=101",
-      "originallink": "http://www.inews24.com/view/2007284",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-19T21:00:00.000Z"
-    },
-    {
       "id": "32c0bf08de25a7a1",
       "keyword": "인텔리빅스",
       "companyName": "인텔리빅스",
@@ -236,17 +258,6 @@
       "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609111452136120108746",
       "provider": "뉴스 검색",
       "publishedAt": "2026-09-15T22:02:00.000Z"
-    },
-    {
-      "id": "46e5ffed498d4a1a",
-      "keyword": "디티에스",
-      "companyName": "디티에스",
-      "title": "중복상장 규제에도…대신증권, IPO 주관 ‘두각’",
-      "description": "올해 기업공개(IPO) 시장 문턱이 예년보다 높아진 상황 속에서 대신증권이 유독 약진하고 있습니다. 중복상장 규제 국면에서 예외 사례 1호 주관을 따낸 데 이어, 이번 주에도 대신증권이 맡은 공모청약이 잇따르고...",
-      "link": "https://www.sentv.co.kr/article/view/sentv202609140130",
-      "originallink": "https://www.sentv.co.kr/article/view/sentv202609140130",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-14T08:54:00.000Z"
     },
     {
       "id": "d3865bfd573ccb2c",
@@ -324,17 +335,6 @@
       "originallink": "http://www.lkp.news/news/articleView.html?idxno=83362",
       "provider": "뉴스 검색",
       "publishedAt": "2026-08-26T06:18:00.000Z"
-    },
-    {
-      "id": "8e8ce1228e6d9206",
-      "keyword": "엠에스바이오",
-      "companyName": "엠에스바이오",
-      "title": "청약은 흥행, 주가는 뒷걸음…올해 상장 바이오텍들 반쪽짜리 ‘실탄 확...",
-      "description": "이들 기업들은 화려하게 증시에 입성했지만 현재 주가가 공모가보다 낮은 곳이 대부분이다. 이런 주가로는... 다음 IPO 주자들에게 악영향을 줄 수 있다고 보고 있다. 카이랩스, 엠에스바이오, 엠비디 등이 상장을...",
-      "link": "https://n.news.naver.com/mnews/article/029/0003043416?sid=105",
-      "originallink": "https://www.dt.co.kr/article/12079302?ref=naver",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-20T07:55:00.000Z"
     },
     {
       "id": "997c9eb441d97a17",

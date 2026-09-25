@@ -1,11 +1,44 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-09-24T00:52:54.859Z",
+    "updatedAt": "2026-09-25T00:26:32.232Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "e0d2942d7b754d9c",
+      "keyword": "인텔리빅스",
+      "companyName": "인텔리빅스",
+      "title": "[리스트업] 2026Y 'Q1 ~ Q4' 주요 IPO 공모주 (국내·주관사)",
+      "description": "주요 공모주 (상장 완료 및 진행 중) > 스카이랩스 : 8월 26일 ~ 27일 @ 한국투자증권 네오사피엔스 : 9월... 한화투자증권 인텔리빅스 : 10월 21일 ~ 22일 @ 미래에셋증권 영광 : 10월 22일 ~ 23일 @ 한국투자증권...",
+      "link": "http://www.economytalk.kr/news/articleView.html?idxno=424324",
+      "originallink": "http://www.economytalk.kr/news/articleView.html?idxno=424324",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-24T03:40:00.000Z"
+    },
+    {
+      "id": "cbb43a6a38264565",
+      "keyword": "크리에이츠",
+      "companyName": "크리에이츠",
+      "title": "추석 연휴 이후 '공모주 홍수'...가뭄 딛고 막판 러시",
+      "description": "추석 연휴가 끝나고 4분기 공모주 시장이 본격 개막하면서 연말까지 IPO 기업이 쏟아질 전망이다. 올해... 전문기업 크리에이츠 등이 대표적이다. 모자회사 동시 상장(중복상장) 이슈로 주목받은 디티에스도 공모에...",
+      "link": "https://n.news.naver.com/mnews/article/015/0005335870?sid=101",
+      "originallink": "https://www.hankyung.com/article/202609233282r",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-24T01:01:00.000Z"
+    },
+    {
+      "id": "5fb34c5a120242f3",
+      "keyword": "엘리스그룹",
+      "companyName": "엘리스그룹",
+      "title": "대기업 총수들 2027 판 짜기 시작…추석에도 경영 전선",
+      "description": "AI 풀스택 기업 엘리스그룹이 최대 1조 원의 시가총액을 목표로 기관 수요예측을 소화하는 등 유망 비상장사들이 4분기 공모 시장에 속속 가세할 것이라는 전망이 나온다. ▶기사 바로가기: “얼마 안 되겠지”...",
+      "link": "https://n.news.naver.com/mnews/article/011/0004665171?sid=101",
+      "originallink": "https://www.sedaily.com/article/20094793?ref=naver",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-24T01:01:00.000Z"
+    },
     {
       "id": "70474102ae821b3b",
       "keyword": "티앤이코리아",
@@ -95,17 +128,6 @@
       "publishedAt": "2026-09-22T08:20:00.000Z"
     },
     {
-      "id": "a04df49a54975e45",
-      "keyword": "엘리스그룹",
-      "companyName": "엘리스그룹",
-      "title": "대형 IPO 잔혹사 끝날까…엘리스그룹, 2000억 공모 시험대",
-      "description": "IPO 물량이 늘어나고 스카이랩스와 네오사피엔스의 상장 첫날 주가도 좋은 흐름을 보였다\"고 설명했다. 이어 \"엘리스그룹 입장에서는 희망 범위 상단까지 가지 않더라도 하단을 벗어나는 것만으로 앞선 대형 공모주...",
-      "link": "https://n.news.naver.com/mnews/article/029/0003049547?sid=101",
-      "originallink": "https://www.dt.co.kr/article/12085514?ref=naver",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-22T07:50:00.000Z"
-    },
-    {
       "id": "03fad5b47440cbaf",
       "keyword": "진코스텍",
       "companyName": "진코스텍",
@@ -115,17 +137,6 @@
       "originallink": "https://www.ebn.co.kr/news/articleView.html?idxno=1725367",
       "provider": "뉴스 검색",
       "publishedAt": "2026-09-22T06:40:00.000Z"
-    },
-    {
-      "id": "87b83bed3a33da56",
-      "keyword": "멜콘",
-      "companyName": "멜콘",
-      "title": "[더벨][멜콘 IPO] \"미세공정 선제 대응, 글로벌 장비사 로드맵 맞춰 1년...",
-      "description": "설정하면서 상장 이후 특히 중장기 적으로 유통물량이 확대되지 않도록 조절했다. 멜콘의 최대주주인 에스에이치산하홀딩스(공모 전 지분 57.97%)를 포함한 최대주주 등의 지분율은 공모 전 81.03%, 공모 후 64.44%다. 실제...",
-      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609221445304440105840",
-      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609221445304440105840",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-22T06:38:00.000Z"
     },
     {
       "id": "5a7485b5d0dcb096",
@@ -139,17 +150,6 @@
       "publishedAt": "2026-09-22T06:14:00.000Z"
     },
     {
-      "id": "2301b60cc456060a",
-      "keyword": "진코스텍",
-      "companyName": "진코스텍",
-      "title": "진코스텍, 하이드로겔 가동률 99%…IPO로 생산능력 40% 확대",
-      "description": "코스닥 이전상장을 통해 확보할 자금은 신규 공장 구축과 차세대 하이드로겔 제품 개발 등에 투입해 성장... IPO를 통해 확보할 자금도 생산 기반 확대에 활용합니다. 진코스텍은 총 85만2000주를 공모하며 희망공모가...",
-      "link": "http://www.newstomato.com/ReadNews.aspx?no=1314554&inflow=N",
-      "originallink": "http://www.newstomato.com/ReadNews.aspx?no=1314554&inflow=N",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-22T06:06:00.000Z"
-    },
-    {
       "id": "b8dc496aa207370a",
       "keyword": "인텔리빅스",
       "companyName": "인텔리빅스",
@@ -159,17 +159,6 @@
       "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609221111565160107162",
       "provider": "뉴스 검색",
       "publishedAt": "2026-09-22T04:42:00.000Z"
-    },
-    {
-      "id": "5e34831952d8da86",
-      "keyword": "진코스텍",
-      "companyName": "진코스텍",
-      "title": "[IPO 돋보기] 수요예측 돌입한 진코스텍, K-뷰티 흥행 이을까",
-      "description": "이전 상장을 위한 수요예측을 돌입하며 IPO 흥행에 대한 관심이 높아지고 있다. 22일 투자은행(IB)업계에 따르면 진코스텍은 지난 16일부터 국내외 기관투자자를 대상으로 수요예측을 추진했다. 총 85만2000주를 공모하...",
-      "link": "https://www.news2day.co.kr/article/20260921500082",
-      "originallink": "https://www.news2day.co.kr/article/20260921500082",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-21T22:02:00.000Z"
     },
     {
       "id": "dda8469f48954952",
@@ -203,39 +192,6 @@
       "originallink": "https://news.mtn.co.kr/news-detail/2026091814183622624",
       "provider": "뉴스 검색",
       "publishedAt": "2026-09-18T06:44:00.000Z"
-    },
-    {
-      "id": "d90a150590ea7095",
-      "keyword": "디티에스",
-      "companyName": "디티에스",
-      "title": "[더벨][덕산넵코어스 IPO] 중복상장 1호, 심사부터 공모까지 10개월 걸린...",
-      "description": "금융위원회의 중복상장 금지 방침 발표 이후 나온 첫 예외 허용 사례다. 덕산넵코어스의 공모 성사로 자회사 기업공개(IPO)를 준비중인 다른 기업들이 후발주자로 나설지 주목받고 있다. 당장 디티에스가 내달...",
-      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609171438180520109087",
-      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609171438180520109087",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-17T09:08:00.000Z"
-    },
-    {
-      "id": "63d92648cb6ab7db",
-      "keyword": "디티에스",
-      "companyName": "디티에스",
-      "title": "대신증권, IPO 파이프라인 결실…9월 예심 승인 절반 주관",
-      "description": "모회사 일반주주의 권익 보호 방안과 자회사 상장의 필요성까지 살펴보는 까다로운 심사에서 승인 경험을 확보하면서 향후 유사 구조의 IPO를 수임할 때 활용할 수 있는 레퍼런스도 마련했다. 공모 일정도 이어지고 있다....",
-      "link": "http://www.press9.kr/news/articleView.html?idxno=82924",
-      "originallink": "http://www.press9.kr/news/articleView.html?idxno=82924",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-17T07:00:00.000Z"
-    },
-    {
-      "id": "56b78a5ee40b4c6f",
-      "keyword": "인텔리빅스",
-      "companyName": "인텔리빅스",
-      "title": "[장외시황] 브릴스, 공모청약 진행",
-      "description": "안전 딥테크 AI 전문기업 인텔리빅스는 금융위원회에 증권신고서를 제출했다. 이날 비상장 주식시장은 2일 연속 상승했다. 기업공개(IPO) 관련 상장 예비심사 청구종목으로 온라인 패션 플랫폼 무신사는 호가 변화가...",
-      "link": "https://www.etoday.co.kr/news/view/2626876",
-      "originallink": "https://www.etoday.co.kr/news/view/2626876",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-17T06:46:00.000Z"
     },
     {
       "id": "e2efe886e69ebff5",
@@ -326,17 +282,6 @@
       "publishedAt": "2026-08-27T22:02:00.000Z"
     },
     {
-      "id": "f41bfa41180c87b0",
-      "keyword": "엠에스바이오",
-      "companyName": "엠에스바이오",
-      "title": "1.7조 실탄과 15개 파이프라인, KB증권 IPO 반격 시작된다",
-      "description": "누적 공모 인수금액 2277억 원으로 업계 3위에 이름을 올렸다. 이어 2026년 8월 기준 씨아이에스케미칼과 엠에스바이오의 상장예비심사를 진행 중인 KB증권은 하반기 중 총 15개 기업의 예비심사 청구를 예약해 두고...",
-      "link": "http://www.lkp.news/news/articleView.html?idxno=83362",
-      "originallink": "http://www.lkp.news/news/articleView.html?idxno=83362",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-26T06:18:00.000Z"
-    },
-    {
       "id": "997c9eb441d97a17",
       "keyword": "유캐스트",
       "companyName": "유캐스트",
@@ -346,28 +291,6 @@
       "originallink": "https://www.imaeil.com/page/view/2026082009440465941",
       "provider": "뉴스 검색",
       "publishedAt": "2026-08-20T00:59:00.000Z"
-    },
-    {
-      "id": "fd40eb576afecf97",
-      "keyword": "크리에이츠",
-      "companyName": "크리에이츠",
-      "title": "[더벨][IB 풍향계] 삼성증권 IPO 주관서 일냈다…1위로 '우뚝'",
-      "description": "◇해외 바이오 인제니아 상장 성공, 이달 코스닥 데뷔 4일 금융투자업계에 따르면 인제니아는 이날 공모... 상장을 마무리 지었다. 현재 니어스랩의 경우 증권신고서를 제출하고 IPO 절차를 진행 중이며, 크리에이츠와...",
-      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608041150567680103973",
-      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608041150567680103973",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-04T23:12:00.000Z"
-    },
-    {
-      "id": "ffb771e6a4a4a4df",
-      "keyword": "크리에이츠",
-      "companyName": "크리에이츠",
-      "title": "[하반기 IPO 전망] 7월은 한파…3분기 말부터 회복 기대",
-      "description": "올해 상반기에는 골프 시뮬레이터 기업 크리에이츠와 인공지능(AI) 교육기업 엘리스그룹, 화장품 제조업체... 보고서는 하반기 이후 주요 IPO 예상 기업의 공모금액 합계를 약 1조2383억원, 예상 상장 시가총액을 약...",
-      "link": "http://www.newsian.co.kr/news/articleView.html?idxno=92409",
-      "originallink": "http://www.newsian.co.kr/news/articleView.html?idxno=92409",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-07-19T00:04:00.000Z"
     },
     {
       "id": "d95bdaacdcc47a05",

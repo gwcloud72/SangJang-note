@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "updatedAt": "2026-09-25T05:07:21.391Z",
+    "updatedAt": "2026-09-25T10:24:29.941Z",
     "source": "gemini-briefing-cache"
   },
   "items": [
@@ -1034,6 +1034,35 @@
         "model": null
       },
       "updatedAt": "2026-09-20T09:54:23.072Z"
+    },
+    {
+      "key": "17e25fd02d925facb1920eb8",
+      "model": "gemini-2.5-flash",
+      "briefing": {
+        "id": "briefing-엘리스그룹",
+        "ipoId": "엘리스그룹",
+        "companyName": "엘리스그룹",
+        "sector": "IPO 일정 확인 대상 기업",
+        "ipoStage": "청약 예정",
+        "underwriter": "주관사 확인",
+        "basisTimeLabel": "오늘 09:30 기준",
+        "oneLine": "AI 풀스택 기업 엘리스그룹은 10월 7일 청약 예정입니다.",
+        "body": "AI 풀스택 기업 엘리스그룹은 기관 수요예측을 진행 중이며, 10월 7일 청약이 예정되어 있습니다. 공모 시장의 회복 가능성과 대형 IPO의 향방에 관심이 모이고 있습니다.",
+        "points": [
+          "청약 시작 및 마감일 최종 확인",
+          "환불일 및 상장일 확정 여부 확인",
+          "정정 공시 및 주관사 공지 확인"
+        ],
+        "sourceLabels": [
+          "뉴스 검색",
+          "주관사 확인",
+          "DART 일정"
+        ],
+        "competition": null,
+        "generatedBy": "local-rules",
+        "model": null
+      },
+      "updatedAt": "2026-09-25T10:21:12.970Z"
     }
   ]
 }

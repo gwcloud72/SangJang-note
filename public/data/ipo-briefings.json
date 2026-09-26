@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "source": "gemini-briefings-mixed",
-    "generatedAt": "2026-09-25T10:24:29.945Z",
-    "model": "gemini-2.5-flash",
+    "source": "local-rules",
+    "generatedAt": "2026-09-26T00:33:52.337Z",
+    "model": null,
     "itemCount": 8,
-    "geminiUsed": 1,
+    "geminiUsed": 0,
     "cacheUsed": 1,
     "policy": "회사 설명, IPO 단계, 일정, 경쟁률 뉴스 언급, 원문 확인 포인트만 표시합니다. 투자 판단 표현은 제외합니다."
   },
@@ -67,21 +67,22 @@
       "ipoStage": "청약 예정",
       "underwriter": "주관사 확인",
       "basisTimeLabel": "오늘 09:30 기준",
-      "oneLine": "AI 풀스택 기업 엘리스그룹은 10월 7일 청약 예정입니다.",
-      "body": "AI 풀스택 기업 엘리스그룹은 기관 수요예측을 진행 중이며, 10월 7일 청약이 예정되어 있습니다. 공모 시장의 회복 가능성과 대형 IPO의 향방에 관심이 모이고 있습니다.",
+      "oneLine": "IPO 일정 확인 대상 기업",
+      "body": "엘리스그룹은 IPO 일정 확인 대상 기업입니다. 10.07 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
       "points": [
-        "청약 시작 및 마감일 최종 확인",
-        "환불일 및 상장일 확정 여부 확인",
-        "정정 공시 및 주관사 공지 확인"
+        "청약 시작·마감일 확인",
+        "환불일 확인",
+        "정정 공시 여부 확인"
       ],
       "sourceLabels": [
+        "DART 일정",
+        "환불일 확인",
         "뉴스 검색",
-        "주관사 확인",
-        "DART 일정"
+        "주관사 확인"
       ],
       "competition": null,
-      "generatedBy": "gemini",
-      "model": "gemini-2.5-flash"
+      "generatedBy": "local-rules",
+      "model": null
     },
     {
       "id": "briefing-엠에스바이오",

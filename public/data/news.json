@@ -1,11 +1,88 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-09-25T00:26:32.232Z",
+    "updatedAt": "2026-09-26T00:31:25.067Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "c9940e0bec62b06d",
+      "keyword": "디티에스",
+      "companyName": "디티에스",
+      "title": "글로벌테크놀로지 등 4곳, 이번주 코스닥 입성",
+      "description": "코스닥에 상장합니다. 공모가는 희망 범위(1만6천500∼1만9천500원) 상단인 1만9천500원입니다. 기관투자자 대상 수요예측에서는 엠에스바이오와 엘리스그룹, 디티에스가 공모가 확정을 위한 기관 평가를...",
+      "link": "https://n.news.naver.com/mnews/article/374/0000534834?sid=101",
+      "originallink": "https://biz.sbs.co.kr/article_hub/20000336739?division=NAVER",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-26T00:12:00.000Z"
+    },
+    {
+      "id": "93b1075cf19f38a4",
+      "keyword": "엠에스바이오",
+      "companyName": "엠에스바이오",
+      "title": "엘리스그룹·엠에스바이오 수요예측…덕산넵코어스 코스닥 입성 [주간 ...",
+      "description": "IPO) 시장에서 대어급 AI 솔루션 기업 엘리스그룹과 바이오 재생의학 전문기업 엠에스바이오가 공모 절차를... 엘리스그룹 상장 대표 주관사는 미래에셋증권, 공동 주관사는 삼성증권이다. 2015년 설립된 엘리스그룹은...",
+      "link": "https://www.etoday.co.kr/news/view/2628844",
+      "originallink": "https://www.etoday.co.kr/news/view/2628844",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-26T00:02:00.000Z"
+    },
+    {
+      "id": "10b12198f7d2b39d",
+      "keyword": "디티에스",
+      "companyName": "디티에스",
+      "title": "[IPO챗] 글로벌테크놀로지 등 4곳, 이번주 코스닥 입성",
+      "description": "로봇 자동화 전문기업 브릴스도 다음 달 1일 코스닥에 상장한다. 공모가는 희망 범위(1만6천500∼1만9천500원) 상단인 1만9천500원이다. 기관투자자 대상 수요예측에서는 엠에스바이오와 엘리스그룹, 디티에스가...",
+      "link": "https://n.news.naver.com/mnews/article/001/0016336761?sid=101",
+      "originallink": "https://www.yna.co.kr/view/AKR20260923146600008?input=1195m",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-26T00:00:00.000Z"
+    },
+    {
+      "id": "70e0938ef9d9a1a1",
+      "keyword": "크리에이츠",
+      "companyName": "크리에이츠",
+      "title": "추석 끝나면 IPO 청약 줄줄이…눈여겨볼 새내기주는",
+      "description": "희망 공모가는 다비오 1만2300~1만6600원, 유캐스트 2만1000~2만6000원, 크리에이츠 1만5000~1만8000원이다. 다음달 다양한 공모주들이 청약에 나서지만 투자심리가 모든 기업에 고르게 향할지는 미지수다. 상장 직후...",
+      "link": "https://www.newsway.co.kr/news/view?ud=2026092215495140047",
+      "originallink": "https://www.newsway.co.kr/news/view?ud=2026092215495140047",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-25T23:08:00.000Z"
+    },
+    {
+      "id": "d1ff4a417fa96786",
+      "keyword": "진코스텍",
+      "companyName": "진코스텍",
+      "title": "이번주 공모주 청약, 멜콘·진코스텍 2개사",
+      "description": "9월 마지막 주(28일~10월 2일) 기업공개(IPO) 시장에서는 반도체 장비 기업 '멜콘'과 화장품 제조기업 '진코스텍' 등 2개사가 일반투자자 대상 공모주 청약에 나선다. 26일 금융투자업계에 따르면, 멜콘은 오는...",
+      "link": "https://n.news.naver.com/mnews/article/119/0003136379?sid=101",
+      "originallink": "https://www.dailian.co.kr/news/view/1694315/?sc=Naver",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-25T21:01:00.000Z"
+    },
+    {
+      "id": "ed0046d1a01ed29e",
+      "keyword": "티앤이코리아",
+      "companyName": "티앤이코리아",
+      "title": "추석 끝나면 IPO도 기지개…래블업 등 수요예측 줄줄이",
+      "description": "기업 티앤이코리아, AI 기반 골프 솔루션 기업 크리에이츠 등이 연휴 이후 수요예측에 나설 예정이다. 다만 일각에서는 늘어난 IPO 일정이 하반기 공모주 투자심리 활성화를 담보하는 것은 아니라는 의견도 나온다....",
+      "link": "https://www.ekn.kr/web/view.php?key=20260916027515489",
+      "originallink": "https://www.ekn.kr/web/view.php?key=20260916027515489",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-25T04:00:00.000Z"
+    },
+    {
+      "id": "dcbda175f35df9fe",
+      "keyword": "인텔리빅스",
+      "companyName": "인텔리빅스",
+      "title": "공모가 밑돌던 8월과 '딴판'...와이즈플래닛·네오사피엔스 3배↑",
+      "description": "희망 공모가는 1만7000~1만8500원, 공모 예정 금액은 379억~412억원이다. 인텔리빅스는 12~16일 수요예측, 21... 유진투자증권은 9월 IPO 기업 수를 9~11곳, 공모금액을 4000억~4500억원, 상장 시가총액을 2조1000억~2조7000억원...",
+      "link": "http://www.newsian.co.kr/news/articleView.html?idxno=95988",
+      "originallink": "http://www.newsian.co.kr/news/articleView.html?idxno=95988",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-25T03:10:00.000Z"
+    },
     {
       "id": "e0d2942d7b754d9c",
       "keyword": "인텔리빅스",
@@ -29,17 +106,6 @@
       "publishedAt": "2026-09-24T01:01:00.000Z"
     },
     {
-      "id": "5fb34c5a120242f3",
-      "keyword": "엘리스그룹",
-      "companyName": "엘리스그룹",
-      "title": "대기업 총수들 2027 판 짜기 시작…추석에도 경영 전선",
-      "description": "AI 풀스택 기업 엘리스그룹이 최대 1조 원의 시가총액을 목표로 기관 수요예측을 소화하는 등 유망 비상장사들이 4분기 공모 시장에 속속 가세할 것이라는 전망이 나온다. ▶기사 바로가기: “얼마 안 되겠지”...",
-      "link": "https://n.news.naver.com/mnews/article/011/0004665171?sid=101",
-      "originallink": "https://www.sedaily.com/article/20094793?ref=naver",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-24T01:01:00.000Z"
-    },
-    {
       "id": "70474102ae821b3b",
       "keyword": "티앤이코리아",
       "companyName": "티앤이코리아",
@@ -49,50 +115,6 @@
       "originallink": "http://www.hansbiz.co.kr/news/articleView.html?idxno=867970",
       "provider": "뉴스 검색",
       "publishedAt": "2026-09-23T14:14:00.000Z"
-    },
-    {
-      "id": "da44402ec38bd805",
-      "keyword": "엘리스그룹",
-      "companyName": "엘리스그룹",
-      "title": "개미들 뭉칫돈 들고 속속 귀환…코스닥 IPO시장 다시 북적 [시그널]",
-      "description": "이달 들어 새내기주들이 상장 첫날 일제히 흥행에 성공하면서 침체됐던 기업공개(IPO) 시장에 온기가 돌고 있다. 시장 부진에 몸값을 낮춰 상승 여력을 키우자 한동안 공모주 시장에서 이탈했던 개인투자자 자금도...",
-      "link": "https://n.news.naver.com/mnews/article/011/0004665052?sid=101",
-      "originallink": "https://www.sedaily.com/article/20094667?ref=naver",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-23T08:26:00.000Z"
-    },
-    {
-      "id": "38ed76b7f780d8c0",
-      "keyword": "엘리스그룹",
-      "companyName": "엘리스그룹",
-      "title": "‘따따블’ 환상 걷힌 IPO 시장…대어급 등판으로 분위기 바뀔까",
-      "description": "가을 공모 시장의 회복 가능성에 금융투자업계의 이목이 쏠리고 있다. 최근 상장한 새내기주들이 상장... 대형 공모주 엘리스그룹이 수요예측에 돌입하면서 얼어붙었던 대형 IPO 잔혹사를 끊어낼 수 있을지 시장의...",
-      "link": "https://www.mediapen.com/news/view/1125748",
-      "originallink": "https://www.mediapen.com/news/view/1125748",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-23T05:06:00.000Z"
-    },
-    {
-      "id": "f4fd4897c35d8875",
-      "keyword": "멜콘",
-      "companyName": "멜콘",
-      "title": "얼어붙었던 공모주 시장에 다시 '온기'…AI·로봇·방산엔 돈 몰린다",
-      "description": "신규 상장 조건이 엄격해진 탓에 시장 분위기가 침체되면서 투자 심리는 위축됐지만 9월 들어 AI·로봇·방산 분야 중심으로 기관과 개인 자금이 몰리고 있다. 9월 IPO 다시 열린다…공모금액 2.5배 증가 23일...",
-      "link": "https://www.insightkorea.co.kr/news/articleView.html?idxno=255214",
-      "originallink": "https://www.insightkorea.co.kr/news/articleView.html?idxno=255214",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-23T02:02:00.000Z"
-    },
-    {
-      "id": "f985b66325578691",
-      "keyword": "디티에스",
-      "companyName": "디티에스",
-      "title": "[주간IPO] 9월 마지막 주, 멜콘·진코스텍 공모청약…엘리스그룹·엠에스...",
-      "description": "9월 마지막 주 기업공개(IPO) 시장에서는 멜콘·진코스텍이 공모청약을 실시한다. 엘리스그룹·엠에스바이오·디티에스도 수요예측을 시작한다. 반도체 공정 환경제어 장비 전문기업 멜콘은 10월 1일과 2일...",
-      "link": "http://www.consumernews.co.kr/news/articleView.html?idxno=764597",
-      "originallink": "http://www.consumernews.co.kr/news/articleView.html?idxno=764597",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-23T01:50:00.000Z"
     },
     {
       "id": "d110144f19b44ec9",
@@ -106,17 +128,6 @@
       "publishedAt": "2026-09-23T00:12:00.000Z"
     },
     {
-      "id": "519a16a7378b27f1",
-      "keyword": "디티에스",
-      "companyName": "디티에스",
-      "title": "디티에스, 예상보다 밸류 저렴...수요예측 흥행하나",
-      "description": "최근 네오사피엔스가 상장 첫날 급등한 점도 호재다. ◇피어그룹 '정공법' 택했다...높은 할인율, 가벼운 수급도 강점 디티에스는 총 222만8917주를 공모해 379억~412억원을 조달한다. 희망 공모가는 1만7000~1만8500원...",
-      "link": "https://www.the-stock.kr/news/articleView.html?idxno=33432",
-      "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=33432",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-22T23:00:00.000Z"
-    },
-    {
       "id": "6f04e9fa4da484b5",
       "keyword": "인텔리빅스",
       "companyName": "인텔리빅스",
@@ -126,28 +137,6 @@
       "originallink": "https://www.ceoscoredaily.com/page/view/2026092214401021808",
       "provider": "뉴스 검색",
       "publishedAt": "2026-09-22T08:20:00.000Z"
-    },
-    {
-      "id": "03fad5b47440cbaf",
-      "keyword": "진코스텍",
-      "companyName": "진코스텍",
-      "title": "[현장] '주문 밀물'에 진코스텍 '즐거운 비명'…공모자금으로 '캐파 갈증...",
-      "description": "\" 김임준 진코스텍 대표이사는 22일 서울 여의도 63빌딩에서 열린 기업공개(IPO) 기자간담회에서 이같이... 한편, 이번 상장을 통해 진코스텍은 총 85만2000주를 공모한다. 공모 희망가는 1만9500~2만3500원이며, 총 공모...",
-      "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1725367",
-      "originallink": "https://www.ebn.co.kr/news/articleView.html?idxno=1725367",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-22T06:40:00.000Z"
-    },
-    {
-      "id": "5a7485b5d0dcb096",
-      "keyword": "진코스텍",
-      "companyName": "진코스텍",
-      "title": "[IPO] 진코스텍 \"15년 하이드로겔 기술력 기반…제3공장으로 글로벌 수요...",
-      "description": "\" 김임준 진코스텍 대표이사는 22일 서울 여의도에서 열린 기업공개(IPO) 기자간담회에서 이같이 밝히며... 한편 진코스텍은 이번 코스닥 이전상장을 통해 총 85만2000주를 공모한다. 희망 공모가는 1만9500~2만3500원이며 총...",
-      "link": "http://www.newsprime.co.kr/news/article.html?no=748754",
-      "originallink": "http://www.newsprime.co.kr/news/article.html?no=748754",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-22T06:14:00.000Z"
     },
     {
       "id": "b8dc496aa207370a",
@@ -183,28 +172,6 @@
       "publishedAt": "2026-09-21T05:42:00.000Z"
     },
     {
-      "id": "32c0bf08de25a7a1",
-      "keyword": "인텔리빅스",
-      "companyName": "인텔리빅스",
-      "title": "AI 기업 줄줄이 증시로…하반기 IPO '실적 검증대'",
-      "description": "18일 AI 업계에 따르면, 네오사피엔스를 시작으로 엘리스그룹, 래블업, 인텔리빅스 등 AI 기업들이 하반기 잇따라 공모 절차에 나서고 있다. 기업용 생성형 AI 기업 제논과 페르소나AI도 상장을 준비 중이다.■ IPO 시장...",
-      "link": "https://news.mtn.co.kr/news-detail/2026091814183622624",
-      "originallink": "https://news.mtn.co.kr/news-detail/2026091814183622624",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-18T06:44:00.000Z"
-    },
-    {
-      "id": "e2efe886e69ebff5",
-      "keyword": "다비오",
-      "companyName": "다비오",
-      "title": "다비오, 증권신고서 제출…기술특례로 코스닥 상장 추진",
-      "description": "IPO) 절차를 이어가게 됐다. 상장 주관사는 대신증권이다. 다비오는 기술특례 방식으로 올해 하반기 코스닥 입성을 추진한다. 증권신고서 효력 발생 이후 기관투자자를 대상으로 한 수요예측을 거쳐 최종 공모가를...",
-      "link": "https://theviewers.co.kr/View.aspx?No=4229296",
-      "originallink": "https://theviewers.co.kr/View.aspx?No=4229296",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-16T01:42:00.000Z"
-    },
-    {
       "id": "5ebc962a6cf06d33",
       "keyword": "유캐스트",
       "companyName": "유캐스트",
@@ -216,17 +183,6 @@
       "publishedAt": "2026-09-15T22:02:00.000Z"
     },
     {
-      "id": "d3865bfd573ccb2c",
-      "keyword": "엠에스바이오",
-      "companyName": "엠에스바이오",
-      "title": "[더벨][엠에스바이오 IPO] 기관 DR 돌입...홍콩·싱가포르 투자자도 관심",
-      "description": "7일에 공모가액을 확정한다. 일반투자자 청약은 10월 12~13일 양일에 이뤄지고 다음달 중하순에 코스닥 시장 상장 예정이다. 엠에스바이오는 2015년 설립 후 인체조직과 생체소재를 기반으로 손상된 조직의 재건과...",
-      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609111612018840103314",
-      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609111612018840103314",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-13T23:02:00.000Z"
-    },
-    {
       "id": "f7f8a0605e89bdea",
       "keyword": "크리에이츠",
       "companyName": "크리에이츠",
@@ -236,50 +192,6 @@
       "originallink": "https://www.hankyung.com/article/202609081266r",
       "provider": "뉴스 검색",
       "publishedAt": "2026-09-11T00:53:00.000Z"
-    },
-    {
-      "id": "228313b7d40cb326",
-      "keyword": "크리에이츠",
-      "companyName": "크리에이츠",
-      "title": "[인터뷰] '달바 잭팟' 이승문 HB인베스트 상무, 크리에이츠로 연속 회수...",
-      "description": "5년간 지켜본 크리에이츠…밸류 부담 낮아지자 세컨더리 투자 단행 크리에이츠 상장예심 통과·IPO 본격화... 코스닥 상장 예비심사를 통과하면서 투자금 회수에도 청신호가 켜졌다. HB인베스트먼트는 최근 공모주 시장...",
-      "link": "https://www.topdaily.kr/articles/111851",
-      "originallink": "https://www.topdaily.kr/articles/111851",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-08T23:31:00.000Z"
-    },
-    {
-      "id": "14bd768b111d1411",
-      "keyword": "엠에스바이오",
-      "companyName": "엠에스바이오",
-      "title": "[장외시황] 무신사, 코스피 상장예비심사 청구",
-      "description": "희망 공모가는 1만2000~1만4600원이다. 재생의료 플랫폼 전문업체 엠에스바이오가 금융위원회에... IPO(기업공개)관련 상장 예비심사 청구종목으로 온라인 패션 플랫폼업체 무신사가 호가 2만5500원(+13.33%)으로 강세를...",
-      "link": "https://www.etoday.co.kr/news/view/2623168",
-      "originallink": "https://www.etoday.co.kr/news/view/2623168",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-08T06:42:00.000Z"
-    },
-    {
-      "id": "133ecc75925754a5",
-      "keyword": "엠에스바이오",
-      "companyName": "엠에스바이오",
-      "title": "공모 흥행 공식 깨진 바이오...스카이랩스 나홀로 급등에 '옥석가리기'...",
-      "description": "바이오 IPO 기업들이 공모가를 밑도는 상황에서 투자자들이 기업별 기술력과 사업모델을 다시 따져보고 있다는 의미로도 해석할 수 있다. 하반기에는 엠에스바이오와 엠비디 등 바이오·헬스케어 기업들의 상장이...",
-      "link": "https://www.mediapen.com/news/view/1121795",
-      "originallink": "https://www.mediapen.com/news/view/1121795",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-07T07:02:00.000Z"
-    },
-    {
-      "id": "496c7a8e12dcae5c",
-      "keyword": "크리에이츠",
-      "companyName": "크리에이츠",
-      "title": "[더벨][크리에이츠 IPO] AI 고도화 서비스 론칭 임박, 스크린골프 새지평...",
-      "description": "이번 상장 과정에서 강조할 것으로 예상된다. 크리에이츠는 지난 13일 거래소 예비심사 승인을 받고 증권신고서 제출이 임박했다. 타임라인을 고려하면 연내 증시 입성은 무난한 상황이다. 최근 공모주 시장이 위축된...",
-      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608261142478720106379",
-      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202608261142478720106379",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-27T22:02:00.000Z"
     },
     {
       "id": "997c9eb441d97a17",

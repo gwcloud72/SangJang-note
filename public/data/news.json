@@ -1,43 +1,87 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-09-26T00:31:25.067Z",
+    "updatedAt": "2026-09-27T00:26:20.191Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
     {
-      "id": "c9940e0bec62b06d",
-      "keyword": "디티에스",
-      "companyName": "디티에스",
-      "title": "글로벌테크놀로지 등 4곳, 이번주 코스닥 입성",
-      "description": "코스닥에 상장합니다. 공모가는 희망 범위(1만6천500∼1만9천500원) 상단인 1만9천500원입니다. 기관투자자 대상 수요예측에서는 엠에스바이오와 엘리스그룹, 디티에스가 공모가 확정을 위한 기관 평가를...",
-      "link": "https://n.news.naver.com/mnews/article/374/0000534834?sid=101",
-      "originallink": "https://biz.sbs.co.kr/article_hub/20000336739?division=NAVER",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-26T00:12:00.000Z"
-    },
-    {
-      "id": "93b1075cf19f38a4",
+      "id": "b402914220e41d54",
       "keyword": "엠에스바이오",
       "companyName": "엠에스바이오",
-      "title": "엘리스그룹·엠에스바이오 수요예측…덕산넵코어스 코스닥 입성 [주간 ...",
-      "description": "IPO) 시장에서 대어급 AI 솔루션 기업 엘리스그룹과 바이오 재생의학 전문기업 엠에스바이오가 공모 절차를... 엘리스그룹 상장 대표 주관사는 미래에셋증권, 공동 주관사는 삼성증권이다. 2015년 설립된 엘리스그룹은...",
-      "link": "https://www.etoday.co.kr/news/view/2628844",
-      "originallink": "https://www.etoday.co.kr/news/view/2628844",
+      "title": "빅웨이브·글로벌테크놀로지 등 4곳 상장…멜콘 청약[증시캘린더]",
+      "description": "다음 주(9월 28일~10월 2일) 기업공개(IPO) 시장에서는 빅웨이브로보틱스와 글로벌테크놀로지... 기업 엠에스바이오는 기관투자자 대상 수요예측에 나선다. 9월 28일~10월 2일 △엠에스바이오 수요예측 -인체조직과...",
+      "link": "https://n.news.naver.com/mnews/article/018/0006375796?sid=101",
+      "originallink": "https://www.edaily.co.kr/News/Read?newsId=01210326645584384&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-09-26T00:02:00.000Z"
+      "publishedAt": "2026-09-27T00:01:00.000Z"
     },
     {
-      "id": "10b12198f7d2b39d",
+      "id": "5565fc1e88f05fa6",
       "keyword": "디티에스",
       "companyName": "디티에스",
-      "title": "[IPO챗] 글로벌테크놀로지 등 4곳, 이번주 코스닥 입성",
-      "description": "로봇 자동화 전문기업 브릴스도 다음 달 1일 코스닥에 상장한다. 공모가는 희망 범위(1만6천500∼1만9천500원) 상단인 1만9천500원이다. 기관투자자 대상 수요예측에서는 엠에스바이오와 엘리스그룹, 디티에스가...",
-      "link": "https://n.news.naver.com/mnews/article/001/0016336761?sid=101",
-      "originallink": "https://www.yna.co.kr/view/AKR20260923146600008?input=1195m",
+      "title": "[이번주 IPO]10월 첫째 주 수요예측·청약 일정",
+      "description": "최종 공모가를 확정하고 10월 12일과 13일 일반투자자 청약을 거쳐 10월 중 코스닥시장 상장을 목표로 하고 있다. 대표 주관사는 KB증권이다. ◆디티에스= 2000년 설립된 디티에스는 발전·LNG·석유화학 플랜트에...",
+      "link": "https://n.news.naver.com/mnews/article/277/0005821057?sid=101",
+      "originallink": "https://view.asiae.co.kr/article/2026092310304521577",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-09-26T00:00:00.000Z"
+      "publishedAt": "2026-09-26T23:00:00.000Z"
+    },
+    {
+      "id": "84ca446acd547c73",
+      "keyword": "디티에스",
+      "companyName": "디티에스",
+      "title": "연휴 끝 숨가쁜 공모 시장⋯엘리스·엠에스바이오·DTS 수요예측 [IPO돋...",
+      "description": "공모가 희망밴드는 6800~7800원이다. KB증권이 상장을 주관한다. 디스플레이용 광학부품 전문 기업 디티에스도 1일부터 수요예측에 돌입한다. 8일 종료 후 공모가를 확정할 예정이다. 총 315만7632주를 공모한다. 공모가...",
+      "link": "https://n.news.naver.com/mnews/article/031/0001061285?sid=101",
+      "originallink": "http://www.inews24.com/view/2008616",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-26T21:01:00.000Z"
+    },
+    {
+      "id": "532dd06de218e270",
+      "keyword": "디티에스",
+      "companyName": "디티에스",
+      "title": "[IPO 캘린더] 29일 동시 상장부터 방산·로봇 신규 입성까지…공모주 투...",
+      "description": "멜콘·진코스텍 일반청약 돌입…추석 앞뒤로 달아오르는 공모주 슈퍼위크 / 한국거래소 다음 주 코스닥 시장에 글로벌테크놀로지, 빅웨이브로보틱스, 덕산넵코어스, 브릴스 등 4개 기업이 신규 상장할 예정이다....",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=610030",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=610030",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-26T15:00:00.000Z"
+    },
+    {
+      "id": "2f8287eb08e1e635",
+      "keyword": "디티에스",
+      "companyName": "디티에스",
+      "title": "추석 이후 IPO 시장은…글로벌테크놀로지 등 4개사 코스닥 상장",
+      "description": "상장을 앞둔 기업들의 기관 수요예측도 이어진다. 엠에스바이오와 엘리스그룹, 디티에스가 기관투자자를 대상으로 공모가 산정을 위한 절차에 들어간다. 엠에스바이오는 오는 28일부터 다음 달 2일까지 기관...",
+      "link": "https://www.ajunews.com/view/20260926143350025",
+      "originallink": "https://www.ajunews.com/view/20260926143350025",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-26T09:02:00.000Z"
+    },
+    {
+      "id": "dd0c39eca35b2a80",
+      "keyword": "디티에스",
+      "companyName": "디티에스",
+      "title": "추석 연휴 이후 4개사 코스닥 입성···수요예측·공모청약도 줄 잇는다",
+      "description": "향후 공모주 시장의 투심을 가늠할 주요 지표가 될 것으로 보인다. ◇ 엘리스그룹·엠에스바이오·디티에스 수요예측, 멜콘·진코스텍 청약 신규 상장 일정과 함께 후속 IPO 주자들의 기관투자자 대상 수요예측도...",
+      "link": "https://www.sisajournal-e.com/news/articleView.html?idxno=423955",
+      "originallink": "https://www.sisajournal-e.com/news/articleView.html?idxno=423955",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-26T07:08:00.000Z"
+    },
+    {
+      "id": "7a28ba09bb02e307",
+      "keyword": "엘리스그룹",
+      "companyName": "엘리스그룹",
+      "title": "다음주 IPO 시장…글로벌테크놀로지·빅웨이브로보틱스 등 4곳 코스닥 입...",
+      "description": "로봇 자동화 전문기업 브릴스도 다음 달 1일 공모가 1만9500원으로 상장한다. 기관투자자 대상 수요예측에는 엠에스바이오와 인공지능(AI) 교육·인프라 기업 엘리스그룹, 디티에스가 나선다. 일반투자자 대상 공모주...",
+      "link": "https://n.news.naver.com/mnews/article/030/0003469950?sid=101",
+      "originallink": "https://www.etnews.com/20260926000025",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-26T04:00:00.000Z"
     },
     {
       "id": "70e0938ef9d9a1a1",
@@ -49,17 +93,6 @@
       "originallink": "https://www.newsway.co.kr/news/view?ud=2026092215495140047",
       "provider": "뉴스 검색",
       "publishedAt": "2026-09-25T23:08:00.000Z"
-    },
-    {
-      "id": "d1ff4a417fa96786",
-      "keyword": "진코스텍",
-      "companyName": "진코스텍",
-      "title": "이번주 공모주 청약, 멜콘·진코스텍 2개사",
-      "description": "9월 마지막 주(28일~10월 2일) 기업공개(IPO) 시장에서는 반도체 장비 기업 '멜콘'과 화장품 제조기업 '진코스텍' 등 2개사가 일반투자자 대상 공모주 청약에 나선다. 26일 금융투자업계에 따르면, 멜콘은 오는...",
-      "link": "https://n.news.naver.com/mnews/article/119/0003136379?sid=101",
-      "originallink": "https://www.dailian.co.kr/news/view/1694315/?sc=Naver",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-25T21:01:00.000Z"
     },
     {
       "id": "ed0046d1a01ed29e",

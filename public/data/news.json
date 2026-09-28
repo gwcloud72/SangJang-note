@@ -1,11 +1,66 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-09-27T00:26:20.191Z",
+    "updatedAt": "2026-09-28T00:30:34.879Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "6fe1aafb373cacc3",
+      "keyword": "인텔리빅스",
+      "companyName": "인텔리빅스",
+      "title": "[인텔리빅스 IPO] ③'PER'로 몸값 산정, 흑자가 이뤄낸 성과",
+      "description": "FETV는 실적 개선 배경과 IPO 전략, 상장 이후 피지컬AI 등을 중심으로 인텔리빅스의 로드맵을 짚어본다.... 실제 이익을 기준으로 몸값을 산정하면서도 희망 공모가는 평가가액보다 낮게 제시해 성장 기대와 투자...",
+      "link": "https://www.fetv.co.kr/news/articleView.html?idxno=310673",
+      "originallink": "https://www.fetv.co.kr/news/articleView.html?idxno=310673",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-27T22:00:00.000Z"
+    },
+    {
+      "id": "ed3e0337a629144e",
+      "keyword": "디티에스",
+      "companyName": "디티에스",
+      "title": "[IPO 워치] 글로벌테크놀로지·빅웨이브로보틱스 등 4곳 코스닥 상장",
+      "description": "엘리스그룹, 디티에스가 진행하며 멜콘과 진코스텍은 일반투자자 대상 공모청약에 나선다. 28일 금융투자업계에 따르면 글로벌테크놀로지는 오는 29일 코스닥 시장에 상장한다. 글로벌테크놀로지는...",
+      "link": "https://www.news2day.co.kr/article/20260926500017",
+      "originallink": "https://www.news2day.co.kr/article/20260926500017",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-27T19:52:00.000Z"
+    },
+    {
+      "id": "4981e2cad0235300",
+      "keyword": "멜콘",
+      "companyName": "멜콘",
+      "title": "이번주 코스닥 시장에 4곳 상장…IPO 훈풍 기대감",
+      "description": "직후 '따상(공모가 2배 상장후 상한가)'기대감도 높이는 분위기다. 그동안 증시 하락으로 위축됐던 IPO... 달해 상장 당일 매도 물량도 적을 것으로 보고 있다. 한편, 이 외에도 반도체 장비 기업인 멜콘과 화장품...",
+      "link": "https://www.asiatoday.co.kr/kn/view.php?key=20260927010009391",
+      "originallink": "https://www.asiatoday.co.kr/kn/view.php?key=20260927010009391",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-27T08:26:00.000Z"
+    },
+    {
+      "id": "b1cebdf33dabf564",
+      "keyword": "디티에스",
+      "companyName": "디티에스",
+      "title": "이번주 코스닥 새내기 4곳 몰린다…엘리스그룹 등 3곳 수요예측",
+      "description": "공모가 상단 확정해 코스닥 입성 '중복상장 예외허용 1호' 디티에스 수요예측 돌입 서울 여의도 한국거래소 홍보관[출처: 연합뉴스 자료사진] (서울=연합인포맥스) 전병훈 기자 = 이번 주(9월 28일~10월 2일) 기업공개(IPO)...",
+      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436571",
+      "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436571",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-27T04:02:00.000Z"
+    },
+    {
+      "id": "7c8a3be455df74ed",
+      "keyword": "인텔리빅스",
+      "companyName": "인텔리빅스",
+      "title": "‘조’ 단위 대어 줄줄이 쏟아진다…연휴 끝자락 IPO 시장 온기 기대감",
+      "description": "래블업·인텔리빅스 상장 채비 무신사 등 유니콘 종목 가시화 올해 들어 주춤했던 기업공개(IPO) 시장이... 지난달 IPO 기업 수는 평균을 크게 밑돌았고, 상장 첫날 시초가 역시 공모가 대비 낮은 수익률을 기록했으나...",
+      "link": "https://n.news.naver.com/mnews/article/009/0005740231?sid=101",
+      "originallink": "https://www.mk.co.kr/article/12161822",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-27T02:30:00.000Z"
+    },
     {
       "id": "b402914220e41d54",
       "keyword": "엠에스바이오",
@@ -49,39 +104,6 @@
       "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=610030",
       "provider": "뉴스 검색",
       "publishedAt": "2026-09-26T15:00:00.000Z"
-    },
-    {
-      "id": "2f8287eb08e1e635",
-      "keyword": "디티에스",
-      "companyName": "디티에스",
-      "title": "추석 이후 IPO 시장은…글로벌테크놀로지 등 4개사 코스닥 상장",
-      "description": "상장을 앞둔 기업들의 기관 수요예측도 이어진다. 엠에스바이오와 엘리스그룹, 디티에스가 기관투자자를 대상으로 공모가 산정을 위한 절차에 들어간다. 엠에스바이오는 오는 28일부터 다음 달 2일까지 기관...",
-      "link": "https://www.ajunews.com/view/20260926143350025",
-      "originallink": "https://www.ajunews.com/view/20260926143350025",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-26T09:02:00.000Z"
-    },
-    {
-      "id": "dd0c39eca35b2a80",
-      "keyword": "디티에스",
-      "companyName": "디티에스",
-      "title": "추석 연휴 이후 4개사 코스닥 입성···수요예측·공모청약도 줄 잇는다",
-      "description": "향후 공모주 시장의 투심을 가늠할 주요 지표가 될 것으로 보인다. ◇ 엘리스그룹·엠에스바이오·디티에스 수요예측, 멜콘·진코스텍 청약 신규 상장 일정과 함께 후속 IPO 주자들의 기관투자자 대상 수요예측도...",
-      "link": "https://www.sisajournal-e.com/news/articleView.html?idxno=423955",
-      "originallink": "https://www.sisajournal-e.com/news/articleView.html?idxno=423955",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-26T07:08:00.000Z"
-    },
-    {
-      "id": "7a28ba09bb02e307",
-      "keyword": "엘리스그룹",
-      "companyName": "엘리스그룹",
-      "title": "다음주 IPO 시장…글로벌테크놀로지·빅웨이브로보틱스 등 4곳 코스닥 입...",
-      "description": "로봇 자동화 전문기업 브릴스도 다음 달 1일 공모가 1만9500원으로 상장한다. 기관투자자 대상 수요예측에는 엠에스바이오와 인공지능(AI) 교육·인프라 기업 엘리스그룹, 디티에스가 나선다. 일반투자자 대상 공모주...",
-      "link": "https://n.news.naver.com/mnews/article/030/0003469950?sid=101",
-      "originallink": "https://www.etnews.com/20260926000025",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-26T04:00:00.000Z"
     },
     {
       "id": "70e0938ef9d9a1a1",
@@ -170,28 +192,6 @@
       "originallink": "https://www.ceoscoredaily.com/page/view/2026092214401021808",
       "provider": "뉴스 검색",
       "publishedAt": "2026-09-22T08:20:00.000Z"
-    },
-    {
-      "id": "b8dc496aa207370a",
-      "keyword": "인텔리빅스",
-      "companyName": "인텔리빅스",
-      "title": "[더벨][인텔리빅스 IPO] 안전 AI 흑자 기반, 1000억 안팎 몸값 제시",
-      "description": "코스닥 상장을 앞둔 인텔리빅스가 1000억원 안팎의 몸값을 제시했다. 안전 인공지능(AI) 사업에서 꾸준히... 이 과정에서 희망 공모가가 프리 IPO 투자단가보다 낮게 제시된 점도 눈에 띈다. 인텔리빅스는 지난해...",
-      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609221111565160107162",
-      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609221111565160107162",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-22T04:42:00.000Z"
-    },
-    {
-      "id": "dda8469f48954952",
-      "keyword": "인텔리빅스",
-      "companyName": "인텔리빅스",
-      "title": "[애널리스트의 마켓뷰]2026년 남은 한해, 공모주 시장 주목해야",
-      "description": "엘리스그룹의 상장이 예정돼 있다. 엘리스그룹의 경우 공모액 2011억 원, 예상 시가총액 최대 1조145억 원으로 대어급 IPO라 볼 수 있다. 다음 달에는 AI 인프라 소프트웨어 기업 래블업, 안전 딥테크 업체 인텔리빅스...",
-      "link": "https://n.news.naver.com/mnews/article/020/0003749869?sid=101",
-      "originallink": "https://www.donga.com/news/Economy/article/all/20260921/134712516/2",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-21T15:32:00.000Z"
     },
     {
       "id": "d4f880269fcb2205",

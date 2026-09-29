@@ -1,11 +1,44 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-09-28T00:30:34.879Z",
+    "updatedAt": "2026-09-29T01:44:33.107Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "8b45a332f2c26f4c",
+      "keyword": "엠에스바이오",
+      "companyName": "엠에스바이오",
+      "title": "[증권 Pick] 이번주 IPO 일정 모아보기",
+      "description": "신규 상장과 함께 공모 일정도 이어진다. 반도체 포토공정 환경제어 장비업체 멜콘은 다음달 1~2일... 기관 수요예측에서는 재생의료 플랫폼 기업 엠에스바이오와 인공지능 교육·소프트웨어 기업 엘리스그룹...",
+      "link": "https://www.lcnews.co.kr/news/articleView.html?idxno=208904",
+      "originallink": "https://www.lcnews.co.kr/news/articleView.html?idxno=208904",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-28T06:14:00.000Z"
+    },
+    {
+      "id": "5f805aa4d568acde",
+      "keyword": "인텔리빅스",
+      "companyName": "인텔리빅스",
+      "title": "멈췄던 IPO 다시 '기지개'…4분기 공모주 시장 활기 찾을까",
+      "description": "보유한 인텔리빅스, 기업용 생성형 AI 기업 제논과 페르소나AI 등이 상장을 추진한다. 로봇과 AI 등 개인투자자의 관심이 높은 성장산업 기업들이 잇따라 등장하면서 공모주 시장의 투자 대상도 다양해질 전망이다....",
+      "link": "https://n.news.naver.com/mnews/article/088/0001030862?sid=101",
+      "originallink": "https://www.imaeil.com/page/view/2026092810370176644",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-28T01:41:00.000Z"
+    },
+    {
+      "id": "4fd7a40adbf62fa1",
+      "keyword": "디티에스",
+      "companyName": "디티에스",
+      "title": "이번주 코스닥 4곳 상장한다...공모주 시장 다시 달아오르나",
+      "description": "엘리스그룹, 디티에스가 투자자 평가를 받는다. 한편, 시장에서는 결국 이번주 새내기주들의 상장 이후 주가가 IPO 시장의 단기 체력을 가늠할 시험대가 될 것으로 보고 있다. 공모가를 현실화한 기업들이 청약...",
+      "link": "https://n.news.naver.com/mnews/article/123/0002390877?sid=101",
+      "originallink": "http://www.joseilbo.com/news/news_read.php?uid=576393&class=53&grp=",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-28T00:36:00.000Z"
+    },
     {
       "id": "6fe1aafb373cacc3",
       "keyword": "인텔리빅스",
@@ -62,17 +95,6 @@
       "publishedAt": "2026-09-27T02:30:00.000Z"
     },
     {
-      "id": "b402914220e41d54",
-      "keyword": "엠에스바이오",
-      "companyName": "엠에스바이오",
-      "title": "빅웨이브·글로벌테크놀로지 등 4곳 상장…멜콘 청약[증시캘린더]",
-      "description": "다음 주(9월 28일~10월 2일) 기업공개(IPO) 시장에서는 빅웨이브로보틱스와 글로벌테크놀로지... 기업 엠에스바이오는 기관투자자 대상 수요예측에 나선다. 9월 28일~10월 2일 △엠에스바이오 수요예측 -인체조직과...",
-      "link": "https://n.news.naver.com/mnews/article/018/0006375796?sid=101",
-      "originallink": "https://www.edaily.co.kr/News/Read?newsId=01210326645584384&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-27T00:01:00.000Z"
-    },
-    {
       "id": "5565fc1e88f05fa6",
       "keyword": "디티에스",
       "companyName": "디티에스",
@@ -82,28 +104,6 @@
       "originallink": "https://view.asiae.co.kr/article/2026092310304521577",
       "provider": "뉴스 검색",
       "publishedAt": "2026-09-26T23:00:00.000Z"
-    },
-    {
-      "id": "84ca446acd547c73",
-      "keyword": "디티에스",
-      "companyName": "디티에스",
-      "title": "연휴 끝 숨가쁜 공모 시장⋯엘리스·엠에스바이오·DTS 수요예측 [IPO돋...",
-      "description": "공모가 희망밴드는 6800~7800원이다. KB증권이 상장을 주관한다. 디스플레이용 광학부품 전문 기업 디티에스도 1일부터 수요예측에 돌입한다. 8일 종료 후 공모가를 확정할 예정이다. 총 315만7632주를 공모한다. 공모가...",
-      "link": "https://n.news.naver.com/mnews/article/031/0001061285?sid=101",
-      "originallink": "http://www.inews24.com/view/2008616",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-26T21:01:00.000Z"
-    },
-    {
-      "id": "532dd06de218e270",
-      "keyword": "디티에스",
-      "companyName": "디티에스",
-      "title": "[IPO 캘린더] 29일 동시 상장부터 방산·로봇 신규 입성까지…공모주 투...",
-      "description": "멜콘·진코스텍 일반청약 돌입…추석 앞뒤로 달아오르는 공모주 슈퍼위크 / 한국거래소 다음 주 코스닥 시장에 글로벌테크놀로지, 빅웨이브로보틱스, 덕산넵코어스, 브릴스 등 4개 기업이 신규 상장할 예정이다....",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=610030",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=610030",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-26T15:00:00.000Z"
     },
     {
       "id": "70e0938ef9d9a1a1",
@@ -181,17 +181,6 @@
       "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=33433",
       "provider": "뉴스 검색",
       "publishedAt": "2026-09-23T00:12:00.000Z"
-    },
-    {
-      "id": "6f04e9fa4da484b5",
-      "keyword": "인텔리빅스",
-      "companyName": "인텔리빅스",
-      "title": "하반기 IPO 기지개…삼성증권 1위, 중위권 경쟁 ‘치열’",
-      "description": "코스닥 상장예심 승인 이후 효력 기간은 6개월이지만 통상적으로 기업들은 2~3개월 이내에 공모 절차를... 29일 상장 예정이고 엘리스그룹, 인텔리빅스는 오는 10월, 바로팜은 오는 11월 일반청약을 진행한다. 대어급 IPO는...",
-      "link": "https://www.ceoscoredaily.com/page/view/2026092214401021808",
-      "originallink": "https://www.ceoscoredaily.com/page/view/2026092214401021808",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-22T08:20:00.000Z"
     },
     {
       "id": "d4f880269fcb2205",

@@ -1,11 +1,77 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-09-29T01:44:33.107Z",
+    "updatedAt": "2026-09-30T01:44:48.107Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "40fdfc3d82aa3218",
+      "keyword": "멜콘",
+      "companyName": "멜콘",
+      "title": "멜콘, 공모가 1만2300원 확정…기관 경쟁률 1136.84대 1",
+      "description": "전문기업 멜콘이 기업공개(IPO) 수요예측에서 희망밴드 상단으로 공모가를 확정했다. 멜콘은 국내외... 이에 따른 총 공모금액은 약 308억원, 상장 후 예상 시가총액은 약 1550억원이다. 의무보유확약 신청...",
+      "link": "https://www.cnbizm.com/news/articleView.html?idxno=316504",
+      "originallink": "https://www.cnbizm.com/news/articleView.html?idxno=316504",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-30T00:18:00.000Z"
+    },
+    {
+      "id": "1c43c569ce487847",
+      "keyword": "인텔리빅스",
+      "companyName": "인텔리빅스",
+      "title": "1조원 대어부터 적자 기술특례까지 … 10월 공모주 13곳 옥석 가리기 [박...",
+      "description": "20~23일 나흘간 크리에이츠·티앤이코리아·인텔리빅스·영광·이에스티 5곳이 잇달아 청약을 받는다. 엘리스그룹과 엠비디는 증권신고서 정정으로 일정이 밀렸고, 엠비디는 희망 공모가를 9400~1만1500원에서 9600...",
+      "link": "https://biz.newdaily.co.kr/site/data/html/2026/09/30/2026093000046.html",
+      "originallink": "https://biz.newdaily.co.kr/site/data/html/2026/09/30/2026093000046.html",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-29T23:58:00.000Z"
+    },
+    {
+      "id": "913977e581279eef",
+      "keyword": "엘리스그룹",
+      "companyName": "엘리스그룹",
+      "title": "주춤했던 IPO 급반전… 새내기주 공모가 2배 웃돌아",
+      "description": "주가가 공모가의 두 배를 웃도는 사례가 잇따르는 상황이다. 다음달 추정 1조원 몸값의 엘리스그룹을 비롯해 내년까지 상장 추진 유니콘 기업들이 줄줄이 대기하면서 IPO 투자심리가 회복세를 이어갈지 주목된다....",
+      "link": "https://n.news.naver.com/mnews/article/014/0005582483?sid=101",
+      "originallink": "https://www.fnnews.com/news/202609291811115845",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-29T09:13:00.000Z"
+    },
+    {
+      "id": "4874098c1b5eb21d",
+      "keyword": "멜콘",
+      "companyName": "멜콘",
+      "title": "'마이너스 60%까지...' 신통찮은 IPO 헤지펀드 수익률, 9월 반전올까",
+      "description": "IPO 전후로 비상장 기업에 지분 투자를 하거나 공모주에 직접 투자하는 방식으로 수익을 거두고 있다. IPO... 오는 30일 방산·우주 분야에 항법 솔루션을 납품하는 덕산넵코어스, 내달 1일 반도체 장비 기업 멜콘...",
+      "link": "https://n.news.naver.com/mnews/article/008/0005419798?sid=101",
+      "originallink": "https://www.mt.co.kr/stock/2026/09/29/2026092916075567356",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-29T07:37:00.000Z"
+    },
+    {
+      "id": "282c6ca4fca82e7d",
+      "keyword": "엘리스그룹",
+      "companyName": "엘리스그룹",
+      "title": "[상장의 꿈] 'IPO 도전장' 엘리스그룹…시장 이목은 'AI PMDC'로",
+      "description": "수요예측은 다음달 1일까지로 엘리스그룹은 이후 7~8일 이틀간 일반청약에 돌입한다. 상장 주관사는 미래에셋증권, 삼성증권이다. 회사는 이번 공모에서 총 222만2000주 전량을 신주로 모집하며 희망 공모가는...",
+      "link": "http://www.newsdream.kr/news/articleView.html?idxno=119051",
+      "originallink": "http://www.newsdream.kr/news/articleView.html?idxno=119051",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-29T07:02:00.000Z"
+    },
+    {
+      "id": "8c17549917cfcfad",
+      "keyword": "인텔리빅스",
+      "companyName": "인텔리빅스",
+      "title": "10월 공모주 청약 러시…로봇·AI 줄줄이 상장",
+      "description": "이후 다비오와 유캐스트, 크리에이츠, 티앤이코리아, 인텔리빅스, 래블업, 영광, 이에스티, 에이엘로봇... 증권가에서는 8월 주춤했던 IPO 시장이 9월 들어 신규 상장과 공모 일정이 늘면서 다시 활기를 찾는 흐름에...",
+      "link": "https://n.news.naver.com/mnews/article/030/0003470768?sid=101",
+      "originallink": "https://www.etnews.com/20260929000204",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-29T06:02:00.000Z"
+    },
     {
       "id": "8b45a332f2c26f4c",
       "keyword": "엠에스바이오",
@@ -62,28 +128,6 @@
       "publishedAt": "2026-09-27T19:52:00.000Z"
     },
     {
-      "id": "4981e2cad0235300",
-      "keyword": "멜콘",
-      "companyName": "멜콘",
-      "title": "이번주 코스닥 시장에 4곳 상장…IPO 훈풍 기대감",
-      "description": "직후 '따상(공모가 2배 상장후 상한가)'기대감도 높이는 분위기다. 그동안 증시 하락으로 위축됐던 IPO... 달해 상장 당일 매도 물량도 적을 것으로 보고 있다. 한편, 이 외에도 반도체 장비 기업인 멜콘과 화장품...",
-      "link": "https://www.asiatoday.co.kr/kn/view.php?key=20260927010009391",
-      "originallink": "https://www.asiatoday.co.kr/kn/view.php?key=20260927010009391",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-27T08:26:00.000Z"
-    },
-    {
-      "id": "b1cebdf33dabf564",
-      "keyword": "디티에스",
-      "companyName": "디티에스",
-      "title": "이번주 코스닥 새내기 4곳 몰린다…엘리스그룹 등 3곳 수요예측",
-      "description": "공모가 상단 확정해 코스닥 입성 '중복상장 예외허용 1호' 디티에스 수요예측 돌입 서울 여의도 한국거래소 홍보관[출처: 연합뉴스 자료사진] (서울=연합인포맥스) 전병훈 기자 = 이번 주(9월 28일~10월 2일) 기업공개(IPO)...",
-      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436571",
-      "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436571",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-27T04:02:00.000Z"
-    },
-    {
       "id": "7c8a3be455df74ed",
       "keyword": "인텔리빅스",
       "companyName": "인텔리빅스",
@@ -93,17 +137,6 @@
       "originallink": "https://www.mk.co.kr/article/12161822",
       "provider": "뉴스 검색",
       "publishedAt": "2026-09-27T02:30:00.000Z"
-    },
-    {
-      "id": "5565fc1e88f05fa6",
-      "keyword": "디티에스",
-      "companyName": "디티에스",
-      "title": "[이번주 IPO]10월 첫째 주 수요예측·청약 일정",
-      "description": "최종 공모가를 확정하고 10월 12일과 13일 일반투자자 청약을 거쳐 10월 중 코스닥시장 상장을 목표로 하고 있다. 대표 주관사는 KB증권이다. ◆디티에스= 2000년 설립된 디티에스는 발전·LNG·석유화학 플랜트에...",
-      "link": "https://n.news.naver.com/mnews/article/277/0005821057?sid=101",
-      "originallink": "https://view.asiae.co.kr/article/2026092310304521577",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-26T23:00:00.000Z"
     },
     {
       "id": "70e0938ef9d9a1a1",
@@ -128,37 +161,15 @@
       "publishedAt": "2026-09-25T04:00:00.000Z"
     },
     {
-      "id": "dcbda175f35df9fe",
-      "keyword": "인텔리빅스",
-      "companyName": "인텔리빅스",
-      "title": "공모가 밑돌던 8월과 '딴판'...와이즈플래닛·네오사피엔스 3배↑",
-      "description": "희망 공모가는 1만7000~1만8500원, 공모 예정 금액은 379억~412억원이다. 인텔리빅스는 12~16일 수요예측, 21... 유진투자증권은 9월 IPO 기업 수를 9~11곳, 공모금액을 4000억~4500억원, 상장 시가총액을 2조1000억~2조7000억원...",
-      "link": "http://www.newsian.co.kr/news/articleView.html?idxno=95988",
-      "originallink": "http://www.newsian.co.kr/news/articleView.html?idxno=95988",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-25T03:10:00.000Z"
-    },
-    {
       "id": "e0d2942d7b754d9c",
-      "keyword": "인텔리빅스",
-      "companyName": "인텔리빅스",
+      "keyword": "티앤이코리아",
+      "companyName": "티앤이코리아",
       "title": "[리스트업] 2026Y 'Q1 ~ Q4' 주요 IPO 공모주 (국내·주관사)",
-      "description": "주요 공모주 (상장 완료 및 진행 중) > 스카이랩스 : 8월 26일 ~ 27일 @ 한국투자증권 네오사피엔스 : 9월... 한화투자증권 인텔리빅스 : 10월 21일 ~ 22일 @ 미래에셋증권 영광 : 10월 22일 ~ 23일 @ 한국투자증권...",
+      "description": "주요 공모주 (상장 완료 및 진행 중) > 스카이랩스 : 8월 26일 ~ 27일 @ 한국투자증권 네오사피엔스 : 9월... 삼성증권 티앤이코리아 : 10월 20일 ~ 21일 @ 신한투자증권 한화플러스스팩6호 : 10월 20일 ~ 21일...",
       "link": "http://www.economytalk.kr/news/articleView.html?idxno=424324",
       "originallink": "http://www.economytalk.kr/news/articleView.html?idxno=424324",
       "provider": "뉴스 검색",
       "publishedAt": "2026-09-24T03:40:00.000Z"
-    },
-    {
-      "id": "cbb43a6a38264565",
-      "keyword": "크리에이츠",
-      "companyName": "크리에이츠",
-      "title": "추석 연휴 이후 '공모주 홍수'...가뭄 딛고 막판 러시",
-      "description": "추석 연휴가 끝나고 4분기 공모주 시장이 본격 개막하면서 연말까지 IPO 기업이 쏟아질 전망이다. 올해... 전문기업 크리에이츠 등이 대표적이다. 모자회사 동시 상장(중복상장) 이슈로 주목받은 디티에스도 공모에...",
-      "link": "https://n.news.naver.com/mnews/article/015/0005335870?sid=101",
-      "originallink": "https://www.hankyung.com/article/202609233282r",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-24T01:01:00.000Z"
     },
     {
       "id": "70474102ae821b3b",
@@ -172,28 +183,6 @@
       "publishedAt": "2026-09-23T14:14:00.000Z"
     },
     {
-      "id": "d110144f19b44ec9",
-      "keyword": "다비오",
-      "companyName": "다비오",
-      "title": "'연전연승' 대신증권, 하반기 IPO 시장에 온기 불어넣나",
-      "description": "중복상장 규제 강화와 증시 변동성 확대로 IPO 기업에 대한 투자자들의 경계감이 커졌다. 공모가 산정에도... 대신증권은 현재 디티에스와 에이엘로봇, 이에스티와 다비오의 증권신고서를 제출했다. 이들 중 다수가...",
-      "link": "https://www.the-stock.kr/news/articleView.html?idxno=33433",
-      "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=33433",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-23T00:12:00.000Z"
-    },
-    {
-      "id": "d4f880269fcb2205",
-      "keyword": "티앤이코리아",
-      "companyName": "티앤이코리아",
-      "title": "신한투자증권, IPO 상장 이어갔지만 후속 물량 '뚝'",
-      "description": "올해 상장 예비심사 청구 기업 가운데 티앤이코리아는 예비심사를 통과했으나 아직 공모 절차에 들어가지 않았고, 태석광학은 심사가 진행 중이다. 신한투자증권의 파이프라인 약화는 지난해 IPO 조직을 재편한 이후...",
-      "link": "https://www.kbanker.co.kr/news/articleView.html?idxno=225986",
-      "originallink": "https://www.kbanker.co.kr/news/articleView.html?idxno=225986",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-21T05:42:00.000Z"
-    },
-    {
       "id": "5ebc962a6cf06d33",
       "keyword": "유캐스트",
       "companyName": "유캐스트",
@@ -203,17 +192,6 @@
       "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609111452136120108746",
       "provider": "뉴스 검색",
       "publishedAt": "2026-09-15T22:02:00.000Z"
-    },
-    {
-      "id": "f7f8a0605e89bdea",
-      "keyword": "크리에이츠",
-      "companyName": "크리에이츠",
-      "title": "크리에이츠, 상장 재도전에 '50% 할인율' 승부수…시총 최대 2361억 제시",
-      "description": "따르면 크리에이츠는 최근 금융위원회에 코스닥 상장을 위한 증권신고서를 제출했다. 희망 공모가... 확보하고 공모 성공률을 높이기 위해 57.48~48.98%에 달하는 할인율을 적용했다. 통상 IPO 기업은 산정한...",
-      "link": "https://n.news.naver.com/mnews/article/015/0005331237?sid=101",
-      "originallink": "https://www.hankyung.com/article/202609081266r",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-11T00:53:00.000Z"
     },
     {
       "id": "997c9eb441d97a17",
@@ -280,17 +258,6 @@
       "originallink": "http://www.edaily.co.kr/news/newspath.asp?newsid=01207046635707320",
       "provider": "뉴스 검색",
       "publishedAt": "2023-08-13T21:52:00.000Z"
-    },
-    {
-      "id": "8be534f88d250d19",
-      "keyword": "티앤이코리아",
-      "companyName": "티앤이코리아",
-      "title": "대성하이텍, \"소부장 기업 중 가장 높은 영업이익률 자신\"",
-      "description": "기업공개(IPO) 기자간담회를 열고 상장 후 성장 계획과 비전을 발표했다. 1995년 설립된 대성하이텍은... 수소차 핵심 부품인 수소차 샤프트의 경우 티앤이코리아에 전략적 투자를 단행하고 제작 중에 있다. 최 대표에...",
-      "link": "http://www.newsprime.co.kr/news/article.html?no=575780",
-      "originallink": "http://www.newsprime.co.kr/news/article.html?no=575780",
-      "provider": "뉴스 검색",
-      "publishedAt": "2022-08-04T08:22:00.000Z"
     },
     {
       "id": "13e1418cae7c35c4",

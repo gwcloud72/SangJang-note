@@ -1,10 +1,10 @@
 {
   "metadata": {
     "source": "gemini-briefings-mixed",
-    "generatedAt": "2026-10-01T01:43:05.946Z",
+    "generatedAt": "2026-10-01T06:08:34.200Z",
     "model": "gemini-2.5-flash",
     "itemCount": 8,
-    "geminiUsed": 1,
+    "geminiUsed": 2,
     "cacheUsed": 2,
     "policy": "회사 설명, IPO 단계, 일정, 경쟁률 뉴스 언급, 원문 확인 포인트만 표시합니다. 투자 판단 표현은 제외합니다."
   },
@@ -129,8 +129,8 @@
         "주관사 확인"
       ],
       "competition": null,
-      "generatedBy": "gemini",
-      "model": "gemini-2.5-flash"
+      "generatedBy": "local-rules",
+      "model": null
     },
     {
       "id": "briefing-에스케이증권제14호기업인수목적",
@@ -178,8 +178,8 @@
         "주관사 확인"
       ],
       "competition": null,
-      "generatedBy": "local-rules",
-      "model": null
+      "generatedBy": "gemini",
+      "model": "gemini-2.5-flash"
     },
     {
       "id": "briefing-유캐스트",
@@ -202,8 +202,8 @@
         "주관사 확인"
       ],
       "competition": null,
-      "generatedBy": "local-rules",
-      "model": null
+      "generatedBy": "gemini",
+      "model": "gemini-2.5-flash"
     }
   ]
 }

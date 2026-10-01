@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "updatedAt": "2026-10-01T01:43:05.944Z",
+    "updatedAt": "2026-10-01T06:08:34.199Z",
     "source": "gemini-briefing-cache"
   },
   "items": [
@@ -1124,18 +1124,18 @@
       "updatedAt": "2026-09-29T13:05:05.127Z"
     },
     {
-      "key": "729f6cde6e0c68ed128d7f88",
+      "key": "01496f1ccc66c7d192c3381b",
       "model": "gemini-2.5-flash",
       "briefing": {
-        "id": "briefing-디티에스",
-        "ipoId": "디티에스",
-        "companyName": "디티에스",
+        "id": "briefing-다비오",
+        "ipoId": "다비오",
+        "companyName": "다비오",
         "sector": "IPO 일정 확인 대상 기업",
         "ipoStage": "청약 예정",
         "underwriter": "주관사 확인",
         "basisTimeLabel": "오늘 09:30 기준",
         "oneLine": "IPO 일정 확인 대상 기업",
-        "body": "디티에스는 IPO 일정 확인 대상 기업입니다. 10.13 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 10.16, 변경 여부를 함께 확인합니다.",
+        "body": "다비오는 IPO 일정 확인 대상 기업입니다. 10.19 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 10.22, 변경 여부를 함께 확인합니다.",
         "points": [
           "청약 시작·마감일 확인",
           "환불일 확인",
@@ -1143,14 +1143,43 @@
         ],
         "sourceLabels": [
           "DART 일정",
-          "환불일 10.16",
+          "환불일 10.22",
           "주관사 확인"
         ],
         "competition": null,
         "generatedBy": "local-rules",
         "model": null
       },
-      "updatedAt": "2026-10-01T01:42:27.460Z"
+      "updatedAt": "2026-10-01T06:08:14.037Z"
+    },
+    {
+      "key": "d9b1e165f8058ca872ffe489",
+      "model": "gemini-2.5-flash",
+      "briefing": {
+        "id": "briefing-유캐스트",
+        "ipoId": "유캐스트",
+        "companyName": "유캐스트",
+        "sector": "IPO 일정 확인 대상 기업",
+        "ipoStage": "청약 예정",
+        "underwriter": "주관사 확인",
+        "basisTimeLabel": "오늘 09:30 기준",
+        "oneLine": "IPO 일정 확인 대상 기업",
+        "body": "유캐스트는 IPO 일정 확인 대상 기업입니다. 10.19 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
+        "points": [
+          "청약 시작·마감일 확인",
+          "환불일 확인",
+          "정정 공시 여부 확인"
+        ],
+        "sourceLabels": [
+          "DART 일정",
+          "환불일 확인",
+          "주관사 확인"
+        ],
+        "competition": null,
+        "generatedBy": "local-rules",
+        "model": null
+      },
+      "updatedAt": "2026-10-01T06:08:34.198Z"
     }
   ]
 }

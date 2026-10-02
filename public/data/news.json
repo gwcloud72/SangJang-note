@@ -1,11 +1,55 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-10-01T01:41:04.009Z",
+    "updatedAt": "2026-10-02T01:32:38.252Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "78b9f7a7b33da1b2",
+      "keyword": "티앤이코리아",
+      "companyName": "티앤이코리아",
+      "title": "10월 IPO시장 '공모주 홍수' 예고 AI·반도체 대어 출격…20여개 기업 청...",
+      "description": "신규 상장한 종목 수는 총 17개로 집계돼 전년 동기 대비 50% 이상 급감했다. 같은 기간 총 공모금액 역시... 이 밖에도 △멜콘 △진코스텍 △엠에스바이오 △디티에스 △다비오 △크리에이츠 △티앤이코리아...",
+      "link": "https://www.pointdaily.co.kr/news/articleView.html?idxno=321062",
+      "originallink": "https://www.pointdaily.co.kr/news/articleView.html?idxno=321062",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-01T08:32:00.000Z"
+    },
+    {
+      "id": "d853b9040e76977e",
+      "keyword": "디티에스",
+      "companyName": "디티에스",
+      "title": "[장외시황] 멜콘, 공모주 청약 진행",
+      "description": "상장 주관사는 한국투자증권이고, 총 240만주를 공모할 예정이다. 특수목적용 기계 제조기업 디티에스가... IPO(기업공개)관련 상장 예비심사 청구종목으로 펩타이드 신약 개발업체 노바셀테크놀로지는 전 거래일과...",
+      "link": "https://www.etoday.co.kr/news/view/2631631",
+      "originallink": "https://www.etoday.co.kr/news/view/2631631",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-01T07:28:00.000Z"
+    },
+    {
+      "id": "74914b21c49211a8",
+      "keyword": "크리에이츠",
+      "companyName": "크리에이츠",
+      "title": "반토막 난 올해 IPO…4분기 부활 조짐 보이나",
+      "description": "올해 3분기까지 국내 IPO(기업공개) 시장 신규 상장사와 공모액이 전년 대비 반토막 수준으로 급감한... 이밖에도 디티에스·유캐스트·다비오·크리에이츠·티엔이코리아·인텔리박스·영광·이에스티·래블업...",
+      "link": "https://n.news.naver.com/mnews/article/008/0005421159?sid=101",
+      "originallink": "https://www.mt.co.kr/stock/2026/10/01/2026100115532258662",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-01T07:13:00.000Z"
+    },
+    {
+      "id": "fb6172c6c3a64402",
+      "keyword": "인텔리빅스",
+      "companyName": "인텔리빅스",
+      "title": "4분기 IPO 시장 기지개…KB증권 \"몸값 1조 '엘리스그룹' 주목\"",
+      "description": "기업 인텔리빅스, AI 인프라 소프트웨어 업체 래블업 등이 대기 중이다. 엘리스그룹은 오는 7~8일 공모... 솔루션 해외 진출을 가속화할 계획”이라고 밝혔다. #IPO, #엘리스그룹, #상장예비심사 서재필 글로벌이코노믹 기자",
+      "link": "https://www.g-enews.com/view.php?ud=202610011506133783923c501012_1",
+      "originallink": "https://www.g-enews.com/view.php?ud=202610011506133783923c501012_1",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-01T06:18:00.000Z"
+    },
     {
       "id": "e6e9cbc8bf9c7601",
       "keyword": "멜콘",
@@ -21,7 +65,7 @@
       "id": "8383baa8457ee1e6",
       "keyword": "엘리스그룹",
       "companyName": "엘리스그룹",
-      "title": "몸값 1조 '엘리스그룹' IPO 시장 녹일까",
+      "title": "몸값 1조 '엘리스그룹' IPO 도전",
       "description": "지난달 상장한 새내기주들이 모두 공모가를 웃도는 수익률을 거두면서 엘리스그룹 IPO(기업공개)에 대한 기대감도 커지고 있다. 1일 금융투자업계에 따르면 엘리스그룹은 기관 투자자 대상 수요예측을 이날까지...",
       "link": "http://www.smedaily.co.kr/news/articleView.html?idxno=363981",
       "originallink": "http://www.smedaily.co.kr/news/articleView.html?idxno=363981",
@@ -51,28 +95,6 @@
       "publishedAt": "2026-09-30T22:00:00.000Z"
     },
     {
-      "id": "02c198e1bce4e8b7",
-      "keyword": "엘리스그룹",
-      "companyName": "엘리스그룹",
-      "title": "[IPO 돋보기] 조 단위 시총 노리는 '엘리스그룹'...밸류 인정 받을까",
-      "description": "희망공모가에 의한 엘리스그룹이 IPO로 조달하는 자금은 최소 1564억원에서 최대 2011억원이다. 대표 상장주관사로 미래에셋증권이 나섰으며, 삼성증권이 공동주관사로 참여한다. 회사는 IPO로 조달한 자금을...",
-      "link": "https://www.news2day.co.kr/article/20260930500137",
-      "originallink": "https://www.news2day.co.kr/article/20260930500137",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-30T21:32:00.000Z"
-    },
-    {
-      "id": "5ac436c0e22cd597",
-      "keyword": "엘리스그룹",
-      "companyName": "엘리스그룹",
-      "title": "엘리스그룹, 10월 코스닥 상장…최대 2011억원 조달해 AI 데이터센터 확...",
-      "description": "코스닥 상장 기자간담회에서 이같이 말했다. 엘리스그룹은 공모자금을 권역별... 엘리스그룹은 이번 IPO에서 222만2000주를 전량 신주로 공모한다. 희망 공모가는 7만400...",
-      "link": "https://www.venturesquare.net/1117073/",
-      "originallink": "https://www.venturesquare.net/1117073/",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-30T13:50:00.000Z"
-    },
-    {
       "id": "6aa2f794159b9d67",
       "keyword": "한화플러스제6호기업인수목적",
       "companyName": "한화플러스제6호기업인수목적",
@@ -93,17 +115,6 @@
       "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=33471",
       "provider": "뉴스 검색",
       "publishedAt": "2026-09-30T01:54:00.000Z"
-    },
-    {
-      "id": "40fdfc3d82aa3218",
-      "keyword": "멜콘",
-      "companyName": "멜콘",
-      "title": "멜콘, 공모가 1만2300원 확정…기관 경쟁률 1136.84대 1",
-      "description": "전문기업 멜콘이 기업공개(IPO) 수요예측에서 희망밴드 상단으로 공모가를 확정했다. 멜콘은 국내외... 이에 따른 총 공모금액은 약 308억원, 상장 후 예상 시가총액은 약 1550억원이다. 의무보유확약 신청...",
-      "link": "https://www.cnbizm.com/news/articleView.html?idxno=316504",
-      "originallink": "https://www.cnbizm.com/news/articleView.html?idxno=316504",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-30T00:18:00.000Z"
     },
     {
       "id": "1c43c569ce487847",
@@ -128,17 +139,6 @@
       "publishedAt": "2026-09-29T06:02:00.000Z"
     },
     {
-      "id": "8b45a332f2c26f4c",
-      "keyword": "엠에스바이오",
-      "companyName": "엠에스바이오",
-      "title": "[증권 Pick] 이번주 IPO 일정 모아보기",
-      "description": "신규 상장과 함께 공모 일정도 이어진다. 반도체 포토공정 환경제어 장비업체 멜콘은 다음달 1~2일... 기관 수요예측에서는 재생의료 플랫폼 기업 엠에스바이오와 인공지능 교육·소프트웨어 기업 엘리스그룹...",
-      "link": "https://www.lcnews.co.kr/news/articleView.html?idxno=208904",
-      "originallink": "https://www.lcnews.co.kr/news/articleView.html?idxno=208904",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-28T06:14:00.000Z"
-    },
-    {
       "id": "5f805aa4d568acde",
       "keyword": "인텔리빅스",
       "companyName": "인텔리빅스",
@@ -150,28 +150,6 @@
       "publishedAt": "2026-09-28T01:41:00.000Z"
     },
     {
-      "id": "6fe1aafb373cacc3",
-      "keyword": "인텔리빅스",
-      "companyName": "인텔리빅스",
-      "title": "[인텔리빅스 IPO] ③'PER'로 몸값 산정, 흑자가 이뤄낸 성과",
-      "description": "FETV는 실적 개선 배경과 IPO 전략, 상장 이후 피지컬AI 등을 중심으로 인텔리빅스의 로드맵을 짚어본다.... 실제 이익을 기준으로 몸값을 산정하면서도 희망 공모가는 평가가액보다 낮게 제시해 성장 기대와 투자...",
-      "link": "https://www.fetv.co.kr/news/articleView.html?idxno=310673",
-      "originallink": "https://www.fetv.co.kr/news/articleView.html?idxno=310673",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-27T22:00:00.000Z"
-    },
-    {
-      "id": "70e0938ef9d9a1a1",
-      "keyword": "크리에이츠",
-      "companyName": "크리에이츠",
-      "title": "추석 끝나면 IPO 청약 줄줄이…눈여겨볼 새내기주는",
-      "description": "희망 공모가는 다비오 1만2300~1만6600원, 유캐스트 2만1000~2만6000원, 크리에이츠 1만5000~1만8000원이다. 다음달 다양한 공모주들이 청약에 나서지만 투자심리가 모든 기업에 고르게 향할지는 미지수다. 상장 직후...",
-      "link": "https://www.newsway.co.kr/news/view?ud=2026092215495140047",
-      "originallink": "https://www.newsway.co.kr/news/view?ud=2026092215495140047",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-25T23:08:00.000Z"
-    },
-    {
       "id": "ed0046d1a01ed29e",
       "keyword": "티앤이코리아",
       "companyName": "티앤이코리아",
@@ -181,17 +159,6 @@
       "originallink": "https://www.ekn.kr/web/view.php?key=20260916027515489",
       "provider": "뉴스 검색",
       "publishedAt": "2026-09-25T04:00:00.000Z"
-    },
-    {
-      "id": "e0d2942d7b754d9c",
-      "keyword": "티앤이코리아",
-      "companyName": "티앤이코리아",
-      "title": "[리스트업] 2026Y 'Q1 ~ Q4' 주요 IPO 공모주 (국내·주관사)",
-      "description": "주요 공모주 (상장 완료 및 진행 중) > 스카이랩스 : 8월 26일 ~ 27일 @ 한국투자증권 네오사피엔스 : 9월... 삼성증권 티앤이코리아 : 10월 20일 ~ 21일 @ 신한투자증권 한화플러스스팩6호 : 10월 20일 ~ 21일...",
-      "link": "http://www.economytalk.kr/news/articleView.html?idxno=424324",
-      "originallink": "http://www.economytalk.kr/news/articleView.html?idxno=424324",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-24T03:40:00.000Z"
     },
     {
       "id": "d95bdaacdcc47a05",

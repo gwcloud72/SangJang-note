@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "updatedAt": "2026-10-01T13:30:47.371Z",
+    "updatedAt": "2026-10-02T01:34:21.956Z",
     "source": "gemini-briefing-cache"
   },
   "items": [
@@ -1209,6 +1209,64 @@
         "model": null
       },
       "updatedAt": "2026-10-01T13:30:47.370Z"
+    },
+    {
+      "key": "eb264df6cc587f8254455ba8",
+      "model": "gemini-2.5-flash",
+      "briefing": {
+        "id": "briefing-진코스텍",
+        "ipoId": "진코스텍",
+        "companyName": "진코스텍",
+        "sector": "IPO 일정 확인 대상 기업",
+        "ipoStage": "청약 진행중",
+        "underwriter": "주관사 확인",
+        "basisTimeLabel": "오늘 09:30 기준",
+        "oneLine": "IPO 일정 확인 대상 기업",
+        "body": "진코스텍은 IPO 일정 확인 대상 기업입니다. 10.02 일정 기준으로 청약 진행중 단계라 원문 일정과 변경 여부를 함께 확인합니다.",
+        "points": [
+          "청약 시작·마감일 확인",
+          "환불일 확인",
+          "정정 공시 여부 확인"
+        ],
+        "sourceLabels": [
+          "DART 일정",
+          "환불일 10.08",
+          "주관사 확인"
+        ],
+        "competition": null,
+        "generatedBy": "local-rules",
+        "model": null
+      },
+      "updatedAt": "2026-10-02T01:33:15.365Z"
+    },
+    {
+      "key": "c3a534979975c9d1707e2a4e",
+      "model": "gemini-2.5-flash",
+      "briefing": {
+        "id": "briefing-엠에스바이오",
+        "ipoId": "엠에스바이오",
+        "companyName": "엠에스바이오",
+        "sector": "IPO 일정 확인 대상 기업",
+        "ipoStage": "청약 예정",
+        "underwriter": "주관사 확인",
+        "basisTimeLabel": "오늘 09:30 기준",
+        "oneLine": "IPO 일정 확인 대상 기업",
+        "body": "엠에스바이오는 IPO 일정 확인 대상 기업입니다. 10.12 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 10.15, 변경 여부를 함께 확인합니다.",
+        "points": [
+          "청약 시작·마감일 확인",
+          "환불일 확인",
+          "정정 공시 여부 확인"
+        ],
+        "sourceLabels": [
+          "DART 일정",
+          "환불일 10.15",
+          "주관사 확인"
+        ],
+        "competition": null,
+        "generatedBy": "local-rules",
+        "model": null
+      },
+      "updatedAt": "2026-10-02T01:33:50.669Z"
     }
   ]
 }

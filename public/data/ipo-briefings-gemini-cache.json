@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "updatedAt": "2026-10-02T01:34:21.956Z",
+    "updatedAt": "2026-10-02T05:50:51.026Z",
     "source": "gemini-briefing-cache"
   },
   "items": [
@@ -1237,7 +1237,7 @@
         "generatedBy": "local-rules",
         "model": null
       },
-      "updatedAt": "2026-10-02T01:33:15.365Z"
+      "updatedAt": "2026-10-02T05:50:08.539Z"
     },
     {
       "key": "c3a534979975c9d1707e2a4e",
@@ -1266,7 +1266,7 @@
         "generatedBy": "local-rules",
         "model": null
       },
-      "updatedAt": "2026-10-02T01:33:50.669Z"
+      "updatedAt": "2026-10-02T05:50:33.377Z"
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "metadata": {
     "source": "FRED",
-    "updatedAt": "2026-10-02T01:42:24.661Z",
-    "generatedAt": "2026-10-02T01:42:24.661Z",
+    "updatedAt": "2026-10-03T01:36:35.931Z",
+    "generatedAt": "2026-10-03T01:36:35.931Z",
     "seriesCount": 4
   },
   "items": [
@@ -119,17 +119,13 @@
       "seriesId": "DGS10",
       "koreanName": "미국 10년물 국채금리",
       "unit": "%",
-      "latestDate": "2026-09-30",
-      "latestValue": 5.29,
-      "previousDate": "2026-09-29",
-      "previousValue": 5.26,
-      "change": 0.03,
-      "changeRate": 0.57,
+      "latestDate": "2026-10-01",
+      "latestValue": 5.24,
+      "previousDate": "2026-09-30",
+      "previousValue": 5.29,
+      "change": -0.05,
+      "changeRate": -0.95,
       "observations": [
-        {
-          "date": "2026-08-27",
-          "value": 4.67
-        },
         {
           "date": "2026-08-28",
           "value": 4.73
@@ -221,6 +217,10 @@
         {
           "date": "2026-09-30",
           "value": 5.29
+        },
+        {
+          "date": "2026-10-01",
+          "value": 5.24
         }
       ]
     },
@@ -337,17 +337,13 @@
       "seriesId": "UNRATE",
       "koreanName": "미국 실업률",
       "unit": "%",
-      "latestDate": "2026-08-01",
-      "latestValue": 4.1,
-      "previousDate": "2026-07-01",
+      "latestDate": "2026-09-01",
+      "latestValue": 4.2,
+      "previousDate": "2026-08-01",
       "previousValue": 4.1,
-      "change": 0,
-      "changeRate": 0,
+      "change": 0.1,
+      "changeRate": 2.44,
       "observations": [
-        {
-          "date": "2024-08-01",
-          "value": 4.2
-        },
         {
           "date": "2024-09-01",
           "value": 4.1
@@ -439,6 +435,10 @@
         {
           "date": "2026-08-01",
           "value": 4.1
+        },
+        {
+          "date": "2026-09-01",
+          "value": 4.2
         }
       ]
     }

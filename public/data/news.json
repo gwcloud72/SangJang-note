@@ -1,11 +1,33 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-10-04T00:59:42.900Z",
+    "updatedAt": "2026-10-05T00:40:20.509Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "c558dee8c39a8706",
+      "keyword": "티앤이코리아",
+      "companyName": "티앤이코리아",
+      "title": "진코스텍·엘리스그룹 일반청약[증시캘린더]",
+      "description": "이번 주(10월 5~9일) 기업공개(IPO) 시장에서는 진코스텍, 엘리스그룹이 일반청약에 나선다. 다비오, 티앤이코리아는 수요예측을 진행하며 상장하는 기업은 없다. 10월 2~6일 △진코스텍 일반청약 -하이드로겔...",
+      "link": "https://n.news.naver.com/mnews/article/018/0006381032?sid=101",
+      "originallink": "https://www.edaily.co.kr/News/Read?newsId=01630166645609968&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-05T00:02:00.000Z"
+    },
+    {
+      "id": "38290beadc28afc3",
+      "keyword": "티앤이코리아",
+      "companyName": "티앤이코리아",
+      "title": "이틀 연휴 낀 이번 주 IPO…수요예측·청약 각각 2곳 예정",
+      "description": "이번 주(10월 6~8일) 기업공개(IPO) 시장에서는 티앤이코리아가 코스닥 상장을 위한 수요예측에 새롭게... 공모가 희망밴드는 1만2천600~1만5천300원이며, 상장 주관사는 신한투자증권이다. 공랭식 열교환기 제조사...",
+      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4437718",
+      "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4437718",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-04T04:02:00.000Z"
+    },
     {
       "id": "9496407477ac610a",
       "keyword": "인텔리빅스",
@@ -63,10 +85,10 @@
     },
     {
       "id": "b9f9ca7669edae38",
-      "keyword": "티앤이코리아",
-      "companyName": "티앤이코리아",
+      "keyword": "유캐스트",
+      "companyName": "유캐스트",
       "title": "[IPO챗] 디티에스 등 4개사 수요예측…2개사 공모주 청약",
-      "description": "다음 주 국내 증시는 거래일이 사흘(6∼8일)에 그치지만 기업공개(IPO) 시장에서는 4개 기업이 기관투자자... ▲티앤이코리아, 코스닥, 1만2천600∼1만5천300원(10월 16일 확정 예정), 7∼14일, 공모주 청약 20∼21일...",
+      "description": "다음 주 국내 증시는 거래일이 사흘(6∼8일)에 그치지만 기업공개(IPO) 시장에서는 4개 기업이 기관투자자 대상 수요예측을 진행하는 등 공모 일정이 이어진다. 3일 금융투자업계에 따르면 디티에스는 오는 8일까지...",
       "link": "https://n.news.naver.com/mnews/article/001/0016355086?sid=101",
       "originallink": "https://www.yna.co.kr/view/AKR20261002074300008?input=1195m",
       "provider": "뉴스 검색",
@@ -106,17 +128,6 @@
       "publishedAt": "2026-10-02T07:31:00.000Z"
     },
     {
-      "id": "814383df0256fd45",
-      "keyword": "진코스텍",
-      "companyName": "진코스텍",
-      "title": "[공모주 현황] 진코스텍 1일차 마무리, 균등·비례 얼마?…2일차 일정에...",
-      "description": "IPO 자료사진. AI가 생성한 이미지. 공모주 진코스텍의 일반투자자 대상 청약 1일차 일정이 2일 오후 4시를... 상장 첫날 진코스텍이 공모가 2만3500원을 기준으로 어떤 움직임을 나타낼지가 관전 포인트라고 할 수 있다....",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=611940",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=611940",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-02T07:04:00.000Z"
-    },
-    {
       "id": "b41aabdfeb5135d1",
       "keyword": "멜콘",
       "companyName": "멜콘",
@@ -129,8 +140,8 @@
     },
     {
       "id": "78b9f7a7b33da1b2",
-      "keyword": "티앤이코리아",
-      "companyName": "티앤이코리아",
+      "keyword": "크리에이츠",
+      "companyName": "크리에이츠",
       "title": "10월 IPO시장 '공모주 홍수' 예고 AI·반도체 대어 출격…20여개 기업 청...",
       "description": "신규 상장한 종목 수는 총 17개로 집계돼 전년 동기 대비 50% 이상 급감했다. 같은 기간 총 공모금액 역시... 이 밖에도 △멜콘 △진코스텍 △엠에스바이오 △디티에스 △다비오 △크리에이츠 △티앤이코리아...",
       "link": "https://www.pointdaily.co.kr/news/articleView.html?idxno=321062",

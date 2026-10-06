@@ -1,11 +1,66 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-10-05T00:40:20.509Z",
+    "updatedAt": "2026-10-06T02:40:10.720Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "c1e67d485508ddcc",
+      "keyword": "인텔리빅스",
+      "companyName": "인텔리빅스",
+      "title": "10월 공모주 쏟아진다···'7연승'에 릴레이 청약 열풍 펼쳐지나",
+      "description": "9월 이후 상장한 IPO기업 7곳 모두 상장 첫날 종가 기준 공모가를 웃돌면서 최근 공모주 시장 열기는... 다비오가 19~20일, 티앤이코리아와 크리에이츠가 각각 20~21일, 인텔리빅스가 21~22일 청약에 나선다. 래블업과...",
+      "link": "https://www.sisajournal-e.com/news/articleView.html?idxno=424132",
+      "originallink": "https://www.sisajournal-e.com/news/articleView.html?idxno=424132",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-06T01:18:00.000Z"
+    },
+    {
+      "id": "49cf2e079b3820dd",
+      "keyword": "크리에이츠",
+      "companyName": "크리에이츠",
+      "title": "중소형 IPO 활기…삼성證, 빅3 누르고 1위 차지 [시그널]",
+      "description": "기업들의 IPO를 도왔다. 엘리스그룹, 크리에이츠, 동원파츠, 제논 등도 상장을 코앞에 두고 있어 사상 처음으로 연간 리그테이블 1위에 도전한다. 5일 서울경제 시그널 리그테이블에 따르면 올해 3분기 공모 규모는...",
+      "link": "https://n.news.naver.com/mnews/article/011/0004668353?sid=101",
+      "originallink": "https://www.sedaily.com/article/20098021?ref=naver",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-05T21:01:00.000Z"
+    },
+    {
+      "id": "b4feaffb024939e1",
+      "keyword": "인텔리빅스",
+      "companyName": "인텔리빅스",
+      "title": "[N2 포커스] 10월 IPO 러시…공모시장 회복 불씨 살릴까",
+      "description": "이달 공모 일정 집중…AI·로봇 기업 잇단 출격 중대형급 가세…하반기 IPO 회복 기대 확산 3분기 상장... 추가 상장이 예상된다. 월말로 갈수록 공모 일정은 더욱 촘촘해진다. 티앤이코리아와 크리에이츠, 인텔리빅스...",
+      "link": "https://www.news2day.co.kr/article/20261005500059",
+      "originallink": "https://www.news2day.co.kr/article/20261005500059",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-05T19:18:00.000Z"
+    },
+    {
+      "id": "c46040454e6b3752",
+      "keyword": "티앤이코리아",
+      "companyName": "티앤이코리아",
+      "title": "[IPO 워치] 진코스텍·엘리스그룹 청약…수요예측 4곳",
+      "description": "첫째 주(거래일 기준 6~9일) 기업공개(IPO) 시장에서는 진코스텍과 엘리스그룹이 일반투자자 대상 공모주 청약을 진행한다. 기관투자자 대상 수요예측에는 디티에스와 티앤이코리아, 다비오, 유캐스트 등 4개 기업이...",
+      "link": "https://www.news2day.co.kr/article/20261005500020",
+      "originallink": "https://www.news2day.co.kr/article/20261005500020",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-05T19:18:00.000Z"
+    },
+    {
+      "id": "90bff3f6798876cf",
+      "keyword": "티앤이코리아",
+      "companyName": "티앤이코리아",
+      "title": "IPO 시장 다시 달아오른다...엘리스그룹 청약·4개사 수요예측 출격",
+      "description": "가운데 티앤이코리아와 다비오, 유캐스트가 오는 7일부터 나란히 기관 평가에 들어간다. 엘리스그룹과 진코스텍은 일반투자자를 대상으로 공모주 청약을 진행한다. 5일 금융투자업계에 따르면 이번 주 IPO...",
+      "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=492700",
+      "originallink": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=492700",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-05T06:18:00.000Z"
+    },
     {
       "id": "c558dee8c39a8706",
       "keyword": "티앤이코리아",
@@ -19,10 +74,10 @@
     },
     {
       "id": "38290beadc28afc3",
-      "keyword": "티앤이코리아",
-      "companyName": "티앤이코리아",
+      "keyword": "디티에스",
+      "companyName": "디티에스",
       "title": "이틀 연휴 낀 이번 주 IPO…수요예측·청약 각각 2곳 예정",
-      "description": "이번 주(10월 6~8일) 기업공개(IPO) 시장에서는 티앤이코리아가 코스닥 상장을 위한 수요예측에 새롭게... 공모가 희망밴드는 1만2천600~1만5천300원이며, 상장 주관사는 신한투자증권이다. 공랭식 열교환기 제조사...",
+      "description": "기업공개(IPO) 시장에서는 티앤이코리아가 코스닥 상장을 위한 수요예측에 새롭게 나선다. 지난주 수요예측을 시작한 디티에스를 포함하면 이번 주 수요예측을 진행하는 기업은 총 2곳이다. 일반 청약은 진코스텍과...",
       "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4437718",
       "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4437718",
       "provider": "뉴스 검색",
@@ -40,59 +95,15 @@
       "publishedAt": "2026-10-03T23:01:00.000Z"
     },
     {
-      "id": "b7da17407208b176",
-      "keyword": "엘리스그룹",
-      "companyName": "엘리스그룹",
-      "title": "이번주 공모주 청약, 엘리스그룹 1개사",
-      "description": "둘째 주 기업공개(IPO) 시장에서는 인공지능(AI) 풀스택 기업 엘리스그룹 1개사가 일반투자자 대상 공모주... 따르면 엘리스그룹은 오는 7일과 8일 양일 동안 일반투자자 대상으로 공모 청약에 나선다. 상장 대표...",
-      "link": "https://n.news.naver.com/mnews/article/119/0003139324?sid=101",
-      "originallink": "https://www.dailian.co.kr/news/view/1697614/?sc=Naver",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-03T23:01:00.000Z"
-    },
-    {
       "id": "ca92a584468bb241",
-      "keyword": "티앤이코리아",
-      "companyName": "티앤이코리아",
+      "keyword": "유캐스트",
+      "companyName": "유캐스트",
       "title": "[이번주 IPO]10월 둘째 주 수요예측·청약 일정",
-      "description": "19~20일 공모 청약을 받는다. 주관사는 대신증권이다. ◆티앤이코리아= 티앤이코리아는 다양한 산업... 상장주관사는 신한투자증권이다. <일반청약> ◆엘리스그룹= 희망 공모가는 7만400~9만500원이다. 총 공모...",
+      "description": "이달(10월) 둘째 주에는 유캐스트, 다비오, 티앤이코리아가 기관투자자 대상 수요예측을 진행한다.... 상장주관사는 신한투자증권이다. <일반청약> ◆엘리스그룹= 희망 공모가는 7만400~9만500원이다. 총 공모 금액은...",
       "link": "https://n.news.naver.com/mnews/article/277/0005824435?sid=101",
       "originallink": "https://view.asiae.co.kr/article/2026100209524915386",
       "provider": "뉴스 검색",
       "publishedAt": "2026-10-03T23:00:00.000Z"
-    },
-    {
-      "id": "7d9f5903ef9db587",
-      "keyword": "티앤이코리아",
-      "companyName": "티앤이코리아",
-      "title": "[공모주 캘린더] 'AI 기대주' 엘리스그룹·진코스텍 일반청약 출격…디...",
-      "description": "희망 공모가는 1만7천∼1만8천500원으로, 12일에 최종 공모가가 확정된다. 대표주관사는 대신증권, 인수회사는 유진투자증권이다. 디티에스의 일반 청약은 13∼14일 예정이다. 티앤이코리아는 고속모터와 공기베어링...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=612210",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=612210",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-03T09:40:00.000Z"
-    },
-    {
-      "id": "dc35d1ba6885159a",
-      "keyword": "티앤이코리아",
-      "companyName": "티앤이코리아",
-      "title": "엘리스그룹·진코스텍 일반청약…티앤이코리아·다비오 수요예측 [주간...",
-      "description": "일반청약을 마친 뒤 오는 15일 코스닥 이전상장을 목표로 하고 있다. 기관투자자 대상 수요예측도 이어진다. 고속 터보기기 제조기업 티앤이코리아와 지구데이터 인텔리전스 기업 다비오는 7일부터 14일까지...",
-      "link": "https://www.etoday.co.kr/news/view/2632232",
-      "originallink": "https://www.etoday.co.kr/news/view/2632232",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-03T00:02:00.000Z"
-    },
-    {
-      "id": "b9f9ca7669edae38",
-      "keyword": "유캐스트",
-      "companyName": "유캐스트",
-      "title": "[IPO챗] 디티에스 등 4개사 수요예측…2개사 공모주 청약",
-      "description": "다음 주 국내 증시는 거래일이 사흘(6∼8일)에 그치지만 기업공개(IPO) 시장에서는 4개 기업이 기관투자자 대상 수요예측을 진행하는 등 공모 일정이 이어진다. 3일 금융투자업계에 따르면 디티에스는 오는 8일까지...",
-      "link": "https://n.news.naver.com/mnews/article/001/0016355086?sid=101",
-      "originallink": "https://www.yna.co.kr/view/AKR20261002074300008?input=1195m",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-03T00:00:00.000Z"
     },
     {
       "id": "c07721aae7b7d427",
@@ -115,28 +126,6 @@
       "originallink": "https://www.newspost.kr/news/articleView.html?idxno=226096",
       "provider": "뉴스 검색",
       "publishedAt": "2026-10-02T07:46:00.000Z"
-    },
-    {
-      "id": "dc0afbd8a6cc8d45",
-      "keyword": "멜콘",
-      "companyName": "멜콘",
-      "title": "'초정밀 환경제어' 멜콘, 코스닥 IPO 일반청약 증거금 6.7兆 '뭉칫돈'",
-      "description": "초정밀 환경제어 시스템 기업 멜콘이 진행한 코스닥 시장 상장을 위한 공모주 청약에 6조7000억원에 달하는 청약증거금이 몰렸다. 2일 증권업계에 따르면 멜콘이 전날부터 이틀 동안 일반청약을 접수한 결과, 최종...",
-      "link": "https://n.news.naver.com/mnews/article/015/0005338631?sid=101",
-      "originallink": "https://www.hankyung.com/article/202610020711r",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-02T07:31:00.000Z"
-    },
-    {
-      "id": "b41aabdfeb5135d1",
-      "keyword": "멜콘",
-      "companyName": "멜콘",
-      "title": "[공모주 마감] 멜콘 청약 2일차까지 종료, 균등·비례 경쟁률 살펴보니",
-      "description": "IPO 자료사진. AI가 생성한 이미지. 공모주 멜콘의 일반투자자 대상 청약이 2일차까지 진행되면서 모든... 멜콘의 공모가는 1만2300원이다. 상장 첫날 이른바 '따따블'을 기록할 경우 공모가 대비 300% 상승한 4만9200원까지...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=611933",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=611933",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-02T07:02:00.000Z"
     },
     {
       "id": "78b9f7a7b33da1b2",
@@ -192,39 +181,6 @@
       "originallink": "https://www.wikitree.co.kr/articles/1162969",
       "provider": "뉴스 검색",
       "publishedAt": "2026-09-30T11:24:00.000Z"
-    },
-    {
-      "id": "17d4de96c3e44ec3",
-      "keyword": "크리에이츠",
-      "companyName": "크리에이츠",
-      "title": "[2026 3Q IPO 리그테이블] 냉온탕 오갔던 공모 시장, 대신증권 빛났다",
-      "description": "골프 시뮬레이터 기업 크리에이츠는 증권신고서를 내고 10월 수요예측을 준비 중이다. 반도체 공정장비용... 공모를 앞둔 엠비디까지 상장한다면 한동안 주춤했던 하나증권 IPO 조직의 실적 회복에도 의미 있는 계기가...",
-      "link": "https://www.the-stock.kr/news/articleView.html?idxno=33471",
-      "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=33471",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-30T01:54:00.000Z"
-    },
-    {
-      "id": "1c43c569ce487847",
-      "keyword": "인텔리빅스",
-      "companyName": "인텔리빅스",
-      "title": "1조원 대어부터 적자 기술특례까지 … 10월 공모주 13곳 옥석 가리기 [박...",
-      "description": "20~23일 나흘간 크리에이츠·티앤이코리아·인텔리빅스·영광·이에스티 5곳이 잇달아 청약을 받는다. 엘리스그룹과 엠비디는 증권신고서 정정으로 일정이 밀렸고, 엠비디는 희망 공모가를 9400~1만1500원에서 9600...",
-      "link": "https://biz.newdaily.co.kr/site/data/html/2026/09/30/2026093000046.html",
-      "originallink": "https://biz.newdaily.co.kr/site/data/html/2026/09/30/2026093000046.html",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-29T23:58:00.000Z"
-    },
-    {
-      "id": "8c17549917cfcfad",
-      "keyword": "인텔리빅스",
-      "companyName": "인텔리빅스",
-      "title": "10월 공모주 청약 러시…로봇·AI 줄줄이 상장",
-      "description": "이후 다비오와 유캐스트, 크리에이츠, 티앤이코리아, 인텔리빅스, 래블업, 영광, 이에스티, 에이엘로봇... 증권가에서는 8월 주춤했던 IPO 시장이 9월 들어 신규 상장과 공모 일정이 늘면서 다시 활기를 찾는 흐름에...",
-      "link": "https://n.news.naver.com/mnews/article/030/0003470768?sid=101",
-      "originallink": "https://www.etnews.com/20260929000204",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-29T06:02:00.000Z"
     },
     {
       "id": "d95bdaacdcc47a05",

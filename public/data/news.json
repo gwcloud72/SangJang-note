@@ -1,11 +1,99 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-10-06T02:40:10.720Z",
+    "updatedAt": "2026-10-07T01:23:49.595Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "7fe54897d6b04e20",
+      "keyword": "엘리스그룹",
+      "companyName": "엘리스그룹",
+      "title": "알테오젠, 2000억원 투자 유치…대전 공장 세우고 ‘플랫폼 다각화’",
+      "description": "▲ AI 프리즘* 맞춤형 경제 브리핑 * 편집자 주: ‘AI PRISM’(Personalized Report & Insight Summarizing Media)은... 기업공개(IPO)를 추진하는 AI 풀스택 기업 엘리스그룹이 확정 공모가를 9만 500원으로 정하면서 상장예정주식수...",
+      "link": "https://n.news.naver.com/mnews/article/011/0004668888?sid=101",
+      "originallink": "https://www.sedaily.com/article/20098851?ref=naver",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-07T01:01:00.000Z"
+    },
+    {
+      "id": "3bfb4c2f2ad8a1ae",
+      "keyword": "엘리스그룹",
+      "companyName": "엘리스그룹",
+      "title": "호르무즈 해협 위험 뚫고 원유 수출…하루 1830만배럴 기록",
+      "description": "기업공개(IPO)를 추진하는 인공지능(AI) 풀스택 기업 엘리스그룹이 확정 공모가를 희망 밴드(7만 400~9만 500원) 상단인 9만 500원으로 정하면서, 상장예정주식수를 고려한 시가총액은 1조 54억 원으로 추산된다. 지난달...",
+      "link": "https://n.news.naver.com/mnews/article/011/0004668885?sid=102",
+      "originallink": "https://www.sedaily.com/article/20098847?ref=naver",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-07T01:01:00.000Z"
+    },
+    {
+      "id": "6fbfb1e62f5185f8",
+      "keyword": "엘리스그룹",
+      "companyName": "엘리스그룹",
+      "title": "[공모주 현황] 엘리스그룹 공모주 청약…공모가 9만500원, AI 사업에도 관...",
+      "description": "IPO 자료사진. AI가 생성한 이미지. 엘리스그룹이 7일 공모주 청약 첫날을 맞았다. 공모가는 9만500원이며... 환불일은 10월 13일이며, 상장 예정일은 10월 20일이다. 청약 첫날 집계 수치는 접수 진행에 따라 달라질 수...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=613021",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=613021",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-07T00:16:00.000Z"
+    },
+    {
+      "id": "6087dfa90effa111",
+      "keyword": "엘리스그룹",
+      "companyName": "엘리스그룹",
+      "title": "‘몸값 1조’ 엘리스그룹, 공모가 9만500원 확정… 밴드 최상단",
+      "description": "인공지능(AI) 인프라 기업 엘리스그룹이 코스닥시장 상장을 위한 공모가를 9만500원으로 확정했다. 희망... 당초 희망 공모가 범위는 7만400~9만500원이었다. 엘리스그룹은 이번 기업공개(IPO)를 통해 총 222만2000주를...",
+      "link": "https://n.news.naver.com/mnews/article/366/0001196432?sid=101",
+      "originallink": "https://biz.chosun.com/stock/stock_general/2026/10/06/64D6FPEBOJBXPH5EOJ6BVUIQAE/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-06T09:36:00.000Z"
+    },
+    {
+      "id": "cc06b1edc1dc92e4",
+      "keyword": "엘리스그룹",
+      "companyName": "엘리스그룹",
+      "title": "엘리스그룹, 공모가 상단 9만500원 확정…코스닥 '1조 대어' 등판",
+      "description": "공모가가 상단에서 결정되면서 지난해 10월 리브스메드 이후 약 1년 만에 등장한 조 단위 코스닥 'IPO 대어... 김재원 엘리스그룹 대표는 \"상장 이후에도 글로벌 AI 인프라 수요에 체계적으로 대응하기 위해 AI 풀스택...",
+      "link": "https://n.news.naver.com/mnews/article/015/0005339739?sid=101",
+      "originallink": "https://www.hankyung.com/article/202610066474r",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-06T09:11:00.000Z"
+    },
+    {
+      "id": "ba602097010b0cc9",
+      "keyword": "인텔리빅스",
+      "companyName": "인텔리빅스",
+      "title": "10월 공모주 청약, 엘리스그룹부터 래블업까지…예정 일정 확인해야",
+      "description": "한화플러스제6호스팩의 표기 공모가는 2000원이다. 인텔리빅스는 10월 21일부터 22일까지, 래블업은... 예정표에 이름을 올렸다는 사실만으로 상장 이후 수익을 예상할 수는 없다. 각 기업의 사업과 재무 상태, 공모...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=612837",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=612837",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-06T08:50:00.000Z"
+    },
+    {
+      "id": "3acc9bcff912bcdd",
+      "keyword": "인텔리빅스",
+      "companyName": "인텔리빅스",
+      "title": "IPO 시장 4분기 '기지개'…AI·로봇 앞세워 22곳 상장 채비",
+      "description": "AI 클라우드 기업 엘리스그룹을 시작으로 AI 기반 안전관제 솔루션 기업 인텔리빅스와 AI 인프라 소프트웨어 기업 래블업 등이 공모를 추진한다. 생성형 AI 기업 제논도 상장예비심사를 통과해 IPO 절차를 본격화할...",
+      "link": "https://www.newspim.com/news/view/20261006001270",
+      "originallink": "https://www.newspim.com/news/view/20261006001270",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-06T07:47:00.000Z"
+    },
+    {
+      "id": "1e1b1ce166e9a2bf",
+      "keyword": "진코스텍",
+      "companyName": "진코스텍",
+      "title": "[공모주 마감] 진코스텍 청약 2일차 마무리, 균등·비례 경쟁률 성적은...",
+      "description": "IPO 자료사진. AI가 생성한 이미지. 6일 오후 4시께 공모주 진코스텍의 일반투자자 대상 청약 2일차 일정이... 한편 진코스텍은 오는 8일 납입 절차를 거쳐 15일 코스닥 시장에 상장할 예정이다. 상장 첫날 주가...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=612762",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=612762",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-06T07:02:00.000Z"
+    },
     {
       "id": "c1e67d485508ddcc",
       "keyword": "인텔리빅스",
@@ -60,28 +148,6 @@
       "originallink": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=492700",
       "provider": "뉴스 검색",
       "publishedAt": "2026-10-05T06:18:00.000Z"
-    },
-    {
-      "id": "c558dee8c39a8706",
-      "keyword": "티앤이코리아",
-      "companyName": "티앤이코리아",
-      "title": "진코스텍·엘리스그룹 일반청약[증시캘린더]",
-      "description": "이번 주(10월 5~9일) 기업공개(IPO) 시장에서는 진코스텍, 엘리스그룹이 일반청약에 나선다. 다비오, 티앤이코리아는 수요예측을 진행하며 상장하는 기업은 없다. 10월 2~6일 △진코스텍 일반청약 -하이드로겔...",
-      "link": "https://n.news.naver.com/mnews/article/018/0006381032?sid=101",
-      "originallink": "https://www.edaily.co.kr/News/Read?newsId=01630166645609968&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-05T00:02:00.000Z"
-    },
-    {
-      "id": "38290beadc28afc3",
-      "keyword": "디티에스",
-      "companyName": "디티에스",
-      "title": "이틀 연휴 낀 이번 주 IPO…수요예측·청약 각각 2곳 예정",
-      "description": "기업공개(IPO) 시장에서는 티앤이코리아가 코스닥 상장을 위한 수요예측에 새롭게 나선다. 지난주 수요예측을 시작한 디티에스를 포함하면 이번 주 수요예측을 진행하는 기업은 총 2곳이다. 일반 청약은 진코스텍과...",
-      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4437718",
-      "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4437718",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-04T04:02:00.000Z"
     },
     {
       "id": "9496407477ac610a",
@@ -139,39 +205,6 @@
       "publishedAt": "2026-10-01T08:32:00.000Z"
     },
     {
-      "id": "74914b21c49211a8",
-      "keyword": "크리에이츠",
-      "companyName": "크리에이츠",
-      "title": "반토막 난 올해 IPO…4분기 부활 조짐 보이나",
-      "description": "올해 3분기까지 국내 IPO(기업공개) 시장 신규 상장사와 공모액이 전년 대비 반토막 수준으로 급감한... 이밖에도 디티에스·유캐스트·다비오·크리에이츠·티엔이코리아·인텔리박스·영광·이에스티·래블업...",
-      "link": "https://n.news.naver.com/mnews/article/008/0005421159?sid=101",
-      "originallink": "https://www.mt.co.kr/stock/2026/10/01/2026100115532258662",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-01T07:13:00.000Z"
-    },
-    {
-      "id": "fb6172c6c3a64402",
-      "keyword": "인텔리빅스",
-      "companyName": "인텔리빅스",
-      "title": "4분기 IPO 시장 기지개…KB증권 \"몸값 1조 '엘리스그룹' 주목\"",
-      "description": "기업 인텔리빅스, AI 인프라 소프트웨어 업체 래블업 등이 대기 중이다. 엘리스그룹은 오는 7~8일 공모... 솔루션 해외 진출을 가속화할 계획”이라고 밝혔다. #IPO, #엘리스그룹, #상장예비심사 서재필 글로벌이코노믹 기자",
-      "link": "https://www.g-enews.com/view.php?ud=202610011506133783923c501012_1",
-      "originallink": "https://www.g-enews.com/view.php?ud=202610011506133783923c501012_1",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-01T06:18:00.000Z"
-    },
-    {
-      "id": "6f04c2f46590af12",
-      "keyword": "인텔리빅스",
-      "companyName": "인텔리빅스",
-      "title": "4Q 공모주 달력 다시 빼곡…AI·로봇이 몰려온다[클릭e시장]",
-      "description": "인텔리빅스는 AI로 위험 상황을 살피는 안전관제, 래블업은 AI 인프라 소프트웨어가 주력이다. 생성형 AI 기업 제논도 최근 상장예비심사를 통과했다. 가장 이목이 쏠리는 종목은 엘리스그룹이다. 희망 공모가는 7만400...",
-      "link": "https://n.news.naver.com/mnews/article/277/0005823092?sid=101",
-      "originallink": "https://view.asiae.co.kr/article/2026093017481997850",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-30T22:00:00.000Z"
-    },
-    {
       "id": "6aa2f794159b9d67",
       "keyword": "한화플러스제6호기업인수목적",
       "companyName": "한화플러스제6호기업인수목적",
@@ -214,17 +247,6 @@
       "originallink": "https://www.etoday.co.kr/news/view/2535555",
       "provider": "뉴스 검색",
       "publishedAt": "2025-12-14T20:12:00.000Z"
-    },
-    {
-      "id": "b9d3bb68233946b9",
-      "keyword": "한화플러스제6호기업인수목적",
-      "companyName": "한화플러스제6호기업인수목적",
-      "title": "'스팩 광풍' 꺾였나…공모가 하회 속출 [시그널]",
-      "description": "스팩 투자 광풍은 금융 당국이 6월 말 상장일 가격제한폭을 공모가의 60~400%로 확대한 데 따른 부작용이었다. 스팩은 기업 인수합병(M&A)을 유일한 목적으로 삼는 명목상 회사로 합병 대상을 찾기 전까지 경영...",
-      "link": "https://n.news.naver.com/mnews/article/011/0004243352?sid=101",
-      "originallink": "https://www.sedaily.com/NewsView/29UU2BJCK9",
-      "provider": "뉴스 검색",
-      "publishedAt": "2023-09-26T08:46:00.000Z"
     },
     {
       "id": "2f8eec70f294a77c",

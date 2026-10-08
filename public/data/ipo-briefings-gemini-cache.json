@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "updatedAt": "2026-10-08T06:17:52.567Z",
+    "updatedAt": "2026-10-08T13:46:42.628Z",
     "source": "gemini-briefing-cache"
   },
   "items": [
@@ -1267,6 +1267,35 @@
         "model": null
       },
       "updatedAt": "2026-10-02T05:50:33.377Z"
+    },
+    {
+      "key": "1f8c3f465100717c8a5ae112",
+      "model": "gemini-2.5-flash",
+      "briefing": {
+        "id": "briefing-엘리스그룹",
+        "ipoId": "엘리스그룹",
+        "companyName": "엘리스그룹",
+        "sector": "IPO 일정 확인 대상 기업",
+        "ipoStage": "청약 진행중",
+        "underwriter": "주관사 확인",
+        "basisTimeLabel": "오늘 09:30 기준",
+        "oneLine": "AI 풀스택 기업 엘리스그룹",
+        "body": "엘리스그룹은 AI 풀스택 기업입니다. 현재 청약 진행 중이며, 공모가와 청약 일정, 주관사 정보를 확인합니다.",
+        "points": [
+          "공모가 확인",
+          "청약 일정 확인",
+          "정정 공시 여부 확인"
+        ],
+        "sourceLabels": [
+          "뉴스 검색",
+          "DART 일정",
+          "주관사 확인"
+        ],
+        "competition": null,
+        "generatedBy": "local-rules",
+        "model": null
+      },
+      "updatedAt": "2026-10-08T13:44:39.302Z"
     }
   ]
 }

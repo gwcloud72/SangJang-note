@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "updatedAt": "2026-10-09T06:20:54.857Z",
+    "updatedAt": "2026-10-09T14:27:52.250Z",
     "source": "gemini-briefing-cache"
   },
   "items": [
@@ -1296,6 +1296,65 @@
         "model": null
       },
       "updatedAt": "2026-10-08T13:44:39.302Z"
+    },
+    {
+      "key": "6977592304c0ae1121dad572",
+      "model": "gemini-2.5-flash",
+      "briefing": {
+        "id": "briefing-크리에이츠",
+        "ipoId": "크리에이츠",
+        "companyName": "크리에이츠",
+        "sector": "IPO 일정 확인 대상 기업",
+        "ipoStage": "청약 예정",
+        "underwriter": "주관사 확인",
+        "basisTimeLabel": "오늘 09:30 기준",
+        "oneLine": "IPO 일정 확인 대상 기업",
+        "body": "크리에이츠는 IPO 일정 확인 대상 기업입니다. 10.20 청약 예정으로, 청약 시작 전 일정입니다. 원문 일정, 환불일, 변경 여부를 확인해야 합니다.",
+        "points": [
+          "청약 시작·마감일 확인",
+          "환불일 확인",
+          "정정 공시 여부 확인"
+        ],
+        "sourceLabels": [
+          "DART 일정",
+          "환불일 확인",
+          "뉴스 검색",
+          "주관사 확인"
+        ],
+        "competition": null,
+        "generatedBy": "local-rules",
+        "model": null
+      },
+      "updatedAt": "2026-10-09T14:26:48.894Z"
+    },
+    {
+      "key": "ae45a299173bf90dd677f9d6",
+      "model": "gemini-2.5-flash",
+      "briefing": {
+        "id": "briefing-인텔리빅스",
+        "ipoId": "인텔리빅스",
+        "companyName": "인텔리빅스",
+        "sector": "IPO 일정 확인 대상 기업",
+        "ipoStage": "청약 예정",
+        "underwriter": "주관사 확인",
+        "basisTimeLabel": "오늘 09:30 기준",
+        "oneLine": "IPO 일정 확인 대상 기업",
+        "body": "인텔리빅스는 IPO 일정 확인 대상 기업입니다. 10.21 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
+        "points": [
+          "청약 시작·마감일 확인",
+          "환불일 확인",
+          "정정 공시 여부 확인"
+        ],
+        "sourceLabels": [
+          "DART 일정",
+          "환불일 확인",
+          "주관사 확인"
+        ],
+        "competition": null,
+        "generatedBy": "local-rules",
+        "model": null
+      },
+      "updatedAt": "2026-10-09T14:27:52.249Z"
     }
   ]
 }

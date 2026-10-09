@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "source": "local-rules",
-    "generatedAt": "2026-10-09T06:20:54.859Z",
-    "model": null,
+    "source": "gemini-briefings-mixed",
+    "generatedAt": "2026-10-09T14:27:52.251Z",
+    "model": "gemini-2.5-flash",
     "itemCount": 8,
-    "geminiUsed": 0,
+    "geminiUsed": 2,
     "cacheUsed": 1,
     "policy": "회사 설명, IPO 단계, 일정, 경쟁률 뉴스 언급, 원문 확인 포인트만 표시합니다. 투자 판단 표현은 제외합니다."
   },
@@ -118,7 +118,7 @@
       "underwriter": "주관사 확인",
       "basisTimeLabel": "오늘 09:30 기준",
       "oneLine": "IPO 일정 확인 대상 기업",
-      "body": "크리에이츠는 IPO 일정 확인 대상 기업입니다. 10.20 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
+      "body": "크리에이츠는 IPO 일정 확인 대상 기업입니다. 10.20 청약 예정으로, 청약 시작 전 일정입니다. 원문 일정, 환불일, 변경 여부를 확인해야 합니다.",
       "points": [
         "청약 시작·마감일 확인",
         "환불일 확인",
@@ -131,8 +131,8 @@
         "주관사 확인"
       ],
       "competition": null,
-      "generatedBy": "local-rules",
-      "model": null
+      "generatedBy": "gemini",
+      "model": "gemini-2.5-flash"
     },
     {
       "id": "briefing-티앤이코리아",
@@ -205,8 +205,8 @@
         "주관사 확인"
       ],
       "competition": null,
-      "generatedBy": "local-rules",
-      "model": null
+      "generatedBy": "gemini",
+      "model": "gemini-2.5-flash"
     }
   ]
 }

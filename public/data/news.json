@@ -1,11 +1,22 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-10-09T02:03:59.672Z",
+    "updatedAt": "2026-10-10T01:40:21.775Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "259890bf6d6a75e8",
+      "keyword": "이에스티",
+      "companyName": "이에스티",
+      "title": "[IPO챗] 이번주 수요예측 10곳…진코스텍 등 2개사 상장",
+      "description": "한글날 연휴가 끝난 다음 주(12∼16일) 기업공개(IPO) 시장에서는 10개 기업이 기관투자자 대상... 희망 공모가는 1만9천∼2만2천원이며 NH투자증권이 상장을 주관한다. 이에스티는 14∼20일, 에이엘로봇은 15...",
+      "link": "https://n.news.naver.com/mnews/article/001/0016368088?sid=101",
+      "originallink": "https://www.yna.co.kr/view/AKR20261008073000008?input=1195m",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-10T00:00:00.000Z"
+    },
     {
       "id": "c0a2c20d6c70208c",
       "keyword": "디티에스",
@@ -150,17 +161,6 @@
       "publishedAt": "2026-10-05T19:18:00.000Z"
     },
     {
-      "id": "90bff3f6798876cf",
-      "keyword": "유캐스트",
-      "companyName": "유캐스트",
-      "title": "IPO 시장 다시 달아오른다...엘리스그룹 청약·4개사 수요예측 출격",
-      "description": "다비오, 유캐스트가 오는 7일부터 나란히 기관 평가에 들어간다. 엘리스그룹과 진코스텍은 일반투자자를 대상으로 공모주 청약을 진행한다. 5일 금융투자업계에 따르면 이번 주 IPO 시장에서는 산업설비부터...",
-      "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=492700",
-      "originallink": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=492700",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-05T06:18:00.000Z"
-    },
-    {
       "id": "78b9f7a7b33da1b2",
       "keyword": "이에스티",
       "companyName": "이에스티",
@@ -184,8 +184,8 @@
     },
     {
       "id": "74914b21c49211a8",
-      "keyword": "이에스티",
-      "companyName": "이에스티",
+      "keyword": "영광",
+      "companyName": "영광",
       "title": "반토막 난 올해 IPO…4분기 부활 조짐 보이나",
       "description": "올해 3분기까지 국내 IPO(기업공개) 시장 신규 상장사와 공모액이 전년 대비 반토막 수준으로 급감한... 이밖에도 디티에스·유캐스트·다비오·크리에이츠·티엔이코리아·인텔리박스·영광·이에스티·래블업...",
       "link": "https://n.news.naver.com/mnews/article/008/0005421159?sid=101",

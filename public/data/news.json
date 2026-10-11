@@ -1,11 +1,66 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-10-10T01:40:21.775Z",
+    "updatedAt": "2026-10-11T00:45:15.102Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "78e98987161083b4",
+      "keyword": "영광",
+      "companyName": "영광",
+      "title": "인텔리빅스·래블업 등 수요예측…멜콘·진코스텍 상장[증시캘린더]",
+      "description": "다음 주(10월 12~16일) 기업공개(IPO) 시장에서는 안전 인공지능(AI) 기업 인텔리빅스와 골프테크 기업... 코넥스 시장에서 코스닥으로 이전 상장. -공모가 2만3500원 확정. 총 85만2000주 공모, 공모금액 약 200억원....",
+      "link": "https://n.news.naver.com/mnews/article/018/0006385530?sid=101",
+      "originallink": "https://www.edaily.co.kr/News/Read?newsId=01180806645611936&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-11T00:02:00.000Z"
+    },
+    {
+      "id": "957eeac44919ccb9",
+      "keyword": "디티에스",
+      "companyName": "디티에스",
+      "title": "'콜라겐 자체생산' 엠에스바이오, 일반청약 돌입⋯멜콘 코스닥 입성 [IP...",
+      "description": "이번 주(12~16일) 기업공개(IPO) 시장에서는 엠에스바이오와 디티에스가 일반 투자자 대상 공모청약에... 312억원이며 공모자금은 신공장 건설과 국내외 임상 등 운영자금으로 활용할 예정이다. 상장 후 예상...",
+      "link": "https://n.news.naver.com/mnews/article/031/0001064795?sid=101",
+      "originallink": "http://www.inews24.com/view/2013220",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-10T21:01:00.000Z"
+    },
+    {
+      "id": "e3988af8a9459466",
+      "keyword": "디티에스",
+      "companyName": "디티에스",
+      "title": "이번주 공모주 청약, 엠에스바이오·디티에스 2개사",
+      "description": "10월 셋째주(12~16일) 기업공개(IPO) 시장에서는 엠에스바이오·디티에스 2개사가 일반투자자 대상 공모주... 이번 상장을 통해 확보한 자금은 오창공장 신축에 주로 투입될 전망이다. 리스크 요인으로는 인허가 일정...",
+      "link": "https://n.news.naver.com/mnews/article/119/0003141343?sid=101",
+      "originallink": "https://www.dailian.co.kr/news/view/1699626/?sc=Naver",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-10T15:11:00.000Z"
+    },
+    {
+      "id": "936c3ab9d10b2cbf",
+      "keyword": "이에스티",
+      "companyName": "이에스티",
+      "title": "[올 IPO] 연휴 끝나자 IPO 큰 장…진코스텍·멜콘 15일 코스닥 입성",
+      "description": "'공모주 대전' 개막…인텔리빅스 등 10곳 수요예측 격돌 / 한국거래소 다음 주 기업공개(IPO)... NH투자증권이 상장을 주관한다. 영광의 희망 공모가는 14,000원에서 17,000원이다. 이에스티(14∼20일), 에이엘로봇(15...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=614029",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=614029",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-10T15:00:00.000Z"
+    },
+    {
+      "id": "30afe98c93b87d78",
+      "keyword": "이에스티",
+      "companyName": "이에스티",
+      "title": "한글날 연휴 끝나자 IPO 일정 '빼곡'…10개사 수요예측",
+      "description": "한글날 연휴가 끝난 다음 주 기업공개(IPO) 시장이 다시 분주해진다. 인공지능(AI)과 로봇 등 다양한... 반도체 장비 기업 멜콘도 희망 범위 최상단인 1만2300원으로 공모가를 확정했다. 대신증권이 상장을 주관한다",
+      "link": "https://www.newsway.co.kr/news/view?ud=2026101018503967133",
+      "originallink": "https://www.newsway.co.kr/news/view?ud=2026101018503967133",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-10T10:00:00.000Z"
+    },
     {
       "id": "259890bf6d6a75e8",
       "keyword": "이에스티",
@@ -18,39 +73,6 @@
       "publishedAt": "2026-10-10T00:00:00.000Z"
     },
     {
-      "id": "c0a2c20d6c70208c",
-      "keyword": "디티에스",
-      "companyName": "디티에스",
-      "title": "[IPO] 에너지 패권 재편에 냉각장비도 뜬다…영업이익률 19% 디티에스, 코...",
-      "description": "디티에스는 신주 222만8917주를 공모한다. 희망 공모가는 1만7000~1만8500원으로, 총 공모 예정 금액은 379억~412억원이다. 상장 후 시가총액은 약 2526억~2749억원 규모다. 회사는 2000년 핀튜브텍으로 출발해 동양그룹을...",
-      "link": "https://www.cnbizm.com/news/articleView.html?idxno=317503",
-      "originallink": "https://www.cnbizm.com/news/articleView.html?idxno=317503",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-08T06:44:00.000Z"
-    },
-    {
-      "id": "222a3f27c997765d",
-      "keyword": "디티에스",
-      "companyName": "디티에스",
-      "title": "대신증권 중소형 IPO서 두각…하반기 존재감 키웠다",
-      "description": "대신증권이 하반기 기업공개(IPO) 시장에서 중소형 공모주를 잇달아 주관하며 존재감을 키우고 있다. IPO... 이어 디티에스와 다비오 등 후속 기업의 상장이 예정대로 진행될 경우 대신증권의 연간 IPO 주관 실적과...",
-      "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1727151",
-      "originallink": "https://www.ebn.co.kr/news/articleView.html?idxno=1727151",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-08T01:50:00.000Z"
-    },
-    {
-      "id": "7c28413930c93110",
-      "keyword": "엠에스바이오",
-      "companyName": "엠에스바이오",
-      "title": "코스닥 유증 정정요구 66.7%…5년 평균의 3배",
-      "description": "기업공개(IPO)를 추진 중인 생체조직 기반 재생의료 플랫폼 기업 엠에스바이오가 기관 수요예측을 거쳐 공모가를 희망 밴드 상단인 7800원으로 확정했다. 상장예정주식수 2720만 2650주를 감안한 예상 시가총액은...",
-      "link": "https://n.news.naver.com/mnews/article/011/0004669347?sid=101",
-      "originallink": "https://www.sedaily.com/article/20099402?ref=naver",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-08T01:01:00.000Z"
-    },
-    {
       "id": "afdad070e06acae5",
       "keyword": "래블업",
       "companyName": "래블업",
@@ -60,17 +82,6 @@
       "originallink": "https://www.startuptoday.co.kr/news/articleView.html?idxno=815288",
       "provider": "뉴스 검색",
       "publishedAt": "2026-10-07T19:50:00.000Z"
-    },
-    {
-      "id": "a6e1f7078dd59ca7",
-      "keyword": "엠에스바이오",
-      "companyName": "엠에스바이오",
-      "title": "[공모주 예고] 엠에스바이오, 공모가 7800원…12~13일 청약·22일 코스닥...",
-      "description": "IPO 자료사진. AI가 생성한 이미지. 의료용 인체조직 이식재와 생체재료 기반 의료기기를 생산하는 엠에스바이오가 코스닥 상장을 앞두고 일반 청약에 나선다. 엠에스바이오의 공모가는 7800원이다. 기관 수요예측...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=613241",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=613241",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-07T09:40:00.000Z"
     },
     {
       "id": "bad8678d32eb39b5",
@@ -96,25 +107,14 @@
     },
     {
       "id": "ba602097010b0cc9",
-      "keyword": "래블업",
-      "companyName": "래블업",
+      "keyword": "한화플러스제6호기업인수목적",
+      "companyName": "한화플러스제6호기업인수목적",
       "title": "10월 공모주 청약, 엘리스그룹부터 래블업까지…예정 일정 확인해야",
-      "description": "IPO 자료사진. AI가 생성한 이미지. 10월 공모주 청약 예정표에 엘리스그룹과 엠에스바이오, 디티에스... 한화플러스제6호스팩의 표기 공모가는 2000원이다. 인텔리빅스는 10월 21일부터 22일까지, 래블업은 22일부터...",
+      "description": "에스케이증권제14호기업인수목적은 10월 15일부터 16일까지 청약이 예정돼 있다. 일정표에 기재된... 한화플러스제6호스팩의 표기 공모가는 2000원이다. 인텔리빅스는 10월 21일부터 22일까지, 래블업은 22일부터...",
       "link": "https://www.cbci.co.kr/news/articleView.html?idxno=612837",
       "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=612837",
       "provider": "뉴스 검색",
       "publishedAt": "2026-10-06T08:50:00.000Z"
-    },
-    {
-      "id": "3acc9bcff912bcdd",
-      "keyword": "래블업",
-      "companyName": "래블업",
-      "title": "IPO 시장 4분기 '기지개'…AI·로봇 앞세워 22곳 상장 채비",
-      "description": "AI 클라우드 기업 엘리스그룹을 시작으로 AI 기반 안전관제 솔루션 기업 인텔리빅스와 AI 인프라 소프트웨어 기업 래블업 등이 공모를 추진한다. 생성형 AI 기업 제논도 상장예비심사를 통과해 IPO 절차를 본격화할...",
-      "link": "https://www.newspim.com/news/view/20261006001270",
-      "originallink": "https://www.newspim.com/news/view/20261006001270",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-06T07:47:00.000Z"
     },
     {
       "id": "c1e67d485508ddcc",
@@ -128,17 +128,6 @@
       "publishedAt": "2026-10-06T01:18:00.000Z"
     },
     {
-      "id": "49cf2e079b3820dd",
-      "keyword": "크리에이츠",
-      "companyName": "크리에이츠",
-      "title": "중소형 IPO 활기…삼성證, 빅3 누르고 1위 차지 [시그널]",
-      "description": "기업들의 IPO를 도왔다. 엘리스그룹, 크리에이츠, 동원파츠, 제논 등도 상장을 코앞에 두고 있어 사상 처음으로 연간 리그테이블 1위에 도전한다. 5일 서울경제 시그널 리그테이블에 따르면 올해 3분기 공모 규모는...",
-      "link": "https://n.news.naver.com/mnews/article/011/0004668353?sid=101",
-      "originallink": "https://www.sedaily.com/article/20098021?ref=naver",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-05T21:01:00.000Z"
-    },
-    {
       "id": "b4feaffb024939e1",
       "keyword": "이에스티",
       "companyName": "이에스티",
@@ -148,50 +137,6 @@
       "originallink": "https://www.news2day.co.kr/article/20261005500059",
       "provider": "뉴스 검색",
       "publishedAt": "2026-10-05T19:18:00.000Z"
-    },
-    {
-      "id": "c46040454e6b3752",
-      "keyword": "유캐스트",
-      "companyName": "유캐스트",
-      "title": "[IPO 워치] 진코스텍·엘리스그룹 청약…수요예측 4곳",
-      "description": "첫째 주(거래일 기준 6~9일) 기업공개(IPO) 시장에서는 진코스텍과 엘리스그룹이 일반투자자 대상 공모주 청약을 진행한다. 기관투자자 대상 수요예측에는 디티에스와 티앤이코리아, 다비오, 유캐스트 등 4개 기업이...",
-      "link": "https://www.news2day.co.kr/article/20261005500020",
-      "originallink": "https://www.news2day.co.kr/article/20261005500020",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-05T19:18:00.000Z"
-    },
-    {
-      "id": "78b9f7a7b33da1b2",
-      "keyword": "이에스티",
-      "companyName": "이에스티",
-      "title": "10월 IPO시장 '공모주 홍수' 예고 AI·반도체 대어 출격…20여개 기업 청...",
-      "description": "신규 상장한 종목 수는 총 17개로 집계돼 전년 동기 대비 50% 이상 급감했다. 같은 기간 총 공모금액 역시... 영광 △이에스티 △에이엘로봇 △엠비디 △SK증권스팩14호 △한화플러스스팩6호 △래블업 △아이엠스팩1호...",
-      "link": "https://www.pointdaily.co.kr/news/articleView.html?idxno=321062",
-      "originallink": "https://www.pointdaily.co.kr/news/articleView.html?idxno=321062",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-01T08:32:00.000Z"
-    },
-    {
-      "id": "aa98027e47414fb6",
-      "keyword": "이에스티",
-      "companyName": "이에스티",
-      "title": "[이에스티 IPO] 이에스티, IPO 앞두고 자본구조 정비…부채비율 46%↓",
-      "description": "RCPS·CPS 353만주 전량 보통주 전환 이에스티가 코스닥 기업공개(IPO)를 앞두고 상환전환우선주(RCPS)와... 이에 따른 공모 예정금액은 233억~273억원으로 대표주관사는 대신증권이다. 이에스티는 상장예비심사...",
-      "link": "https://dealsite.co.kr/articles/169922",
-      "originallink": "https://dealsite.co.kr/articles/169922",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-01T08:12:00.000Z"
-    },
-    {
-      "id": "74914b21c49211a8",
-      "keyword": "영광",
-      "companyName": "영광",
-      "title": "반토막 난 올해 IPO…4분기 부활 조짐 보이나",
-      "description": "올해 3분기까지 국내 IPO(기업공개) 시장 신규 상장사와 공모액이 전년 대비 반토막 수준으로 급감한... 이밖에도 디티에스·유캐스트·다비오·크리에이츠·티엔이코리아·인텔리박스·영광·이에스티·래블업...",
-      "link": "https://n.news.naver.com/mnews/article/008/0005421159?sid=101",
-      "originallink": "https://www.mt.co.kr/stock/2026/10/01/2026100115532258662",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-01T07:13:00.000Z"
     },
     {
       "id": "6aa2f794159b9d67",

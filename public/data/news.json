@@ -1,11 +1,55 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-10-13T03:25:45.513Z",
+    "updatedAt": "2026-10-14T01:34:57.363Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "6cf865095ad84704",
+      "keyword": "엠에스바이오",
+      "companyName": "엠에스바이오",
+      "title": "\"6조원 몰렸다\" … 엠에스바이오 공모주 청약 경쟁률 1538대 1 [박정은의...",
+      "description": "엠에스바이오는 공모자금을 오창 신공장 건설과 국내외 임상시험 등에 쓸 계획이며 오는 22일 코스닥시장에 상장한다. 13일 전자공시시스템 등에 따르면 엠에스바이오가 12~13일 이틀간 일반투자자 공모주...",
+      "link": "https://biz.newdaily.co.kr/site/data/html/2026/10/13/2026101300325.html",
+      "originallink": "https://biz.newdaily.co.kr/site/data/html/2026/10/13/2026101300325.html",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-13T07:30:00.000Z"
+    },
+    {
+      "id": "b5ed2cbd662aa055",
+      "keyword": "영광",
+      "companyName": "영광",
+      "title": "[장외시황] 디티에스, 공모주 청약 시작",
+      "description": "전문기업 영광이 기관투자자 대상 수요예측을 진행한다. 상장 주관사는 각각 NH투자증권과... 수요예측 경쟁률은 983.98대1이고, 공모가는 희망 밴드 상단인 1만8500원으로 확정되었다. IPO(기업공개)관련 상장 예비심사...",
+      "link": "https://www.etoday.co.kr/news/view/2635302",
+      "originallink": "https://www.etoday.co.kr/news/view/2635302",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-13T07:22:00.000Z"
+    },
+    {
+      "id": "f9f33a2acdd10526",
+      "keyword": "엠에스바이오",
+      "companyName": "엠에스바이오",
+      "title": "[공모주 마감] 엠에스바이오 청약 일정 마무리, 균등·비례 경쟁률 '나는...",
+      "description": "IPO 자료사진. AI가 생성한 이미지. 공모주 엠에스바이오의 일반투자자 대상 청약 일정이 모두 마무리됐다.... 청약 일정이 종료됨에 따라 투자자들의 시선은 향후 상장 일정과 상장 첫날 주가 움직임으로 옮겨갈...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=614958",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=614958",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-13T07:02:00.000Z"
+    },
+    {
+      "id": "385623aa62c4367c",
+      "keyword": "디티에스",
+      "companyName": "디티에스",
+      "title": "레인보우로보틱스, 美 로봇 규제 맞서…국내 첫 FCC 조건부 승인 신청",
+      "description": "▲ AI 프리즘* 맞춤형 경제 브리핑 * 편집자 주: ‘AI PRISM’(Personalized Report & Insight Summarizing Media)은... 디티에스 IPO 공모가 상단…‘중복상장 예외 2호’ 겨냥 - 핵심 요약: 코스닥 IPO(기업공개)를 추진하는 산업용...",
+      "link": "https://n.news.naver.com/mnews/article/011/0004670701?sid=101",
+      "originallink": "https://www.sedaily.com/article/20100948?ref=naver",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-13T04:52:00.000Z"
+    },
     {
       "id": "7e7d65758049c674",
       "keyword": "엠에스바이오",
@@ -104,28 +148,6 @@
       "originallink": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=494192",
       "provider": "뉴스 검색",
       "publishedAt": "2026-10-11T06:54:00.000Z"
-    },
-    {
-      "id": "349e3223ae19ab10",
-      "keyword": "래블업",
-      "companyName": "래블업",
-      "title": "이번주 진코스텍·멜콘 코스닥시장 입성…수요예측도 줄이어",
-      "description": "서울 여의도 소재 한국거래소 홍보관 [출처: 연합뉴스 자료사진] 이번 주(10월 12~16일) 기업공개(IPO)... 한국투자증권이 상장을 주관한다. 래블업의 희망 공모가는 1만9천~2만2천원으로, 주관사는 NH투자증권이다....",
-      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4438565",
-      "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4438565",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-11T04:02:00.000Z"
-    },
-    {
-      "id": "78e98987161083b4",
-      "keyword": "디티에스",
-      "companyName": "디티에스",
-      "title": "인텔리빅스·래블업 등 수요예측…멜콘·진코스텍 상장[증시캘린더]",
-      "description": "다음 주(10월 12~16일) 기업공개(IPO) 시장에서는 안전 인공지능(AI) 기업 인텔리빅스와 골프테크 기업... 코넥스 시장에서 코스닥으로 이전 상장. -공모가 2만3500원 확정. 총 85만2000주 공모, 공모금액 약 200억원....",
-      "link": "https://n.news.naver.com/mnews/article/018/0006385530?sid=101",
-      "originallink": "https://www.edaily.co.kr/News/Read?newsId=01180806645611936&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-11T00:02:00.000Z"
     },
     {
       "id": "936c3ab9d10b2cbf",

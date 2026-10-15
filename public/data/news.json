@@ -1,11 +1,66 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-10-14T01:34:57.363Z",
+    "updatedAt": "2026-10-15T00:54:13.411Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "828873748c24b747",
+      "keyword": "디티에스",
+      "companyName": "디티에스",
+      "title": "디티에스, 공모주 청약 경쟁률 986.99대 1 기록...23일 상장",
+      "description": "기업공개(IPO) 기자간담회를 열고 주력사업의 경쟁력과 코스닥 상장 이후 성장전략을 발표했다. 디티에스... 상장 이후 주가 흐름에 관심이 쏠린다. 디티에스는 지난 13일부터 14일까지 진행한 일반투자자 대상 공모...",
+      "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=495365",
+      "originallink": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=495365",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-14T10:48:00.000Z"
+    },
+    {
+      "id": "cf68b87abd02a285",
+      "keyword": "디티에스",
+      "companyName": "디티에스",
+      "title": "[공모주 마감] 디티에스 청약 일정 2일차까지 종료, 대신증권·유진투자...",
+      "description": "IPO 자료사진. AI가 생성한 이미지. 공모주 디티에스의 일반투자자 대상 청약 일정이 14일 오후 4시경 모두... 한편 디티에스의 상장 예정일은 오는 10월 23일이다. 청약 일정을 마친 디티에스가 상장 첫날 어떤 움직임을...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=615368",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=615368",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-14T07:06:00.000Z"
+    },
+    {
+      "id": "9339800a0de77cb2",
+      "keyword": "래블업",
+      "companyName": "래블업",
+      "title": "[더벨][엘리스그룹 IPO] '조단위' 시총 코스닥 입성, 기관 호응에 품절주...",
+      "description": "14일 IB업계에 따르면 엘리스그룹은 1조54억원의 기업가치로 코스닥에 상장할 예정이다. 확정 공모가 기준... 그간 노타·마키나락스·래블업 등 AI 소프트웨어 업체들의 IPO가 잇따랐으나 AI 인프라 사업으로 상장하는...",
+      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610141401048840108983",
+      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610141401048840108983",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-14T05:32:00.000Z"
+    },
+    {
+      "id": "d49f33beb3ea86fe",
+      "keyword": "인텔리빅스",
+      "companyName": "인텔리빅스",
+      "title": "안전 AI 전문 인텔리빅스, 이달 30일 코스닥 입성",
+      "description": "전문기업 인텔리빅스가 코스닥 상장을 위한 증권신고서 효력이 14일 공식 발효됨에 따라 본격적인 공모... 시장에 상장할 예정이라고 밝혔다. 최근 기업공개(IPO) 시장에서는 상장 직후 기존 주주들의 대량 지분...",
+      "link": "https://www.the-stock.kr/news/articleView.html?idxno=33561",
+      "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=33561",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-14T03:06:00.000Z"
+    },
+    {
+      "id": "2d1db5f28e86e379",
+      "keyword": "인텔리빅스",
+      "companyName": "인텔리빅스",
+      "title": "인텔리빅스, 오는 30일 코스닥 입성…상장 주식 76% 보호예수 묶인다",
+      "description": "인텔리빅스는 14일 코스닥 상장을 위한 증권신고서 효력이 공식 발생함에 따라 본격적인 기업공개(IPO) 공모 절차에 돌입했다고 밝혔다. 제출된 증권신고서를 살펴보면 전체 상장예정주식 1133만 5408주 중 76.05%에...",
+      "link": "https://www.widedaily.com/news/articleView.html?idxno=301960",
+      "originallink": "https://www.widedaily.com/news/articleView.html?idxno=301960",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-14T02:38:00.000Z"
+    },
     {
       "id": "6cf865095ad84704",
       "keyword": "엠에스바이오",

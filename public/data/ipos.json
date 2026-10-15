@@ -1,28 +1,28 @@
 {
   "metadata": {
-    "updatedAt": "2026-10-14T01:34:50.237Z",
+    "updatedAt": "2026-10-15T00:54:06.166Z",
     "source": "OpenDART",
     "basis": "증권신고서 주요정보 - 지분증권(estkRs), 공시검색(list), 공시원문(document.xml)",
     "dateRange": {
-      "bgnDe": "20260417",
-      "endDe": "20261014"
+      "bgnDe": "20260418",
+      "endDe": "20261015"
     },
     "lookbackDays": 180,
     "lookaheadDays": 120,
-    "totalFilings": 12373,
+    "totalFilings": 12375,
     "totalCompanies": 344,
     "totalItems": 26,
-    "referenceDate": "2026-10-14",
+    "referenceDate": "2026-10-15",
     "status": "ready",
-    "candidateItems": 51,
-    "futureCandidateItems": 25,
+    "candidateItems": 50,
+    "futureCandidateItems": 24,
     "statusCounts": {
-      "환불일": 1,
+      "환불일": 2,
       "청약 진행중": 1,
-      "청약 예정": 24
+      "청약 예정": 23
     },
-    "documentDetailItems": 50,
-    "warning": "54개 항목의 상세 조회 또는 원문 추출에 실패했습니다. Actions 로그에서 확인하세요."
+    "documentDetailItems": 49,
+    "warning": "53개 항목의 상세 조회 또는 원문 추출에 실패했습니다. Actions 로그에서 확인하세요."
   },
   "items": [
     {
@@ -100,7 +100,7 @@
       "dartUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261001000078",
       "mainMatterReceiptNo": "",
       "mainMatterUrl": "",
-      "status": "청약 진행중",
+      "status": "환불일",
       "refundDate": "2026-10-16",
       "listingDate": "",
       "demandForecastStart": "2026-10-01",
@@ -122,8 +122,8 @@
       "corpClass": "E",
       "stockCode": "",
       "receiptNo": "20260909000174",
-      "receiptDate": "2026-09-09",
-      "reportName": "[기재정정]증권신고서(지분증권)",
+      "receiptDate": "2026-10-14",
+      "reportName": "[기재정정]투자설명서",
       "securityType": "보통주",
       "offeringMethod": "일반공모",
       "offerPrice": "2,000",
@@ -145,7 +145,7 @@
       "dartUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909000174",
       "mainMatterReceiptNo": "",
       "mainMatterUrl": "",
-      "status": "청약 예정",
+      "status": "청약 진행중",
       "refundDate": "",
       "listingDate": "",
       "demandForecastStart": "2020-11-19",
@@ -392,8 +392,8 @@
       "corpCode": "01956751",
       "corpClass": "E",
       "stockCode": "",
-      "receiptNo": "20261006000421",
-      "receiptDate": "2026-10-06",
+      "receiptNo": "20261014000436",
+      "receiptDate": "2026-10-14",
       "reportName": "[기재정정]증권신고서(지분증권)",
       "securityType": "보통주",
       "offeringMethod": "일반공모",
@@ -413,7 +413,7 @@
       "underwriters": [
         "NH투자증권"
       ],
-      "dartUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261006000421",
+      "dartUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014000436",
       "mainMatterReceiptNo": "",
       "mainMatterUrl": "",
       "status": "청약 예정",

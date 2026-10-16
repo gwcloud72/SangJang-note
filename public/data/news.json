@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-10-15T00:54:13.411Z",
+    "updatedAt": "2026-10-16T00:42:59.622Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
@@ -62,17 +62,6 @@
       "publishedAt": "2026-10-14T02:38:00.000Z"
     },
     {
-      "id": "6cf865095ad84704",
-      "keyword": "엠에스바이오",
-      "companyName": "엠에스바이오",
-      "title": "\"6조원 몰렸다\" … 엠에스바이오 공모주 청약 경쟁률 1538대 1 [박정은의...",
-      "description": "엠에스바이오는 공모자금을 오창 신공장 건설과 국내외 임상시험 등에 쓸 계획이며 오는 22일 코스닥시장에 상장한다. 13일 전자공시시스템 등에 따르면 엠에스바이오가 12~13일 이틀간 일반투자자 공모주...",
-      "link": "https://biz.newdaily.co.kr/site/data/html/2026/10/13/2026101300325.html",
-      "originallink": "https://biz.newdaily.co.kr/site/data/html/2026/10/13/2026101300325.html",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-13T07:30:00.000Z"
-    },
-    {
       "id": "b5ed2cbd662aa055",
       "keyword": "영광",
       "companyName": "영광",
@@ -84,17 +73,6 @@
       "publishedAt": "2026-10-13T07:22:00.000Z"
     },
     {
-      "id": "f9f33a2acdd10526",
-      "keyword": "엠에스바이오",
-      "companyName": "엠에스바이오",
-      "title": "[공모주 마감] 엠에스바이오 청약 일정 마무리, 균등·비례 경쟁률 '나는...",
-      "description": "IPO 자료사진. AI가 생성한 이미지. 공모주 엠에스바이오의 일반투자자 대상 청약 일정이 모두 마무리됐다.... 청약 일정이 종료됨에 따라 투자자들의 시선은 향후 상장 일정과 상장 첫날 주가 움직임으로 옮겨갈...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=614958",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=614958",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-13T07:02:00.000Z"
-    },
-    {
       "id": "385623aa62c4367c",
       "keyword": "디티에스",
       "companyName": "디티에스",
@@ -104,28 +82,6 @@
       "originallink": "https://www.sedaily.com/article/20100948?ref=naver",
       "provider": "뉴스 검색",
       "publishedAt": "2026-10-13T04:52:00.000Z"
-    },
-    {
-      "id": "7e7d65758049c674",
-      "keyword": "엠에스바이오",
-      "companyName": "엠에스바이오",
-      "title": "[공모주 현황] 엠에스바이오 청약 마감일…인체조직 기반 의료기기 사업",
-      "description": "IPO 자료사진. AI가 생성한 이미지. 인체조직 기반 생체재료 의료기기 기업 엠에스바이오가 13일 일반투자자 공모주 청약 마감일을 맞았다. 13일 오전 10시 1분 현재 균등배정주식수는 4.68주이다. 엠에스바이오는...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=614780",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=614780",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-13T01:04:00.000Z"
-    },
-    {
-      "id": "2bdb1ed6abe69c38",
-      "keyword": "엠에스바이오",
-      "companyName": "엠에스바이오",
-      "title": "KB증권, 엠에스바이오 IPO 주관…인수 수수료 12.9억원",
-      "description": "KB증권이 인체조직 이식재 개발·제조 기업 엠에스바이오의 기업공개(IPO)를 주관한다. 공모주 400만주를 전량 인수한다. 인수 수료는 12억8544만원이다. 엠에스바이오는 이번 상장으로 조달한 자금을 새로운 공장...",
-      "link": "https://www.ezyeconomy.com/news/articleView.html?idxno=240679",
-      "originallink": "https://www.ezyeconomy.com/news/articleView.html?idxno=240679",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-12T08:22:00.000Z"
     },
     {
       "id": "6e7b53c995ac24f0",
@@ -151,10 +107,10 @@
     },
     {
       "id": "7b20ef3de507297b",
-      "keyword": "이에스티",
-      "companyName": "이에스티",
+      "keyword": "동원파츠",
+      "companyName": "동원파츠",
       "title": "[넥스아이 IPO] L/O 기다릴 필요 없는 FI, 오버행 '부담'",
-      "description": "기업공개(IPO)에서 보통주 500만주를 새롭게 발행한다. 상장예정주식(4576만5477주) 기준 공모비율은 10.92%다.... 10월 공모 예정기업 중 크리에이츠(39.47%), 이에스티(37.68%)에 이어 세 번째로 높다. 공모가 희망밴드(1만500...",
+      "description": "상장예정주식(4576만5477주) 기준 공모비율은 10.92%다. 상장 도전 기업들이 모집 규모를 20~30% 수준으로 설정하는 것과 비교하면 눈에 띈다. 발행사와 비슷한 기관 수요예측을 진행하는 옵토닉스(22.99%), 동원파츠(21.88...",
       "link": "https://www.the-stock.kr/news/articleView.html?idxno=33547",
       "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=33547",
       "provider": "뉴스 검색",
@@ -238,6 +194,39 @@
       "publishedAt": "2026-10-06T08:50:00.000Z"
     },
     {
+      "id": "c1e67d485508ddcc",
+      "keyword": "동원파츠",
+      "companyName": "동원파츠",
+      "title": "10월 공모주 쏟아진다···'7연승'에 릴레이 청약 열풍 펼쳐지나",
+      "description": "9월 이후 상장한 IPO기업 7곳 모두 상장 첫날 종가 기준 공모가를 웃돌면서 최근 공모주 시장 열기는... 현재 일정대로라면 11월 초에는 동원파츠, 바로팜, 넥스아이, 옵토닉스 등이 잇달아 일반청약을 진행한다....",
+      "link": "https://www.sisajournal-e.com/news/articleView.html?idxno=424132",
+      "originallink": "https://www.sisajournal-e.com/news/articleView.html?idxno=424132",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-06T01:18:00.000Z"
+    },
+    {
+      "id": "49cf2e079b3820dd",
+      "keyword": "동원파츠",
+      "companyName": "동원파츠",
+      "title": "중소형 IPO 활기…삼성證, 빅3 누르고 1위 차지 [시그널]",
+      "description": "기업들의 IPO를 도왔다. 엘리스그룹, 크리에이츠, 동원파츠, 제논 등도 상장을 코앞에 두고 있어 사상 처음으로 연간 리그테이블 1위에 도전한다. 5일 서울경제 시그널 리그테이블에 따르면 올해 3분기 공모 규모는...",
+      "link": "https://n.news.naver.com/mnews/article/011/0004668353?sid=101",
+      "originallink": "https://www.sedaily.com/article/20098021?ref=naver",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-05T21:01:00.000Z"
+    },
+    {
+      "id": "74914b21c49211a8",
+      "keyword": "동원파츠",
+      "companyName": "동원파츠",
+      "title": "반토막 난 올해 IPO…4분기 부활 조짐 보이나",
+      "description": "영광와이케이엠씨·동원파츠·케이엠에프·제논 등은 예비심사 승인을 받은 상태다. 태윤선 KB증권 연구원은 \"4분기 계절적 성수기와 더불어 IPO가 집중될 전망\"이라며 \"유니콘급 대형 기업이 상장예비심사 청구서를...",
+      "link": "https://n.news.naver.com/mnews/article/008/0005421159?sid=101",
+      "originallink": "https://www.mt.co.kr/stock/2026/10/01/2026100115532258662",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-01T07:13:00.000Z"
+    },
+    {
       "id": "6aa2f794159b9d67",
       "keyword": "아이엠기업인수목적1호",
       "companyName": "아이엠기업인수목적1호",
@@ -247,6 +236,17 @@
       "originallink": "https://www.wikitree.co.kr/articles/1162969",
       "provider": "뉴스 검색",
       "publishedAt": "2026-09-30T11:24:00.000Z"
+    },
+    {
+      "id": "17d4de96c3e44ec3",
+      "keyword": "동원파츠",
+      "companyName": "동원파츠",
+      "title": "[2026 3Q IPO 리그테이블] 냉온탕 오갔던 공모 시장, 대신증권 빛났다",
+      "description": "반도체 공정장비용 정밀부품사 동원파츠는 최근 상장예심을 통과하고 증권신고서 제출을 앞두고 있다. 연간 순위 2위로 밀려난 NH투자증권 역시 4분기에는 래블업(414억원) 등이 공모를 준비하고 있어 실적 경쟁은...",
+      "link": "https://www.the-stock.kr/news/articleView.html?idxno=33471",
+      "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=33471",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-30T01:54:00.000Z"
     },
     {
       "id": "a5e71a05a375259e",

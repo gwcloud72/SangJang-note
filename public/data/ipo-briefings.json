@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "local-rules",
-    "generatedAt": "2026-10-15T10:05:28.207Z",
+    "generatedAt": "2026-10-16T00:45:34.203Z",
     "model": null,
     "itemCount": 8,
     "geminiUsed": 0,
@@ -9,31 +9,6 @@
     "policy": "회사 설명, IPO 단계, 일정, 경쟁률 뉴스 언급, 원문 확인 포인트만 표시합니다. 투자 판단 표현은 제외합니다."
   },
   "items": [
-    {
-      "id": "briefing-엠에스바이오",
-      "ipoId": "엠에스바이오",
-      "companyName": "엠에스바이오",
-      "sector": "IPO 일정 확인 대상 기업",
-      "ipoStage": "환불일",
-      "underwriter": "주관사 확인",
-      "basisTimeLabel": "오늘 09:30 기준",
-      "oneLine": "IPO 일정 확인 대상 기업",
-      "body": "엠에스바이오는 IPO 일정 확인 대상 기업입니다. 10.12 일정 기준으로 환불일 단계라 원문 일정과 변경 여부를 함께 확인합니다.",
-      "points": [
-        "환불일 확인",
-        "상장일 확인",
-        "원문 일정 대조"
-      ],
-      "sourceLabels": [
-        "DART 일정",
-        "환불일 10.15",
-        "뉴스 검색",
-        "주관사 확인"
-      ],
-      "competition": null,
-      "generatedBy": "local-rules",
-      "model": null
-    },
     {
       "id": "briefing-디티에스",
       "ipoId": "디티에스",
@@ -193,6 +168,31 @@
       "basisTimeLabel": "오늘 09:30 기준",
       "oneLine": "IPO 일정 확인 대상 기업",
       "body": "인텔리빅스는 IPO 일정 확인 대상 기업입니다. 10.21 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
+      "points": [
+        "청약 시작·마감일 확인",
+        "환불일 확인",
+        "정정 공시 여부 확인"
+      ],
+      "sourceLabels": [
+        "DART 일정",
+        "환불일 확인",
+        "뉴스 검색",
+        "주관사 확인"
+      ],
+      "competition": null,
+      "generatedBy": "local-rules",
+      "model": null
+    },
+    {
+      "id": "briefing-래블업",
+      "ipoId": "래블업",
+      "companyName": "래블업",
+      "sector": "IPO 일정 확인 대상 기업",
+      "ipoStage": "청약 예정",
+      "underwriter": "주관사 확인",
+      "basisTimeLabel": "오늘 09:30 기준",
+      "oneLine": "IPO 일정 확인 대상 기업",
+      "body": "래블업은 IPO 일정 확인 대상 기업입니다. 10.22 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
       "points": [
         "청약 시작·마감일 확인",
         "환불일 확인",

@@ -1,32 +1,76 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-10-16T00:42:59.622Z",
+    "updatedAt": "2026-10-17T00:17:36.202Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
     {
-      "id": "828873748c24b747",
-      "keyword": "디티에스",
-      "companyName": "디티에스",
-      "title": "디티에스, 공모주 청약 경쟁률 986.99대 1 기록...23일 상장",
-      "description": "기업공개(IPO) 기자간담회를 열고 주력사업의 경쟁력과 코스닥 상장 이후 성장전략을 발표했다. 디티에스... 상장 이후 주가 흐름에 관심이 쏠린다. 디티에스는 지난 13일부터 14일까지 진행한 일반투자자 대상 공모...",
-      "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=495365",
-      "originallink": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=495365",
+      "id": "a05d3bc052fca548",
+      "keyword": "넥스아이",
+      "companyName": "넥스아이",
+      "title": "크리에이츠·래블업 공모청약 출격…엘리스그룹 등 3곳 상장[주간 IPO]",
+      "description": "다음 주(19~23일) 기업공개(IPO) 시장에서는 크리에이츠와 티앤이코리아, 래블업 등 일반투자자 대상 공모주 청약이 잇따른다. 엘리스그룹과 엠에스바이오, 디티에스 등 3개 기업은 코스닥시장에 신규 상장한다....",
+      "link": "https://www.etoday.co.kr/news/view/2636709",
+      "originallink": "https://www.etoday.co.kr/news/view/2636709",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-10-14T10:48:00.000Z"
+      "publishedAt": "2026-10-17T00:02:00.000Z"
     },
     {
-      "id": "cf68b87abd02a285",
-      "keyword": "디티에스",
-      "companyName": "디티에스",
-      "title": "[공모주 마감] 디티에스 청약 일정 2일차까지 종료, 대신증권·유진투자...",
-      "description": "IPO 자료사진. AI가 생성한 이미지. 공모주 디티에스의 일반투자자 대상 청약 일정이 14일 오후 4시경 모두... 한편 디티에스의 상장 예정일은 오는 10월 23일이다. 청약 일정을 마친 디티에스가 상장 첫날 어떤 움직임을...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=615368",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=615368",
+      "id": "b9aff7c7123b12dc",
+      "keyword": "넥스아이",
+      "companyName": "넥스아이",
+      "title": "[IPO챗] 내주 엘리스그룹 등 2개사 코스닥 입성…6개사 공모주 청약",
+      "description": "다음 주(19∼23일) 기업공개(IPO) 시장에서는 크리에이츠와 티앤이코리아 등 6개 기업이 잇따라... 희망 공모가는 넥스아이 1만500∼1만3천원, 바로팜 1만6천400∼2만200원, 동원파츠 2만3천∼2만6천500원이다. 앞서...",
+      "link": "https://n.news.naver.com/mnews/article/001/0016382518?sid=101",
+      "originallink": "https://www.yna.co.kr/view/AKR20261016032900008?input=1195m",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-10-14T07:06:00.000Z"
+      "publishedAt": "2026-10-17T00:00:00.000Z"
+    },
+    {
+      "id": "632c51332f049c6f",
+      "keyword": "크리에이츠",
+      "companyName": "크리에이츠",
+      "title": "[IPO] 크리에이츠, 이달 상장…\"글로벌 AI 골프 플랫폼 도약\"",
+      "description": "기업 크리에이츠가 코스닥 상장을 통해 글로벌 시장 공략에 나선다. 초고속 카메라와 AI 기반 정밀 계측... 크리에이츠는 이번 기업공개를 통해 총 140만주를 공모한다. 희망 공모가는 1만5000~1만8000원으로 공모...",
+      "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=873692",
+      "originallink": "http://www.hansbiz.co.kr/news/articleView.html?idxno=873692",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-16T09:26:00.000Z"
+    },
+    {
+      "id": "e6c3be081a82d350",
+      "keyword": "인텔리빅스",
+      "companyName": "인텔리빅스",
+      "title": "“AI 기업도 흑자 낼 수 있다”…인텔리빅스, 13년 연속 흑자로 코스닥...",
+      "description": "기업 인텔리빅스가 기술특례가 아닌 일반상장 방식으로 코스닥 시장에 도전한다. 2023년... 12% 3년 보호예수 이번 IPO의 공모 구조 역시 간담회의 주요 내용이었다. 인텔리빅스는 총...",
+      "link": "https://www.venturesquare.net/1120497/",
+      "originallink": "https://www.venturesquare.net/1120497/",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-16T07:38:00.000Z"
+    },
+    {
+      "id": "748ae607b15680d1",
+      "keyword": "인텔리빅스",
+      "companyName": "인텔리빅스",
+      "title": "[증시새내기] 인텔리빅스, 13년 연속 흑자 앞세워 코스닥 일반상장 추진",
+      "description": "인텔리빅스 IPO 기자간담회에서 최은수 인텔리빅스 총괄대표(사장)가 상장 후 계획과 비전에 대해 발표를... 이번 IPO에서는 기존 주주의 구주매출 없이 공모주 250만주를 모두 신주로 발행한다. 공모 희망가는 주당...",
+      "link": "http://www.efnews.co.kr/news/articleView.html?idxno=133201",
+      "originallink": "http://www.efnews.co.kr/news/articleView.html?idxno=133201",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-16T06:28:00.000Z"
+    },
+    {
+      "id": "be98ce92842b6d5d",
+      "keyword": "크리에이츠",
+      "companyName": "크리에이츠",
+      "title": "크리에이츠, 코스닥 상장 앞두고 성장전략 공개",
+      "description": "IPO) 기자간담회를 열고 코스닥 상장 계획과 핵심 경쟁력, 중장기 성장전략을 발표했다. 크리에이츠는 북미... 크리에이츠의 총 공모주식 수는 140만주다. 희망 공모가 범위는 1만5000~1만8000원으로, 총 공모 예정 금액은...",
+      "link": "https://www.newspim.com/news/view/20261016000921",
+      "originallink": "https://www.newspim.com/news/view/20261016000921",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-16T04:25:00.000Z"
     },
     {
       "id": "9339800a0de77cb2",
@@ -51,17 +95,6 @@
       "publishedAt": "2026-10-14T03:06:00.000Z"
     },
     {
-      "id": "2d1db5f28e86e379",
-      "keyword": "인텔리빅스",
-      "companyName": "인텔리빅스",
-      "title": "인텔리빅스, 오는 30일 코스닥 입성…상장 주식 76% 보호예수 묶인다",
-      "description": "인텔리빅스는 14일 코스닥 상장을 위한 증권신고서 효력이 공식 발생함에 따라 본격적인 기업공개(IPO) 공모 절차에 돌입했다고 밝혔다. 제출된 증권신고서를 살펴보면 전체 상장예정주식 1133만 5408주 중 76.05%에...",
-      "link": "https://www.widedaily.com/news/articleView.html?idxno=301960",
-      "originallink": "https://www.widedaily.com/news/articleView.html?idxno=301960",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-14T02:38:00.000Z"
-    },
-    {
       "id": "b5ed2cbd662aa055",
       "keyword": "영광",
       "companyName": "영광",
@@ -73,22 +106,11 @@
       "publishedAt": "2026-10-13T07:22:00.000Z"
     },
     {
-      "id": "385623aa62c4367c",
-      "keyword": "디티에스",
-      "companyName": "디티에스",
-      "title": "레인보우로보틱스, 美 로봇 규제 맞서…국내 첫 FCC 조건부 승인 신청",
-      "description": "▲ AI 프리즘* 맞춤형 경제 브리핑 * 편집자 주: ‘AI PRISM’(Personalized Report & Insight Summarizing Media)은... 디티에스 IPO 공모가 상단…‘중복상장 예외 2호’ 겨냥 - 핵심 요약: 코스닥 IPO(기업공개)를 추진하는 산업용...",
-      "link": "https://n.news.naver.com/mnews/article/011/0004670701?sid=101",
-      "originallink": "https://www.sedaily.com/article/20100948?ref=naver",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-13T04:52:00.000Z"
-    },
-    {
       "id": "6e7b53c995ac24f0",
-      "keyword": "인텔리빅스",
-      "companyName": "인텔리빅스",
+      "keyword": "크리에이츠",
+      "companyName": "크리에이츠",
       "title": "[장외시황] 엠에스바이오, 공모청약 진행",
-      "description": "안전AI 딥테크 기업 인텔리빅스는 12~16일까지 기관투자자 대상 수요예측을 진행한다. 총 공모주식수는... IPO(기업공개)관련 상장 예비심사 청구종목으로 펩타이드 신약 개발기업 노바셀테크놀로지는 호가...",
+      "description": "업체 크리에이츠는 12~16일까지 기관투자자 대상 수요예측을 진행한다. 총 공모주식수는 140만주이며... IPO(기업공개)관련 상장 예비심사 청구종목으로 펩타이드 신약 개발기업 노바셀테크놀로지는 호가 8950원...",
       "link": "https://www.etoday.co.kr/news/view/2634750",
       "originallink": "https://www.etoday.co.kr/news/view/2634750",
       "provider": "뉴스 검색",
@@ -107,10 +129,10 @@
     },
     {
       "id": "7b20ef3de507297b",
-      "keyword": "동원파츠",
-      "companyName": "동원파츠",
+      "keyword": "넥스아이",
+      "companyName": "넥스아이",
       "title": "[넥스아이 IPO] L/O 기다릴 필요 없는 FI, 오버행 '부담'",
-      "description": "상장예정주식(4576만5477주) 기준 공모비율은 10.92%다. 상장 도전 기업들이 모집 규모를 20~30% 수준으로 설정하는 것과 비교하면 눈에 띈다. 발행사와 비슷한 기관 수요예측을 진행하는 옵토닉스(22.99%), 동원파츠(21.88...",
+      "description": "◇ 상장 첫날 주식 37.03% 유통…기존주주 보유 물량 다수 12일 투자은행(IB) 업계에 따르면 넥스아이는 이번 기업공개(IPO)에서 보통주 500만주를 새롭게 발행한다. 상장예정주식(4576만5477주) 기준 공모비율은 10.92%다....",
       "link": "https://www.the-stock.kr/news/articleView.html?idxno=33547",
       "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=33547",
       "provider": "뉴스 검색",
@@ -128,6 +150,17 @@
       "publishedAt": "2026-10-11T22:02:00.000Z"
     },
     {
+      "id": "300c59f232b2225f",
+      "keyword": "넥스아이",
+      "companyName": "넥스아이",
+      "title": "넥스아이, 녹십자·대웅 투자 유치…IPO 도전·LO 6건 목표",
+      "description": "녹십자와 대웅제약이 전략적 투자자로 참여한 면역항암제 개발기업 넥스아이가 코스닥 상장에... 2030년 순익 973억 전망…신규 기술수출 6건 추진 넥스아이는 이번 IPO에서 보통주 500만주를 전량 신주로 공모한다....",
+      "link": "https://www.dailypharm.com/user/news/343242?REFERER=NP",
+      "originallink": "https://www.dailypharm.com/user/news/343242?REFERER=NP",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-11T21:02:00.000Z"
+    },
+    {
       "id": "85e3e4d857dffc77",
       "keyword": "이에스티",
       "companyName": "이에스티",
@@ -140,8 +173,8 @@
     },
     {
       "id": "d513b5578bedf2fa",
-      "keyword": "이에스티",
-      "companyName": "이에스티",
+      "keyword": "티앤이코리아",
+      "companyName": "티앤이코리아",
       "title": "[IPO 워치] 멜콘·진코스텍 코스닥 입성…수요예측 10곳",
       "description": "[그림=챗GPT] [뉴스투데이=염보라 기자] 10월 둘째 주(12~16일) 기업공개(IPO) 시장에서는 멜콘과 진코스텍이 나란히 코스닥시장에 입성한다. 엠에스바이오와 디티에스는 일반투자자 대상 공모주 청약을 진행하며...",
       "link": "https://www.news2day.co.kr/article/20261011500012",
@@ -151,10 +184,10 @@
     },
     {
       "id": "f342d66249fc4252",
-      "keyword": "이에스티",
-      "companyName": "이에스티",
+      "keyword": "유캐스트",
+      "companyName": "유캐스트",
       "title": "IPO 시장 10개사 수요예측 격돌...AI·로봇株 공모가 시험대",
-      "description": "진코스텍과 멜콘도 코스닥시장에 입성하면서 공모가 산정부터 신규 상장까지 IPO 일정이 이어진다. 11일 금융투자업계에 따르면 오는 12일부터 16일까지 인텔리빅스와 크리에이츠, 영광, 래블업, 이에스티...",
+      "description": "진코스텍과 멜콘도 코스닥시장에 입성하면서 공모가 산정부터 신규 상장까지 IPO 일정이 이어진다. 11일... 앞서 수요예측을 시작한 티앤이코리아와 유캐스트, 다비오 등 3곳도 14일까지 기관 주문을 받는다. 이번 IPO...",
       "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=494192",
       "originallink": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=494192",
       "provider": "뉴스 검색",
@@ -162,25 +195,14 @@
     },
     {
       "id": "936c3ab9d10b2cbf",
-      "keyword": "티앤이코리아",
-      "companyName": "티앤이코리아",
+      "keyword": "유캐스트",
+      "companyName": "유캐스트",
       "title": "[올 IPO] 연휴 끝나자 IPO 큰 장…진코스텍·멜콘 15일 코스닥 입성",
-      "description": "'공모주 대전' 개막…인텔리빅스 등 10곳 수요예측 격돌 / 한국거래소 다음 주 기업공개(IPO)... 엠비디는 3D 세포배양 기반 정밀의료 플랫폼 기업으로, 희망 공모가는 9,600원에서 11,700원이다. 티앤이코리아...",
+      "description": "'공모주 대전' 개막…인텔리빅스 등 10곳 수요예측 격돌 / 한국거래소 다음 주 기업공개(IPO)... 희망 공모가는 9,600원에서 11,700원이다. 티앤이코리아, 유캐스트, 다비오는 앞서 수요예측을 시작해 14일까지 기관...",
       "link": "https://www.cbci.co.kr/news/articleView.html?idxno=614029",
       "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=614029",
       "provider": "뉴스 검색",
       "publishedAt": "2026-10-10T15:00:00.000Z"
-    },
-    {
-      "id": "30afe98c93b87d78",
-      "keyword": "유캐스트",
-      "companyName": "유캐스트",
-      "title": "한글날 연휴 끝나자 IPO 일정 '빼곡'…10개사 수요예측",
-      "description": "한글날 연휴가 끝난 다음 주 기업공개(IPO) 시장이 다시 분주해진다. 인공지능(AI)과 로봇 등 다양한... 반도체 장비 기업 멜콘도 희망 범위 최상단인 1만2300원으로 공모가를 확정했다. 대신증권이 상장을 주관한다",
-      "link": "https://www.newsway.co.kr/news/view?ud=2026101018503967133",
-      "originallink": "https://www.newsway.co.kr/news/view?ud=2026101018503967133",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-10T10:00:00.000Z"
     },
     {
       "id": "ba602097010b0cc9",
@@ -195,8 +217,8 @@
     },
     {
       "id": "c1e67d485508ddcc",
-      "keyword": "동원파츠",
-      "companyName": "동원파츠",
+      "keyword": "넥스아이",
+      "companyName": "넥스아이",
       "title": "10월 공모주 쏟아진다···'7연승'에 릴레이 청약 열풍 펼쳐지나",
       "description": "9월 이후 상장한 IPO기업 7곳 모두 상장 첫날 종가 기준 공모가를 웃돌면서 최근 공모주 시장 열기는... 현재 일정대로라면 11월 초에는 동원파츠, 바로팜, 넥스아이, 옵토닉스 등이 잇달아 일반청약을 진행한다....",
       "link": "https://www.sisajournal-e.com/news/articleView.html?idxno=424132",
@@ -216,15 +238,15 @@
       "publishedAt": "2026-10-05T21:01:00.000Z"
     },
     {
-      "id": "74914b21c49211a8",
-      "keyword": "동원파츠",
-      "companyName": "동원파츠",
-      "title": "반토막 난 올해 IPO…4분기 부활 조짐 보이나",
-      "description": "영광와이케이엠씨·동원파츠·케이엠에프·제논 등은 예비심사 승인을 받은 상태다. 태윤선 KB증권 연구원은 \"4분기 계절적 성수기와 더불어 IPO가 집중될 전망\"이라며 \"유니콘급 대형 기업이 상장예비심사 청구서를...",
-      "link": "https://n.news.naver.com/mnews/article/008/0005421159?sid=101",
-      "originallink": "https://www.mt.co.kr/stock/2026/10/01/2026100115532258662",
+      "id": "b4feaffb024939e1",
+      "keyword": "바로팜",
+      "companyName": "바로팜",
+      "title": "[N2 포커스] 10월 IPO 러시…공모시장 회복 불씨 살릴까",
+      "description": "티앤이코리아와 크리에이츠, 인텔리빅스, 래블업, 영광, 이에스티, 에이엘로봇, 엠비디, 옵토닉스, 바로팜... 22곳…대형 IPO도 가시화 4분기에는 계절적 성수기에 상장 대기 물량까지 더해지면서 공모 일정이 더욱...",
+      "link": "https://www.news2day.co.kr/article/20261005500059",
+      "originallink": "https://www.news2day.co.kr/article/20261005500059",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-10-01T07:13:00.000Z"
+      "publishedAt": "2026-10-05T19:18:00.000Z"
     },
     {
       "id": "6aa2f794159b9d67",
@@ -238,15 +260,15 @@
       "publishedAt": "2026-09-30T11:24:00.000Z"
     },
     {
-      "id": "17d4de96c3e44ec3",
-      "keyword": "동원파츠",
-      "companyName": "동원파츠",
-      "title": "[2026 3Q IPO 리그테이블] 냉온탕 오갔던 공모 시장, 대신증권 빛났다",
-      "description": "반도체 공정장비용 정밀부품사 동원파츠는 최근 상장예심을 통과하고 증권신고서 제출을 앞두고 있다. 연간 순위 2위로 밀려난 NH투자증권 역시 4분기에는 래블업(414억원) 등이 공모를 준비하고 있어 실적 경쟁은...",
-      "link": "https://www.the-stock.kr/news/articleView.html?idxno=33471",
-      "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=33471",
+      "id": "983919ae8a8974df",
+      "keyword": "바로팜",
+      "companyName": "바로팜",
+      "title": "연휴 뒤 용돈 벌어볼까…'수익률 300%' 노리는 바이오 공모주는?",
+      "description": "상장 당일 주가가 공모가의 4배까지 뛸 수 있다. 산술적으로 300%의 수익률을 노릴 수 있는 셈이다. 올해 IPO... 바로팜도 공모 일정을 확정했다. 약국 통합 플랫폼 회사다. 희망공모가밴드는 1만6400~2만200원이다. 내달 22...",
+      "link": "https://n.news.naver.com/mnews/article/008/0005418476?sid=101",
+      "originallink": "https://www.mt.co.kr/thebio/2026/09/26/2026092315390164344",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-09-30T01:54:00.000Z"
+      "publishedAt": "2026-09-26T01:18:00.000Z"
     },
     {
       "id": "a5e71a05a375259e",
@@ -291,17 +313,6 @@
       "originallink": "https://www.etoday.co.kr/news/view/2535555",
       "provider": "뉴스 검색",
       "publishedAt": "2025-12-14T20:12:00.000Z"
-    },
-    {
-      "id": "2f8eec70f294a77c",
-      "keyword": "에스케이증권제14호기업인수목적",
-      "companyName": "에스케이증권제14호기업인수목적",
-      "title": "'단타 놀이터'된 스팩…당국 경고에도 ‘이상과열’ 여전",
-      "description": "같은 달 12일 상장한 DB금융스팩11호(456440)도 오름세를 보이며 상장 첫날 공모가 대비 고가 기준 상승률 243%를 찍었다. 마찬가지로 같은 달 21일, 27일 각각 상장한 에스케이증권제9호스팩(455910)과 유안타제14호스팩...",
-      "link": "https://n.news.naver.com/mnews/article/018/0005550871?sid=101",
-      "originallink": "http://www.edaily.co.kr/news/newspath.asp?newsid=01207046635707320",
-      "provider": "뉴스 검색",
-      "publishedAt": "2023-08-13T21:52:00.000Z"
     },
     {
       "id": "2658fbecb0a572bf",

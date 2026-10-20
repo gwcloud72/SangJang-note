@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "updatedAt": "2026-10-20T05:03:16.132Z",
+    "updatedAt": "2026-10-20T10:12:03.773Z",
     "source": "gemini-briefing-cache"
   },
   "items": [
@@ -1530,6 +1530,36 @@
         "model": null
       },
       "updatedAt": "2026-10-19T10:56:33.734Z"
+    },
+    {
+      "key": "62527ee19b7eb312526f618c",
+      "model": "gemini-2.5-flash",
+      "briefing": {
+        "id": "briefing-티앤이코리아",
+        "ipoId": "티앤이코리아",
+        "companyName": "티앤이코리아",
+        "sector": "IPO 일정 확인 대상 기업",
+        "ipoStage": "청약 진행중",
+        "underwriter": "주관사 확인",
+        "basisTimeLabel": "오늘 09:30 기준",
+        "oneLine": "IPO 일정 확인 대상 기업",
+        "body": "티앤이코리아는 IPO 일정 확인 대상 기업입니다. 10.20 일정 기준으로 청약 진행중 단계라 원문 일정과 변경 여부를 함께 확인합니다.",
+        "points": [
+          "청약 시작·마감일 확인",
+          "환불일 확인",
+          "정정 공시 여부 확인"
+        ],
+        "sourceLabels": [
+          "DART 일정",
+          "환불일 10.23",
+          "뉴스 검색",
+          "주관사 확인"
+        ],
+        "competition": null,
+        "generatedBy": "local-rules",
+        "model": null
+      },
+      "updatedAt": "2026-10-20T10:10:03.220Z"
     }
   ]
 }

@@ -1,11 +1,77 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-10-19T00:05:53.042Z",
+    "updatedAt": "2026-10-20T01:31:23.069Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "d2d9c18bce6f0c2d",
+      "keyword": "크리에이츠",
+      "companyName": "크리에이츠",
+      "title": "LG, 美 GPU 중개시장 진출…엔비디아 GPU 임대 가격 한눈에 비교",
+      "description": "▲ AI 프리즘* 맞춤형 경제 브리핑 * 편집자 주: ‘AI PRISM’(Personalized Report & Insight Summarizing Media)은... ‘상장 재도전’ 크리에이츠 공모가 1만 5000원…1개월 만에 ‘밴드 하단’ - 핵심 요약: 코스닥 상장을 추진...",
+      "link": "https://n.news.naver.com/mnews/article/011/0004673026?sid=101",
+      "originallink": "https://www.sedaily.com/article/20103602?ref=naver",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-20T01:01:00.000Z"
+    },
+    {
+      "id": "f649e142eb9e3855",
+      "keyword": "영광",
+      "companyName": "영광",
+      "title": "[현장] 영광, IPO로 생산거점 통합…조선·플랜트 넘어 에너지 사업 확대",
+      "description": "[사진=박응서 기자] 조선·플랜트 모듈 제작기업 영광이 코스닥 상장을 통해 생산거점 통합과 자동화 투자를... 영광은 이번 IPO에서 신주 226만주를 공모하며 희망 공모가 범위는 1만4000~1만7000원이다. 공모 규모는 희망가...",
+      "link": "https://www.straightnews.co.kr/news/articleView.html?idxno=313479",
+      "originallink": "https://www.straightnews.co.kr/news/articleView.html?idxno=313479",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-19T10:12:00.000Z"
+    },
+    {
+      "id": "c2b3144efa64c6ee",
+      "keyword": "넥스아이",
+      "companyName": "넥스아이",
+      "title": "[증권 Pick] 이번주 IPO 일정 모아보기",
+      "description": "청약 기업들이 골프테크, AI, 통신장비·산업용 설비 등 서로 다른 산업을 기반으로 하는 기업들의 공모... 바로팜과 넥스아이, 동원파츠의 수요예측은 오는 28일까지 진행될 예정이다. 신규 상장 일정으로는 AI 인프라...",
+      "link": "https://www.lcnews.co.kr/news/articleView.html?idxno=209876",
+      "originallink": "https://www.lcnews.co.kr/news/articleView.html?idxno=209876",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-19T06:12:00.000Z"
+    },
+    {
+      "id": "90473a0d8dd893d8",
+      "keyword": "넥스아이",
+      "companyName": "넥스아이",
+      "title": "혼돈의 주식시장, IPO가 '부활' 신호탄 쏘나",
+      "description": "한 주 동안 코스닥 시장에서만 3개사가 신규 상장하고 6개사가 일반 공모청약을 진행하며 4개사가 공모가... 기업 넥스아이, 글로벌 반도체 장비사 밸류체인에 진입한 정밀부품사 동원파츠 등이 일제히 기관...",
+      "link": "https://www.mediapen.com/news/view/1130887",
+      "originallink": "https://www.mediapen.com/news/view/1130887",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-19T06:02:00.000Z"
+    },
+    {
+      "id": "d8ce1086902a4bf5",
+      "keyword": "영광",
+      "companyName": "영광",
+      "title": "[현장] 허철기 영광 대표 \"에너지 신사업, 2027년부터 매출 기여\"",
+      "description": "\" 허철기 영광 대표는 19일 서울 여의도 CCMM빌딩에서 열린 기업공개(IPO) 기자간담회에서 신규 에너지 사업... 영광은 이번 상장에서 신주 226만주를 공모한다. 희망 공모가는 1만4000~1만7000원으로 총 공모금액은 316억...",
+      "link": "https://www.fetv.co.kr/news/articleView.html?idxno=312021",
+      "originallink": "https://www.fetv.co.kr/news/articleView.html?idxno=312021",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-19T05:50:00.000Z"
+    },
+    {
+      "id": "88cb2b0e07418f37",
+      "keyword": "이에스티",
+      "companyName": "이에스티",
+      "title": "'IPO 시장 후끈' 이번주 공모주 청약, 티앤이코리아·래블업 등 6개사 나...",
+      "description": "3일, 이에스티는 4일 상장을 추진한다. 한편 이번 주에는 한화플러스스팩6호도 20~21일 일반청약을 진행한다. 공모가는 2000원, 모집금액은 120억원이다. 스팩을 포함하면 이번 주 청약 기업은 총 7곳으로 늘어난다....",
+      "link": "https://n.news.naver.com/mnews/article/123/0002392103?sid=101",
+      "originallink": "http://www.joseilbo.com/news/news_read.php?uid=577656&class=53&grp=",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-19T01:31:00.000Z"
+    },
     {
       "id": "d3d7ab6f7d764110",
       "keyword": "넥스아이",
@@ -40,68 +106,24 @@
       "publishedAt": "2026-10-18T19:10:00.000Z"
     },
     {
-      "id": "180829872a8fb02b",
-      "keyword": "넥스아이",
-      "companyName": "넥스아이",
-      "title": "몸값 5000억↑ 바이오 대어 공모주 잇따라 등판…인제니아 덕 볼까",
-      "description": "넥스아이와 아델은 희망공모가밴드 상단 기준 기업가치가 5000억원을 넘는 바이오텍이다. 국내 IPO... 바이오 공모주의 투자 수요는 상장 바이오 기업의 밸류에이션(가치평가)에 영향을 받을 수밖에 없기 때문이다....",
-      "link": "https://n.news.naver.com/mnews/article/008/0005427962?sid=101",
-      "originallink": "https://www.mt.co.kr/thebio/2026/10/18/2026101615514797816",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-18T07:45:00.000Z"
-    },
-    {
       "id": "94e775ef2ed6c0e5",
-      "keyword": "넥스아이",
-      "companyName": "넥스아이",
+      "keyword": "바로팜",
+      "companyName": "바로팜",
       "title": "이번주 '1조 대어' 엘리스그룹 등 2곳 코스닥 입성…수요예측은 7곳",
-      "description": "서울 여의도 한국거래소 전광판[출처: 연합뉴스 자료 사진] 이번 주(10월 19~23일) 기업공개(IPO) 시장에서는... 공모가 희망밴드는 1만~1만2천원이며, 한국투자증권이 상장을 주관한다. 넥스아이는 2021년 설립된...",
+      "description": "서울 여의도 한국거래소 전광판[출처: 연합뉴스 자료 사진] 이번 주(10월 19~23일) 기업공개(IPO) 시장에서는... 공모가 희망밴드는 1만500~1만3천원이며, 상장 주관사는 한국투자증권이다. 바로팜은 정보기술(IT)을...",
       "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4439788",
       "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4439788",
       "provider": "뉴스 검색",
       "publishedAt": "2026-10-18T04:02:00.000Z"
     },
     {
-      "id": "e2b0d76bef203746",
-      "keyword": "바로팜",
-      "companyName": "바로팜",
-      "title": "엘리스그룹·엠에스바이오·디티에스 상장 등[증시캘린더]",
-      "description": "다음 주(10월 19~23일) 기업공개(IPO) 시장에서는 인공지능(AI) 풀스택 기업 엘리스그룹을 시작으로... 총 222만2000주 공모, 공모금액 약 2011억원. 상장 후 예상 시가총액 약 1조54억원. -2025년 연결기준 매출액 395억원...",
-      "link": "https://n.news.naver.com/mnews/article/018/0006390560?sid=101",
-      "originallink": "https://www.edaily.co.kr/News/Read?newsId=01220166645614232&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-18T00:02:00.000Z"
-    },
-    {
-      "id": "6358d20cd11306ea",
-      "keyword": "바로팜",
-      "companyName": "바로팜",
-      "title": "[이번주 IPO]10월 넷째 주 수요예측·청약 일정",
-      "description": "이달(10월) 넷째 주에는 옵토닉스, 동원파츠, 넥스아이, 바로팜 등이 기관투자자 대상 수요예측을... 공모가 상단 기준 상장 후 시가총액은 약 1725억원 수준이다. 오는 20일까지 기관투자자 대상 수요예측을 진행해...",
-      "link": "https://n.news.naver.com/mnews/article/277/0005829795?sid=101",
-      "originallink": "https://view.asiae.co.kr/article/2026101709533984035",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-17T23:00:00.000Z"
-    },
-    {
       "id": "f60cececc94cb2f9",
-      "keyword": "인텔리빅스",
-      "companyName": "인텔리빅스",
+      "keyword": "유캐스트",
+      "companyName": "유캐스트",
       "title": "엘리스그룹, 코스닥 출격⋯유캐스트·티앤이·크리에이츠 일반청약 [IPO...",
-      "description": "이번 주(10월19~23일) 기업공개(IPO) 시장에서는 올 하반기 기대주 중 하나인 엘리스그룹을 비롯해... AI 기반 영상 분석 플랫폼 기업 인텔리빅스도 21~22일 양일간 일반 청약에 돌입한다. 공모가 희망범위로 7600...",
+      "description": "상장 후 예상 시가총액은 2920억원 규모다. 이번 주 다수 기업의 일반 청약도 예정돼있다. 5G 이동통신 장비 전문기업 유캐스트는 19일~20일 양일간 일반 공모 청약을 받는다. 희망 공모가로 2만1000~2만6000원을...",
       "link": "https://n.news.naver.com/mnews/article/031/0001066911?sid=101",
       "originallink": "http://www.inews24.com/view/2015968",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-17T21:01:00.000Z"
-    },
-    {
-      "id": "94ba2f91bbba14a8",
-      "keyword": "티앤이코리아",
-      "companyName": "티앤이코리아",
-      "title": "이번주 공모주 청약, 티앤이코리아 등 6개사",
-      "description": "10월 넷째 주(19~23일) 기업공개(IPO) 시장에서는 티앤이코리아, 크리에이츠, 인텔리빅스, 랩룹, 이에스티, 영광 등 6개 기업이 일반투자자 대상 공모주 청약을 진행한다. 18일 금융투자업계에 따르면...",
-      "link": "https://n.news.naver.com/mnews/article/119/0003143858?sid=101",
-      "originallink": "https://www.dailian.co.kr/news/view/1702609/?sc=Naver",
       "provider": "뉴스 검색",
       "publishedAt": "2026-10-17T21:01:00.000Z"
     },
@@ -126,17 +148,6 @@
       "originallink": "http://www.kjdaily.com/article.php?aid=1792249449689372276",
       "provider": "뉴스 검색",
       "publishedAt": "2026-10-17T15:06:00.000Z"
-    },
-    {
-      "id": "f605e96b967a2b9a",
-      "keyword": "유캐스트",
-      "companyName": "유캐스트",
-      "title": "[공모주 청약] 엘리스·엠에스바이오 코스닥 데뷔…수요예측 8곳까지 IP...",
-      "description": "\"엘리스그룹 등 2곳 상장하고 6곳 청약\"…다음 주 공모주 슈퍼위크 열린다 다음 주 코스닥 시장에서는... 희망 공모가는 1만9천~2만2천원이다. 한편, 이동통신 네트워크 장비를 생산하는 유캐스트는 당초 19~20일에...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=616568",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=616568",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-17T15:00:00.000Z"
     },
     {
       "id": "ba602097010b0cc9",

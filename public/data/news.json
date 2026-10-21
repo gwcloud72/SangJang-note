@@ -1,11 +1,88 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-10-20T01:31:23.069Z",
+    "updatedAt": "2026-10-21T01:04:30.697Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "00408e1045e3a33d",
+      "keyword": "인텔리빅스",
+      "companyName": "인텔리빅스",
+      "title": "엘리스그룹 상장 첫날 32% 급락…AI 투자 우려에 공모주 시장도 냉각",
+      "description": "최근의 증시 수급 여건이 이어질 경우 신규 상장 기업들도 거래 첫날부터 주가 변동성에 노출될 수 있다는 우려가 나온다. ◆ 크리에이츠 공모가 하단·인텔리빅스 상단…수요예측 성적 엇갈려 기관투자가들의 공모주...",
+      "link": "https://www.econovill.com/news/articleView.html?idxno=754334",
+      "originallink": "https://www.econovill.com/news/articleView.html?idxno=754334",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-20T23:54:00.000Z"
+    },
+    {
+      "id": "78cdebce4bb7e3c8",
+      "keyword": "인텔리빅스",
+      "companyName": "인텔리빅스",
+      "title": "인텔리빅스, IPO 수요예측에 21조 몰려…공모가 9000원",
+      "description": "(사진=인텔리빅스) 총 공모금액은 225억원이며 확정 공모가 기준 상장 후 예상 시가총액은 약 1020억원이다. 이번 공모는 구주매출 없이 신주 250만주를 발행하는 방식으로 진행된다. 인텔리빅스는 13년 연속...",
+      "link": "https://n.news.naver.com/mnews/article/092/0002441697?sid=105",
+      "originallink": "https://zdnet.co.kr/view/?no=20261020175204",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-20T08:53:00.000Z"
+    },
+    {
+      "id": "0e9d557f1587b13a",
+      "keyword": "인텔리빅스",
+      "companyName": "인텔리빅스",
+      "title": "'1조 몸값' 엘리스그룹 상장 첫날 30% 털썩…공모주 시장에 들이닥친 '증...",
+      "description": "이번 주 새내기주들의 상장 일정은 잇따라 예정됐다. 오는 22일에는 엠에스바이오, 23일에는 디티에스가... 기업 인텔리빅스는 상단인 9000원에 공모가를 확정했다. 투자은행(IB) 업계 관계자는 \"증시 상승기에 높은...",
+      "link": "https://n.news.naver.com/mnews/article/015/0005344529?sid=101",
+      "originallink": "https://www.hankyung.com/article/202610203672r",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-20T08:27:00.000Z"
+    },
+    {
+      "id": "f97c13c0c7ca6d7d",
+      "keyword": "티앤이코리아",
+      "companyName": "티앤이코리아",
+      "title": "[공모주 현황] 크리에이츠 공모주 청약 첫날 어땠나?…균등·비례 경쟁...",
+      "description": "IPO 자료사진. AI가 생성한 이미지. 크리에이츠가 일반투자자 대상 공모주 청약 첫날을 마무리했다. 20일... 상장 예정일은 10월 30일이다. 같은 날 청약을 진행한 티앤이코리아는 첫날 경쟁률 5.81대 1, 청약 증거금 약...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=617437",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=617437",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-20T07:06:00.000Z"
+    },
+    {
+      "id": "bb2804aca1ed5f02",
+      "keyword": "티앤이코리아",
+      "companyName": "티앤이코리아",
+      "title": "[장외시황] 크리에이츠ㆍ티앤이코리아, 공모청약 시작",
+      "description": "고속 터보기계 전문기업 티앤이코리아가 이날부터 이틀간 공모주 청약을 실시한다. 지난 수요예측에서... 기업공개(IPO) 관련 상장 예비심사 청구종목으로 펩타이드 신약 개발기업 노바셀테크놀로지가 호가 8650원...",
+      "link": "https://www.etoday.co.kr/news/view/2637982",
+      "originallink": "https://www.etoday.co.kr/news/view/2637982",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-20T07:02:00.000Z"
+    },
+    {
+      "id": "4036ffa8c09ce764",
+      "keyword": "동원파츠",
+      "companyName": "동원파츠",
+      "title": "[씨앤엠 IPO] 하반기 부진 뺀 밸류…수주잔고 1.5조 실재성 있나",
+      "description": "일반상장 기업은 증권신고서 제출 당시 결산이 완료된 감사보고서로 기업가치를 산정한다. 분·반기보고서는 직전 12개월(LTM), 연간은 그해 실적을 기준 삼는 게 일반적이다. 최근 증권신고서를 낸 동원파츠와 제논...",
+      "link": "https://www.the-stock.kr/news/articleView.html?idxno=33599",
+      "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=33599",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-20T05:20:00.000Z"
+    },
+    {
+      "id": "d32f213503c9a5f4",
+      "keyword": "이에스티",
+      "companyName": "이에스티",
+      "title": "[현장] 김영곤 이에스티 대표 \"AI반도체 사이클 따라 글로벌 ESC 리더될...",
+      "description": "이에스티는 이번 IPO로 220만주의 신주를 발행한다. 공모가 희망 범위는 1만600원~1만2400원, 총 상장 예정 주식수는 1391만4200주다. 이에 따른 예상 시가총액은 1475억~1725억원으로 추산되며 앞서 이달 14일 기관...",
+      "link": "https://www.newspost.kr/news/articleView.html?idxno=226526",
+      "originallink": "https://www.newspost.kr/news/articleView.html?idxno=226526",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-20T03:16:00.000Z"
+    },
     {
       "id": "d2d9c18bce6f0c2d",
       "keyword": "크리에이츠",
@@ -117,39 +194,6 @@
       "publishedAt": "2026-10-18T04:02:00.000Z"
     },
     {
-      "id": "f60cececc94cb2f9",
-      "keyword": "유캐스트",
-      "companyName": "유캐스트",
-      "title": "엘리스그룹, 코스닥 출격⋯유캐스트·티앤이·크리에이츠 일반청약 [IPO...",
-      "description": "상장 후 예상 시가총액은 2920억원 규모다. 이번 주 다수 기업의 일반 청약도 예정돼있다. 5G 이동통신 장비 전문기업 유캐스트는 19일~20일 양일간 일반 공모 청약을 받는다. 희망 공모가로 2만1000~2만6000원을...",
-      "link": "https://n.news.naver.com/mnews/article/031/0001066911?sid=101",
-      "originallink": "http://www.inews24.com/view/2015968",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-17T21:01:00.000Z"
-    },
-    {
-      "id": "22ec61c6f9e85b04",
-      "keyword": "유캐스트",
-      "companyName": "유캐스트",
-      "title": "코스닥 상장주 34개 중 30개 공모가 하회…IPO 회복과 '엇박자'",
-      "description": "오는 20일 엘리스그룹, 22일 엠에스바이오, 23일 디티에스가 코스닥에 상장할 예정이다. 유캐스트는 19~20일... 기업들이 공모가를 낮추거나, 상장 일정을 조정할 가능성이 있다고 설명했다. 최 연구원은 \"IPO는 몇 년을...",
-      "link": "https://n.news.naver.com/mnews/article/421/0009233853?sid=101",
-      "originallink": "https://www.news1.kr/finance/general-stock/6322987",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-17T21:00:00.000Z"
-    },
-    {
-      "id": "90d4a9b667404f26",
-      "keyword": "유캐스트",
-      "companyName": "유캐스트",
-      "title": "[공모주 일정] 크리에이츠·티앤이코리아 등 6곳 청약…2곳 코스닥 상장",
-      "description": "이번 주 기업공개(IPO) 시장에서는 크리에이츠와 티앤이코리아 등 6개 기업이 일반투자자 대상 공모주... 공모가는 1만9천~2만2천원이다. 당초 19~20일 청약이 예정됐던 이동통신 네트워크 장비 기업 유캐스트는...",
-      "link": "http://www.kjdaily.com/article.php?aid=1792249449689372276",
-      "originallink": "http://www.kjdaily.com/article.php?aid=1792249449689372276",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-17T15:06:00.000Z"
-    },
-    {
       "id": "ba602097010b0cc9",
       "keyword": "한화플러스제6호기업인수목적",
       "companyName": "한화플러스제6호기업인수목적",
@@ -161,6 +205,17 @@
       "publishedAt": "2026-10-06T08:50:00.000Z"
     },
     {
+      "id": "74914b21c49211a8",
+      "keyword": "영광와이케이엠씨",
+      "companyName": "영광와이케이엠씨",
+      "title": "반토막 난 올해 IPO…4분기 부활 조짐 보이나",
+      "description": "영광와이케이엠씨·동원파츠·케이엠에프·제논 등은 예비심사 승인을 받은 상태다. 태윤선 KB증권 연구원은 \"4분기 계절적 성수기와 더불어 IPO가 집중될 전망\"이라며 \"유니콘급 대형 기업이 상장예비심사 청구서를...",
+      "link": "https://n.news.naver.com/mnews/article/008/0005421159?sid=101",
+      "originallink": "https://www.mt.co.kr/stock/2026/10/01/2026100115532258662",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-01T07:13:00.000Z"
+    },
+    {
       "id": "6aa2f794159b9d67",
       "keyword": "아이엠기업인수목적1호",
       "companyName": "아이엠기업인수목적1호",
@@ -170,6 +225,39 @@
       "originallink": "https://www.wikitree.co.kr/articles/1162969",
       "provider": "뉴스 검색",
       "publishedAt": "2026-09-30T11:24:00.000Z"
+    },
+    {
+      "id": "6f04e9fa4da484b5",
+      "keyword": "영광와이케이엠씨",
+      "companyName": "영광와이케이엠씨",
+      "title": "하반기 IPO 기지개…삼성증권 1위, 중위권 경쟁 ‘치열’",
+      "description": "영광와이케이엠씨도 연내 코스닥 상장을 목표로 하고 있다. 한국투자증권과 미래에셋증권도 각각 4건의 IPO 주관 실적 추가가 예상된다. 한국투자증권이 주관을 맡은 글로벌테크놀로지, 영광, 넥스아이, 옵토닉스 등...",
+      "link": "https://www.ceoscoredaily.com/page/view/2026092214401021808",
+      "originallink": "https://www.ceoscoredaily.com/page/view/2026092214401021808",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-22T08:20:00.000Z"
+    },
+    {
+      "id": "d272fdcaca9945de",
+      "keyword": "영광와이케이엠씨",
+      "companyName": "영광와이케이엠씨",
+      "title": "[장외시황] 빅웨이브로보틱스, 공모청약 진행",
+      "description": "공모가는 희망밴드 상단인 1만8000원으로 확정되었다. 반도체 공정장비용 정밀부품 전문기업 동원파츠와 반도체 및 디스플레이 제조장비 정밀부품업체 영광와이케이엠씨가 코스닥 상장 예비심사를 통과했다....",
+      "link": "https://www.etoday.co.kr/news/view/2625865",
+      "originallink": "https://www.etoday.co.kr/news/view/2625865",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-15T07:36:00.000Z"
+    },
+    {
+      "id": "0445828831c0b4ec",
+      "keyword": "영광와이케이엠씨",
+      "companyName": "영광와이케이엠씨",
+      "title": "한국거래소, 동원파츠·영광와이케이엠씨 코스닥 예심 통과",
+      "description": "코스닥 상장을 위한 첫 관문을 넘었다. 동원파츠와 영광와이케이엠씨는 지난해 각각 922억원, 516억원의 매출을 기록한 가운데 향후 공모 절차를 거쳐 증시 입성을 추진하게 된다. 한국거래소 코스닥시장본부는...",
+      "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=486944",
+      "originallink": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=486944",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-14T11:08:00.000Z"
     },
     {
       "id": "a5e71a05a375259e",
@@ -214,6 +302,17 @@
       "originallink": "https://www.etoday.co.kr/news/view/2535555",
       "provider": "뉴스 검색",
       "publishedAt": "2025-12-14T20:12:00.000Z"
+    },
+    {
+      "id": "6c4494d2f103d65c",
+      "keyword": "영광와이케이엠씨",
+      "companyName": "영광와이케이엠씨",
+      "title": "기술특례 상장 줄줄이 심사 철회…업계 \"자금조달 차질\" 불만",
+      "description": "특히 올 들어 상장 예비심사를 자진 철회한 레드엔비아, 메를로랩, 영광와이케이엠씨, 레메디, 아른, 에이모... 기업공개(IPO) 시장 분위기가 지난해 하반기부터 가라앉은 탓도 있지만, 대부분 공모 단계가 아닌 예비심사...",
+      "link": "https://n.news.naver.com/mnews/article/018/0005963456?sid=101",
+      "originallink": "http://www.edaily.co.kr/news/newspath.asp?newsid=01666246642103976",
+      "provider": "뉴스 검색",
+      "publishedAt": "2025-03-16T06:01:00.000Z"
     },
     {
       "id": "2658fbecb0a572bf",

@@ -1,21 +1,98 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-10-22T01:01:23.142Z",
+    "updatedAt": "2026-10-23T00:34:10.089Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
     {
-      "id": "12b25dbd6e793b7c",
-      "keyword": "인텔리빅스",
-      "companyName": "인텔리빅스",
-      "title": "[공모주 현황] AI 영상분석 기업 인텔리빅스, 코스닥 입성 앞두고 공모...",
-      "description": "IPO 자료사진. AI가 생성한 이미지. 인공지능(AI) 영상분석 전문기업 인텔리빅스가 코스닥 상장을 위한 일반투자자 공모주 청약 마지막 날을 맞았다. 22일 청약 일정이 종료되는 가운데 기관투자자 수요예측에서 1,234....",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=618062",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=618062",
+      "id": "b18ac73a4cf1ee28",
+      "keyword": "래블업",
+      "companyName": "래블업",
+      "title": "증시 변동성에 새내기주도 위축…연말 IPO 시장 회복할까",
+      "description": "다만 연말로 갈수록 IPO 시장의 외형은 확대될 가능성이 있다. 올해는 상장 종목 수와 공모 규모 모두 과거에... 10월에는 멜콘·진코스텍·엘리스그룹 등 5개 기업의 상장과 디티에스·인텔리빅스·래블업 등 14개 기업이...",
+      "link": "https://n.news.naver.com/mnews/article/243/0000104579?sid=101",
+      "originallink": "https://economist.co.kr/article/view/ecn202610220051",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-10-22T00:34:00.000Z"
+      "publishedAt": "2026-10-22T07:57:00.000Z"
+    },
+    {
+      "id": "09253971d4245746",
+      "keyword": "래블업",
+      "companyName": "래블업",
+      "title": "[공모주 투데이] 래블업 청약 1일차 종료, 균등 비례 경쟁률 각각 얼마...",
+      "description": "IPO 자료사진. AI가 생성한 이미지. 래블업의 일반투자자 대상 공모주 청약 첫날 일정이 22일 마무리됐다.... 또한 이후 상장 과정에서 주가 추이에도 이목이 모아진다. 한편 공시에 따르면 래블업은 2015년 4월 설립된...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=618245",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=618245",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-22T07:06:00.000Z"
+    },
+    {
+      "id": "c20e4eae26dbd88c",
+      "keyword": "이에스티",
+      "companyName": "이에스티",
+      "title": "[공모주 투데이] 이에스티 청약 1일차 일정 마무리, 균등·비례 경쟁률은...",
+      "description": "IPO 자료사진. AI가 생성한 이미지. 이에스티의 일반투자자 대상 공모주 청약 첫날 일정이 22일 마무리됐다.... 청약 종료 이후에는 최종 경쟁률과 배정 결과에 이어 상장 이후 주가 흐름에도 관심이 이어질 전망이다....",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=618249",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=618249",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-22T07:04:00.000Z"
+    },
+    {
+      "id": "224c85e7da7a551e",
+      "keyword": "넥스아이",
+      "companyName": "넥스아이",
+      "title": "[장외시황] 바로팜ㆍ넥스아이ㆍ동원파츠, 수요예측 시작",
+      "description": "이투데이=정수천 기자 | 상장을 추진 중인 기업들이 잇달아 수요예측에 나선다. 22일 금융투자업계에 따르면 약국 인공지능 전환 플랫폼 전문업체 바로팜, 면역함암제 개발기업 넥스아이, 반도체 공정장비용...",
+      "link": "https://www.etoday.co.kr/news/view/2639033",
+      "originallink": "https://www.etoday.co.kr/news/view/2639033",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-22T06:48:00.000Z"
+    },
+    {
+      "id": "a939ff64d7034dc4",
+      "keyword": "이에스티",
+      "companyName": "이에스티",
+      "title": "홀로 IPO 눈높이 낮춘 래블업, FI 투자 성적은 '합격'",
+      "description": "전날 공모가를 희망밴드(1만9000~2만2000원) 하단인 1만9000원으로 확정했다. 함께 가격을 결정한 이에스티... 이어 확정 공모가도 조정된 밴드의 하단으로 정하면서 공모 규모는 414억2000만원, 상장 후 시가총액은...",
+      "link": "https://www.newstopkorea.com/news/articleView.html?idxno=48395",
+      "originallink": "https://www.newstopkorea.com/news/articleView.html?idxno=48395",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-22T05:26:00.000Z"
+    },
+    {
+      "id": "b0941e160d5fbb5d",
+      "keyword": "이에스티",
+      "companyName": "이에스티",
+      "title": "[공모주 현황] 이에스티, 정전척 기술 앞세워 공모시장 진입…공모가 1...",
+      "description": "하는 이에스티가 기업공개(IPO) 과정에서 공모가격을 1만2400원으로 결정했다. 기관투자자를 대상으로 진행한... 다만 수요예측 경쟁률과 공모가격 결정 결과가 상장 이후 주가 상승을 보장하지는 않는다. 기관투자자의...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=618111",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=618111",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-22T01:36:00.000Z"
+    },
+    {
+      "id": "5a6454148643f3ca",
+      "keyword": "래블업",
+      "companyName": "래블업",
+      "title": "[공모주 현황] 래블업, 오전 10시 청약 시작…AI 인프라 플랫폼 앞세워...",
+      "description": "IPO 자료사진. AI가 생성한 이미지. 인공지능(AI) 인프라 플랫폼 전문기업 래블업이 오전 10시부터 공모주... 다만 공모가가 희망 범위 하단에서 확정됐다는 사실이나 기관투자자 경쟁률만으로 상장 이후 주가 방향을...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=618109",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=618109",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-22T01:32:00.000Z"
+    },
+    {
+      "id": "0ac979b3b2ffe858",
+      "keyword": "영광",
+      "companyName": "영광",
+      "title": "[공모주 현황] 영광, 공모가 1만7000원 확정…기관 경쟁률 1000대 1, 균등...",
+      "description": "IPO 자료사진. AI가 생성한 이미지. 조선해양 및 플랜트 기자재 제조업체 영광(359410)이 코스닥시장 상장을 위한 공모에서 확정 공모가 1만7000원을 제시했다. 기관투자자 경쟁률은 1000.07대 1을 기록했으며, 22일...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=618104",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=618104",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-22T01:32:00.000Z"
     },
     {
       "id": "78368f948a0ceea9",
@@ -41,10 +118,10 @@
     },
     {
       "id": "a7cf8e567c4d8662",
-      "keyword": "이에스티",
-      "companyName": "이에스티",
+      "keyword": "영광",
+      "companyName": "영광",
       "title": "공모주 엇갈린 투심…영광·이에스티 ‘상단’, 래블업 ‘하단’ [시그...",
-      "description": "코스닥 기업공개(IPO) 일정을 소화하고 있는 중소형주 3곳의 공모가 결과가 엇갈렸다. 영광과 이에스티... 대상으로 공모가 수요예측을 진행했다. 회사와 상장 주관사 NH투자증권이 제시한 희망 공모가 밴드는...",
+      "description": "코스닥 기업공개(IPO) 일정을 소화하고 있는 중소형주 3곳의 공모가 결과가 엇갈렸다. 영광과... 대상으로 공모가 수요예측을 진행했다. 회사와 상장 주관사 NH투자증권이 제시한 희망 공모가 밴드는 1만 9000~2만...",
       "link": "https://n.news.naver.com/mnews/article/011/0004673802?sid=101",
       "originallink": "https://www.sedaily.com/article/20104441?ref=naver",
       "provider": "뉴스 검색",
@@ -62,22 +139,11 @@
       "publishedAt": "2026-10-21T12:28:00.000Z"
     },
     {
-      "id": "a069e92885a1ebd5",
-      "keyword": "영광",
-      "companyName": "영광",
-      "title": "영광, 코스닥 공모가 희망밴드 상단 1만7000원 확정",
-      "description": "공모가가 1만7,000원으로 결정됨에 따라 총 공모금액은 약 384억 원으로 확정됐으며, 상장 후 예상 시가총액은 약 1,537억 원 수준이다. 1962년 출범한 영광은 조선·해양과 에너지 플랜트 영역에서 기본 설계부터 화공기기...",
-      "link": "https://www.the-stock.kr/news/articleView.html?idxno=33608",
-      "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=33608",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-21T11:08:00.000Z"
-    },
-    {
       "id": "e4b3bb8fc1e5949b",
-      "keyword": "이에스티",
-      "companyName": "이에스티",
+      "keyword": "티앤이코리아",
+      "companyName": "티앤이코리아",
       "title": "티앤이코리아 5.7조·크리에이츠 0.2조…공모주 청약 희비",
-      "description": "각각 상장할 예정이다. 이번주에 공모주 일반 청약 일정이 촘촘한 만큼 향후 일반 청약 투자자들의 옥석 가리기 현상은 더욱 뚜렷해질 전망이다. 인텔리빅스는 이날부터 일반 청약 접수를 시작했다. 영광, 이에스티...",
+      "description": "동시에 코스닥 시장 상장을 위한 일반청약에 나선 기업공개(IPO) 기업의 희비가 엇갈렸다. 티앤이코리아... 앞선 수요예측에서 1000대 1이 넘는 경쟁률을 확보하며 공모가를 희망 가격 상단에서 결정한 분위기를...",
       "link": "https://n.news.naver.com/mnews/article/015/0005344982?sid=101",
       "originallink": "https://www.hankyung.com/article/202610216508r",
       "provider": "뉴스 검색",
@@ -139,17 +205,6 @@
       "publishedAt": "2026-10-20T05:20:00.000Z"
     },
     {
-      "id": "d32f213503c9a5f4",
-      "keyword": "이에스티",
-      "companyName": "이에스티",
-      "title": "[현장] 김영곤 이에스티 대표 \"AI반도체 사이클 따라 글로벌 ESC 리더될...",
-      "description": "이에스티는 이번 IPO로 220만주의 신주를 발행한다. 공모가 희망 범위는 1만600원~1만2400원, 총 상장 예정 주식수는 1391만4200주다. 이에 따른 예상 시가총액은 1475억~1725억원으로 추산되며 앞서 이달 14일 기관...",
-      "link": "https://www.newspost.kr/news/articleView.html?idxno=226526",
-      "originallink": "https://www.newspost.kr/news/articleView.html?idxno=226526",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-20T03:16:00.000Z"
-    },
-    {
       "id": "c2b3144efa64c6ee",
       "keyword": "옵토닉스",
       "companyName": "옵토닉스",
@@ -170,17 +225,6 @@
       "originallink": "https://www.mediapen.com/news/view/1130887",
       "provider": "뉴스 검색",
       "publishedAt": "2026-10-19T06:02:00.000Z"
-    },
-    {
-      "id": "d3d7ab6f7d764110",
-      "keyword": "넥스아이",
-      "companyName": "넥스아이",
-      "title": "크리에이츠·티앤이코리아 청약…엘리스그룹은 신규 상장 [이번주 증시...",
-      "description": "장기간 침체됐던 기업공개(IPO) 시장이 이번 주 분주해질 예정이다. 크리에이츠와 티앤이코리아 등 6개 기업이 일반투자자 대상 공모주 청약에 나서고, 8개 기업이 기관투자자 대상 수요예측을 앞두고 있다....",
-      "link": "https://n.news.naver.com/mnews/article/011/0004672518?sid=101",
-      "originallink": "https://www.sedaily.com/article/20102911?ref=naver",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-18T21:01:00.000Z"
     },
     {
       "id": "3e5af961fed0f6d9",

@@ -1,32 +1,43 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-10-23T00:34:10.089Z",
+    "updatedAt": "2026-10-24T01:01:41.954Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
     {
-      "id": "b18ac73a4cf1ee28",
-      "keyword": "래블업",
-      "companyName": "래블업",
-      "title": "증시 변동성에 새내기주도 위축…연말 IPO 시장 회복할까",
-      "description": "다만 연말로 갈수록 IPO 시장의 외형은 확대될 가능성이 있다. 올해는 상장 종목 수와 공모 규모 모두 과거에... 10월에는 멜콘·진코스텍·엘리스그룹 등 5개 기업의 상장과 디티에스·인텔리빅스·래블업 등 14개 기업이...",
-      "link": "https://n.news.naver.com/mnews/article/243/0000104579?sid=101",
-      "originallink": "https://economist.co.kr/article/view/ecn202610220051",
+      "id": "15a5bd6e86e4735c",
+      "keyword": "에이엘로봇",
+      "companyName": "에이엘로봇",
+      "title": "[IPO챗] 내주 옵토닉스 등 7개사 수요예측…엠비디 공모주 청약",
+      "description": "넥스아이·바로팜·동원파츠 등 기관 평가대…신규 상장은 없어 다음 주(26∼30일) 기업공개(IPO) 시장에서는 6개 기업이 기관투자자 대상 수요예측에 나서는 가운데 일반투자자 대상 공모주 청약은 엠비디 한...",
+      "link": "https://n.news.naver.com/mnews/article/001/0016397816?sid=101",
+      "originallink": "https://www.yna.co.kr/view/AKR20261022074400008?input=1195m",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-10-22T07:57:00.000Z"
+      "publishedAt": "2026-10-24T00:01:00.000Z"
     },
     {
-      "id": "09253971d4245746",
-      "keyword": "래블업",
-      "companyName": "래블업",
-      "title": "[공모주 투데이] 래블업 청약 1일차 종료, 균등 비례 경쟁률 각각 얼마...",
-      "description": "IPO 자료사진. AI가 생성한 이미지. 래블업의 일반투자자 대상 공모주 청약 첫날 일정이 22일 마무리됐다.... 또한 이후 상장 과정에서 주가 추이에도 이목이 모아진다. 한편 공시에 따르면 래블업은 2015년 4월 설립된...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=618245",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=618245",
+      "id": "7b9f9432f5e57572",
+      "keyword": "에이엘로봇",
+      "companyName": "에이엘로봇",
+      "title": "제논 등 3곳 수요예측⋯티앤이코리아ㆍ크리에이츠ㆍ인텔리빅스 상장 [주...",
+      "description": "시작…영광와이케이엠씨·에이엘로봇도 합류 티앤이코리아 29일 상장…일반청약 증거금 5조7500억원 크리에이츠·인텔리빅스 30일 입성…청약 경쟁률은 대조 다음주 기업공개(IPO) 시장에서는 제논과...",
+      "link": "https://www.etoday.co.kr/news/view/2639306",
+      "originallink": "https://www.etoday.co.kr/news/view/2639306",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-10-22T07:06:00.000Z"
+      "publishedAt": "2026-10-24T00:00:00.000Z"
+    },
+    {
+      "id": "7ac5d646cab9d8bf",
+      "keyword": "이에스티",
+      "companyName": "이에스티",
+      "title": "[공모주 마감] 이에스티 청약 2일차까지 종료됐다…균등·비례경쟁률은...",
+      "description": "IPO 자료사진. AI가 생성한 이미지. 공모주 이에스티의 일반투자자 대상 청약 일정이 23일 오후 4시를 기해... 한편 상장일 이에스티의 주가 흐름에도 관심이 쏠린다. 과도한 낙관이나 비관은 지양해야할 요소다. 상장...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=618647",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=618647",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-23T07:02:00.000Z"
     },
     {
       "id": "c20e4eae26dbd88c",
@@ -73,28 +84,6 @@
       "publishedAt": "2026-10-22T01:36:00.000Z"
     },
     {
-      "id": "5a6454148643f3ca",
-      "keyword": "래블업",
-      "companyName": "래블업",
-      "title": "[공모주 현황] 래블업, 오전 10시 청약 시작…AI 인프라 플랫폼 앞세워...",
-      "description": "IPO 자료사진. AI가 생성한 이미지. 인공지능(AI) 인프라 플랫폼 전문기업 래블업이 오전 10시부터 공모주... 다만 공모가가 희망 범위 하단에서 확정됐다는 사실이나 기관투자자 경쟁률만으로 상장 이후 주가 방향을...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=618109",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=618109",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-22T01:32:00.000Z"
-    },
-    {
-      "id": "0ac979b3b2ffe858",
-      "keyword": "영광",
-      "companyName": "영광",
-      "title": "[공모주 현황] 영광, 공모가 1만7000원 확정…기관 경쟁률 1000대 1, 균등...",
-      "description": "IPO 자료사진. AI가 생성한 이미지. 조선해양 및 플랜트 기자재 제조업체 영광(359410)이 코스닥시장 상장을 위한 공모에서 확정 공모가 1만7000원을 제시했다. 기관투자자 경쟁률은 1000.07대 1을 기록했으며, 22일...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=618104",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=618104",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-22T01:32:00.000Z"
-    },
-    {
       "id": "78368f948a0ceea9",
       "keyword": "제논",
       "companyName": "제논",
@@ -117,50 +106,6 @@
       "publishedAt": "2026-10-21T15:01:00.000Z"
     },
     {
-      "id": "a7cf8e567c4d8662",
-      "keyword": "영광",
-      "companyName": "영광",
-      "title": "공모주 엇갈린 투심…영광·이에스티 ‘상단’, 래블업 ‘하단’ [시그...",
-      "description": "코스닥 기업공개(IPO) 일정을 소화하고 있는 중소형주 3곳의 공모가 결과가 엇갈렸다. 영광과... 대상으로 공모가 수요예측을 진행했다. 회사와 상장 주관사 NH투자증권이 제시한 희망 공모가 밴드는 1만 9000~2만...",
-      "link": "https://n.news.naver.com/mnews/article/011/0004673802?sid=101",
-      "originallink": "https://www.sedaily.com/article/20104441?ref=naver",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-21T14:40:00.000Z"
-    },
-    {
-      "id": "c4d06a554bb71d4a",
-      "keyword": "티앤이코리아",
-      "companyName": "티앤이코리아",
-      "title": "티앤이코리아 증거금 5.7조…‘재수생’ 크리에이츠 180억 그쳐 [시그널...",
-      "description": "한편 티앤이코리아와 크리에이츠는 각각 10월 29일, 10월 30일 코스닥 시장에 상장할 예정이다. 티앤이코리아는 신한투자증권이 대표 주관 업무를 맡은 가운데 크리에이츠는 삼성증권이 IPO 주관을 수행했다.",
-      "link": "https://n.news.naver.com/mnews/article/011/0004673791?sid=101",
-      "originallink": "https://www.sedaily.com/article/20104572?ref=naver",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-21T12:28:00.000Z"
-    },
-    {
-      "id": "e4b3bb8fc1e5949b",
-      "keyword": "티앤이코리아",
-      "companyName": "티앤이코리아",
-      "title": "티앤이코리아 5.7조·크리에이츠 0.2조…공모주 청약 희비",
-      "description": "동시에 코스닥 시장 상장을 위한 일반청약에 나선 기업공개(IPO) 기업의 희비가 엇갈렸다. 티앤이코리아... 앞선 수요예측에서 1000대 1이 넘는 경쟁률을 확보하며 공모가를 희망 가격 상단에서 결정한 분위기를...",
-      "link": "https://n.news.naver.com/mnews/article/015/0005344982?sid=101",
-      "originallink": "https://www.hankyung.com/article/202610216508r",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-21T08:01:00.000Z"
-    },
-    {
-      "id": "37479404516b6324",
-      "keyword": "티앤이코리아",
-      "companyName": "티앤이코리아",
-      "title": "티앤이코리아, 청약 증거금 5조7500억원 확보…경쟁률 1253대 1",
-      "description": "전문기업 티앤이코리아는 지난 20일부터 이날까지 양일간 일반투자자를 대상으로 공모주 청약을 실시한... 한편 티앤이코리아는 오는 23일 납입을 거쳐 이달 29일 코스닥 시장에 상장할 예정이다.",
-      "link": "http://www.newsprime.co.kr/news/article.html?no=751878",
-      "originallink": "http://www.newsprime.co.kr/news/article.html?no=751878",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-21T08:00:00.000Z"
-    },
-    {
       "id": "57f8f705c204c542",
       "keyword": "옵토닉스",
       "companyName": "옵토닉스",
@@ -170,17 +115,6 @@
       "originallink": "https://www.etoday.co.kr/news/view/2638489",
       "provider": "뉴스 검색",
       "publishedAt": "2026-10-21T07:08:00.000Z"
-    },
-    {
-      "id": "9c642e05d91f4136",
-      "keyword": "티앤이코리아",
-      "companyName": "티앤이코리아",
-      "title": "[공모주 마감] 티앤이코리아 청약 일정 종료, 균등·비례 경쟁률 '나는 ...",
-      "description": "IPO 자료사진. AI가 생성한 이미지. 티앤이코리아의 일반투자자 대상 공모주 청약이 21일 오후 4시경... 향후 투자자들의 관심은 최종 배정 결과와 상장 이후 주가 흐름으로 옮겨갈 전망이다. 환불 예정일은 오는...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=617812",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=617812",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-21T07:02:00.000Z"
     },
     {
       "id": "17685682878f352f",
@@ -216,17 +150,6 @@
       "publishedAt": "2026-10-19T06:12:00.000Z"
     },
     {
-      "id": "90473a0d8dd893d8",
-      "keyword": "옵토닉스",
-      "companyName": "옵토닉스",
-      "title": "혼돈의 주식시장, IPO가 '부활' 신호탄 쏘나",
-      "description": "한 주 동안 코스닥 시장에서만 3개사가 신규 상장하고 6개사가 일반 공모청약을 진행하며 4개사가 공모가... 방산 무기체계용 초정밀 자이로스코프 광학부품 기업 옵토닉스는 21일부터 27일까지 기관 수요예측을...",
-      "link": "https://www.mediapen.com/news/view/1130887",
-      "originallink": "https://www.mediapen.com/news/view/1130887",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-19T06:02:00.000Z"
-    },
-    {
       "id": "3e5af961fed0f6d9",
       "keyword": "제논",
       "companyName": "제논",
@@ -238,26 +161,92 @@
       "publishedAt": "2026-10-17T22:44:00.000Z"
     },
     {
-      "id": "3acc9bcff912bcdd",
-      "keyword": "제논",
-      "companyName": "제논",
-      "title": "IPO 시장 4분기 '기지개'…AI·로봇 앞세워 22곳 상장 채비",
-      "description": "AI 클라우드 기업 엘리스그룹을 시작으로 AI 기반 안전관제 솔루션 기업 인텔리빅스와 AI 인프라 소프트웨어 기업 래블업 등이 공모를 추진한다. 생성형 AI 기업 제논도 상장예비심사를 통과해 IPO 절차를 본격화할...",
-      "link": "https://www.newspim.com/news/view/20261006001270",
-      "originallink": "https://www.newspim.com/news/view/20261006001270",
+      "id": "b4b3f2d01e5f1039",
+      "keyword": "에이엘로봇",
+      "companyName": "에이엘로봇",
+      "title": "에이엘로봇, 증권신고서 정정… IPO 일정 연기",
+      "description": "| 서울=한스경제 김종효 기자 | 에이엘로봇은 코스닥시장 상장을 위한 증권신고서 기재정정을 공시했다고 12일 밝혔다. 회사는 이번 정정을 통해 당초 예정됐던 기업공개(IPO) 관련 주요 공모 일정을 일괄적으로 뒤로...",
+      "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=872337",
+      "originallink": "http://www.hansbiz.co.kr/news/articleView.html?idxno=872337",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-10-06T07:47:00.000Z"
+      "publishedAt": "2026-10-13T06:34:00.000Z"
     },
     {
-      "id": "49cf2e079b3820dd",
-      "keyword": "제논",
-      "companyName": "제논",
-      "title": "중소형 IPO 활기…삼성證, 빅3 누르고 1위 차지 [시그널]",
-      "description": "기업들의 IPO를 도왔다. 엘리스그룹, 크리에이츠, 동원파츠, 제논 등도 상장을 코앞에 두고 있어 사상 처음으로 연간 리그테이블 1위에 도전한다. 5일 서울경제 시그널 리그테이블에 따르면 올해 3분기 공모 규모는...",
-      "link": "https://n.news.naver.com/mnews/article/011/0004668353?sid=101",
-      "originallink": "https://www.sedaily.com/article/20098021?ref=naver",
+      "id": "2537947829ae48da",
+      "keyword": "에이엘로봇",
+      "companyName": "에이엘로봇",
+      "title": "[증권 Pick] 이번주 IPO 일정 모아보기",
+      "description": "IPO) 시장이 공모 일정을 재개한다. 이번 주에는 인공지능(AI)과 반도체, 로봇 등 성장산업 기업들이 기관투자자 평가를 받는 가운데 재생의료 기업과 산업용 열교환기 업체가 일반청약에 나선다. 코스닥 신규 상장...",
+      "link": "https://www.lcnews.co.kr/news/articleView.html?idxno=209501",
+      "originallink": "https://www.lcnews.co.kr/news/articleView.html?idxno=209501",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-10-05T21:01:00.000Z"
+      "publishedAt": "2026-10-12T06:38:00.000Z"
+    },
+    {
+      "id": "85e3e4d857dffc77",
+      "keyword": "에이엘로봇",
+      "companyName": "에이엘로봇",
+      "title": "AI·로봇기업 상장 본격화, 이번 주만 10곳 수요예측",
+      "description": "이번 주 기업공개(IPO) 시장에서 10개 기업이 수요예측을 진행한다. 인공지능(AI)과 로봇 등 성장산업 기업들 공모가 이어지며 4분기 IPO 시장 회복 분수령이 될 수 있다는 기대감이 나온다. 12일 한국거래소에 따르면...",
+      "link": "https://n.news.naver.com/mnews/article/417/0001160553?sid=101",
+      "originallink": "https://www.sidae.com/article/2026101109175534684",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-11T21:00:00.000Z"
+    },
+    {
+      "id": "f342d66249fc4252",
+      "keyword": "다비오",
+      "companyName": "다비오",
+      "title": "IPO 시장 10개사 수요예측 격돌...AI·로봇株 공모가 시험대",
+      "description": "진코스텍과 멜콘도 코스닥시장에 입성하면서 공모가 산정부터 신규 상장까지 IPO 일정이 이어진다. 11일... 앞서 수요예측을 시작한 티앤이코리아와 유캐스트, 다비오 등 3곳도 14일까지 기관 주문을 받는다. 이번 IPO...",
+      "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=494192",
+      "originallink": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=494192",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-11T06:54:00.000Z"
+    },
+    {
+      "id": "259890bf6d6a75e8",
+      "keyword": "다비오",
+      "companyName": "다비오",
+      "title": "[IPO챗] 이번주 수요예측 10곳…진코스텍 등 2개사 상장",
+      "description": "다음 주(12∼16일) 기업공개(IPO) 시장에서는 10개 기업이 기관투자자 대상 수요예측을 진행하며 공모... 앞서 수요예측을 시작한 티앤이코리아와 유캐스트, 다비오는 14일까지 기관 주문을 받는다. 고속...",
+      "link": "https://n.news.naver.com/mnews/article/001/0016368088?sid=101",
+      "originallink": "https://www.yna.co.kr/view/AKR20261008073000008?input=1195m",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-10T00:00:00.000Z"
+    },
+    {
+      "id": "222a3f27c997765d",
+      "keyword": "다비오",
+      "companyName": "다비오",
+      "title": "대신증권 중소형 IPO서 두각…하반기 존재감 키웠다",
+      "description": "대신증권이 하반기 기업공개(IPO) 시장에서 중소형 공모주를 잇달아 주관하며 존재감을 키우고 있다. IPO... 디티에스와 다비오 등 후속 기업의 상장이 예정대로 진행될 경우 대신증권의 연간 IPO 주관 실적과 순위가...",
+      "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1727151",
+      "originallink": "https://www.ebn.co.kr/news/articleView.html?idxno=1727151",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-08T01:50:00.000Z"
+    },
+    {
+      "id": "2d61552185f7218c",
+      "keyword": "다비오",
+      "companyName": "다비오",
+      "title": "10월 IPO, 유통 물량 제각각…3개월 뒤 최대 73% 거래 가능",
+      "description": "[AI 일러스트=설희 기자] ◆ 디티에스 장기 보호예수…다비오는 3개월 내 70%대 유통 열 솔루션 기업 '디티에스'는 상장 직후 유통가능 물량이 전체 주식의 15.15%로 10월 IPO 기업 가운데 가장 낮다. 상장예정주식...",
+      "link": "https://www.newspim.com/news/view/20261007000822",
+      "originallink": "https://www.newspim.com/news/view/20261007000822",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-07T05:57:00.000Z"
+    },
+    {
+      "id": "ba602097010b0cc9",
+      "keyword": "다비오",
+      "companyName": "다비오",
+      "title": "10월 공모주 청약, 엘리스그룹부터 래블업까지…예정 일정 확인해야",
+      "description": "IPO 자료사진. AI가 생성한 이미지. 10월 공모주 청약 예정표에 엘리스그룹과 엠에스바이오, 디티에스, 다비오 등이 이름을 올렸다. 중순 이후에는 여러 종목의 청약 기간이 겹쳐 참여하려는 종목별 일정을 확인할...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=612837",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=612837",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-06T08:50:00.000Z"
     },
     {
       "id": "74914b21c49211a8",
@@ -282,6 +271,28 @@
       "publishedAt": "2026-09-30T11:24:00.000Z"
     },
     {
+      "id": "839f6f19c057616f",
+      "keyword": "하나에어로다이내믹스",
+      "companyName": "하나에어로다이내믹스",
+      "title": "IBK투자증권, 중소형 IPO서 존재감···성장기업 발굴로 주관 실적 확대",
+      "description": "브릴스와 하나에어로다이내믹스, 케이엠에프가 일반상장을 준비하고 있으며, 럭스코와 셀트릭스는 각각 IBKS제24호·제25호스팩과 합병을 추진하고 있다. IBK투자증권의 IPO 주관 실적은 2024년 2건, 지난해 3건으로 집계된...",
+      "link": "https://www.seoulfn.com/news/articleView.html?idxno=638568",
+      "originallink": "https://www.seoulfn.com/news/articleView.html?idxno=638568",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-25T04:00:00.000Z"
+    },
+    {
+      "id": "e0d2942d7b754d9c",
+      "keyword": "하나에어로다이내믹스",
+      "companyName": "하나에어로다이내믹스",
+      "title": "[리스트업] 2026Y 'Q1 ~ Q4' 주요 IPO 공모주 (국내·주관사)",
+      "description": "주요 공모주 (상장 완료 및 진행 중) > 스카이랩스 : 8월 26일 ~ 27일 @ 한국투자증권 네오사피엔스 : 9월... 미래에셋증권 하나에어로다이내믹스 : 11월 10일 ~ 11일 @ IBK투자증권 < 심사 청구·상장 대기 중인...",
+      "link": "http://www.economytalk.kr/news/articleView.html?idxno=424324",
+      "originallink": "http://www.economytalk.kr/news/articleView.html?idxno=424324",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-24T03:40:00.000Z"
+    },
+    {
       "id": "6f04e9fa4da484b5",
       "keyword": "영광와이케이엠씨",
       "companyName": "영광와이케이엠씨",
@@ -304,17 +315,6 @@
       "publishedAt": "2026-09-15T07:36:00.000Z"
     },
     {
-      "id": "0445828831c0b4ec",
-      "keyword": "영광와이케이엠씨",
-      "companyName": "영광와이케이엠씨",
-      "title": "한국거래소, 동원파츠·영광와이케이엠씨 코스닥 예심 통과",
-      "description": "코스닥 상장을 위한 첫 관문을 넘었다. 동원파츠와 영광와이케이엠씨는 지난해 각각 922억원, 516억원의 매출을 기록한 가운데 향후 공모 절차를 거쳐 증시 입성을 추진하게 된다. 한국거래소 코스닥시장본부는...",
-      "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=486944",
-      "originallink": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=486944",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-14T11:08:00.000Z"
-    },
-    {
       "id": "a5e71a05a375259e",
       "keyword": "아이엠기업인수목적1호",
       "companyName": "아이엠기업인수목적1호",
@@ -326,15 +326,37 @@
       "publishedAt": "2026-08-03T20:26:00.000Z"
     },
     {
-      "id": "6c4494d2f103d65c",
-      "keyword": "영광와이케이엠씨",
-      "companyName": "영광와이케이엠씨",
-      "title": "기술특례 상장 줄줄이 심사 철회…업계 \"자금조달 차질\" 불만",
-      "description": "특히 올 들어 상장 예비심사를 자진 철회한 레드엔비아, 메를로랩, 영광와이케이엠씨, 레메디, 아른, 에이모... 기업공개(IPO) 시장 분위기가 지난해 하반기부터 가라앉은 탓도 있지만, 대부분 공모 단계가 아닌 예비심사...",
-      "link": "https://n.news.naver.com/mnews/article/018/0005963456?sid=101",
-      "originallink": "http://www.edaily.co.kr/news/newspath.asp?newsid=01666246642103976",
+      "id": "faeb1ddd2c59c218",
+      "keyword": "하나에어로다이내믹스",
+      "companyName": "하나에어로다이내믹스",
+      "title": "IPO 한파에도 우주항공주는 상장·증자 랠리…스페이스X 효과 '톡톡'",
+      "description": "우주항공 분야 강소기업들의 코스닥 IPO 청구도 줄을 잇고 있다. 유·무인기 제조업체 넥스트에어로스페이스가 지난 5월 코스닥 상장예비심사신청서를 제출한 데 이어 항공기 부품 기업 하나에어로다이내믹스도 예심을...",
+      "link": "https://www.insightkorea.co.kr/news/articleView.html?idxno=247795",
+      "originallink": "https://www.insightkorea.co.kr/news/articleView.html?idxno=247795",
       "provider": "뉴스 검색",
-      "publishedAt": "2025-03-16T06:01:00.000Z"
+      "publishedAt": "2026-06-17T23:00:00.000Z"
+    },
+    {
+      "id": "98f46022bbcafdf6",
+      "keyword": "하나에어로다이내믹스",
+      "companyName": "하나에어로다이내믹스",
+      "title": "[더벨]유일기술투자, 하나에어로 IPO로 구조혁신펀드 성공 잇는다",
+      "description": "IBK투자증권이 상장주관을 맡는다. 현재 발행주식수의 33%가량인 440만주를 신주로 공모하는 구조를 계획하고 있다. 경남 사천에 위치한 하나에어로다이내믹스는 항공기 치공구업체인 부성이 2024년 사명을 바꾼...",
+      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202606101001036800101056",
+      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202606101001036800101056",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-11T22:02:00.000Z"
+    },
+    {
+      "id": "b4cf63b4bafac5ae",
+      "keyword": "하나에어로다이내믹스",
+      "companyName": "하나에어로다이내믹스",
+      "title": "[더벨][하나에어로다이내믹스 IPO] 코스닥 예심 청구…스페이스X 탓 주목...",
+      "description": "따르면 하나에어로다이내믹스는 지난달 29일 한국거래소 코스닥시장본부에 상장예비심사를 청구하며 본격적인 IPO 절차에 돌입했다. 총 상장 예정 주식수는 1772만 9964주이며, 이 중 24.8% 수준인 440만주를 공모주식수로...",
+      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202606091127375840101661",
+      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202606091127375840101661",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-06-10T22:02:00.000Z"
     },
     {
       "id": "2658fbecb0a572bf",

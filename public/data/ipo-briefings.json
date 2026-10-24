@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "local-rules",
-    "generatedAt": "2026-10-23T10:15:00.922Z",
+    "generatedAt": "2026-10-24T01:04:30.614Z",
     "model": null,
     "itemCount": 8,
     "geminiUsed": 0,
@@ -10,94 +10,19 @@
   },
   "items": [
     {
-      "id": "briefing-티앤이코리아",
-      "ipoId": "티앤이코리아",
-      "companyName": "티앤이코리아",
+      "id": "briefing-이에스티",
+      "ipoId": "이에스티",
+      "companyName": "이에스티",
       "sector": "IPO 일정 확인 대상 기업",
       "ipoStage": "환불일",
       "underwriter": "주관사 확인",
       "basisTimeLabel": "오늘 09:30 기준",
       "oneLine": "IPO 일정 확인 대상 기업",
-      "body": "티앤이코리아는 IPO 일정 확인 대상 기업입니다. 10.20 일정 기준으로 환불일 단계라 원문 일정과 변경 여부를 함께 확인합니다.",
+      "body": "이에스티는 IPO 일정 확인 대상 기업입니다. 10.22 일정 기준으로 환불일 단계라 원문 일정과 변경 여부를 함께 확인합니다.",
       "points": [
         "환불일 확인",
         "상장일 확인",
         "원문 일정 대조"
-      ],
-      "sourceLabels": [
-        "DART 일정",
-        "환불일 10.23",
-        "뉴스 검색",
-        "주관사 확인"
-      ],
-      "competition": null,
-      "generatedBy": "local-rules",
-      "model": null
-    },
-    {
-      "id": "briefing-래블업",
-      "ipoId": "래블업",
-      "companyName": "래블업",
-      "sector": "IPO 일정 확인 대상 기업",
-      "ipoStage": "청약 진행중",
-      "underwriter": "주관사 확인",
-      "basisTimeLabel": "오늘 09:30 기준",
-      "oneLine": "IPO 일정 확인 대상 기업",
-      "body": "래블업은 IPO 일정 확인 대상 기업입니다. 10.22 일정 기준으로 청약 진행중 단계라 원문 일정과 변경 여부를 함께 확인합니다.",
-      "points": [
-        "청약 시작·마감일 확인",
-        "환불일 확인",
-        "정정 공시 여부 확인"
-      ],
-      "sourceLabels": [
-        "DART 일정",
-        "환불일 확인",
-        "뉴스 검색",
-        "주관사 확인"
-      ],
-      "competition": null,
-      "generatedBy": "local-rules",
-      "model": null
-    },
-    {
-      "id": "briefing-영광",
-      "ipoId": "영광",
-      "companyName": "영광",
-      "sector": "IPO 일정 확인 대상 기업",
-      "ipoStage": "청약 진행중",
-      "underwriter": "주관사 확인",
-      "basisTimeLabel": "오늘 09:30 기준",
-      "oneLine": "IPO 일정 확인 대상 기업",
-      "body": "영광은 IPO 일정 확인 대상 기업입니다. 10.22 일정 기준으로 청약 진행중 단계라 원문 일정과 변경 여부를 함께 확인합니다.",
-      "points": [
-        "청약 시작·마감일 확인",
-        "환불일 확인",
-        "정정 공시 여부 확인"
-      ],
-      "sourceLabels": [
-        "DART 일정",
-        "환불일 확인",
-        "뉴스 검색",
-        "주관사 확인"
-      ],
-      "competition": null,
-      "generatedBy": "local-rules",
-      "model": null
-    },
-    {
-      "id": "briefing-이에스티",
-      "ipoId": "이에스티",
-      "companyName": "이에스티",
-      "sector": "IPO 일정 확인 대상 기업",
-      "ipoStage": "청약 진행중",
-      "underwriter": "주관사 확인",
-      "basisTimeLabel": "오늘 09:30 기준",
-      "oneLine": "IPO 일정 확인 대상 기업",
-      "body": "이에스티는 IPO 일정 확인 대상 기업입니다. 10.22 일정 기준으로 청약 진행중 단계라 원문 일정과 변경 여부를 함께 확인합니다.",
-      "points": [
-        "청약 시작·마감일 확인",
-        "환불일 확인",
-        "정정 공시 여부 확인"
       ],
       "sourceLabels": [
         "DART 일정",
@@ -194,6 +119,81 @@
       "basisTimeLabel": "오늘 09:30 기준",
       "oneLine": "IPO 일정 확인 대상 기업",
       "body": "넥스아이는 IPO 일정 확인 대상 기업입니다. 11.03 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
+      "points": [
+        "청약 시작·마감일 확인",
+        "환불일 확인",
+        "정정 공시 여부 확인"
+      ],
+      "sourceLabels": [
+        "DART 일정",
+        "환불일 확인",
+        "뉴스 검색",
+        "주관사 확인"
+      ],
+      "competition": null,
+      "generatedBy": "local-rules",
+      "model": null
+    },
+    {
+      "id": "briefing-영광와이케이엠씨",
+      "ipoId": "영광와이케이엠씨",
+      "companyName": "영광와이케이엠씨",
+      "sector": "IPO 일정 확인 대상 기업",
+      "ipoStage": "청약 예정",
+      "underwriter": "주관사 확인",
+      "basisTimeLabel": "오늘 09:30 기준",
+      "oneLine": "IPO 일정 확인 대상 기업",
+      "body": "영광와이케이엠씨는 IPO 일정 확인 대상 기업입니다. 11.04 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 11.09, 변경 여부를 함께 확인합니다.",
+      "points": [
+        "청약 시작·마감일 확인",
+        "환불일 확인",
+        "정정 공시 여부 확인"
+      ],
+      "sourceLabels": [
+        "DART 일정",
+        "환불일 11.09",
+        "뉴스 검색",
+        "주관사 확인"
+      ],
+      "competition": null,
+      "generatedBy": "local-rules",
+      "model": null
+    },
+    {
+      "id": "briefing-제논",
+      "ipoId": "제논",
+      "companyName": "제논",
+      "sector": "IPO 일정 확인 대상 기업",
+      "ipoStage": "청약 예정",
+      "underwriter": "주관사 확인",
+      "basisTimeLabel": "오늘 09:30 기준",
+      "oneLine": "IPO 일정 확인 대상 기업",
+      "body": "제논은 IPO 일정 확인 대상 기업입니다. 11.04 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
+      "points": [
+        "청약 시작·마감일 확인",
+        "환불일 확인",
+        "정정 공시 여부 확인"
+      ],
+      "sourceLabels": [
+        "DART 일정",
+        "환불일 확인",
+        "뉴스 검색",
+        "주관사 확인"
+      ],
+      "competition": null,
+      "generatedBy": "local-rules",
+      "model": null
+    },
+    {
+      "id": "briefing-옵토닉스",
+      "ipoId": "옵토닉스",
+      "companyName": "옵토닉스",
+      "sector": "IPO 일정 확인 대상 기업",
+      "ipoStage": "청약 예정",
+      "underwriter": "주관사 확인",
+      "basisTimeLabel": "오늘 09:30 기준",
+      "oneLine": "IPO 일정 확인 대상 기업",
+      "body": "옵토닉스는 IPO 일정 확인 대상 기업입니다. 11.05 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
       "points": [
         "청약 시작·마감일 확인",
         "환불일 확인",

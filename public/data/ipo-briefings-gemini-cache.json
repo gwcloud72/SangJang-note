@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "updatedAt": "2026-10-27T05:16:51.207Z",
+    "updatedAt": "2026-10-27T10:43:42.263Z",
     "source": "gemini-briefing-cache"
   },
   "items": [
@@ -1618,6 +1618,64 @@
         "model": null
       },
       "updatedAt": "2026-10-25T09:55:52.230Z"
+    },
+    {
+      "key": "8cac4d7b911c4002dcf163df",
+      "model": "gemini-2.5-flash",
+      "briefing": {
+        "id": "briefing-동원파츠",
+        "ipoId": "동원파츠",
+        "companyName": "동원파츠",
+        "sector": "IPO 일정 확인 대상 기업",
+        "ipoStage": "청약 예정",
+        "underwriter": "주관사 확인",
+        "basisTimeLabel": "오늘 09:30 기준",
+        "oneLine": "IPO 일정 확인 대상 기업",
+        "body": "동원파츠는 IPO 일정 확인 대상 기업입니다. 11.02 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
+        "points": [
+          "청약 시작·마감일 확인",
+          "환불일 확인",
+          "정정 공시 여부 확인"
+        ],
+        "sourceLabels": [
+          "DART 일정",
+          "환불일 확인",
+          "주관사 확인"
+        ],
+        "competition": null,
+        "generatedBy": "local-rules",
+        "model": null
+      },
+      "updatedAt": "2026-10-27T10:42:36.319Z"
+    },
+    {
+      "key": "2832aec31078d0b98a4046bb",
+      "model": "gemini-2.5-flash",
+      "briefing": {
+        "id": "briefing-simwonamericacorp.",
+        "ipoId": "SimwonAmericaCorp.",
+        "companyName": "SimwonAmericaCorp.",
+        "sector": "IPO 일정 확인 대상 기업",
+        "ipoStage": "청약 예정",
+        "underwriter": "주관사 확인",
+        "basisTimeLabel": "오늘 09:30 기준",
+        "oneLine": "IPO 일정 확인 대상 기업",
+        "body": "SimwonAmericaCorp.는 IPO 일정 확인 대상 기업입니다. 11.05 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
+        "points": [
+          "청약 시작·마감일 확인",
+          "환불일 확인",
+          "정정 공시 여부 확인"
+        ],
+        "sourceLabels": [
+          "DART 일정",
+          "환불일 확인",
+          "주관사 확인"
+        ],
+        "competition": null,
+        "generatedBy": "local-rules",
+        "model": null
+      },
+      "updatedAt": "2026-10-27T10:43:42.263Z"
     }
   ]
 }

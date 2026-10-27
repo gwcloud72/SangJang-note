@@ -1,11 +1,11 @@
 {
   "metadata": {
     "source": "local-rules",
-    "generatedAt": "2026-10-26T11:16:56.070Z",
+    "generatedAt": "2026-10-27T01:25:24.284Z",
     "model": null,
     "itemCount": 8,
     "geminiUsed": 0,
-    "cacheUsed": 1,
+    "cacheUsed": 2,
     "policy": "회사 설명, IPO 단계, 일정, 경쟁률 뉴스 언급, 원문 확인 포인트만 표시합니다. 투자 판단 표현은 제외합니다."
   },
   "items": [
@@ -39,11 +39,11 @@
       "ipoId": "아이엠기업인수목적1호",
       "companyName": "아이엠기업인수목적1호",
       "sector": "IPO 일정 확인 대상 기업",
-      "ipoStage": "청약 예정",
+      "ipoStage": "청약 진행중",
       "underwriter": "주관사 확인",
       "basisTimeLabel": "오늘 09:30 기준",
       "oneLine": "IPO 일정 확인 대상 기업",
-      "body": "아이엠기업인수목적1호는 IPO 일정 확인 대상 기업입니다. 10.26 일정 기준으로 청약 예정 단계라 원문 일정과 변경 여부를 함께 확인합니다.",
+      "body": "아이엠기업인수목적1호는 IPO 일정 확인 대상 기업입니다. 10.26 일정 기준으로 청약 진행중 단계라 원문 일정과 변경 여부를 함께 확인합니다.",
       "points": [
         "청약 시작·마감일 확인",
         "환불일 확인",
@@ -77,7 +77,6 @@
       "sourceLabels": [
         "DART 일정",
         "환불일 확인",
-        "뉴스 검색",
         "주관사 확인"
       ],
       "competition": null,
@@ -102,12 +101,11 @@
       "sourceLabels": [
         "DART 일정",
         "환불일 확인",
-        "뉴스 검색",
         "주관사 확인"
       ],
       "competition": null,
-      "generatedBy": "local-rules",
-      "model": null
+      "generatedBy": "gemini-cache",
+      "model": "gemini-2.5-flash"
     },
     {
       "id": "briefing-넥스아이",
@@ -159,31 +157,6 @@
       "model": "gemini-2.5-flash"
     },
     {
-      "id": "briefing-제논",
-      "ipoId": "제논",
-      "companyName": "제논",
-      "sector": "IPO 일정 확인 대상 기업",
-      "ipoStage": "청약 예정",
-      "underwriter": "주관사 확인",
-      "basisTimeLabel": "오늘 09:30 기준",
-      "oneLine": "IPO 일정 확인 대상 기업",
-      "body": "제논은 IPO 일정 확인 대상 기업입니다. 11.04 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
-      "points": [
-        "청약 시작·마감일 확인",
-        "환불일 확인",
-        "정정 공시 여부 확인"
-      ],
-      "sourceLabels": [
-        "DART 일정",
-        "환불일 확인",
-        "뉴스 검색",
-        "주관사 확인"
-      ],
-      "competition": null,
-      "generatedBy": "local-rules",
-      "model": null
-    },
-    {
       "id": "briefing-옵토닉스",
       "ipoId": "옵토닉스",
       "companyName": "옵토닉스",
@@ -202,6 +175,30 @@
         "DART 일정",
         "환불일 확인",
         "뉴스 검색",
+        "주관사 확인"
+      ],
+      "competition": null,
+      "generatedBy": "local-rules",
+      "model": null
+    },
+    {
+      "id": "briefing-simwonamericacorp.",
+      "ipoId": "SimwonAmericaCorp.",
+      "companyName": "SimwonAmericaCorp.",
+      "sector": "IPO 일정 확인 대상 기업",
+      "ipoStage": "청약 예정",
+      "underwriter": "주관사 확인",
+      "basisTimeLabel": "오늘 09:30 기준",
+      "oneLine": "IPO 일정 확인 대상 기업",
+      "body": "SimwonAmericaCorp.는 IPO 일정 확인 대상 기업입니다. 11.05 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
+      "points": [
+        "청약 시작·마감일 확인",
+        "환불일 확인",
+        "정정 공시 여부 확인"
+      ],
+      "sourceLabels": [
+        "DART 일정",
+        "환불일 확인",
         "주관사 확인"
       ],
       "competition": null,

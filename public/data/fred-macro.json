@@ -1,8 +1,8 @@
 {
   "metadata": {
     "source": "FRED",
-    "updatedAt": "2026-10-26T00:26:08.519Z",
-    "generatedAt": "2026-10-26T00:26:08.519Z",
+    "updatedAt": "2026-10-27T01:25:25.055Z",
+    "generatedAt": "2026-10-27T01:25:25.055Z",
     "seriesCount": 4
   },
   "items": [
@@ -119,17 +119,13 @@
       "seriesId": "DGS10",
       "koreanName": "미국 10년물 국채금리",
       "unit": "%",
-      "latestDate": "2026-10-22",
-      "latestValue": 4.96,
-      "previousDate": "2026-10-21",
-      "previousValue": 5.13,
-      "change": -0.17,
-      "changeRate": -3.31,
+      "latestDate": "2026-10-23",
+      "latestValue": 5,
+      "previousDate": "2026-10-22",
+      "previousValue": 4.96,
+      "change": 0.04,
+      "changeRate": 0.81,
       "observations": [
-        {
-          "date": "2026-09-18",
-          "value": 5.01
-        },
         {
           "date": "2026-09-21",
           "value": 4.96
@@ -221,6 +217,10 @@
         {
           "date": "2026-10-22",
           "value": 4.96
+        },
+        {
+          "date": "2026-10-23",
+          "value": 5
         }
       ]
     },

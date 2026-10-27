@@ -1,11 +1,88 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-10-25T00:46:48.965Z",
+    "updatedAt": "2026-10-27T01:23:16.106Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "4b0a77f6634289e5",
+      "keyword": "에이엘로봇",
+      "companyName": "에이엘로봇",
+      "title": "[Invest]청약증거금 이자 지급 선수친 대신증권... 증권사들 '난감'",
+      "description": "대신증권의 독자 행보가 IPO 영업 경쟁과 맞물린 것 아니냐는 시선도 나온다.27일 금융투자업계에 따르면 대신증권은 다음달 진행되는 에이엘로봇 공모주 청약부터 증거금 이자를 지급한다. 지난달 지급 방침을 발표한 데...",
+      "link": "https://www.investchosun.com/site/data/html_dir/2026/10/27/2026102780030.html",
+      "originallink": "https://www.investchosun.com/site/data/html_dir/2026/10/27/2026102780030.html",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-27T01:10:00.000Z"
+    },
+    {
+      "id": "af711aa789cc1925",
+      "keyword": "이에스티",
+      "companyName": "이에스티",
+      "title": "[증권家] 11월 ‘슈퍼 먼스’ 개막… 美 중간선거·엔비디아 실적·한국...",
+      "description": "기업공개(IPO), 국내 제도 개편이 한데 맞물리는 ‘슈퍼 먼스(Super Month)’를 맞이한다. 증권가에 따르면... 공모주 시장에서는 영광(2일), 이에스티(4일), 래블업 등이 코스닥 시장에 신규 상장하고...",
+      "link": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065598391780562",
+      "originallink": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065598391780562",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-26T07:38:00.000Z"
+    },
+    {
+      "id": "0edb22433adcb9d2",
+      "keyword": "이에스티",
+      "companyName": "이에스티",
+      "title": "5.75조 몰린 티앤이코리아, 경쟁률은 인텔리빅스가 1위…공모주 희비",
+      "description": "이어 한화플러스제6호스팩 371.50대 1, 반도체·디스플레이 공정 장비·부품 기업 이에스티 57.90대 1, 골프 IT... 공모주 투자 성과는 청약 경쟁률뿐 아니라 공모가 수준과 상장 초기 유통 가능 물량, 기관 의무보유 확약...",
+      "link": "https://n.news.naver.com/mnews/article/018/0006396177?sid=105",
+      "originallink": "https://www.edaily.co.kr/News/Read?newsId=02486246645616856&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-26T01:10:00.000Z"
+    },
+    {
+      "id": "7c23ee796b9a125c",
+      "keyword": "이에스티",
+      "companyName": "이에스티",
+      "title": "이에스티 IPO 흥행 이후 과제는 '반도체 정전척 양산 승인'",
+      "description": "추정치가 실현되지 않으면 상장 이후 주가를 통해 공모가의 적정성이 시험받을 수 있다는 지적이 나온다. 이에스티는 이번 공모로 확보할 순수입금 269억8900만원을 시설자금 193억9200만원과 운영자금...",
+      "link": "https://n.news.naver.com/mnews/article/293/0000092106?sid=101",
+      "originallink": "https://www.bloter.net/news/articleView.html?idxno=676567",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-25T22:00:00.000Z"
+    },
+    {
+      "id": "e6c9a4a0bf430d41",
+      "keyword": "에이엘로봇",
+      "companyName": "에이엘로봇",
+      "title": "티앤이코리아·크리에이츠·인텔리빅스, 코스닥 신규 입성 [이번주 증시...",
+      "description": "26일 금융투자 업계에 따르면 고속 터보기계 전문 기업 티앤이코리아는 29일 코스닥 시장에 상장한다.... 희망 공모가는 9400~1만 1000원이다. 로봇 자동화 기업 에이엘로봇도 28일부터 다음달 3일까지 수요예측을...",
+      "link": "https://n.news.naver.com/mnews/article/011/0004675009?sid=101",
+      "originallink": "https://www.sedaily.com/article/20105749?ref=naver",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-25T21:01:00.000Z"
+    },
+    {
+      "id": "cea93cddd4ebc08a",
+      "keyword": "에이엘로봇",
+      "companyName": "에이엘로봇",
+      "title": "[IPO 워치] 티앤이코리아·크리에이츠·인텔리빅스 상장…수요예측 7곳",
+      "description": "로봇 자동화 기업 에이엘로봇은 28일부터 다음 달 3일까지 기관 평가를 받는다. 희망 공모가는 1만5700~1만7600원으로, 대신증권이 상장을 주관한다. 앞서 수요예측을 시작한 기업들도 일정을 이어간다....",
+      "link": "https://www.news2day.co.kr/article/20261024500039",
+      "originallink": "https://www.news2day.co.kr/article/20261024500039",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-25T19:22:00.000Z"
+    },
+    {
+      "id": "5e921d91bf61f6d4",
+      "keyword": "에이엘로봇",
+      "companyName": "에이엘로봇",
+      "title": "공모주 청약 희비 갈린 티앤이코리아·크리에이츠…이번 주 코스닥 입성",
+      "description": "한국거래소 홍보관 모습[출처: 연합뉴스 자료사진] 이번 주(10월 26~30일) 기업공개(IPO) 시장에서는... 희망 공모가는 1만5천700~1만7천600원이다. 영광와이케이엠씨와 에이엘로봇의 상장 주관사는 모두 대신증권이다....",
+      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4440985",
+      "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4440985",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-25T04:02:00.000Z"
+    },
     {
       "id": "563218e0db19d0dd",
       "keyword": "옵토닉스",
@@ -41,10 +118,10 @@
     },
     {
       "id": "6910c75e06039ff2",
-      "keyword": "에이엘로봇",
-      "companyName": "에이엘로봇",
+      "keyword": "옵토닉스",
+      "companyName": "옵토닉스",
       "title": "[IPO 일정] 다음 주 IPO 시장, 옵토닉스 등 7개사 수요예측·엠비디 청약",
-      "description": "내주 IPO 대어들 출격… 옵토닉스 수요예측·엠비디 청약 다음 주 코스닥 시장에서는 총 7개 기업이... 로봇 자동화 기업 에이엘로봇은 28일부터 다음 달 3일까지 수요예측을 실시한다. 공모가는 1만5천700...",
+      "description": "내주 IPO 대어들 출격… 옵토닉스 수요예측·엠비디 청약 다음 주 코스닥 시장에서는 총 7개 기업이... 옵토닉스는 21일부터 27일까지 수요예측을 진행하며, 공모가는 1만~1만2천원 범위에서 결정된다. 대표주관사는...",
       "link": "https://www.cbci.co.kr/news/articleView.html?idxno=618922",
       "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=618922",
       "provider": "뉴스 검색",
@@ -52,36 +129,14 @@
     },
     {
       "id": "f13a8a023486a68f",
-      "keyword": "에이엘로봇",
-      "companyName": "에이엘로봇",
+      "keyword": "옵토닉스",
+      "companyName": "옵토닉스",
       "title": "다음 주 IPO 7개사 수요예측…공모주 청약은 엠비디 한 곳",
-      "description": "로봇 자동화 기업 에이엘로봇은 28일부터 다음 달 3일까지 수요예측에 나섭니다. 희망 공모가는 1만5,700... 반응을 분석하고 치료 효과를 예측하는 기술을 보유하고 있습니다. 다음 주 신규 상장 예정 기업은 없습니다.",
+      "description": "주(26∼30일) 기업공개(IPO) 시장에서는 7개 기업이 기관투자자 대상 수요예측에 나서는 가운데, 일반투자자 대상 공모주 청약은 엠비디 한 곳만 진행합니다. 24일 금융투자업계에 따르면 광학 부품 기업 옵토닉스는...",
       "link": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005946206",
       "originallink": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005946206",
       "provider": "뉴스 검색",
       "publishedAt": "2026-10-24T01:42:00.000Z"
-    },
-    {
-      "id": "15a5bd6e86e4735c",
-      "keyword": "에이엘로봇",
-      "companyName": "에이엘로봇",
-      "title": "[IPO챗] 내주 옵토닉스 등 7개사 수요예측…엠비디 공모주 청약",
-      "description": "넥스아이·바로팜·동원파츠 등 기관 평가대…신규 상장은 없어 다음 주(26∼30일) 기업공개(IPO) 시장에서는 6개 기업이 기관투자자 대상 수요예측에 나서는 가운데 일반투자자 대상 공모주 청약은 엠비디 한...",
-      "link": "https://n.news.naver.com/mnews/article/001/0016397816?sid=101",
-      "originallink": "https://www.yna.co.kr/view/AKR20261022074400008?input=1195m",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-24T00:01:00.000Z"
-    },
-    {
-      "id": "7b9f9432f5e57572",
-      "keyword": "에이엘로봇",
-      "companyName": "에이엘로봇",
-      "title": "제논 등 3곳 수요예측⋯티앤이코리아ㆍ크리에이츠ㆍ인텔리빅스 상장 [주...",
-      "description": "시작…영광와이케이엠씨·에이엘로봇도 합류 티앤이코리아 29일 상장…일반청약 증거금 5조7500억원 크리에이츠·인텔리빅스 30일 입성…청약 경쟁률은 대조 다음주 기업공개(IPO) 시장에서는 제논과...",
-      "link": "https://www.etoday.co.kr/news/view/2639306",
-      "originallink": "https://www.etoday.co.kr/news/view/2639306",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-24T00:00:00.000Z"
     },
     {
       "id": "7ac5d646cab9d8bf",
@@ -106,48 +161,37 @@
       "publishedAt": "2026-10-22T07:04:00.000Z"
     },
     {
-      "id": "224c85e7da7a551e",
-      "keyword": "바로팜",
-      "companyName": "바로팜",
-      "title": "[장외시황] 바로팜ㆍ넥스아이ㆍ동원파츠, 수요예측 시작",
-      "description": "22일 금융투자업계에 따르면 약국 인공지능 전환 플랫폼 전문업체 바로팜, 면역함암제 개발기업 넥스아이... 기업공개(IPO) 관련 상장 예비심사 청구종목으로 온라인 패션 플랫폼 무신사와 펩타이드 신약 개발업체...",
-      "link": "https://www.etoday.co.kr/news/view/2639033",
-      "originallink": "https://www.etoday.co.kr/news/view/2639033",
+      "id": "c79548df8f4a74de",
+      "keyword": "씨앤엠",
+      "companyName": "씨앤엠",
+      "title": "이번 주만 4곳 IPO 증권신고서 제출…연말 '막차' 러시",
+      "description": "올해 코스피 신규 상장사는 지난 3월 상장한 케이뱅크 1곳뿐이다. 올해 코스피 IPO 공모금액도 전액... 기업 씨앤엠과 ESS·수소연료전지 소재 기업 제이앤티지가 16일 각각 공모 절차에 착수했다. 다음 달 초부터...",
+      "link": "https://www.newstopkorea.com/news/articleView.html?idxno=48388",
+      "originallink": "https://www.newstopkorea.com/news/articleView.html?idxno=48388",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-10-22T06:48:00.000Z"
+      "publishedAt": "2026-10-22T02:12:00.000Z"
     },
     {
-      "id": "a939ff64d7034dc4",
-      "keyword": "이에스티",
-      "companyName": "이에스티",
-      "title": "홀로 IPO 눈높이 낮춘 래블업, FI 투자 성적은 '합격'",
-      "description": "전날 공모가를 희망밴드(1만9000~2만2000원) 하단인 1만9000원으로 확정했다. 함께 가격을 결정한 이에스티... 이어 확정 공모가도 조정된 밴드의 하단으로 정하면서 공모 규모는 414억2000만원, 상장 후 시가총액은...",
-      "link": "https://www.newstopkorea.com/news/articleView.html?idxno=48395",
-      "originallink": "https://www.newstopkorea.com/news/articleView.html?idxno=48395",
+      "id": "bae1049b156c5ae5",
+      "keyword": "씨앤엠",
+      "companyName": "씨앤엠",
+      "title": "[Invest]'AI 못 믿어'…도로 굴뚝산업 IPO 영업 뛰는 증권사",
+      "description": "기술기업의 공모 흥행과 상장 이후 주가를 장담하기 어렵다는 판단이다.18일 투자은행(IB) 업계에 따르면 주요 증권사 기업금융(ECM) 실무진은 최근 IPO 후보 기업을 발굴하는 과정에서 산업군을 이전보다 폭넓게 살피고...",
+      "link": "https://www.investchosun.com/site/data/html_dir/2026/10/21/2026102180163.html",
+      "originallink": "https://www.investchosun.com/site/data/html_dir/2026/10/21/2026102180163.html",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-10-22T05:26:00.000Z"
+      "publishedAt": "2026-10-21T22:02:00.000Z"
     },
     {
-      "id": "b0941e160d5fbb5d",
-      "keyword": "이에스티",
-      "companyName": "이에스티",
-      "title": "[공모주 현황] 이에스티, 정전척 기술 앞세워 공모시장 진입…공모가 1...",
-      "description": "하는 이에스티가 기업공개(IPO) 과정에서 공모가격을 1만2400원으로 결정했다. 기관투자자를 대상으로 진행한... 다만 수요예측 경쟁률과 공모가격 결정 결과가 상장 이후 주가 상승을 보장하지는 않는다. 기관투자자의...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=618111",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=618111",
+      "id": "4036ffa8c09ce764",
+      "keyword": "씨앤엠",
+      "companyName": "씨앤엠",
+      "title": "[씨앤엠 IPO] 하반기 부진 뺀 밸류…수주잔고 1.5조 실재성 있나",
+      "description": "만에 상장사 타이틀을 획득하게 된다. 다만 만족스러운 성적표를 받을 수 있을지는 불확실하다. 공모가 책정 방법을 두고 투자자들의 의구심이 커지고 있어서다. 문제는 비교기업 구성이다. 씨앤엠과 사업구조가...",
+      "link": "https://www.the-stock.kr/news/articleView.html?idxno=33599",
+      "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=33599",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-10-22T01:36:00.000Z"
-    },
-    {
-      "id": "57f8f705c204c542",
-      "keyword": "옵토닉스",
-      "companyName": "옵토닉스",
-      "title": "[장외시황] 인텔리빅스, 공모청약 시작",
-      "description": "기록했으며, 공모가는 희망밴드 상단인 9000원으로 확정됐다. 초정밀 센서 광학 전문업체 옵토닉스가 21... 총 공모주식수는 210만주이며, 희망 공모가 범위는 1만1200~1만3600원이다. IPO(기업공개)관련 상장 예비심사...",
-      "link": "https://www.etoday.co.kr/news/view/2638489",
-      "originallink": "https://www.etoday.co.kr/news/view/2638489",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-21T07:08:00.000Z"
+      "publishedAt": "2026-10-20T05:20:00.000Z"
     },
     {
       "id": "f342d66249fc4252",
@@ -214,6 +258,17 @@
       "originallink": "https://www.wikitree.co.kr/articles/1162969",
       "provider": "뉴스 검색",
       "publishedAt": "2026-09-30T11:24:00.000Z"
+    },
+    {
+      "id": "3aa425eeaf645ca9",
+      "keyword": "씨앤엠",
+      "companyName": "씨앤엠",
+      "title": "[더벨][IB 풍향계] IPO 주관 속도전 한국증권, 일주일새 3곳 심사 승인",
+      "description": "이후 공모주 시장 개선세를 보이고 있기에 이달 말 상장하는 글로벌테크놀로지에도 기대감이 큰 상황이다. 한국투자증권은 현재 피지티, 인터엑스, 이노보테라퓨틱스, 데스틴파워, 라이드플럭스, 이나인페이, 씨앤엠...",
+      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609221622229840103126",
+      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609221622229840103126",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-09-27T22:02:00.000Z"
     },
     {
       "id": "839f6f19c057616f",
@@ -291,17 +346,6 @@
       "originallink": "http://www.ggilbo.com/news/articleView.html?idxno=880516",
       "provider": "뉴스 검색",
       "publishedAt": "2021-11-20T02:46:00.000Z"
-    },
-    {
-      "id": "4e59c2594d6843ca",
-      "keyword": "아이엠기업인수목적1호",
-      "companyName": "아이엠기업인수목적1호",
-      "title": "[장외주식] 현대로지스틱스 6만4750원…4거래일 연속↑",
-      "description": "기업공개(IPO)시장에서는 지난주 대신밸러스제1호기업인수목적, 하이제3호기업인수목적... 금일 유지인트가 코스닥시장에 상장했으며 공모가(1만5000원)를 2배 가까이 웃도는 2만9150원에 시초가를 형성한...",
-      "link": "https://n.news.naver.com/mnews/article/008/0003453304?sid=101",
-      "originallink": "http://www.mt.co.kr/view/mtview.php?type=1&no=2015041315491391700&outlink=1",
-      "provider": "뉴스 검색",
-      "publishedAt": "2015-04-13T06:51:00.000Z"
     }
   ]
 }

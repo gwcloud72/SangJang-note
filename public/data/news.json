@@ -1,11 +1,33 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-10-27T01:23:16.106Z",
+    "updatedAt": "2026-10-28T01:07:16.083Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "419a851296ada98d",
+      "keyword": "엠비디",
+      "companyName": "엠비디",
+      "title": "[A 증시어택] ②유망 테크·바이오·소부장 강소기업, 11월 공모주 소개",
+      "description": "△엠비디=3차원(3D) 세포배양 자동화 기반 정밀의료 플랫폼 기업 엠비디가 코스닥시장 상장을 위한 공모... 김용관 에스에프씨 대표는 \"이번 IPO를 통해 확보한 자금을 미래 성장을 위한 연구개발과 사업화에 적극...",
+      "link": "https://www.asiaa.co.kr/news/articleView.html?idxno=268068",
+      "originallink": "https://www.asiaa.co.kr/news/articleView.html?idxno=268068",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-28T00:00:00.000Z"
+    },
+    {
+      "id": "3bb6ed9253cbf04b",
+      "keyword": "바로팜",
+      "companyName": "바로팜",
+      "title": "바로팜, 코스닥 상장 본격 시동… 공모가 1만 6 400원~2만 200원",
+      "description": "약국 플랫폼 전문 기업 바로팜(BarePharm)이 코스닥 시장 상장을 위한 본격적인 공모 절차에 돌입했다. 바로팜(대표이사 김슬기)은 서울 여의도 63빌딩에서 기업공개(IPO) 간담회를 개최하고 지난 9월 증권신고서를...",
+      "link": "https://www.bosa.co.kr/news/articleView.html?idxno=3014953",
+      "originallink": "https://www.bosa.co.kr/news/articleView.html?idxno=3014953",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-27T05:52:00.000Z"
+    },
     {
       "id": "4b0a77f6634289e5",
       "keyword": "에이엘로봇",
@@ -19,43 +41,21 @@
     },
     {
       "id": "af711aa789cc1925",
-      "keyword": "이에스티",
-      "companyName": "이에스티",
+      "keyword": "엠비디",
+      "companyName": "엠비디",
       "title": "[증권家] 11월 ‘슈퍼 먼스’ 개막… 美 중간선거·엔비디아 실적·한국...",
-      "description": "기업공개(IPO), 국내 제도 개편이 한데 맞물리는 ‘슈퍼 먼스(Super Month)’를 맞이한다. 증권가에 따르면... 공모주 시장에서는 영광(2일), 이에스티(4일), 래블업 등이 코스닥 시장에 신규 상장하고...",
+      "description": "공모주 시장에서는 영광(2일), 이에스티(4일), 래블업 등이 코스닥 시장에 신규 상장하고, 하니에어로다이내믹스, 엠비디, 케이엠에프 등이 릴레이 기관 수요예측에 돌입해 중소형 기술 특례 상장 시장의 열기를...",
       "link": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065598391780562",
       "originallink": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065598391780562",
       "provider": "뉴스 검색",
       "publishedAt": "2026-10-26T07:38:00.000Z"
     },
     {
-      "id": "0edb22433adcb9d2",
-      "keyword": "이에스티",
-      "companyName": "이에스티",
-      "title": "5.75조 몰린 티앤이코리아, 경쟁률은 인텔리빅스가 1위…공모주 희비",
-      "description": "이어 한화플러스제6호스팩 371.50대 1, 반도체·디스플레이 공정 장비·부품 기업 이에스티 57.90대 1, 골프 IT... 공모주 투자 성과는 청약 경쟁률뿐 아니라 공모가 수준과 상장 초기 유통 가능 물량, 기관 의무보유 확약...",
-      "link": "https://n.news.naver.com/mnews/article/018/0006396177?sid=105",
-      "originallink": "https://www.edaily.co.kr/News/Read?newsId=02486246645616856&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-26T01:10:00.000Z"
-    },
-    {
-      "id": "7c23ee796b9a125c",
-      "keyword": "이에스티",
-      "companyName": "이에스티",
-      "title": "이에스티 IPO 흥행 이후 과제는 '반도체 정전척 양산 승인'",
-      "description": "추정치가 실현되지 않으면 상장 이후 주가를 통해 공모가의 적정성이 시험받을 수 있다는 지적이 나온다. 이에스티는 이번 공모로 확보할 순수입금 269억8900만원을 시설자금 193억9200만원과 운영자금...",
-      "link": "https://n.news.naver.com/mnews/article/293/0000092106?sid=101",
-      "originallink": "https://www.bloter.net/news/articleView.html?idxno=676567",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-25T22:00:00.000Z"
-    },
-    {
       "id": "e6c9a4a0bf430d41",
-      "keyword": "에이엘로봇",
-      "companyName": "에이엘로봇",
+      "keyword": "엠비디",
+      "companyName": "엠비디",
       "title": "티앤이코리아·크리에이츠·인텔리빅스, 코스닥 신규 입성 [이번주 증시...",
-      "description": "26일 금융투자 업계에 따르면 고속 터보기계 전문 기업 티앤이코리아는 29일 코스닥 시장에 상장한다.... 희망 공모가는 9400~1만 1000원이다. 로봇 자동화 기업 에이엘로봇도 28일부터 다음달 3일까지 수요예측을...",
+      "description": "가운데, 엠비디는 일반투자자 대상 공모주 청약을 진행한다. 26일 금융투자 업계에 따르면 고속 터보기계 전문 기업 티앤이코리아는 29일 코스닥 시장에 상장한다. 티앤이코리아는 공기베어링과 고속모터 기술을...",
       "link": "https://n.news.naver.com/mnews/article/011/0004675009?sid=101",
       "originallink": "https://www.sedaily.com/article/20105749?ref=naver",
       "provider": "뉴스 검색",
@@ -118,8 +118,8 @@
     },
     {
       "id": "6910c75e06039ff2",
-      "keyword": "옵토닉스",
-      "companyName": "옵토닉스",
+      "keyword": "엠비디",
+      "companyName": "엠비디",
       "title": "[IPO 일정] 다음 주 IPO 시장, 옵토닉스 등 7개사 수요예측·엠비디 청약",
       "description": "내주 IPO 대어들 출격… 옵토닉스 수요예측·엠비디 청약 다음 주 코스닥 시장에서는 총 7개 기업이... 옵토닉스는 21일부터 27일까지 수요예측을 진행하며, 공모가는 1만~1만2천원 범위에서 결정된다. 대표주관사는...",
       "link": "https://www.cbci.co.kr/news/articleView.html?idxno=618922",
@@ -129,36 +129,14 @@
     },
     {
       "id": "f13a8a023486a68f",
-      "keyword": "옵토닉스",
-      "companyName": "옵토닉스",
+      "keyword": "엠비디",
+      "companyName": "엠비디",
       "title": "다음 주 IPO 7개사 수요예측…공모주 청약은 엠비디 한 곳",
-      "description": "주(26∼30일) 기업공개(IPO) 시장에서는 7개 기업이 기관투자자 대상 수요예측에 나서는 가운데, 일반투자자 대상 공모주 청약은 엠비디 한 곳만 진행합니다. 24일 금융투자업계에 따르면 광학 부품 기업 옵토닉스는...",
+      "description": "다음 주(26∼30일) 기업공개(IPO) 시장에서는 7개 기업이 기관투자자 대상 수요예측에 나서는 가운데, 일반투자자 대상 공모주 청약은 엠비디 한 곳만 진행합니다. 24일 금융투자업계에 따르면 광학 부품 기업...",
       "link": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005946206",
       "originallink": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005946206",
       "provider": "뉴스 검색",
       "publishedAt": "2026-10-24T01:42:00.000Z"
-    },
-    {
-      "id": "7ac5d646cab9d8bf",
-      "keyword": "이에스티",
-      "companyName": "이에스티",
-      "title": "[공모주 마감] 이에스티 청약 2일차까지 종료됐다…균등·비례경쟁률은...",
-      "description": "IPO 자료사진. AI가 생성한 이미지. 공모주 이에스티의 일반투자자 대상 청약 일정이 23일 오후 4시를 기해... 한편 상장일 이에스티의 주가 흐름에도 관심이 쏠린다. 과도한 낙관이나 비관은 지양해야할 요소다. 상장...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=618647",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=618647",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-23T07:02:00.000Z"
-    },
-    {
-      "id": "c20e4eae26dbd88c",
-      "keyword": "이에스티",
-      "companyName": "이에스티",
-      "title": "[공모주 투데이] 이에스티 청약 1일차 일정 마무리, 균등·비례 경쟁률은...",
-      "description": "IPO 자료사진. AI가 생성한 이미지. 이에스티의 일반투자자 대상 공모주 청약 첫날 일정이 22일 마무리됐다.... 청약 종료 이후에는 최종 경쟁률과 배정 결과에 이어 상장 이후 주가 흐름에도 관심이 이어질 전망이다....",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=618249",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=618249",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-22T07:04:00.000Z"
     },
     {
       "id": "c79548df8f4a74de",

@@ -1,17 +1,39 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-10-29T02:15:34.312Z",
+    "updatedAt": "2026-10-30T01:49:37.195Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
     {
+      "id": "3d5777deb2c03914",
+      "keyword": "넥스아이",
+      "companyName": "넥스아이",
+      "title": "[IPO] 창업 3년 만에 日 오노에 기술이전…'불응암 신약' 넥스아이, 내달...",
+      "description": "넥스아이가 11월 12일 코스닥에 상장한다. 기술은 일본 오노약품 기술이전으로 한 번 검증됐지만, 공모가... 이 밖에도 NXI-201은 대장암이 주 타깃으로, PD-1 억제제와 함께 쓰자 인간화 마우스에서 이보네시맙보다 종양...",
+      "link": "https://www.cnbizm.com/news/articleView.html?idxno=319746",
+      "originallink": "https://www.cnbizm.com/news/articleView.html?idxno=319746",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-29T08:30:00.000Z"
+    },
+    {
+      "id": "afa3a27a42893190",
+      "keyword": "넥스아이",
+      "companyName": "넥스아이",
+      "title": "'6천억 몸값' 넥스아이 …\"2030년까지 年 최소 1건 기술이전 목표\"",
+      "description": "코스닥 상장을 앞둔 윤경완 넥스아이 대표는 29일 서울 여의도에서 열린 기업공개(IPO) 간담회에서... 넥스아이는 2030년 추정 당기순이익을 973억1000만원으로 제시했다. 희망 공모가(1만500~1만3000원) 기준 기업가치는...",
+      "link": "https://n.news.naver.com/mnews/article/008/0005433695?sid=101",
+      "originallink": "https://www.mt.co.kr/thebio/2026/10/29/2026102914232690189",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-29T05:56:00.000Z"
+    },
+    {
       "id": "419a851296ada98d",
-      "keyword": "엠비디",
-      "companyName": "엠비디",
+      "keyword": "제이앤티지",
+      "companyName": "제이앤티지",
       "title": "[A 증시어택] ②유망 테크·바이오·소부장 강소기업, 11월 공모주 소개",
-      "description": "△엠비디=3차원(3D) 세포배양 자동화 기반 정밀의료 플랫폼 기업 엠비디가 코스닥시장 상장을 위한 공모... 김용관 에스에프씨 대표는 \"이번 IPO를 통해 확보한 자금을 미래 성장을 위한 연구개발과 사업화에 적극...",
+      "description": "△제이앤티지=신재생에너지 첨단소재 전문기업 제이앤티지가 코스닥시장 상장을 위한 공모 절차에... 김용관 에스에프씨 대표는 \"이번 IPO를 통해 확보한 자금을 미래 성장을 위한 연구개발과 사업화에 적극...",
       "link": "https://www.asiaa.co.kr/news/articleView.html?idxno=268068",
       "originallink": "https://www.asiaa.co.kr/news/articleView.html?idxno=268068",
       "provider": "뉴스 검색",
@@ -106,17 +128,6 @@
       "publishedAt": "2026-10-24T23:00:00.000Z"
     },
     {
-      "id": "a78e119765bf8354",
-      "keyword": "넥스아이",
-      "companyName": "넥스아이",
-      "title": "'청약 희비' 티앤이코리아·크리에이츠, 코스닥 입성⋯넥스아이 수요예...",
-      "description": "이번 주(26~30일) 기업공개(IPO) 시장에서는 티앤이코리아와 크리에이츠가 잇달아 코스닥에 입성한다. 면역항암 신약개발 기업 넥스아이는 기관투자자 대상 수요예측을 마무리하고 공모가를 확정한다. 25일...",
-      "link": "https://n.news.naver.com/mnews/article/031/0001068999?sid=101",
-      "originallink": "http://www.inews24.com/view/2018257",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-24T21:01:00.000Z"
-    },
-    {
       "id": "6910c75e06039ff2",
       "keyword": "엠비디",
       "companyName": "엠비디",
@@ -140,10 +151,10 @@
     },
     {
       "id": "c79548df8f4a74de",
-      "keyword": "씨앤엠",
-      "companyName": "씨앤엠",
+      "keyword": "제이앤티지",
+      "companyName": "제이앤티지",
       "title": "이번 주만 4곳 IPO 증권신고서 제출…연말 '막차' 러시",
-      "description": "올해 코스피 신규 상장사는 지난 3월 상장한 케이뱅크 1곳뿐이다. 올해 코스피 IPO 공모금액도 전액... 기업 씨앤엠과 ESS·수소연료전지 소재 기업 제이앤티지가 16일 각각 공모 절차에 착수했다. 다음 달 초부터...",
+      "description": "올해 코스피 신규 상장사는 지난 3월 상장한 케이뱅크 1곳뿐이다. 올해 코스피 IPO 공모금액도 전액... 기업 제이앤티지가 16일 각각 공모 절차에 착수했다. 다음 달 초부터 12월 초까지 수요예측 일정이 이어진다....",
       "link": "https://www.newstopkorea.com/news/articleView.html?idxno=48388",
       "originallink": "https://www.newstopkorea.com/news/articleView.html?idxno=48388",
       "provider": "뉴스 검색",
@@ -151,8 +162,8 @@
     },
     {
       "id": "bae1049b156c5ae5",
-      "keyword": "씨앤엠",
-      "companyName": "씨앤엠",
+      "keyword": "제이앤티지",
+      "companyName": "제이앤티지",
       "title": "[Invest]'AI 못 믿어'…도로 굴뚝산업 IPO 영업 뛰는 증권사",
       "description": "기술기업의 공모 흥행과 상장 이후 주가를 장담하기 어렵다는 판단이다.18일 투자은행(IB) 업계에 따르면 주요 증권사 기업금융(ECM) 실무진은 최근 IPO 후보 기업을 발굴하는 과정에서 산업군을 이전보다 폭넓게 살피고...",
       "link": "https://www.investchosun.com/site/data/html_dir/2026/10/21/2026102180163.html",
@@ -170,6 +181,28 @@
       "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=33599",
       "provider": "뉴스 검색",
       "publishedAt": "2026-10-20T05:20:00.000Z"
+    },
+    {
+      "id": "5c967266927b9257",
+      "keyword": "제이앤티지",
+      "companyName": "제이앤티지",
+      "title": "증시 한파에 공모주도 줄줄이 마이너스 수익률",
+      "description": "공모금액 약 2143억원)이 수요예측을 진행한 가운데, 다음달에도 제이앤티지와 아델 등 8곳(약 2864억원)이 수요예측에 나설 예정이다. 한편, 다음달 13일 도입되는 사전수요예측과 코너스톤투자자 제도는 IPO 시장에...",
+      "link": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202610191515154710165",
+      "originallink": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202610191515154710165",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-19T07:02:00.000Z"
+    },
+    {
+      "id": "b5ed2cbd662aa055",
+      "keyword": "제이앤티지",
+      "companyName": "제이앤티지",
+      "title": "[장외시황] 디티에스, 공모주 청약 시작",
+      "description": "상장 주관사는 각각 NH투자증권과, 한국투자증권이다. 수소 연료전기 첨단소재 전문업체 제이앤티지와... 98대1이고, 공모가는 희망 밴드 상단인 1만8500원으로 확정되었다. IPO(기업공개)관련 상장 예비심사...",
+      "link": "https://www.etoday.co.kr/news/view/2635302",
+      "originallink": "https://www.etoday.co.kr/news/view/2635302",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-13T07:22:00.000Z"
     },
     {
       "id": "f342d66249fc4252",
@@ -227,17 +260,6 @@
       "publishedAt": "2026-10-06T08:50:00.000Z"
     },
     {
-      "id": "6aa2f794159b9d67",
-      "keyword": "아이엠기업인수목적1호",
-      "companyName": "아이엠기업인수목적1호",
-      "title": "남들 몰래 용돈 벌자…10월 공모주 시장 최고의 '꿀 종목'은?",
-      "description": "에스케이증권제14호기업인수목적은 10월 15일부터 16일까지 공모 청약을 실시한다. 스팩은 상장 후 정해진... 금융 지원 서비스업체 아이엠스팩1호는 10월 26일부터 27일까지 자금 공모에 나서며 10월 청약의 마지막 순서를...",
-      "link": "https://www.wikitree.co.kr/articles/1162969",
-      "originallink": "https://www.wikitree.co.kr/articles/1162969",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-30T11:24:00.000Z"
-    },
-    {
       "id": "3aa425eeaf645ca9",
       "keyword": "씨앤엠",
       "companyName": "씨앤엠",
@@ -271,17 +293,6 @@
       "publishedAt": "2026-09-24T03:40:00.000Z"
     },
     {
-      "id": "a5e71a05a375259e",
-      "keyword": "아이엠기업인수목적1호",
-      "companyName": "아이엠기업인수목적1호",
-      "title": "한달간 상장심사 청구 13건…하반기 IPO 시장 ‘꿈틀’",
-      "description": "3일 한국거래소에 따르면 지난달 스팩(SPAC·기업인수목적회사)과 유가증권시장 이전상장을 제외하고 신규 상장을 위해 상장 심사를 청구한 기업은 13곳으로 집계됐다. 엠디에스코리아와 씨아이에스케미칼...",
-      "link": "https://www.etoday.co.kr/news/view/2610447",
-      "originallink": "https://www.etoday.co.kr/news/view/2610447",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-08-03T20:26:00.000Z"
-    },
-    {
       "id": "faeb1ddd2c59c218",
       "keyword": "하나에어로다이내믹스",
       "companyName": "하나에어로다이내믹스",
@@ -313,17 +324,6 @@
       "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202606091127375840101661",
       "provider": "뉴스 검색",
       "publishedAt": "2026-06-10T22:02:00.000Z"
-    },
-    {
-      "id": "2658fbecb0a572bf",
-      "keyword": "아이엠기업인수목적1호",
-      "companyName": "아이엠기업인수목적1호",
-      "title": "이주의 주식시장은? 메타버스·NFT관련주 계속되는 강세, 애플카 관련주...",
-      "description": "인공지능 검사설비 전문기업 트윔(-6.59%)이 코스닥 상장 첫날인 17일 공모가 대비 86% 오른 가격에... 사업목적을 변경했다. 이후 3월부터 한성크린텍 인수를 시작으로 인바이오텍 당진사업장, 이엔케미칼...",
-      "link": "http://www.ggilbo.com/news/articleView.html?idxno=880516",
-      "originallink": "http://www.ggilbo.com/news/articleView.html?idxno=880516",
-      "provider": "뉴스 검색",
-      "publishedAt": "2021-11-20T02:46:00.000Z"
     }
   ]
 }

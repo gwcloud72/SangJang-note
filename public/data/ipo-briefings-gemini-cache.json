@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "updatedAt": "2026-10-31T12:47:51.465Z",
+    "updatedAt": "2026-11-01T01:29:53.315Z",
     "source": "gemini-briefing-cache"
   },
   "items": [
@@ -1676,6 +1676,64 @@
         "model": null
       },
       "updatedAt": "2026-10-27T10:43:42.263Z"
+    },
+    {
+      "key": "c64951d4bdff429428c44c0a",
+      "model": "gemini-2.5-flash",
+      "briefing": {
+        "id": "briefing-옵토닉스",
+        "ipoId": "옵토닉스",
+        "companyName": "옵토닉스",
+        "sector": "IPO 일정 확인 대상 기업",
+        "ipoStage": "청약 예정",
+        "underwriter": "주관사 확인",
+        "basisTimeLabel": "오늘 09:30 기준",
+        "oneLine": "IPO 일정 확인 대상 기업",
+        "body": "옵토닉스는 IPO 일정 확인 대상 기업입니다. 11.05 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
+        "points": [
+          "청약 시작·마감일 확인",
+          "환불일 확인",
+          "정정 공시 여부 확인"
+        ],
+        "sourceLabels": [
+          "DART 일정",
+          "환불일 확인",
+          "주관사 확인"
+        ],
+        "competition": null,
+        "generatedBy": "local-rules",
+        "model": null
+      },
+      "updatedAt": "2026-11-01T01:29:22.812Z"
+    },
+    {
+      "key": "80a8ef937fd0187f58b6b13c",
+      "model": "gemini-2.5-flash",
+      "briefing": {
+        "id": "briefing-하나에어로다이내믹스",
+        "ipoId": "하나에어로다이내믹스",
+        "companyName": "하나에어로다이내믹스",
+        "sector": "IPO 일정 확인 대상 기업",
+        "ipoStage": "청약 예정",
+        "underwriter": "주관사 확인",
+        "basisTimeLabel": "오늘 09:30 기준",
+        "oneLine": "IPO 일정 확인 대상 기업",
+        "body": "하나에어로다이내믹스는 IPO 일정 확인 대상 기업입니다. 11.10 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
+        "points": [
+          "청약 시작·마감일 확인",
+          "환불일 확인",
+          "정정 공시 여부 확인"
+        ],
+        "sourceLabels": [
+          "DART 일정",
+          "환불일 확인",
+          "주관사 확인"
+        ],
+        "competition": null,
+        "generatedBy": "local-rules",
+        "model": null
+      },
+      "updatedAt": "2026-11-01T01:29:53.314Z"
     }
   ]
 }

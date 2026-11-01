@@ -1,15 +1,81 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-10-31T02:04:16.422Z",
+    "updatedAt": "2026-11-01T01:27:59.337Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
     {
-      "id": "0876c871e25a91b9",
+      "id": "f5853c187d45c96e",
       "keyword": "제이앤티지",
       "companyName": "제이앤티지",
+      "title": "영광·래블업·이에스티 등 상장[증시캘린더]",
+      "description": "다음 주(11월 2~6일) 기업공개(IPO) 시장에서는 영광과 래블업, 이에스티 등이 코스닥 시장에 입성한다.... 총 500만주 공모, 공모금액 100억원. 11월 4일 코스닥 시장 상장. 11월 4~5일 △영광와이케이엠씨 일반청약...",
+      "link": "https://n.news.naver.com/mnews/article/018/0006401113?sid=101",
+      "originallink": "https://www.edaily.co.kr/News/Read?newsId=01174246645641456&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-01T00:02:00.000Z"
+    },
+    {
+      "id": "162b19f761d8999b",
+      "keyword": "에스에프씨",
+      "companyName": "에스에프씨",
+      "title": "11월 공모주 15곳 줄청약 … 10월 새내기주 9곳 중 5곳 '공모가 하회' 경...",
+      "description": "공모 규모는 6371억~7661억원이다. 이 가운데 에스에프씨 1곳만 코스피 상장을 추진하고, 나머지 14곳은 코스닥 입성을 노린다. 공모 규모가 가장 큰 곳은 기타 화학제품 제조업체 에스에프씨다. 에스에프씨는 18...",
+      "link": "https://biz.newdaily.co.kr/site/data/html/2026/10/30/2026103000099.html",
+      "originallink": "https://biz.newdaily.co.kr/site/data/html/2026/10/30/2026103000099.html",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-01T00:00:00.000Z"
+    },
+    {
+      "id": "fe4763ae77d22204",
+      "keyword": "제이앤티지",
+      "companyName": "제이앤티지",
+      "title": "[이번주 IPO]11월 첫째 주 수요예측·청약 일정",
+      "description": "오는 2일부터 6일까지 기관투자자 대상 수요예측을 진행해 최종 공모가를 확정한 뒤 12~13일 일반청약을 거쳐 11월 코스닥시장 상장을 목표로 하고 있다. 대표주관사는 하나증권이다. ◆제이앤티지= 제이앤티지는...",
+      "link": "https://n.news.naver.com/mnews/article/277/0005836199?sid=101",
+      "originallink": "https://view.asiae.co.kr/article/2026103016544485363",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-31T23:00:00.000Z"
+    },
+    {
+      "id": "35517c51e315989b",
+      "keyword": "제이앤티지",
+      "companyName": "제이앤티지",
+      "title": "'수요예측 실패' 넥스아이, 일반청약⋯영광·래블업·이에스티 상장 [IP...",
+      "description": "이번 주(11월2~6일) 기업공개(IPO) 시장에서는 수요예측에서 고배를 마신 넥스아이가 일반 공모청약을... 수소연료전지 및 차세대 에너지 소재·부품 전문기업인 제이앤티지는 3일~9일 수요예측을 실시한다. LG전자...",
+      "link": "https://n.news.naver.com/mnews/article/031/0001071071?sid=101",
+      "originallink": "http://www.inews24.com/view/2020861",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-31T21:01:00.000Z"
+    },
+    {
+      "id": "ce910be824dc6957",
+      "keyword": "에이엘로봇",
+      "companyName": "에이엘로봇",
+      "title": "이번주 공모주 청약, 바로팜·동원파츠 등 6개사",
+      "description": "목진원 NH투자증권 연구원은 \"공모 후 보호예수 비중이 77.29%에 달해 상장 직후 오버행 부담은 극히 제한적\"이라고 말했다. 2017년에 설립된 에이엘로봇은 로봇용 힘·토크센서 등을 개발하는 기업이다. 총...",
+      "link": "https://n.news.naver.com/mnews/article/119/0003149710?sid=101",
+      "originallink": "https://www.dailian.co.kr/news/view/1708930/?sc=Naver",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-31T15:11:00.000Z"
+    },
+    {
+      "id": "34005bfe01ce3cfb",
+      "keyword": "제이앤티지",
+      "companyName": "제이앤티지",
+      "title": "[IPO 일정] 코스닥 3개 기업 11월 초 상장…공모가 1만2천400~1만9천원",
+      "description": "다음 주 코스닥 시장에서는 신규 상장과 공모주 청약, 기관투자자 대상 수요예측 등 다양한 IPO 일정이... 희망 공모가는 9천600∼1만1천700원, 하나에어로다이내믹스는 4천700∼5천700원으로 책정됐다. 제이앤티지...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=621704",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=621704",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-31T15:00:00.000Z"
+    },
+    {
+      "id": "0876c871e25a91b9",
+      "keyword": "씨앤엠",
+      "companyName": "씨앤엠",
       "title": "영광·래블업·이에스티 코스닥 데뷔…바로팜·동원파츠 등 청약 [주간 ...",
       "description": "이투데이=김효숙 기자 | 다음 주(11월 2~6일) 코스닥 시장에서는 영광과 래블업, 이에스티, 아이엠스팩1호 등 4개 종목이 새로 상장한다. 바로팜과 동원파츠 등 5개 기업은 일반투자자를 대상으로 공모청약에...",
       "link": "https://www.etoday.co.kr/news/view/2642501",
@@ -19,47 +85,14 @@
     },
     {
       "id": "c49013f96f7ae748",
-      "keyword": "제이앤티지",
-      "companyName": "제이앤티지",
+      "keyword": "에이엘로봇",
+      "companyName": "에이엘로봇",
       "title": "[IPO챗] 내주 영광·래블업·이에스티 등 3개사 코스닥 입성",
-      "description": "다음 주(11월 2∼6일) 기업공개(IPO) 시장에서는 영광과 래블업, 이에스티 등 3개 기업이 코스닥시장에 새롭게 입성한다. 31일 금융투자업계에 따르면 영광은 다음 달 2일 코스닥시장에 상장한다. 공모가는 희망...",
+      "description": "▲ 에이엘로봇, 코스닥, 1만5천700∼1만7천600원(11월 4일 확정 예정), 수요예측 10월 28∼11월 3일, 공모주 청약 6∼9일, 대표주관사 대신증권. 신규 상장 ▲ 영광, 2일, 공모가 1만7천원, 대표주관사 한국투자증권....",
       "link": "https://n.news.naver.com/mnews/article/001/0016413138?sid=101",
       "originallink": "https://www.yna.co.kr/view/AKR20261030067200008?input=1195m",
       "provider": "뉴스 검색",
       "publishedAt": "2026-10-31T00:00:00.000Z"
-    },
-    {
-      "id": "1df52e1ea724ecd6",
-      "keyword": "넥스아이",
-      "companyName": "넥스아이",
-      "title": "공모주 수요예측 쏠림에 '희비'… 동원파츠 웃고, 넥스아이·바로팜은 ...",
-      "description": "넥스아이는 공모가를 희망 가격(1만500~1만3000원) 하단보다 낮은 8000원으로 결정했다. 공모가 하단보다... 바로팜의 경우 이익미실현 특례 상장사지만, 지난해 흑자 전환에 성공했다. 반면 넥스아이는 아직 적자를...",
-      "link": "https://n.news.naver.com/mnews/article/015/0005348568?sid=101",
-      "originallink": "https://www.hankyung.com/article/202610306608r",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-30T07:35:00.000Z"
-    },
-    {
-      "id": "3d5777deb2c03914",
-      "keyword": "넥스아이",
-      "companyName": "넥스아이",
-      "title": "[IPO] 창업 3년 만에 日 오노에 기술이전…'불응암 신약' 넥스아이, 내달...",
-      "description": "넥스아이가 11월 12일 코스닥에 상장한다. 기술은 일본 오노약품 기술이전으로 한 번 검증됐지만, 공모가... 이 밖에도 NXI-201은 대장암이 주 타깃으로, PD-1 억제제와 함께 쓰자 인간화 마우스에서 이보네시맙보다 종양...",
-      "link": "https://www.cnbizm.com/news/articleView.html?idxno=319746",
-      "originallink": "https://www.cnbizm.com/news/articleView.html?idxno=319746",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-29T08:30:00.000Z"
-    },
-    {
-      "id": "afa3a27a42893190",
-      "keyword": "넥스아이",
-      "companyName": "넥스아이",
-      "title": "'6천억 몸값' 넥스아이 …\"2030년까지 年 최소 1건 기술이전 목표\"",
-      "description": "코스닥 상장을 앞둔 윤경완 넥스아이 대표는 29일 서울 여의도에서 열린 기업공개(IPO) 간담회에서... 넥스아이는 2030년 추정 당기순이익을 973억1000만원으로 제시했다. 희망 공모가(1만500~1만3000원) 기준 기업가치는...",
-      "link": "https://n.news.naver.com/mnews/article/008/0005433695?sid=101",
-      "originallink": "https://www.mt.co.kr/thebio/2026/10/29/2026102914232690189",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-29T05:56:00.000Z"
     },
     {
       "id": "419a851296ada98d",
@@ -71,83 +104,6 @@
       "originallink": "https://www.asiaa.co.kr/news/articleView.html?idxno=268068",
       "provider": "뉴스 검색",
       "publishedAt": "2026-10-28T00:00:00.000Z"
-    },
-    {
-      "id": "3bb6ed9253cbf04b",
-      "keyword": "바로팜",
-      "companyName": "바로팜",
-      "title": "바로팜, 코스닥 상장 본격 시동… 공모가 1만 6 400원~2만 200원",
-      "description": "약국 플랫폼 전문 기업 바로팜(BarePharm)이 코스닥 시장 상장을 위한 본격적인 공모 절차에 돌입했다. 바로팜(대표이사 김슬기)은 서울 여의도 63빌딩에서 기업공개(IPO) 간담회를 개최하고 지난 9월 증권신고서를...",
-      "link": "https://www.bosa.co.kr/news/articleView.html?idxno=3014953",
-      "originallink": "https://www.bosa.co.kr/news/articleView.html?idxno=3014953",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-27T05:52:00.000Z"
-    },
-    {
-      "id": "4b0a77f6634289e5",
-      "keyword": "에이엘로봇",
-      "companyName": "에이엘로봇",
-      "title": "[Invest]청약증거금 이자 지급 선수친 대신증권... 증권사들 '난감'",
-      "description": "대신증권의 독자 행보가 IPO 영업 경쟁과 맞물린 것 아니냐는 시선도 나온다.27일 금융투자업계에 따르면 대신증권은 다음달 진행되는 에이엘로봇 공모주 청약부터 증거금 이자를 지급한다. 지난달 지급 방침을 발표한 데...",
-      "link": "https://www.investchosun.com/site/data/html_dir/2026/10/27/2026102780030.html",
-      "originallink": "https://www.investchosun.com/site/data/html_dir/2026/10/27/2026102780030.html",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-27T01:10:00.000Z"
-    },
-    {
-      "id": "af711aa789cc1925",
-      "keyword": "엠비디",
-      "companyName": "엠비디",
-      "title": "[증권家] 11월 ‘슈퍼 먼스’ 개막… 美 중간선거·엔비디아 실적·한국...",
-      "description": "공모주 시장에서는 영광(2일), 이에스티(4일), 래블업 등이 코스닥 시장에 신규 상장하고, 하니에어로다이내믹스, 엠비디, 케이엠에프 등이 릴레이 기관 수요예측에 돌입해 중소형 기술 특례 상장 시장의 열기를...",
-      "link": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065598391780562",
-      "originallink": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065598391780562",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-26T07:38:00.000Z"
-    },
-    {
-      "id": "e6c9a4a0bf430d41",
-      "keyword": "엠비디",
-      "companyName": "엠비디",
-      "title": "티앤이코리아·크리에이츠·인텔리빅스, 코스닥 신규 입성 [이번주 증시...",
-      "description": "가운데, 엠비디는 일반투자자 대상 공모주 청약을 진행한다. 26일 금융투자 업계에 따르면 고속 터보기계 전문 기업 티앤이코리아는 29일 코스닥 시장에 상장한다. 티앤이코리아는 공기베어링과 고속모터 기술을...",
-      "link": "https://n.news.naver.com/mnews/article/011/0004675009?sid=101",
-      "originallink": "https://www.sedaily.com/article/20105749?ref=naver",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-25T21:01:00.000Z"
-    },
-    {
-      "id": "cea93cddd4ebc08a",
-      "keyword": "에이엘로봇",
-      "companyName": "에이엘로봇",
-      "title": "[IPO 워치] 티앤이코리아·크리에이츠·인텔리빅스 상장…수요예측 7곳",
-      "description": "로봇 자동화 기업 에이엘로봇은 28일부터 다음 달 3일까지 기관 평가를 받는다. 희망 공모가는 1만5700~1만7600원으로, 대신증권이 상장을 주관한다. 앞서 수요예측을 시작한 기업들도 일정을 이어간다....",
-      "link": "https://www.news2day.co.kr/article/20261024500039",
-      "originallink": "https://www.news2day.co.kr/article/20261024500039",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-25T19:22:00.000Z"
-    },
-    {
-      "id": "5e921d91bf61f6d4",
-      "keyword": "에이엘로봇",
-      "companyName": "에이엘로봇",
-      "title": "공모주 청약 희비 갈린 티앤이코리아·크리에이츠…이번 주 코스닥 입성",
-      "description": "한국거래소 홍보관 모습[출처: 연합뉴스 자료사진] 이번 주(10월 26~30일) 기업공개(IPO) 시장에서는... 희망 공모가는 1만5천700~1만7천600원이다. 영광와이케이엠씨와 에이엘로봇의 상장 주관사는 모두 대신증권이다....",
-      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4440985",
-      "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4440985",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-25T04:02:00.000Z"
-    },
-    {
-      "id": "563218e0db19d0dd",
-      "keyword": "옵토닉스",
-      "companyName": "옵토닉스",
-      "title": "티앤이코리아·인텔리빅스·크리에이츠 상장 등[증시캘린더]",
-      "description": "다음 주(10월 26~30일) 기업공개(IPO) 시장에서는 티앤이코리아와 인텔리빅스, 크리에이츠 등이 코스닥... 총 650만주 공모, 공모금액 130억원. 10월 27일 코스닥 시장 상장. ◇10월 29일 △티앤이코리아 상장...",
-      "link": "https://n.news.naver.com/mnews/article/018/0006395618?sid=101",
-      "originallink": "https://www.edaily.co.kr/News/Read?newsId=01207046645616528&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-25T00:02:00.000Z"
     },
     {
       "id": "2e44927136450c3e",
@@ -181,61 +137,6 @@
       "originallink": "https://www.newstopkorea.com/news/articleView.html?idxno=48388",
       "provider": "뉴스 검색",
       "publishedAt": "2026-10-22T02:12:00.000Z"
-    },
-    {
-      "id": "8b2d0f83fd6a0ba8",
-      "keyword": "에스에프씨",
-      "companyName": "에스에프씨",
-      "title": "[SFC IPO] 팔 사람이 없다, SDC도 초장기 락업…매력적 '수급'",
-      "description": "OLED 소재기업 에스에프씨(SFC)는 수급 측면에서 유리한 구조로 상장에 나선다. 상장 직후 시장에 나올 수... 반대로 FI 매물과 보호예수 해제가 주가에 부담을 준 사례도 있다. 지난 5월 상장한 폴레드는 첫날 공모가...",
-      "link": "https://www.the-stock.kr/news/articleView.html?idxno=33609",
-      "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=33609",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-21T23:00:00.000Z"
-    },
-    {
-      "id": "bae1049b156c5ae5",
-      "keyword": "제이앤티지",
-      "companyName": "제이앤티지",
-      "title": "[Invest]'AI 못 믿어'…도로 굴뚝산업 IPO 영업 뛰는 증권사",
-      "description": "기술기업의 공모 흥행과 상장 이후 주가를 장담하기 어렵다는 판단이다.18일 투자은행(IB) 업계에 따르면 주요 증권사 기업금융(ECM) 실무진은 최근 IPO 후보 기업을 발굴하는 과정에서 산업군을 이전보다 폭넓게 살피고...",
-      "link": "https://www.investchosun.com/site/data/html_dir/2026/10/21/2026102180163.html",
-      "originallink": "https://www.investchosun.com/site/data/html_dir/2026/10/21/2026102180163.html",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-21T22:02:00.000Z"
-    },
-    {
-      "id": "839f6f19c057616f",
-      "keyword": "하나에어로다이내믹스",
-      "companyName": "하나에어로다이내믹스",
-      "title": "IBK투자증권, 중소형 IPO서 존재감···성장기업 발굴로 주관 실적 확대",
-      "description": "브릴스와 하나에어로다이내믹스, 케이엠에프가 일반상장을 준비하고 있으며, 럭스코와 셀트릭스는 각각 IBKS제24호·제25호스팩과 합병을 추진하고 있다. IBK투자증권의 IPO 주관 실적은 2024년 2건, 지난해 3건으로 집계된...",
-      "link": "https://www.seoulfn.com/news/articleView.html?idxno=638568",
-      "originallink": "https://www.seoulfn.com/news/articleView.html?idxno=638568",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-25T04:00:00.000Z"
-    },
-    {
-      "id": "e0d2942d7b754d9c",
-      "keyword": "하나에어로다이내믹스",
-      "companyName": "하나에어로다이내믹스",
-      "title": "[리스트업] 2026Y 'Q1 ~ Q4' 주요 IPO 공모주 (국내·주관사)",
-      "description": "주요 공모주 (상장 완료 및 진행 중) > 스카이랩스 : 8월 26일 ~ 27일 @ 한국투자증권 네오사피엔스 : 9월... 미래에셋증권 하나에어로다이내믹스 : 11월 10일 ~ 11일 @ IBK투자증권 < 심사 청구·상장 대기 중인...",
-      "link": "http://www.economytalk.kr/news/articleView.html?idxno=424324",
-      "originallink": "http://www.economytalk.kr/news/articleView.html?idxno=424324",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-24T03:40:00.000Z"
-    },
-    {
-      "id": "faeb1ddd2c59c218",
-      "keyword": "하나에어로다이내믹스",
-      "companyName": "하나에어로다이내믹스",
-      "title": "IPO 한파에도 우주항공주는 상장·증자 랠리…스페이스X 효과 '톡톡'",
-      "description": "우주항공 분야 강소기업들의 코스닥 IPO 청구도 줄을 잇고 있다. 유·무인기 제조업체 넥스트에어로스페이스가 지난 5월 코스닥 상장예비심사신청서를 제출한 데 이어 항공기 부품 기업 하나에어로다이내믹스도 예심을...",
-      "link": "https://www.insightkorea.co.kr/news/articleView.html?idxno=247795",
-      "originallink": "https://www.insightkorea.co.kr/news/articleView.html?idxno=247795",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-06-17T23:00:00.000Z"
     }
   ]
 }

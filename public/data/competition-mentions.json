@@ -2,8 +2,8 @@
   "metadata": {
     "source": "naver-news-search",
     "displayLabel": "뉴스 언급",
-    "updatedAt": "2026-11-02T02:02:35.353Z",
-    "updatedKst": "2026-11-02T11:02+09:00",
+    "updatedAt": "2026-11-02T06:22:46.035Z",
+    "updatedKst": "2026-11-02T15:22+09:00",
     "referenceDate": "2026-11-02",
     "policyVersion": "retail-same-company-same-day-v2",
     "policy": "당일 기사에서 같은 회사와 같은 문맥에 있는 일반투자자 청약 경쟁률만 저장합니다.",
@@ -23,8 +23,8 @@
       "regexOnly": 0
     },
     "rejected": {
-      "staleOrUndated": 74,
-      "entityOrScope": 7
+      "staleOrUndated": 72,
+      "entityOrScope": 9
     }
   },
   "items": []

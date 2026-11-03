@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "gemini-briefings-mixed",
-    "generatedAt": "2026-11-02T17:13:09.211Z",
+    "generatedAt": "2026-11-03T04:04:13.921Z",
     "model": "gemini-2.5-flash",
     "itemCount": 8,
     "geminiUsed": 1,
@@ -64,11 +64,11 @@
       "ipoId": "넥스아이",
       "companyName": "넥스아이",
       "sector": "IPO 일정 확인 대상 기업",
-      "ipoStage": "청약 예정",
+      "ipoStage": "청약 진행중",
       "underwriter": "주관사 확인",
       "basisTimeLabel": "오늘 09:30 기준",
       "oneLine": "IPO 일정 확인 대상 기업",
-      "body": "넥스아이는 IPO 일정 확인 대상 기업입니다. 11.03 일정 기준으로 청약 예정 단계라 원문 일정과 변경 여부를 함께 확인합니다.",
+      "body": "넥스아이는 IPO 일정 확인 대상 기업입니다. 11.03 일정 기준으로 청약 진행중 단계라 원문 일정과 변경 여부를 함께 확인합니다.",
       "points": [
         "청약 시작·마감일 확인",
         "환불일 확인",

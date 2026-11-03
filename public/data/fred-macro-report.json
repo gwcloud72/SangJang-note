@@ -1,21 +1,21 @@
 {
   "metadata": {
     "source": "local-rules",
-    "generatedAt": "2026-11-02T02:05:09.836Z",
+    "generatedAt": "2026-11-03T04:04:14.428Z",
     "model": null
   },
   "items": [
     {
       "seriesId": "FEDFUNDS",
       "koreanName": "미국 기준금리",
-      "plainSummary": "미국 기준금리 최신값은 3.75%이며 상승 흐름입니다.",
+      "plainSummary": "미국 기준금리 최신값은 3.88%이며 상승 흐름입니다.",
       "ipoContext": "IPO 일정과 함께 확인할 수 있는 시장환경 지표입니다.",
       "caution": "공시와 시장 지표를 함께 확인하세요."
     },
     {
       "seriesId": "DGS10",
       "koreanName": "미국 10년물 국채금리",
-      "plainSummary": "미국 10년물 국채금리 최신값은 4.98%이며 하락 흐름입니다.",
+      "plainSummary": "미국 10년물 국채금리 최신값은 4.94%이며 하락 흐름입니다.",
       "ipoContext": "IPO 일정과 함께 확인할 수 있는 시장환경 지표입니다.",
       "caution": "공시와 시장 지표를 함께 확인하세요."
     },

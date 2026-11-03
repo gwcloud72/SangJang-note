@@ -1,11 +1,66 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-11-02T02:02:31.247Z",
+    "updatedAt": "2026-11-03T04:02:18.449Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "2a441da2d53b592c",
+      "keyword": "바로팜",
+      "companyName": "바로팜",
+      "title": "[더벨][바로팜 IPO] 2000억 시총으로 코스닥 데뷔, 성장 투자 본격화",
+      "description": "이에 따라 바로팜의 공모금과 상장 시가총액도 정해졌다. 이번 IPO로 바로팜이 확보하는 자금은 292억원이며 1959억원의 시가총액으로 코스닥에 입성한다. 상장 예정일은 다음달 11일이다. 코스닥 공모주의 약세와 반도체...",
+      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610301530344960105367",
+      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610301530344960105367",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-02T23:48:00.000Z"
+    },
+    {
+      "id": "c00cfc008c39db96",
+      "keyword": "바로팜",
+      "companyName": "바로팜",
+      "title": "[장외시황] 오렌지스퀘어ㆍ슈퍼브에이아이, 상장예비심사 청구",
+      "description": "상장주관사는 미래에셋증권이고, 총163만9000주를 공모할 예정이다. 약국 통합 플랫폼 운영업체 바로팜이... 12월1~2일로 공모청약 일정을 변경했다. IPO(기업공개)관련 상장 예비심사 청구종목으로 온라인 패션 플랫폼...",
+      "link": "https://www.etoday.co.kr/news/view/2643151",
+      "originallink": "https://www.etoday.co.kr/news/view/2643151",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-02T07:16:00.000Z"
+    },
+    {
+      "id": "e4fd1f8fa9269f0d",
+      "keyword": "동원파츠",
+      "companyName": "동원파츠",
+      "title": "[공모주 현황] 동원파츠 청약 1일차 일정 마무리, 균등·비례 경쟁률 어...",
+      "description": "IPO 자료사진. AI가 생성한 이미지. 동원파츠가 2일 일반투자자 대상 공모주 청약 첫날 일정을 소화했다.... 코스닥 상장 예정일은 10일이다. 기관 수요예측에서 희망 공모가 상단으로 가격을 확정한 동원파츠가...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=622149",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=622149",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-02T07:02:00.000Z"
+    },
+    {
+      "id": "61fdf0093de7948b",
+      "keyword": "바로팜",
+      "companyName": "바로팜",
+      "title": "[공모주 현황] 바로팜 청약 1일차 종료, 균등·비례 경쟁률 얼마…상장...",
+      "description": "IPO 자료사진. AI가 생성한 이미지. 바로팜이 2일 일반투자자 대상 공모주 청약 첫날 일정을 마무리했다.... 코스닥 상장 예정일은 오는 11일이다. [※ 본 기사는 투자 판단의 참고 자료이며, 투자에 따른 최종 책임은...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=622151",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=622151",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-02T07:02:00.000Z"
+    },
+    {
+      "id": "788fe8e82261c68c",
+      "keyword": "제이앤티지",
+      "companyName": "제이앤티지",
+      "title": "[증권 Pick] 이번주 IPO 일정 모아보기...11월 2~6일",
+      "description": "기업공개(IPO) 시장에서는 조선·해양 기자재와 인공지능(AI) 인프라 소프트웨어, 반도체 장비 부품 등 다양한 업종의 기업이 코스닥 시장에 입성하거나 공모 절차를 밟는다. 특히, 지난달 상장한 일반 공모기업 9곳...",
+      "link": "https://www.lcnews.co.kr/news/articleView.html?idxno=210704",
+      "originallink": "https://www.lcnews.co.kr/news/articleView.html?idxno=210704",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-02T06:18:00.000Z"
+    },
     {
       "id": "759b6b2fd1ddf086",
       "keyword": "에이엘로봇",
@@ -71,17 +126,6 @@
       "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4442362",
       "provider": "뉴스 검색",
       "publishedAt": "2026-11-01T04:02:00.000Z"
-    },
-    {
-      "id": "f5853c187d45c96e",
-      "keyword": "제이앤티지",
-      "companyName": "제이앤티지",
-      "title": "영광·래블업·이에스티 등 상장[증시캘린더]",
-      "description": "다음 주(11월 2~6일) 기업공개(IPO) 시장에서는 영광과 래블업, 이에스티 등이 코스닥 시장에 입성한다.... 총 500만주 공모, 공모금액 100억원. 11월 4일 코스닥 시장 상장. 11월 4~5일 △영광와이케이엠씨 일반청약...",
-      "link": "https://n.news.naver.com/mnews/article/018/0006401113?sid=101",
-      "originallink": "https://www.edaily.co.kr/News/Read?newsId=01174246645641456&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-01T00:02:00.000Z"
     },
     {
       "id": "162b19f761d8999b",

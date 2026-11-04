@@ -1,64 +1,14 @@
 {
   "metadata": {
     "source": "gemini-briefings-mixed",
-    "generatedAt": "2026-11-03T15:18:50.901Z",
+    "generatedAt": "2026-11-04T02:08:50.981Z",
     "model": "gemini-2.5-flash",
     "itemCount": 8,
     "geminiUsed": 1,
-    "cacheUsed": 4,
+    "cacheUsed": 3,
     "policy": "회사 설명, IPO 단계, 일정, 경쟁률 뉴스 언급, 원문 확인 포인트만 표시합니다. 투자 판단 표현은 제외합니다."
   },
   "items": [
-    {
-      "id": "briefing-동원파츠",
-      "ipoId": "동원파츠",
-      "companyName": "동원파츠",
-      "sector": "IPO 일정 확인 대상 기업",
-      "ipoStage": "청약 진행중",
-      "underwriter": "주관사 확인",
-      "basisTimeLabel": "오늘 09:30 기준",
-      "oneLine": "IPO 일정 확인 대상 기업",
-      "body": "동원파츠는 IPO 일정 확인 대상 기업입니다. 11.02 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
-      "points": [
-        "청약 시작·마감일 확인",
-        "환불일 확인",
-        "정정 공시 여부 확인"
-      ],
-      "sourceLabels": [
-        "DART 일정",
-        "환불일 확인",
-        "뉴스 검색",
-        "주관사 확인"
-      ],
-      "competition": null,
-      "generatedBy": "local-rules",
-      "model": null
-    },
-    {
-      "id": "briefing-바로팜",
-      "ipoId": "바로팜",
-      "companyName": "바로팜",
-      "sector": "IPO 일정 확인 대상 기업",
-      "ipoStage": "청약 진행중",
-      "underwriter": "주관사 확인",
-      "basisTimeLabel": "오늘 09:30 기준",
-      "oneLine": "IPO 일정 확인 대상 기업",
-      "body": "바로팜은 IPO 일정 확인 대상 기업입니다. 11.02 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
-      "points": [
-        "청약 시작·마감일 확인",
-        "환불일 확인",
-        "정정 공시 여부 확인"
-      ],
-      "sourceLabels": [
-        "DART 일정",
-        "환불일 확인",
-        "뉴스 검색",
-        "주관사 확인"
-      ],
-      "competition": null,
-      "generatedBy": "local-rules",
-      "model": null
-    },
     {
       "id": "briefing-넥스아이",
       "ipoId": "넥스아이",
@@ -77,22 +27,23 @@
       "sourceLabels": [
         "DART 일정",
         "환불일 확인",
+        "뉴스 검색",
         "주관사 확인"
       ],
       "competition": null,
-      "generatedBy": "gemini-cache",
-      "model": "gemini-2.5-flash"
+      "generatedBy": "local-rules",
+      "model": null
     },
     {
       "id": "briefing-영광와이케이엠씨",
       "ipoId": "영광와이케이엠씨",
       "companyName": "영광와이케이엠씨",
       "sector": "IPO 일정 확인 대상 기업",
-      "ipoStage": "청약 예정",
+      "ipoStage": "청약 진행중",
       "underwriter": "주관사 확인",
       "basisTimeLabel": "오늘 09:30 기준",
       "oneLine": "IPO 일정 확인 대상 기업",
-      "body": "영광와이케이엠씨는 IPO 일정 확인 대상 기업입니다. 11.04 일정 기준으로 청약 예정 단계라 원문 일정과 변경 여부를 함께 확인합니다.",
+      "body": "영광와이케이엠씨는 IPO 일정 확인 대상 기업입니다. 11.04 일정 기준으로 청약 진행중 단계라 원문 일정과 변경 여부를 함께 확인합니다.",
       "points": [
         "청약 시작·마감일 확인",
         "환불일 확인",
@@ -101,11 +52,12 @@
       "sourceLabels": [
         "DART 일정",
         "환불일 11.09",
+        "뉴스 검색",
         "주관사 확인"
       ],
       "competition": null,
-      "generatedBy": "gemini",
-      "model": "gemini-2.5-flash"
+      "generatedBy": "local-rules",
+      "model": null
     },
     {
       "id": "briefing-옵토닉스",
@@ -202,6 +154,55 @@
       ],
       "competition": null,
       "generatedBy": "gemini-cache",
+      "model": "gemini-2.5-flash"
+    },
+    {
+      "id": "briefing-씨앤엠",
+      "ipoId": "씨앤엠",
+      "companyName": "씨앤엠",
+      "sector": "IPO 일정 확인 대상 기업",
+      "ipoStage": "청약 예정",
+      "underwriter": "주관사 확인",
+      "basisTimeLabel": "오늘 09:30 기준",
+      "oneLine": "IPO 일정 확인 대상 기업",
+      "body": "씨앤엠은 IPO 일정 확인 대상 기업입니다. 11.12 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
+      "points": [
+        "청약 시작·마감일 확인",
+        "환불일 확인",
+        "정정 공시 여부 확인"
+      ],
+      "sourceLabels": [
+        "DART 일정",
+        "환불일 확인",
+        "뉴스 검색",
+        "주관사 확인"
+      ],
+      "competition": null,
+      "generatedBy": "local-rules",
+      "model": null
+    },
+    {
+      "id": "briefing-엠비디",
+      "ipoId": "엠비디",
+      "companyName": "엠비디",
+      "sector": "IPO 일정 확인 대상 기업",
+      "ipoStage": "청약 예정",
+      "underwriter": "주관사 확인",
+      "basisTimeLabel": "오늘 09:30 기준",
+      "oneLine": "IPO 일정 확인 대상 기업",
+      "body": "엠비디는 IPO 일정 확인 대상 기업입니다. 11.12 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
+      "points": [
+        "청약 시작·마감일 확인",
+        "환불일 확인",
+        "정정 공시 여부 확인"
+      ],
+      "sourceLabels": [
+        "DART 일정",
+        "환불일 확인",
+        "주관사 확인"
+      ],
+      "competition": null,
+      "generatedBy": "gemini",
       "model": "gemini-2.5-flash"
     }
   ]

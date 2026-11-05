@@ -1,39 +1,14 @@
 {
   "metadata": {
-    "source": "gemini-briefings-mixed",
-    "generatedAt": "2026-11-04T15:33:15.895Z",
-    "model": "gemini-2.5-flash",
+    "source": "local-rules",
+    "generatedAt": "2026-11-05T02:12:37.384Z",
+    "model": null,
     "itemCount": 8,
-    "geminiUsed": 3,
+    "geminiUsed": 0,
     "cacheUsed": 1,
     "policy": "회사 설명, IPO 단계, 일정, 경쟁률 뉴스 언급, 원문 확인 포인트만 표시합니다. 투자 판단 표현은 제외합니다."
   },
   "items": [
-    {
-      "id": "briefing-넥스아이",
-      "ipoId": "넥스아이",
-      "companyName": "넥스아이",
-      "sector": "IPO 일정 확인 대상 기업",
-      "ipoStage": "청약 진행중",
-      "underwriter": "주관사 확인",
-      "basisTimeLabel": "오늘 09:30 기준",
-      "oneLine": "IPO 일정 확인 대상 기업",
-      "body": "넥스아이는 IPO 일정 확인 대상 기업입니다. 11.03 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
-      "points": [
-        "청약 시작·마감일 확인",
-        "환불일 확인",
-        "정정 공시 여부 확인"
-      ],
-      "sourceLabels": [
-        "DART 일정",
-        "환불일 확인",
-        "뉴스 검색",
-        "주관사 확인"
-      ],
-      "competition": null,
-      "generatedBy": "local-rules",
-      "model": null
-    },
     {
       "id": "briefing-영광와이케이엠씨",
       "ipoId": "영광와이케이엠씨",
@@ -64,35 +39,42 @@
       "ipoId": "옵토닉스",
       "companyName": "옵토닉스",
       "sector": "IPO 일정 확인 대상 기업",
-      "ipoStage": "청약 예정",
+      "ipoStage": "청약 진행중",
       "underwriter": "주관사 확인",
-      "basisTimeLabel": "오늘 09:30 기준",
+      "basisTimeLabel": "11.05.10:24",
       "oneLine": "IPO 일정 확인 대상 기업",
-      "body": "옵토닉스는 IPO 일정 확인 대상 기업입니다. 11.05 일정 기준으로 청약 예정 단계라 원문 일정과 변경 여부를 함께 확인합니다.",
+      "body": "옵토닉스는 IPO 일정 확인 대상 기업입니다. 11.05 일정 기준으로 11.05.10:24 뉴스 언급 기준 청약 경쟁률과 환불일 확인을 함께 확인합니다.",
       "points": [
-        "청약 시작·마감일 확인",
-        "환불일 확인",
+        "청약 마감 시각 확인",
+        "비례경쟁률 기준 확인",
         "정정 공시 여부 확인"
       ],
       "sourceLabels": [
         "DART 일정",
         "환불일 확인",
-        "주관사 확인"
+        "뉴스 언급",
+        "뉴스 검색"
       ],
-      "competition": null,
-      "generatedBy": "gemini",
-      "model": "gemini-2.5-flash"
+      "competition": {
+        "label": "뉴스 언급",
+        "value": 8.55,
+        "proportionalValue": null,
+        "timeLabel": "11.05.10:24",
+        "sourceLine": "[공모주 청약 ] 옵토닉스 첫날 경쟁률 8.55대 1…공모가 1만2,000원, 한화..."
+      },
+      "generatedBy": "local-rules",
+      "model": null
     },
     {
       "id": "briefing-simwonamericacorp.",
       "ipoId": "SimwonAmericaCorp.",
       "companyName": "SimwonAmericaCorp.",
       "sector": "IPO 일정 확인 대상 기업",
-      "ipoStage": "청약 예정",
+      "ipoStage": "청약 진행중",
       "underwriter": "주관사 확인",
       "basisTimeLabel": "오늘 09:30 기준",
       "oneLine": "IPO 일정 확인 대상 기업",
-      "body": "SimwonAmericaCorp.는 IPO 일정 확인 대상 기업입니다. 11.05 일정 기준으로 청약 예정 단계라 원문 일정과 변경 여부를 함께 확인합니다.",
+      "body": "SimwonAmericaCorp.는 IPO 일정 확인 대상 기업입니다. 11.05 일정 기준으로 청약 진행중 단계라 원문 일정과 변경 여부를 함께 확인합니다.",
       "points": [
         "청약 시작·마감일 확인",
         "환불일 확인",
@@ -104,8 +86,8 @@
         "주관사 확인"
       ],
       "competition": null,
-      "generatedBy": "gemini",
-      "model": "gemini-2.5-flash"
+      "generatedBy": "local-rules",
+      "model": null
     },
     {
       "id": "briefing-에이엘로봇",
@@ -150,11 +132,12 @@
       "sourceLabels": [
         "DART 일정",
         "환불일 확인",
+        "뉴스 검색",
         "주관사 확인"
       ],
       "competition": null,
-      "generatedBy": "gemini-cache",
-      "model": "gemini-2.5-flash"
+      "generatedBy": "local-rules",
+      "model": null
     },
     {
       "id": "briefing-씨앤엠",
@@ -202,8 +185,33 @@
         "주관사 확인"
       ],
       "competition": null,
-      "generatedBy": "gemini",
+      "generatedBy": "gemini-cache",
       "model": "gemini-2.5-flash"
+    },
+    {
+      "id": "briefing-제이앤티지",
+      "ipoId": "제이앤티지",
+      "companyName": "제이앤티지",
+      "sector": "IPO 일정 확인 대상 기업",
+      "ipoStage": "청약 예정",
+      "underwriter": "주관사 확인",
+      "basisTimeLabel": "오늘 09:30 기준",
+      "oneLine": "IPO 일정 확인 대상 기업",
+      "body": "제이앤티지는 IPO 일정 확인 대상 기업입니다. 11.12 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 11.17, 변경 여부를 함께 확인합니다.",
+      "points": [
+        "청약 시작·마감일 확인",
+        "환불일 확인",
+        "정정 공시 여부 확인"
+      ],
+      "sourceLabels": [
+        "DART 일정",
+        "환불일 11.17",
+        "뉴스 검색",
+        "주관사 확인"
+      ],
+      "competition": null,
+      "generatedBy": "local-rules",
+      "model": null
     }
   ]
 }

@@ -1,11 +1,99 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-11-04T02:06:54.312Z",
+    "updatedAt": "2026-11-05T02:09:54.639Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "1abc8645bfae7e2a",
+      "keyword": "아델",
+      "companyName": "아델",
+      "title": "상장 예심 빨라졌지만…금감원 문턱서 줄줄이 증권신고서 정정",
+      "description": "유캐스트 공모가 낮추고 제논 기업가치 재산정 기술특례기업 실적 추정·기업가치 산정 근거 보완 요구... 중복상장 규제 강화 등으로 상반기 기업공개(IPO) 시장이 위축된 이후 거래소가 하반기 들어 상장예심 처리...",
+      "link": "https://n.news.naver.com/mnews/article/001/0016423462?sid=101",
+      "originallink": "https://www.yna.co.kr/view/AKR20261105068700008?input=1195m",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-05T01:39:00.000Z"
+    },
+    {
+      "id": "079a15b91f70ffdb",
+      "keyword": "옵토닉스",
+      "companyName": "옵토닉스",
+      "title": "[공모주 청약] 옵토닉스 첫날 경쟁률 8.55대 1…공모가 1만2,000원, 한화...",
+      "description": "IPO 자료사진. AI가 생성한 이미지. 방산용 초정밀 광학부품 전문기업 옵토닉스가 코스닥 상장을 위한 일반투자자 공모주 청약에 돌입했다. 공모가는 희망 범위 상단인 1만2,000원으로 확정됐으며, 기관투자자...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=623474",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=623474",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-05T01:24:00.000Z"
+    },
+    {
+      "id": "9a54dae9651448ba",
+      "keyword": "옵토닉스",
+      "companyName": "옵토닉스",
+      "title": "전남광주 강소기업들 잇단 기업공개… 글로벌 시장 정조준",
+      "description": "초정밀 광학과 배터리 소재, 전력변환 기술을 앞세워 기업공개(IPO)에 나서면서다. 지역에서 다진 기술력에... 전문기업 옵토닉스는 5~6일 일반투자자 대상 공모주 청약을 거쳐 17일 코스닥시장 상장을 추진한다. 확정...",
+      "link": "https://n.news.naver.com/mnews/article/081/0003695918?sid=102",
+      "originallink": "https://www.seoul.co.kr/news/publicnews/local_govern/news_local/2026/11/05/20261105019001?wlog_tag3=naver",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-04T20:03:00.000Z"
+    },
+    {
+      "id": "c18c9a723c0235f2",
+      "keyword": "아델",
+      "companyName": "아델",
+      "title": "연말 앞두고 IPO 공모 일정 집중···기관·개인 투자 전략 고심",
+      "description": "일정이 공모주 투자의 핵심 변수로 떠올랐다. 4일 한국거래소 기업공시채널(KIND)에 따르면 올해 상반기 위축됐던 IPO 시장이 하반기 들어 회복세를 보이면서 상장을 추진하는 기업들도 늘고 있다. 지난 9월 스팩을...",
+      "link": "https://www.seoulfn.com/news/articleView.html?idxno=641894",
+      "originallink": "https://www.seoulfn.com/news/articleView.html?idxno=641894",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-04T07:57:00.000Z"
+    },
+    {
+      "id": "24643541c0a49759",
+      "keyword": "영광와이케이엠씨",
+      "companyName": "영광와이케이엠씨",
+      "title": "[공모주 현황] 영광와이케이엠씨, 1일차 청약 종료…균등·비례 경쟁률...",
+      "description": "IPO 자료사진. AI가 생성한 이미지. 공모주 영광와이케이엠씨의 청약 1일차가 4일 오후 4시경을 기해... 영광와이케이엠씨는 오는 11월 16일 상장한다. 환불일은 11월 9일이다. 상장 당일 어떤 추이를 보일지 관심이...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=623185",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=623185",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-04T07:30:00.000Z"
+    },
+    {
+      "id": "9c8cd6f08a7ba765",
+      "keyword": "영광와이케이엠씨",
+      "companyName": "영광와이케이엠씨",
+      "title": "[장외시황] 영광와이케이엠씨, 공모청약 진행",
+      "description": "전문기업 영광와이케이엠씨가 4일~5일 양일간 일반 공모주 청약을 진행한다. 공모가는 희망범위 상단인 1만1000원으로 확정됐으며, 기관투자자 수요예측 경쟁률은 1163.35대1을 기록했다. 4일 비상장 주식은 보합세를...",
+      "link": "https://www.etoday.co.kr/news/view/2644130",
+      "originallink": "https://www.etoday.co.kr/news/view/2644130",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-04T06:42:00.000Z"
+    },
+    {
+      "id": "668a65ba803c3981",
+      "keyword": "에이엘로봇",
+      "companyName": "에이엘로봇",
+      "title": "공모주 쏟아지는 11월… IPO 제도 개편, 시장 분위기 바꿀까",
+      "description": "지난달에 이어 이달에도 기업공개(IPO) 시장이 활기를 띠고 있다. 다만 지난달 상장한 일반 공모기업... 6~9일 에이엘로봇의 청약이 예정돼 있다. 다만 상장에 나서는 기업이 늘면서 공모주 시장에서는 기업별 옥석...",
+      "link": "http://www.the-biz.co.kr/news/articleView.html?idxno=730661",
+      "originallink": "http://www.the-biz.co.kr/news/articleView.html?idxno=730661",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-04T06:14:00.000Z"
+    },
+    {
+      "id": "c43bb244d88a02d7",
+      "keyword": "아델",
+      "companyName": "아델",
+      "title": "코스닥 찬바람에 눈높이 낮춘 제약바이오 … 상장 강행 속사정",
+      "description": "뉴데일리 조희연 기자 = 코스닥 시장의 투자심리가 위축되면서 기업공개(IPO)에 나선 제약바이오기업들이... 이달 공모 절차를 앞둔 아델도 연내 코스닥 상장을 추진하고 있다. 면역항암제 개발기업 넥스아이는 지난달...",
+      "link": "https://biz.newdaily.co.kr/site/data/html/2026/11/04/2026110400165.html",
+      "originallink": "https://biz.newdaily.co.kr/site/data/html/2026/11/04/2026110400165.html",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-04T02:56:00.000Z"
+    },
     {
       "id": "9ceedd9f5502ab2b",
       "keyword": "유캐스트",
@@ -18,13 +106,13 @@
       "publishedAt": "2026-11-04T02:02:00.000Z"
     },
     {
-      "id": "0187abd1aa8b2127",
-      "keyword": "넥스아이",
-      "companyName": "넥스아이",
-      "title": "[더벨][넥스아이 IPO] 몸값 낮춰도 R&D 계획 그대로…보유 현금으로 공백...",
-      "description": "공모가가 내려가면서 손에 쥐는 자금도 줄었다. 다만 상장 전 현금을 쌓아둔 넥스아이는 연구개발 계획을 줄이지 않고 그대로 유지한다. 공모자금을 2027년에 우선 투입하고 2028년부터는 보유 현금으로...",
-      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611030204172540106159",
-      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611030204172540106159",
+      "id": "6e2a430bcbab471f",
+      "keyword": "신영해피투모로우제12호기업인수목적",
+      "companyName": "신영해피투모로우제12호기업인수목적",
+      "title": "[더벨][IPO 모니터] 우리투자증권, 첫 스팩 앞두고 기관계좌 개설 총력",
+      "description": "우리투자증권은 '우리투자제1호기업인수목적(SPAC·스팩)'을 통해 IPO 업무를 본격화하는 만큼 수요예측과... 우리투자증권보다 늦게 승인받은 신영증권의 '신영해피투모로우제12호스팩'의 경우 증권신고서 제출은 더...",
+      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611021112277160103925",
+      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611021112277160103925",
       "provider": "뉴스 검색",
       "publishedAt": "2026-11-03T22:02:00.000Z"
     },
@@ -73,17 +161,6 @@
       "publishedAt": "2026-11-03T07:04:00.000Z"
     },
     {
-      "id": "05d472e211d6559c",
-      "keyword": "넥스아이",
-      "companyName": "넥스아이",
-      "title": "[공모주 청약] 넥스아이 첫날 일정 마무리…균등·비례 경쟁률 살펴보니",
-      "description": "IPO 자료사진. AI가 생성한 이미지. 코스닥 상장을 추진 중인 넥스아이의 일반투자자 대상 공모주 청약 첫날 일정이 3일 종료됐다. 넥스아이는 3일부터 4일까지 이틀간 일반투자자 청약을 진행한다. 청약 주관사는...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=622697",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=622697",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-03T07:04:00.000Z"
-    },
-    {
       "id": "5a62ce7acba136d7",
       "keyword": "에스에프씨",
       "companyName": "에스에프씨",
@@ -96,25 +173,14 @@
     },
     {
       "id": "788fe8e82261c68c",
-      "keyword": "제이앤티지",
-      "companyName": "제이앤티지",
+      "keyword": "하나에어로다이내믹스",
+      "companyName": "하나에어로다이내믹스",
       "title": "[증권 Pick] 이번주 IPO 일정 모아보기...11월 2~6일",
-      "description": "기업공개(IPO) 시장에서는 조선·해양 기자재와 인공지능(AI) 인프라 소프트웨어, 반도체 장비 부품 등 다양한 업종의 기업이 코스닥 시장에 입성하거나 공모 절차를 밟는다. 특히, 지난달 상장한 일반 공모기업 9곳...",
+      "description": "희망 공모가는 1만5700~1만7600원이다. 기관투자자 수요예측도 이어진다. 영광와이케이엠씨와 에이엘로봇은 각각 2일과 3일까지 수요예측을 진행한다. 항공기 부품 기업 하나에어로다이내믹스와 정밀의료 기업...",
       "link": "https://www.lcnews.co.kr/news/articleView.html?idxno=210704",
       "originallink": "https://www.lcnews.co.kr/news/articleView.html?idxno=210704",
       "provider": "뉴스 검색",
       "publishedAt": "2026-11-02T06:18:00.000Z"
-    },
-    {
-      "id": "759b6b2fd1ddf086",
-      "keyword": "에이엘로봇",
-      "companyName": "에이엘로봇",
-      "title": "이번주 공모주 청약, 동원파츠·바로팜 등 6개사 나선다",
-      "description": "220만주를 공모해 264억원을 확보한다. 한국투자증권이 주관하고 17일 상장할 예정이다. 로봇용 힘·토크센서와 제어장치를 공급하는 에이엘로봇은 240만주 전량을 신주로 모집한다. 희망가격은 1만5700...",
-      "link": "https://n.news.naver.com/mnews/article/123/0002393061?sid=101",
-      "originallink": "http://www.joseilbo.com/news/news_read.php?uid=578637&class=53&grp=",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-01T23:51:00.000Z"
     },
     {
       "id": "9248bc02e50c500d",
@@ -128,17 +194,6 @@
       "publishedAt": "2026-11-01T21:40:00.000Z"
     },
     {
-      "id": "d9675f9bedb93c71",
-      "keyword": "영광와이케이엠씨",
-      "companyName": "영광와이케이엠씨",
-      "title": "영광·래블업·이에스티 코스닥 상장…동원파츠 등 6곳 청약 [이번주 증...",
-      "description": "2일 금융투자 업계에 따르면 에너지·환경엔지니어링 기업 영광은 이날 코스닥 시장에 상장한다. 영광은... 기업 영광와이케이엠씨는 4~5일 대신증권에서 청약을 진행한다. 희망 공모가는 9400~1만 1000원으로 3일...",
-      "link": "https://n.news.naver.com/mnews/article/011/0004677572?sid=101",
-      "originallink": "https://www.sedaily.com/article/20108699?ref=naver",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-01T21:30:00.000Z"
-    },
-    {
       "id": "162b19f761d8999b",
       "keyword": "아델",
       "companyName": "아델",
@@ -150,37 +205,15 @@
       "publishedAt": "2026-11-01T00:00:00.000Z"
     },
     {
-      "id": "419a851296ada98d",
-      "keyword": "아델",
-      "companyName": "아델",
-      "title": "[A 증시어택] ②유망 테크·바이오·소부장 강소기업, 11월 공모주 소개",
-      "description": "김용관 에스에프씨 대표는 \"이번 IPO를 통해 확보한 자금을 미래 성장을 위한 연구개발과 사업화에 적극... 윤승용 아델 대표는 \"남은 공모 및 상장 절차를 차질 없이 진행해 성공적으로 코스닥 시장에 입성하겠다...",
-      "link": "https://www.asiaa.co.kr/news/articleView.html?idxno=268068",
-      "originallink": "https://www.asiaa.co.kr/news/articleView.html?idxno=268068",
+      "id": "943bfc989860dc4e",
+      "keyword": "신영해피투모로우제12호기업인수목적",
+      "companyName": "신영해피투모로우제12호기업인수목적",
+      "title": "스팩시장 후끈…‘따상’ 분위기 이어갈까",
+      "description": "기업공개(IPO) 시장 부진의 대안으로 떠오른 스팩(SPAC, 기업인수목적회사) 열기가 올해도 이어질 전망입니다. 연초부터 국내 증시 상승과 소액공모주들의 준수한 성정이 이어지자 공모 스팩의 상장도 늘어나는...",
+      "link": "http://www.newstomato.com/ReadNews.aspx?no=1177664&inflow=N",
+      "originallink": "http://www.newstomato.com/ReadNews.aspx?no=1177664&inflow=N",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-10-28T00:00:00.000Z"
-    },
-    {
-      "id": "c79548df8f4a74de",
-      "keyword": "아델",
-      "companyName": "아델",
-      "title": "이번 주만 4곳 IPO 증권신고서 제출…연말 '막차' 러시",
-      "description": "올해 코스피 신규 상장사는 지난 3월 상장한 케이뱅크 1곳뿐이다. 올해 코스피 IPO 공모금액도 전액... 사노피에 알츠하이머 치료 후보물질을 최대 10억4000만달러 규모로 기술이전한 신약개발 기업 아델이 12일...",
-      "link": "https://www.newstopkorea.com/news/articleView.html?idxno=48388",
-      "originallink": "https://www.newstopkorea.com/news/articleView.html?idxno=48388",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-22T02:12:00.000Z"
-    },
-    {
-      "id": "22e4ea9128f27dca",
-      "keyword": "아델",
-      "companyName": "아델",
-      "title": "[아델 IPO] 상장 직후 FI 매물 부담…후속 파이프라인에 쏠린 눈",
-      "description": "프리IPO 투자자들의 보유 주식이 순차적으로 유통 가능해진다. 상장 후 6개월 시점에는 누적 기준으로 전체 주식의 약 64%가 유통 가능한 구조다. 주요 투자자로는 공모 후 지분율 6.88%를 보유한 유안타인베스트먼트...",
-      "link": "https://www.topdaily.kr/articles/112410",
-      "originallink": "https://www.topdaily.kr/articles/112410",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-20T02:03:00.000Z"
+      "publishedAt": "2023-02-16T21:02:00.000Z"
     }
   ]
 }

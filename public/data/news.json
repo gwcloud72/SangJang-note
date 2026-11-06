@@ -1,17 +1,83 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-11-05T02:09:54.639Z",
+    "updatedAt": "2026-11-06T02:46:57.971Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
     {
+      "id": "397d4da37a7e316a",
+      "keyword": "영광와이케이엠씨",
+      "companyName": "영광와이케이엠씨",
+      "title": "영광와이케이엠씨 일반청약 1342대 1…증거금 4조원 몰려",
+      "description": "반도체·디스플레이 장비 부품업체 영광와이케이엠씨가 기업공개(IPO) 일반청약에서 4조원이 넘는... 올해 일반청약을 진행한 공모기업 49곳 가운데 경쟁률 순위는 23위다. 올해 평균 경쟁률인 1157.78대 1을 웃도는...",
+      "link": "https://n.news.naver.com/mnews/article/015/0005351010?sid=101",
+      "originallink": "https://www.hankyung.com/article/202611069877r",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-05T23:46:00.000Z"
+    },
+    {
+      "id": "ab3c43c51b760752",
+      "keyword": "제논",
+      "companyName": "제논",
+      "title": "11월 IPO 16곳 청약 러시…증시 급락에 공모주 자금 쏠림 심화하나",
+      "description": "월말에도 에스에프씨와 유캐스트(18~19일), 아델(23~24일), 제논과 케이엠에프(24~25일) 등이 일반투자자... 이달 IPO 시장의 성적표는 청약 기업 수나 증거금 총액보다 실제 공모가 확정 수준, 기관 의무보유확약, 상장 직후...",
+      "link": "https://n.news.naver.com/mnews/article/243/0000105274?sid=101",
+      "originallink": "https://economist.co.kr/article/view/ecn202611040056",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-05T23:30:00.000Z"
+    },
+    {
+      "id": "3da2027f41c3ce5d",
+      "keyword": "영광와이케이엠씨",
+      "companyName": "영광와이케이엠씨",
+      "title": "[공모주 마감] 영광와이케이엠씨 청약 2일차 마무리됐다, 균등·비례 '몇...",
+      "description": "IPO 자료사진. AI가 생성한 이미지. 공모주 영광와이케이엠씨의 일반투자자 대상 청약이 2일차 일정을... 청약건수와 경쟁률, 증거금 규모가 공개되면서 영광와이케이엠씨의 상장 이후 주가 움직임에도 시선이 향하고...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=623567",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=623567",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-05T07:02:00.000Z"
+    },
+    {
+      "id": "fb315e0e6a1a0251",
+      "keyword": "옵토닉스",
+      "companyName": "옵토닉스",
+      "title": "[장외시황] 그레이스, 상장예비심사 청구",
+      "description": "초정밀 센서 광학부품 전문기업 옵토닉스가 코스닥 상장을 위한 일반투자자 대상 공모주 청약을... IPO(기업공개)관련 상장 예비심사 청구종목으로 주문형 시스템반도체 설계 전문업체 세미솔루션이 9550원(+0.53...",
+      "link": "https://www.etoday.co.kr/news/view/2644704",
+      "originallink": "https://www.etoday.co.kr/news/view/2644704",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-05T06:46:00.000Z"
+    },
+    {
+      "id": "55dbd871b56c78d1",
+      "keyword": "제이앤티지",
+      "companyName": "제이앤티지",
+      "title": "하반기 IPO '대어' 제이앤티지…홍선경 CFO \"기업가치 인정받는 계기될...",
+      "description": "공모가 상단 기준 시총 6천억원 예상…내달 23일 상장 제이앤티지 CI[출처: 제이앤티지 제공] 희망 공모가... 홍선경 제이앤티지 최고재무책임자(CFO)는 5일 여의도 63빌딩에서 열린 IPO 기자간담회에서 \"이번 상장은...",
+      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443255",
+      "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443255",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-05T05:32:00.000Z"
+    },
+    {
+      "id": "e427ed4623f72393",
+      "keyword": "제논",
+      "companyName": "제논",
+      "title": "상장 문턱 낮아졌나 했더니…금감원 정정 요구에 IPO 줄줄이 연기",
+      "description": "기술특례상장 기업은 현재 실적보다 미래 성장 가능성을 바탕으로 공모가를 산정하는 경우가 많기 때문에 매출과 이익 추정치, 할인율, 비교기업의 적정성 등에 따라 기업가치가 크게 달라질 수 있다. 실제 제논은...",
+      "link": "https://www.newsquest.co.kr/news/articleView.html?idxno=304307",
+      "originallink": "https://www.newsquest.co.kr/news/articleView.html?idxno=304307",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-05T02:14:00.000Z"
+    },
+    {
       "id": "1abc8645bfae7e2a",
-      "keyword": "아델",
-      "companyName": "아델",
+      "keyword": "제논",
+      "companyName": "제논",
       "title": "상장 예심 빨라졌지만…금감원 문턱서 줄줄이 증권신고서 정정",
-      "description": "유캐스트 공모가 낮추고 제논 기업가치 재산정 기술특례기업 실적 추정·기업가치 산정 근거 보완 요구... 중복상장 규제 강화 등으로 상반기 기업공개(IPO) 시장이 위축된 이후 거래소가 하반기 들어 상장예심 처리...",
+      "description": "유캐스트 공모가 낮추고 제논 기업가치 재산정 기술특례기업 실적 추정·기업가치 산정 근거 보완 요구 올해 하반기 한국거래소의 코스닥 상장예비심사 기간이 크게 단축된 가운데 금융감독원의 증권신고서 심사...",
       "link": "https://n.news.naver.com/mnews/article/001/0016423462?sid=101",
       "originallink": "https://www.yna.co.kr/view/AKR20261105068700008?input=1195m",
       "provider": "뉴스 검색",
@@ -41,8 +107,8 @@
     },
     {
       "id": "c18c9a723c0235f2",
-      "keyword": "아델",
-      "companyName": "아델",
+      "keyword": "제논",
+      "companyName": "제논",
       "title": "연말 앞두고 IPO 공모 일정 집중···기관·개인 투자 전략 고심",
       "description": "일정이 공모주 투자의 핵심 변수로 떠올랐다. 4일 한국거래소 기업공시채널(KIND)에 따르면 올해 상반기 위축됐던 IPO 시장이 하반기 들어 회복세를 보이면서 상장을 추진하는 기업들도 늘고 있다. 지난 9월 스팩을...",
       "link": "https://www.seoulfn.com/news/articleView.html?idxno=641894",
@@ -60,17 +126,6 @@
       "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=623185",
       "provider": "뉴스 검색",
       "publishedAt": "2026-11-04T07:30:00.000Z"
-    },
-    {
-      "id": "9c8cd6f08a7ba765",
-      "keyword": "영광와이케이엠씨",
-      "companyName": "영광와이케이엠씨",
-      "title": "[장외시황] 영광와이케이엠씨, 공모청약 진행",
-      "description": "전문기업 영광와이케이엠씨가 4일~5일 양일간 일반 공모주 청약을 진행한다. 공모가는 희망범위 상단인 1만1000원으로 확정됐으며, 기관투자자 수요예측 경쟁률은 1163.35대1을 기록했다. 4일 비상장 주식은 보합세를...",
-      "link": "https://www.etoday.co.kr/news/view/2644130",
-      "originallink": "https://www.etoday.co.kr/news/view/2644130",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-04T06:42:00.000Z"
     },
     {
       "id": "668a65ba803c3981",
@@ -129,8 +184,8 @@
     },
     {
       "id": "e90b0df553f48dc5",
-      "keyword": "아델",
-      "companyName": "아델",
+      "keyword": "제논",
+      "companyName": "제논",
       "title": "[N2 뷰] 11월 IPO 시장 ‘큰 장’ 선다…최대 17곳 상장·8000억원 공모 ...",
       "description": "하순에도 아델(23~24일), 제논과 케이엠에프(24~25일), 에이엔에이치스트럭쳐(27~30일) 등이 투자자 모집을 계획하고 있다. 박종선 유진투자증권 연구원은 “11월 IPO 시장은 상장 기업 수와 공모금액 모두 역대 동월...",
       "link": "https://www.news2day.co.kr/article/20261103500348",
@@ -140,25 +195,14 @@
     },
     {
       "id": "33d0445dfa1ebc29",
-      "keyword": "유캐스트",
-      "companyName": "유캐스트",
+      "keyword": "에스에프씨",
+      "companyName": "에스에프씨",
       "title": "[분석] 11월 IPO 큰 장 선다…'대어' 에스에프씨·제이앤티지 출격",
-      "description": "씨앤엠, 유캐스트, 엠비디, 하나에어로다이내믹스, 다비오 등의 공모 일정이 예정돼 있다. 특히 에스에프씨는 코스피 상장을 추진하고 있어 중소형 코스닥 기업 중심이었던 IPO 시장의 외형 확대에 기여할 것으로...",
+      "description": "등의 공모 일정이 예정돼 있다. 특히 에스에프씨는 코스피 상장을 추진하고 있어 중소형 코스닥 기업 중심이었던 IPO 시장의 외형 확대에 기여할 것으로 예상된다. ■ 코너스톤투자자제도 시행…장기 투자 기반 마련...",
       "link": "https://www.startuptoday.co.kr/news/articleView.html?idxno=818005",
       "originallink": "https://www.startuptoday.co.kr/news/articleView.html?idxno=818005",
       "provider": "뉴스 검색",
       "publishedAt": "2026-11-03T12:30:00.000Z"
-    },
-    {
-      "id": "d68e369d68b434b1",
-      "keyword": "제이앤티지",
-      "companyName": "제이앤티지",
-      "title": "[장외시황] 제이앤티지·씨앤엠, 수요예측 시작",
-      "description": "이투데이=서청석 기자 | 신재생에너지 첨단소재 전문기업 제이앤티지가 기관투자자 대상 수요예측을 진행한다. 희망공모가는 1주당 2만6400~3만1900원이고, 대신증권과 NH투자증권이 상장주관사를 맡았다. 자동차 및...",
-      "link": "https://www.etoday.co.kr/news/view/2643628",
-      "originallink": "https://www.etoday.co.kr/news/view/2643628",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-03T07:04:00.000Z"
     },
     {
       "id": "5a62ce7acba136d7",
@@ -184,25 +228,14 @@
     },
     {
       "id": "9248bc02e50c500d",
-      "keyword": "에스에프씨",
-      "companyName": "에스에프씨",
+      "keyword": "하나에어로다이내믹스",
+      "companyName": "하나에어로다이내믹스",
       "title": "11월 첫주 공모주 13곳 출격…새내기주 주가는 출렁",
-      "description": "11월 첫째 주 공모주 시장에 13개 기업이 몰린다. 기관 청약, 수요예측, 상장 등이 연이어 이어진다. 3분기 부진했던 기업공개(IPO) 시장이 연말을 앞두고 일정을 재개하면서 공모주 시장에도 활기가 도는 모습이다....",
+      "description": "하나에어로다이내믹스·엠비디는 2~6일, 제이앤티지와 씨앤엠은 3~9일 수요예측에 나선다. 6곳 모두 코스닥 상장을 추진한다. 공모 규모가 가장 큰 곳은 신재생에너지용 첨단소재 기업 제이앤티지다. 비리튬계...",
       "link": "https://www.newstopkorea.com/news/articleView.html?idxno=48663",
       "originallink": "https://www.newstopkorea.com/news/articleView.html?idxno=48663",
       "provider": "뉴스 검색",
       "publishedAt": "2026-11-01T21:40:00.000Z"
-    },
-    {
-      "id": "162b19f761d8999b",
-      "keyword": "아델",
-      "companyName": "아델",
-      "title": "11월 공모주 15곳 줄청약 … 10월 새내기주 9곳 중 5곳 '공모가 하회' 경...",
-      "description": "3분기 상장 기업 수와 공모 금액이 과거 평균을 크게 밑돌았던 것과 달리, 연말 공모주 시장은 중... 이어 넥스아이가 525억~650억원, 동원파츠가 467억~538억원, 아델이 391억~543억원 규모로 공모를 진행한다....",
-      "link": "https://biz.newdaily.co.kr/site/data/html/2026/10/30/2026103000099.html",
-      "originallink": "https://biz.newdaily.co.kr/site/data/html/2026/10/30/2026103000099.html",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-01T00:00:00.000Z"
     },
     {
       "id": "943bfc989860dc4e",

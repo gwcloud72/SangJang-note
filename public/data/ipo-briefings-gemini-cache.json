@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "updatedAt": "2026-11-07T06:13:25.719Z",
+    "updatedAt": "2026-11-07T13:18:20.534Z",
     "source": "gemini-briefing-cache"
   },
   "items": [
@@ -2024,6 +2024,35 @@
         "model": null
       },
       "updatedAt": "2026-11-06T15:10:39.855Z"
+    },
+    {
+      "key": "a8dd4ed672221960b70ea5c0",
+      "model": "gemini-2.5-flash",
+      "briefing": {
+        "id": "briefing-유캐스트",
+        "ipoId": "유캐스트",
+        "companyName": "유캐스트",
+        "sector": "IPO 일정 확인 대상 기업",
+        "ipoStage": "청약 예정",
+        "underwriter": "주관사 확인",
+        "basisTimeLabel": "오늘 09:30 기준",
+        "oneLine": "IPO 일정 확인 대상 기업",
+        "body": "유캐스트는 IPO 일정 확인 대상 기업입니다. 11.18 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
+        "points": [
+          "청약 시작·마감일 확인",
+          "환불일 확인",
+          "정정 공시 여부 확인"
+        ],
+        "sourceLabels": [
+          "DART 일정",
+          "환불일 확인",
+          "주관사 확인"
+        ],
+        "competition": null,
+        "generatedBy": "local-rules",
+        "model": null
+      },
+      "updatedAt": "2026-11-07T13:18:20.534Z"
     }
   ]
 }

@@ -1,15 +1,81 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-11-07T01:47:55.651Z",
+    "updatedAt": "2026-11-08T01:17:03.691Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
     {
-      "id": "6c50117a8e540573",
+      "id": "08576662f8a959b6",
+      "keyword": "아델",
+      "companyName": "아델",
+      "title": "[넥스트 IPO] 대어급 공모주 청약 물밀듯… 내가 노려야 할 종목은?",
+      "description": "다음 주 5개 기업 수요예측…에스에프씨·유캐스트 공모가 주목 다음 주 코스닥시장에는 신규 상장... 알츠하이머병 치료제 개발사인 아델은 12일부터 18일까지 기관투자자 평가를 받는다. 아델의 공모 희망가는...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=624371",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=624371",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-08T00:06:00.000Z"
+    },
+    {
+      "id": "b4d8e3d2eb9b4c45",
+      "keyword": "아델",
+      "companyName": "아델",
+      "title": "에스에프씨·유캐스트 수요예측…동원파츠·바로팜 등 상장[증시캘린더...",
+      "description": "다음 주(11월 9~13일) 기업공개(IPO) 시장에서는 유기발광다이오드(OLED) 소재 기업 에스에프씨와 통신장비... 총 500만주 전량 신주 모집, 공모금액 400억원. 11월 12일 코스닥 시장 상장. 대표주관사는 한국투자증권....",
+      "link": "https://n.news.naver.com/mnews/article/018/0006405978?sid=101",
+      "originallink": "https://www.edaily.co.kr/News/Read?newsId=01193926645643752&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-08T00:02:00.000Z"
+    },
+    {
+      "id": "c34211c63f22250b",
+      "keyword": "아델",
+      "companyName": "아델",
+      "title": "[이번주 IPO]11월 둘째 주 수요예측·청약 일정",
+      "description": "이달(11월) 둘째 주에는 유캐스트, 에스에프씨, 아델이 기관투자자 대상 수요예측을 진행한다.... 최종 공모가를 확정한 뒤 12~13일 일반청약을 거쳐 11월 코스닥시장 상장을 목표로 하고 있다. 대표주관사는...",
+      "link": "https://n.news.naver.com/mnews/article/277/0005839460?sid=101",
+      "originallink": "https://view.asiae.co.kr/article/2026110710332457454",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-07T23:00:00.000Z"
+    },
+    {
+      "id": "eec343ad3cee0071",
       "keyword": "제이앤티지",
       "companyName": "제이앤티지",
+      "title": "이번주 공모주 청약, 하나에어로다이내믹스·엠비디 등 4개사",
+      "description": "주(9~15일) 기업공개(IPO) 시장에서는 항공기 부품 제조기업 '하나에어로다이내믹스'와 의료기술 기업 '엠비디', 전자부품 제조기업 '제이앤티지', 전력기기 제조기업 '씨앤엠' 등 4개사가 일반투자자 대상 공모주...",
+      "link": "https://n.news.naver.com/mnews/article/119/0003152482?sid=101",
+      "originallink": "https://www.dailian.co.kr/news/view/1711934/?sc=Naver",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-07T21:02:00.000Z"
+    },
+    {
+      "id": "1d42161ccf404f5f",
+      "keyword": "제이앤티지",
+      "companyName": "제이앤티지",
+      "title": "'증거금 8조' 동원파츠 코스닥 입성⋯'최대어' 제이앤티지 청약 [IPO 돋보...",
+      "description": "일반청약 시장에서는 공모 규모 1000억원대 '최대어' 제이앤티지를 비롯해 씨앤엠과 엠비디가 투자자... 동원파츠는 이번 주 상장 예정 기업 3곳 가운데 유일하게 공모가를 희망범위(2만3000~2만6500원) 최상단인...",
+      "link": "https://n.news.naver.com/mnews/article/031/0001073117?sid=101",
+      "originallink": "http://www.inews24.com/view/2023471",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-07T21:01:00.000Z"
+    },
+    {
+      "id": "9048a6099b9e200d",
+      "keyword": "케이엠에프",
+      "companyName": "케이엠에프",
+      "title": "11월 분주한 IPO 시장…눈여겨볼 유망주 보니",
+      "description": "엠비디·제이앤티지·씨앤엠·유캐스트·에스에프씨·아델·케이엠에프·제논·에이엔에이치스트럭쳐... 증시 조정으로 기존 상장 기업의 주가수익비율(PER)이 낮아진 만큼 신규 상장 기업의 공모가 매력도가 달라질...",
+      "link": "https://n.news.naver.com/mnews/article/024/0000109465?sid=101",
+      "originallink": "https://www.mk.co.kr/article/12200752",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-07T04:01:00.000Z"
+    },
+    {
+      "id": "6c50117a8e540573",
+      "keyword": "에이엘로봇",
+      "companyName": "에이엘로봇",
       "title": "동원파츠ㆍ바로팜ㆍ넥스아이, 코스닥 새내기 3곳 나란히 입성 [주간 IPO...",
       "description": "10일 상장…공모가 2만6500원·청약 경쟁률 1219대 1 바로팜 11일·넥스아이 12일 입성…공모 규모 각각 292억·400억원 에이엘로봇, 하나에어로다이내믹스 등 5곳 일반 청약 다음 주 기업공개(IPO) 시장에서는...",
       "link": "https://www.etoday.co.kr/news/view/2645001",
@@ -29,17 +95,6 @@
       "publishedAt": "2026-11-07T00:00:00.000Z"
     },
     {
-      "id": "c84849c289795755",
-      "keyword": "씨앤엠",
-      "companyName": "씨앤엠",
-      "title": "[현장] 씨앤엠, 45년 모터 기술로 로봇·데이터센터 공략…IPO로 생산·R...",
-      "description": "김형가 씨앤엠 대표가 6일 여의도에서 열린 IPO 기자간담회에서 \"45년간 축적한 모터 기술을 바탕으로... 씨앤엠은 이번 상장에서 신주 295만주를 공모한다. 희망 공모가 범위는 1만~1만3000원이며, 공모 규모는 295억...",
-      "link": "https://www.straightnews.co.kr/news/articleView.html?idxno=314835",
-      "originallink": "https://www.straightnews.co.kr/news/articleView.html?idxno=314835",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-06T09:34:00.000Z"
-    },
-    {
       "id": "ff72e90c1bf09d93",
       "keyword": "케이엠에프",
       "companyName": "케이엠에프",
@@ -49,39 +104,6 @@
       "originallink": "https://dealsite.co.kr/articles/172273",
       "provider": "뉴스 검색",
       "publishedAt": "2026-11-06T08:48:00.000Z"
-    },
-    {
-      "id": "237d911b47fb71d5",
-      "keyword": "에이엘로봇",
-      "companyName": "에이엘로봇",
-      "title": "[장외시황] 에이엘로봇, 공모청약 진행",
-      "description": "전문기업 에이엘로봇이 6일부터 코스닥 상장을 위한 일반투자자 대상 공모주 청약을 진행한다. 공모가는... 총 공모주식수는 300만주이며, 상장주관사는 대신증권과 신한투자증권이다. IPO(기업공개)관련...",
-      "link": "https://www.etoday.co.kr/news/view/2645175",
-      "originallink": "https://www.etoday.co.kr/news/view/2645175",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-06T07:10:00.000Z"
-    },
-    {
-      "id": "e4b08103ae4d3991",
-      "keyword": "하나에어로다이내믹스",
-      "companyName": "하나에어로다이내믹스",
-      "title": "[하나에어로 IPO]② 전량 신주 모집…유일기술투자 엑시트 방정식",
-      "description": "하나에어로다이내믹스의 기업공개(IPO)는 생산능력 확대를 위한 자금 조달에 목적이 있다. 회사는 신규... 눈길 하나에어로다이내믹스는 신주 440만주를 발행해 코스닥에 상장한다. 희망 공모가 밴드 하단인 4700원...",
-      "link": "https://n.news.naver.com/mnews/article/293/0000092830?sid=101",
-      "originallink": "https://www.bloter.net/news/articleView.html?idxno=677910",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-06T06:00:00.000Z"
-    },
-    {
-      "id": "ade2eec572a55b95",
-      "keyword": "씨앤엠",
-      "companyName": "씨앤엠",
-      "title": "[IPO 간담회] 'LG 모터 DNA' 씨앤엠 코스닥行…환율·원자재에 이익률 '주...",
-      "description": "\" 김형가 씨앤엠 대표가 6일 서울 여의도에서 열린 기업공개(IPO) 기자간담회에서 이같이 밝혔다. 씨앤엠은 흑자 기업에 적용되는 일반 요건으로 이달 중 코스닥 상장을 추진한다. 씨앤엠은 1980년 LG전자...",
-      "link": "http://www.metroseoul.co.kr/article/20261106500149",
-      "originallink": "http://www.metroseoul.co.kr/article/20261106500149",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-06T05:50:00.000Z"
     },
     {
       "id": "397d4da37a7e316a",
@@ -115,17 +137,6 @@
       "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=623567",
       "provider": "뉴스 검색",
       "publishedAt": "2026-11-05T07:02:00.000Z"
-    },
-    {
-      "id": "55dbd871b56c78d1",
-      "keyword": "제이앤티지",
-      "companyName": "제이앤티지",
-      "title": "하반기 IPO '대어' 제이앤티지…홍선경 CFO \"기업가치 인정받는 계기될...",
-      "description": "공모가 상단 기준 시총 6천억원 예상…내달 23일 상장 제이앤티지 CI[출처: 제이앤티지 제공] 희망 공모가... 홍선경 제이앤티지 최고재무책임자(CFO)는 5일 여의도 63빌딩에서 열린 IPO 기자간담회에서 \"이번 상장은...",
-      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443255",
-      "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4443255",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-05T05:32:00.000Z"
     },
     {
       "id": "e427ed4623f72393",
@@ -183,17 +194,6 @@
       "publishedAt": "2026-11-03T22:02:00.000Z"
     },
     {
-      "id": "087c1681465cd977",
-      "keyword": "하나에어로다이내믹스",
-      "companyName": "하나에어로다이내믹스",
-      "title": "[파두사태 이후 IPO] ①조달시장의 변화 \"이왕이면 일반상장\"",
-      "description": "일반종목 상장의 비중 증가가 두드러지게 나타난다는 점이다. 이번주 동시에 진행되는 IPO 종목은 다비오, 하나에어로다이내믹스, 엠비디, 제이앤티지, 씨앤엠이다. 이들의 공모총액은 공모가 하단기준 1952억원으로...",
-      "link": "https://www.fetv.co.kr/news/articleView.html?idxno=313027",
-      "originallink": "https://www.fetv.co.kr/news/articleView.html?idxno=313027",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-03T22:00:00.000Z"
-    },
-    {
       "id": "e90b0df553f48dc5",
       "keyword": "케이엠에프",
       "companyName": "케이엠에프",
@@ -203,17 +203,6 @@
       "originallink": "https://www.news2day.co.kr/article/20261103500348",
       "provider": "뉴스 검색",
       "publishedAt": "2026-11-03T20:14:00.000Z"
-    },
-    {
-      "id": "162b19f761d8999b",
-      "keyword": "케이엠에프",
-      "companyName": "케이엠에프",
-      "title": "11월 공모주 15곳 줄청약 … 10월 새내기주 9곳 중 5곳 '공모가 하회' 경...",
-      "description": "3분기 상장 기업 수와 공모 금액이 과거 평균을 크게 밑돌았던 것과 달리, 연말 공모주 시장은 중... 하순에는 △18~19일 에스에프씨·유캐스트 △23~24일 아델 △24~25일 제논·케이엠에프 △27~30일...",
-      "link": "https://biz.newdaily.co.kr/site/data/html/2026/10/30/2026103000099.html",
-      "originallink": "https://biz.newdaily.co.kr/site/data/html/2026/10/30/2026103000099.html",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-01T00:00:00.000Z"
     },
     {
       "id": "943bfc989860dc4e",

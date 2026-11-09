@@ -1,11 +1,44 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-11-08T01:17:03.691Z",
+    "updatedAt": "2026-11-09T01:36:06.759Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "c49a67363000f84d",
+      "keyword": "하나에어로다이내믹스",
+      "companyName": "하나에어로다이내믹스",
+      "title": "[더벨][하나에어로다이내믹스 IPO] 공모가 밴드상단 유력…추가 자금 '우...",
+      "description": "공모가격 기준 시가총액도 1000억원을 넘게 된다. 6일 금융투자업계에 따르면 하나에어로다이내믹스의 상장 주관사인 IBK투자증권은 이날까지 기관투자자를 대상으로 수요예측 주문을 접수한다. 5영업일간 진행된...",
+      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611061401488080103481",
+      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611061401488080103481",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-08T22:02:00.000Z"
+    },
+    {
+      "id": "ab938e1e51442c0b",
+      "keyword": "제이앤티지",
+      "companyName": "제이앤티지",
+      "title": "제이앤티지·씨앤엠 등 5곳 청약…동원파츠 등 3곳 상장 [이번주 증시 캘...",
+      "description": "이번 주 기업공개(IPO) 시장에서는 에이엘로봇과 하나에어로다이내믹스 등 5개 기업이 일반 투자자를 대상으로 공모주 청약을 진행한다. 동원파츠와 바로팜, 넥스아이는 차례로 코스닥 시장에 입성한다. 9일...",
+      "link": "https://n.news.naver.com/mnews/article/011/0004679998?sid=101",
+      "originallink": "https://www.sedaily.com/article/20111493?ref=naver",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-08T21:31:00.000Z"
+    },
+    {
+      "id": "f26a6ce896bf4b44",
+      "keyword": "아델",
+      "companyName": "아델",
+      "title": "[IPO 워치] 동원파츠·바로팜·넥스아이 코스닥 입성…청약 5곳",
+      "description": "특히 에스에프씨는 오랜만에 등장한 코스피 상장 기업으로 주목을 받고 있다. 알츠하이머병 치료제 개발기업 아델도 12~18일 수요예측을 진행한다. 앞서 수요예측을 시작한 씨앤엠과 제이앤티지는 11일 공모가를...",
+      "link": "https://www.news2day.co.kr/article/20261108500002",
+      "originallink": "https://www.news2day.co.kr/article/20261108500002",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-08T19:06:00.000Z"
+    },
     {
       "id": "08576662f8a959b6",
       "keyword": "아델",
@@ -41,25 +74,14 @@
     },
     {
       "id": "eec343ad3cee0071",
-      "keyword": "제이앤티지",
-      "companyName": "제이앤티지",
+      "keyword": "에이엘로봇",
+      "companyName": "에이엘로봇",
       "title": "이번주 공모주 청약, 하나에어로다이내믹스·엠비디 등 4개사",
-      "description": "주(9~15일) 기업공개(IPO) 시장에서는 항공기 부품 제조기업 '하나에어로다이내믹스'와 의료기술 기업 '엠비디', 전자부품 제조기업 '제이앤티지', 전력기기 제조기업 '씨앤엠' 등 4개사가 일반투자자 대상 공모주...",
+      "description": "11월 둘째 주(9~15일) 기업공개(IPO) 시장에서는 항공기 부품 제조기업 '하나에어로다이내믹스'와 의료기술... 상장할 예정이다. 한편 로봇 제조기업 에이엘로봇은 지난 6일부터 9일까지 일반투자자 대상 공모주...",
       "link": "https://n.news.naver.com/mnews/article/119/0003152482?sid=101",
       "originallink": "https://www.dailian.co.kr/news/view/1711934/?sc=Naver",
       "provider": "뉴스 검색",
       "publishedAt": "2026-11-07T21:02:00.000Z"
-    },
-    {
-      "id": "1d42161ccf404f5f",
-      "keyword": "제이앤티지",
-      "companyName": "제이앤티지",
-      "title": "'증거금 8조' 동원파츠 코스닥 입성⋯'최대어' 제이앤티지 청약 [IPO 돋보...",
-      "description": "일반청약 시장에서는 공모 규모 1000억원대 '최대어' 제이앤티지를 비롯해 씨앤엠과 엠비디가 투자자... 동원파츠는 이번 주 상장 예정 기업 3곳 가운데 유일하게 공모가를 희망범위(2만3000~2만6500원) 최상단인...",
-      "link": "https://n.news.naver.com/mnews/article/031/0001073117?sid=101",
-      "originallink": "http://www.inews24.com/view/2023471",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-07T21:01:00.000Z"
     },
     {
       "id": "9048a6099b9e200d",
@@ -71,28 +93,6 @@
       "originallink": "https://www.mk.co.kr/article/12200752",
       "provider": "뉴스 검색",
       "publishedAt": "2026-11-07T04:01:00.000Z"
-    },
-    {
-      "id": "6c50117a8e540573",
-      "keyword": "에이엘로봇",
-      "companyName": "에이엘로봇",
-      "title": "동원파츠ㆍ바로팜ㆍ넥스아이, 코스닥 새내기 3곳 나란히 입성 [주간 IPO...",
-      "description": "10일 상장…공모가 2만6500원·청약 경쟁률 1219대 1 바로팜 11일·넥스아이 12일 입성…공모 규모 각각 292억·400억원 에이엘로봇, 하나에어로다이내믹스 등 5곳 일반 청약 다음 주 기업공개(IPO) 시장에서는...",
-      "link": "https://www.etoday.co.kr/news/view/2645001",
-      "originallink": "https://www.etoday.co.kr/news/view/2645001",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-07T00:00:00.000Z"
-    },
-    {
-      "id": "4b78962cc454782f",
-      "keyword": "아델",
-      "companyName": "아델",
-      "title": "[IPO챗] 내주 에스에프씨 등 5개사 수요예측",
-      "description": "일반청약…신규 상장은 없어 다음 주(9∼13일) 기업공개(IPO) 시장에서는 에스에프씨와 유캐스트 등 5개... 알츠하이머병 치료제 개발 기업 아델은 12∼18일 기관투자자들의 평가를 받는다. 공모 희망 밴드는...",
-      "link": "https://n.news.naver.com/mnews/article/001/0016427682?sid=101",
-      "originallink": "https://www.yna.co.kr/view/AKR20261106071100008?input=1195m",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-07T00:00:00.000Z"
     },
     {
       "id": "ff72e90c1bf09d93",

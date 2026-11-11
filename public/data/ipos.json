@@ -1,28 +1,28 @@
 {
   "metadata": {
-    "updatedAt": "2026-11-10T04:05:16.632Z",
+    "updatedAt": "2026-11-11T01:50:32.999Z",
     "source": "OpenDART",
     "basis": "증권신고서 주요정보 - 지분증권(estkRs), 공시검색(list), 공시원문(document.xml)",
     "dateRange": {
-      "bgnDe": "20260514",
-      "endDe": "20261110"
+      "bgnDe": "20260515",
+      "endDe": "20261111"
     },
     "lookbackDays": 180,
     "lookaheadDays": 120,
-    "totalFilings": 12699,
-    "totalCompanies": 339,
-    "totalItems": 20,
-    "referenceDate": "2026-11-10",
+    "totalFilings": 12606,
+    "totalCompanies": 338,
+    "totalItems": 21,
+    "referenceDate": "2026-11-11",
     "status": "ready",
-    "candidateItems": 59,
-    "futureCandidateItems": 19,
+    "candidateItems": 60,
+    "futureCandidateItems": 20,
     "statusCounts": {
       "환불일": 1,
       "청약 진행중": 1,
-      "청약 예정": 18
+      "청약 예정": 19
     },
-    "documentDetailItems": 58,
-    "warning": "62개 항목의 상세 조회 또는 원문 추출에 실패했습니다. Actions 로그에서 확인하세요."
+    "documentDetailItems": 59,
+    "warning": "64개 항목의 상세 조회 또는 원문 추출에 실패했습니다. Actions 로그에서 확인하세요."
   },
   "items": [
     {
@@ -166,8 +166,8 @@
       "corpClass": "E",
       "stockCode": "",
       "receiptNo": "20261015000329",
-      "receiptDate": "2026-10-15",
-      "reportName": "[기재정정]증권신고서(지분증권)",
+      "receiptDate": "2026-11-10",
+      "reportName": "[기재정정]투자설명서",
       "securityType": "보통주",
       "offeringMethod": "일반공모",
       "offerPrice": "9,600",
@@ -749,6 +749,52 @@
       "eventType": "initial_public_offering",
       "sourceMode": "opendart",
       "demandForecastSource": "dart-document"
+    },
+    {
+      "companyName": "마더스제약",
+      "corpCode": "01136597",
+      "corpClass": "E",
+      "stockCode": "",
+      "receiptNo": "20261110000330",
+      "receiptDate": "2026-11-10",
+      "reportName": "증권신고서(지분증권)",
+      "securityType": "보통주",
+      "offeringMethod": "일반공모",
+      "offerPrice": "11,000",
+      "offerAmount": "26,400,000,000",
+      "stockCount": "2,400,000",
+      "parValue": "500",
+      "subscriptionDate": "2026년 12월 08일 ~ 2026년 12월 09일",
+      "subscriptionNoticeDate": "2026-12-08",
+      "paymentDate": "2026-12-11",
+      "allotmentNoticeDate": "2026-12-11",
+      "allotmentBaseDate": "",
+      "scheduleStart": "2026-12-08",
+      "scheduleEnd": "2026-12-09",
+      "subscriptionStart": "2026-12-08",
+      "subscriptionEnd": "2026-12-09",
+      "underwriters": [
+        "케이비증권",
+        "NH투자증권"
+      ],
+      "dartUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110000330",
+      "mainMatterReceiptNo": "",
+      "mainMatterUrl": "",
+      "status": "청약 예정",
+      "refundDate": "2026-12-11",
+      "listingDate": "",
+      "demandForecastStart": "",
+      "demandForecastEnd": "",
+      "refundDateSource": "dart-document",
+      "listingDateSource": "",
+      "subscriptionCompetitionRate": "",
+      "demandForecastCompetitionRate": "",
+      "detailSource": "document",
+      "detailSourceNote": "환불일·상장예정일·수요예측 기간·경쟁률은 공시 원문에서 자동 추출된 값입니다.",
+      "offeringCategory": "ipo",
+      "eventType": "initial_public_offering",
+      "sourceMode": "opendart",
+      "demandForecastSource": ""
     },
     {
       "companyName": "인터엑스",

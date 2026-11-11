@@ -1,11 +1,99 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-11-10T04:05:22.816Z",
+    "updatedAt": "2026-11-11T01:50:39.225Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "18b418fc9b431514",
+      "keyword": "엠비디",
+      "companyName": "엠비디",
+      "title": "K향수 본투스탠드아웃, 美 세포라 입점 후 매출 100억",
+      "description": "▲ AI 프리즘* 맞춤형 경제 브리핑 * 편집자 주: ‘AI PRISM’(Personalized Report & Insight Summarizing Media)은... 엠비디, IPO 공모가 하단 미만…올해 3번째 - 핵심 요약: 코스닥 상장을 추진하는 3차원 세포배양 자동화 플랫폼...",
+      "link": "https://n.news.naver.com/mnews/article/011/0004680917?sid=101",
+      "originallink": "https://www.sedaily.com/article/20112814?ref=naver",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-11T01:01:00.000Z"
+    },
+    {
+      "id": "88034ef4191e61a1",
+      "keyword": "제이앤티지",
+      "companyName": "제이앤티지",
+      "title": "[IPO X레이] 제이앤티지 ②'매출처 다양'하다고 밝혔지만, 적자 고객 한...",
+      "description": "보도자료가 말하지 않은 이 두 가지가 공모주 투자자가 상장 뒤 떠안을 사업 위험이다. ◇다양한 고객사' 내세웠지만 성장분 대부분 A사 한 곳 10일 금융감독원 전자공시 등에 따르면 제이앤티지는 경기 화성에서...",
+      "link": "http://www.fieldnews.kr/news/articleView.html?idxno=32958",
+      "originallink": "http://www.fieldnews.kr/news/articleView.html?idxno=32958",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-10T23:30:00.000Z"
+    },
+    {
+      "id": "2746002559b7f03a",
+      "keyword": "하나에어로다이내믹스",
+      "companyName": "하나에어로다이내믹스",
+      "title": "[공모주 현황] 하나에어로다이내믹스 청약 1일차 종료, 균등·비례 경쟁...",
+      "description": "IPO 자료사진. AI가 생성한 이미지. 공모주 하나에어로다이내믹스의 청약 1일차 일정이 10일 오후 4시경... 또한 상장일인 20일 주가 추이에도 이목이 쏠린다. 한편 공시에 따르면 하나에어로다이내믹스는 2007년...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=625152",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=625152",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-10T07:04:00.000Z"
+    },
+    {
+      "id": "be086a0ef0f9226d",
+      "keyword": "하나에어로다이내믹스",
+      "companyName": "하나에어로다이내믹스",
+      "title": "[장외시황] 하나에어로다이내믹스, 공모청약 시작",
+      "description": "전문기업 하나에오로다이내믹스가 이틀간 코스닥 상장을 위한 일반투자자 대상 공모주 청약을... 1만6400원이고, 공모금액은 291억9200만원이다. 이날 비상장 주식시장은 3거래일 연속 하락했다. 기업공개(IPO) 관련...",
+      "link": "https://www.etoday.co.kr/news/view/2646414",
+      "originallink": "https://www.etoday.co.kr/news/view/2646414",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-10T06:50:00.000Z"
+    },
+    {
+      "id": "90f49064f6f5658a",
+      "keyword": "에이엘로봇",
+      "companyName": "에이엘로봇",
+      "title": "에이엘로봇, 일반청약 경쟁률 834대 1…증거금 4조원 몰려",
+      "description": "대상 공모주 청약에서 834.73대 1의 경쟁률을 기록하며 기업공개(IPO) 일정을 마무리했다. 로봇 산업 성장 기대가 관련 부품 기업의 상장 과정에서도 투자 수요로 이어지는 모습이다. 에이엘로봇은 지난 6일과 9일...",
+      "link": "https://www.cnbizm.com/news/articleView.html?idxno=320954",
+      "originallink": "https://www.cnbizm.com/news/articleView.html?idxno=320954",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-10T06:18:00.000Z"
+    },
+    {
+      "id": "f393bdf2b1b35ff7",
+      "keyword": "제이앤티지",
+      "companyName": "제이앤티지",
+      "title": "[IPO X레이] 제이앤티지 ① '비용'만 생긴 아버지 회사와 특허 '팔았다 ...",
+      "description": "이런 거래를 걸러 줄 독립이사와 내부거래위원회는 올해 3월과 10월에 처음 생겼다. 상장 뒤 그 이사회를 뽑는 주주는 65%를 쥔 같은 일가다. 공모주 투자자가 사는 것은 이 지배구조다. 제이앤티지는 전용실시권 설정의...",
+      "link": "http://www.fieldnews.kr/news/articleView.html?idxno=32957",
+      "originallink": "http://www.fieldnews.kr/news/articleView.html?idxno=32957",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-10T05:28:00.000Z"
+    },
+    {
+      "id": "f1a1407abec35535",
+      "keyword": "에이엔에이치스트럭쳐",
+      "companyName": "에이엔에이치스트럭쳐",
+      "title": "11월 IPO 큰 장 열렸다…'대어'보다 '알짜' 찾으려면",
+      "description": "동원파츠는 10일 상장했고, 바로팜은 11일 상장한다. 넥스아이(3~4일), 영광와이케이엠씨(4~5일), 옵토닉스(5... 기업 에이엔에이치스트럭쳐 등도 이달 기관투자자 평가를 받는다. 공모주 청약 시장만 놓고 보면...",
+      "link": "https://www.newsquest.co.kr/news/articleView.html?idxno=304646",
+      "originallink": "https://www.newsquest.co.kr/news/articleView.html?idxno=304646",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-10T05:16:00.000Z"
+    },
+    {
+      "id": "d364ec95d9da74e7",
+      "keyword": "에이엔에이치스트럭쳐",
+      "companyName": "에이엔에이치스트럭쳐",
+      "title": "[ANH스트럭쳐 IPO] 피어그룹 주가 반토막에 몸값 부담…공모 흥행 '노란...",
+      "description": "에이엔에이치스트럭쳐(ANH스트럭쳐)의 기업공개(IPO) 흥행 전망에 노란불이 켜졌다. 몸값 책정 근거로... 증시 상장에 도전하고 있다. ANH스트럭쳐의 공모 일정이 다가오는 가운데 투자자 시선은 밸류에이션 책정...",
+      "link": "https://www.the-stock.kr/news/articleView.html?idxno=33772",
+      "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=33772",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-10T05:16:00.000Z"
+    },
     {
       "id": "4a1f7f2654a736c2",
       "keyword": "에이엘로봇",
@@ -49,17 +137,6 @@
       "originallink": "https://www.lcnews.co.kr/news/articleView.html?idxno=211068",
       "provider": "뉴스 검색",
       "publishedAt": "2026-11-09T04:42:00.000Z"
-    },
-    {
-      "id": "c49a67363000f84d",
-      "keyword": "하나에어로다이내믹스",
-      "companyName": "하나에어로다이내믹스",
-      "title": "[더벨][하나에어로다이내믹스 IPO] 공모가 밴드상단 유력…추가 자금 '우...",
-      "description": "공모가격 기준 시가총액도 1000억원을 넘게 된다. 6일 금융투자업계에 따르면 하나에어로다이내믹스의 상장 주관사인 IBK투자증권은 이날까지 기관투자자를 대상으로 수요예측 주문을 접수한다. 5영업일간 진행된...",
-      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611061401488080103481",
-      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611061401488080103481",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-08T22:02:00.000Z"
     },
     {
       "id": "ab938e1e51442c0b",
@@ -106,17 +183,6 @@
       "publishedAt": "2026-11-08T00:02:00.000Z"
     },
     {
-      "id": "c34211c63f22250b",
-      "keyword": "아델",
-      "companyName": "아델",
-      "title": "[이번주 IPO]11월 둘째 주 수요예측·청약 일정",
-      "description": "이달(11월) 둘째 주에는 유캐스트, 에스에프씨, 아델이 기관투자자 대상 수요예측을 진행한다.... 최종 공모가를 확정한 뒤 12~13일 일반청약을 거쳐 11월 코스닥시장 상장을 목표로 하고 있다. 대표주관사는...",
-      "link": "https://n.news.naver.com/mnews/article/277/0005839460?sid=101",
-      "originallink": "https://view.asiae.co.kr/article/2026110710332457454",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-07T23:00:00.000Z"
-    },
-    {
       "id": "9048a6099b9e200d",
       "keyword": "에이엔에이치스트럭쳐",
       "companyName": "에이엔에이치스트럭쳐",
@@ -161,17 +227,6 @@
       "publishedAt": "2026-11-05T02:14:00.000Z"
     },
     {
-      "id": "1abc8645bfae7e2a",
-      "keyword": "제논",
-      "companyName": "제논",
-      "title": "상장 예심 빨라졌지만…금감원 문턱서 줄줄이 증권신고서 정정",
-      "description": "유캐스트 공모가 낮추고 제논 기업가치 재산정 기술특례기업 실적 추정·기업가치 산정 근거 보완 요구 올해 하반기 한국거래소의 코스닥 상장예비심사 기간이 크게 단축된 가운데 금융감독원의 증권신고서 심사...",
-      "link": "https://n.news.naver.com/mnews/article/001/0016423462?sid=101",
-      "originallink": "https://www.yna.co.kr/view/AKR20261105068700008?input=1195m",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-05T01:39:00.000Z"
-    },
-    {
       "id": "c18c9a723c0235f2",
       "keyword": "케이엠에프",
       "companyName": "케이엠에프",
@@ -203,28 +258,6 @@
       "originallink": "https://www.news2day.co.kr/article/20261103500348",
       "provider": "뉴스 검색",
       "publishedAt": "2026-11-03T20:14:00.000Z"
-    },
-    {
-      "id": "162b19f761d8999b",
-      "keyword": "에이엔에이치스트럭쳐",
-      "companyName": "에이엔에이치스트럭쳐",
-      "title": "11월 공모주 15곳 줄청약 … 10월 새내기주 9곳 중 5곳 '공모가 하회' 경...",
-      "description": "3분기 상장 기업 수와 공모 금액이 과거 평균을 크게 밑돌았던 것과 달리, 연말 공모주 시장은 중... 제논·케이엠에프 △27~30일 에이엔에이치스트럭쳐 등 6곳이 청약에 나선다. 12월에도 △1~2일 엔키화이트햇...",
-      "link": "https://biz.newdaily.co.kr/site/data/html/2026/10/30/2026103000099.html",
-      "originallink": "https://biz.newdaily.co.kr/site/data/html/2026/10/30/2026103000099.html",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-01T00:00:00.000Z"
-    },
-    {
-      "id": "c79548df8f4a74de",
-      "keyword": "에이엔에이치스트럭쳐",
-      "companyName": "에이엔에이치스트럭쳐",
-      "title": "이번 주만 4곳 IPO 증권신고서 제출…연말 '막차' 러시",
-      "description": "올해 코스피 신규 상장사는 지난 3월 상장한 케이뱅크 1곳뿐이다. 올해 코스피 IPO 공모금액도 전액... 항공우주 토탈 솔루션 기업 에이엔에이치스트럭쳐(ANH스트럭쳐)는 20일 신고서를 냈다. 공모주식 수는 210만주...",
-      "link": "https://www.newstopkorea.com/news/articleView.html?idxno=48388",
-      "originallink": "https://www.newstopkorea.com/news/articleView.html?idxno=48388",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-22T02:12:00.000Z"
     },
     {
       "id": "943bfc989860dc4e",

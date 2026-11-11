@@ -1,8 +1,8 @@
 {
   "metadata": {
     "source": "FRED",
-    "updatedAt": "2026-11-10T04:09:28.714Z",
-    "generatedAt": "2026-11-10T04:09:28.714Z",
+    "updatedAt": "2026-11-11T01:54:25.825Z",
+    "generatedAt": "2026-11-11T01:54:25.825Z",
     "seriesCount": 4
   },
   "items": [
@@ -119,17 +119,13 @@
       "seriesId": "DGS10",
       "koreanName": "미국 10년물 국채금리",
       "unit": "%",
-      "latestDate": "2026-11-06",
-      "latestValue": 4.86,
-      "previousDate": "2026-11-05",
-      "previousValue": 4.84,
+      "latestDate": "2026-11-09",
+      "latestValue": 4.88,
+      "previousDate": "2026-11-06",
+      "previousValue": 4.86,
       "change": 0.02,
       "changeRate": 0.41,
       "observations": [
-        {
-          "date": "2026-10-05",
-          "value": 5.31
-        },
         {
           "date": "2026-10-06",
           "value": 5.27
@@ -221,6 +217,10 @@
         {
           "date": "2026-11-06",
           "value": 4.86
+        },
+        {
+          "date": "2026-11-09",
+          "value": 4.88
         }
       ]
     },
@@ -228,17 +228,13 @@
       "seriesId": "CPIAUCSL",
       "koreanName": "미국 소비자물가지수 CPI",
       "unit": "index",
-      "latestDate": "2026-09-01",
-      "latestValue": 336.3,
-      "previousDate": "2026-08-01",
-      "previousValue": 334.1,
-      "change": 2.2,
-      "changeRate": 0.65,
+      "latestDate": "2026-10-01",
+      "latestValue": 337.5,
+      "previousDate": "2026-09-01",
+      "previousValue": 336.3,
+      "change": 1.2,
+      "changeRate": 0.35,
       "observations": [
-        {
-          "date": "2024-09-01",
-          "value": 314.7
-        },
         {
           "date": "2024-10-01",
           "value": 315.6
@@ -330,6 +326,10 @@
         {
           "date": "2026-09-01",
           "value": 336.3
+        },
+        {
+          "date": "2026-10-01",
+          "value": 337.5
         }
       ]
     },

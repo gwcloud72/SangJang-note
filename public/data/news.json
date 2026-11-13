@@ -1,11 +1,55 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-11-12T02:51:02.655Z",
+    "updatedAt": "2026-11-13T02:35:13.951Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "080e75ccc40e519a",
+      "keyword": "아델",
+      "companyName": "아델",
+      "title": "[장외시황] 아델, 수요예측 진행",
+      "description": "공모가는 희망범위 하단보다 낮은 7000원으로 확정됐다. 알츠하이머 치료용 항체 신약 개발업체 아델이... 공간 데이터 AI플랫폼 전문업체 다비오는 공모청약 일정을 12월 9~10일로 변경했다. 기업공개(IPO) 관련 상장...",
+      "link": "https://www.etoday.co.kr/news/view/2647510",
+      "originallink": "https://www.etoday.co.kr/news/view/2647510",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-12T06:54:00.000Z"
+    },
+    {
+      "id": "ae292759b4f227d1",
+      "keyword": "제이앤티지",
+      "companyName": "제이앤티지",
+      "title": "IPO 코너스톤투자자·사전수요예측 13일부터 시행",
+      "description": "기업공개(IPO) 시장에 사전수요예측과 코너스톤투자자 제도가 13일 시행된다. 이 제도는 장기 보유를 약속한... 11일 제이앤티지와 씨앤엠이 일반청약을 하루 앞두고 상장을 철회했다. 새 제도가 차가워진 공모시장을...",
+      "link": "https://www.junggi.co.kr/news/articleView.html?idxno=38473",
+      "originallink": "https://www.junggi.co.kr/news/articleView.html?idxno=38473",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-12T06:24:00.000Z"
+    },
+    {
+      "id": "7e57664389876af6",
+      "keyword": "제이앤티지",
+      "companyName": "제이앤티지",
+      "title": "IPO 새 제도 13일 시행…공모가 적정성 높이고 장기 투자 유도할까",
+      "description": "대신 상장 연기를 선택할 가능성도 있다. 최근 공모시장 상황도 녹록지 않다. 지난 11일 제이앤티지와... 박창윤 지엘리서치 대표는 “최근 IPO 철회는 코너스톤 제도보다 공모시장 침체와 상장기업 집중에 따른 자금 분산의...",
+      "link": "https://www.viva100.com/article/20261112500761",
+      "originallink": "https://www.viva100.com/article/20261112500761",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-12T05:22:00.000Z"
+    },
+    {
+      "id": "1ad9090dae98ab7b",
+      "keyword": "유캐스트",
+      "companyName": "유캐스트",
+      "title": "[현장] 김재형 유캐스트 대표 \"방산 5G 앞세워 2027년 흑자 전환\"",
+      "description": "유캐스트는 이번 IPO로 구주매출 없이 80만주의 신주를 발행하며 이에 따라 총 588만8910주가 코스닥 시장에 상장 예정이다. 공모 밴드는 최소 1만9000원~최대 2만3000원으로 이에 따른 공모 예정 금액은 152억~194억원이...",
+      "link": "https://www.newspost.kr/news/articleView.html?idxno=227321",
+      "originallink": "https://www.newspost.kr/news/articleView.html?idxno=227321",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-12T03:20:00.000Z"
+    },
     {
       "id": "aef2e56b7a3288cb",
       "keyword": "제이앤티지",
@@ -62,17 +106,6 @@
       "publishedAt": "2026-11-11T01:01:00.000Z"
     },
     {
-      "id": "88034ef4191e61a1",
-      "keyword": "제이앤티지",
-      "companyName": "제이앤티지",
-      "title": "[IPO X레이] 제이앤티지 ②'매출처 다양'하다고 밝혔지만, 적자 고객 한...",
-      "description": "보도자료가 말하지 않은 이 두 가지가 공모주 투자자가 상장 뒤 떠안을 사업 위험이다. ◇다양한 고객사' 내세웠지만 성장분 대부분 A사 한 곳 10일 금융감독원 전자공시 등에 따르면 제이앤티지는 경기 화성에서...",
-      "link": "http://www.fieldnews.kr/news/articleView.html?idxno=32958",
-      "originallink": "http://www.fieldnews.kr/news/articleView.html?idxno=32958",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-10T23:30:00.000Z"
-    },
-    {
       "id": "8c17bdcf63a63ea0",
       "keyword": "우리투자제1호기업인수목적",
       "companyName": "우리투자제1호기업인수목적",
@@ -82,17 +115,6 @@
       "originallink": "https://bizhankook.com/articles/kakaopay-securities-first-spac-listing.html",
       "provider": "뉴스 검색",
       "publishedAt": "2026-11-10T05:54:00.000Z"
-    },
-    {
-      "id": "f393bdf2b1b35ff7",
-      "keyword": "제이앤티지",
-      "companyName": "제이앤티지",
-      "title": "[IPO X레이] 제이앤티지 ① '비용'만 생긴 아버지 회사와 특허 '팔았다 ...",
-      "description": "이런 거래를 걸러 줄 독립이사와 내부거래위원회는 올해 3월과 10월에 처음 생겼다. 상장 뒤 그 이사회를 뽑는 주주는 65%를 쥔 같은 일가다. 공모주 투자자가 사는 것은 이 지배구조다. 제이앤티지는 전용실시권 설정의...",
-      "link": "http://www.fieldnews.kr/news/articleView.html?idxno=32957",
-      "originallink": "http://www.fieldnews.kr/news/articleView.html?idxno=32957",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-10T05:28:00.000Z"
     },
     {
       "id": "f1a1407abec35535",
@@ -128,17 +150,6 @@
       "publishedAt": "2026-11-09T04:42:00.000Z"
     },
     {
-      "id": "ab938e1e51442c0b",
-      "keyword": "엠비디",
-      "companyName": "엠비디",
-      "title": "제이앤티지·씨앤엠 등 5곳 청약…동원파츠 등 3곳 상장 [이번주 증시 캘...",
-      "description": "이번 주 기업공개(IPO) 시장에서는 에이엘로봇과 하나에어로다이내믹스 등 5개 기업이 일반 투자자를 대상으로 공모주 청약을 진행한다. 동원파츠와 바로팜, 넥스아이는 차례로 코스닥 시장에 입성한다. 9일...",
-      "link": "https://n.news.naver.com/mnews/article/011/0004679998?sid=101",
-      "originallink": "https://www.sedaily.com/article/20111493?ref=naver",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-08T21:31:00.000Z"
-    },
-    {
       "id": "f26a6ce896bf4b44",
       "keyword": "아델",
       "companyName": "아델",
@@ -162,8 +173,8 @@
     },
     {
       "id": "b4d8e3d2eb9b4c45",
-      "keyword": "아델",
-      "companyName": "아델",
+      "keyword": "에스에프씨",
+      "companyName": "에스에프씨",
       "title": "에스에프씨·유캐스트 수요예측…동원파츠·바로팜 등 상장[증시캘린더...",
       "description": "다음 주(11월 9~13일) 기업공개(IPO) 시장에서는 유기발광다이오드(OLED) 소재 기업 에스에프씨와 통신장비... 총 500만주 전량 신주 모집, 공모금액 400억원. 11월 12일 코스닥 시장 상장. 대표주관사는 한국투자증권....",
       "link": "https://n.news.naver.com/mnews/article/018/0006405978?sid=101",

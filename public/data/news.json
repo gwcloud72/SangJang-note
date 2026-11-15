@@ -1,32 +1,87 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-11-14T02:45:57.207Z",
+    "updatedAt": "2026-11-15T01:41:41.225Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
     {
-      "id": "253c72ff6617f7c1",
+      "id": "7b58e70897366fd4",
+      "keyword": "아델",
+      "companyName": "아델",
+      "title": "청약 흥행 해도 상장하면 반토막...급락장에 공모주 '흔들'",
+      "description": "상장 시점의 투자심리가 달라지면 주가가 공모가를 밑돌 가능성이 있다. 연말까지 이어지는 IPO 일정도... 잇따라 상장을 앞두고 있다. 이와 함께 18~19일 유캐스트와 에스에프씨, 23~24일 아델 등의 일반 청약도 예정돼...",
+      "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=715259",
+      "originallink": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=715259",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-15T01:00:00.000Z"
+    },
+    {
+      "id": "0f5ea4022a6cf4c3",
       "keyword": "엔키화이트햇",
       "companyName": "엔키화이트햇",
+      "title": "옵토닉스·에이엘로봇 등 상장[증시캘린더]",
+      "description": "기업공개(IPO) 시장에서는 영광와이케이엠씨·옵토닉스·에이엘로봇·하나에어로다이내믹스가 코스닥 상장에 나선다. 아울러 제논·케이엠에프·에이엔에이치스트럭쳐·신영스팩12호·엔키화이트햇이...",
+      "link": "https://n.news.naver.com/mnews/article/018/0006409894?sid=101",
+      "originallink": "https://www.edaily.co.kr/News/Read?newsId=01177526645646048&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-15T00:02:00.000Z"
+    },
+    {
+      "id": "6c54fd704fa1a7fd",
+      "keyword": "엔키화이트햇",
+      "companyName": "엔키화이트햇",
+      "title": "[이번주 IPO]11월 셋째 주 수요예측·청약 일정",
+      "description": "따른 공모 예정 금액은 약 235억~286억 원이다. 오는 19~25일 기관 수요예측을, 오는 27~30일 일반청약을 거쳐 연내 코스닥 시장 상장을 목표로 하고 있다. 대표 주관사는 NH투자증권이다. ◆엔키화이트햇= 2016년 설립된...",
+      "link": "https://n.news.naver.com/mnews/article/277/0005842632?sid=101",
+      "originallink": "https://view.asiae.co.kr/article/2026111413490985430",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-14T23:00:00.000Z"
+    },
+    {
+      "id": "c4644d4b7add28bb",
+      "keyword": "엔키화이트햇",
+      "companyName": "엔키화이트햇",
+      "title": "영광와이케이엠씨·옵토닉스·에이엘로봇 3개사 다음주 코스닥 입성",
+      "description": "항공·방산 구조물의 설계와 제작을 주요 사업으로 하며 기술특례 방식으로 코스닥 상장을 추진하고 있다. 공모 희망 밴드는 1만1천200∼1만3천600원이다. 화이트해커 솔루션 자동화 기업 엔키화이트햇은 20∼26일...",
+      "link": "https://www.tfmedia.co.kr/news/article.html?no=208894",
+      "originallink": "https://www.tfmedia.co.kr/news/article.html?no=208894",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-14T22:44:00.000Z"
+    },
+    {
+      "id": "c6a926e306fe00af",
+      "keyword": "엔키화이트햇",
+      "companyName": "엔키화이트햇",
+      "title": "[다음주 IPO] 영광와이케이엠씨(16일), 옵토닉스(17일), 에이엘로봇(18일...",
+      "description": "영광와이케이엠씨 등 3개사 다음 주 코스닥 입성…16∼18일 상장 코스닥시장에 새로 진입하는 기업과... 화이트해커 솔루션 자동화 기업 엔키화이트햇은 20∼26일 수요예측 일정을 잡았고, 공모 희망가는 1만3천...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=626906",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=626906",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-14T22:36:00.000Z"
+    },
+    {
+      "id": "bb672534540c04ec",
+      "keyword": "엔키화이트햇",
+      "companyName": "엔키화이트햇",
+      "title": "'코스피 2호' 에스에프씨, 일반청약⋯영광YKMC·옵토닉스 등 상장 [IPO 돋...",
+      "description": "이번 주(11월 16~20일) 기업공개(IPO) 시장에서는 올해 두 번째 코스피 상장에 도전하는 에스에프씨가 일반... 19일부터 25일까지 수요예측을 실시한다. 사이버 보안 기업 엔키화이트햇의 수요예측은 20~26일 예정돼있다.",
+      "link": "https://n.news.naver.com/mnews/article/031/0001075061?sid=101",
+      "originallink": "http://www.inews24.com/view/2025994",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-14T21:01:00.000Z"
+    },
+    {
+      "id": "253c72ff6617f7c1",
+      "keyword": "아델",
+      "companyName": "아델",
       "title": "영광와이케이엠씨 등 3곳 내주 코스닥 상장…에스에프씨·유캐스트 청약...",
-      "description": "다음 주(16~20일) 기업공개(IPO) 시장에서는 영광와이케이엠씨와 옵토닉스, 에이엘로봇 등 3개 기업이... 희망 공모가는 1만1200~1만3600원이다. 화이트해커 솔루션 자동화 기업 엔키화이트햇은 20~26일 기관투자자...",
+      "description": "다음 주(16~20일) 기업공개(IPO) 시장에서는 영광와이케이엠씨와 옵토닉스, 에이엘로봇 등 3개 기업이 코스닥시장에 상장한다. 14일 금융투자업계에 따르면 반도체·디스플레이 제조장비 부품 기업...",
       "link": "https://n.news.naver.com/mnews/article/016/0002723373?sid=101",
       "originallink": "https://biz.heraldcorp.com/article/10936898?ref=naver",
       "provider": "뉴스 검색",
       "publishedAt": "2026-11-14T00:53:00.000Z"
-    },
-    {
-      "id": "0e58798c3f25bee2",
-      "keyword": "엔키화이트햇",
-      "companyName": "엔키화이트햇",
-      "title": "다음 주 코스닥 상장 주목주: 영광와이케이엠씨·옵토닉스·에이엘로봇...",
-      "description": "이 회사는 항공 및 방산 구조물의 설계와 제작을 주력으로 하며 기술특례를 통해 코스닥 상장을 추진 중이다. 공모가 범위는 1만1천200원에서 1만3천600원으로 설정되었다. 또한, 화이트해커 솔루션을 제공하는 엔키화...",
-      "link": "https://www.gokorea.kr/news/articleView.html?idxno=885608",
-      "originallink": "https://www.gokorea.kr/news/articleView.html?idxno=885608",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-14T00:42:00.000Z"
     },
     {
       "id": "8de28958e20536d3",
@@ -38,28 +93,6 @@
       "originallink": "http://www.fieldnews.kr/news/articleView.html?idxno=33081",
       "provider": "뉴스 검색",
       "publishedAt": "2026-11-14T00:30:00.000Z"
-    },
-    {
-      "id": "75d1dfddff338e39",
-      "keyword": "엔키화이트햇",
-      "companyName": "엔키화이트햇",
-      "title": "에스에프씨·유캐스트 청약 맞대결…영광와이케이엠씨 등 4곳 상장 [주간...",
-      "description": "이에 따라 다음 주 상장을 앞둔 4개 기업 모두 희망 공모가 범위 상단에서 가격을 확정했다. 일반청약... 이 밖에 에이엔에이치스트럭쳐는 19~25일, 엔키화이트햇은 20~26일 기관투자자 대상 수요예측을 진행한다....",
-      "link": "https://www.etoday.co.kr/news/view/2647904",
-      "originallink": "https://www.etoday.co.kr/news/view/2647904",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-14T00:02:00.000Z"
-    },
-    {
-      "id": "4d4b696d663dd953",
-      "keyword": "엔키화이트햇",
-      "companyName": "엔키화이트햇",
-      "title": "[IPO챗] 내주 영광와이케이엠씨 등 3개사 코스닥 입성",
-      "description": "항공·방산 구조물의 설계와 제작을 주요 사업으로 하며 기술특례 방식으로 코스닥 상장을 추진하고 있다. 공모 희망 밴드는 1만1천200∼1만3천600원이다. 화이트해커 솔루션 자동화 기업 엔키화이트햇은 20∼26일...",
-      "link": "https://n.news.naver.com/mnews/article/001/0016441654?sid=101",
-      "originallink": "https://www.yna.co.kr/view/AKR20261113076800008?input=1195m",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-14T00:00:00.000Z"
     },
     {
       "id": "cd7a33f398d51db0",
@@ -93,17 +126,6 @@
       "originallink": "https://www.hankyung.com/article/202611135595r",
       "provider": "뉴스 검색",
       "publishedAt": "2026-11-13T07:29:00.000Z"
-    },
-    {
-      "id": "658443308dda354f",
-      "keyword": "에스에프씨",
-      "companyName": "에스에프씨",
-      "title": "에스에프씨, 올해 두 번째 '코스피 도전'⋯OLED 넘어 바이오·반도체 확...",
-      "description": "에스에프씨는 13일 서울 여의도 63빌딩에서 기업공개(IPO) 기자간담회를 열고 상장 후 성장 전략을 발표했다. 에스에프씨가 이달 상장하면 지난 3월 케이뱅크에 이어 올해 두 번째 코스피 공모주 상장이 된다....",
-      "link": "https://n.news.naver.com/mnews/article/031/0001074887?sid=101",
-      "originallink": "http://www.inews24.com/view/2025937",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-13T05:47:00.000Z"
     },
     {
       "id": "02f9ca02e6b48cae",
@@ -150,17 +172,6 @@
       "publishedAt": "2026-11-12T05:22:00.000Z"
     },
     {
-      "id": "1ad9090dae98ab7b",
-      "keyword": "유캐스트",
-      "companyName": "유캐스트",
-      "title": "[현장] 김재형 유캐스트 대표 \"방산 5G 앞세워 2027년 흑자 전환\"",
-      "description": "유캐스트는 이번 IPO로 구주매출 없이 80만주의 신주를 발행하며 이에 따라 총 588만8910주가 코스닥 시장에 상장 예정이다. 공모 밴드는 최소 1만9000원~최대 2만3000원으로 이에 따른 공모 예정 금액은 152억~194억원이...",
-      "link": "https://www.newspost.kr/news/articleView.html?idxno=227321",
-      "originallink": "https://www.newspost.kr/news/articleView.html?idxno=227321",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-12T03:20:00.000Z"
-    },
-    {
       "id": "aef2e56b7a3288cb",
       "keyword": "제이앤티지",
       "companyName": "제이앤티지",
@@ -190,17 +201,6 @@
       "description": "엔키화이트햇, 다비오 등 16곳(SPAC 제외)이다. 동원파츠와 바로팜은 지난 2~3일 일반청약을 마치고 코스닥... 증권업계 관계자는 \"공모주 시장에서는 청약 경쟁률보다 상장 이후 기업가치가 공모가를 뒷받침할 수...",
       "link": "https://www.newsquest.co.kr/news/articleView.html?idxno=304646",
       "originallink": "https://www.newsquest.co.kr/news/articleView.html?idxno=304646",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-10T05:16:00.000Z"
-    },
-    {
-      "id": "d364ec95d9da74e7",
-      "keyword": "에이엔에이치스트럭쳐",
-      "companyName": "에이엔에이치스트럭쳐",
-      "title": "[ANH스트럭쳐 IPO] 피어그룹 주가 반토막에 몸값 부담…공모 흥행 '노란...",
-      "description": "에이엔에이치스트럭쳐(ANH스트럭쳐)의 기업공개(IPO) 흥행 전망에 노란불이 켜졌다. 몸값 책정 근거로... 증시 상장에 도전하고 있다. ANH스트럭쳐의 공모 일정이 다가오는 가운데 투자자 시선은 밸류에이션 책정...",
-      "link": "https://www.the-stock.kr/news/articleView.html?idxno=33772",
-      "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=33772",
       "provider": "뉴스 검색",
       "publishedAt": "2026-11-10T05:16:00.000Z"
     },

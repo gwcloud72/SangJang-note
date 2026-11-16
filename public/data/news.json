@@ -1,11 +1,121 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-11-15T01:41:41.225Z",
+    "updatedAt": "2026-11-16T02:20:14.208Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "6241a0ced757d4d6",
+      "keyword": "다비오",
+      "companyName": "다비오",
+      "title": "증시 변동성에 IPO시장도 위축…'상장 철회·수요예측 연기' 잇따라",
+      "description": "과정에서 상장 일정이 밀린 결과다. 다비오를 비롯해 5G 특화망 전문기업 유캐스트, 면역항암제 개발사 아델 등도 증권신고서 정정 요구와 공모 전략 재정비 등이 맞물리며 당초 11월 초로 잡았던 수요예측 일정을 이달...",
+      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444869",
+      "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444869",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-16T00:04:00.000Z"
+    },
+    {
+      "id": "6d230d77354147e2",
+      "keyword": "제이앤티지",
+      "companyName": "제이앤티지",
+      "title": "앤스로픽·홍콩 등 해외는 달리는데...92%가 공모가 밑돈 국내 IPO 시장",
+      "description": "홍콩 증시도 올해 기업공개(IPO)로 519억달러(약 69조원)를 끌어모아 6년 만에 최대 규모를 기록했다. 그러나 국내 상장 시장은 찬바람만 분다. 올해 새내기 기업 주가는 공모가보다 평균 44% 떨어졌다. 청약을 하루...",
+      "link": "https://n.news.naver.com/mnews/article/023/0004009810?sid=101",
+      "originallink": "https://www.chosun.com/economy/stock-finance/2026/11/16/DEXQSQVVKRHLFOQQDL2ZR5JCCI/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-15T23:04:00.000Z"
+    },
+    {
+      "id": "1fc4f105189eadcd",
+      "keyword": "케이엠에프",
+      "companyName": "케이엠에프",
+      "title": "[더벨][MDS코리아 IPO] 넉달만에 거래소 심사 마무리…연내 코스닥 입성...",
+      "description": "상장예비심사를 승인했다. 지난 7월 초 예심을 청구한 지 4개월여 만으로 지난달 현장실사에 이어 이번 주... 올해 공모에 나선 발효 식품소재 기업 케이엠에프는 비교군을 건강기능식품과 바이오 분야까지 넓혔다....",
+      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611130225485140105342",
+      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611130225485140105342",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-15T23:02:00.000Z"
+    },
+    {
+      "id": "d5ffc89e8d7d48f2",
+      "keyword": "에이엔에이치스트럭쳐",
+      "companyName": "에이엔에이치스트럭쳐",
+      "title": "[더벨][에이엔에이치스트럭쳐 IPO] 대주주 지분 3년 락업, 초기 매물 부...",
+      "description": "에이엔에이치스트럭쳐는 지난 2019년과 지난해 프리 IPO 투자를 유치했다. 상환전환우선주(RCPS)를 발행해... 44만7178주는 상장 1년 후 풀린다. 에이엔에이치스트럭쳐 관계자는 \"공모 신주 규모는 전체 대비 20...",
+      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611120904548180107032",
+      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611120904548180107032",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-15T22:02:00.000Z"
+    },
+    {
+      "id": "62303828ecc01c67",
+      "keyword": "유캐스트",
+      "companyName": "유캐스트",
+      "title": "에스에프씨·유캐스트 청약…코스닥 4곳 상장 [이번주 증시 캘린더]",
+      "description": "이번 주(11월 16~20일) 기업공개(IPO) 시장에서는 에스에프씨와 유캐스트가 일반 투자자를 대상으로 공모주... 이달 유가증권시장에 입성하면 3월 케이뱅크에 이어 올해 두 번째 코스피 신규 상장사가 된다....",
+      "link": "https://n.news.naver.com/mnews/article/011/0004682433?sid=101",
+      "originallink": "https://www.sedaily.com/article/20114406?ref=naver",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-15T21:01:00.000Z"
+    },
+    {
+      "id": "5152a95e1b43e17b",
+      "keyword": "엔키화이트햇",
+      "companyName": "엔키화이트햇",
+      "title": "[IPO 워치] 영광와이케이엠씨·옵토닉스·에이엘로봇 코스닥 입성…청약...",
+      "description": "코스닥 상장을 추진하고 있다. 희망 공모가는 1만1200~1만3600원이다. 오는 26일 공모가를 확정한 뒤 27~30일 일반청약을 진행할 예정이다. NH투자증권이 대표주관사를 맡았다. 화이트해커 설루션 자동화 기업 엔키화이...",
+      "link": "https://www.news2day.co.kr/article/20261116500002",
+      "originallink": "https://www.news2day.co.kr/article/20261116500002",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-15T19:58:00.000Z"
+    },
+    {
+      "id": "1a634ce7d6b2af4a",
+      "keyword": "엔키화이트햇",
+      "companyName": "엔키화이트햇",
+      "title": "[이번주 공모주]영광와이케이엠씨·옵토닉스·에이엘로봇 코스닥 상장",
+      "description": "화이트해커 솔루션 자동화 기업 엔키화이트햇도 20~26일 수요예측을 진행한다. 희망 공모가는 1만3천... 에스에프씨와 유캐스트는 모두 17일 최종 공모가를 확정할 예정이다. 이번 주 IPO 시장은 코스닥 신규 상장...",
+      "link": "http://www.kjdaily.com/article.php?aid=1794754866692199276",
+      "originallink": "http://www.kjdaily.com/article.php?aid=1794754866692199276",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-15T15:04:00.000Z"
+    },
+    {
+      "id": "f988a18e84140839",
+      "keyword": "제이앤티지",
+      "companyName": "제이앤티지",
+      "title": "IPO '선별 장세' 심화…코너스톤 도입에 양극화 가속 우려도",
+      "description": "아시아투데이 한혜성 기자 = 기업공개(IPO) 시장에서 공모가 하향과 상장 철회가 잇따르며 기업별 흥행... 15일 금융감독원 전자공시시스템에 따르면 이달 1일~13일 청약 예정 기업 10곳(스팩 제외) 중 제이앤티지·씨앤엠...",
+      "link": "https://www.asiatoday.co.kr/kn/view.php?key=20261115010005304",
+      "originallink": "https://www.asiatoday.co.kr/kn/view.php?key=20261115010005304",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-15T09:00:00.000Z"
+    },
+    {
+      "id": "f2ff25e1648e64c8",
+      "keyword": "제이앤티지",
+      "companyName": "제이앤티지",
+      "title": "증시 급락에 IPO 시장 찬바람… 상장 포기 속출에 새내기주도 '울상'",
+      "description": "국내 증시가 급락하면서 기업공개(IPO) 시장에도 찬바람이 불고 있다. 최근 공모를 철회하는 기업들이... 상장예비심사 철회가 16곳, 공모 철회가 2곳이다. 이 중 씨앤엠과 제이앤티지는 기관투자자 대상 수요예측까지...",
+      "link": "https://n.news.naver.com/mnews/article/469/0000965642?sid=101",
+      "originallink": "https://www.hankookilbo.com/news/article/A2026111514180000849?did=NA",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-15T07:01:00.000Z"
+    },
+    {
+      "id": "64524850b84ed0e0",
+      "keyword": "엔키화이트햇",
+      "companyName": "엔키화이트햇",
+      "title": "이번 주 영광와이케이엠씨 등 4곳 코스닥 데뷔…활기 띠는 IPO 시장",
+      "description": "이번 주(11월 16~20일) 기업공개(IPO) 시장에선 영광와이케이엠씨와 옵토닉스, 에이엘로봇... 기업으로, 공모가 희망밴드는 1만5천~1만7천800원이다. IBK투자증권이 상장을 주관한다. 오는 20일에는 엔키화이트햇과...",
+      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444811",
+      "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444811",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-15T04:02:00.000Z"
+    },
     {
       "id": "7b58e70897366fd4",
       "keyword": "아델",
@@ -38,50 +148,6 @@
       "originallink": "https://view.asiae.co.kr/article/2026111413490985430",
       "provider": "뉴스 검색",
       "publishedAt": "2026-11-14T23:00:00.000Z"
-    },
-    {
-      "id": "c4644d4b7add28bb",
-      "keyword": "엔키화이트햇",
-      "companyName": "엔키화이트햇",
-      "title": "영광와이케이엠씨·옵토닉스·에이엘로봇 3개사 다음주 코스닥 입성",
-      "description": "항공·방산 구조물의 설계와 제작을 주요 사업으로 하며 기술특례 방식으로 코스닥 상장을 추진하고 있다. 공모 희망 밴드는 1만1천200∼1만3천600원이다. 화이트해커 솔루션 자동화 기업 엔키화이트햇은 20∼26일...",
-      "link": "https://www.tfmedia.co.kr/news/article.html?no=208894",
-      "originallink": "https://www.tfmedia.co.kr/news/article.html?no=208894",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-14T22:44:00.000Z"
-    },
-    {
-      "id": "c6a926e306fe00af",
-      "keyword": "엔키화이트햇",
-      "companyName": "엔키화이트햇",
-      "title": "[다음주 IPO] 영광와이케이엠씨(16일), 옵토닉스(17일), 에이엘로봇(18일...",
-      "description": "영광와이케이엠씨 등 3개사 다음 주 코스닥 입성…16∼18일 상장 코스닥시장에 새로 진입하는 기업과... 화이트해커 솔루션 자동화 기업 엔키화이트햇은 20∼26일 수요예측 일정을 잡았고, 공모 희망가는 1만3천...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=626906",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=626906",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-14T22:36:00.000Z"
-    },
-    {
-      "id": "bb672534540c04ec",
-      "keyword": "엔키화이트햇",
-      "companyName": "엔키화이트햇",
-      "title": "'코스피 2호' 에스에프씨, 일반청약⋯영광YKMC·옵토닉스 등 상장 [IPO 돋...",
-      "description": "이번 주(11월 16~20일) 기업공개(IPO) 시장에서는 올해 두 번째 코스피 상장에 도전하는 에스에프씨가 일반... 19일부터 25일까지 수요예측을 실시한다. 사이버 보안 기업 엔키화이트햇의 수요예측은 20~26일 예정돼있다.",
-      "link": "https://n.news.naver.com/mnews/article/031/0001075061?sid=101",
-      "originallink": "http://www.inews24.com/view/2025994",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-14T21:01:00.000Z"
-    },
-    {
-      "id": "253c72ff6617f7c1",
-      "keyword": "아델",
-      "companyName": "아델",
-      "title": "영광와이케이엠씨 등 3곳 내주 코스닥 상장…에스에프씨·유캐스트 청약...",
-      "description": "다음 주(16~20일) 기업공개(IPO) 시장에서는 영광와이케이엠씨와 옵토닉스, 에이엘로봇 등 3개 기업이 코스닥시장에 상장한다. 14일 금융투자업계에 따르면 반도체·디스플레이 제조장비 부품 기업...",
-      "link": "https://n.news.naver.com/mnews/article/016/0002723373?sid=101",
-      "originallink": "https://biz.heraldcorp.com/article/10936898?ref=naver",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-14T00:53:00.000Z"
     },
     {
       "id": "8de28958e20536d3",
@@ -128,17 +194,6 @@
       "publishedAt": "2026-11-13T07:29:00.000Z"
     },
     {
-      "id": "02f9ca02e6b48cae",
-      "keyword": "제이앤티지",
-      "companyName": "제이앤티지",
-      "title": "상장 첫날 따따상 갈까?…'제이앤티지' 오늘 놓치면 끝",
-      "description": "제이앤티지 / 제이앤티지기업공개(IPO) 공모 개요를 살펴보면 코스닥 시장 상장을 추진 중인 제이앤티지의... 일반 청약자 배정 물량은 107만 5,000주에서 129만 주 사이로 배정됐으며 주관사는 대신증권과 NH투자증권이...",
-      "link": "https://www.wikitree.co.kr/articles/1173701",
-      "originallink": "https://www.wikitree.co.kr/articles/1173701",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-13T04:26:00.000Z"
-    },
-    {
       "id": "080e75ccc40e519a",
       "keyword": "다비오",
       "companyName": "다비오",
@@ -148,39 +203,6 @@
       "originallink": "https://www.etoday.co.kr/news/view/2647510",
       "provider": "뉴스 검색",
       "publishedAt": "2026-11-12T06:54:00.000Z"
-    },
-    {
-      "id": "ae292759b4f227d1",
-      "keyword": "제이앤티지",
-      "companyName": "제이앤티지",
-      "title": "IPO 코너스톤투자자·사전수요예측 13일부터 시행",
-      "description": "기업공개(IPO) 시장에 사전수요예측과 코너스톤투자자 제도가 13일 시행된다. 이 제도는 장기 보유를 약속한... 11일 제이앤티지와 씨앤엠이 일반청약을 하루 앞두고 상장을 철회했다. 새 제도가 차가워진 공모시장을...",
-      "link": "https://www.junggi.co.kr/news/articleView.html?idxno=38473",
-      "originallink": "https://www.junggi.co.kr/news/articleView.html?idxno=38473",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-12T06:24:00.000Z"
-    },
-    {
-      "id": "7e57664389876af6",
-      "keyword": "제이앤티지",
-      "companyName": "제이앤티지",
-      "title": "IPO 새 제도 13일 시행…공모가 적정성 높이고 장기 투자 유도할까",
-      "description": "대신 상장 연기를 선택할 가능성도 있다. 최근 공모시장 상황도 녹록지 않다. 지난 11일 제이앤티지와... 박창윤 지엘리서치 대표는 “최근 IPO 철회는 코너스톤 제도보다 공모시장 침체와 상장기업 집중에 따른 자금 분산의...",
-      "link": "https://www.viva100.com/article/20261112500761",
-      "originallink": "https://www.viva100.com/article/20261112500761",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-12T05:22:00.000Z"
-    },
-    {
-      "id": "aef2e56b7a3288cb",
-      "keyword": "제이앤티지",
-      "companyName": "제이앤티지",
-      "title": "[공모주 현황] 제이앤티지·씨앤엠 공모주 동반 철회…대내외 환경 불확...",
-      "description": "기업공개(IPO)를 추진하던 제이앤티지와 씨앤엠이 나란히 공모 절차를 철회했다. 두 기업 모두 기관투자자... 두 기업의 공모 철회가 향후 상장 계획의 영구적인 포기를 의미하는 것은 아니다. 다만 기존 증권신고서에 따른...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=626071",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=626071",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-12T01:36:00.000Z"
     },
     {
       "id": "8c17bdcf63a63ea0",
@@ -247,17 +269,6 @@
       "originallink": "https://www.bloter.net/news/articleView.html?idxno=677910",
       "provider": "뉴스 검색",
       "publishedAt": "2026-11-06T06:00:00.000Z"
-    },
-    {
-      "id": "e427ed4623f72393",
-      "keyword": "다비오",
-      "companyName": "다비오",
-      "title": "상장 문턱 낮아졌나 했더니…금감원 정정 요구에 IPO 줄줄이 연기",
-      "description": "기업공개(IPO) 시장에서 한국거래소와 금융감독원의 온도 차가 커지고 있다. 거래소가 하반기 들어 상장예... 공모 후 지분율은 각각 1.96%, 7.38%로 예상된다. 이밖에 다비오는 비교기업의 사업 유사성을 판단하는...",
-      "link": "https://www.newsquest.co.kr/news/articleView.html?idxno=304307",
-      "originallink": "https://www.newsquest.co.kr/news/articleView.html?idxno=304307",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-05T02:14:00.000Z"
     },
     {
       "id": "82bdc98e05b5d5c2",

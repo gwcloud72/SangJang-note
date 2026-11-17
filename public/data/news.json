@@ -1,11 +1,44 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-11-16T02:20:14.208Z",
+    "updatedAt": "2026-11-17T05:05:47.931Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "c2799b0eb79a7942",
+      "keyword": "엔키화이트햇",
+      "companyName": "엔키화이트햇",
+      "title": "[IPO 캘린더] [11월 셋째 주] 옵토니스·에이엘로봇·하나에어로 코스닥...",
+      "description": "이번 주(17~20일) 기업공개(IPO) 시장에서는 옵토니스, 에이엘로봇, 하나에어로다이내믹스가 상장한다.... 화이트해커 솔루션 자동화 기업 엔키화이트햇은 오는 20일부터 26일까지 수요예측에 돌입한다. 공모 희망...",
+      "link": "https://dealsite.co.kr/articles/172929",
+      "originallink": "https://dealsite.co.kr/articles/172929",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-17T01:18:00.000Z"
+    },
+    {
+      "id": "f92ae96d9c8e3d37",
+      "keyword": "유캐스트",
+      "companyName": "유캐스트",
+      "title": "올해 새내기주 ‘된서리’… 열에 아홉은 공모가 밑돌아",
+      "description": "주관사들은 공모가 범위 상향까지 검토한다. 홍콩 증시도 올해 기업공개(IPO)로 519억달러(약 69조원)를... (희망 공모가 3만1600~3만6100원)와 코스닥 상장 예정인 유캐스트(1만9000~2만3000원)가 청약을 받는다. 문제는 청약...",
+      "link": "https://n.news.naver.com/mnews/article/023/0004009950?sid=101",
+      "originallink": "https://www.chosun.com/economy/stock-finance/2026/11/17/WCKMM5QDIVEPDLDLL7PZ2IFGHM/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-16T15:32:00.000Z"
+    },
+    {
+      "id": "749061c51ebc2e21",
+      "keyword": "엔키화이트햇",
+      "companyName": "엔키화이트햇",
+      "title": "[증권 Pick] 이번주 IPO 일정 모아보기...11월 16~20일",
+      "description": "라이센스뉴스 = 김재용 기자 | 이번주 기업공개(IPO) 시장에서는 4개 기업이 코스닥시장에 신규 상장하고... 에이엔에이치스트럭쳐의 희망 공모가는 1만1200~1만3600원, 엔키화이트햇은 1만3000~1만6500원이다.",
+      "link": "https://www.lcnews.co.kr/news/articleView.html?idxno=211438",
+      "originallink": "https://www.lcnews.co.kr/news/articleView.html?idxno=211438",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-16T05:16:00.000Z"
+    },
     {
       "id": "6241a0ced757d4d6",
       "keyword": "다비오",
@@ -117,39 +150,6 @@
       "publishedAt": "2026-11-15T04:02:00.000Z"
     },
     {
-      "id": "7b58e70897366fd4",
-      "keyword": "아델",
-      "companyName": "아델",
-      "title": "청약 흥행 해도 상장하면 반토막...급락장에 공모주 '흔들'",
-      "description": "상장 시점의 투자심리가 달라지면 주가가 공모가를 밑돌 가능성이 있다. 연말까지 이어지는 IPO 일정도... 잇따라 상장을 앞두고 있다. 이와 함께 18~19일 유캐스트와 에스에프씨, 23~24일 아델 등의 일반 청약도 예정돼...",
-      "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=715259",
-      "originallink": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=715259",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-15T01:00:00.000Z"
-    },
-    {
-      "id": "0f5ea4022a6cf4c3",
-      "keyword": "엔키화이트햇",
-      "companyName": "엔키화이트햇",
-      "title": "옵토닉스·에이엘로봇 등 상장[증시캘린더]",
-      "description": "기업공개(IPO) 시장에서는 영광와이케이엠씨·옵토닉스·에이엘로봇·하나에어로다이내믹스가 코스닥 상장에 나선다. 아울러 제논·케이엠에프·에이엔에이치스트럭쳐·신영스팩12호·엔키화이트햇이...",
-      "link": "https://n.news.naver.com/mnews/article/018/0006409894?sid=101",
-      "originallink": "https://www.edaily.co.kr/News/Read?newsId=01177526645646048&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-15T00:02:00.000Z"
-    },
-    {
-      "id": "6c54fd704fa1a7fd",
-      "keyword": "엔키화이트햇",
-      "companyName": "엔키화이트햇",
-      "title": "[이번주 IPO]11월 셋째 주 수요예측·청약 일정",
-      "description": "따른 공모 예정 금액은 약 235억~286억 원이다. 오는 19~25일 기관 수요예측을, 오는 27~30일 일반청약을 거쳐 연내 코스닥 시장 상장을 목표로 하고 있다. 대표 주관사는 NH투자증권이다. ◆엔키화이트햇= 2016년 설립된...",
-      "link": "https://n.news.naver.com/mnews/article/277/0005842632?sid=101",
-      "originallink": "https://view.asiae.co.kr/article/2026111413490985430",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-14T23:00:00.000Z"
-    },
-    {
       "id": "8de28958e20536d3",
       "keyword": "마더스제약",
       "companyName": "마더스제약",
@@ -181,17 +181,6 @@
       "originallink": "http://www.fieldnews.kr/news/articleView.html?idxno=33079",
       "provider": "뉴스 검색",
       "publishedAt": "2026-11-13T08:12:00.000Z"
-    },
-    {
-      "id": "ef3981f02fd952d7",
-      "keyword": "제이앤티지",
-      "companyName": "제이앤티지",
-      "title": "공모가 27% 낮췄지만…엠비디, IPO 청약 증거금 3000억 그쳐",
-      "description": "최근 공모주 시장 전반의 투자 심리가 냉각된 점도 영향을 미쳤다. 비슷한 시기 수요예측을 진행한 제이앤티지와 씨앤엠은 부진한 성적표에 아예 상장 계획을 철회하기도 했다. 앞서 진행된 기관 수요예측에는...",
-      "link": "https://n.news.naver.com/mnews/article/015/0005353617?sid=101",
-      "originallink": "https://www.hankyung.com/article/202611135595r",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-13T07:29:00.000Z"
     },
     {
       "id": "080e75ccc40e519a",

@@ -1,21 +1,43 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-11-19T03:05:34.615Z",
+    "updatedAt": "2026-11-20T03:38:06.499Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
     {
-      "id": "3c49c510a7792c64",
-      "keyword": "에스에프씨",
-      "companyName": "에스에프씨",
-      "title": "[Invest]26년 만에 상장 '단 1건'...코스피 IPO 이례적 한파",
-      "description": "올해 유가증권시장 기업공개(IPO)가 26년 만에 한 건으로 마무리될 전망이다. 중복상장 규제 강화로 대기업... 연내 상장을 추진하던 에스에프씨도 일반청약을 하루 앞두고 공모를 철회했다. 지난 3월 상장한...",
-      "link": "https://www.investchosun.com/site/data/html_dir/2026/11/18/2026111880115.html",
-      "originallink": "https://www.investchosun.com/site/data/html_dir/2026/11/18/2026111880115.html",
+      "id": "c1044d827d3a7fe9",
+      "keyword": "아델",
+      "companyName": "아델",
+      "title": "[태석광학 IPO] 실적 피크아웃 우려에도…대주주는 167억 현금화",
+      "description": "20일 투자은행(IB) 업계에 따르면 태석광학은 이번 IPO에서 247만8000주를 공모한다. 공모 주식의 약 67... 제이앤티지를 시작으로 씨앤엠과 SFC, 아델까지 상장 철회 기업이 속출하고 있다. 공모구조에 약점이 있는 기업을...",
+      "link": "https://www.the-stock.kr/news/articleView.html?idxno=33883",
+      "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=33883",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-11-18T22:02:00.000Z"
+      "publishedAt": "2026-11-20T02:24:00.000Z"
+    },
+    {
+      "id": "31162310f37028cc",
+      "keyword": "에이엔에이치스트럭쳐",
+      "companyName": "에이엔에이치스트럭쳐",
+      "title": "아델, IPO 철회…공모주 시장 한파 '직격'",
+      "description": "퇴행성 뇌질환 신약 개발기업 아델이 기업공개(IPO) 철회신고서를 제출했다. 기관 수요예측에서 기대에... 상장 철회 기업은 4곳으로 늘었다. 현재 수요예측을 진행 중인 에이엔에이치스트럭쳐(NH투자증권)도 공모가...",
+      "link": "https://www.the-stock.kr/news/articleView.html?idxno=33882",
+      "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=33882",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-20T02:22:00.000Z"
+    },
+    {
+      "id": "77c60966084d0928",
+      "keyword": "에이엔에이치스트럭쳐",
+      "companyName": "에이엔에이치스트럭쳐",
+      "title": "11월 코스닥 IPO 시장, 청약 열기 속 '옥석 가리기' 심화…상장 철회·공...",
+      "description": "(24~25일), 에이엔에이치스트럭쳐(27~30일) 등이 차례로 일반투자자 청약에 나선다. 24일에는 엠비디(확정 공모가 7000원)의 코스닥 상장이 예정돼 있다. 청약 일정이 집중됐지만 시장 내부의 온도 차는 크다. 국내...",
+      "link": "https://www.pointdaily.co.kr/news/articleView.html?idxno=326683",
+      "originallink": "https://www.pointdaily.co.kr/news/articleView.html?idxno=326683",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-19T19:00:00.000Z"
     },
     {
       "id": "43bef5feb9c75336",
@@ -29,61 +51,6 @@
       "publishedAt": "2026-11-18T22:02:00.000Z"
     },
     {
-      "id": "f1f7ee2fd92105d1",
-      "keyword": "유캐스트",
-      "companyName": "유캐스트",
-      "title": "증시 변동성에 IPO 시장 ‘급속냉각’…“뭐 하나 좋은 게 없다”",
-      "description": "1%)는 하단보다 20% 넘게 낮춰 공모가를 정했다. 이달 수요예측을 마친 유캐스트도 하단인 1만9000원을... 변동성과 공모 일정 쏠림도 IPO 한파에 영향을 준 것으로 보고 있다. 또 다른 IB업계 관계자는 “청약하고 상장까지...",
-      "link": "https://www.ekn.kr/web/view.php?key=20261118023591533",
-      "originallink": "https://www.ekn.kr/web/view.php?key=20261118023591533",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-18T07:10:00.000Z"
-    },
-    {
-      "id": "4b0e5c6518a320d0",
-      "keyword": "유캐스트",
-      "companyName": "유캐스트",
-      "title": "[장외시황] 유캐스트, 공모청약 진행",
-      "description": "이투데이=정수천 기자 | 5세대 이동통신(5G)특화망 전문기업 유캐스트가 이틀간 일반투자자 대상 공모주... 희망공모가는 9500~1만1500원이다. 상장주관사는 미래에셋증권이다. 이날 비상장 주식은 하락했다. IPO...",
-      "link": "https://www.etoday.co.kr/news/view/2649908",
-      "originallink": "https://www.etoday.co.kr/news/view/2649908",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-18T07:06:00.000Z"
-    },
-    {
-      "id": "fa59007df4d4edd7",
-      "keyword": "유캐스트",
-      "companyName": "유캐스트",
-      "title": "[공모주 현황] 유캐스트 청약 1일차 일정 종료, 증권사별 균등 배정주식...",
-      "description": "IPO 자료사진. AI가 생성한 이미지. 18일 오후 4시경 공모주 유캐스트의 청약 1일차 일정이 종료됐다.... 유캐스트는 19일 청약 2일차를 거쳐 오는 30일 상장할 예정이다. 상장 당일 어떤 주가 흐름을 보일지도 관심이...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=628174",
-      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=628174",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-18T07:04:00.000Z"
-    },
-    {
-      "id": "26a06fb6539c36b3",
-      "keyword": "에스에프씨",
-      "companyName": "에스에프씨",
-      "title": "하반기 대어 에스에프씨도 공모 철회…연말 IPO ‘줄철회’ 우려",
-      "description": "공모주 시장에 냉기가 돌면서 기업들의 상장 철회가 잇따르고 있다. 씨앤엠과 제이앤티지에 이어 하반기 기업공개(IPO) ‘대어’로 꼽히던 에스에프씨까지 수요예측을 마친 뒤 공모를 접었다. 청약 경쟁률 하락과...",
-      "link": "https://n.news.naver.com/mnews/article/018/0006411929?sid=101",
-      "originallink": "https://www.edaily.co.kr/News/Read?newsId=03706406645647032&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-18T06:48:00.000Z"
-    },
-    {
-      "id": "2be8d58b6cbd6320",
-      "keyword": "유캐스트",
-      "companyName": "유캐스트",
-      "title": "증시 불안하니 IPO 철회 잇따라...일주일 새 3곳",
-      "description": "신규 상장한 기업 44곳 가운데 현재 주가가 공모가를 웃도는 기업은 4곳에 그쳤다. 최 연구원은 \"IPO 시장은... 상장을 이어가는 기업에서도 기관의 낮아진 가격 눈높이가 확인됐다. 지난 9~13일 이뤄진 유캐스트의...",
-      "link": "https://www.m-i.kr/news/articleView.html?idxno=2020216",
-      "originallink": "https://www.m-i.kr/news/articleView.html?idxno=2020216",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-18T05:52:00.000Z"
-    },
-    {
       "id": "c4e75e80cc8bae61",
       "keyword": "다비오",
       "companyName": "다비오",
@@ -95,15 +62,26 @@
       "publishedAt": "2026-11-18T04:11:00.000Z"
     },
     {
-      "id": "36478047dc903831",
-      "keyword": "아델",
-      "companyName": "아델",
-      "title": "새내기주 54곳 중 52곳 손실…기관 지갑 닫자 IPO 줄줄이 좌초[시그널]",
-      "description": "확정 공모가를 1만 9000원으로 정했다. 18일 수요예측을 마무리하는 신약 개발사 아델 역시 분위기가... 주가는 상장 첫날부터 공모가를 밑돌았다. 그 여파로 케이뱅크·미트박스·동방메디컬이 상장을 철회했고...",
-      "link": "https://n.news.naver.com/mnews/article/011/0004683189?sid=101",
-      "originallink": "https://www.sedaily.com/article/20115460?ref=naver",
+      "id": "9e035309eb823977",
+      "keyword": "데스틴파워",
+      "companyName": "데스틴파워",
+      "title": "[IPO 뜯어보기] [데스틴파워] 기술특례 잔혹사 '데자뷰'…거래소 책임론",
+      "description": "전환되며 데스틴파워는 자본잠식을 해소했다. 이 기간 전환된 물량은 713만주로 이번 공모 물량(220만주)의 3.2배에 달한다. 상장 예정 주식수(1455만9425주)의 48.9%가 IPO 직전 메자닌 전환으로 생긴 셈이다. 앞서 논란이...",
+      "link": "https://news.dealsitetv.com/articles/178628",
+      "originallink": "https://news.dealsitetv.com/articles/178628",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-11-17T08:28:00.000Z"
+      "publishedAt": "2026-11-17T23:02:00.000Z"
+    },
+    {
+      "id": "7d414a3439089d46",
+      "keyword": "데스틴파워",
+      "companyName": "데스틴파워",
+      "title": "[장외시황] 데스틴파워, 공모청약 일정 변경",
+      "description": "코스닥시장에 상장한다. 공모가는 1만7600원이고, 액면가는 500원이다. 신재생에너지 ESS(에너지저장장치) 인버터 전문업체 데스틴파워가 공모주 청약 일정을 12월11~12일로 변경했다. 중고 거래 플랫폼 전문기업...",
+      "link": "https://www.etoday.co.kr/news/view/2649345",
+      "originallink": "https://www.etoday.co.kr/news/view/2649345",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-17T06:42:00.000Z"
     },
     {
       "id": "c2799b0eb79a7942",
@@ -260,6 +238,17 @@
       "publishedAt": "2026-11-10T05:16:00.000Z"
     },
     {
+      "id": "fc9c861190a9fa57",
+      "keyword": "데스틴파워",
+      "companyName": "데스틴파워",
+      "title": "[데스틴파워 IPO] 美 데이터센터 규제 우려에…상장 청사진 흔들",
+      "description": "데스틴파워의 기업공개(IPO) 도전에 변수가 발생했다. 미국 중간선거 이후 데이터센터 규제 불확실성이... 데스틴파워는 공모를 앞두고 외형 성장에 대한 자신감을 드러낸다. 회사는 미국 데이터센터향 발전용...",
+      "link": "https://www.the-stock.kr/news/articleView.html?idxno=33756",
+      "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=33756",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-09T02:16:00.000Z"
+    },
+    {
       "id": "ea00ecb80e8a5a4e",
       "keyword": "우리투자제1호기업인수목적",
       "companyName": "우리투자제1호기업인수목적",
@@ -283,10 +272,10 @@
     },
     {
       "id": "ff72e90c1bf09d93",
-      "keyword": "인터엑스",
-      "companyName": "인터엑스",
+      "keyword": "데스틴파워",
+      "companyName": "데스틴파워",
       "title": "[블루웨이브 쇼크] 증시 급락에…공모주 시장 덮친 한파 우려",
-      "description": "인터엑스, 씨아이에스케미칼, 데스틴파워, KTE 등이 줄줄이 대기하고 있다. 급락장이 공모주 시장을 얼어붙게... 인제니아테라퓨틱스는 공모에서는 고전했으나 상장 후에는 공모가를 상회하는 주가 수준을 유지하고 있다....",
+      "description": "씨아이에스케미칼, 데스틴파워, KTE 등이 줄줄이 대기하고 있다. 급락장이 공모주 시장을 얼어붙게 만든... 인제니아테라퓨틱스는 공모에서는 고전했으나 상장 후에는 공모가를 상회하는 주가 수준을 유지하고 있다....",
       "link": "https://dealsite.co.kr/articles/172273",
       "originallink": "https://dealsite.co.kr/articles/172273",
       "provider": "뉴스 검색",
@@ -315,6 +304,17 @@
       "publishedAt": "2026-11-04T22:26:00.000Z"
     },
     {
+      "id": "9a54dae9651448ba",
+      "keyword": "데스틴파워",
+      "companyName": "데스틴파워",
+      "title": "전남광주 강소기업들 잇단 기업공개… 글로벌 시장 정조준",
+      "description": "초정밀 광학과 배터리 소재, 전력변환 기술을 앞세워 기업공개(IPO)에 나서면서다. 지역에서 다진 기술력에... 데스틴파워도 지난달 28일 증권신고서를 제출하고 코스닥 상장을 추진하고 있다. 총 220만주를 공모하며...",
+      "link": "https://n.news.naver.com/mnews/article/081/0003695918?sid=102",
+      "originallink": "https://www.seoul.co.kr/news/publicnews/local_govern/news_local/2026/11/05/20261105019001?wlog_tag3=naver",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-04T20:03:00.000Z"
+    },
+    {
       "id": "6e2a430bcbab471f",
       "keyword": "신영해피투모로우제12호기업인수목적",
       "companyName": "신영해피투모로우제12호기업인수목적",
@@ -327,10 +327,10 @@
     },
     {
       "id": "162b19f761d8999b",
-      "keyword": "인터엑스",
-      "companyName": "인터엑스",
+      "keyword": "씨아이에스케미칼",
+      "companyName": "씨아이에스케미칼",
       "title": "11월 공모주 15곳 줄청약 … 10월 새내기주 9곳 중 5곳 '공모가 하회' 경...",
-      "description": "이노보테라퓨틱스 △9~10일 인터엑스 △10~11일 씨아이에스케미칼 △14~15일 케이티이·데스틴파워 등 6곳이 청약 일정을 잡았다. 이나인페이·태석광학·마더스제약 3곳은 상장 심사 승인을 받았지만, 아직 청약...",
+      "description": "인터엑스 △10~11일 씨아이에스케미칼 △14~15일 케이티이·데스틴파워 등 6곳이 청약 일정을 잡았다. 이나인페이·태석광학·마더스제약 3곳은 상장 심사 승인을 받았지만, 아직 청약 일정은 정해지지 않았다....",
       "link": "https://biz.newdaily.co.kr/site/data/html/2026/10/30/2026103000099.html",
       "originallink": "https://biz.newdaily.co.kr/site/data/html/2026/10/30/2026103000099.html",
       "provider": "뉴스 검색",
@@ -368,6 +368,39 @@
       "originallink": "https://www.etoday.co.kr/news/view/2639033",
       "provider": "뉴스 검색",
       "publishedAt": "2026-10-22T06:48:00.000Z"
+    },
+    {
+      "id": "c79548df8f4a74de",
+      "keyword": "씨아이에스케미칼",
+      "companyName": "씨아이에스케미칼",
+      "title": "이번 주만 4곳 IPO 증권신고서 제출…연말 '막차' 러시",
+      "description": "올해 코스피 신규 상장사는 지난 3월 상장한 케이뱅크 1곳뿐이다. 올해 코스피 IPO 공모금액도 전액... 핵심 광물 정제 기업 씨아이에스케미칼은 에스에프씨와 같은 날 신고서를 냈다. 공모주식 수는 신주 400만주...",
+      "link": "https://www.newstopkorea.com/news/articleView.html?idxno=48388",
+      "originallink": "https://www.newstopkorea.com/news/articleView.html?idxno=48388",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-22T02:12:00.000Z"
+    },
+    {
+      "id": "bb2804aca1ed5f02",
+      "keyword": "씨아이에스케미칼",
+      "companyName": "씨아이에스케미칼",
+      "title": "[장외시황] 크리에이츠ㆍ티앤이코리아, 공모청약 시작",
+      "description": "이투데이=임하은 기자 | 비상장 주식시장은 약세를 지속했다. 20일 금융투자업계에 따르면 배터리 리사이클링 핵심광물 정제 전문업체 씨아이에스케미칼이 금융위원회에 증권신고서를 제출했다. 공모 주식수는 총...",
+      "link": "https://www.etoday.co.kr/news/view/2637982",
+      "originallink": "https://www.etoday.co.kr/news/view/2637982",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-20T07:02:00.000Z"
+    },
+    {
+      "id": "20434877a069b975",
+      "keyword": "씨아이에스케미칼",
+      "companyName": "씨아이에스케미칼",
+      "title": "[더벨][MDS코리아 IPO] 거래소 현장실사 마무리…코스닥 예심 진전",
+      "description": "본격적인 공모가 진행될 전망이다. 16일 투자은행(IB) 업계에 따르면 한국거래소 코스닥시장본부는 이번 주... 엔키화이트햇은 지난 7월 10일 코스닥 상장예비심사를 청구해 이달 7일 승인을 받았고, 씨아이에스케미칼은...",
+      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610160802310260101122",
+      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610160802310260101122",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-10-19T22:02:00.000Z"
     },
     {
       "id": "3900d0786ed25a5d",

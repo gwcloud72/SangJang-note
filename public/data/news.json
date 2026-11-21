@@ -1,21 +1,109 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-11-20T03:38:06.499Z",
+    "updatedAt": "2026-11-21T03:42:23.154Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
     {
-      "id": "c1044d827d3a7fe9",
+      "id": "f737c83567c057fa",
+      "keyword": "마더스제약",
+      "companyName": "마더스제약",
+      "title": "[IPO챗] 내주 엠비디 코스닥 입성…4개사 수요예측",
+      "description": "케이엠에프·에에엔에이치스트럭쳐 일반청약 다음 주(23∼27일) 기업공개(IPO) 시장에서는 4개 기업이... 2일, 공모주 청약 12월 7∼8일, 대표주관사 한국투자증권. ▲ 마더스제약, 코스닥, 1만1천∼1만4천500원(12월...",
+      "link": "https://n.news.naver.com/mnews/article/001/0016455545?sid=101",
+      "originallink": "https://www.yna.co.kr/view/AKR20261120071600008?input=1195m",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-21T00:00:00.000Z"
+    },
+    {
+      "id": "080c841db38c6cf2",
+      "keyword": "이노보테라퓨틱스",
+      "companyName": "이노보테라퓨틱스",
+      "title": "엠비디 코스닥 입성⋯ANH스트럭쳐·이노보테라퓨틱스 수요예측 [주간 IP...",
+      "description": "기관투자자 대상 수요예측에서 희망 공모가 범위를 밑도는 가격으로 공모가를 확정한 가운데 상장 이후 주가 흐름에 관심이 쏠린다. 항공우주 구조물 전문기업 ANH스트럭쳐와 신약개발 기업 이노보테라퓨틱스도...",
+      "link": "https://www.etoday.co.kr/news/view/2650696",
+      "originallink": "https://www.etoday.co.kr/news/view/2650696",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-21T00:00:00.000Z"
+    },
+    {
+      "id": "82e987e43caf6fbe",
       "keyword": "아델",
       "companyName": "아델",
-      "title": "[태석광학 IPO] 실적 피크아웃 우려에도…대주주는 167억 현금화",
-      "description": "20일 투자은행(IB) 업계에 따르면 태석광학은 이번 IPO에서 247만8000주를 공모한다. 공모 주식의 약 67... 제이앤티지를 시작으로 씨앤엠과 SFC, 아델까지 상장 철회 기업이 속출하고 있다. 공모구조에 약점이 있는 기업을...",
-      "link": "https://www.the-stock.kr/news/articleView.html?idxno=33883",
-      "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=33883",
+      "title": "IPO 시장 급랭…상장 철회 18곳·공모주 청약 3년 10개월 만에 미달",
+      "description": "-아델·제이앤티지·씨앤엠·에스에프씨, 수요예측 후 상장 철회 -엠비디·넥스아이, 희망 공모가 하단보다... 5대 1…2023년 이후 첫 미달 -신규 상장주 주가 부진에 기관·개인 투자심리 위축 국내 기업공개(IPO) 시장이...",
+      "link": "http://www.kjdaily.com/article.php?aid=1795187230692977276",
+      "originallink": "http://www.kjdaily.com/article.php?aid=1795187230692977276",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-11-20T02:24:00.000Z"
+      "publishedAt": "2026-11-20T15:10:00.000Z"
+    },
+    {
+      "id": "6e4f8470095de839",
+      "keyword": "아델",
+      "companyName": "아델",
+      "title": "[IPO한파] 아델·에스에프씨 줄줄이 철회하고 넥스아이는 첫날 39% 급락…...",
+      "description": "IPO 시장 얼어붙어…상장 철회 잇따르고 청약 미달도 올해 상장예비심사나 공모 절차를 중단한 국내... 실제 코스닥시장 상장을 추진하던 아델은 이날 금융위원회에 철회신고서를 제출하며 남은 공모 일정을 모두...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=629246",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=629246",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-20T15:06:00.000Z"
+    },
+    {
+      "id": "9a8f3f4e0af1cd6d",
+      "keyword": "아델",
+      "companyName": "아델",
+      "title": "'1.4조 기술수출' 아델마저 상장 철회 … 연말 IPO 시장 '찬바람'",
+      "description": "뉴데일리 조희연 = 글로벌 빅파마와 최대 1조4000억원 규모의 기술수출 계약을 체결하며 기업공개(IPO) 시장에서 주목받던 신약개발 기업 아델이 코스닥 상장을 철회했다. 기관투자자 대상 수요예측에서 희망 공모가에...",
+      "link": "https://biz.newdaily.co.kr/site/data/html/2026/11/20/2026112050262.html",
+      "originallink": "https://biz.newdaily.co.kr/site/data/html/2026/11/20/2026112050262.html",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-20T09:40:00.000Z"
+    },
+    {
+      "id": "0525da7a03a32148",
+      "keyword": "아델",
+      "companyName": "아델",
+      "title": "\"IPO 한파\"…11월 공모장서 4곳 ‘상장 다음에’",
+      "description": "아델도 공모 철회 희망가 하단 밑도는 기관 주문에 청약 일정 취소 공모가 낮추고 상장한 기업은 주가 부진…일반청약 미달도 /아델 공모가를 낮춰 상장하거나 청약 일정을 접는 기업이 잇따르고 있다....",
+      "link": "http://www.metroseoul.co.kr/article/20261120500232",
+      "originallink": "http://www.metroseoul.co.kr/article/20261120500232",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-20T09:16:00.000Z"
+    },
+    {
+      "id": "2d73fe79997f95f2",
+      "keyword": "아델",
+      "companyName": "아델",
+      "title": "아델도 코스닥 IPO 철회…공모주 잔혹사 이어진다 [시그널]",
+      "description": "밴드 하단 기준 아델의 예상 시가총액은 약 4079억 원으로, 올해 초 프리 IPO(상장 전 지분 투자) 당시 인정받았던 몸값과 엇비슷한 수준이다. 밴드 하단 밑에서 공모가가 결정된다면 당시 프리 IPO에 참여한 투자자들은...",
+      "link": "https://n.news.naver.com/mnews/article/011/0004684450?sid=101",
+      "originallink": "https://www.sedaily.com/article/20116873?ref=naver",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-20T08:11:00.000Z"
+    },
+    {
+      "id": "0a9881b85b825cad",
+      "keyword": "데스틴파워",
+      "companyName": "데스틴파워",
+      "title": "[더벨][데스틴파워 IPO] 데이터센터 규제를 기회로…연료전지 인버터 수...",
+      "description": "기업공개(IPO)를 추진하고 있는 데스틴파워가 미국 데이터센터 규제 압력을 새로운 사업 기회로 타깃하고... 납입기일은 16일이다. 공모주식 수는 220만주, 희망공모가는 8000~1만1000원이며 상장주관사는 한국투자증권이다.",
+      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611201346054240108788",
+      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611201346054240108788",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-20T06:02:00.000Z"
+    },
+    {
+      "id": "480960a6fbf7b9cb",
+      "keyword": "에이엔에이치스트럭쳐",
+      "companyName": "에이엔에이치스트럭쳐",
+      "title": "연말 IPO 시장 막바지 러시…증시 유동 '블랙홀' 우려",
+      "description": "제논, 에이엔에이치스트럭쳐 등 다수 기업이 연내 증시 입성을 목표로 막바지 공모 일정에 돌입했다. 통상 11월 말부터 12월까지는 연간 결산실적을 확정하기 전에 상장을 마무리하려는 기업과 회계연도 내 투자금...",
+      "link": "https://n.news.naver.com/mnews/article/629/0000554060?sid=101",
+      "originallink": "https://news.tf.co.kr/read/economy/2391430.htm",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-20T04:43:00.000Z"
     },
     {
       "id": "31162310f37028cc",
@@ -38,17 +126,6 @@
       "originallink": "https://www.pointdaily.co.kr/news/articleView.html?idxno=326683",
       "provider": "뉴스 검색",
       "publishedAt": "2026-11-19T19:00:00.000Z"
-    },
-    {
-      "id": "43bef5feb9c75336",
-      "keyword": "아델",
-      "companyName": "아델",
-      "title": "[IPO 돋보기] 수요예측 나선 아델, 뇌질환 치료제 기대감 높인다",
-      "description": "최근 상장한 국내 바이오 기업과 아델의 차이점을 보여주는 유의미한 사례다”며 “최근 증시 변동성으로 다수의 공모주들이 일정을 연기하거나 철회하는 냉각기에도, 아델은 프리IPO 물량 전량 락업이라는...",
-      "link": "https://www.news2day.co.kr/article/20261118500145",
-      "originallink": "https://www.news2day.co.kr/article/20261118500145",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-18T22:02:00.000Z"
     },
     {
       "id": "c4e75e80cc8bae61",
@@ -117,28 +194,6 @@
       "publishedAt": "2026-11-16T00:04:00.000Z"
     },
     {
-      "id": "1fc4f105189eadcd",
-      "keyword": "케이엠에프",
-      "companyName": "케이엠에프",
-      "title": "[더벨][MDS코리아 IPO] 넉달만에 거래소 심사 마무리…연내 코스닥 입성...",
-      "description": "상장예비심사를 승인했다. 지난 7월 초 예심을 청구한 지 4개월여 만으로 지난달 현장실사에 이어 이번 주... 올해 공모에 나선 발효 식품소재 기업 케이엠에프는 비교군을 건강기능식품과 바이오 분야까지 넓혔다....",
-      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611130225485140105342",
-      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611130225485140105342",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-15T23:02:00.000Z"
-    },
-    {
-      "id": "d5ffc89e8d7d48f2",
-      "keyword": "에이엔에이치스트럭쳐",
-      "companyName": "에이엔에이치스트럭쳐",
-      "title": "[더벨][에이엔에이치스트럭쳐 IPO] 대주주 지분 3년 락업, 초기 매물 부...",
-      "description": "에이엔에이치스트럭쳐는 지난 2019년과 지난해 프리 IPO 투자를 유치했다. 상환전환우선주(RCPS)를 발행해... 44만7178주는 상장 1년 후 풀린다. 에이엔에이치스트럭쳐 관계자는 \"공모 신주 규모는 전체 대비 20...",
-      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611120904548180107032",
-      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611120904548180107032",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-15T22:02:00.000Z"
-    },
-    {
       "id": "5152a95e1b43e17b",
       "keyword": "엔키화이트햇",
       "companyName": "엔키화이트햇",
@@ -159,17 +214,6 @@
       "originallink": "http://www.kjdaily.com/article.php?aid=1794754866692199276",
       "provider": "뉴스 검색",
       "publishedAt": "2026-11-15T15:04:00.000Z"
-    },
-    {
-      "id": "64524850b84ed0e0",
-      "keyword": "엔키화이트햇",
-      "companyName": "엔키화이트햇",
-      "title": "이번 주 영광와이케이엠씨 등 4곳 코스닥 데뷔…활기 띠는 IPO 시장",
-      "description": "이번 주(11월 16~20일) 기업공개(IPO) 시장에선 영광와이케이엠씨와 옵토닉스, 에이엘로봇... 기업으로, 공모가 희망밴드는 1만5천~1만7천800원이다. IBK투자증권이 상장을 주관한다. 오는 20일에는 엔키화이트햇과...",
-      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444811",
-      "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444811",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-15T04:02:00.000Z"
     },
     {
       "id": "8de28958e20536d3",
@@ -304,17 +348,6 @@
       "publishedAt": "2026-11-04T22:26:00.000Z"
     },
     {
-      "id": "9a54dae9651448ba",
-      "keyword": "데스틴파워",
-      "companyName": "데스틴파워",
-      "title": "전남광주 강소기업들 잇단 기업공개… 글로벌 시장 정조준",
-      "description": "초정밀 광학과 배터리 소재, 전력변환 기술을 앞세워 기업공개(IPO)에 나서면서다. 지역에서 다진 기술력에... 데스틴파워도 지난달 28일 증권신고서를 제출하고 코스닥 상장을 추진하고 있다. 총 220만주를 공모하며...",
-      "link": "https://n.news.naver.com/mnews/article/081/0003695918?sid=102",
-      "originallink": "https://www.seoul.co.kr/news/publicnews/local_govern/news_local/2026/11/05/20261105019001?wlog_tag3=naver",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-04T20:03:00.000Z"
-    },
-    {
       "id": "6e2a430bcbab471f",
       "keyword": "신영해피투모로우제12호기업인수목적",
       "companyName": "신영해피투모로우제12호기업인수목적",
@@ -337,17 +370,6 @@
       "publishedAt": "2026-11-01T00:00:00.000Z"
     },
     {
-      "id": "e3420bc710fa182b",
-      "keyword": "이노보테라퓨틱스",
-      "companyName": "이노보테라퓨틱스",
-      "title": "대웅제약이 투자한 이노보테라퓨틱스, 3394억 몸값 도전",
-      "description": "기업 이노보테라퓨틱스가 최대 3394억원의 기업가치를 내걸고 코스닥 상장에 도전한다. 대웅제약은 이... 이노보테라퓨틱스는 IPO로 확보한 자금 대부분을 연구개발(R&D)에 투입할 계획이다. 희망공모가 하단 기준...",
-      "link": "https://www.dailypharm.com/user/news/343749?REFERER=NP",
-      "originallink": "https://www.dailypharm.com/user/news/343749?REFERER=NP",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-24T22:46:00.000Z"
-    },
-    {
       "id": "2ed0c5f56ccbe014",
       "keyword": "인터엑스",
       "companyName": "인터엑스",
@@ -357,17 +379,6 @@
       "originallink": "https://www.newstopkorea.com/news/articleView.html?idxno=48427",
       "provider": "뉴스 검색",
       "publishedAt": "2026-10-23T04:24:00.000Z"
-    },
-    {
-      "id": "224c85e7da7a551e",
-      "keyword": "이노보테라퓨틱스",
-      "companyName": "이노보테라퓨틱스",
-      "title": "[장외시황] 바로팜ㆍ넥스아이ㆍ동원파츠, 수요예측 시작",
-      "description": "전문기업 이노보테라퓨틱스는 전날 금융위원회에 증권신고서를 제출했다. 총 공모주식수는 220만주이고... 기업공개(IPO) 관련 상장 예비심사 청구종목으로 온라인 패션 플랫폼 무신사와 펩타이드 신약 개발업체...",
-      "link": "https://www.etoday.co.kr/news/view/2639033",
-      "originallink": "https://www.etoday.co.kr/news/view/2639033",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-10-22T06:48:00.000Z"
     },
     {
       "id": "c79548df8f4a74de",
@@ -412,17 +423,6 @@
       "originallink": "https://www.sedaily.com/article/20100592?ref=naver",
       "provider": "뉴스 검색",
       "publishedAt": "2026-10-12T08:31:00.000Z"
-    },
-    {
-      "id": "17d4de96c3e44ec3",
-      "keyword": "마더스제약",
-      "companyName": "마더스제약",
-      "title": "[2026 3Q IPO 리그테이블] 냉온탕 오갔던 공모 시장, 대신증권 빛났다",
-      "description": "에이치엘지노믹스는 시장 변동성이 커진 상황에서도 공모가를 밴드 상단으로 결정했다. 현재 KB증권이 IPO 주관 업무를 맡은 엠에스바이오가 기관 수요예측을 진행하고 있다. 여기에 마더스제약과 씨아이에스케미칼...",
-      "link": "https://www.the-stock.kr/news/articleView.html?idxno=33471",
-      "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=33471",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-09-30T01:54:00.000Z"
     },
     {
       "id": "3aa425eeaf645ca9",

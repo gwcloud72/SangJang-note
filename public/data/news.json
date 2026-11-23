@@ -1,120 +1,98 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-11-22T02:42:38.827Z",
+    "updatedAt": "2026-11-23T02:28:36.553Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
     {
-      "id": "8b6efcccc002df23",
-      "keyword": "에이엔에이치스트럭쳐",
-      "companyName": "에이엔에이치스트럭쳐",
-      "title": "엠비디 상장…케이엠에프·에이엔에이치스트럭쳐 청약[증시캘린더]",
-      "description": "전문기업 에이엔에이치스트럭쳐도 주 후반 청약을 시작한다. ◇11월 24일 △엠비디 상장 -3차원... -공모가 7000원 확정. 당초 희망 공모가 9600~1만1700원 하단보다 27.1% 낮은 수준. 총 200만주 공모, 공모금액...",
-      "link": "https://n.news.naver.com/mnews/article/018/0006413580?sid=101",
-      "originallink": "https://www.edaily.co.kr/News/Read?newsId=01220166645648344&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-22T00:02:00.000Z"
-    },
-    {
-      "id": "376690ec110f13fe",
+      "id": "5fcb7442284062de",
       "keyword": "마더스제약",
       "companyName": "마더스제약",
-      "title": "[이번주 IPO]11월 넷째 주 수요예측·청약 일정",
-      "description": "최종 공모가를 확정하고, 12월 7일부터 8일까지 일반청약을 거쳐 코스닥 시장에 상장할 예정이다. 상장 주관사는 한국투자증권이다. ◆마더스제약= 2011년 설립된 마더스제약은 ▲전문의약품(ETC)의 개발·생산...",
-      "link": "https://n.news.naver.com/mnews/article/277/0005845957?sid=101",
-      "originallink": "https://view.asiae.co.kr/article/2026112117171448904",
+      "title": "이번주 케이엠에프·ANH스트럭쳐 청약…'몸값 낮춘' 엠비디 코스닥 상장",
+      "description": "공모주 시장의 옥석 가리기가 이어지는 가운데 이번 주 케이엠에프와 에이엔에이치스트럭쳐가... 기술특례상장을 위한 수요예측에 돌입한다. 희망 공모가는 2만~2만4000원이다. 만성질환 치료제 기업 마더스제약...",
+      "link": "https://www.newstopkorea.com/ko-kr/articles/49233",
+      "originallink": "https://www.newstopkorea.com/ko-kr/articles/49233",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-11-21T23:00:00.000Z"
+      "publishedAt": "2026-11-23T02:02:00.000Z"
     },
     {
-      "id": "7b3a6e24ce7ddfd6",
+      "id": "78b9b85e9ec16ef0",
       "keyword": "아델",
       "companyName": "아델",
-      "title": "15~20곳 전망했는데 케이뱅크 단 1곳…코스피 IPO '실종'",
-      "description": "당시 유진투자증권은 케이뱅크의 IPO 성사 여부가 앞서 상장을 철회한 대형 기업들의 재도전에 영향을 줄 것으로 전망했다. 그러나 케이뱅크 상장 이후에도 코스피 IPO는 이어지지 않았고, 이달 20일까지 실제 공모액...",
-      "link": "https://www.newsian.co.kr/news/articleView.html?idxno=101744",
-      "originallink": "https://www.newsian.co.kr/news/articleView.html?idxno=101744",
+      "title": "아델도 상장 철회, 열흘새 4곳 스톱...기관 북클로징에 개인도 외면",
+      "description": "과거에는 공모 규모가 크지 않은 코스닥 IPO의 경우 기관 북클로징 영향이 상대적으로 제한적이었다. 최근 분위기는 사뭇 다르다. 증시 변동성이 커진 데다 상장 이후 주가 흐름마저 부진하기 때문이다. 기존에 확보한...",
+      "link": "https://n.news.naver.com/mnews/article/015/0005356944?sid=101",
+      "originallink": "https://www.hankyung.com/article/202611209581r",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-11-21T22:12:00.000Z"
+      "publishedAt": "2026-11-23T01:03:00.000Z"
     },
     {
-      "id": "73922cfa16d7a542",
+      "id": "422e000944a9583d",
+      "keyword": "마더스제약",
+      "companyName": "마더스제약",
+      "title": "[증권 Pick] 이번주 청약 일정 모아보기...11월 23~27일",
+      "description": "시장에 상장한다. 당초 이번 주 청약을 앞뒀던 아델이 공모를 철회하는 등 최근 IPO 시장에서는 기업들의... 마더스제약은 오는 27일부터 다음달 3일까지 수요예측에 나선다. 희망 공모가는 1만1000~1만4500원이다....",
+      "link": "https://www.lcnews.co.kr/news/articleView.html?idxno=211802",
+      "originallink": "https://www.lcnews.co.kr/news/articleView.html?idxno=211802",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-22T23:56:00.000Z"
+    },
+    {
+      "id": "361a6c2a90d72819",
+      "keyword": "마더스제약",
+      "companyName": "마더스제약",
+      "title": "코스닥 상장 앞둔 케이엠에프·에이엔에이치스트럭쳐, 24일·27일 청약[이...",
+      "description": "이번 주(11월 23~27일) 기업공개(IPO) 시장에서는 케이엠에프와 에이엔에이치스트럭쳐가 코스닥 상장을 위한 일반청약에 나선다. 이노보테라퓨틱스와 마더스제약은 공모가를 정하기 위해 기관투자자 대상...",
+      "link": "https://n.news.naver.com/mnews/article/011/0004684927?sid=101",
+      "originallink": "https://www.sedaily.com/article/20117349?ref=naver",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-22T21:31:00.000Z"
+    },
+    {
+      "id": "bc1a5baf8e041a5e",
+      "keyword": "마더스제약",
+      "companyName": "마더스제약",
+      "title": "[넥스트 IPO] 항공우주부터 화이트해커·신약 개발까지… 다음 주 공모주...",
+      "description": "한편, 다음 주(23∼27일) 기업공개(IPO) 시장에서는 4개 기업이 기관투자자 대상 수요예측을 실시한다.... 희망 공모가는 2만∼2만4천원으로, 대표주관사는 한국투자증권이다. 마더스제약은 11월 27일부터 12월 3일까지...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=629341",
+      "originallink": "https://www.cbci.co.kr/news/articleView.html?idxno=629341",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-22T21:06:00.000Z"
+    },
+    {
+      "id": "189f02921dfd6cb7",
+      "keyword": "마더스제약",
+      "companyName": "마더스제약",
+      "title": "[IPO 워치] 엠비디 코스닥 입성…케이엠에프·에이엔에이치스트럭쳐 청...",
+      "description": "[사진=챗GPT] [뉴스투데이=염보라 기자] 11월 넷째 주(23~27일) 기업공개(IPO) 시장에서는 정밀의료 전문기업 엠비디가 코스닥시장에 입성한다. 케이엠에프와 에이엔에이치스트럭쳐는 일반투자자 대상 공모주 청약을...",
+      "link": "https://www.news2day.co.kr/article/20261122500004",
+      "originallink": "https://www.news2day.co.kr/article/20261122500004",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-22T19:54:00.000Z"
+    },
+    {
+      "id": "6cca9fab14995a6d",
       "keyword": "아델",
       "companyName": "아델",
-      "title": "'국장 위축'에 얼어붙은 하반기 IPO, '내년 대어' 무신사 구다이글로벌...",
-      "description": "신규 상장 종목 대부분이 공모가를 밑도는 등 IPO 시장 열기가 완전히 얼어붙었다는 평가가 나온다. 올해... 뒤 상장을 포기했다. 금융감독원 전자공시에 따르면 신약개발 기업 아델은 이달 12~18일 수요예측을 마친...",
-      "link": "https://www.businesspost.co.kr/BP?command=article_view&num=452541",
-      "originallink": "https://www.businesspost.co.kr/BP?command=article_view&num=452541",
+      "title": "얼어붙은 IPO시장…줄줄이 상장 철회",
+      "description": "알츠하이머 신약개발 아델 수요예측 부진에 공모 연기 연말 기업공개(IPO) 시장이 급격히 냉각되고 있다. 기관 수요예측 부진으로 상장 일정을 내년으로 미루는 기업이 잇따르는 가운데 일반청약에서도 수년 만에 미달...",
+      "link": "https://n.news.naver.com/mnews/article/009/0005767250?sid=101",
+      "originallink": "https://www.mk.co.kr/article/12215624",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-11-21T21:02:00.000Z"
+      "publishedAt": "2026-11-22T08:17:00.000Z"
     },
     {
-      "id": "b2972b1933c2845c",
+      "id": "5ef3dc875fbdf4d7",
       "keyword": "엔키화이트햇",
       "companyName": "엔키화이트햇",
-      "title": "엠비디 기관 매물 '보호막' 없이 상장…KMF·ANH스트럭쳐 청약 [IPO 돋보...",
-      "description": "이번 주(23~27일) 기업공개(IPO) 시장에서는 의무보유를 확약한 기관이 한 곳도 없는 엠비디가 코스닥 상장에 나선다. 공모가를 희망밴드보다 크게 낮춘 가운데 상장 후 주가 흐름에 관심이 쏠린다. 케이엠에프(KMF)와...",
-      "link": "https://n.news.naver.com/mnews/article/031/0001077213?sid=101",
-      "originallink": "http://www.inews24.com/view/2028705",
+      "title": "엠비디 코스닥 데뷔…수요예측 흥행 실패한 아델은 공모 철회",
+      "description": "상장 직후 유통 가능 물량은 34.1%다. 23일부터 27일 사이 기관 수요예측을 진행하는 곳은 △엔키화이트햇 △이노보테라퓨틱스 △마더스제약 3곳이다. 공모가 희망밴드는 엔키화이트햇이 1만3000~1만6500원...",
+      "link": "https://n.news.naver.com/mnews/article/008/0005444633?sid=101",
+      "originallink": "https://www.mt.co.kr/stock/2026/11/22/2026112015454779704",
       "provider": "뉴스 검색",
-      "publishedAt": "2026-11-21T21:00:00.000Z"
-    },
-    {
-      "id": "ed6aa902f8bf2014",
-      "keyword": "에이엔에이치스트럭쳐",
-      "companyName": "에이엔에이치스트럭쳐",
-      "title": "이번주 공모주 청약, KMF·ANH스트럭쳐 등 2개사",
-      "description": "11월 넷째주(23~27일) 기업공개(IPO) 시장에서는 케이엠에프(KMF)· 에이엔에이치스트럭쳐(ANH스트럭쳐) 등 2개사가 일반투자자 대상 공모주 청약을 진행한다. 22일 금융투자업계에 따르면, KMF는 24~25일...",
-      "link": "https://n.news.naver.com/mnews/article/119/0003157944?sid=101",
-      "originallink": "https://www.dailian.co.kr/news/view/1717925/?sc=Naver",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-21T15:11:00.000Z"
-    },
-    {
-      "id": "e7cc6d0d9c5f8087",
-      "keyword": "마더스제약",
-      "companyName": "마더스제약",
-      "title": "美 기술주 급락에 코스피 4900선 이탈…다음주 금리 변수에 촉각",
-      "description": "공모가는 당초 희망 범위인 9600~1만1700원보다 낮은 7000원으로 확정됐다. 상장 대표주관사는 하나증권이다. 다음 주 IPO 시장은 기관 수요예측과 일반청약, 신규 상장이 연이어 진행되는 일정이다. 증시 변동성이 커진...",
-      "link": "https://www.econovill.com/news/articleView.html?idxno=758068",
-      "originallink": "https://www.econovill.com/news/articleView.html?idxno=758068",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-21T13:50:00.000Z"
-    },
-    {
-      "id": "f737c83567c057fa",
-      "keyword": "마더스제약",
-      "companyName": "마더스제약",
-      "title": "[IPO챗] 내주 엠비디 코스닥 입성…4개사 수요예측",
-      "description": "케이엠에프·에에엔에이치스트럭쳐 일반청약 다음 주(23∼27일) 기업공개(IPO) 시장에서는 4개 기업이... 2일, 공모주 청약 12월 7∼8일, 대표주관사 한국투자증권. ▲ 마더스제약, 코스닥, 1만1천∼1만4천500원(12월...",
-      "link": "https://n.news.naver.com/mnews/article/001/0016455545?sid=101",
-      "originallink": "https://www.yna.co.kr/view/AKR20261120071600008?input=1195m",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-21T00:00:00.000Z"
-    },
-    {
-      "id": "080c841db38c6cf2",
-      "keyword": "이노보테라퓨틱스",
-      "companyName": "이노보테라퓨틱스",
-      "title": "엠비디 코스닥 입성⋯ANH스트럭쳐·이노보테라퓨틱스 수요예측 [주간 IP...",
-      "description": "기관투자자 대상 수요예측에서 희망 공모가 범위를 밑도는 가격으로 공모가를 확정한 가운데 상장 이후 주가 흐름에 관심이 쏠린다. 항공우주 구조물 전문기업 ANH스트럭쳐와 신약개발 기업 이노보테라퓨틱스도...",
-      "link": "https://www.etoday.co.kr/news/view/2650696",
-      "originallink": "https://www.etoday.co.kr/news/view/2650696",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-21T00:00:00.000Z"
-    },
-    {
-      "id": "82e987e43caf6fbe",
-      "keyword": "아델",
-      "companyName": "아델",
-      "title": "IPO 시장 급랭…상장 철회 18곳·공모주 청약 3년 10개월 만에 미달",
-      "description": "-아델·제이앤티지·씨앤엠·에스에프씨, 수요예측 후 상장 철회 -엠비디·넥스아이, 희망 공모가 하단보다... 5대 1…2023년 이후 첫 미달 -신규 상장주 주가 부진에 기관·개인 투자심리 위축 국내 기업공개(IPO) 시장이...",
-      "link": "http://www.kjdaily.com/article.php?aid=1795187230692977276",
-      "originallink": "http://www.kjdaily.com/article.php?aid=1795187230692977276",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-20T15:10:00.000Z"
+      "publishedAt": "2026-11-22T07:50:00.000Z"
     },
     {
       "id": "0a9881b85b825cad",
@@ -161,28 +139,6 @@
       "publishedAt": "2026-11-17T06:42:00.000Z"
     },
     {
-      "id": "c2799b0eb79a7942",
-      "keyword": "엔키화이트햇",
-      "companyName": "엔키화이트햇",
-      "title": "[IPO 캘린더] [11월 셋째 주] 옵토니스·에이엘로봇·하나에어로 코스닥...",
-      "description": "이번 주(17~20일) 기업공개(IPO) 시장에서는 옵토니스, 에이엘로봇, 하나에어로다이내믹스가 상장한다.... 화이트해커 솔루션 자동화 기업 엔키화이트햇은 오는 20일부터 26일까지 수요예측에 돌입한다. 공모 희망...",
-      "link": "https://dealsite.co.kr/articles/172929",
-      "originallink": "https://dealsite.co.kr/articles/172929",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-17T01:18:00.000Z"
-    },
-    {
-      "id": "749061c51ebc2e21",
-      "keyword": "엔키화이트햇",
-      "companyName": "엔키화이트햇",
-      "title": "[증권 Pick] 이번주 IPO 일정 모아보기...11월 16~20일",
-      "description": "라이센스뉴스 = 김재용 기자 | 이번주 기업공개(IPO) 시장에서는 4개 기업이 코스닥시장에 신규 상장하고... 에이엔에이치스트럭쳐의 희망 공모가는 1만1200~1만3600원, 엔키화이트햇은 1만3000~1만6500원이다.",
-      "link": "https://www.lcnews.co.kr/news/articleView.html?idxno=211438",
-      "originallink": "https://www.lcnews.co.kr/news/articleView.html?idxno=211438",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-16T05:16:00.000Z"
-    },
-    {
       "id": "6241a0ced757d4d6",
       "keyword": "다비오",
       "companyName": "다비오",
@@ -194,17 +150,6 @@
       "publishedAt": "2026-11-16T00:04:00.000Z"
     },
     {
-      "id": "8de28958e20536d3",
-      "keyword": "마더스제약",
-      "companyName": "마더스제약",
-      "title": "[IPO X레이] 마더스제약 ② 공모가 '44% 할인', 비교기업 중 두 회사 빼면...",
-      "description": "[IPO X레이]는 그 공시를 개인투자자의 자리에서 끝까지 읽어보는 시리즈다. 필요하면 등기와 과거... /편집자주 코스닥 상장을 추진하는 제약사 마더스제약이 공모가를 평가액보다 최대 44% 싸게 제시했지만...",
-      "link": "http://www.fieldnews.kr/news/articleView.html?idxno=33081",
-      "originallink": "http://www.fieldnews.kr/news/articleView.html?idxno=33081",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-14T00:30:00.000Z"
-    },
-    {
       "id": "cd7a33f398d51db0",
       "keyword": "우리투자제1호기업인수목적",
       "companyName": "우리투자제1호기업인수목적",
@@ -214,17 +159,6 @@
       "originallink": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=503990",
       "provider": "뉴스 검색",
       "publishedAt": "2026-11-13T11:18:00.000Z"
-    },
-    {
-      "id": "a675888da747c01e",
-      "keyword": "마더스제약",
-      "companyName": "마더스제약",
-      "title": "[IPO X레이] 마더스제약 ① 상장 직전 오너 회사 적자 사업 108억에 인수",
-      "description": "[IPO X레이]는 그 공시를 개인투자자의 자리에서 끝까지 읽어보는 시리즈다. 필요하면 등기와 과거... 제조사 마더스제약은 지난 10일 증권신고서를 내고 240만주 공모에 들어갔다. 12월 상장이 목표며 2025년 매출은...",
-      "link": "http://www.fieldnews.kr/news/articleView.html?idxno=33079",
-      "originallink": "http://www.fieldnews.kr/news/articleView.html?idxno=33079",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-13T08:12:00.000Z"
     },
     {
       "id": "080e75ccc40e519a",

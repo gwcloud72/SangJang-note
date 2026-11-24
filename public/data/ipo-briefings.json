@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "source": "local-rules",
-    "generatedAt": "2026-11-23T07:54:24.238Z",
-    "model": null,
+    "source": "gemini-briefings-mixed",
+    "generatedAt": "2026-11-24T06:34:52.347Z",
+    "model": "gemini-2.5-flash",
     "itemCount": 8,
-    "geminiUsed": 0,
+    "geminiUsed": 1,
     "cacheUsed": 0,
     "policy": "회사 설명, IPO 단계, 일정, 경쟁률 뉴스 언급, 원문 확인 포인트만 표시합니다. 투자 판단 표현은 제외합니다."
   },
@@ -39,11 +39,11 @@
       "ipoId": "신영해피투모로우제12호기업인수목적",
       "companyName": "신영해피투모로우제12호기업인수목적",
       "sector": "IPO 일정 확인 대상 기업",
-      "ipoStage": "청약 예정",
+      "ipoStage": "청약 진행중",
       "underwriter": "주관사 확인",
       "basisTimeLabel": "오늘 09:30 기준",
       "oneLine": "IPO 일정 확인 대상 기업",
-      "body": "신영해피투모로우제12호기업인수목적은 IPO 일정 확인 대상 기업입니다. 11.24 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
+      "body": "신영해피투모로우제12호기업인수목적은 IPO 일정 확인 대상 기업입니다. 11.24 일정 기준으로 청약 진행중 단계라 원문 일정과 변경 여부를 함께 확인합니다.",
       "points": [
         "청약 시작·마감일 확인",
         "환불일 확인",
@@ -64,11 +64,11 @@
       "ipoId": "케이엠에프",
       "companyName": "케이엠에프",
       "sector": "IPO 일정 확인 대상 기업",
-      "ipoStage": "청약 예정",
+      "ipoStage": "청약 진행중",
       "underwriter": "주관사 확인",
       "basisTimeLabel": "오늘 09:30 기준",
       "oneLine": "IPO 일정 확인 대상 기업",
-      "body": "케이엠에프는 IPO 일정 확인 대상 기업입니다. 11.24 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
+      "body": "케이엠에프는 IPO 일정 확인 대상 기업입니다. 11.24 일정 기준으로 청약 진행중 단계라 원문 일정과 변경 여부를 함께 확인합니다.",
       "points": [
         "청약 시작·마감일 확인",
         "환불일 확인",
@@ -180,8 +180,8 @@
         "주관사 확인"
       ],
       "competition": null,
-      "generatedBy": "local-rules",
-      "model": null
+      "generatedBy": "gemini",
+      "model": "gemini-2.5-flash"
     },
     {
       "id": "briefing-마더스제약",

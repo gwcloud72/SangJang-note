@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "updatedAt": "2026-11-23T07:54:24.237Z",
+    "updatedAt": "2026-11-24T06:34:52.346Z",
     "source": "gemini-briefing-cache"
   },
   "items": [
@@ -2141,6 +2141,35 @@
         "model": null
       },
       "updatedAt": "2026-11-15T14:51:53.825Z"
+    },
+    {
+      "key": "d4fb3770c27b9828eab90019",
+      "model": "gemini-2.5-flash",
+      "briefing": {
+        "id": "briefing-이노보테라퓨틱스",
+        "ipoId": "이노보테라퓨틱스",
+        "companyName": "이노보테라퓨틱스",
+        "sector": "IPO 일정 확인 대상 기업",
+        "ipoStage": "청약 예정",
+        "underwriter": "주관사 확인",
+        "basisTimeLabel": "오늘 09:30 기준",
+        "oneLine": "IPO 일정 확인 대상 기업",
+        "body": "이노보테라퓨틱스는 IPO 일정 확인 대상 기업입니다. 12.07 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
+        "points": [
+          "청약 시작·마감일 확인",
+          "환불일 확인",
+          "정정 공시 여부 확인"
+        ],
+        "sourceLabels": [
+          "DART 일정",
+          "환불일 확인",
+          "주관사 확인"
+        ],
+        "competition": null,
+        "generatedBy": "local-rules",
+        "model": null
+      },
+      "updatedAt": "2026-11-24T06:34:26.999Z"
     }
   ]
 }

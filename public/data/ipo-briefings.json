@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "local-rules",
-    "generatedAt": "2026-11-25T08:51:33.222Z",
+    "generatedAt": "2026-11-26T04:41:13.713Z",
     "model": null,
     "itemCount": 8,
     "geminiUsed": 0,
@@ -9,56 +9,6 @@
     "policy": "회사 설명, IPO 단계, 일정, 경쟁률 뉴스 언급, 원문 확인 포인트만 표시합니다. 투자 판단 표현은 제외합니다."
   },
   "items": [
-    {
-      "id": "briefing-신영해피투모로우제12호기업인수목적",
-      "ipoId": "신영해피투모로우제12호기업인수목적",
-      "companyName": "신영해피투모로우제12호기업인수목적",
-      "sector": "IPO 일정 확인 대상 기업",
-      "ipoStage": "청약 진행중",
-      "underwriter": "주관사 확인",
-      "basisTimeLabel": "오늘 09:30 기준",
-      "oneLine": "IPO 일정 확인 대상 기업",
-      "body": "신영해피투모로우제12호기업인수목적은 IPO 일정 확인 대상 기업입니다. 11.24 일정 기준으로 청약 진행중 단계라 원문 일정과 변경 여부를 함께 확인합니다.",
-      "points": [
-        "청약 시작·마감일 확인",
-        "환불일 확인",
-        "정정 공시 여부 확인"
-      ],
-      "sourceLabels": [
-        "DART 일정",
-        "환불일 확인",
-        "뉴스 검색",
-        "주관사 확인"
-      ],
-      "competition": null,
-      "generatedBy": "local-rules",
-      "model": null
-    },
-    {
-      "id": "briefing-케이엠에프",
-      "ipoId": "케이엠에프",
-      "companyName": "케이엠에프",
-      "sector": "IPO 일정 확인 대상 기업",
-      "ipoStage": "청약 진행중",
-      "underwriter": "주관사 확인",
-      "basisTimeLabel": "오늘 09:30 기준",
-      "oneLine": "IPO 일정 확인 대상 기업",
-      "body": "케이엠에프는 IPO 일정 확인 대상 기업입니다. 11.24 일정 기준으로 청약 진행중 단계라 원문 일정과 변경 여부를 함께 확인합니다.",
-      "points": [
-        "청약 시작·마감일 확인",
-        "환불일 확인",
-        "정정 공시 여부 확인"
-      ],
-      "sourceLabels": [
-        "DART 일정",
-        "환불일 확인",
-        "뉴스 검색",
-        "주관사 확인"
-      ],
-      "competition": null,
-      "generatedBy": "local-rules",
-      "model": null
-    },
     {
       "id": "briefing-에이엔에이치스트럭쳐",
       "ipoId": "에이엔에이치스트럭쳐",
@@ -201,6 +151,56 @@
       "sourceLabels": [
         "DART 일정",
         "환불일 12.14",
+        "뉴스 검색",
+        "주관사 확인"
+      ],
+      "competition": null,
+      "generatedBy": "local-rules",
+      "model": null
+    },
+    {
+      "id": "briefing-인터엑스",
+      "ipoId": "인터엑스",
+      "companyName": "인터엑스",
+      "sector": "IPO 일정 확인 대상 기업",
+      "ipoStage": "청약 예정",
+      "underwriter": "주관사 확인",
+      "basisTimeLabel": "오늘 09:30 기준",
+      "oneLine": "IPO 일정 확인 대상 기업",
+      "body": "인터엑스는 IPO 일정 확인 대상 기업입니다. 12.09 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 확인, 변경 여부를 함께 확인합니다.",
+      "points": [
+        "청약 시작·마감일 확인",
+        "환불일 확인",
+        "정정 공시 여부 확인"
+      ],
+      "sourceLabels": [
+        "DART 일정",
+        "환불일 확인",
+        "뉴스 검색",
+        "주관사 확인"
+      ],
+      "competition": null,
+      "generatedBy": "local-rules",
+      "model": null
+    },
+    {
+      "id": "briefing-씨아이에스케미칼",
+      "ipoId": "씨아이에스케미칼",
+      "companyName": "씨아이에스케미칼",
+      "sector": "IPO 일정 확인 대상 기업",
+      "ipoStage": "청약 예정",
+      "underwriter": "주관사 확인",
+      "basisTimeLabel": "오늘 09:30 기준",
+      "oneLine": "IPO 일정 확인 대상 기업",
+      "body": "씨아이에스케미칼은 IPO 일정 확인 대상 기업입니다. 12.10 일정 기준으로 청약 시작 전 일정이라 원문 일정, 환불일 12.15, 변경 여부를 함께 확인합니다.",
+      "points": [
+        "청약 시작·마감일 확인",
+        "환불일 확인",
+        "정정 공시 여부 확인"
+      ],
+      "sourceLabels": [
+        "DART 일정",
+        "환불일 12.15",
         "뉴스 검색",
         "주관사 확인"
       ],

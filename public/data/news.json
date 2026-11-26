@@ -1,11 +1,33 @@
 {
   "metadata": {
     "source": "search-api",
-    "updatedAt": "2026-11-25T04:54:04.437Z",
+    "updatedAt": "2026-11-26T04:38:26.468Z",
     "notice": "최신 IPO 관련 뉴스입니다.",
     "queryCount": 12
   },
   "items": [
+    {
+      "id": "dd0adfcc6bfe4fd6",
+      "keyword": "엔키화이트햇",
+      "companyName": "엔키화이트햇",
+      "title": "[더벨][IPO 모니터] 기관 투심 위축…케이엠에프 등 5곳 줄줄이 공모 철...",
+      "description": "(235억원)와 엔키화이트햇(221억원) 역시 흥행 여부를 지켜봐야 하는 상황이다. 케이엠에프는 시장 수급이 개선되는 내년 초 상장 재도전에 나설 계획이다. 지난 9월 거래소로부터 상장 예비심사 승인을 받은 만큼, 예심...",
+      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611241026423040103257",
+      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611241026423040103257",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-25T22:02:00.000Z"
+    },
+    {
+      "id": "bb826f80aafacf19",
+      "keyword": "에이엔에이치스트럭쳐",
+      "companyName": "에이엔에이치스트럭쳐",
+      "title": "[IPO챗] 항공 복합재 기업 ANH스트럭쳐 \"수주 확대로 수익성 개선\"",
+      "description": "상장 추진 \"그동안 확보한 설계, 제작, 인증 역량을 바탕으로 수주를 매출로 전환하고 수익성을 높이는 데 집중하겠습니다.\" 에이엔에이치스트럭쳐(ANH스트럭쳐) 안현수 대표는 25일 서울 여의도에서 열린 기업공개(IPO)...",
+      "link": "https://n.news.naver.com/mnews/article/001/0016462993?sid=101",
+      "originallink": "https://www.yna.co.kr/view/AKR20261125120800008?input=1195m",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-25T06:03:00.000Z"
+    },
     {
       "id": "57ca243d7bd07e7c",
       "keyword": "엠디에스코리아",
@@ -27,39 +49,6 @@
       "originallink": "https://dealsite.co.kr/articles/173427",
       "provider": "뉴스 검색",
       "publishedAt": "2026-11-24T23:22:00.000Z"
-    },
-    {
-      "id": "8ef1535a96517d6f",
-      "keyword": "케이엠에프",
-      "companyName": "케이엠에프",
-      "title": "케이엠에프까지 이달 5곳 공모철회…IPO 재수 13곳 중 9곳 ‘몸값 낮췄다...",
-      "description": "◆재도전 상장 13곳 중 9곳, 첫 희망가 하단 밑돌아 25일 투자은행(IB) 업계에 따르면 발효 소재 기업 케이엠에프는 지난 23일 코스닥 상장을 위한 공모 철회신고서를 제출했다. 이달 씨앤엠·제이앤티지(11일)...",
-      "link": "https://www.newstopkorea.com/ko-kr/articles/49278",
-      "originallink": "https://www.newstopkorea.com/ko-kr/articles/49278",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-24T21:02:00.000Z"
-    },
-    {
-      "id": "8da9c7dfd19787f7",
-      "keyword": "케이엠에프",
-      "companyName": "케이엠에프",
-      "title": "상장해도 못 웃는다… 새내기주 부진에 IPO 가격 줄다리기",
-      "description": "기업공개(IPO) 시장에서 기업과 투자자의 '몸값 줄다리기'가 치열해지고 있다. 기관 수요예측을 마치고도... 기업 케이엠에프는 전날 철회신고서를 제출하고 코스닥 상장을 위한 공모 절차를 중단했다. 지난 16~20일 기관...",
-      "link": "https://n.news.naver.com/mnews/article/029/0003060931?sid=101",
-      "originallink": "https://www.dt.co.kr/article/12097010?ref=naver",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-24T08:30:00.000Z"
-    },
-    {
-      "id": "b08764d7ed8e306b",
-      "keyword": "케이엠에프",
-      "companyName": "케이엠에프",
-      "title": "증시 불확실성에 상장 줄줄이 철회…얼어 붙은 IPO 시장",
-      "description": "전체 IPO 시장 규모가 축소되는 가운데서도 상장 철회가 적지 않게 발생하고 있는 셈이다. 실제로 발효·효소 기반 식품 소재 기업 케이엠에프(KMF)는 이달 16일부터 20일까지 공모가 수요예측을 진행했으나 지난 23일...",
-      "link": "https://www.newsway.co.kr/news/view?ud=2026112412485890835",
-      "originallink": "https://www.newsway.co.kr/news/view?ud=2026112412485890835",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-24T08:20:00.000Z"
     },
     {
       "id": "f3c71a712e27c640",
@@ -93,17 +82,6 @@
       "originallink": "https://www.wolyo.co.kr/news/articleView.html?idxno=320985",
       "provider": "뉴스 검색",
       "publishedAt": "2026-11-24T07:16:00.000Z"
-    },
-    {
-      "id": "e66d7bd1381c1473",
-      "keyword": "엔키화이트햇",
-      "companyName": "엔키화이트햇",
-      "title": "[현장] 엔키화이트햇 국내 유일 공격형 보안 상장사 노린다, 이성권 \"보...",
-      "description": "엔키화이트햇은 20일부터 26일까지 기관투자자를 대상으로 수요예측을 진행한 뒤 12월1~2일 일반투자자 대상 공모주 청약을 받는다. 상장 예정일은 12월11일이다. 총 공모주식 수는 170만 주로 희망공모가 범위는 1만3천...",
-      "link": "https://www.businesspost.co.kr/BP?command=article_view&num=452777",
-      "originallink": "https://www.businesspost.co.kr/BP?command=article_view&num=452777",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-24T06:58:00.000Z"
     },
     {
       "id": "5744926baf6a6081",
@@ -183,28 +161,6 @@
       "publishedAt": "2026-11-23T04:48:00.000Z"
     },
     {
-      "id": "d01b0c96839a88d9",
-      "keyword": "에이엔에이치스트럭쳐",
-      "companyName": "에이엔에이치스트럭쳐",
-      "title": "[IPO 캘린더] [11월 23~27] 엠비디 코스닥 입성…이노보테라·마더스제약...",
-      "description": "IPO) 시장에서는 엠비디가 코스닥 시장에 상장한다. 이노보테라퓨틱스와 마더스제약 등 2개 기업은 기관투자가 대상 수요예측에 나선다. 일반투자자 대상 공모주 청약은 케이엠에프와 에이엔에이치스트럭쳐가...",
-      "link": "https://dealsite.co.kr/articles/173292",
-      "originallink": "https://dealsite.co.kr/articles/173292",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-23T02:56:00.000Z"
-    },
-    {
-      "id": "5fcb7442284062de",
-      "keyword": "에이엔에이치스트럭쳐",
-      "companyName": "에이엔에이치스트럭쳐",
-      "title": "이번주 케이엠에프·ANH스트럭쳐 청약…'몸값 낮춘' 엠비디 코스닥 상장",
-      "description": "이번 주 케이엠에프와 에이엔에이치스트럭쳐가 일반청약에 나선다. 엠비디는 공모가를 희망 범위 하단보다 낮춰 코스닥에 입성한다. 상장 첫날 주가마저 종목별로 극명하게 갈리면서 기업공개(IPO)에 나서는...",
-      "link": "https://www.newstopkorea.com/ko-kr/articles/49233",
-      "originallink": "https://www.newstopkorea.com/ko-kr/articles/49233",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-23T02:02:00.000Z"
-    },
-    {
       "id": "0a9881b85b825cad",
       "keyword": "데스틴파워",
       "companyName": "데스틴파워",
@@ -214,6 +170,72 @@
       "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611201346054240108788",
       "provider": "뉴스 검색",
       "publishedAt": "2026-11-20T06:02:00.000Z"
+    },
+    {
+      "id": "4e2002cb82ca5be8",
+      "keyword": "제논",
+      "companyName": "제논",
+      "title": "[Invest]앤트로픽은 잘나갔는데…'청약에 5조원 몰려도 상장일 약세' 국...",
+      "description": "유가증권시장 상장을 추진하던 에스에프씨도 수요예측을 마친 뒤 지난 17일 공모를 철회했다. 제논은 당초 이달 24~25일로 잡았던 일반청약을 다음 달로 미뤘다. [인베스트조선 유료서비스 2026년 11월20일 14:18 게재]",
+      "link": "https://www.investchosun.com/site/data/html_dir/2026/11/20/2026112080121.html",
+      "originallink": "https://www.investchosun.com/site/data/html_dir/2026/11/20/2026112080121.html",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-20T05:20:00.000Z"
+    },
+    {
+      "id": "480960a6fbf7b9cb",
+      "keyword": "제논",
+      "companyName": "제논",
+      "title": "연말 IPO 시장 막바지 러시…증시 유동 '블랙홀' 우려",
+      "description": "하나에어로 등 10여곳, 연말까지 공모·상장 러시 흥행·철회 극명한 온도 차…\"단기 차익매물·옥석 가리기에 수급 병목 심화\" 연말 기업공개(IPO) 시장에 막바지 상장 일정이 빼곡한 몰리면서 최근 격해지고 있는 국내...",
+      "link": "https://n.news.naver.com/mnews/article/629/0000554060?sid=101",
+      "originallink": "https://news.tf.co.kr/read/economy/2391430.htm",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-20T04:43:00.000Z"
+    },
+    {
+      "id": "c1044d827d3a7fe9",
+      "keyword": "태석광학",
+      "companyName": "태석광학",
+      "title": "[태석광학 IPO] 실적 피크아웃 우려에도…대주주는 167억 현금화",
+      "description": "20일 투자은행(IB) 업계에 따르면 태석광학은 이번 IPO에서 247만8000주를 공모한다. 공모 주식의 약 67... 지난 7월 프리IPO(상장 전 지분투자) 과정에서도 보유 주식 일부를 투자자들에게 넘겨 약 20억원을 확보했다....",
+      "link": "https://www.the-stock.kr/news/articleView.html?idxno=33883",
+      "originallink": "https://www.the-stock.kr/news/articleView.html?idxno=33883",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-20T02:24:00.000Z"
+    },
+    {
+      "id": "e31b279d0a1b5cab",
+      "keyword": "태석광학",
+      "companyName": "태석광학",
+      "title": "[더벨][태석광학 IPO] 총 공모금액 30%, 오너 구주 매출 선택한 배경은",
+      "description": "상장을 추진중인 아이웨어 브랜드 기업 태석광학의 공모구조에 이목이 쏠린다. 다른 상장 예비기업에... 권 대표는 올해 7월 프리IPO 당시에도 구주 일부를 투자자에게 넘겼지만, 규모는 약 20억원으로 이번 구주매출...",
+      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611181425443480107630",
+      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611181425443480107630",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-19T23:48:00.000Z"
+    },
+    {
+      "id": "77c60966084d0928",
+      "keyword": "제논",
+      "companyName": "제논",
+      "title": "11월 코스닥 IPO 시장, 청약 열기 속 '옥석 가리기' 심화…상장 철회·공...",
+      "description": "코스닥 IPO 시장은 '옥석 가리기' 장세로 접어들었다. 19일 금융투자업계에 따르면 11월 셋째 주(16~20일) 코스닥 시장에는 총 4개 기업이 신규 상장한다. 16일 영광와이케이엠씨(확정 공모가 1만1000원)와 17일...",
+      "link": "https://www.pointdaily.co.kr/news/articleView.html?idxno=326683",
+      "originallink": "https://www.pointdaily.co.kr/news/articleView.html?idxno=326683",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-19T19:00:00.000Z"
+    },
+    {
+      "id": "191ebad2172bb809",
+      "keyword": "태석광학",
+      "companyName": "태석광학",
+      "title": "[더벨][태석광학 IPO] 연내 증시 입성 시동…글로벌 아이웨어 3사 피어그...",
+      "description": "아이웨어 브랜드 기업 태석광학이 코스닥 상장을 위한 공모 절차에 돌입했다. 국내에 아이웨어 브랜드 상장사가 없는 만큼 해외 브랜드를 활용해 사업하는지를 비교기업 선정의 핵심 기준으로 삼았다. 이를 바탕으로...",
+      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611161453437760101310",
+      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611161453437760101310",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-18T23:52:00.000Z"
     },
     {
       "id": "4b0e5c6518a320d0",
@@ -260,6 +282,39 @@
       "publishedAt": "2026-11-17T06:42:00.000Z"
     },
     {
+      "id": "ee612e8ce46e8087",
+      "keyword": "제논",
+      "companyName": "제논",
+      "title": "[마켓H] 새내기주 92% 공모가 하회…IPO 시장 한파",
+      "description": "얼어붙은 IPO 시장. AI 생성 이미지. | 서울=한스경제 이지홍 기자 | 올해 기업공개(IPO) 시장에 입성한... 제논 역시 공모 일정을 다음 달로 연기했다. 공모가를 낮춰 상장을 추진하는 기업도 늘어나는 추세다. 공모주...",
+      "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=884177",
+      "originallink": "http://www.hansbiz.co.kr/news/articleView.html?idxno=884177",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-17T06:20:00.000Z"
+    },
+    {
+      "id": "f92ae96d9c8e3d37",
+      "keyword": "제논",
+      "companyName": "제논",
+      "title": "올해 새내기주 ‘된서리’… 열에 아홉은 공모가 밑돌아",
+      "description": "주관사들은 공모가 범위 상향까지 검토한다. 홍콩 증시도 올해 기업공개(IPO)로 519억달러(약 69조원)를... 제논은 공모 일정을 다음 달로 미뤘다. 공모가를 깎아 상장을 밀어붙이는 사례도 늘었다. 공모주 정보 사이트...",
+      "link": "https://n.news.naver.com/mnews/article/023/0004009950?sid=101",
+      "originallink": "https://www.chosun.com/economy/stock-finance/2026/11/17/WCKMM5QDIVEPDLDLL7PZ2IFGHM/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-16T15:32:00.000Z"
+    },
+    {
+      "id": "1d7a9345f1bd4649",
+      "keyword": "태석광학",
+      "companyName": "태석광학",
+      "title": "KB증권, 지난해 1위서 올해 4위로…IPO 왕좌 '흔들'",
+      "description": "고려하면 공모금액은 2조원에 이를 것으로 전망된다. 5위인 대신증권(3391억원)도 KB증권을 추월할 가능성이 있다. 에이엘로봇, 태석광학, 패스트파이브 등이 연내 상장을 준비하고 있기 때문이다. KB증권의 IPO...",
+      "link": "http://www.the-biz.co.kr/news/articleView.html?idxno=731482",
+      "originallink": "http://www.the-biz.co.kr/news/articleView.html?idxno=731482",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-16T06:40:00.000Z"
+    },
+    {
       "id": "6241a0ced757d4d6",
       "keyword": "다비오",
       "companyName": "다비오",
@@ -269,6 +324,17 @@
       "originallink": "https://news.einfomax.co.kr/news/articleView.html?idxno=4444869",
       "provider": "뉴스 검색",
       "publishedAt": "2026-11-16T00:04:00.000Z"
+    },
+    {
+      "id": "34d9bc6843519216",
+      "keyword": "태석광학",
+      "companyName": "태석광학",
+      "title": "에이스톤벤처스, '태석광학' 상장 초읽기…보호예수 없어 엑시트 기대",
+      "description": "없어 상장 직후부터 투자금 회수가 가능하다. 태석광학은 지난 12일 증권신고서를 제출하고 본격적인 코스닥 기업공개(IPO) 절차에 착수했다. 이번 공모에서는 기명식 보통주 247만8000주를 모집한다. 이 가운데 신주...",
+      "link": "https://www.topdaily.kr/articles/112914",
+      "originallink": "https://www.topdaily.kr/articles/112914",
+      "provider": "뉴스 검색",
+      "publishedAt": "2026-11-15T23:30:00.000Z"
     },
     {
       "id": "1fc4f105189eadcd",
@@ -381,17 +447,6 @@
       "publishedAt": "2026-11-04T22:26:00.000Z"
     },
     {
-      "id": "6e2a430bcbab471f",
-      "keyword": "신영해피투모로우제12호기업인수목적",
-      "companyName": "신영해피투모로우제12호기업인수목적",
-      "title": "[더벨][IPO 모니터] 우리투자증권, 첫 스팩 앞두고 기관계좌 개설 총력",
-      "description": "우리투자증권은 '우리투자제1호기업인수목적(SPAC·스팩)'을 통해 IPO 업무를 본격화하는 만큼 수요예측과... 우리투자증권보다 늦게 승인받은 신영증권의 '신영해피투모로우제12호스팩'의 경우 증권신고서 제출은 더...",
-      "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611021112277160103925",
-      "originallink": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202611021112277160103925",
-      "provider": "뉴스 검색",
-      "publishedAt": "2026-11-03T22:02:00.000Z"
-    },
-    {
       "id": "162b19f761d8999b",
       "keyword": "씨아이에스케미칼",
       "companyName": "씨아이에스케미칼",
@@ -478,17 +533,6 @@
       "originallink": "https://www.mt.co.kr/stock/2026/06/04/2026060415354032078",
       "provider": "뉴스 검색",
       "publishedAt": "2026-06-04T07:02:00.000Z"
-    },
-    {
-      "id": "943bfc989860dc4e",
-      "keyword": "신영해피투모로우제12호기업인수목적",
-      "companyName": "신영해피투모로우제12호기업인수목적",
-      "title": "스팩시장 후끈…‘따상’ 분위기 이어갈까",
-      "description": "기업공개(IPO) 시장 부진의 대안으로 떠오른 스팩(SPAC, 기업인수목적회사) 열기가 올해도 이어질 전망입니다. 연초부터 국내 증시 상승과 소액공모주들의 준수한 성정이 이어지자 공모 스팩의 상장도 늘어나는...",
-      "link": "http://www.newstomato.com/ReadNews.aspx?no=1177664&inflow=N",
-      "originallink": "http://www.newstomato.com/ReadNews.aspx?no=1177664&inflow=N",
-      "provider": "뉴스 검색",
-      "publishedAt": "2023-02-16T21:02:00.000Z"
     }
   ]
 }
